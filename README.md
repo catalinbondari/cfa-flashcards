@@ -11,6 +11,8 @@ Term on the front, tap to flip, then mark **Got it** or **Missed it**. Missed ca
 stay flagged until answered correctly, and **Review missed** drills only those.
 Filter by topic, shuffle, undo a mis-tap. Progress is saved in the browser.
 
+**Formulas tab**: 153 of the 499 cards are formulas and get their own filter.
+
 Keyboard: `space` flip · `←` missed · `→` got it · `z` undo
 
 ## Topics
