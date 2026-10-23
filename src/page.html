@@ -63,6 +63,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .sqb{border-top:1.6px solid currentColor;padding:.1em .16em 0;margin-left:-.04em}
 .tx{font-family:var(--fh)}
 .ac{white-space:nowrap}
+.ov{display:inline-block;border-top:1.5px solid currentColor;line-height:1.05;padding-top:.02em;margin-top:.08em}
 .br{font-size:1.08em}
 .qd{display:inline-block;width:1.1em}
 .note sub,.lg sub,.defn sub{font-size:.7em;vertical-align:sub;line-height:0}
@@ -228,6 +229,7 @@ var PAIRS=['RFp','RFb','Rf','Rm','Ri','Rd','Re','Ro','Rp','Rb','RL','Rt','Cu','C
 'xi','yi','Yi','Xi','PA','PB','wA','wB','NIt','Cov','ERp'];
 function symFmt(raw){
   var s=esc(raw);
+  s=s.replace(/([A-Za-z])\u0304/g,'<span class="ov">$1</span>');
   s=s.replace(/\bPV([-+])/g,'PV<sub>$1</sub>');
   s=s.replace(/\bBVEt-1\b/g,'BVE<sub>t-1</sub>');
   s=s.replace(/\bf1m,1m\b/g,'f<sub>1m,1m</sub>');
@@ -260,6 +262,7 @@ function mathHTML(src){
           o+='<span class="fr"><span class="fn">'+a+'</span><span class="fd">'+b+'</span></span>';}
         else if(cmd==='sqrt'){o+='<span class="sq">√<span class="sqb">'+grp()+'</span></span>';}
         else if(cmd==='text'||cmd==='mathrm'||cmd==='operatorname'){o+='<span class="tx">'+grp()+'</span>';}
+        else if(cmd==='bar'||cmd==='overline'){o+='<span class="ov">'+grp()+'</span>';}
         else if(ACC[cmd]){o+='<span class="ac">'+grp()+ACC[cmd]+'</span>';}
         else if(cmd==='left'||cmd==='right'){var nx=s[i];if(nx&&nx!=='.'){o+='<span class="br">'+esc(nx)+'</span>';i++;}else if(nx==='.')i++;}
         else if(cmd==='quad'){o+='<span class="qd"></span>';}
