@@ -1,0 +1,151 @@
+0 ||| \left[\frac{P_{n} + D_{n}}{P_{0}}\right]^{1/n} - 1 |||
+1 ||| P_{0} = \frac{D_{1}}{R-g} ||| take out -g for PERP
+2 ||| (1+S_{2})^{2} = (1+S_{1})(1+F_{1,2}) |||
+3 ||| F_{0} = S_{0} e^{(RF_{p} - RF_{b})t} |||
+4 ||| \frac{c_{+} - c_{-}}{s_{+} - s_{-}} |||
+5 ||| t = \frac{\bar{X} - \mu_{0}}{\frac{s}{\sqrt{n}}} |||
+9 ||| t = \frac{R\sqrt{n-2}}{\sqrt{1-R^{2}}} ||| t-distributed
+11 ||| R_{i} = a\ \text{(intercept)} + \beta\ \text{(slope)} \times R_{m}\ \text{(X)} + \varepsilon\ \text{(ERROR)} |||
+12 ||| \text{avg simple} \times \text{Harmonic: }\frac{n}{\sum \frac{1}{x_{i}}} |||
+13 ||| (1+R)^{365/\text{days}} |||
+14 ||| S_{t} = S_{0} \times e^{R} ||| inverse of ln
+15 ||| (1+R_{1})(1+R_{2}) - 1 |||
+16 ||| (n+1) \times \text{prob} |||
+17 ||| \frac{S_{x}}{\bar{X}} ||| use STAT
+18 ||| \sqrt{\frac{\sum (x_{i} - B)^{2}}{n-1}} |||
+19 ||| \frac{\sum (x_{i} - \bar{X})^{2}}{n} |||
+20 ||| \sigma^{2} = \sum \left[P(x_{i}) \times (x_{i} - E(x))^{2}\right] ||| can be done using 1-Var STAT
+21 ||| P(A|B) = P(B|A) \times \frac{P(A)}{P(B)} |||
+22 ||| w_{A}^{2}\sigma_{A}^{2} + w_{B}^{2}\sigma_{B}^{2} + 2 \cdot w_{A} \cdot w_{B} \cdot \rho_{AB} \cdot \sigma_{A} \cdot \sigma_{B} |||
+23 ||| \sigma_{x} \times \sigma_{y} \times R ||| (CORREL)
+24 ||| \frac{E(R_{p}) - \text{Return}_{\text{safe}}}{\sigma_{p}} |||
+25 ||| \frac{\sigma}{\sqrt{n}} |||
+29 ||| \text{Point estimate} \pm \text{Reliability Factor} \times SE |||
+36 ||| t = \frac{\bar{d}}{\frac{\sigma}{\sqrt{n}}} ||| d̄ = mean of differences
+37 ||| \frac{(\bar{X}_{1} - \bar{X}_{2}) - (\mu_{1} - \mu_{2})}{\left(\frac{s_{p}^{2}}{n_{1}} + \frac{s_{p}^{2}}{n_{2}}\right)^{0.5}} ||| observed - hypothesized / standard ERROR
+38 ||| \chi^{2} = \frac{(n-1)s^{2}}{\sigma^{2}} |||
+39 ||| R^{2} |||
+40 ||| \sqrt{R^{2}} |||
+41 ||| \frac{\sum (X_{i} - \bar{X})(Y_{i} - \bar{Y})}{n-1} |||
+43 ||| \hat{y} \pm (\text{t-critical} \times \text{SEE}) |||
+44 ||| \sqrt{\frac{SSE}{n-2}} ||| Σ squared Residuals
+45 ||| \frac{SSR}{SST} |||
+47 ||| \sum (Y_{i} - \bar{Y})^{2} |||
+48 ||| \sum (y_{i} - \hat{y}_{i})^{2} |||
+49 ||| \sum (\hat{y} - \bar{y})^{2} |||
+50 ||| SSE + SSR |||
+59 ||| \frac{1}{1 - c(1-T)} |||
+64 ||| \text{Real trend growth rate} + \text{long run expected inflation} |||
+66 ||| \text{nom} \times \frac{\text{CPI Foreign}}{\text{CPI Domestic}} |||
+71 ||| \frac{\text{CNY}}{\text{HKD}} \times \frac{\text{HKD}}{\text{SEK}} = \frac{\text{CNY}}{\text{SEK}} |||
+72 ||| \frac{\text{CNY}}{\text{HKD}} \div \frac{\text{CNY}}{\text{ZAR}} = \frac{\text{ZAR}}{\text{HKD}} |||
+73 ||| \text{Forward Rate} - \text{Forward points} |||
+83 ||| \frac{(V_{c} \times R_{L}) + (V_{b} \times R_{b})}{V_{c} + V_{b}} ||| Value of capital, Value borrowed, Return on borrowed
+135 ||| \frac{\text{Year}}{\text{Days}} \times \frac{FV-PV}{FV} |||
+136 ||| \frac{1 - DF_{3}}{DF_{1}+DF_{2}+DF_{3}} |||
+139 ||| \left[(1+F_{0,1})(1+F_{0,x})\right]^{1/n} - 1 |||
+140 ||| \text{MacDur} - \text{inv horizon} |||
+141 ||| \text{ModDur} \times \left(1+\frac{y}{m}\right) |||
+143 ||| \frac{\text{MacDur}}{1+R} ||| % change in bond price for a % change in yield
+144 ||| \frac{PV_{-} - PV_{+}}{2 \times \Delta\text{yield} \times PV_{0}} |||
+145 ||| \text{ModDur} \times PV_{\text{Full}} ||| $ change in price for a % change in yield
+146 ||| \frac{PV_{-} - PV_{+}}{2} = \text{ModDur} \times PV_{\text{Full}} \times 0.0001 ||| of a basis point
+153 ||| \frac{PV_{-} + PV_{+} - 2 \times PV_{0}}{(\Delta\text{yield})^{2} \times PV_{0}} |||
+154 ||| -(D \times \Delta\text{yield}) + \left[\tfrac{1}{2} \times C \times (\Delta\text{yield})^{2}\right] |||
+156 ||| -\text{MDur} \times \Delta\text{Spread} + \tfrac{1}{2}\text{Cvx} \times (\Delta\text{Spread})^{2} |||
+157 ||| \frac{PV_{-} - PV_{+}}{2 \times \Delta\text{curve} \times PV_{0}} ||| Δcurve = Δyield
+166 ||| \text{Probability of Default} \times \text{Loss Given Default} |||
+167 ||| \frac{\text{Expected Loss}}{\text{Loss given default}} |||
+168 ||| \text{POD} \times (\text{EE} - \text{Collateral}) \times (1 - \text{RR}) |||
+169 ||| \frac{\text{Total Debt}}{\text{Total Debt} + \text{Total Equity}} |||
+185 ||| \frac{\text{Monthly Debt Payment}}{\text{Monthly pre-tax gross income}} |||
+186 ||| \sum \frac{\text{Current balance of each mortgage}}{\text{Total current balance of pool}} ||| Weighted Average Maturity
+193 ||| S \times \frac{1 + R_{1}}{1 + R_{2}} |||
+194 ||| S_{0} e^{(R-i)T} |||
+195 ||| [S_{0} + PV_{0}(C)](1+R)^{T} |||
+196 ||| \left(1 + \text{2-month MRR} \times \frac{2}{12}\right) = \left(1 + \text{1-month MRR} \times \frac{1}{12}\right)\left(1 + f_{1m,1m} \times \frac{1}{12}\right) |||
+198 ||| S_{0} + p_{0} = C_{0} + PV(X),\ PV(X) = X(1+R)^{-T} |||
+201 ||| \pi = \frac{(1+R) - d}{u - d} |||
+202 ||| \frac{\pi (C_{u}) + (1-\pi)(C_{d})}{1+R} |||
+203 ||| \frac{C_{u} - C_{d}}{S_{u} - S_{d}} |||
+209 ||| \frac{\text{Current Assets}}{\text{Current Liabilities}} |||
+210 ||| \frac{\text{Cash} + \text{Short term Mktble instr} + \text{Receivable}}{\text{Current liabilities}} |||
+213 ||| (1 - \text{tax Rate}) \times \frac{\text{Operating profit}}{\text{Avg invested Capital}} |||
+214 ||| \frac{\text{Annual cash flow}}{R} |||
+215 ||| w_{d}R_{d}(1-t) + w_{p}R_{p} + w_{e}R_{e} |||
+216 ||| V_{L} = V_{u} |||
+217 ||| R_{e} = R_{o} + (R_{o} - R_{d})\frac{D}{E} |||
+218 ||| V_{L} = V_{u} + tD |||
+219 ||| R_{e} = R_{o} + (R_{o} - R_{d})(1-t)\frac{D}{E} |||
+220 ||| \frac{\text{CF}(1-t)}{V} ||| firm value
+231 ||| \frac{\text{Net income} - \text{Preferred dividends}}{\text{Weight avg shares}} |||
+234 ||| \frac{\text{Net income}}{\text{weight avg shares} + \text{new shares at conversion}} |||
+235 ||| N - \left(N \times \frac{\text{Exercise price}}{\text{Avg mkt price}}\right) ||| Options exercised - Shares bought back
+238 ||| \frac{\text{Taxes}}{\text{Earnings before taxes}} |||
+245 ||| \text{liabilities} + \text{equity} |||
+251 ||| \frac{\text{CFO}}{\text{Operating income}} |||
+252 ||| \text{NI} + \text{Non cash charges} + \text{Int}(1-t) - \text{Capex} - \text{Work capex} |||
+258 ||| \frac{\text{Revenue} - \text{COGS}}{\text{Revenue}} |||
+263 ||| \frac{\text{COGS}}{\text{Net Avg Inventory}} |||
+267 ||| \text{LIFO inventory} + \text{LIFO Reserve} |||
+268 ||| \text{LIFO COGS} - \text{change in LIFO Reserve} |||
+269 ||| \text{LIFO NI} + \text{change in Reserve}(1-t) |||
+270 ||| \text{LIFO equity} + \text{change in Reserve}(1-t) |||
+271 ||| \frac{\text{Net income}}{\text{Revenue}} |||
+272 ||| \text{Recoverable amount} = \text{Max}(\text{Fair value} - \text{costs to sell},\ \text{value in use}) ||| then minus Net carrying amount
+274 ||| \frac{\text{Net plant and equipment}}{\text{Annual depreciation}} |||
+275 ||| \frac{\text{EBIT}}{\text{Interest expense}} |||
+276 ||| \frac{\text{Revenue}}{\text{Avg net fixed assets}} |||
+284 ||| \frac{\text{Net sales}}{\text{Avg net PPE}} |||
+285 ||| \text{Carrying value} - \text{recoverable amount} ||| higher of Fair value and value in use
+286 ||| \frac{\text{Avg total assets}}{\text{Avg total equity}} |||
+288 ||| (\text{Carrying amount} - \text{tax base}) \times \text{tax Rate} |||
+299 ||| \frac{\text{Cost} - \text{Salvage}}{\text{Life}} |||
+300 ||| \frac{\text{Cost} - \text{Salvage}}{\text{Total Units}} \times \text{Units used} |||
+301 ||| \frac{2}{\text{Life}} \times \text{book value} ||| no salvage
+306 ||| \frac{\text{Receivables}}{\frac{\text{Sales}}{365}} |||
+311 ||| \text{DOH} + \text{DSO} |||
+312 ||| \text{ROE} = \frac{\text{Net income}}{\text{Revenue}} \times \frac{\text{Revenue}}{\text{Avg total assets}} \times \frac{\text{Avg total assets}}{\text{Avg equity}} ||| Net profit margin × Asset turnover × Fin leverage
+313 ||| \frac{\text{Total Debt}}{\text{Total debt} + \text{Total Shareholder Equity}} |||
+315 ||| \text{DOH} + \text{DSO} - \text{Days payable} |||
+318 ||| \frac{\text{Purchases}}{\text{Avg trade payables}} |||
+328 ||| \frac{\text{Avg total assets}}{\text{Avg equity}} |||
+362 ||| \frac{\text{CAD}}{\text{EUR}} \times \frac{1 + \text{CAD IR}}{1 + \text{EUR IR}} |||
+366 ||| (1 + \text{HPR}_{1})(1 + \text{HPR}_{2}) - 1 |||
+368 ||| R = \frac{\sum (x - \bar{x})(y - \bar{y})}{\sqrt{\sum (x - \bar{x})^{2} \times \sum (y - \bar{y})^{2}}} |||
+369 ||| 1 - \frac{6\sum d^{2}}{n(n^{2} - 1)} |||
+370 ||| \text{beg Ret earnings} + \text{net income} - \text{div} |||
+376 ||| \text{Interest} \times (1 - t)\ \text{added back} |||
+378 ||| \left[(1 + R_{1})(1 + R_{2})\right]^{1/n} - 1 |||
+379 ||| \frac{\text{Net profit}}{\text{Avg shareholder equity}} |||
+385 ||| \text{Carry amount} - \text{Max}(\text{fair value} - \text{costs to sell}) |||
+386 ||| \frac{\text{total assets}}{\text{total equity}} |||
+387 ||| U = E(R) - \tfrac{1}{2}A\sigma^{2} ||| A = Risk aversion, σ² = portfolio variance
+389 ||| R_{f} + \frac{E(R_{i}) - R_{f}}{\sigma_{i}} \times \sigma_{p} ||| the slope is the Sharpe ratio
+391 ||| \pm 1\sigma \to 68\%,\ \pm 2\sigma \to 95\%,\ \pm 3\sigma \to 99.7\% |||
+392 ||| \sqrt{\frac{\sum (x - \bar{x})^{2}}{n - 1}} |||
+393 ||| w_{1}^{2}\sigma_{1}^{2} + w_{2}^{2}\sigma_{2}^{2} + 2w_{1}w_{2}\text{Cov}_{1,2} |||
+394 ||| \text{Cov}_{X,Y} = \frac{\sum (x - \bar{x})(Y - \bar{Y})}{n - 1} = \rho \times \sigma_{1} \times \sigma_{2} |||
+395 ||| \frac{\text{Cov}(X,Y)}{\sigma_{X} \times \sigma_{Y}} ||| 1 > ρ > -1
+400 ||| \text{total} = \sigma \quad \text{Systematic} = \beta ||| σ = st dev
+401 ||| \rho \times \frac{\sigma}{\sigma_{m}} |||
+402 ||| \hat{R}_{i} = a_{i} + \beta_{i} R_{m} + e_{i} ||| a = alpha, ei = ERROR
+405 ||| E(R_{i}) = R_{f} + \beta_{i} \times (E(R_{m}) - R_{f}) |||
+406 ||| \text{Actual Return} - \text{CAPM} |||
+410 ||| \text{total variance} = \text{systematic} + \text{unsystematic} \quad \sigma^{2} = \beta^{2}\sigma_{m}^{2} + \sigma_{e}^{2} |||
+438 ||| \frac{\text{Position}}{\text{YOUR money}} ||| 1% move = this much
+448 ||| \frac{\text{Initial equity} + P - P_{0}}{P} = \frac{\text{Current equity}}{\text{Current price}} |||
+449 ||| \text{estimated MV of assets} - \text{liabilities} |||
+452 ||| \sum \frac{D_{t}}{(1 + R)^{t}} + \frac{P_{n}}{(1 + R)^{n}} ||| use CF worksheet on BAII
+453 ||| \sum \frac{\text{FCFE}}{(1 + R)^{t}} ||| RR = Required Rate of Return
+454 ||| \frac{D_{1}}{\text{RR} - g} |||
+457 ||| \frac{\frac{D_{1}}{E_{1}}}{\text{RR} - g} |||
+458 ||| \text{MV equity} + \text{MV debt} + \text{MV pref} - \text{Cash} ||| pairs with EBITDA or operating income, Sales or FCF
+459 ||| (1 - \text{Payout}) \times \text{ROE} |||
+460 ||| \text{EV} - \text{debt} - \text{preferred} + \text{cash} |||
+461 ||| \frac{\text{Dividend}}{\text{required Rate}} ||| they never grow (like bonds)
+462 ||| \text{Return on assets} \times \text{Fin leverage} |||
+464 ||| \frac{\text{Payout Ratio}}{\text{RR} - g} |||
+476 ||| \sum S_{i}^{2} ||| Si = each firm's market share
+491 ||| \text{total assets} - \text{total liabilities} |||
+492 ||| \frac{\text{NI}_{t}}{\text{BVE}_{t-1}} |||

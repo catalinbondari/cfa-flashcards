@@ -1,0 +1,121 @@
+0 ||| Pn = price at end of period n; Dn = dividend at end of period n; P0 = initial price; n = number of periods
+1 ||| P0 = current stock price; D1 = next year's dividend; R = required return on equity; g = constant dividend growth rate
+2 ||| S1 = 1-year spot rate; S2 = 2-year spot rate; F1,2 = 1-year forward rate starting in year 1
+3 ||| F0 = forward price today; S0 = spot exchange rate; e = exponential constant; RFp = foreign (price-currency) risk-free rate; RFb = base-currency risk-free rate; t = time to maturity in years
+4 ||| c+ = option value if underlying rises; c- = option value if underlying falls; s+ = underlying price if up; s- = underlying price if down
+5 ||| t = t-statistic; X̄ = sample mean; μ0 = hypothesized population mean; s = sample standard deviation; n = sample size
+9 ||| t = t-statistic; R = sample correlation coefficient; n = sample size; n-2 = degrees of freedom
+11 ||| Ri = return on asset i; a = intercept; β = slope, sensitivity to market; Rm = market return (independent variable X); ε = error term
+12 ||| n = number of observations; Σ = sum; xi = ith observation
+13 ||| R = holding period return; days = length of holding period in days
+14 ||| St = price at time t; S0 = initial price; e = exponential constant; R = continuously compounded return; ln = natural log
+15 ||| R1 = return in period 1; R2 = return in period 2
+16 ||| n = number of observations; prob = percentile as decimal
+17 ||| Sx = sample standard deviation of X; X̄ = sample mean; STAT = calculator statistics mode
+18 ||| xi = ith return; B = target (benchmark) return; n = number of observations; Σ = sum over returns below B
+19 ||| xi = ith observation; X̄ = mean; n = number of observations
+20 ||| σ² = variance; P(xi) = probability of outcome xi; xi = ith outcome; E(x) = expected value
+21 ||| P(A|B) = probability of A given B; P(B|A) = probability of B given A; PA = prior probability of A; PB = unconditional probability of B
+22 ||| σp² = portfolio variance; wA = weight of asset A; wB = weight of asset B; σA = standard deviation of A; σB = standard deviation of B; ρAB = correlation between A and B
+23 ||| σx = standard deviation of X; σy = standard deviation of Y; R = correlation coefficient
+24 ||| ERp = expected portfolio return; Return safe = minimum acceptable return; σp = portfolio standard deviation
+25 ||| σ = population standard deviation; n = sample size
+29 ||| SE = standard error
+36 ||| t = t-statistic; d̄ = mean of paired differences; σ = standard deviation of differences; n = number of pairs
+37 ||| X̄1 = sample mean of group 1; X̄2 = sample mean of group 2; μ1 = population mean of group 1; μ2 = population mean of group 2; s²p = pooled variance; n1 = sample size of group 1; n2 = sample size of group 2
+38 ||| χ² = chi-square statistic; n = sample size; s² = sample variance; σ² = hypothesized population variance; n-1 = degrees of freedom
+39 ||| R² = proportion of variation in Y explained by X
+40 ||| R² = coefficient of determination; √(R²) = absolute correlation coefficient, sign follows slope
+41 ||| Xi = ith X observation; X̄ = mean of X; Yi = ith Y observation; Ȳ = mean of Y; n = number of observations
+43 ||| ŷ = predicted value of dependent variable; t-critical = critical t-value; SEE = standard error of estimate
+44 ||| SEE = standard error of estimate; SSE = sum of squared errors; n-2 = degrees of freedom
+45 ||| R² = coefficient of determination; SSR = regression sum of squares, explained; SST = total sum of squares
+47 ||| SST = total sum of squares; Yi = ith observed Y; Ȳ = mean of Y
+48 ||| SSE = sum of squared errors; yi = ith observed y; ŷi = ith predicted y
+49 ||| SSR = regression sum of squares; ŷ = predicted y; ȳ = mean of y
+50 ||| SST = total sum of squares; SSE = unexplained sum of squares; SSR = explained sum of squares
+59 ||| c = marginal propensity to consume; T = tax rate
+66 ||| nom = nominal exchange rate; CPI Foreign = foreign price level; CPI Domestic = domestic price level
+71 ||| CNY/HKD = CNY per 1 HKD; HKD/SEK = HKD per 1 SEK; CNY/SEK = CNY per 1 SEK
+72 ||| CNY/HKD = CNY per 1 HKD; CNY/ZAR = CNY per 1 ZAR; ZAR/HKD = ZAR per 1 HKD
+83 ||| Vc = value of own capital; RL = return on levered equity; Vb = value borrowed; Rb = cost of borrowed funds
+135 ||| Year = day-count basis, 360 or 365; Days = days to maturity; FV = face value; PV = present value
+136 ||| DF1 = 1-year discount factor; DF2 = 2-year discount factor; DF3 = 3-year discount factor
+139 ||| F0,1 = forward rate from time 0 to 1; F0,x = forward rate for remaining periods; n = total number of periods
+140 ||| MacDur = Macaulay duration; inv horizon = investment horizon
+141 ||| MacDur = Macaulay duration; ModDur = modified duration; y = annual yield; m = compounding periods per year
+143 ||| ModDur = modified duration; MacDur = Macaulay duration; R = yield per period
+144 ||| PV- = price if yield falls; PV+ = price if yield rises; Δyield = change in yield; PV0 = initial bond price
+145 ||| ModDur = modified duration; PVFull = full (dirty) bond price
+146 ||| PVBP = price value of a basis point; PV- = price if yield falls; PV+ = price if yield rises; ModDur = modified duration
+153 ||| PV- = price if yield falls; PV+ = price if yield rises; PV0 = initial bond price; Δyield = change in yield
+154 ||| %ΔP = percentage change in bond price; D = modified duration; C = convexity; Δyield = change in yield
+156 ||| MDur = modified duration; ΔSpread = change in credit spread; Cvx = convexity
+157 ||| EffDur = effective duration; PV- = price if curve shifts down; PV+ = price if curve shifts up; Δcurve = parallel curve shift; PV0 = initial bond price
+167 ||| POD = probability of default
+168 ||| EL = expected loss; POD = probability of default; EE = exposure at default; RR = recovery rate
+185 ||| DTI = debt-to-income ratio
+186 ||| WAM = weighted average maturity; Σ = sum across mortgages in the pool
+193 ||| S = spot price; R1 = interest rate of the price currency; R2 = interest rate of the base currency
+194 ||| F0 = forward price today; S0 = spot price; e = exponential constant; R = continuously compounded risk-free rate; i = continuous income or dividend yield; T = time to maturity in years
+195 ||| F0(T) = forward price for maturity T; S0 = spot price; PV0(C) = present value of carry costs; R = risk-free rate; T = time to maturity
+196 ||| MRR = market reference rate; f1m,1m = 1-month forward rate starting in 1 month
+198 ||| S0 = spot price; p0 = put price; C0 = call price; X = exercise price; R = risk-free rate; T = time to expiration
+201 ||| π = risk-neutral probability of an up move; R = risk-free rate; u = up factor; d = down factor
+202 ||| π = risk-neutral probability of up move; Cu = call value after up move; Cd = call value after down move; R = risk-free rate
+203 ||| Cu = call value after up move; Cd = call value after down move; Su = stock price after up move; Sd = stock price after down move
+213 ||| ROIC = return on invested capital
+214 ||| R = discount rate
+215 ||| WACC = weighted average cost of capital; Wd = weight of debt; Rd = cost of debt; t = tax rate; Wp = weight of preferred; Rp = cost of preferred; We = weight of equity; Re = cost of equity
+216 ||| VL = value of levered firm; Vu = value of unlevered firm
+217 ||| Re = cost of levered equity; Ro = cost of capital if all-equity; Rd = cost of debt; D/E = debt-to-equity ratio
+218 ||| VL = value of levered firm; Vu = value of unlevered firm; t = tax rate; D = market value of debt; tD = present value of the interest tax shield
+219 ||| Re = cost of levered equity; Ro = cost of capital if all-equity; Rd = cost of debt; t = tax rate; D/E = debt-to-equity ratio
+220 ||| CF = perpetual annual pre-tax cash flow; t = tax rate; V = unlevered firm value
+235 ||| N = number of options exercised; Exercise price = strike paid per share; Avg mkt price = average market price over the period
+251 ||| CFO = cash flow from operations
+252 ||| NI = net income; Int = interest expense; t = tax rate; Capex = capital expenditure; Work capex = increase in working capital
+258 ||| COGS = cost of goods sold
+263 ||| COGS = cost of goods sold
+267 ||| LIFO Reserve = FIFO inventory minus LIFO inventory
+268 ||| COGS = cost of goods sold; LIFO Reserve = FIFO minus LIFO inventory
+269 ||| NI = net income; Reserve = LIFO reserve; t = tax rate
+270 ||| Reserve = LIFO reserve; t = tax rate
+275 ||| EBIT = earnings before interest and taxes
+284 ||| PPE = property, plant and equipment
+306 ||| DSO = days sales outstanding
+311 ||| DOH = days of inventory on hand; DSO = days sales outstanding
+312 ||| ROE = return on equity
+315 ||| DOH = days of inventory on hand; DSO = days sales outstanding
+362 ||| CAD/EUR = CAD per 1 EUR; CAD IR = CAD interest rate; EUR IR = EUR interest rate
+366 ||| HPR1 = holding period return, period 1; HPR2 = holding period return, period 2
+368 ||| R = Pearson correlation coefficient; x, y = paired observations; x̄ = mean of x; ȳ = mean of y
+369 ||| d = difference between paired ranks; n = number of observations
+376 ||| t = tax rate
+378 ||| R1 = return in period 1; R2 = return in period 2; n = number of periods
+386 ||| Fin lev = financial leverage
+387 ||| U = investor utility; E(R) = expected portfolio return; A = risk aversion coefficient; σ² = portfolio variance
+389 ||| E(Rp) = expected portfolio return; Rf = risk-free rate; E(Ri) = expected return of risky portfolio; σi = standard deviation of the risky portfolio; σp = standard deviation of the target portfolio
+391 ||| σ = standard deviation
+392 ||| σ = sample standard deviation; x = observation; x̄ = sample mean; n = sample size
+393 ||| σp² = portfolio variance; w1 = weight of asset 1; w2 = weight of asset 2; σ1² = variance of asset 1; σ2² = variance of asset 2; Cov1,2 = covariance of the two assets
+394 ||| Cov = sample covariance; x̄ = mean of X; Ȳ = mean of Y; n = sample size; ρ = correlation; σ1 = standard deviation of X; σ2 = standard deviation of Y
+395 ||| ρ = correlation coefficient; Cov(X,Y) = covariance of X and Y; σX = standard deviation of X; σY = standard deviation of Y
+400 ||| σ = standard deviation of returns, total risk; β = systematic risk vs the market
+401 ||| β = systematic risk vs the market; ρ = correlation of asset with market; σ = standard deviation of asset; σm = standard deviation of market
+402 ||| R̂i = predicted return of asset i; ai = alpha, the intercept; βi = sensitivity of asset i to the market; Rm = market return; ei = error term
+405 ||| E(Ri) = expected return of asset i; Rf = risk-free rate; βi = systematic risk of asset i; E(Rm) = expected market return
+410 ||| σ² = total variance of the asset; β = systematic risk vs market; σm² = market variance; σe² = unsystematic, residual variance
+448 ||| P = current price; P0 = initial purchase price
+449 ||| MV = market value
+452 ||| Dt = dividend in year t; R = required return; t = time period; Pn = terminal price at year n; n = holding horizon
+453 ||| FCFE = free cash flow to equity; R = required return; t = time period; RR = required rate of return
+454 ||| D1 = next year's dividend; RR = required return on equity; g = constant growth rate
+457 ||| D1 = next year's dividend; E1 = next year's earnings; RR = required return; g = constant growth rate
+458 ||| MV = market value; pref = preferred stock; EBITDA = earnings before interest, taxes, depreciation and amortisation; FCF = free cash flow
+459 ||| ROE = return on equity
+460 ||| EV = enterprise value
+462 ||| ROE = return on equity; Fin leverage = assets over equity
+464 ||| RR = required return; g = constant growth rate
+476 ||| HHI = Herfindahl-Hirschman Index; Si = market share of firm i
+492 ||| NIt = net income in year t; BVEt-1 = book value of equity at the start of the year
