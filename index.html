@@ -76,8 +76,26 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .mini{display:flex;gap:6px;flex-wrap:wrap}
 .mini button{font-family:var(--fs);font-size:12.5px;font-weight:500;padding:7px 11px;border-radius:8px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-soft);cursor:pointer}
 .mini button:hover{border-color:var(--ink-faint)}
-.sheetlink{font-family:var(--fs);font-size:12.5px;font-weight:500;padding:7px 11px;border-radius:8px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-soft);text-decoration:none;display:inline-block}
-.sheetlink:hover{border-color:var(--accent);color:var(--accent)}
+.pvhead{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:12px;margin-bottom:20px}
+.pvhead h2{margin:0;font-size:17px;font-weight:600}
+.pvhead button{font-family:var(--fs);font-size:12.5px;font-weight:500;padding:7px 12px;border-radius:8px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-soft);cursor:pointer;white-space:nowrap}
+.pe{break-inside:avoid;page-break-inside:avoid;margin-bottom:12px}
+.ph{display:flex;gap:9px;align-items:baseline;margin-bottom:5px}
+.pn{font-family:var(--fm);font-size:10.5px;color:var(--ink-faint);min-width:30px;font-variant-numeric:tabular-nums}
+.pt{font-size:14px;font-weight:600;line-height:1.25}
+.pl{border-bottom:1px solid var(--rule);height:19px;margin-left:39px}
+@media print{
+  @page{size:A4;margin:14mm 13mm}
+  body.printing{background:#fff;color:#111}
+  body.printing header,body.printing .bar,body.printing .chips,body.printing #stage,
+  body.printing #done,body.printing .foot,body.printing .kbd,body.printing .undorow,
+  body.printing .pvhead{display:none!important}
+  body.printing .wrap{max-width:none;padding:0}
+  body.printing .pt{color:#111}
+  body.printing .pn{color:#777}
+  body.printing .pl{border-color:#ccc;height:17px}
+  body.printing .pe{margin-bottom:11px}
+}
 .mini button.on{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 .done{background:var(--raised);border:1px solid var(--rule);border-radius:14px;padding:26px 22px;display:flex;flex-direction:column;gap:14px}
 .done h2{margin:0;font-size:19px;font-weight:600}
@@ -128,6 +146,14 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
     </div>
   </div>
 
+  <div id="printview" hidden>
+    <div class="pvhead">
+      <h2 id="pvtitle"></h2>
+      <button id="pvback">Back to cards</button>
+    </div>
+    <div id="pvrows"></div>
+  </div>
+
   <div class="undorow" id="undorow" hidden>
     <button id="undo">Undo last answer</button>
   </div>
@@ -138,8 +164,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
       <button id="shuf" class="on">Shuffle</button>
       <button id="onlymiss">Missed only</button>
       <button id="reset">Reset</button>
-      <a class="sheetlink" href="worksheet.html">Print all</a>
-      <a class="sheetlink" href="worksheet-formulas.html">Print formulas</a>
+      <button id="printbtn">Print this list</button>
     </div>
   </div>
   <p class="kbd" id="savednote">progress saved on this device</p>
@@ -152,10 +177,10 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 var CARDS = JSON.parse(document.getElementById('data').textContent);
 var NAMES = {quant:'Quant',econ:'Economics',fsa:'Financial statements',corp:'Corporate issuers',equity:'Equity',fi:'Fixed income',deriv:'Derivatives',alts:'Alternatives',pm:'Portfolio mgmt',ethics:'Ethics'};
 var KEY='cfa-gap-deck-v1';
-var S={topic:'all',missed:{},shuffle:true,onlyMissed:false};
+var S={topic:'all',missed:{},shuffle:false,onlyMissed:false};
 var saved=null;
 try{var raw=localStorage.getItem(KEY); if(raw){var p=JSON.parse(raw);
-  S.missed=p.missed||{}; S.topic=p.topic||'all'; S.shuffle=p.shuffle!==false; S.onlyMissed=!!p.onlyMissed;
+  S.missed=p.missed||{}; S.topic=p.topic||'all'; S.shuffle=!!p.shuffle; S.onlyMissed=!!p.onlyMissed;
   if(p.n===CARDS.length && p.order && p.order.length) saved=p;
 }}catch(e){}
 function save(){try{localStorage.setItem(KEY,JSON.stringify({
@@ -241,6 +266,29 @@ function mark(ok){
   else {misses++; S.missed[c._i]=1; roundMissed.push(c);}
   save(); i++; render();
 }
+function printView(){
+  var box=el('pvrows'); box.textContent='';
+  deck.forEach(function(c,n){
+    var e=document.createElement('div'); e.className='pe';
+    var h=document.createElement('div'); h.className='ph';
+    var a=document.createElement('span'); a.className='pn'; a.textContent=n+1;
+    var b=document.createElement('span'); b.className='pt'; b.textContent=c.t;
+    if(c.f){b.style.fontFamily='var(--fm)';b.style.fontWeight='500';b.style.fontSize='13px';}
+    h.appendChild(a); h.appendChild(b); e.appendChild(h);
+    for(var k=0;k<(c.f?3:2);k++){var l=document.createElement('div');l.className='pl';e.appendChild(l)}
+    box.appendChild(e);
+  });
+  var lbl=S.topic==='all'?'All cards':S.topic==='formula'?'Formulas':(NAMES[S.topic]||S.topic);
+  el('pvtitle').textContent=lbl+' — '+deck.length+' terms, in the order on screen';
+  el('printview').hidden=false; el('stage').hidden=true; el('done').hidden=true; el('undorow').hidden=true;
+  document.body.classList.add('printing');
+  window.scrollTo(0,0);
+}
+function closePrint(){
+  el('printview').hidden=true;
+  document.body.classList.remove('printing');
+  render();
+}
 function undo(){
   if(!hist.length) return;
   var h=hist.pop(), c=deck[h.at];
@@ -267,12 +315,15 @@ el('flip').onclick=flip;
 el('hit').onclick=function(){mark(true)};
 el('miss').onclick=function(){mark(false)};
 el('undo').onclick=undo;
+el('printbtn').onclick=printView;
+el('pvback').onclick=closePrint;
 el('again').onclick=function(){S.onlyMissed=false;el('onlymiss').classList.remove('on');build()};
 el('revmiss').onclick=function(){S.onlyMissed=true;el('onlymiss').classList.add('on');build()};
 el('onlymiss').onclick=function(){S.onlyMissed=!S.onlyMissed;this.classList.toggle('on',S.onlyMissed);build()};
 el('shuf').onclick=function(){S.shuffle=!S.shuffle;this.classList.toggle('on',S.shuffle);save();build()};
 el('reset').onclick=function(){S.missed={};S.onlyMissed=false;el('onlymiss').classList.remove('on');save();build()};
 document.addEventListener('keydown',function(e){
+  if(!el('printview').hidden) return;
   if(e.target.tagName==='BUTTON'&&e.key===' ') return;
   if(e.key===' '){e.preventDefault(); flipped?mark(true):flip();}
   else if(e.key==='ArrowRight'){mark(true)}
