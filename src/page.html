@@ -65,6 +65,8 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .mini{display:flex;gap:6px;flex-wrap:wrap}
 .mini button{font-family:var(--fs);font-size:12.5px;font-weight:500;padding:7px 11px;border-radius:8px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-soft);cursor:pointer}
 .mini button:hover{border-color:var(--ink-faint)}
+.sheetlink{font-family:var(--fs);font-size:12.5px;font-weight:500;padding:7px 11px;border-radius:8px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-soft);text-decoration:none;display:inline-block}
+.sheetlink:hover{border-color:var(--accent);color:var(--accent)}
 .mini button.on{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 .done{background:var(--raised);border:1px solid var(--rule);border-radius:14px;padding:26px 22px;display:flex;flex-direction:column;gap:14px}
 .done h2{margin:0;font-size:19px;font-weight:600}
@@ -125,6 +127,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
       <button id="shuf" class="on">Shuffle</button>
       <button id="onlymiss">Missed only</button>
       <button id="reset">Reset</button>
+      <a class="sheetlink" href="worksheet.html">Print sheet</a>
     </div>
   </div>
   <p class="kbd" id="savednote">progress saved on this device</p>
