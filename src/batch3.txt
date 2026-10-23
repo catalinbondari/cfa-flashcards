@@ -1,0 +1,128 @@
+Inventory :: lower of cost and NRV. It can only exceed cost for producers/dealers of agriculture and mineral products
+Inventory write-down Reversals :: US GAAP not permitted, IFRS yes
+FIFO :: cheap goes → expensive stays
+LIFO :: expensive goes → cheap stays
+Inventory turnover Ratio :: COGS / Net Avg Inventory
+LIFO permitted to value inventory :: US GAAP ✓  IFRS ✗
+Perpetual inventory system :: updated after every transaction
+Periodic inventory system :: only at period end
+FIFO Inventory :: LIFO inventory + LIFO Reserve
+FIFO COGS :: LIFO COGS - change in LIFO Reserve
+FIFO Net income :: LIFO NI + change in Reserve (1-t)
+FIFO Equity :: LIFO equity + change in Reserve (1-t)
+Net profit margin :: Net income / Revenue
+IFRS impairment :: Recoverable amount = Max(Fair value - costs to sell, value in use), then minus Net carrying amount
+Which statements are affected? :: if not cash swap then always both
+Estimate of Remaining useful life :: Net plant and equipment / Annual depreciation
+Interest coverage :: EBIT / Interest expense
+Fixed asset turnover :: Revenue / Avg net fixed assets
+IFRS Footnotes (PPE) :: measurement basis, depreciation method, useful life (depreciation Rates), gross carrying amount, Reconciliation of movements
+US GAAP long-lived intangible disclosure :: Estimated amortization for the next five fiscal years
+Costs incurred for intangible assets :: are generally expensed when they are internally developed
+Intangible :: Finite - amortized / Infinite - not amortized
+Disclosures IFRS :: Restriction on title, PPE pledged as security; Contractual commitments to acquire PPE; Cost or Revaluation method; Revaluation surplus details
+Disclosures US GAAP :: depreciation expense; balances of major classes; accumulated dep
+Amortization :: depreciation for intangible assets (patents, licenses)
+Fixed Asset turnover ratio :: Net sales / Avg net PPE
+Impairment loss under IFRS :: Carrying value - recoverable amount (higher of Fair value and value in use)
+Financial leverage ratio :: Avg total assets / Avg total equity
+Permanent difference :: differences between tax laws and accounting standards that will not be Reversed at some future date (tax credits)
+Deferred tax liability :: (Carrying amount - tax base) × tax Rate
+Effective tax Rate :: includes everything - federal, foreign, deferred
+Statutory vs Effective :: Statutory - what's written in the law. Effective - what you actually pay
+Conservative accounting :: bias towards worse
+Sustainable and adequate Returns :: optimal
+Pro forma emphasized :: management's own adjusted figure
+A high quality financial Report may Reflect :: low earnings quality
+Conservatism :: Reduces possibility of litigation (taking legal action)
+Covenants :: Rules in a loan agreement
+Barter :: swapping goods or services with no cash involved
+Days sales outstanding :: Avg days customers take to pay you
+Straight-line depreciation :: (Cost - Salvage) ÷ Life
+Unit of production :: (Cost - Salvage) ÷ Total Units × Units used
+Double-declining balance :: (2 ÷ Life) × book value (no salvage)
+Channel stuffing :: inducing customers to buy more than usual - overstatement of Revenues, understate inventories
+EBITDA :: non-GAAP financial measure
+How to Reveal manipulation? :: compare against peers
+Highest quality FRA :: inside GAAP, decision useful, Sustainable
+DSO :: Receivables ÷ (Sales/365)
+Activity ratios :: how efficiently you use assets, inv turnover (DSO)
+Liquidity ratios :: short-term bills (current, quick, cash)
+Solvency ratios :: long-term debt (Debt/Equity, Debt/Assets)
+Profitability ratios :: how much do you earn? (margins, ROA, ROE)
+Operating cycle :: DOH + DSO
+Dupont equation :: ROE = Net income/Revenue × Revenue/Avg total assets × Avg total assets/Avg equity (Net profit margin × Asset turnover × Fin leverage)
+Debt to capital Ratio :: Total Debt / (Total debt + Total Shareholder Equity)
+Intangible measurement :: cost model OR Revaluation model
+Cash conversion cycle :: DOH + DSO - Days payable
+Interest coverage (capitalised interest) :: EBIT / Interest payments
+Sensitivity analysis :: What if - shows the Range of possible outcomes, as specific assumptions are changed
+Payable turnover :: Purchases / Avg trade payables
+Defensive interval Ratio :: how long company can continue to pay expenses from its existing liquid assets
+Fiduciary :: legal obligation to act in someone else's best interest
+Compliance approach :: Is it legal?
+Ethical principles :: societies' views on what is considered good OR bad
+Suitability :: a legal standard
+Ethical framework - Identify :: What is going on?
+Ethical framework - Consider :: Alternatives
+Ethical framework - Act :: Additional guidance
+Ethical framework - Reflect :: What would I do differently next time?
+Fin leverage :: Avg total assets / Avg equity
+Standards of Professional Conduct :: address Risk and limitations of Recommendations being made to clients. Promptly disclose changes that might affect investment processes
+Standard IV A :: you must act for your employer's benefit and not withhold your skill from them
+Standard V :: distinguish between fact and opinion
+Professional Conduct Program :: CFA Institute Board of Governors
+CFA Sanctions :: don't include monetary fines
+Commission :: to pay for operating expenses
+Mosaic theory :: piecing together small bits of information into a big conclusion
+Soft dollar :: using clients' trading commissions to pay for Research or services from the BROKER
+Diligence :: be thorough, independent and careful in your analysis
+Reasonable basis :: adequate research to backup your Recommendation
+Standard VI C Referral Fees :: inform employer, clients and prospective clients of any benefit Received for Referrals
+Re-creating supporting Records from memory :: NOT Allowed
+Fair dealing :: Fair and impartial manner - not taking sides
+Misconduct :: don't do anything dishonest, Fraudulent OR deceitful
+Standard III D :: Performance presentation, additional info to clients and prospective clients
+Oversubscribed IPO :: prorate allowed, every client gets the same percentage of what they asked for
+Recommended procedures for supervisors :: encouraging employers to provide a copy of the firm's code of ethics
+Firm's code of ethics :: should be written in plain language and should address general fiduciary concepts
+CFA Recommends maintaining Records :: for at least Seven years
+Loyalty Prudence Recommended action :: make their clients aware of all forms of manager compensation
+GIPS :: promotes Fair, global competition among firms
+GIPS Verification :: on entire firm, not composite
+GIPS :: not a Reg Requirement
+GIPS composite :: fee paying, discretionary, portfolios, actual
+Min effective compliance date for a wrap fee :: 1 Jan 2006
+GIPS Nine major sections :: Fundamentals of compliance - input data - Calc methodology - Composite and pooled fund maintenance - Time weighted Return, Pooled Fund - Money weighted return, Pooled Fund - GIPS Advertising
+Confidentiality :: only Relates to clients, not employer
+Investment consultants :: can claim GIPS
+Client assets statement :: an itemized statement quarterly
+You should encourage your employer :: to write a code of ethics in plain language
+Member must understand :: the relevant Regulations for all countries where they trade securities
+Perfect comp :: min point long Run avg tot cost curve
+Real exchange Rate :: can be constructed Relative to a basket of other securities
+FORWARD Rate (currency) :: (CAD/EUR) × (1+CAD IR)/(1+EUR IR)
+Machine learning :: still Requires human judgement in understanding the underlying data
+Sarbanes Oxley Act :: Securities and Exchange Commission → stop companies and auditors cooking the books
+Going concern :: maintenance capex for business continuity
+HPR (multi-period) :: (1+HPR1)(1+HPR2) - 1
+CB policy Rate 4 channels :: lending Rates, asset prices, agent's expectation and exchange Rate
+Pearson :: R = Σ(x-x̄)(y-ȳ) / √(Σ(x-x̄)² × Σ(y-ȳ)²)
+Spearman CORRelation :: 1 - 6Σd²/[n(n²-1)]
+Ending Retained earnings :: beg Ret earnings + net income - div
+Changes in accounting policies :: can be Reported Retrospectively
+IFRS and US GAAP :: allow agri inv at net Realizable value
+Fiscal policy :: government spending & taxes
+Monetary policy :: interest Rates
+Organic growth :: changes in both volume and price/mix
+Conv bond (diluted EPS) :: Interest × (1-t) added back - Diluted EPS
+Systematic sampling :: select every kth member until we have a sample of the desired size
+Geometric Return :: [(1+R1)(1+R2)]^(1/n) - 1
+Return on equity :: Net profit / Avg shareholder equity
+IFRS other comp income :: actuarial gains and losses and other Remeasurements
+Financial tool geopolitics :: Free exchange of currencies, money and trade
+F-test :: variance of 2 pop
+Chi-square :: variance of a single normally distributed pop
+Continuous compounded :: for mult time periods, Sum of the one period continuously compounded
+Impairment loss (US GAAP) :: Carry amount - Max(fair value - costs to sell)
+Fin lev :: total assets / total equity

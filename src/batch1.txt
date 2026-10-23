@@ -1,0 +1,136 @@
+Holding Period Return :: [(Pn + Dn)/P0]^(1/n) - 1
+Constant Dividend Growth :: P0 = D1/(R-g)  — take out -g for PERP
+Forward Rate :: (1+S2)^2 = (1+S1)(1+F1,2)
+FR Currency :: F0 = S0 e^(RFp - RFb)t
+Hedge Ratio :: (c+ - c-)/(s+ - s-)
+Test of a single mean :: t = (X̄ - μ0)/(s/√n)
+Everything that has a mean :: t-distributed
+Single variance :: chi-square distribution
+Δ variances :: F-distributed
+CORREL :: t-distributed, t = R√(n-2)/√(1-R²)
+p-value :: smallest level of significance at which null hypothesis can be Rejected
+Linear :: Ri = a(intercept) + β(slope) × Rm(X) + ε (ERROR)
+Arithmetic :: avg simple × Harmonic: n/Σ(1/xi)
+Annualized Rate of Return :: (1+R)^(365/days)
+Compound Return :: St = S0 × e^R, inverse of ln
+HPR :: (1+R1)(1+R2) - 1
+Location Rule :: n+1 × prob
+CVariance :: Sx/X̄ → use STAT
+Downside deviation :: √[Σ(xi - B)²/(n-1)]
+Variance :: Σ(xi - X̄)²/n
+Variance p weight :: σ² = Σ[P(xi) × (xi - E(x))²] — can be done using 1-Var STAT
+Bayes :: P(A|B) = P(B|A) × PA/PB
+σp² :: wA²σA² + wB²σB² + 2·wA·wB·ρAB·σA·σB
+Covariance :: σx × σy × R (CORREL)
+Roy's safety Ratio :: (ERp - Return safe)/σp
+Standard ERROR :: σ/√n
+Bootstrap :: Repeatedly Random sample
+Jackknife :: Repeatedly computes mean by leaving one point out
+Stratified Random :: pop into subpopulations and Random sample
+Confidence Interval :: Point estimate ± Reliability Factor × SE
+Pooling :: combining two data populations to generate SE
+Z-test :: two pop means different when variances are known
+T-test :: tests means
+F-test :: tests variances
+Parametric :: normal distributions
+Non-parametric :: no assumption about distribution shape. Spearman, Mann-Whitney U → Small sample, non-normal population
+Paired Comparison :: t-test. t = d̄ (mean of diff)/(σ/√n) of differences
+t (two means) :: [(X̄1 - X̄2) - (μ1 - μ2)]/(s²p/n1 + s²p/n2)^0.5 → observed - hypothesized / standard ERROR
+Chi-square :: χ² = (n-1)s²/σ²
+Coefficient of determination :: R²
+CORREL from R² :: √(R²)
+Cov(X,Y) :: Σ(Xi - X̄)(Yi - Ȳ)/(n-1)
+F-statistic :: Mean square Regression / Mean square ERROR
+Prediction interval :: ŷ ± (t-critical × SEE)
+SEE :: √(SSE/(n-2)) → Σ squared Residuals
+R² :: SSR/SST
+Calculator STAT :: Y is dependent variable, a = intercept; x is independent variable, b = slope; r = CORRelation
+Total Sum of Squares (SST) :: Σ(Yi - Ȳ)²
+Sum of Squared ERRORS (SSE) :: Σ(yi - ŷi)²
+Sum of Squares Regression (SSR) :: Σ(ŷ - ȳ)²
+SST :: SSE + SSR
+Concentration Ratio :: Sum of market shares of the top N firms. 100% monopoly, perfect comp 0%
+HHI :: 0 to 1 (squared market share of all firms)
+Cabotage :: only by locally owned CARRIERS
+Exogenous :: Risk outside the system being analyzed
+Crowding out :: gov borrow, IR go up squeezing out private investment that wouldve happened
+Ricardian equivalence :: ppl expect today's gov debt to mean future taxes, so they save now
+Fiscal :: gov spending/tax lever
+Monetary :: Central Bank
+Fiscal Multiplier :: 1/[1-c(1-T)]
+Expansionary :: boosting economic activity/aggregate demand
+Contractionary :: slowing down economic activity - used when economy overheating
+Quantitative easing :: central bank buying large quantities of gov bonds to inject money in the economy
+Monetary policy tools :: open market operations, setting official policy Rate, Reserve Requirement
+Neutral Policy Rate :: Real trend growth rate + long run expected inflation
+USD/EUR :: currency/base
+Real exchange rate :: nom × (CPI Foreign/CPI Domestic)
+Fixed Rate parity system :: gov defend Fixed Rate
+CBS - currency board system :: legally Required to back every unit of domestic currency
+Capital Flight :: FDI Rushing out of a country, because of fear
+ETFs :: no leverage allowed
+Chain Rule :: CNY/HKD × HKD/SEK = CNY/SEK
+Shared top :: CNY/HKD ÷ CNY/ZAR = ZAR/HKD
+Spot :: Forward Rate - Forward points
+Side letter :: document providing tailored terms for a specific investor
+Lockup period :: no Redemptions allowed (hard), redemptions allowed but with a fee (soft)
+Gate :: Fund manager can close gate if too many redemptions are coming in
+Soft hurdle :: hurdle just a gate, fee applies to everything
+Hard hurdle :: GP only gets a cut of the excess above the hurdle
+High-water mark :: Fund's highest value Reached. GP can only earn a new performance fee on gains above that peak
+Deal by deal / American :: gets paid on each deal
+Whole of fund :: GP gets paid once entire fund has cleared the hurdle
+Joint venture :: two or more companies pool Resources to pursue a specific project (usually Real estate direct investment)
+R (levered return) :: [(Vc × RL) + (Vb × Rb)]/(Vc + Vb) — Value of capital, Value borrowed, Return on borrowed
+Bid :: price a buyer is willing to pay (sold Right now)
+Ask :: price a seller wants (bought Right now)
+Level 1 :: price from market → trust it
+Level 2 :: price is built from market data → verify it
+Level 3 :: price is built from internal assumptions → interrogate it
+Venture capital :: lowest correlation across all major market indexes
+Unitranche debt :: Combining senior and subordinated debt using a blended interest Rate
+Leveraged loan :: itself levered, with a lot of debt
+Mezzanine debt :: comes with warrants, to provide equity participation, conversion Rights (between debt and equity)
+Equity REIT :: invests in properties outright
+Mortgage REIT :: invests in underwrite loans
+Greenfield :: brand new from scratch, higher Risk, higher potential Return
+Brownfield :: buy the existing operating asset (lower Risk/Return)
+Secondary stage :: asset has a long established operating history (lowest Risk)
+CMOs and REITs :: public Real estate investments
+Real estate limited partnerships :: Private Real estate investment
+Hybrid REIT :: equity and mortgage
+Backwardation :: Forward price < Spot price
+Contango :: Forward price > Spot price
+Convenience yield :: benefit of having it in hand right now
+Selection bias :: only funds that have good performance
+Relative value :: profit from price discrepancies between securities
+Top-down :: start from macro themes and work down to individual picks
+Bottom-up :: start from company-specific analysis
+Crypto miner :: validating and locking transactions into a blockchain irrespective of the consensus protocol adopted by the network
+Decentralized :: anyone can join (btc, eth) → hard to hack, no central server
+Centralized :: a single entity controls who can join (bank) → hacked easily, all in one system
+Warrant :: Right to buy stock at price X, before date Y
+Futures contract :: a standardized, exchange traded agreement to buy/sell at a set price, guaranteed by a clearing house
+Forward contract :: a customized, private agreement between two specific parties to buy/sell at a set price, on their own negotiated terms
+Commodity swap :: an agreement to exchange a series of cash flows over time (swap a floating commodity)
+Pari passu :: equal footing, this debt ranks equally with all other secured
+Coupon :: market Reference Rate (variable) + credit spread (fixed)
+Covenant :: legally binding promise/Rule written into a bonds contract that the borrower must follow for the life of the debt
+Affirmative covenant :: a promise to DO something
+Negative covenant :: a promise to NOT DO something
+Floating Rate note :: coupon payments Resets periodically
+Matrix pricing :: estimates a bond's yield by averaging yields of comparable bonds, and adjusting it for the bonds maturity
+Matrix line :: needs a straight line, some credit rating
+Spread :: extra yield you get for buying a Riskier bond
+I-spread :: compares against similar bonds
+Z-spread :: ZERO coupon, so it brings value to today. Constant spread over a benchmark spot curve
+OAS :: extra yield after Removing call-option Risk
+Quoted margin :: spread added to MRR (for credit risk)
+Step-up coupon bond :: Fixed income bond whose coupon rate increases by predetermined amounts on specified future dates
+Reopening :: issuer sells more bonds from an existing bond issue, Rather than creating a new bond
+Seasoned bond :: an older bond that has been trading in the secondary market for some time
+GO bond :: general obligation bond used to fund public goods and services from local tax
+Quasi gov entity :: gov created entity that operates a specific public service (airport, Railway or housing)
+Maturity effect :: longer maturity → higher duration → more interest Rate sensitivity. exception low coupon (not zero) long maturity, discount
+What influences a floating rate? :: Liquidity and credit Risk
+Discount Rate :: Year/Days × (FV-PV)/FV

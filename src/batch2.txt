@@ -1,0 +1,123 @@
+Par Rate :: (1 - DF3)/(DF1+DF2+DF3)
+Spot Rate :: zero coupon bond
+Par Rate vs spot :: coupons included, lower than spot
+1 + Spot :: [(1+F0,1)(1+F0,x)]^(1/n) - 1
+Duration gap :: Macdur - inv horizon
+Macdur :: ModDur × (1+y/m)
+Macdur (meaning) :: holding period that balances coupon Reinvestment gains/losses with price losses/gains. Weighted avg time to receipt
+Mod dur :: % change in bond price FOR a % change in yield. MacDur/(1+R)
+Approx Mod Dur :: [(PV-) - (PV+)]/(2 × Δyield × PV0)
+Money dur :: ModDur × PVFull. $ change in price for a % change in yield
+PVBP :: [(PV-) - (PV+)]/2 — of a basis point. = ModDur × PVfull × 0.0001
+Coupon Rate effect on duration :: inverse ↓
+YTM effect on duration :: inverse ↓
+Time effect on duration :: direct ↑
+Fraction of current coupon period :: inverse ↓
+Curve duration :: how a bond or portfolio's value changes when different parts of the yield move
+Bond's duration :: price sensitivity to yield changes
+Approx Convexity :: [(PV-) + (PV+) - 2×PV0]/[(Δyield)² × PV0]
+%ΔP :: -(D × Δyield) + [½ × C × (Δyield)²]
+Duration of a portfolio :: market value weights of bonds, not par
+Return impact :: -MDur × ΔSpread + ½ Cvx × (ΔSpread)²
+EffDur :: (PV- - PV+)/(2 × Δcurve × PV0). Δcurve = Δyield
+Key rate duration :: measures a bond's price sensitivity to a change at one specific point on the curve (2 yr rate, 5 yr rate)
+Analytical duration :: computed from pricing model (MacDur, ModDur, EffDur)
+Empirical duration :: estimated by regression on actual market data (history, no model)
+Sovereigns :: analytical (assumption price moves with benchmark)
+Inv grade corporates :: empirical (moderate spread reaction)
+High yield corporate :: empirical (strongly, spread dominates)
+New issue, no price history :: analytical (no data)
+Scenario :: analytical, no data
+Expected Loss :: Probability of Default × Loss Given Default
+POD :: Expected Loss / Loss given default
+EL :: POD × (EE - Collateral) × (1-RR)
+Debt/Capital :: Total Debt/(Total Debt + Total Equity)
+Cross default :: if issuer defaults on any one, all the other ones containing that clause automatically considered in default
+Notching :: when credit Rating agencies assign a different Rating to a specific debt obligation than the issuer's overall Rating
+Structural subordination :: corporation with a holding company structure has debt at both its parent holding and operating subsidiaries
+Securitization :: process of pooling cash flow generating assets (mortgages) and transferring them to a special purpose entity, which then issues securities. Credit RISK isolated with SPE
+Ring-fenced loans :: loans legally and financially isolated within a separate entity or structure
+Overcollateralization :: value of the underlying loan pool backing the securities is set higher — 1000 backed by 1200
+Letters of Credit :: a bank is paid a fee to promise Reimbursement of cash shortfalls from the collateral pool
+Cash collateral accounts :: issuer borrows cash from a commercial bank
+Excess spread :: coupon on underlying > coupon on ABS
+Subordination / Credit tranches :: creating more than one class of bond (differ in how they absorb losses in a pool), provide protection for senior tranches
+Tranche order :: Senior → mezzanine → junior → subordinated → equity tranche
+Solar loans advantage :: multiple liens (a lien on the equipment, a lien on the underlying) → overcollateralization
+CLO viability :: equity gets paid last
+Inclusion of assets in a CLO :: between Ramp-up and loan maturity, meeting certain Requirements
+CLO default :: call features affect junior tranches
+DTI :: Monthly Debt Payment / Monthly pre-tax gross income
+WAM :: Weighted Average Maturity. Σ (Current balance of each mortgage / Total current balance of pool)
+Extension Risk :: Risk that borrower might pay back more slowly than anticipated
+Defeasance :: a provision in CMBS loans that lets a borrower sell or Refinance the property early by swapping out the Real estate collateral for govies that Replicate it
+Underwriting :: Can they Repay?
+Balloon Risk :: Risk that borrower will not be able to Refinance or sell the property
+OTC vs ETP :: ETP lower trading costs, more transparency
+Embedded derivative :: derivative feature that is built into another financial instrument
+Forward :: S × (1+R1)/(1+R2)
+F0 (continuous) :: S0 e^((R-i)T)
+F0(T) with carry :: [S0 + PV0(C)](1+R)^T
+Forward rate 1m in 1m :: (1 + 2-month MRR × 2/12) = (1 + 1-month MRR × 1/12)(1 + f1m,1m × 1/12)
+Time value of derivatives :: difference between market price of the option and its intrinsic value
+Put call parity :: S0 + p0 = C0 + PV(X), where PV(X) = X(1+R)^-T
+Fiduciary call :: buy a call + invest PV(X) Risk Free
+Protective put :: Own the stock + buy a put on that stock
+Risk neutral probability :: π = [(1+R) - d]/(u-d)
+Option price :: [π(Cu) + (1-π)(Cd)]/(1+R)
+Hedge Ratio :: (Cu - Cd)/(Su - Sd)
+Cu :: payoff up
+Cd :: payoff down
+Su :: up factor
+Sd :: down factor
+Most derivatives :: ARE established on the foundation that only one price for a derivative exists
+Current Ratio :: Current Assets / Current Liabilities
+Quick Ratio :: (Cash + Short term Mktble instr + Receivable) / Current liabilities
+Liquidity Primary sources :: Cash, Op cash flow, WC mngmt, Unused credit facility, Short term borrowing
+Liquidity Secondary sources :: Sell inv, Bankruptcy
+ROIC :: (1 - tax Rate) × Operating profit / Avg invested Capital
+PV of perpetuity :: Annual cash flow / R
+WACC :: Wd·Rd(1-t) + Wp·Rp + We·Re
+MM with no taxes :: VL = Vu
+MM with no taxes (Re) :: Re = Ro + (Ro-Rd) D/E
+MM with taxes :: VL = Vu + tD
+MM with taxes (Re) :: Re = Ro + (Ro-Rd)(1-t) D/E
+Perpetuity WACC unleveraged :: CF(1-t)/V — firm value
+Tiered pricing :: price discrimination (Amazon)
+IFRS :: International Accounting Standards Board
+US GAAP :: Financial Accounting Standards Board
+Audit Opinions :: Unqualified → Qualified → Adverse → Disclaimer
+For a US publicly traded company :: the auditor must express an opinion on internal controls
+Sarbanes Oxley :: addresses auditor independence
+MD&A :: Full extent of capital Resources, liquidity, cash requirements, sources and uses of cash
+Income under IFRS :: increase in assets or decrease in liability that increases equity, excluding owner contribution — if company makes money
+What Reduces Revenue? :: Sales Returns, Sales allowances, Sales discounts
+IFRS destruction of property :: continued operations
+Basic EPS :: (Net income - Preferred dividends) / Weight avg shares
+Simple Structure :: Only common stock, nothing convertible
+Complex Structure :: Convertible bonds, preferred, Options, warrants
+Diluted EPS :: Net income / (weight avg shares + new shares at conversion)
+Treasury method :: Options exercised - Shares bought back. N - (N × Exercise price / Avg mkt price)
+Interest :: Financing cost, not operating cost
+Stock splits :: happen at the start of the year
+Tax Rate :: Taxes / Earnings before taxes
+US GAAP unusual or infrequent items :: shown as part of continuing operations
+Retrospective :: go back and fix the past
+Prospective :: leave past alone
+Deferred income :: cash in, but you haven't earned it yet (postponed)
+Unrealised gains, tradeable securities :: income statement → Retained earnings
+Held to maturity :: not Recognised
+Total assets :: liabilities + equity
+Goodwill :: Acquisitions
+Interest and div Receipt :: IFRS Investing OR operating. US GAAP operating activity only
+Working capital :: Cash stuck in inventory/borrowing. When it shrinks it is added back to net income
+FCF :: how much cash is left for Everyone who put money in
+First step cash flow statement :: identify major sources of cash
+Cash to income :: CFO / Operating income
+FCF formula :: NI + Non cash charges + Int(1-t) - Capex - Work capex
+Share based compensation plan :: Attract new employees → equity settled and cash settled
+Lessees :: Report both finance and operating leases longer than a year
+Liability at lease inception :: Use PV of cash flows
+Manufacturer lessor :: on a long lease = a sale. Remove asset from balance sheet and Replace with lease Receivable
+Under IFRS other comp income :: only actuarial gains or losses can be classified as other comp income (db schemes)
+Gross margin :: (Revenue - COGS) / Revenue

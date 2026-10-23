@@ -1,0 +1,112 @@
+Utility :: U = E(R) - ½Aσ²  — A = Risk aversion, σ² = portfolio variance
+CAL :: combination of Risk-free asset and a portfolio of all Risky assets
+E(Rp) on the CAL :: Rf + [E(Ri) - Rf]/σi × σp  — the slope is the Sharpe ratio
+Deviation :: typical move up or down. Variance used for calcs
+Within :: ±1σ → 68%, ±2σ → 95%, ±3σ → 99.7%
+Sample σ :: √[Σ(x-x̄)²/(n-1)]
+σp² (two asset) :: w1²σ1² + w2²σ2² + 2w1w2·Cov1,2
+Cov X,Y :: Σ(x-x̄)(Y-Ȳ)/(n-1) = ρ × σ1 × σ2
+ρ (correl) :: Cov(X,Y)/(σX × σY), 1 > ρ > -1
+Efficient Frontier :: best portfolio using only risky assets. Starts at global min variance portfolio
+Investor indifference curve :: curve joining every risk/Return that makes investor equally happy - utility
+CML :: market portfolio of all Risky assets. Homogenous expectation, all investors Rational. More Return for more Risk → borrowing
+Systematic risk :: Risk that hits all market at once (Recession, interest rate changes, inflation, war)
+Risk measures :: total = σ st dev. Systematic = β
+β :: ρ × σ / σm
+Market model :: R̂i = ai + βi·Rm + ei  — a = alpha, ei = ERROR
+CAPM :: security market line (beta)
+CAL :: st dev on X-axis (CML)
+CAPM formula :: E(Ri) = Rf + βi × (E(Rm) - Rf)
+Jensen's alpha :: Actual Return - CAPM
+Treynor :: β instead of σ (vs Sharpe)
+M² :: Sharpe turned into a % vs the market
+CAPM assumptions :: no Restriction, short selling, amount can be as much OR as little as the investor wants
+Risk decomposition :: total variance = systematic + unsystematic. σ² = β²σm² + σe²
+Alternatives :: private equity/debt, Real estate, natural Resources, infrastructure, hedge funds, digital assets
+Banks :: highest liquidity need
+Buyout fund :: buys entire established companies, mature, expensive
+Venture capital :: Small stakes in start ups, small bets
+WRAP account :: wraps everything in one annual fee (mgmt, custody)
+Money market fund :: maturity Rarely longer than 90 days
+IPS - Introduction :: who they are, their situation
+IPS - Statement of purpose :: why IPS exists and how it will be Funded
+IPS - Statement of duties & Responsibilities :: who does what
+IPS - Procedures :: how
+IPS - Investment constraints :: limits
+IPS - Investment guidelines :: how, distinctive needs
+IPS - Evaluation & Review :: how performance is judged
+IPS - Appendices :: Asset allocation, Rebalancing
+Risk assessment :: willingness to take Risk
+Status quo bias :: the tendency to do nothing and stick with what you already have, even when changing would be better
+Endowment bias :: Valuing something more just because you own it
+Conservatism bias :: maintain OR only slowly update views and forecasts despite the presence of new information
+Halo effect :: letting one good quality make you assume everything else about something is good too
+Risk management infrastructure activities :: Risk identification, measurement and monitoring
+Risk tolerance flow :: Risk tolerance → Risk budgeting → Risk exposures
+Risk budgeting :: deciding how to split your total allowed Risk across different activities
+Risk modification :: Weigh benefits and costs in light of the firm's Risk tolerance
+Vega :: how much an option's price moves when the underlying volatility changes by 1 percentage point
+Risk infrastructure :: people and systems tracking exposures
+Risk management :: Right amount of Risk (adjusts)
+Risk tolerance :: willingness and ability to take risk for an organisation
+Leverage Ratio :: Position / YOUR money — 1% move = this much
+TAKER :: accepts a price that's already there
+MAKER :: posts a price and waits
+Validity :: instruction when to fill an order
+Sequence of orders :: Price (lowest) - Display (visible) - Time (earliest)
+Private placement :: new shares sold directly to a small group of qualified investors
+Put options :: they guarantee the execution
+Equity swaps :: parties exchanging fixed cash payments FOR Returns on a stock OR index
+Dark pools :: private trading venues where orders are hidden until the trade happens
+Brokered market :: broker never owns it - just finds the other side
+Margin % :: (Initial equity + P - P0)/P = Current equity / Current price
+Intrinsic value (asset-based) :: estimated MV of assets - liabilities
+PV model :: today's value of cash you will receive (Div + FCFE)
+Multiplier model :: price / Fundamental. P/E, P/S, P/B
+Div Disc Model :: Σ Dt/(1+R)^t + Pn/(1+R)^n — use CF worksheet on BAII
+FCFE Valuation :: Σ FCFE/(1+R)^t. RR = Required Rate of Return
+Gordon Growth model :: D1/(RR-g)
+P/E comparables :: takes avg P/E of similar companies
+Trailing P/E :: trailing never gets grown
+P/E from Gordon :: (D1/E1)/(RR-g)
+Enterprise value :: MV equity + MV debt + MV pref - Cash. Pairs with EBITDA or operating income, Sales or FCF
+Div growth Rate :: (1 - Payout) × ROE
+Equity from EV :: EV - debt - preferred + cash
+Value of a perpetual pref stock :: Dividend / required Rate. They never grow (like bonds)
+ROE :: Return on assets × Fin leverage
+EV/EBITDA :: most useful when comparing companies with significant differences in cap structures
+Justified Forward P/E :: Payout Ratio / (RR - g)
+Present value models :: Fundamental tenet - individuals invest for the expected future benefit
+Dividend chronology :: Declaration → ex-date → Record → payment (payment can happen on a weekend)
+Ex date :: first day the share trades without the dividend attached
+Technical analyst :: bets the market is inefficient at their own level. Fundamental - semi-STRONG, insider - STRONG
+Value stock :: cheap relative to fundamentals, high div yield, low P/E
+Growth stock :: expensive, low div yield, high P/E
+Efficient market hypothesis :: only that the market is Rational
+Disposition effect :: investors tend to avoid Realizing losses
+Momentum anomaly :: securities that have experienced high returns continue to Receive higher Returns
+Efficient :: price already knows
+Inefficient :: price hasn't caught up
+HHI :: Σ Si² — Si = each firm's market share
+Float adjusted :: shares the public can actually buy
+Fundamental weighting :: value tilt, contrarian, needs Rebalancing, higher cost
+Cap-weighted :: momentum tilt, no Rebalancing needed, low cost
+Equal weighted :: small cap tilt, needs the most Rebalancing of all
+Style index :: market cap, value, growth
+Aggregate Fixed income index :: single broad benchmark covering an entire investment-grade bond market
+Commodity indexes :: hold futures (metal, energy, agriculture, livestock)
+Real estate index :: Appraisal index, Repeat sales index, REIT index
+Hedge fund index :: they choose what to Report (self selection bias)
+FI vs equity indexes :: FI harder, more expensive (dealer prices)
+Preference shares :: no vote, fixed dividend, behaves like a bond, higher yield than bonds (tax efficient in US)
+Participating pref :: if it hits a target gets paid extra
+Depository Receipts :: cert issued by a depository bank representing shares of a foreign company trading on a local exchange in local currency
+ADR levels :: Level I OTC, Level II US exchanges, Level III Public offering
+Book value :: total assets - total liabilities
+ROE (book value based) :: NIt / BVEt-1
+More difficult to estimate :: cost of equity
+Cumulative voting :: allows shareholders to direct their total voting rights to specific candidates
+Voting by proxy :: allowing a designated party to vote on your behalf
+Participating pref shares :: additional dividend if company exceeds a certain level of profit. Additional distribution of company's assets upon liquidation (venture capital, private equity)
+Putable shares :: less Return as they are less risky, less volatile. Rise in common → convert and benefit
+Management :: can influence book value
