@@ -35,7 +35,7 @@
 }
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--fs);margin:0;-webkit-text-size-adjust:100%}
-.wrap{max-width:620px;margin:0 auto;padding-inline:16px;padding-block:20px 40px;display:flex;flex-direction:column;gap:16px;min-height:100%}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:20px 40px;display:flex;flex-direction:column;gap:16px;min-height:100%}
 header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
 h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .sub{font-size:12px;color:var(--ink-faint);font-family:var(--fm);font-variant-numeric:tabular-nums}
@@ -126,6 +126,20 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .undorow button:hover{border-color:var(--accent);color:var(--accent)}
 .kbd{font-size:11.5px;color:var(--ink-faint);font-family:var(--fm);text-align:center;margin:0}
 #savednote{margin-top:4px}
+@media (min-width:900px){
+  .wrap{padding-block:32px 48px;gap:20px}
+  h1{font-size:22px}
+  .card{padding:40px 44px;min-height:340px;gap:18px}
+  .tag{top:18px;left:44px;font-size:11.5px}
+  .term{font-size:32px}
+  .defn{font-size:18px}
+  .mth{font-size:2em}
+  .note{font-size:15px}
+  .lg{font-size:15px}
+  .lg b{font-size:21px}
+  .acts button,.flipbtn{font-size:16px;padding:16px}
+  .chip{font-size:13.5px;padding:7px 13px}
+}
 @media (max-width:420px){.term{font-size:20px}.defn{font-size:15px}.kbd{display:none}#savednote{display:block}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
@@ -376,10 +390,10 @@ function mark(ok){
   else {misses++; S.missed[c._i]=1; roundMissed.push(c);}
   save(); i++; render();
 }
-var PAGE_W=1050, PAGE_H=1400, PAD=14;
+var PAGE_W=1050, PAGE_H=1400, PAD_TOP=30, PAD_BOT=40;
 function band(c){
   if(c.y0==null||c.y1==null) return null;
-  var a=Math.max(0,c.y0-PAD), b=Math.min(PAGE_H,c.y1+PAD);
+  var a=Math.max(0,c.y0-PAD_TOP), b=Math.min(PAGE_H,c.y1+PAD_BOT);
   return b>a?[a,b]:null;
 }
 function centreSrc(c){
