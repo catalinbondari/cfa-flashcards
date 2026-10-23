@@ -74,8 +74,9 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .undorow{display:flex;justify-content:center}
 .undorow button{font-family:var(--fs);font-size:13px;font-weight:500;padding:9px 16px;border-radius:9px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-soft);cursor:pointer}
 .undorow button:hover{border-color:var(--accent);color:var(--accent)}
-.kbd{font-size:11.5px;color:var(--ink-faint);font-family:var(--fm);text-align:center}
-@media (max-width:420px){.term{font-size:20px}.defn{font-size:15px}.kbd{display:none}}
+.kbd{font-size:11.5px;color:var(--ink-faint);font-family:var(--fm);text-align:center;margin:0}
+#savednote{margin-top:4px}
+@media (max-width:420px){.term{font-size:20px}.defn{font-size:15px}.kbd{display:none}#savednote{display:block}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 
@@ -126,6 +127,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
       <button id="reset">Reset</button>
     </div>
   </div>
+  <p class="kbd" id="savednote">progress saved on this device</p>
   <p class="kbd">space flip · ← missed · → got it · z undo</p>
 </div>
 
@@ -136,8 +138,19 @@ var CARDS = JSON.parse(document.getElementById('data').textContent);
 var NAMES = {quant:'Quant',econ:'Economics',fsa:'Financial statements',corp:'Corporate issuers',equity:'Equity',fi:'Fixed income',deriv:'Derivatives',alts:'Alternatives',pm:'Portfolio mgmt',ethics:'Ethics'};
 var KEY='cfa-gap-deck-v1';
 var S={topic:'all',missed:{},shuffle:true,onlyMissed:false};
-try{var raw=localStorage.getItem(KEY); if(raw){var p=JSON.parse(raw); S.missed=p.missed||{}; S.topic=p.topic||'all'; S.shuffle=p.shuffle!==false; }}catch(e){}
-function save(){try{localStorage.setItem(KEY,JSON.stringify({missed:S.missed,topic:S.topic,shuffle:S.shuffle}))}catch(e){}}
+var saved=null;
+try{var raw=localStorage.getItem(KEY); if(raw){var p=JSON.parse(raw);
+  S.missed=p.missed||{}; S.topic=p.topic||'all'; S.shuffle=p.shuffle!==false; S.onlyMissed=!!p.onlyMissed;
+  if(p.n===CARDS.length && p.order && p.order.length) saved=p;
+}}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify({
+  missed:S.missed, topic:S.topic, shuffle:S.shuffle, onlyMissed:S.onlyMissed,
+  n:CARDS.length,
+  order:deck.map(function(c){return c._i}),
+  i:i, hits:hits, misses:misses,
+  rm:roundMissed.map(function(c){return c._i}),
+  hist:hist
+}))}catch(e){}}
 
 var deck=[],i=0,flipped=false,hits=0,misses=0,roundMissed=[],hist=[];
 var el=function(id){return document.getElementById(id)};
@@ -148,12 +161,20 @@ function pool(){
   if(S.onlyMissed) a=a.filter(function(c){return S.missed[c._i]});
   return a;
 }
-function build(){
-  deck=pool();
-  if(S.shuffle) for(var k=deck.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1));var t=deck[k];deck[k]=deck[j];deck[j]=t}
-  i=0;hits=0;misses=0;roundMissed=[];hist=[];
+function byIdx(n){var c=CARDS[n]; c._i=n; return c}
+function build(resume){
+  if(resume && saved){
+    deck=saved.order.map(byIdx);
+    i=saved.i||0; hits=saved.hits||0; misses=saved.misses||0;
+    roundMissed=(saved.rm||[]).map(byIdx); hist=saved.hist||[];
+    saved=null;
+  } else {
+    deck=pool();
+    if(S.shuffle) for(var k=deck.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1));var t=deck[k];deck[k]=deck[j];deck[j]=t}
+    i=0;hits=0;misses=0;roundMissed=[];hist=[];
+  }
   el('done').hidden=true; el('stage').hidden=false;
-  render();
+  save(); render();
 }
 function chips(){
   var counts={all:CARDS.length};
@@ -240,6 +261,6 @@ document.addEventListener('keydown',function(e){
   else if(e.key==='Backspace'||e.key==='z'||e.key==='Z'){e.preventDefault();undo()}
 });
 el('shuf').classList.toggle('on',S.shuffle);
-chips(); build();
+chips(); build(true);
 })();
 </script>
