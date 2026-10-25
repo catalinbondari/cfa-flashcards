@@ -149,17 +149,17 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .tier-dance .eh{display:inline}
 .tier-wild .ew{display:inline}
 @media (prefers-reduced-motion:no-preference){
-  .tier-idle .bod{animation:m-breathe 3.4s ease-in-out infinite}
-  .tier-bob .bod{animation:m-bob .95s ease-in-out infinite}
-  .tier-dance .bod{animation:m-dance .6s ease-in-out infinite}
-  .tier-dance .armL{animation:m-waveL .6s ease-in-out infinite}
-  .tier-dance .armR{animation:m-waveR .6s ease-in-out infinite}
-  .tier-wild .bod{animation:m-wild .34s ease-in-out infinite}
-  .tier-dizzy .bod{animation:m-dizzy 1.3s ease-in-out infinite}
-  .tier-wild .armL{animation:m-waveL .34s ease-in-out infinite}
-  .tier-wild .armR{animation:m-waveR .34s ease-in-out infinite}
-  .tier-wild .legL{animation:m-kickL .34s ease-in-out infinite}
-  .tier-wild .legR{animation:m-kickR .34s ease-in-out infinite}
+  .masc:not(.moving) .bod{animation:m-breathe 3.4s ease-in-out infinite}
+  .masc.moving.tier-bob .bod{animation:m-bob .95s ease-in-out infinite}
+  .masc.moving.tier-dance .bod{animation:m-dance .6s ease-in-out infinite}
+  .masc.moving.tier-dance .armL{animation:m-waveL .6s ease-in-out infinite}
+  .masc.moving.tier-dance .armR{animation:m-waveR .6s ease-in-out infinite}
+  .masc.moving.tier-wild .bod{animation:m-wild .34s ease-in-out infinite}
+  .masc.moving.tier-dizzy .bod{animation:m-dizzy 1.3s ease-in-out infinite}
+  .masc.moving.tier-wild .armL{animation:m-waveL .34s ease-in-out infinite}
+  .masc.moving.tier-wild .armR{animation:m-waveR .34s ease-in-out infinite}
+  .masc.moving.tier-wild .legL{animation:m-kickL .34s ease-in-out infinite}
+  .masc.moving.tier-wild .legR{animation:m-kickR .34s ease-in-out infinite}
 }
 @keyframes m-breathe{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.025)}}
 @keyframes m-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
@@ -569,8 +569,14 @@ var RM=false; try{ RM=matchMedia('(prefers-reduced-motion: reduce)').matches; }c
 var QUIPS=['Gains!','Do you even lift (returns)?','Pumping alpha','σ² gang','BA II approved','Reject the null!','Compounding…','Alpha mode','p < 0.05','Fully diversified','Bull market','No arbitrage here','Efficient frontier','Beta > 1','Sharpe!'];
 var TIER_RANK={idle:0,bob:1,dance:2,wild:3,dizzy:4};
 function pick(a){ return a[Math.floor(Math.random()*a.length)]; }
-var flexOn=false;
-function setCls(){ masc.className='masc tier-'+curTier+(lcdOn?' lcdmode':'')+(flexOn?' flex':''); }
+var flexOn=false, moveOn=false;
+function setCls(){ masc.className='masc tier-'+curTier+(lcdOn?' lcdmode':'')+(flexOn?' flex':'')+(moveOn?' moving':''); }
+function startMove(){
+  var ms={idle:0,bob:1100,dance:1700,wild:2000,dizzy:1500}[curTier]||0;
+  if(!ms||!masc) return;
+  moveOn=true; setCls();
+  clearTimeout(startMove._t); startMove._t=setTimeout(function(){ moveOn=false; setCls(); }, ms);
+}
 function flex(){
   if(!masc||RM) return;
   flexOn=false; setCls(); void masc.offsetWidth; flexOn=true; setCls();
@@ -626,10 +632,12 @@ function onGrade(ok){
     if(streak>=5) bubble('Streak of '+streak+' broken',1700);
     streak=0; react('shake'); lcd(pick(['OOPS','NOPE','ERR']),850);
   }
+  startMove();
 }
 function tick(){
   if(!masc) return;
   ticks++;
+  if(!moveOn) return;
   if(curTier==='wild'){ note(); var r=Math.random(); if(r<.05) react('spin'); else if(r<.09) flex(); }
   else if(curTier==='dance' && ticks%2===0){ note(); }
 }
