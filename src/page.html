@@ -150,19 +150,14 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .tier-wild .ew{display:inline}
 @media (prefers-reduced-motion:no-preference){
   .masc:not(.moving) .bod{animation:m-breathe 3.4s ease-in-out infinite}
-  .masc.moving.tier-bob .bod{animation:m-bob .95s ease-in-out infinite}
-  .masc.moving.tier-dance .bod{animation:m-dance .6s ease-in-out infinite}
-  .masc.moving.tier-dance .armL{animation:m-waveL .6s ease-in-out infinite}
-  .masc.moving.tier-dance .armR{animation:m-waveR .6s ease-in-out infinite}
-  .masc.moving.tier-wild .bod{animation:m-wild .34s ease-in-out infinite}
-  .masc.moving.tier-dizzy .bod{animation:m-dizzy 1.3s ease-in-out infinite}
-  .masc.moving.tier-wild .armL{animation:m-waveL .34s ease-in-out infinite}
-  .masc.moving.tier-wild .armR{animation:m-waveR .34s ease-in-out infinite}
-  .masc.moving.tier-wild .legL{animation:m-kickL .34s ease-in-out infinite}
-  .masc.moving.tier-wild .legR{animation:m-kickR .34s ease-in-out infinite}
+  .masc.moving.tier-bob .bod{animation:m-bob .9s ease-in-out 1}
+  .masc.moving.tier-dance .bod,.masc.moving.tier-wild .bod{animation:m-groove .9s ease-in-out 1}
+  .masc.moving.tier-dance .armL,.masc.moving.tier-wild .armL{animation:m-softL .9s ease-in-out 1}
+  .masc.moving.tier-dance .armR,.masc.moving.tier-wild .armR{animation:m-softR .9s ease-in-out 1}
+  .masc.moving.tier-dizzy .bod{animation:m-dizzy 1.2s ease-in-out 1}
 }
 @keyframes m-breathe{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.025)}}
-@keyframes m-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes m-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
 @keyframes m-dance{0%,100%{transform:translateY(0) rotate(-9deg)}25%{transform:translateY(-9px) rotate(0)}50%{transform:translateY(0) rotate(9deg)}75%{transform:translateY(-9px) rotate(0)}}
 @keyframes m-wild{0%,100%{transform:translateY(0) rotate(-16deg) scale(1)}25%{transform:translateY(-16px) rotate(0) scale(1.08,.95)}50%{transform:translateY(0) rotate(16deg) scale(1)}75%{transform:translateY(-16px) rotate(0) scale(.95,1.08)}}
 @keyframes m-waveL{0%,100%{transform:rotate(0)}50%{transform:rotate(-55deg)}}
@@ -197,10 +192,13 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 @keyframes m-flexL{0%{transform:rotate(0)}22%,80%{transform:rotate(132deg)}100%{transform:rotate(0)}}
 @keyframes m-flexR{0%{transform:rotate(0)}22%,80%{transform:rotate(-132deg)}100%{transform:rotate(0)}}
 @keyframes m-pump{0%,100%{transform:scale(1)}50%{transform:scale(1.45)}}
-@keyframes m-dizzy{0%,100%{transform:rotate(-11deg) translateX(-3px)}50%{transform:rotate(11deg) translateX(3px)}}
+@keyframes m-dizzy{0%,100%{transform:rotate(0)}30%{transform:rotate(-6deg)}70%{transform:rotate(6deg)}}
+@keyframes m-groove{0%,100%{transform:translateY(0) rotate(0)}30%{transform:translateY(-4px) rotate(-4deg)}70%{transform:translateY(-4px) rotate(4deg)}}
+@keyframes m-softL{0%,100%{transform:rotate(0)}50%{transform:rotate(-26deg)}}
+@keyframes m-softR{0%,100%{transform:rotate(0)}50%{transform:rotate(26deg)}}
 @keyframes m-blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.12)}}
-@keyframes m-hop{0%{transform:translateY(0)}42%{transform:translateY(-20px) scale(1.08)}72%{transform:translateY(0) scale(1.06,.94)}100%{transform:translateY(0)}}
-@keyframes m-shake{0%,100%{transform:rotate(0)}20%{transform:rotate(-13deg)}40%{transform:rotate(11deg)}60%{transform:rotate(-7deg)}80%{transform:rotate(4deg)}}
+@keyframes m-hop{0%{transform:translateY(0)}45%{transform:translateY(-8px)}100%{transform:translateY(0)}}
+@keyframes m-shake{0%,100%{transform:rotate(0)}25%{transform:rotate(-6deg)}75%{transform:rotate(6deg)}}
 @keyframes m-spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
 @keyframes m-conf{0%{opacity:1;transform:translate(0,0) rotate(0)}100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(var(--rot))}}
 @keyframes m-note{0%{opacity:0;transform:translate(0,0) rotate(0)}15%{opacity:1}100%{opacity:0;transform:translate(var(--dx),-78px) rotate(var(--rot))}}
@@ -572,9 +570,10 @@ function pick(a){ return a[Math.floor(Math.random()*a.length)]; }
 var flexOn=false, moveOn=false;
 function setCls(){ masc.className='masc tier-'+curTier+(lcdOn?' lcdmode':'')+(flexOn?' flex':'')+(moveOn?' moving':''); }
 function startMove(){
-  var ms={idle:0,bob:1100,dance:1700,wild:2000,dizzy:1500}[curTier]||0;
+  var ms={idle:0,bob:900,dance:950,wild:950,dizzy:1200}[curTier]||0;
   if(!ms||!masc) return;
   moveOn=true; setCls();
+  if(curTier==='dance'||curTier==='wild') note();
   clearTimeout(startMove._t); startMove._t=setTimeout(function(){ moveOn=false; setCls(); }, ms);
 }
 function flex(){
@@ -638,8 +637,7 @@ function tick(){
   if(!masc) return;
   ticks++;
   if(!moveOn) return;
-  if(curTier==='wild'){ note(); var r=Math.random(); if(r<.05) react('spin'); else if(r<.09) flex(); }
-  else if(curTier==='dance' && ticks%2===0){ note(); }
+
 }
 function recordPace(){
   var now=Date.now();
