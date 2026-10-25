@@ -616,7 +616,7 @@ function tick(){
 }
 function recordPace(){
   var now=Date.now();
-  if(lastMark){ var g=(now-lastMark)/1000; if(g<900){ gaps.push(g); if(gaps.length>5) gaps.shift(); } }
+  if(lastMark){ var g=(now-lastMark)/1000; if(g>=1.5 && g<900){ gaps.push(g); if(gaps.length>5) gaps.shift(); } }
   lastMark=now; updateMascot();
 }
 function updateMascot(){
@@ -630,7 +630,7 @@ function updateMascot(){
   lastTier=tier; curTier=tier; setCls();
   var lbl;
   if(avg===Infinity) lbl = lastMark ? 'waiting…' : 'warming up';
-  else lbl = Math.round(3600/avg)+' cards/hr';
+  else { var ph=Math.round(3600/avg); lbl=(ph>600?'600+':ph)+' cards/hr'; }
   if(streak>=2) lbl='x'+streak+' · '+lbl;
   el('pace').textContent=lbl;
 }
