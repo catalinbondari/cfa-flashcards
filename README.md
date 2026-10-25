@@ -1,6 +1,6 @@
 # CFA gap deck
 
-499 flashcards for CFA Level I, built from handwritten revision notes — the terms
+502 flashcards for CFA Level I, built from handwritten revision notes — the terms
 that were actually missed in practice, kept in the original wording.
 
 **Open it:** https://catalinbondari.github.io/cfa-flashcards/
@@ -22,7 +22,7 @@ Keyboard: `space` flip · `←` missed · `→` got it · `z` undo
 | Financial statements | 103 |
 | Fixed income | 77 |
 | Equity | 62 |
-| Quant methods | 55 |
+| Quant methods | 58 |
 | Portfolio management | 51 |
 | Ethics | 45 |
 | Alternatives | 36 |
