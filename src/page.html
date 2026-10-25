@@ -4,37 +4,29 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Caveat:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: one column, card centred, controls pinned under it. Biro-on-paper palette. */
+/* Dark by default. Light only when explicitly chosen. */
 :root{
+  --paper:#131519; --surface:#1b1e24; --raised:#21252c;
+  --ink:#e9e7e2; --ink-soft:#9d9a92; --ink-faint:#74716b;
+  --rule:#2b2f37; --rule-soft:#23272e;
+  --accent:#86a9ec; --accent-soft:#1d2840;
+  --miss:#e9797f; --miss-soft:#361e21;
+  --hit:#6fc79d; --hit-soft:#1a2f26;
+  --mbody:#5b6472; --mkey:#7d8696; --mkey2:#e08b4f; --mlcd:#c9d8b4; --mink:#24301c; --mband:#e2453c; --mskin:#6a7381;
+  --fs:'Archivo',system-ui,-apple-system,sans-serif;
+  --fm:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  --fh:'Caveat','Bradley Hand','Segoe Script',Georgia,serif;
+  color-scheme:dark;
+}
+:root[data-theme="light"]{
   --paper:#f6f4ef; --surface:#fff; --raised:#fbfaf7;
   --ink:#1b1a18; --ink-soft:#5e5b55; --ink-faint:#8b8781;
   --rule:#e3dfd6; --rule-soft:#eeebe4;
   --accent:#1f4ea8; --accent-soft:#e9eefc;
   --miss:#b02530; --miss-soft:#fbeaeb;
   --hit:#1d6b49; --hit-soft:#e4f1ea;
-  --fs:'Archivo',system-ui,-apple-system,sans-serif;
-  --fm:'IBM Plex Mono',ui-monospace,Menlo,monospace;
-  --fh:'Caveat','Bradley Hand','Segoe Script',Georgia,serif;
-  --mbody:#2f3540; --mkey:#4b5361; --mkey2:#c2703d; --mlcd:#c9d8b4; --mink:#24301c;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --paper:#131519; --surface:#1b1e24; --raised:#21252c;
-  --ink:#e9e7e2; --ink-soft:#9d9a92; --ink-faint:#74716b;
-  --rule:#2b2f37; --rule-soft:#23272e;
-  --accent:#86a9ec; --accent-soft:#1d2840;
-  --miss:#e9797f; --miss-soft:#361e21;
-  --hit:#6fc79d; --hit-soft:#1a2f26;
-  --mbody:#59616f; --mkey:#7a8392; --mkey2:#d98a52; --mlcd:#c9d8b4; --mink:#24301c;
-  color-scheme:dark;
-}}
-:root[data-theme="dark"]{
-  --paper:#131519; --surface:#1b1e24; --raised:#21252c;
-  --ink:#e9e7e2; --ink-soft:#9d9a92; --ink-faint:#74716b;
-  --rule:#2b2f37; --rule-soft:#23272e;
-  --accent:#86a9ec; --accent-soft:#1d2840;
-  --miss:#e9797f; --miss-soft:#361e21;
-  --hit:#6fc79d; --hit-soft:#1a2f26;
-  --mbody:#59616f; --mkey:#7a8392; --mkey2:#d98a52; --mlcd:#c9d8b4; --mink:#24301c;
-  color-scheme:dark;
+  --mbody:#2f3540; --mkey:#4b5361; --mkey2:#c2703d; --mlcd:#c9d8b4; --mink:#24301c; --mband:#c8352d; --mskin:#3c4350;
+  color-scheme:light;
 }
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--fs);margin:0;-webkit-text-size-adjust:100%}
@@ -138,7 +130,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .codeerr{margin:0;font-size:12.5px;color:var(--miss)}
 .mini button.saved{border-color:var(--hit);color:var(--hit);background:var(--hit-soft)}
 
-.masc{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));width:98px;pointer-events:none;z-index:5;display:flex;flex-direction:column;align-items:center;gap:2px}
+.masc{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));width:112px;pointer-events:none;z-index:5;display:flex;flex-direction:column;align-items:center;gap:2px}
 .masc svg{width:100%;height:auto;overflow:visible}
 .pace{font-family:var(--fm);font-size:10.5px;padding:2px 7px;border-radius:999px;background:var(--surface);border:1px solid var(--rule);color:var(--ink-faint);white-space:nowrap;font-variant-numeric:tabular-nums}
 .tier-dance .pace{color:var(--accent);border-color:var(--accent)}
@@ -172,7 +164,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 @keyframes m-waveR{0%,100%{transform:rotate(0)}50%{transform:rotate(55deg)}}
 @keyframes m-kickL{0%,100%{transform:rotate(0)}50%{transform:rotate(22deg)}}
 @keyframes m-kickR{0%,100%{transform:rotate(0)}50%{transform:rotate(-22deg)}}
-@media (max-width:520px){.masc{width:68px}.pace{font-size:9.5px}.bub{font-size:11px}}
+@media (max-width:520px){.masc{width:74px}.pace{font-size:9.5px}.bub{font-size:11px}}
 .masc .react{transform-box:view-box;transform-origin:40px 98px}
 .masc .blink{transform-box:fill-box;transform-origin:center}
 .lcdt{display:none}
@@ -191,6 +183,15 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
   .conf{animation:m-conf 1s cubic-bezier(.15,.7,.3,1) forwards}
   .mnote{animation:m-note 1.45s ease-out forwards}
 }
+.masc .bic{transform-box:fill-box;transform-origin:center}
+@media (prefers-reduced-motion:no-preference){
+  .masc.flex .armL{animation:m-flexL 1.25s cubic-bezier(.3,1.3,.5,1) forwards}
+  .masc.flex .armR{animation:m-flexR 1.25s cubic-bezier(.3,1.3,.5,1) forwards}
+  .masc.flex .bic{animation:m-pump .42s ease-in-out .3s 2}
+}
+@keyframes m-flexL{0%{transform:rotate(0)}22%,80%{transform:rotate(132deg)}100%{transform:rotate(0)}}
+@keyframes m-flexR{0%{transform:rotate(0)}22%,80%{transform:rotate(-132deg)}100%{transform:rotate(0)}}
+@keyframes m-pump{0%,100%{transform:scale(1)}50%{transform:scale(1.45)}}
 @keyframes m-blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.12)}}
 @keyframes m-hop{0%{transform:translateY(0)}42%{transform:translateY(-20px) scale(1.08)}72%{transform:translateY(0) scale(1.06,.94)}100%{transform:translateY(0)}}
 @keyframes m-shake{0%,100%{transform:rotate(0)}20%{transform:rotate(-13deg)}40%{transform:rotate(11deg)}60%{transform:rotate(-7deg)}80%{transform:rotate(4deg)}}
@@ -300,12 +301,13 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
   <div class="pace" id="pace">warming up</div>
   <svg viewBox="0 0 80 104">
     <g class="react"><g class="bod">
-      <g class="legL"><rect x="24" y="78" width="9" height="18" rx="3.5" fill="var(--mbody)"/></g>
-      <g class="legR"><rect x="47" y="78" width="9" height="18" rx="3.5" fill="var(--mbody)"/></g>
-      <g class="armL"><path d="M16 44 Q5 42 4 55" fill="none" stroke="var(--mbody)" stroke-width="4.5" stroke-linecap="round"/></g>
-      <g class="armR"><path d="M64 44 Q75 42 76 55" fill="none" stroke="var(--mbody)" stroke-width="4.5" stroke-linecap="round"/></g>
+      <g class="legL"><rect x="21.5" y="77" width="13" height="19" rx="4.5" fill="var(--mbody)"/><rect x="19" y="93" width="17" height="6" rx="3" fill="var(--mskin)"/></g>
+      <g class="legR"><rect x="45.5" y="77" width="13" height="19" rx="4.5" fill="var(--mbody)"/><rect x="44" y="93" width="17" height="6" rx="3" fill="var(--mskin)"/></g>
+      <g class="armL"><path d="M16 43 Q4 47 5 63" fill="none" stroke="var(--mbody)" stroke-width="7" stroke-linecap="round"/><ellipse class="bic" cx="8.6" cy="51" rx="5.4" ry="4.6" fill="var(--mskin)"/><circle cx="5" cy="64" r="4.6" fill="var(--mskin)"/></g>
+      <g class="armR"><path d="M64 43 Q76 47 75 63" fill="none" stroke="var(--mbody)" stroke-width="7" stroke-linecap="round"/><ellipse class="bic" cx="71.4" cy="51" rx="5.4" ry="4.6" fill="var(--mskin)"/><circle cx="75" cy="64" r="4.6" fill="var(--mskin)"/></g>
       <rect x="14" y="6" width="52" height="76" rx="9" fill="var(--mbody)"/>
       <rect x="20" y="12" width="40" height="21" rx="3" fill="var(--mlcd)"/>
+      <g class="band"><rect x="15.5" y="6.5" width="49" height="4.6" rx="2" fill="var(--mband)"/><path d="M64 8 L72 4.5 L70.5 9 L73 12.5 L64 10.6 Z" fill="var(--mband)"/></g>
       <text class="lcdt" x="40" y="26.6" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" font-weight="700" fill="var(--mink)"></text>
       <g class="en"><g class="blink"><circle cx="31" cy="21" r="2.4" fill="var(--mink)"/><circle cx="49" cy="21" r="2.4" fill="var(--mink)"/></g><path d="M35 27 Q40 29.5 45 27" fill="none" stroke="var(--mink)" stroke-width="1.6" stroke-linecap="round"/></g>
       <g class="eh"><path d="M27.5 22 Q31 17.5 34.5 22" fill="none" stroke="var(--mink)" stroke-width="2" stroke-linecap="round"/><path d="M45.5 22 Q49 17.5 52.5 22" fill="none" stroke="var(--mink)" stroke-width="2" stroke-linecap="round"/><path d="M34 26 Q40 31 46 26" fill="none" stroke="var(--mink)" stroke-width="1.8" stroke-linecap="round"/></g>
@@ -535,10 +537,16 @@ function openSrc(){
 }
 var masc=null, lastMark=0, gaps=[], streak=0, best=0, lastTier='idle', curTier='idle', lcdOn=false, ticks=0;
 var RM=false; try{ RM=matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){}
-var QUIPS=['σ² gang','BA II approved','Reject the null!','Compounding…','Alpha mode','p < 0.05','Fully diversified','Bull market','No arbitrage here','Efficient frontier','Beta > 1','Sharpe!'];
+var QUIPS=['Gains!','Do you even lift (returns)?','Pumping alpha','σ² gang','BA II approved','Reject the null!','Compounding…','Alpha mode','p < 0.05','Fully diversified','Bull market','No arbitrage here','Efficient frontier','Beta > 1','Sharpe!'];
 var TIER_RANK={idle:0,bob:1,dance:2,wild:3};
 function pick(a){ return a[Math.floor(Math.random()*a.length)]; }
-function setCls(){ masc.className='masc tier-'+curTier+(lcdOn?' lcdmode':''); }
+var flexOn=false;
+function setCls(){ masc.className='masc tier-'+curTier+(lcdOn?' lcdmode':'')+(flexOn?' flex':''); }
+function flex(){
+  if(!masc||RM) return;
+  flexOn=false; setCls(); void masc.offsetWidth; flexOn=true; setCls();
+  clearTimeout(flex._t); flex._t=setTimeout(function(){ flexOn=false; setCls(); },1300);
+}
 function react(cls){
   if(!masc) return;
   var r=masc.querySelector('.react');
@@ -580,7 +588,7 @@ function onGrade(ok){
   if(ok){
     streak++; if(streak>best) best=streak;
     if(streak%5===0){
-      confetti(streak>=15?34:24); react('spin'); lcd('x'+streak+'!',1500);
+      confetti(streak>=15?34:24); flex(); lcd('x'+streak+'!',1500);
       bubble(streak>=20?'Unstoppable · '+streak+' in a row':streak>=10?pick(QUIPS)+' · '+streak+' streak':pick(QUIPS),2200);
     } else {
       react('hop'); lcd(streak>=2?'x'+streak:'+1',720);
@@ -593,7 +601,7 @@ function onGrade(ok){
 function tick(){
   if(!masc) return;
   ticks++;
-  if(curTier==='wild'){ note(); if(Math.random()<.07) react('spin'); }
+  if(curTier==='wild'){ note(); var r=Math.random(); if(r<.05) react('spin'); else if(r<.09) flex(); }
   else if(curTier==='dance' && ticks%2===0){ note(); }
 }
 function recordPace(){
