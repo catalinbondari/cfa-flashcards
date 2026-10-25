@@ -150,7 +150,11 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .masc .armR{transform-box:view-box;transform-origin:65px 44px}
 .masc .legL{transform-box:view-box;transform-origin:28px 82px}
 .masc .legR{transform-box:view-box;transform-origin:52px 82px}
-.eh,.ew{display:none}
+.eh,.ew,.ed{display:none}
+.tier-dizzy .en{display:none}
+.tier-dizzy .ed{display:inline}
+.masc.lcdmode .ed{display:none!important}
+.tier-dizzy .pace{color:var(--miss);border-color:var(--miss)}
 .tier-dance .en,.tier-wild .en{display:none}
 .tier-dance .eh{display:inline}
 .tier-wild .ew{display:inline}
@@ -161,6 +165,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
   .tier-dance .armL{animation:m-waveL .6s ease-in-out infinite}
   .tier-dance .armR{animation:m-waveR .6s ease-in-out infinite}
   .tier-wild .bod{animation:m-wild .34s ease-in-out infinite}
+  .tier-dizzy .bod{animation:m-dizzy 1.3s ease-in-out infinite}
   .tier-wild .armL{animation:m-waveL .34s ease-in-out infinite}
   .tier-wild .armR{animation:m-waveR .34s ease-in-out infinite}
   .tier-wild .legL{animation:m-kickL .34s ease-in-out infinite}
@@ -202,6 +207,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 @keyframes m-flexL{0%{transform:rotate(0)}22%,80%{transform:rotate(132deg)}100%{transform:rotate(0)}}
 @keyframes m-flexR{0%{transform:rotate(0)}22%,80%{transform:rotate(-132deg)}100%{transform:rotate(0)}}
 @keyframes m-pump{0%,100%{transform:scale(1)}50%{transform:scale(1.45)}}
+@keyframes m-dizzy{0%,100%{transform:rotate(-11deg) translateX(-3px)}50%{transform:rotate(11deg) translateX(3px)}}
 @keyframes m-blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.12)}}
 @keyframes m-hop{0%{transform:translateY(0)}42%{transform:translateY(-20px) scale(1.08)}72%{transform:translateY(0) scale(1.06,.94)}100%{transform:translateY(0)}}
 @keyframes m-shake{0%,100%{transform:rotate(0)}20%{transform:rotate(-13deg)}40%{transform:rotate(11deg)}60%{transform:rotate(-7deg)}80%{transform:rotate(4deg)}}
@@ -321,6 +327,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
       <text class="lcdt" x="40" y="26.6" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" font-weight="700" fill="var(--mink)"></text>
       <g class="en"><g class="blink"><circle cx="31" cy="21" r="2.4" fill="var(--mink)"/><circle cx="49" cy="21" r="2.4" fill="var(--mink)"/></g><path d="M35 27 Q40 29.5 45 27" fill="none" stroke="var(--mink)" stroke-width="1.6" stroke-linecap="round"/></g>
       <g class="eh"><path d="M27.5 22 Q31 17.5 34.5 22" fill="none" stroke="var(--mink)" stroke-width="2" stroke-linecap="round"/><path d="M45.5 22 Q49 17.5 52.5 22" fill="none" stroke="var(--mink)" stroke-width="2" stroke-linecap="round"/><path d="M34 26 Q40 31 46 26" fill="none" stroke="var(--mink)" stroke-width="1.8" stroke-linecap="round"/></g>
+      <g class="ed"><path d="M28 18 L34 24 M34 18 L28 24" stroke="var(--mink)" stroke-width="2" stroke-linecap="round"/><path d="M46 18 L52 24 M52 18 L46 24" stroke="var(--mink)" stroke-width="2" stroke-linecap="round"/><path d="M34 28.5 Q36.5 26.5 39 28.5 T44 28.5 T47 28" fill="none" stroke="var(--mink)" stroke-width="1.6" stroke-linecap="round"/></g>
       <g class="ew"><path d="M31 17 L32.2 20 L35 20.3 L32.8 22 L33.6 25 L31 23.2 L28.4 25 L29.2 22 L27 20.3 L29.8 20 Z" fill="var(--mink)"/><path d="M49 17 L50.2 20 L53 20.3 L50.8 22 L51.6 25 L49 23.2 L46.4 25 L47.2 22 L45 20.3 L47.8 20 Z" fill="var(--mink)"/><ellipse cx="40" cy="28.5" rx="4" ry="2.6" fill="var(--mink)"/></g>
       <rect x="20" y="39" width="9" height="6" rx="1.5" fill="var(--mkey)"/><rect x="31.5" y="39" width="9" height="6" rx="1.5" fill="var(--mkey)"/><rect x="43" y="39" width="9" height="6" rx="1.5" fill="var(--mkey)"/><rect x="54" y="39" width="6" height="6" rx="1.5" fill="var(--mkey2)"/>
       <rect x="20" y="49" width="9" height="6" rx="1.5" fill="var(--mkey)"/><rect x="31.5" y="49" width="9" height="6" rx="1.5" fill="var(--mkey)"/><rect x="43" y="49" width="9" height="6" rx="1.5" fill="var(--mkey)"/><rect x="54" y="49" width="6" height="6" rx="1.5" fill="var(--mkey)"/>
@@ -403,7 +410,29 @@ var NAMES = {quant:'Quant',econ:'Economics',fsa:'Financial statements',corp:'Cor
 var KEY='cfa-gap-deck-v1';
 var S={topic:'all',missed:{},shuffle:false,onlyMissed:false};
 var saved=null;
-try{var raw=localStorage.getItem(KEY); if(raw){var p=JSON.parse(raw);
+function migrate(p){
+  /* 499 -> 502: old card 12 (merged means) became new cards 12-15; everything after shifted by 3 */
+  if(p && p.n===499 && CARDS.length===502){
+    var mi=function(i){ i=+i; return i<12?i:i===12?12:i+3; };
+    var nm={};
+    Object.keys(p.missed||{}).forEach(function(k){ var i=+k; nm[mi(i)]=1; if(i===12){ nm[13]=1; nm[14]=1; nm[15]=1; } });
+    p.missed=nm;
+    if(p.order){
+      var no=[], pos=0;
+      p.order.forEach(function(i,ix){
+        var add = (+i===12)?[12,13,14,15]:[mi(i)];
+        if(ix<(p.i||0)) pos+=add.length;
+        no.push.apply(no,add);
+      });
+      p.order=no; p.i=pos;
+    }
+    if(p.rm) p.rm=p.rm.map(mi);
+    p.hist=[];
+    p.n=502;
+  }
+  return p;
+}
+try{var raw=localStorage.getItem(KEY); if(raw){var p=migrate(JSON.parse(raw));
   S.missed=p.missed||{}; S.topic=p.topic||'all'; S.shuffle=!!p.shuffle; S.onlyMissed=!!p.onlyMissed;
   if(p.n===CARDS.length && p.order && p.order.length) saved=p;
 }}catch(e){}
@@ -548,7 +577,7 @@ function openSrc(){
 var masc=null, lastMark=0, gaps=[], streak=0, best=0, lastTier='idle', curTier='idle', lcdOn=false, ticks=0;
 var RM=false; try{ RM=matchMedia('(prefers-reduced-motion: reduce)').matches; }catch(e){}
 var QUIPS=['Gains!','Do you even lift (returns)?','Pumping alpha','σ² gang','BA II approved','Reject the null!','Compounding…','Alpha mode','p < 0.05','Fully diversified','Bull market','No arbitrage here','Efficient frontier','Beta > 1','Sharpe!'];
-var TIER_RANK={idle:0,bob:1,dance:2,wild:3};
+var TIER_RANK={idle:0,bob:1,dance:2,wild:3,dizzy:4};
 function pick(a){ return a[Math.floor(Math.random()*a.length)]; }
 var flexOn=false;
 function setCls(){ masc.className='masc tier-'+curTier+(lcdOn?' lcdmode':'')+(flexOn?' flex':''); }
@@ -621,16 +650,16 @@ function recordPace(){
 }
 function updateMascot(){
   if(!masc) return;
-  var stale = !lastMark || (Date.now()-lastMark)/1000 > 50;
+  var stale = !lastMark || (Date.now()-lastMark)/1000 > 150;
   var avg = (!stale && gaps.length) ? gaps.reduce(function(a,b){return a+b},0)/gaps.length : Infinity;
-  var tier = avg<12?'wild':avg<25?'dance':avg<45?'bob':'idle';
+  var tier = avg<7.2?'dizzy':avg<24?'wild':avg<60?'dance':avg<120?'bob':'idle';
   if(TIER_RANK[tier]>TIER_RANK[lastTier] && tier!=='bob'){
-    bubble(tier==='wild'?'On fire':'Picking up speed',1600);
+    bubble(tier==='dizzy'?pick(['Whoa, actually read them!','Slow down, speed racer','Are you even reading?']):tier==='wild'?'On fire':'On target — keep it up',2000);
   }
   lastTier=tier; curTier=tier; setCls();
   var lbl;
   if(avg===Infinity) lbl = lastMark ? 'waiting…' : 'warming up';
-  else { var ph=Math.round(3600/avg); lbl=(ph>600?'600+':ph)+' cards/hr'; }
+  else { var ph=Math.round(3600/avg); lbl=(ph>999?'999+':ph)+' cards/hr'; }
   if(streak>=2) lbl='x'+streak+' · '+lbl;
   el('pace').textContent=lbl;
 }
