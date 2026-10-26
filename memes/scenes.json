@@ -1,0 +1,2512 @@
+{
+ "0": {
+  "emoji": "📈",
+  "scene": "A big ending-price block wearing dividend coins as a hat sits above a tiny starting block. A dentist yanks the whole fraction out by its n-th root, then bins one block (−1).",
+  "prompt": "Cartoon: a large block topped with gold coins sits on a tiny block, a fraction-like stack; a dentist with pliers pulls a root-shaped tooth from the stack while a single small block drops into a bin."
+ },
+ "1": {
+  "emoji": "🌉",
+  "scene": "A dividend pizza hovers over a narrow bridge gap: required return minus growth gnome. Tiny gap, giant price balloon. For a perpetuity the gnome is sent home, leaving only R.",
+  "prompt": "Cartoon: a giant pizza floats on a huge swelling balloon above a very narrow gap between two cliffs; a tall cliff on the left, a small gnome standing on a slightly shorter cliff on the right making the gap tiny."
+ },
+ "2": {
+  "emoji": "🦘",
+  "scene": "A kangaroo does one two-year leap, squared. It lands exactly where a first one-year hop followed by a second hop, the forward rate, lands.",
+  "prompt": "Cartoon: a kangaroo mid-air in one long double-length leap; beside it, a second kangaroo makes two consecutive short hops, the second hop highlighted in a different colour. Both land at the same flag."
+ },
+ "3": {
+  "emoji": "🚀",
+  "scene": "A banknote rides an e-shaped rocket fuelled by price-currency interest minus base-currency interest, burning for t hours. Price rate higher: rocket climbs; base rate higher: it sinks.",
+  "prompt": "Cartoon: a banknote strapped to a rocket shaped like a curly letter-less loop; two fuel tanks, one big one small, feed it through a pipe with a clock-timer; the rocket climbs when the left tank is larger."
+ },
+ "4": {
+  "emoji": "🪢",
+  "scene": "A short bouncy option-spring (up minus down) sits above a long stock-spring (up minus down). The fraction says how much stock to hold to cancel the option's bounce.",
+  "prompt": "Cartoon: two springs stacked, a short one on top, a tall one beneath, each shown stretched up and compressed down with measuring arrows; a broker holds a fraction of a share to balance the short spring."
+ },
+ "5": {
+  "emoji": "🕵️",
+  "scene": "A detective measures the gap between sample-mean flag and hypothesised flag, then divides by a wobble sitting on a square-root tree trunk. Bigger sample, thicker trunk, smaller wobble.",
+  "prompt": "Cartoon: a detective with magnifier measures the gap between two flags with a tape; below the gap, a wobbling blob stands on a tree trunk shaped like a root sign; a bigger crowd makes the trunk thicker."
+ },
+ "6": {
+  "emoji": "🍵",
+  "scene": "Everything carrying a mean — sample means, differences, slopes — arrives at the party wearing a big T on its shirt and sipping tea. Anything with a mean is t-distributed.",
+  "prompt": "Cartoon: a queue of partygoers carrying small average-shaped flags, each wearing a shirt with a big teapot picture and sipping tea from cups, at a party table."
+ },
+ "7": {
+  "emoji": "📦",
+  "scene": "One lonely variance sits caged in a single square box shaped like a lopsided slide: steep on the left, long tail to the right. One variance, one chi-square.",
+  "prompt": "Cartoon: a lonely round character sits inside a single square cage; the cage has a lopsided slide shape, steep on the left and a long gentle tail to the right."
+ },
+ "8": {
+  "emoji": "🥊",
+  "scene": "Two variances climb into a boxing ring, one standing on the other's shoulders as a ratio. F is for Fight: comparing two variances is F-distributed.",
+  "prompt": "Cartoon: two wobbly jelly characters in a boxing ring, one standing on the other's shoulders as a ratio stack; a referee watches and a fierce flame decorates the corner post."
+ },
+ "9": {
+  "emoji": "🎯",
+  "scene": "Correlation R shoots up on top boosted by root of n minus two; underneath hangs root of one minus R-squared. Strong R, tiny bottom, huge t. Two points are pinned down.",
+  "prompt": "Cartoon: a rocket labelled by a tall arrow sits on top of a fraction bar; underneath, a small root-shaped plant hangs; two pins nail two dots to a board at the side, a few dots free."
+ },
+ "10": {
+  "emoji": "🔨",
+  "scene": "A gavel-guard slides the significance bar down notch by notch; the null statue keeps getting smashed until the bar drops below the evidence. Lowest smashing notch = p-value. Smaller p, stronger evidence.",
+  "prompt": "Cartoon: a tall pole with many notches and a sliding red bar moving downward; a stone statue on a pedestal being smashed by a giant hammer; a cartoon detective sticks a glowing pin into the lowest notch where the hammer still reaches the statue."
+ },
+ "11": {
+  "emoji": "🛝",
+  "scene": "A slide starts at height a (intercept), tilted with steepness beta per step of the market x. A naughty error imp shoves each rider off the line.",
+  "prompt": "Cartoon: a playground slide starting at a platform on a vertical pole, tilted upward along a gentle line; riders sit near the line, an imp pushes each rider slightly off to the side."
+ },
+ "12": {
+  "emoji": "🪣",
+  "scene": "Friends pour all their returns into one bucket, then split it equally among n heads. One period's expected return: add up, divide by count.",
+  "prompt": "Cartoon: several friends pour coins into one large bucket, then the coins are divided into equal piles for the same number of friends standing in a row."
+ },
+ "13": {
+  "emoji": "🍎",
+  "scene": "A shopper spends one fixed euro note each week: cheap weeks bring a pile of apples, dear weeks a single apple. Average price is n over the sum of flipped prices, pulled low.",
+  "prompt": "Cartoon: a shopper hands over the same banknote each week; four stalls in a row, one with a huge pile of apples, one with a single apple, others in between; apples flipped upside down on a scale."
+ },
+ "14": {
+  "emoji": "⛄",
+  "scene": "A snowball rolls downhill, multiplied by 1 plus return each period. Then the n-th root is squeezed out and one snowball is removed. What you really earned by compounding.",
+  "prompt": "Cartoon: a snowball growing as it rolls down a slope, each stage bigger; at the bottom a character squeezes it like a juicer through a root-shaped press and tosses a small snowball aside."
+ },
+ "15": {
+  "emoji": "🧍",
+  "scene": "Three triplets stand in height order: Harry Harmonic the shortest, Geo Geometric in the middle, Arthur Arithmetic the tallest. Clone them and all stand equal.",
+  "prompt": "Cartoon: three similar characters lined up from shortest to tallest on a stage; beside them, three identical clones stand at exactly equal height."
+ },
+ "16": {
+  "emoji": "📅",
+  "scene": "Take your holding-period seedling and raise it to a tower exponent: 365 on top, holding days below. Hold only a month and the power balloons enormous.",
+  "prompt": "Cartoon: a small plant growing on a calendar page, with a tall tower of stacked blocks above it; a small number of calendar days underneath makes the tower huge."
+ },
+ "17": {
+  "emoji": "🔫",
+  "scene": "A price coin is fired into a giant e-shaped cannon powered by continuous return R and comes out bigger. A mole, ln, tunnels back the other way, undoing it.",
+  "prompt": "Cartoon: a coin shot into a curly cannon and emerging as a larger coin; beside it a mole tunnels back through the ground carrying the larger coin down to the original size."
+ },
+ "18": {
+  "emoji": "🧱",
+  "scene": "Two growth crates, one plus R1 and one plus R2, are glued together by multiplication. Then the single ground-floor plank is removed, leaving only the gain.",
+  "prompt": "Cartoon: two crates of different heights are glued side by side into one tall block; a worker pulls a single flat plank from the bottom and tosses it away."
+ },
+ "19": {
+  "emoji": "🚶",
+  "scene": "A queue of n people plus one ghost at the end. Walk forward the percentile fraction of that line. Where you stop is the position of your percentile.",
+  "prompt": "Cartoon: a row of people with a translucent ghost at the end; a walker strides along the line and stops after a fraction of its length, a marker flag planted on the spot."
+ },
+ "20": {
+  "emoji": "🎢",
+  "scene": "A wobbling tightrope walker rides on the shoulders of a stocky bulldog: wobble divided by mean, risk per unit of average. Owner reads it off the BA II Plus in STAT mode.",
+  "prompt": "Cartoon: a wobbling tightrope walker stands on the shoulders of a stocky bulldog; a handheld financial calculator glows nearby, its screen showing the ratio as a small bar."
+ },
+ "21": {
+  "emoji": "💃",
+  "scene": "Dancers who slip below the limbo bar at target B are measured and squared, but the sum is split among every dancer, including those who stayed above. Total n minus one.",
+  "prompt": "Cartoon: a limbo bar with a handful of dancers sliding below it, each measured with a ruler and squared in a big square; the pile of squares is divided among the entire full crowd of dancers."
+ },
+ "22": {
+  "emoji": "🪑",
+  "scene": "Each person's gap to the mean flag is squared into a big mat. A whole village splits the mats by n; a sample of visitors splits by n minus one: one chair removed.",
+  "prompt": "Cartoon: people standing at different distances from a flag, each spreading a large square mat; one group of whole villagers sits on chairs, a second smaller group has one empty chair removed."
+ },
+ "23": {
+  "emoji": "🎡",
+  "scene": "A prize wheel with fat and thin slices: each slice's probability sizes a stamp, which stamps its squared distance from the expected-value flag. Add all stamps; likelier slices hit harder.",
+  "prompt": "Cartoon: a prize wheel with slices of different sizes; each slice has a rubber stamp of matching size stamping a square beside an expected-value flag; the stamped squares are stacked together."
+ },
+ "24": {
+  "emoji": "🔄",
+  "scene": "A detective flips the arrow: how often the clue shows up given the culprit, times how common the culprit is, divided by how common the clue is overall.",
+  "prompt": "Cartoon: a detective turns a big arrow around from pointing right to pointing left; a culprit figure and a footprint clue sit on either side; a fraction of two crowds beneath."
+ },
+ "25": {
+  "emoji": "🐕",
+  "scene": "Two dogs: each bark is squared weight times squared wobble. Between them a double-thick leash whose slack is rho. Enemy dogs, negative rho, pull variance down.",
+  "prompt": "Cartoon: two dogs of different sizes, each with a square-shaped speech bubble of barks; a thick doubled leash connects them with a small dial on it; the dogs on the leash turn away from each other."
+ },
+ "26": {
+  "emoji": "🎛️",
+  "scene": "Two dancers swing sticks of different lengths; multiply the sticks, then a dial from minus one to plus one throttles the result. Dial at zero: no joint movement.",
+  "prompt": "Cartoon: two dancers with sticks of different lengths, the sticks joined into a rectangle shape; a large dial with a needle sits between them; the needle points to the middle."
+ },
+ "27": {
+  "emoji": "🕸️",
+  "scene": "A tightrope walker stands high above the safety net. The gap between his height and the net is divided by steps of his sway. More steps from the net is safer; pick the biggest.",
+  "prompt": "Cartoon: a tightrope walker on a high wire swaying, a safety net far below; a measuring tape runs from the net to him, and sway-width footprints along it."
+ },
+ "28": {
+  "emoji": "🦒",
+  "scene": "A giant (sigma) stands on a square-root tree trunk made of the crowd. Bigger crowd, thicker trunk, shorter giant. But it's only the root: quadruple the crowd to halve the wobble.",
+  "prompt": "Cartoon: a giant standing on a thick tree trunk made of a crowd of tiny people; with four times as many people the giant stands half as high in a second picture."
+ },
+ "29": {
+  "emoji": "🍺",
+  "scene": "A drunk at the bar grabs five shoulders at random: the same guy three times, two people never touched. Full-size sample, with replacement.",
+  "prompt": "Cartoon: a tipsy man at a bar reaches out and grabs shoulders five times from a row of five patrons; one surprised guy has three hands on his shoulders, two others are never touched and look relieved."
+ },
+ "30": {
+  "emoji": "🔪",
+  "scene": "A masked statistician stabs one number out of the lineup each round. Five rounds, five victims, everyone gets it once — the sample shrinks to n−1.",
+  "prompt": "Cartoon: a masked figure with a pocket knife pokes one terrified blob creature out of a police lineup of five colourful blob creatures; the poked one flees, a dotted outline marks its empty spot, the other four tremble."
+ },
+ "31": {
+  "emoji": "🎂",
+  "scene": "A baker slices a layer cake into layers, then pokes a blind random fork into each layer in proportion to its size. Every layer is represented.",
+  "prompt": "Cartoon: a baker slices a tall layered cake into distinct layers; with blindfold he pokes a fork into each layer, thicker layers get more forks."
+ },
+ "32": {
+  "emoji": "🏹",
+  "scene": "A dart sticks in the board, the point estimate. Two elastic arms stretch out each side, each as long as the reliability ruler times the standard-error ruler. Wider arms, more confidence.",
+  "prompt": "Cartoon: a dart stuck in a board centre; two elastic arms stretch to left and right, each measured by a short and a long ruler held together."
+ },
+ "33": {
+  "emoji": "🥤",
+  "scene": "Two buckets of data are poured into one blender producing a single shared standard-error smoothie, used for both groups when their variances are assumed equal.",
+  "prompt": "Cartoon: two buckets of colourful dots pouring into one blender; a single smoothie glass sits beneath it, with two straws for two figures."
+ },
+ "34": {
+  "emoji": "🤺",
+  "scene": "Zorro already knows both villages' exact spread, so he slashes a Z through the gap between their two mean flags to see if the villages truly differ.",
+  "prompt": "Cartoon: a masked swordsman carves a bold Z-shaped slash between two flags planted on two village hills; both villages have measuring tapes already neatly stretched."
+ },
+ "35": {
+  "emoji": "🫖",
+  "scene": "At a tea table a judge weighs two mean-shaped teapots on scales to test whether they're equal. The spread is only estimated: a small, uncertain sample.",
+  "prompt": "Cartoon: a judge in a wig balances two teapots on a scale at a tea table; a small blurry tape measure hovers over the pots, indicating estimated spread."
+ },
+ "36": {
+  "emoji": "🍮",
+  "scene": "Two jellies on plates side by side wobble; a judge measures each wobble and divides the bigger by the smaller. F-test: are the variances equally wobbly?",
+  "prompt": "Cartoon: two jellies on plates wobbling; a judge holds two rulers measuring each wobble, the larger wobble stacked above the smaller as a fraction."
+ },
+ "37": {
+  "emoji": "🎩",
+  "scene": "A tailor sews suits for a bell-shaped mannequin: parametric tests assume the data have a known normal shape and measure its parameters, mean and spread.",
+  "prompt": "Cartoon: a tailor measures a bell-shaped mannequin and sews a perfectly fitted suit, a tape measure on the mannequin's mean line and the sides."
+ },
+ "38": {
+  "emoji": "🏅",
+  "scene": "Lumpy, shapeless toys line up on rank podium steps, no mould needed. Rank-based tests, Spearman and Mann-Whitney U, rescue tiny non-normal samples.",
+  "prompt": "Cartoon: a few lumpy irregular toys stand on first-second-third podium steps; no bell-shaped mould in sight; a judge writes down ranks only."
+ },
+ "39": {
+  "emoji": "👯",
+  "scene": "Twins in before-and-after photos: subtract each pair, leaving a stack of differences. Average difference on top, divided by the wobble of differences on a root-n trunk.",
+  "prompt": "Cartoon: several pairs of twins, before and after, each pair joined by a subtracting minus symbol shape; a stack of differences below; a root-shaped trunk supports the wobble."
+ },
+ "40": {
+  "emoji": "🆚",
+  "scene": "The observed gap between two team flags, minus the hypothesised gap, sits on top. Underneath: the pooled standard error, square-rooted from pooled variance over n1 plus over n2.",
+  "prompt": "Cartoon: two team flags with a measured gap and a dotted hypothesised gap above a fraction bar; below it, a pooled blender with two tubes, one thick, one thin, topped by a root-shaped sign."
+ },
+ "41": {
+  "emoji": "🌡️",
+  "scene": "Sample variance, multiplied by degrees of freedom, n minus one, sits on top. Below: the claimed population variance. A sample twice as wobbly as claimed gives a big chi.",
+  "prompt": "Cartoon: a wobbly sample jelly multiplied by a small stack of blocks on top of a fraction bar; below, a calm claimed jelly; the top jelly is twice as wobbly."
+ },
+ "42": {
+  "emoji": "🍕",
+  "scene": "A pizza of Y's wiggle: the slice X ate is R squared. Whole pizza eaten equals one, no slice eaten equals zero.",
+  "prompt": "Cartoon: a big pizza with one slice lifted by a character labelled by a small x shape, the rest remaining; a smiling stomach shows the eaten fraction."
+ },
+ "43": {
+  "emoji": "🪄",
+  "scene": "A square-root machine: drop in the R-squared pizza slice, out pops the correlation. The sign is stamped by the slope arrow: uphill plus, downhill minus.",
+  "prompt": "Cartoon: a machine with a root-shaped funnel; a pizza slice goes in, a ribbon comes out; two arrows, one uphill and one downhill, mark the stamp on the ribbon."
+ },
+ "44": {
+  "emoji": "🟦",
+  "scene": "Each dot paints a rectangle between itself and the mean lines: X-gap times Y-gap. Same-corner rectangles are positive, opposite corners negative. Sum them, divide by n minus one.",
+  "prompt": "Cartoon: a scatter of dots with a horizontal and vertical mean line crossing; each dot paints a rectangle to the crossing, rectangles in matching corners one colour, opposite another."
+ },
+ "45": {
+  "emoji": "💪",
+  "scene": "A towering regression muscleman stands on top of the small error gremlin: explained mean square over error mean square. Muscle much bigger than gremlin means large F, useful model.",
+  "prompt": "Cartoon: a huge muscular man standing on a fraction bar, with a tiny gremlin beneath it; the muscleman is much bigger than the gremlin."
+ },
+ "46": {
+  "emoji": "🎪",
+  "scene": "A bullseye at the predicted value, with a fence extending equally both sides. Fence length equals the t-critical rope times the SEE ruler.",
+  "prompt": "Cartoon: a bullseye in a field with a fence stretching evenly left and right; each fence length is measured by two ropes of different thickness tied together."
+ },
+ "47": {
+  "emoji": "🗑️",
+  "scene": "A garbage collector gathers every squared residual, divides the pile by n minus two because two pegs were used for slope and intercept, and square-roots it: typical miss size.",
+  "prompt": "Cartoon: a collector in overalls scoops squares into a bin, a fraction sign with two pegs under it; at the end he squeezes the pile through a root-shaped press."
+ },
+ "48": {
+  "emoji": "🍰",
+  "scene": "The slice eaten by the regression sits on top of the whole cake. The fraction of the whole cake explained is R squared.",
+  "prompt": "Cartoon: a regression chef holds up one large slice above a fraction bar, and the whole round cake sits beneath it."
+ },
+ "49": {
+  "emoji": "🧮",
+  "scene": "On the BA II Plus: Y is the dependent dog riding the cart, a the doorstep where the ramp starts, x the pusher, b the ramp steepness, r the rope tightness.",
+  "prompt": "Cartoon: a handheld calculator in the foreground; behind it, a dog rides a cart pushed up a ramp by a person, a doorstep marker at the ramp's bottom, a taut rope tied to the cart."
+ },
+ "50": {
+  "emoji": "🌊",
+  "scene": "Every observed dot drops to the flat mean line and builds a square on the gap; all squares stacked: the total mess, the biggest pile.",
+  "prompt": "Cartoon: dots scattered above and below a flat horizontal line; each dot builds a coloured square from its gap to the line; all squares stacked in one huge pile."
+ },
+ "51": {
+  "emoji": "🧹",
+  "scene": "Every dot's vertical gap to the fitted line becomes a square: the leftover mess the model failed to explain, swept up into the error pile.",
+  "prompt": "Cartoon: dots scattered around a diagonal line; each dot has a short vertical stick to the line and a square built on it; a broom sweeps all squares into a pile."
+ },
+ "52": {
+  "emoji": "🏗️",
+  "scene": "The fitted line's height above the flat mean line is squared at each point: how much the model lifted the data up from flat.",
+  "prompt": "Cartoon: a diagonal fitted line above a flat horizontal line; at each point a square is built on the vertical gap between the two lines; a crane lifts the stack."
+ },
+ "53": {
+  "emoji": "🧺",
+  "scene": "One big mess pile splits into two crates: an Explained crate and an Error crate. Together they add up exactly to the original total.",
+  "prompt": "Cartoon: one large pile of squares in the centre splitting into two crates side by side, one of neat squares and one of scattered squares, equal in total to the pile."
+ },
+ "54": {
+  "emoji": "🥧",
+  "scene": "Only the N biggest pies on the table are weighed together. One giant pie covering the table means monopoly at 100 percent; a thousand crumbs means perfect competition at zero.",
+  "prompt": "Cartoon: a table with a few big pies weighed together on a scale; a second table with one giant pie covering everything; a third table covered in tiny crumbs."
+ },
+ "55": {
+  "emoji": "🔲",
+  "scene": "Every firm's slice is squared into a tile, so giants balloon; tiles are added. One monopolist cube fills the whole room, equal to one; a sprinkle of dust means zero.",
+  "prompt": "Cartoon: a room with many tiny dust specks and a few mid tiles; another room entirely filled by one giant cube; each slice squared into a bigger tile."
+ },
+ "56": {
+  "emoji": "🚢",
+  "scene": "A foreign ship tries to ferry crates between two ports of another country; a local harbourmaster blocks its gangplank and waves through only home-flag ships and trucks.",
+  "prompt": "Cartoon: a foreign-flag ship docks at a port; a harbourmaster blocks the gangplank with his arm while a home-flag ship and truck pass freely."
+ },
+ "57": {
+  "emoji": "☄️",
+  "scene": "A meteor from outside the fish tank crashes through the glass: the shock comes from outside the system being analysed.",
+  "prompt": "Cartoon: a glowing meteor smashing through the glass of a fish tank from the outside, water splashing, fish shocked inside."
+ },
+ "58": {
+  "emoji": "🥴",
+  "scene": "A giant government belly borrows a mountain of cash; the interest-rate thermometer shoots up and the small private businessman is squeezed off the bench.",
+  "prompt": "Cartoon: a huge government figure gulping a mountain of cash on a park bench; a tall thermometer bursts at the top; a small businessman is squeezed off the end of the bench."
+ },
+ "59": {
+  "emoji": "🐖",
+  "scene": "A family sees the debt mountain grow and a tax-bill storm cloud gather, so they ignore the tax cut and stash it in a piggy bank for later.",
+  "prompt": "Cartoon: a family looks at a growing mountain of debt with a dark storm cloud above; they push a tax cheque into a piggy bank instead of shopping."
+ },
+ "60": {
+  "emoji": "🕹️",
+  "scene": "A minister yanks a lever with two handles: a spending firehose on one side, a tax vacuum on the other. That's the government's fiscal lever.",
+  "prompt": "Cartoon: a minister pulling a big double-handled lever; one handle connects to a fire hose spraying coins, the other to a giant vacuum sucking coins."
+ },
+ "61": {
+  "emoji": "🏛️",
+  "scene": "A central-bank owl on a tower throne turns a big interest-rate dial and a money tap. Only the central bank owns this control panel.",
+  "prompt": "Cartoon: a wise owl in a tower throne room, turning a large dial with one wing and a money tap with the other; coins drip from the tap."
+ },
+ "62": {
+  "emoji": "⛲",
+  "scene": "One euro dropped into a chain of shoppers: each keeps only the spend share of what is left after tax and passes it on. The ripple adds up to 1 over 1 minus that leakage.",
+  "prompt": "Cartoon: a coin dropped into a fountain of tiered bowls; each lower bowl is smaller; a tax collector skims water at each tier; the total splash is a big circle."
+ },
+ "63": {
+  "emoji": "🏎️",
+  "scene": "Cheerful drivers floor the accelerator, engine roaring and factory chimneys puffing: the economy is stimulated and aggregate demand is boosted.",
+  "prompt": "Cartoon: a racing car with the accelerator pedal pressed hard, exhaust flames, factory chimneys puffing busily in the background."
+ },
+ "64": {
+  "emoji": "🧊",
+  "scene": "An overheating machine glows red and steams; a calm fireman hoses it with ice water to slow it down. Contractionary policy cools an overheating economy.",
+  "prompt": "Cartoon: a big red steaming machine with gauges in the red zone; a fireman sprays ice-cold water with a hose, ice cubes falling on the machine."
+ },
+ "65": {
+  "emoji": "🖨️",
+  "scene": "A central-bank printing press spits fresh banknotes; a vacuum arm swaps them for mountains of government bonds, pouring cash into a drained bank pool.",
+  "prompt": "Cartoon: a printing press pumping banknotes; a long robotic arm trades them for stacks of bond scrolls; cash pours into an empty swimming pool."
+ },
+ "66": {
+  "emoji": "🧰",
+  "scene": "Central banker's toolbox with three tools: a market stall trading bonds, a rate dial, and a vault-door bolt for how much banks must hold in reserve.",
+  "prompt": "Cartoon: an open toolbox with three tools, a small market stall trading scrolls, a round rate dial, and a heavy vault bolt."
+ },
+ "67": {
+  "emoji": "🌡️",
+  "scene": "A Goldilocks thermostat neither hot nor cold is built from two stacked blocks: a steadily growing plant, trend growth, plus a slow-simmering pot, long-run inflation.",
+  "prompt": "Cartoon: a thermostat set in the middle; beneath it, two stacked blocks, one with a steadily growing plant and the other with a slow-simmering cooking pot."
+ },
+ "68": {
+  "emoji": "💱",
+  "scene": "A euro coin sits in a shop window; the price tag is a pile of dollar bills. Dollars are the price on top, the euro is the base on the bottom: dollars per one euro.",
+  "prompt": "Cartoon: a shop window with a single euro coin on display, a pile of dollar bills next to it as the price tag, the bills placed above the coin."
+ },
+ "69": {
+  "emoji": "🕊️",
+  "scene": "A nominal-rate pigeon carries the base country's grocery basket on its back, divided by the price country's basket beneath. Real rate rising means the base coin truly muscles up.",
+  "prompt": "Cartoon: a pigeon with a basket of groceries on its back, standing over a smaller basket of groceries beneath; a muscular coin flexes nearby."
+ },
+ "70": {
+  "emoji": "📌",
+  "scene": "A government knight hammers a currency peg stake into the ground and fights off speculators trying to yank it out, burning through his reserves.",
+  "prompt": "Cartoon: a knight hammering a big stake into the ground, swatting at sneaky speculators pulling the rope; a treasure chest beside him emptying."
+ },
+ "71": {
+  "emoji": "🔐",
+  "scene": "For every banknote printed, a matching reserve brick is locked in a vault by law. No brick behind it, no note allowed.",
+  "prompt": "Cartoon: a vault guard stamping banknotes as each is matched by a solid gold brick; a note without a brick is blocked by a gate."
+ },
+ "72": {
+  "emoji": "🏃",
+  "scene": "Scared investors stampede out of a country's gate clutching sacks of money, glancing back at a thundercloud: capital flight out of fear.",
+  "prompt": "Cartoon: a crowd of frightened people running out of a city gate, carrying sacks of money, looking back at a dark thundercloud."
+ },
+ "73": {
+  "emoji": "🎈",
+  "scene": "On Trading 212 a plain ETF basket tries to strap on a rocket booster; a security guard slaps it off. No leverage allowed inside the fund.",
+  "prompt": "Cartoon: a wicker basket of mixed stocks with a rocket booster being slapped off by a guard on a phone screen backdrop."
+ },
+ "74": {
+  "emoji": "🚂",
+  "scene": "Two train cars couple: the HKD at the back of one meets the HKD at the front of the next and cancels. CNY leads on top, SEK ends on the bottom.",
+  "prompt": "Cartoon: two train cars coupling, the touching ends vanish in a puff; the first car's front has a top marker, the last car's rear has a bottom marker."
+ },
+ "75": {
+  "emoji": "🍒",
+  "scene": "Two stacked cakes share the same cherry on top. Divide one by the other: the cherries cancel and the bottoms flip, leaving one bottom flavour on top and the other underneath.",
+  "prompt": "Cartoon: two stacked cakes with identical cherries on top; the cherries cancel in a poof; the remaining two bottom layers swap places."
+ },
+ "76": {
+  "emoji": "🪁",
+  "scene": "A forward-rate kite with a long tail of points. Snip the points tail off and what's tied to the ground is the spot rate.",
+  "prompt": "Cartoon: a kite flying high with a long tail of small bows; scissors cut the tail off and the shortened kite sits tied to a ground peg."
+ },
+ "77": {
+  "emoji": "✉️",
+  "scene": "One investor in a crowd of identical uniforms gets a bespoke tailor-made suit handed over in a sealed envelope while the others glare.",
+  "prompt": "Cartoon: a crowd of investors wearing identical suits; one person receives a custom bespoke suit from a tailor in a sealed envelope, others glare."
+ },
+ "78": {
+  "emoji": "🚪",
+  "scene": "Two doors: an iron door welded shut for a hard lockup, no exit; a turnstile door with a coin slot for a soft lockup, you can leave but you pay.",
+  "prompt": "Cartoon: two doors side by side, one welded shut with iron bars, the other a turnstile with a coin slot and a coin being dropped in."
+ },
+ "79": {
+  "emoji": "🐄",
+  "scene": "A fund manager slams a farm gate shut as a stampede of investors tries to withdraw; only a trickle squeezes through.",
+  "prompt": "Cartoon: a farmer slamming a wooden gate while a stampede of cows with coins crowds behind it; only a few squeeze through the narrow gap."
+ },
+ "80": {
+  "emoji": "🪜",
+  "scene": "A low gate the fund hops over; once past it, the greedy GP's hand grabs a slice of the whole cake, not just the part above the gate.",
+  "prompt": "Cartoon: a runner hops over a low gate; a big hand reaches over to grab a slice of the entire cake that the runner carries, not only a slice above the gate."
+ },
+ "81": {
+  "emoji": "🚧",
+  "scene": "A tall fence: the GP only gets a slice of the cake that towers above the fence line; the part below stays fully with the investors.",
+  "prompt": "Cartoon: a tall fence through a cake; one chef cuts only the top portion above the fence line; the lower portion is held by smiling investors."
+ },
+ "82": {
+  "emoji": "⛰️",
+  "scene": "A Tesla owner plants a flag on the highest peak reached; the manager earns a bonus only when climbing above the flag, not for re-climbing the slope after a fall.",
+  "prompt": "Cartoon: a mountain with a flag planted on the peak; a climber has slipped down to a valley and climbs up again; a bonus trophy appears only above the flag."
+ },
+ "83": {
+  "emoji": "🧾",
+  "scene": "Each time a deal is sold a cash register dings and the GP grabs his carry immediately, before other deals' losses are known.",
+  "prompt": "Cartoon: a cash register popping open and a hand snatching a coin; behind it, a line of deals, some with smiles and some with frowns, not yet counted."
+ },
+ "84": {
+  "emoji": "🏁",
+  "scene": "A relay race of many deals: the GP's trophy appears only after the entire fund team crosses the hurdle finish line together.",
+  "prompt": "Cartoon: a relay team of runners crossing a hurdle finish line together; a golden trophy descends onto a waiting GP's outstretched hands only after the whole team crosses."
+ },
+ "85": {
+  "emoji": "🤝",
+  "scene": "Two companies' hands each pour bricks into one shared cement mixer to build a single building together.",
+  "prompt": "Cartoon: two hands from two different companies pour bricks into the same cement mixer; a single building rises from it."
+ },
+ "86": {
+  "emoji": "🍹",
+  "scene": "A smoothie: an own-capital cup times equity return and a borrowed cup times debt cost, poured together and divided by the total volume of both cups. A weighted average.",
+  "prompt": "Cartoon: two cups, one large and one small, poured into one blender; a measuring jug underneath with the total volume; each cup has a multiplying dial."
+ },
+ "87": {
+  "emoji": "🙋",
+  "scene": "At Davy's desk a buyer waves a low paddle. Want to sell right now? You smack your goods into his hand at his price: the bid, the lower number.",
+  "prompt": "Cartoon: a trading desk where a buyer holds up a low paddle; a seller rushes to slap goods into his hand."
+ },
+ "88": {
+  "emoji": "🏷️",
+  "scene": "A shopkeeper holds a taller price-tag stick above the buyer's. Want it now? You pay his ask, the higher number.",
+  "prompt": "Cartoon: a shopkeeper holding a tall price tag high above a buyer's low one; the buyer reaches up to pay for goods on the counter."
+ },
+ "89": {
+  "emoji": "✅",
+  "scene": "A price taped on a live exchange board, seen directly. A person nods and trusts it with a green tick: Level 1, straight from the market.",
+  "prompt": "Cartoon: a big exchange board with a price on it; a person points and nods with a green tick floating above."
+ },
+ "90": {
+  "emoji": "🔍",
+  "scene": "A chef builds a dish from groceries bought at the market, observable inputs. An inspector examines it with a magnifier: Level 2, built from market data, so verify.",
+  "prompt": "Cartoon: a chef cooking from market groceries; an inspector peers at the dish with a magnifying glass."
+ },
+ "91": {
+  "emoji": "🔮",
+  "scene": "A wizard conjures a price out of his own crystal ball and cauldron; a detective grills him under a bright lamp. Level 3: internal assumptions, so interrogate.",
+  "prompt": "Cartoon: a wizard with a crystal ball and cauldron; a detective questioning him under a bright interrogation lamp."
+ },
+ "92": {
+  "emoji": "🚀",
+  "scene": "A venture-capital rocket flies alone in its own lane while every stock index marches together in a herd. The lone rocket moves independently of the herd.",
+  "prompt": "Cartoon: a herd of identical animals marching together on a road; a single rocket flies far above in a separate lane on its own."
+ },
+ "93": {
+  "emoji": "🥪",
+  "scene": "Two layers of debt, senior and junior, are squashed into one sandwich with a single blended mustard stripe: one loan, one blended rate.",
+  "prompt": "Cartoon: two sandwich layers, a thick one and a thin one, are pressed into a single sandwich with one mixed-colour sauce stripe."
+ },
+ "94": {
+  "emoji": "🎒",
+  "scene": "A bank lends a wheelbarrow of cash to a company already staggering under a mountain of debt backpacks: the loan sits on an overloaded borrower.",
+  "prompt": "Cartoon: a bank clerk handing a wheelbarrow of cash to a staggering company figure crushed under a pile of heavy backpacks."
+ },
+ "95": {
+  "emoji": "🏢",
+  "scene": "A building's middle mezzanine floor sits between the debt basement and the equity penthouse; lenders carry a warrant key that lets them climb upstairs into shares.",
+  "prompt": "Cartoon: a cross-section of a building with a basement, a mezzanine floor, and a penthouse; a lender holding a key climbs the staircase upwards."
+ },
+ "96": {
+  "emoji": "🏠",
+  "scene": "The REIT buys a whole house outright, carries real bricks and collects rent in a bucket: equity REITs own the properties.",
+  "prompt": "Cartoon: a character carrying a real brick house on his back and holding a bucket of coins from tenants."
+ },
+ "97": {
+  "emoji": "📜",
+  "scene": "A REIT clutches a stack of mortgage scrolls tied with ribbon and collects interest drips: it owns paper loans, not bricks.",
+  "prompt": "Cartoon: a character holding a stack of rolled-up scrolls with ribbon, a bucket catching coin drips; a brick house stands unclaimed behind."
+ },
+ "98": {
+  "emoji": "🌱",
+  "scene": "A builder on a lush green meadow starts with only a shovel and builds a brand-new factory while balanced on a high wire: from scratch, highest risk, highest potential reward.",
+  "prompt": "Cartoon: a builder with a shovel in an empty green meadow, a half-built factory, balancing above a high wire."
+ },
+ "99": {
+  "emoji": "🏭",
+  "scene": "A buyer purchases a running brown factory with chimneys already puffing: an existing operating asset, lower risk and lower return.",
+  "prompt": "Cartoon: a buyer shaking hands at an operating brownish factory with smoking chimneys and workers."
+ },
+ "100": {
+  "emoji": "🌉",
+  "scene": "An ancient toll bridge with a long white beard and grandpa cap, busy with traffic for decades: a long operating history, the safest rock in the pyramid.",
+  "prompt": "Cartoon: an ancient stone bridge with a long white beard and grandpa cap, a steady line of traffic crossing it, a pyramid in the background."
+ },
+ "101": {
+  "emoji": "🏙️",
+  "scene": "A public-square stall sells bite-sized slices of a skyscraper and of a cake made of mortgage papers. Anyone in the crowd can buy and resell a slice: real estate, public, tradable.",
+  "prompt": "Open-air town square market stall selling thin slices cut from a miniature skyscraper and a layered cake made of rolled paper deeds, a diverse crowd of shoppers holding coins, cartoon style."
+ },
+ "102": {
+  "emoji": "🔐",
+  "scene": "Inside a half-built tower, a velvet-roped private club: one general partner runs the site, a few limited partners watch from behind glass. Private, pooled, no public stock market.",
+  "prompt": "Half-built tower interior with a velvet rope, a foreman in a hard hat on the site, a few men in suits watching through a glass wall, a locked door, cartoon style."
+ },
+ "103": {
+  "emoji": "🦄",
+  "scene": "A two-headed creature: one head in a landlord cap jingles building keys (equity), the other in a banker's visor stamps mortgage papers (mortgage). Owns buildings AND lends on them.",
+  "prompt": "Two-headed cartoon creature, one head wearing a landlord cap holding a ring of keys beside a small building, the other head wearing a banker visor stamping stacks of papers."
+ },
+ "104": {
+  "emoji": "📉",
+  "scene": "Bidders brawl over the single loaf on the counter today, balanced on a sky-high price pole; the loaf promised next month sits on a short pole. Forward below spot: the curve slopes backward.",
+  "prompt": "Crowd fighting over one loaf on a counter beside a very tall pole of gold coins, further back a similar loaf beside a much shorter coin pole, descending staircase of poles."
+ },
+ "105": {
+  "emoji": "💃",
+  "scene": "A tango couple: spot dancer crouches low, forward dancer is lifted high on a rising staircase while storage bills and insurance hats pile on. Forward above spot.",
+  "prompt": "Tango dancers, one crouched low at the foot of a staircase, a partner dipped high at the top, barrels, storage crates and ribbons stacked along the rising steps, cartoon style."
+ },
+ "106": {
+  "emoji": "🤗",
+  "scene": "A factory worker hugs a barrel of oil while rivals stand idle in a dark factory. Holding the real thing right now has a hidden payoff futures can't give, shaving the forward price.",
+  "prompt": "Factory worker tightly hugging a barrel with machines running behind him, rivals with empty hands standing in a dark idle factory, a thin shorter price pole beside the barrel."
+ },
+ "107": {
+  "emoji": "🎭",
+  "scene": "At a Davy fund beauty pageant, only the winners are let on stage; the losers are trapdoored into a basement. The audience thinks every fund performs brilliantly.",
+  "prompt": "Talent show stage with smiling winners holding trophies under spotlights, a trapdoor open in the floor where glum contestants fall into a dark basement, applauding audience."
+ },
+ "108": {
+  "emoji": "⚖️",
+  "scene": "A shopper spots two identical apples on neighbouring stalls at different prices. She buys the cheap one, sells the dear one, pockets the gap, and the prices converge.",
+  "prompt": "Two market stalls side by side with identical apples, one pile marked by a small coin stack, the other by a big coin stack, shopper carrying apples between them pocketing coins."
+ },
+ "109": {
+  "emoji": "🪂",
+  "scene": "A skydiver starts above the clouds viewing the whole world (macro themes), drops through country and sector layers, and lands on one single company's rooftop. Macro first, stock last.",
+  "prompt": "Skydiver high above clouds looking at the globe, falling through layered translucent floors showing a country map then city blocks, landing on a single small factory rooftop."
+ },
+ "110": {
+  "emoji": "🐀",
+  "scene": "A mole starts inside one company's basement, inspecting its books by torchlight, then tunnels outward to sniff the sector and, last, the weather overhead. Company first, macro afterwards.",
+  "prompt": "Cartoon mole with a headlamp reading ledgers in an underground factory basement, tunnels leading outward and upward to a small town and a cloudy sky far above."
+ },
+ "111": {
+  "emoji": "⛏️",
+  "scene": "A dwarf with a pickaxe checks each transaction crate, then padlocks it onto a growing chain of crates. Whatever rule the town votes by, his job is the same: validate and lock.",
+  "prompt": "Dwarf with pickaxe and lantern in a cave, inspecting a wooden crate, a long chain of padlocked crates behind him, different coloured rule-flags in the background."
+ },
+ "112": {
+  "emoji": "🏘️",
+  "scene": "A village where every villager keeps an identical copy of the ledger; a thief rifles one hut and a thousand other copies outvote him. No king, open gates, hard to hack.",
+  "prompt": "Open-gated village with many huts, each villager holding the same big book, a thief sneaking into one hut while the crowd outside points at him, no central building."
+ },
+ "113": {
+  "emoji": "🏰",
+  "scene": "One huge vault with one king holding the guest list. A burglar picks that single lock and the whole kingdom's ledger is gone. Everything in one place, entry by his permission only.",
+  "prompt": "One large castle vault with a king at the gate holding a scroll, a masked burglar picking the one lock, all ledgers in a single room, empty countryside around."
+ },
+ "114": {
+  "emoji": "🕯️",
+  "scene": "Tesla mails you a ticket stapled to a burning candle: redeem it for one share at the printed price before the flame dies. A right, not a duty, with a deadline.",
+  "prompt": "A hand holding a golden ticket stapled to a burning candle, flame almost down to the base, a single glowing share certificate waiting beside a red electric car."
+ },
+ "115": {
+  "emoji": "🏛️",
+  "scene": "Identical stamped crates ride a conveyor on an exchange floor; a burly referee-bouncer, the clearing house, stands between every buyer and seller, guaranteeing both sides. Standardised, exchange-traded.",
+  "prompt": "Trading floor with a conveyor belt of identical stamped crates, a burly referee in a striped shirt standing between a buyer and a seller, shaking both their hands."
+ },
+ "116": {
+  "emoji": "🤝",
+  "scene": "Two men in a back alley scribble a hand-tailored deal on a napkin at a set price. Custom terms, private, no referee: each simply trusts the other to deliver.",
+  "prompt": "Two men in a dim alley shaking hands over a napkin with scribbles, a tailor's measuring tape between them, no crowd, no referee, a lone streetlamp."
+ },
+ "117": {
+  "emoji": "🎩",
+  "scene": "Two firms swap hats every month: one wears a fixed-size hat, the other a hat that grows and shrinks with oil prices. A stream of exchanges over time, no barrels move.",
+  "prompt": "Two businessmen exchanging hats over several stages, one hat fixed size, the other stretchy and changing size, a row of small calendar pages behind them, no barrels."
+ },
+ "118": {
+  "emoji": "🍕",
+  "scene": "A row of identical creditors stand shoulder to shoulder on the same podium step, all the same height, and share one pizza in equal proportion. Nobody cuts the line.",
+  "prompt": "Row of identical cartoon creditors standing on the same step of a podium, same height, each holding a fork at one shared pizza, slices divided evenly."
+ },
+ "119": {
+  "emoji": "🎈",
+  "scene": "A coupon stack: the base is a wobbling balloon that rises and falls with the market rate; on top rests a fixed iron brick, the credit spread, that never changes.",
+  "prompt": "Tall stack with a wobbling floating balloon at the bottom, an iron brick resting on top, thin sway marks around the balloon, calm sturdy brick."
+ },
+ "120": {
+  "emoji": "⛓️",
+  "scene": "A bond contract is a leash: the borrower dog is chained to a stake with binding rules etched on the links, and stays tethered for the whole life of the loan.",
+  "prompt": "Dog wearing a collar attached to a long chain tied to a stake in the ground, rules shown as engraved links, a small sun moving across the sky overhead."
+ },
+ "121": {
+  "emoji": "✅",
+  "scene": "A borrower robotically ticks off chores shoved in his hand: pays taxes, insures the factory, mops the floor. A promise to DO things.",
+  "prompt": "Robotic businessman carrying a mop, an umbrella over a small factory and a bag of coins to a tax booth, a clipboard with ticked boxes, busy and obedient."
+ },
+ "122": {
+  "emoji": "🚫",
+  "scene": "A borrower wears a muzzle and mittens: hand slapped away from the jewel box, cannot sell the crown jewels or borrow more. A promise to NOT do things.",
+  "prompt": "Businessman wearing a muzzle and oven mittens, a ruler slapping his hand away from a jewel box and a cookie jar, red prohibition circles around the objects."
+ },
+ "123": {
+  "emoji": "🌬️",
+  "scene": "A coupon is mounted on a weather vane that spins to a fresh angle every few months as the reference-rate wind changes. The coupon resets with the wind.",
+  "prompt": "Cartoon: a big coin-shaped coupon mounted on a rooftop weather vane, spinning to a new angle; swirling wind arcs blow from several directions while a rooster on the vane looks dizzy."
+ },
+ "124": {
+  "emoji": "🧮",
+  "scene": "With no price tag on a bond, a bookkeeper wanders a grid of look-alike bonds, averages their yields, then nudges for maturity. An illiquid bond's yield, estimated from comparables.",
+  "prompt": "Bookkeeper walking across a chessboard grid of look-alike bonds holding a calculator, averaging, then sliding a ruler along a maturity timeline to adjust a bond with a blank tag."
+ },
+ "125": {
+  "emoji": "📏",
+  "scene": "A straight ruler lays a line through a scatter of same-rated bonds, maturity left to right, yield up. An unpriced bond just sits on the line for its rating.",
+  "prompt": "Scatter of dots across a graph with a straight ruler laid through them, an plain bond doll standing on the line, dots in one single colour."
+ },
+ "126": {
+  "emoji": "🎒",
+  "scene": "A risky bond walks beside a smooth, safe government bond carrying a backpack full of rocks. The heavier the backpack, the more extra coins he gets paid.",
+  "prompt": "Two figures walking side by side, a safe one with empty hands, a risky one with a heavy rock-filled backpack receiving a larger pile of coins."
+ },
+ "127": {
+  "emoji": "🧵",
+  "scene": "A string is stretched between two benchmark pegs, shorter and longer maturity. The bond floats above the string at its own maturity; the gap measured by tape is the I-spread.",
+  "prompt": "Two pegs with a taut string between them, a bond figure floating above a point in the middle of the string, a tape measure measuring the vertical gap."
+ },
+ "128": {
+  "emoji": "🧱",
+  "scene": "A bricklayer adds one identical-thickness brick to every step of the spot-rate staircase, so each cash flow, discounted at its own step, sums exactly to the market price.",
+  "prompt": "Bricklayer placing identical thin bricks on each step of a long staircase, a coin bag on each step, a scale at the bottom exactly balanced."
+ },
+ "129": {
+  "emoji": "🪤",
+  "scene": "A bond wears a snapping bear-trap helmet, the issuer's call option. A barber unclamps it and the extra yield shrinks. OAS is what's left after taking out the option.",
+  "prompt": "Bond figure wearing a snapping bear-trap helmet, a barber unclamping it with pliers, two coin stacks beside him, a tall one before and a shorter one after."
+ },
+ "130": {
+  "emoji": "🏷️",
+  "scene": "A fixed sticker is slapped on a wobbling reference-rate balloon on a floating note. The sticker is the credit-risk margin, quoted once and never moving.",
+  "prompt": "Bobbing balloon floating on a string, a round sticker stuck on its side that stays firmly flat, a tiny risk-cloud nearby."
+ },
+ "131": {
+  "emoji": "🪜",
+  "scene": "A coupon escalator climbs up one stair on pre-agreed dates: signposts at fixed years, and each time the coin shower gets planned-amount heavier.",
+  "prompt": "Escalator rising in steps, signposts at fixed intervals, coin showers growing bigger at each step, calendar pages hanging above the signposts."
+ },
+ "132": {
+  "emoji": "🥖",
+  "scene": "A baker reopens an existing oven and slides in more of the same loaves rather than baking a new batch with a new recipe. Same bond, bigger pile.",
+  "prompt": "Baker opening an oven door and sliding in extra identical loaves onto a rack already full, a separate empty oven in the background unused."
+ },
+ "133": {
+  "emoji": "🧓",
+  "scene": "A grizzled old bond in a rocking chair, with worn hat and cane, has traded in the second-hand market for years. New shiny issues are babies on the primary shelf.",
+  "prompt": "Old bond character with worn hat in a rocking chair in a second-hand shop, shiny baby bonds in cribs on a separate shelf, cobwebs on the old one."
+ },
+ "134": {
+  "emoji": "🏫",
+  "scene": "A town mayor squeezes citizens' pockets (local taxes) to fund a school and a park, hand over heart pledging full faith. Backed by taxes, not a project.",
+  "prompt": "Mayor squeezing coin pouches out of townspeople's pockets, a school and a park behind him, hand over heart, coins pouring into a communal pot."
+ },
+ "135": {
+  "emoji": "🚂",
+  "scene": "A government parent hatches a semi-independent robot child wearing an airport tower hat, train driver cap, and housing hard hat. It runs one public service on its own.",
+  "prompt": "Cartoon government building hatching a small robot wearing a control-tower hat, train driver's cap and builder's hard hat, tiny train and plane beside it."
+ },
+ "136": {
+  "emoji": "🗼",
+  "scene": "A taller bridge sways more in the rate wind: longer maturity, bigger wobble. But one lone, very tall low-coupon discount tower bends back down at the top: the exception.",
+  "prompt": "Row of towers in increasing height swaying more in strong wind arrows, one very tall slim tower at the far end drooping and bent at its top."
+ },
+ "137": {
+  "emoji": "👹",
+  "scene": "Two gremlins set a floating note's margin ribbon: Credit gremlin judges how trustworthy the borrower is; Liquidity gremlin judges how easily it sells.",
+  "prompt": "Two cartoon gremlins on either side of a balloon with a ribbon tied around it, one holding a magnifying glass over a borrower, the other pushing a stuck wheelbarrow."
+ },
+ "138": {
+  "emoji": "🍰",
+  "scene": "A lender bites a chunk (FV minus PV) from a face-value cake. The bite is divided by the whole original cake FV, not the remainder, then scaled to a year over days.",
+  "prompt": "Lender with a big bite taken from a cake, measuring the bite against the whole uneaten cake outline, a year calendar and a few small day pages beside it."
+ },
+ "139": {
+  "emoji": "🏢",
+  "scene": "A fraction building: on the roof, a whole loaf minus the third-year slice; in the cellar, first, second and third year slices piled together. Par rate on top over the pile.",
+  "prompt": "Two-storey structure, a whole loaf with one slice removed on the roof, three loaf slices stacked in the cellar, a long dividing line between floors."
+ },
+ "140": {
+  "emoji": "🕰️",
+  "scene": "A sealed time capsule is buried today and opened once, on a single date. No coupons mid-way: the interest it earned for that one date is the spot rate.",
+  "prompt": "Sealed metal capsule buried in a hole, a lone calendar page far ahead, a single arrow from the capsule to the date, no coins along the path."
+ },
+ "141": {
+  "emoji": "⛰️",
+  "scene": "A zero-coupon capsule climbs the whole mountain to the high peak (spot). The coupon bond drops coins on the low early slopes, so its blended yield sits lower: par below spot.",
+  "prompt": "Mountain with a capsule at the high peak, a hiker dropping coins on the low early slopes and standing lower on the hillside, upward-sloping ground line."
+ },
+ "142": {
+  "emoji": "🌾",
+  "scene": "Forward-growth sacks are multiplied together on a conveyor, then an n-th root grinder squeezes them into one average sack. Spot is the geometric average of forwards.",
+  "prompt": "Conveyor belt of several growth sacks of different sizes entering a large grinder, one single average-sized sack coming out the other end, gears and a root-shaped pipe."
+ },
+ "143": {
+  "emoji": "🧮",
+  "scene": "On the BA II Plus, a seesaw: Macaulay duration kid on the left, investment horizon kid on the right. Subtract right from left; left heavier means price-risk puddle, right heavier means reinvestment-risk puddle.",
+  "prompt": "Seesaw with a heavy kid on one side and a light kid on the other, a calculator beside it, a puddle under each end of the seesaw."
+ },
+ "144": {
+  "emoji": "🧥",
+  "scene": "Skinny modified duration puts on a puffy coat of (1 plus yield over m) to grow into fatter Macaulay duration. Mod times coat equals Mac.",
+  "prompt": "Skinny man putting on a huge puffy coat, a fatter version of himself standing beside him, small coin shapes sewn on the coat."
+ },
+ "145": {
+  "emoji": "⚖️",
+  "scene": "A seesaw plank with cash-flow bags along a timeline; the fulcrum sits at their weighted-average arrival time, the holding period where reinvestment gains cancel price losses.",
+  "prompt": "Long plank balanced on a triangle with coin bags of different sizes arranged along the timeline, the triangle slightly right of centre, plank level."
+ },
+ "146": {
+  "emoji": "🎈",
+  "scene": "A rubber price balloon is squeezed by a yield-pressing hand; each 1% press shrinks it by the modified-duration percent. Macaulay is shrunk by one plus the periodic yield.",
+  "prompt": "Hand pressing down on a rubber balloon that shrinks a bit, a small shrink-ray gun shrinking a bigger balloon into a smaller one next to it."
+ },
+ "147": {
+  "emoji": "📸",
+  "scene": "Two photos of a bond: yield pushed down (price tall), yield up (price short). Tall minus short on top; underneath, twice the nudge times the original price.",
+  "prompt": "Two photographs side by side of a bond figure, one tall with a downward arrow beside it, one short with an upward arrow, a baseline pole in the middle, calculator below."
+ },
+ "148": {
+  "emoji": "💵",
+  "scene": "A modified-duration percent stamp is pressed onto the whole full-price (dirty) coin tower. The result is real dollars that fall off for each 1% yield rise.",
+  "prompt": "Giant stamp pressing down on a tall dirty-coin tower, loose coins tumbling off the side onto the floor, a dial of yield ticking up."
+ },
+ "149": {
+  "emoji": "🦟",
+  "scene": "A flea hops one basis point on the yield dial; the bond's price tower moves by half the gap between its up-hop and down-hop heights. Dollars per flea hop.",
+  "prompt": "Tiny flea hopping on a dial, two price towers beside it, one slightly taller on the down-hop side, one slightly shorter on the up-hop side, half-way mark between."
+ },
+ "150": {
+  "emoji": "☔",
+  "scene": "A raining coupon coin shower: the heavier the early rain, the more the seesaw fulcrum slides toward today. Big coupon, short duration.",
+  "prompt": "Seesaw timeline with heavy coin rain falling on the near end, the fulcrum triangle sliding toward the near end, far end almost empty."
+ },
+ "151": {
+  "emoji": "🔭",
+  "scene": "A rising yield dial shrinks far-future coins smaller and smaller, so the balance point slides toward today. Higher yield, shorter duration.",
+  "prompt": "Hand turning a dial up; coins along a timeline getting progressively smaller toward the far end, the fulcrum triangle sliding toward the near end."
+ },
+ "152": {
+  "emoji": "🛤️",
+  "scene": "A longer seesaw plank: each extra year adds a far-away coin bag, dragging the fulcrum rightward. Longer maturity, longer duration.",
+  "prompt": "Cartoon: a very long seesaw plank stretching far to the right with many coin bags spaced along it, the farthest bag the biggest; a worker drags the fulcrum triangle rightward, sweating."
+ },
+ "153": {
+  "emoji": "🪚",
+  "scene": "A sawtooth blade: as the coupon-period clock fills toward the next payday, duration slides down, then snaps back up the moment the coupon is paid.",
+  "prompt": "Giant saw blade with teeth sloping downward then jumping up, a clock face filling like a pie at the base of each tooth, a coin dropping at each peak."
+ },
+ "154": {
+  "emoji": "🎭",
+  "scene": "A puppeteer yanks different parts of a rope-shaped yield curve; the bond puppet dangling below bobs. Curve duration is sensitivity to curve shifts, not just one yield.",
+  "prompt": "Puppeteer pulling several strings attached to different parts of a wavy rope, a bond puppet dangling beneath bouncing by different amounts."
+ },
+ "155": {
+  "emoji": "🪢",
+  "scene": "A bond hangs on a bungee: when the yield hand pulls up, the price bounces down. The longer the cord, the bigger the bounce.",
+  "prompt": "Bond figure on a bungee cord, a hand pulling upward on one side, the figure bouncing down, a longer cord version beside it bouncing further."
+ },
+ "156": {
+  "emoji": "😊",
+  "scene": "Add the yield-down and yield-up price photos, subtract two originals; the leftover bump is the curve's smile. Divide by nudge squared times original price.",
+  "prompt": "Two photographs of a curved bond price line with a smile shape, an extra pair of original photos removed and a leftover bump, a squared nudge symbol drawn as two arrows."
+ },
+ "157": {
+  "emoji": "🛝",
+  "scene": "A straight slide pushed by yield: minus duration times the nudge. Then a half-sized convexity pillow times the nudge squared cushions the landing at the bottom.",
+  "prompt": "Child sliding down a straight slide pushed by a yield arrow, a half-sized fluffy pillow at the bottom of the slide, squared arrows beside the pillow."
+ },
+ "158": {
+  "emoji": "⚖️",
+  "scene": "Each bond's duration is an animal; the portfolio's is their average height, weighted by market-value cash bags. Par-value paper certificates go in the bin.",
+  "prompt": "Several animals of different heights beside bags of cash of different sizes, a scale averaging them, paper certificates being tossed into a bin."
+ },
+ "159": {
+  "emoji": "🌊",
+  "scene": "A spread-widening wind pushes the bond down a slide by modified duration times the spread move; a half-convexity pillow times spread move squared softens the landing.",
+  "prompt": "Bond figure sliding down a slide pushed by a wind gust, two ropes between which a gap is widening, a soft pillow at the bottom of the slide."
+ },
+ "160": {
+  "emoji": "🧲",
+  "scene": "A giant hand shifts the whole yield-curve rug down, then up; photograph the price each time. Down-price minus up-price on top, twice the shift times original price below.",
+  "prompt": "Cartoon: a giant hand yanking a striped rug under a bond character, who is photographed by a paparazzi with a flash camera; a tall ghost copy of the bond rises on one side and a short ghost copy sinks on the other."
+ },
+ "161": {
+  "emoji": "🎹",
+  "scene": "A piano of rates: press one key (2-year, 5-year) and only that note sounds while the rest of the curve stays still. The bond price wobble measures key rate duration.",
+  "prompt": "Piano keyboard with one key pressed down and glowing, the bond figure above wobbling, other keys still, wavy curve above the keys."
+ },
+ "162": {
+  "emoji": "🧙",
+  "scene": "A wizard in a lab coat computes duration from pricing-model equations on a chalkboard. No market data needed, just the formulas.",
+  "prompt": "Wizard in a lab coat writing equations as pure symbols on a chalkboard, bubbling flask, no scatter plot or data in the room."
+ },
+ "163": {
+  "emoji": "🕵️",
+  "scene": "A weather-beaten historian scribbles a best-fit line through a scatter of actual past price and yield moves. No pricing model, only real history.",
+  "prompt": "Old historian with magnifying glass drawing a best-fit line through a scatter of dots on a wall, stacks of dusty record books, no calculator."
+ },
+ "164": {
+  "emoji": "👑",
+  "scene": "A king and his shadow: the bond's price walks exactly in step with the benchmark curve, so a calculator wizard can compute it from pricing equations. Analytical.",
+  "prompt": "King walking beside his shadow in perfect step, a wizard with a calculator in the background, benchmark curve under their feet."
+ },
+ "165": {
+  "emoji": "👔",
+  "scene": "An investment-grade corporate's price follows the benchmark but wiggles moderately when its credit spread twitches, so a historian fits a regression line. Empirical.",
+  "prompt": "Businessman following a path of the benchmark curve with moderate wobble from a thin springy tie, a historian drawing a line through dots."
+ },
+ "166": {
+  "emoji": "🐂",
+  "scene": "A high-yield bull bucks wildly whenever its spread jerks, hardly noticing the benchmark. A historian fits regression lines: empirical, spread dominates.",
+  "prompt": "Bucking bull with a rodeo rope, big spread arrows jerking it up and down, a tiny benchmark sign barely noticed, historian drawing lines through a scatter."
+ },
+ "167": {
+  "emoji": "👶",
+  "scene": "A newborn bond has an empty diary of past prices; with no history to regress, only the calculator wizard can help. Analytical.",
+  "prompt": "Baby in a crib with an empty book on the shelf, a wizard with a calculator leaning over the crib."
+ },
+ "168": {
+  "emoji": "🔮",
+  "scene": "A fortune teller conjures an imaginary what-if storm over the yield curve and computes the damage with a pricing model. No real data exists: analytical.",
+  "prompt": "Fortune teller with a crystal ball showing a storm over a wavy curve, a wizard calculator beside her, empty data shelves."
+ },
+ "169": {
+  "emoji": "🎲",
+  "scene": "A weighted coin flip: the chance the borrower flees (POD) multiplied by the size of the crater left in the vault (LGD). Odds times damage.",
+  "prompt": "Weighted coin spinning in the air next to a big crater in a bank vault floor, a multiply sign formed by crossed sticks between them."
+ },
+ "170": {
+  "emoji": "🍕",
+  "scene": "Expected-loss slab on top, divided by the loss-given-default slab below, leaves the pure odds-of-default dice.",
+  "prompt": "Fraction made of objects: a big slab on top, a smaller slab below separated by a bar, a die resting at the result position."
+ },
+ "171": {
+  "emoji": "🏃",
+  "scene": "A fleeing debtor die; in front, exposure coins with a collateral shield subtracted; what remains is multiplied by the sliver not recovered (one minus recovery).",
+  "prompt": "Cartoon dice running away, in front of him a stack of coin piles with a shield cutting off the front of the pile, a small remaining sliver."
+ },
+ "172": {
+  "emoji": "🧪",
+  "scene": "A glass tank of capital: red liquid is debt, blue is equity. Debt/Capital is the red level over the WHOLE tank, never over the blue alone.",
+  "prompt": "Tall glass tank half filled with red liquid on the bottom and blue on top, a bracket measuring the red part against the full tank height."
+ },
+ "173": {
+  "emoji": "🀄",
+  "scene": "Dominoes tied by one string: the borrower topples one bond domino and every domino with the clause falls automatically.",
+  "prompt": "Row of dominoes connected by a single string, first domino falling and the others toppling in chain, a tiny signed contract on each domino."
+ },
+ "174": {
+  "emoji": "🪡",
+  "scene": "A tailor punches belt holes: the company wears its belt at one hole (issuer rating), but each specific bond wears its own belt one or two holes lower.",
+  "prompt": "Tailor punching holes in belts, a big company figure wearing a belt at one hole, small bond figures wearing belts at lower holes."
+ },
+ "175": {
+  "emoji": "🏠",
+  "scene": "A holding-company king upstairs, his operating factory downstairs, each with its own lenders. Factory lenders grab the factory's assets first; the roof lenders catch leftovers.",
+  "prompt": "Two-storey house, a king with a lender on the roof, a factory with another lender on the ground floor, ground floor lenders grabbing assets first, leftovers falling upward to the roof."
+ },
+ "176": {
+  "emoji": "🍎",
+  "scene": "Many mortgage apples are poured into a vat, handed to a separate glass-walled company (SPE) which bottles juice for buyers. A moat isolates the credit risk from the original seller.",
+  "prompt": "Apples poured into a large vat inside a glass-walled building surrounded by a moat, bottles of juice coming out, original orchard separated by water."
+ },
+ "177": {
+  "emoji": "🏝️",
+  "scene": "Loans sit in a fenced garden with a moat; the parent company's bankruptcy storm cannot reach them. Legally and financially isolated.",
+  "prompt": "Fenced garden with a moat, loans as small houses inside, a storm cloud raining on a separate building outside the fence."
+ },
+ "178": {
+  "emoji": "📦",
+  "scene": "A shopkeeper stuffs a box with twelve hundred worth of loans to back only a thousand of bonds. The bulging extra twenty percent cushions the first losses.",
+  "prompt": "Shopkeeper packing a bulging box with extra loan papers sticking out, a smaller bond stack beside it, extra loans padding the sides as a cushion."
+ },
+ "179": {
+  "emoji": "🪂",
+  "scene": "A bank parachutist, paid a fee, hovers under a tightrope-walking loan pool, ready to catch any shortfall. A bought promise from a third party.",
+  "prompt": "Tightrope walker made of loan papers balancing on a rope, a banker with a parachute hovering underneath with open arms and a net."
+ },
+ "180": {
+  "emoji": "🐷",
+  "scene": "The issuer borrows a cash sack from a bank and locks it in a piggy bank beside the loan pool. Shortfalls are paid out of the piggy bank.",
+  "prompt": "Issuer carrying a cash sack out of a bank into a locked piggy bank sitting beside a pile of loans, coins dropping out to fill a gap."
+ },
+ "181": {
+  "emoji": "🚰",
+  "scene": "A leaky pipe: pool coupons gush in wide, ABS coupons trickle out thin. The difference puddles up as a first-loss cushion.",
+  "prompt": "Wide pipe pouring water into a narrow pipe, a large puddle pooling in between, a small cushion floating on the puddle."
+ },
+ "182": {
+  "emoji": "🪣",
+  "scene": "A tiered rain-bucket tower in a storm: losses flood the lowest junior buckets first and spill upward; the senior bucket on top stays dry, shielded by those below.",
+  "prompt": "Tower of rain buckets in a storm, bottom ones overflowing, top one dry under a small umbrella, rain pouring from above onto the lower ones."
+ },
+ "183": {
+  "emoji": "🏨",
+  "scene": "A five-floor Dublin hotel by the Liffey: senior penthouse, mezzanine, junior, subordinated, equity in the basement. Cash flows down from the roof; flood losses rise from the basement.",
+  "prompt": "Five-floor hotel beside a river, penthouse at the top, basement flooded with water rising upward, coin rain falling from the roof down through the floors."
+ },
+ "184": {
+  "emoji": "☀️",
+  "scene": "A house with solar panels wears two padlocked chains: one on the panels, one on the house. Two liens on collateral worth more than the loan: overcollateralized.",
+  "prompt": "House with solar panels on the roof, one padlocked chain around the panels, another around the house, a heavy bag of coins smaller than the house."
+ },
+ "185": {
+  "emoji": "🍽️",
+  "scene": "At a CLO banquet, the equity guest queues last, wearing a bib, scraping leftovers. First to starve, last to eat, but he gets all the surplus seconds if food remains.",
+  "prompt": "Banquet table with guests in a line, the last one wearing a bib and holding a plate with scraps, a large pile of food at the head of the line."
+ },
+ "186": {
+  "emoji": "🚪",
+  "scene": "A bouncer with a checklist at a velvet rope: after the ramp-up bell, new loans may enter only if they meet the requirements, until the maturity bell.",
+  "prompt": "Bouncer with a clipboard at a velvet rope, loans as small figures queuing, a bell ringing at the start of the line and another bell at the far end."
+ },
+ "187": {
+  "emoji": "📞",
+  "scene": "A call button on a bucket tower: when the deal or its loans are called early, the junior floors lose their promised long-term income while seniors are repaid first.",
+  "prompt": "Tower of floors with a big red button on the side, the top floor receiving coins first, the lower floors watching their coin stacks shrink."
+ },
+ "188": {
+  "emoji": "🪙",
+  "scene": "A fraction cake: monthly debt-payment bills on the roof, the pre-tax gross paycheck in the cellar. The more the bills pile up, the deeper the borrower sinks.",
+  "prompt": "Two-storey structure, a stack of bills on the roof, a big pay slip in the cellar, a worried borrower sinking as the bills pile up."
+ },
+ "189": {
+  "emoji": "🕒",
+  "scene": "Each mortgage in the pool wears a clock showing remaining months; bigger loans get fatter weights (balance over pool total). The balance-weighted average clock reading is WAM.",
+  "prompt": "Many mortgage houses of different sizes each with a clock on the front, a scale weighing the bigger houses more, an average clock above."
+ },
+ "190": {
+  "emoji": "🐌",
+  "scene": "AGNC's trader watches borrowers shuffle like snails when rates rise: prepayments slow, cash flows stretch like taffy, and he's stuck holding a low-coupon bond longer than planned.",
+  "prompt": "Trader watching snails with house shells crawling slowly along a taffy timeline stretched long, a low coupon bond tied around his ankle."
+ },
+ "191": {
+  "emoji": "🎁",
+  "scene": "A borrower wants to sell the building early. At the lender's counter, he swaps it for a government-bond treasure chest paying the exact same coins. The lender waves him off.",
+  "prompt": "Borrower trading a small building for a treasure chest at a bank counter, the lender holding the chest with identical coin showers, waving him away."
+ },
+ "192": {
+  "emoji": "🔍",
+  "scene": "A bank officer holds a magnifying glass over the borrower's wallet, pay slip and credit history, asking one question: can they repay? Then stamps yes or no.",
+  "prompt": "Bank officer with a large magnifying glass over a wallet, pay slip and credit report, holding a rubber stamp poised."
+ },
+ "193": {
+  "emoji": "🎈",
+  "scene": "A giant balloon waits at the end of the loan staircase. At maturity the borrower must pop it with one lump sum; if he can't refinance or sell, it explodes in his face.",
+  "prompt": "Borrower at the top of a staircase of small coin payments, a huge balloon at the end blocking the exit, cracking and about to burst."
+ },
+ "194": {
+  "emoji": "🏟️",
+  "scene": "OTC is a back-alley bazaar of cloaked men haggling in whispers with big fees; an exchange-traded product is a glass hall with a huge visible price board and cheap tolls.",
+  "prompt": "Split scene: left, a dim alley with cloaked men whispering and big coin fees; right, a bright glass hall with a huge wall of visible prices and small fees."
+ },
+ "195": {
+  "emoji": "🥚",
+  "scene": "A bond is a chocolate egg with a small clockwork derivative toy baked inside, like a call option in a callable bond. One instrument carrying another's feature.",
+  "prompt": "A cracked chocolate egg revealing a small clockwork toy inside, an old-fashioned bond certificate shaped like the egg."
+ },
+ "196": {
+  "emoji": "🌍",
+  "scene": "Spot sits in a sack. The price currency's interest balloon (one plus R1) lifts it; the base currency's interest anchor (one plus R2) drags it down. Price rate on top, base rate below.",
+  "prompt": "Sack of coins with a large balloon pulling it up and an anchor pulling it down, a fraction bar between the balloon and the anchor."
+ },
+ "197": {
+  "emoji": "🚀",
+  "scene": "A spot-price rocket ignites an e-shaped engine; fuel is risk-free R, a leak is dividend yield i. Fuel minus leak, times burn time T, sits in the exponent.",
+  "prompt": "Rocket with a fat e-shaped engine, a fuel tank, a leaking pipe, a stopwatch beside the rocket, small price coin on its nose."
+ },
+ "198": {
+  "emoji": "🛒",
+  "scene": "Spot barrel plus a bag of storage costs (present valued) are loaded into one cart, then grown together in a risk-free greenhouse for T years. Add costs first, compound second.",
+  "prompt": "Cart carrying a barrel and a bag of coins, rolling into a greenhouse where it grows bigger, a calendar on the wall."
+ },
+ "199": {
+  "emoji": "🌉",
+  "scene": "A traveller reaches the two-month island either by one direct bridge or by two hops: a known one-month hop, then a forward hop starting in a month. Same coin pile either way.",
+  "prompt": "Island reached by one long bridge, or by two shorter bridges through a middle island, coin piles of equal size at the end of each route."
+ },
+ "200": {
+  "emoji": "🍦",
+  "scene": "An ice-cream cone: the solid cone is intrinsic value, the melting scoop on top is time value. Market price minus the cone; the scoop melts to zero at expiry.",
+  "prompt": "Ice cream cone with a large scoop melting down the side, a solid cone below, a clock fading into the distance behind."
+ },
+ "201": {
+  "emoji": "⚖️",
+  "scene": "A level seesaw: on the left, a share and a put (a helmet); on the right, a call and a sack of cash worth the exercise price discounted back to today. Perfectly balanced.",
+  "prompt": "Level seesaw, one side a share and a helmet, the other side a call ticket and a small sack of cash, perfectly balanced."
+ },
+ "202": {
+  "emoji": "🎟️",
+  "scene": "A monk holds one lottery ticket (the call) and walks a safe-deposit bag, sized as the strike's present value, into a risk-free vault. Ticket plus vault equals stock plus insurance: a protective put in disguise.",
+  "prompt": "A robed monk holding one big raffle ticket in one hand and carrying a small heavy money bag toward a sturdy bank vault in the other, a floor-shaped safety net spread beneath him, a stock chart arrow rising behind."
+ },
+ "203": {
+  "emoji": "🚗",
+  "scene": "A Tesla wears a crash helmet and sits under a giant umbrella-shaped put. Crash all you like: the floor catches the fall, while upside stays wide open above.",
+  "prompt": "A red electric car wearing a tiny crash helmet, parked under a huge open umbrella, a solid floor slab beneath the wheels catching it as the car tumbles down a slope, while sky above stays open with an upward arrow."
+ },
+ "204": {
+  "emoji": "🪜",
+  "scene": "Staircase from bottom step d to top step u. Risk-free growth plants a flag; the distance from the bottom step up to the flag, over the whole staircase height, is π.",
+  "prompt": "A tall staircase with a bottom step and a top step, a small flag planted on a middle step, one measuring ribbon stretched from the bottom step to the flag and a longer ribbon stretching along the whole staircase height, a smiling climber on the flag."
+ },
+ "205": {
+  "emoji": "🧮",
+  "scene": "Two treasure chests, up and down, weighed by weighted scoops π and 1−π, poured into one funnel, then dropped through a shrinking machine that divides by one plus the risk-free rate.",
+  "prompt": "A cartoon scientist pouring scoops from two treasure chests, a large scoop from one chest and a smaller scoop from the other, into a single funnel above a shrinking ray machine, a smaller shiny coin pile coming out below."
+ },
+ "206": {
+  "emoji": "🪜",
+  "scene": "A short ladder of option-price swing, Cu minus Cd, sits on top; a taller ladder of stock-price swing, Su minus Sd, beneath. The ratio is how many shares to hold per option.",
+  "prompt": "Two ladders drawn as a fraction: a short ladder stacked above and a much taller ladder below, a thin line between them, a hedger in a hard hat holding exactly the right number of tiny shares at the bottom rung."
+ },
+ "207": {
+  "emoji": "🎈",
+  "scene": "The stock balloon floats up one branch; the call is a ticket that cashes the part of the balloon above the strike string, otherwise nothing. Cu is the ticket's payoff after the rise.",
+  "prompt": "A tree with two branches, an upward-pointing arrow on the top branch where a balloon floats high over a fence-height line, a cashier handing coins equal to the part above the fence, a happy ticket-holder collecting."
+ },
+ "208": {
+  "emoji": "📉",
+  "scene": "Down branch of the tree: the balloon sinks below the strike fence, the call ticket expires worthless and the cashier shrugs. Cd is the call's payoff after the fall, usually zero.",
+  "prompt": "A tree with two branches, a downward-pointing arrow on the lower branch where a limp balloon hangs under a fence-height line, a cashier with empty open hands shrugging, a crumpled ticket in the holder's hand."
+ },
+ "209": {
+  "emoji": "🚀",
+  "scene": "Starting price on a launchpad; the up-factor rocket multiplies it. Su is the stock price after the up move: today's price times u, the high landing spot.",
+  "prompt": "A single stock-price coin sitting on a launchpad, a rocket with a big upward flame lifting an enlarged glittering coin high above the starting point, a tall landing mast marking the new height."
+ },
+ "210": {
+  "emoji": "🛝",
+  "scene": "Starting price on a slide platform; the down-factor chute multiplies it. Sd is the stock price after the down move: today's price times d, the low landing spot.",
+  "prompt": "A single stock-price coin on top of a playground slide, the coin sliding down and shrinking into a smaller dim coin at the bottom, a short landing mat marking the lower height, a small downward arrow."
+ },
+ "211": {
+  "emoji": "⚖️",
+  "scene": "Two twin lemonade stands sell identical cups. Whoever charges less gets a stampede and the other crashes the price to match. Derivatives work the same way: one price, or arbitrageurs eat it.",
+  "prompt": "Two identical lemonade stands side by side, a stampeding crowd rushing toward the one with the smaller price board while a lone vendor at the other stand frantically lowers his board, an arbitrageur with a big sack of coins grinning."
+ },
+ "212": {
+  "emoji": "🎈",
+  "scene": "Balloons of current assets float over a bar, tied to a short-term debt anchor underneath. Balloons bigger than the anchor and the whole thing lifts off: safe liquidity.",
+  "prompt": "A bunch of many colourful balloons floating at the top of a horizontal beam, below the beam a single small heavy anchor hanging on a rope, the whole contraption beginning to rise, a relieved cartoon accountant watching."
+ },
+ "213": {
+  "emoji": "🏃",
+  "scene": "In Dublin three sprinters, Cash, Securities, Receivables, race over the debt anchor. The sleepy hippo Inventory is left at the starting line: quick means no inventory.",
+  "prompt": "Three athletic sprinters running side by side, one holding coins, one holding a stock certificate, one holding an invoice, racing past a small anchor, a fat hippo sleeping at the starting line far behind them, a Dublin skyline backdrop."
+ },
+ "214": {
+  "emoji": "🚰",
+  "scene": "Five everyday hoses fill the liquidity bucket: wallet cash, an operations pipeline, tidy working capital, an unused credit card, a short-term loan. Normal business, no fire sale.",
+  "prompt": "A large bucket filled by five hoses at once: one from a wallet of coins, one from a factory pipe, one from a neatly tidied desk, one from an unused credit card, one from a small bank loan tap, calm worker watching."
+ },
+ "215": {
+  "emoji": "🛟",
+  "scene": "Ship sinking: the captain tosses the family silver overboard (sell investments and assets), then jumps into a courthouse-shaped lifeboat (bankruptcy). Last resort, damaging the business.",
+  "prompt": "A tilting sinking ship, a panicked captain throwing furniture and silverware overboard, then leaping into a small lifeboat shaped like a tiny courthouse with columns, big dark waves around."
+ },
+ "216": {
+  "emoji": "🥧",
+  "scene": "The taxman first takes his slice of the operating-profit pie; the leftover pie sits on a scale over the average pile of invested capital. Return per euro invested.",
+  "prompt": "A taxman in a suit cutting away a slice of a big pie and carrying it off, the remaining pie resting on one side of a fraction-style line above a large pile of coin stacks, the pile being averaged out by a smiling accountant."
+ },
+ "217": {
+  "emoji": "⛲",
+  "scene": "AGNC's endless fountain pours one dividend bucket a year, forever. Its value is the bucket divided by the discount rate: a wide drain R makes the lake small.",
+  "prompt": "A never-ending fountain pouring one bucket of coins each cycle into a lake below, a tall wall of years stretching into the distance, a wide drain gate under the lake with a wide opening so the lake looks small."
+ },
+ "218": {
+  "emoji": "🥤",
+  "scene": "A three-layer smoothie: skinny debt layer wearing a tax umbrella (cheaper after tax), a thin preferred layer, a fat spicy equity layer. Each layer's cost times its share of the glass.",
+  "prompt": "A tall glass with three layers: a thin bottom layer sitting under a small umbrella, a thin middle layer, a thick top layer glowing with chili peppers, a straw stirring the layers into one blended colour."
+ },
+ "219": {
+  "emoji": "🍕",
+  "scene": "Slice the pizza into debt and equity any way you like: thin, fat, or all one. Pizza size never changes. Without taxes, the levered firm is worth exactly the unlevered one.",
+  "prompt": "Two identical large pizzas of equal diameter side by side, one cut into two thin slices and the other cut into one fat slice, a chef measuring both with the same ruler and nodding in satisfaction."
+ },
+ "220": {
+  "emoji": "🌶️",
+  "scene": "Same pizza, but as the debt slice grows relative to the equity slice, the equity slice gets hotter. Extra spice equals the gap between all-equity cost and debt cost, times D over E.",
+  "prompt": "A pizza with a large slice and a small slice, the small slice covered in many glowing chili peppers and steam rising, a thermometer in it near boiling, a diner fanning his mouth and holding a big debt-shaped slab."
+ },
+ "221": {
+  "emoji": "🎁",
+  "scene": "The pizza gets a bonus slice delivered by the taxman: the debt umbrella shields interest from tax, adding a slice equal to tax rate times debt. Levered firm is worth more.",
+  "prompt": "A plain pizza with one extra bonus slice being glued on by a smiling taxman holding an umbrella over a stack of debt bricks, the pizza now visibly larger than a twin pizza standing beside it."
+ },
+ "222": {
+  "emoji": "🧯",
+  "scene": "Same spicy equity slice as before, but the taxman sprays it with a fire extinguisher: only the fraction one minus t of the heat remains. Leverage still heats equity, just less.",
+  "prompt": "A pizza slice covered in chili peppers with steam, a taxman in a suit spraying it with a fire extinguisher so part of the flames shrink, a stack of debt bricks beside the slice, a cooling diner."
+ },
+ "223": {
+  "emoji": "⛲",
+  "scene": "An eternal fountain trickles pre-tax cash, the taxman skims it, and the remaining trickle is measured against the firm's whole tank. Trickle over tank gives the unlevered cost of capital.",
+  "prompt": "An endless fountain pouring a stream of coins, a taxman skimming off a portion with a net, the remaining stream pouring into a large tank, a measuring stick comparing stream thickness to tank size."
+ },
+ "224": {
+  "emoji": "🪜",
+  "scene": "A staircase of price booths sells identical boxes: carry a bigger sack, step lower, pay less per box. Same product, different customers, different prices.",
+  "prompt": "A staircase with three booths on different steps all selling identical boxes, a customer with a tiny basket paying a big coin pile at the top, one with a huge sack paying a few coins at the bottom, a delivery van waiting."
+ },
+ "225": {
+  "emoji": "🌍",
+  "scene": "A globe-headed chairman, International, sits on a wooden Board nailed with accounting rules. I-F-R-S: International, so the board is the IASB.",
+  "prompt": "A cartoon figure with a spinning globe for a head sitting on a wooden plank board, holding a big hammer and a rulebook, nails and wooden planks around him, a calm and serious mood."
+ },
+ "226": {
+  "emoji": "🦅",
+  "scene": "An Uncle Sam accountant in an eyeshade hammers financial-accounting rules into a wooden Board. US GAAP, American: the FASB.",
+  "prompt": "A tall cartoon man in a star-spangled hat and green accountant eyeshade hammering a nail into a wooden board, a rulebook and calculator on a desk beside him, a bald eagle perched on the board watching."
+ },
+ "227": {
+  "emoji": "👨‍⚖️",
+  "scene": "Four judges descend a slope: thumbs up, thumbs up with crossed fingers (except for), thumbs down (adverse), then blindfolded shrug (disclaimer: can't judge). Clean to worst.",
+  "prompt": "Four judges standing on descending steps of a slope: the first with a big thumbs-up, the second with thumbs-up and crossed fingers, the third with a firm thumbs-down, the fourth blindfolded and shrugging with palms raised."
+ },
+ "228": {
+  "emoji": "🩺",
+  "scene": "For a US public company the auditor doubles as a plumber-doctor, stethoscope on the company's pipes and locks, and must sign a certificate on internal controls too, not just the numbers.",
+  "prompt": "An auditor in a suit pressing a stethoscope against a factory's locked doors and pipes, a large signed certificate with a ribbon in his other hand, a US-styled flag flying over the factory."
+ },
+ "229": {
+  "emoji": "🧦",
+  "scene": "A giant red sock, Sarbanes-Oxley, is stuffed between auditor and client as a wall: the client waves cash and consulting contracts, but the auditor stays independent on his own island.",
+  "prompt": "A huge red sock wedged vertically as a wall between an auditor on a quiet island and a client on the other side, the client waving a bag of cash and a contract, the auditor calmly polishing his glasses."
+ },
+ "230": {
+  "emoji": "🎤",
+  "scene": "The CEO at a lectern narrates a map of the company's water tanks: capital resources, liquidity, cash needs, and the pipes showing where cash comes from and where it goes.",
+  "prompt": "A CEO at a lectern with a microphone pointing at a big wall map of water tanks connected by pipes, arrows showing water flowing in and out, a reservoir at the centre, an audience of attentive investors."
+ },
+ "231": {
+  "emoji": "🌊",
+  "scene": "The owner's equity tank rises whenever assets balloon up or a debt anchor floats away. The owner pouring in his own bucket is rejected: not income, just a deposit.",
+  "prompt": "A glass tank with rising water level, balloons lifting out of a shop on one side and a heavy anchor floating away on the other, the shop owner pouring his own bucket of water into the tank while a guard waves him off."
+ },
+ "232": {
+  "emoji": "🛍️",
+  "scene": "A till under attack by three raiders: one hauls goods back (returns), one slashes price tags with scissors (allowances), one waves coupons (discounts). Gross sales shrink to net.",
+  "prompt": "A shop till with a pile of coins, three raiders around it: one wheeling a returned parcel back in, one cutting a price tag with big scissors, one waving a fan of coupons, the pile of coins getting smaller."
+ },
+ "233": {
+  "emoji": "🔥",
+  "scene": "A fire burns the factory roof, yet the machines keep humming: under IFRS the loss drops into the ordinary income river. No separate extraordinary box exists.",
+  "prompt": "A factory with its roof on fire but machines still working and workers carrying on, a single river of coins flowing out of the factory with a burnt chunk floating in it, an empty crossed-out side basin beside the river."
+ },
+ "234": {
+  "emoji": "🍰",
+  "scene": "Preferred guests grab their fixed slice of the profit pie first. The rest is split evenly among common-share guests, counted by how long each actually sat at the table.",
+  "prompt": "A big pie on a table, two VIP guests in bow ties taking a fixed slice first, the remaining pie being cut into equal slices for many seated guests, an hourglass beside each seat showing how long they have been there."
+ },
+ "235": {
+  "emoji": "🍦",
+  "scene": "A plain vanilla cone with exactly one scoop: only common stock, nothing convertible, no hidden toppings that could change the shape.",
+  "prompt": "A single plain vanilla ice-cream cone with one round scoop, nothing else on it, a clean white background, a smiling customer holding it with both hands."
+ },
+ "236": {
+  "emoji": "🥚",
+  "scene": "A sundae full of hatching eggs: convertible bond, preferred, option, warrant. Each egg could crack open and hatch extra shares, so the scoop count may grow.",
+  "prompt": "A large ice-cream sundae topped with four cracking eggs, a tiny bond certificate, a ticket, a key and a bone-coloured shell, small baby shares peeking out of the cracks."
+ },
+ "237": {
+  "emoji": "🥧",
+  "scene": "At Davy, hidden eggs crack and extra diners pop out of bonds and options. Same net income pie, divided by more guests (and more share-hungry stomachs): thinner slices.",
+  "prompt": "A conference table with a pie at the centre, existing diners seated, and extra new diners bursting out of cracked eggs and envelope-shaped bond certificates, the pie slices now very thin, a Dublin skyline through the window."
+ },
+ "238": {
+  "emoji": "🧮",
+  "scene": "N option holders storm in and pay the strike. The company sprints to market and buys back N times K over P shares with that cash, so only the net newcomers stay.",
+  "prompt": "A large crowd of option holders paying coins at a door, a company clerk then running to a market stall with the collected coins to buy back a smaller group of shares, a calculator in his hand, the net difference crowd standing aside."
+ },
+ "239": {
+  "emoji": "🏦",
+  "scene": "A factory conveyor makes goods (operating) while a loan shark sits outside the gate on a bridge, taking his coin. Interest is paid for financing, not for running operations.",
+  "prompt": "A factory with a conveyor belt producing goods inside, a banker on a separate bridge outside the factory gate collecting a coin from the owner, a clear dotted line separating factory from bridge."
+ },
+ "240": {
+  "emoji": "🎆",
+  "scene": "At midnight New Year fireworks split every share like a cell into two. Time-travelling, the split is stamped back on the first day, so the whole year's shares are restated.",
+  "prompt": "Fireworks bursting at midnight with coin-shaped shares splitting like cells into two, a time traveller with a rewind device pushing the splitting back to the first page of a wall calendar, earlier coins also doubled."
+ },
+ "241": {
+  "emoji": "🥄",
+  "scene": "The taxman scoops a spoonful out of the pre-tax profit mountain. Spoon over whole mountain, before the scoop: the tax rate.",
+  "prompt": "A giant heap of gold coins, a taxman standing on top holding a large spoon with a scoop of coins, a thin line separating the spoon from the whole heap, a worried owner watching."
+ },
+ "242": {
+  "emoji": "🦄",
+  "scene": "A strange unicorn clambers onto the main production line and stays there, working like everyone else. Under US GAAP, unusual or infrequent items remain inside continuing operations.",
+  "prompt": "A factory production line with ordinary workers, and one unicorn standing on the same conveyor belt among them, handling boxes like everyone else, not separated by any curtain or fence."
+ },
+ "243": {
+  "emoji": "⏪",
+  "scene": "A time-travelling accountant with a giant eraser rewrites last years' ledgers as if the new rule had always applied. Back-fixing the past: restate prior periods.",
+  "prompt": "An accountant stepping out of a time machine with a giant eraser, rewriting old ledgers on a shelf behind him, old years' calendars flipping backwards, a clock face spinning counter-clockwise."
+ },
+ "244": {
+  "emoji": "⏩",
+  "scene": "The accountant locks old ledgers in a glass museum case and walks forward, using the new rule only on fresh pages. Leave the past alone; change only from now on.",
+  "prompt": "An accountant walking forward along a road, old ledgers locked in a glass museum case behind him, a fresh blank book under his arm, a clock face spinning clockwise ahead."
+ },
+ "245": {
+  "emoji": "📦",
+  "scene": "The customer pays and cash goes in the drawer, but the goods are still in the back room, tied with a chain. You owe delivery: income postponed, shown as a liability.",
+  "prompt": "A customer handing a bag of coins across a counter, a shopkeeper placing it in a drawer, behind them a gift parcel wrapped in a chain sitting on a back-room shelf, a small clock above it."
+ },
+ "246": {
+  "emoji": "🎈",
+  "scene": "A trader's stock balloon swells, and its helium flows down a chute into the income-statement river, which empties into the retained-earnings lake. Unrealised gain on trading securities.",
+  "prompt": "A trader holding a swelling balloon with a tube running from it into a river, the river flowing into a large lake below, the trader beaming and the river carrying small gold coins into the lake."
+ },
+ "247": {
+  "emoji": "🔒",
+  "scene": "A bond sits locked in a safe with the curtains drawn while a storm of price swings rages outside. Held to maturity: market moves are not recognised.",
+  "prompt": "A bond certificate inside a locked safe in a small room with heavy curtains drawn, a thunderstorm with lightning outside the window, a calm watchman in a chair inside reading a book."
+ },
+ "248": {
+  "emoji": "⚖️",
+  "scene": "A balanced seesaw: all assets on the left plank, balancing exactly a debt anchor with the owner sitting on it on the right. Liabilities plus equity always equals total assets.",
+  "prompt": "A perfectly level seesaw, a big pile of assets on the left seat, a heavy anchor and a seated owner together on the right seat, the plank horizontal and balanced."
+ },
+ "249": {
+  "emoji": "🦈",
+  "scene": "NVIDIA the shark swallows a small shop and pays a fat premium; the shop's real value fits in its belly, while an extra glowing halo floats above. That halo is goodwill.",
+  "prompt": "A big green shark swallowing a small bakery shop, a stack of coins larger than the shop's contents being handed over, a glowing golden halo floating above the shark's head, small fish watching."
+ },
+ "250": {
+  "emoji": "🚪",
+  "scene": "Interest or dividends received: IFRS house has two doors (investing or operating), take your pick. US GAAP house bolts one shut: operating only.",
+  "prompt": "Two houses side by side: one with two open doors in different colours and a person choosing one, the other with one open door and the second door chained and bolted shut, a coin purse in the person's hand."
+ },
+ "251": {
+  "emoji": "🧱",
+  "scene": "Cash is trapped inside piles of inventory. When the piles shrink, cash pops out like jam from a doughnut and gets added back to net income.",
+  "prompt": "A warehouse with a large pile of boxes with gold coins visible inside, the pile shrinking as boxes are carried away, a stream of coins popping out and being poured onto a stack of profit coins beside it."
+ },
+ "252": {
+  "emoji": "🍕",
+  "scene": "After the factory pays its costs and reinvestments, the leftover cash pile sits on the table. Bondholder and shareholder both reach in: free cash flow belongs to everyone who funded the firm.",
+  "prompt": "A cash pile on a table after a factory has finished working, a banker holding a bond and a shareholder holding a stock certificate both reaching toward it, a factory in the background."
+ },
+ "253": {
+  "emoji": "🔍",
+  "scene": "A detective with a magnifying glass at three taps, operations, investing, financing, hunts the biggest gusher first. Step one: find where the cash mainly comes from.",
+  "prompt": "A detective with a magnifying glass standing before three water taps with different pipe sizes, one tap gushing hard, the other two dripping, buckets under each, the detective leaning forward to inspect the biggest."
+ },
+ "254": {
+  "emoji": "🪣",
+  "scene": "A bucket of real cash (CFO) stands on top of the paper operating-profit tower. A bucket as tall as the tower means the profits are backed by cash.",
+  "prompt": "A tall tower of paper sheets, a bucket full of gold coins sitting on a line above it as a fraction, the bucket about as tall as the tower, a content accountant giving a thumbs-up."
+ },
+ "255": {
+  "emoji": "🧱",
+  "scene": "Start with the net income loaf, add non-cash charges, add interest after tax; then two thieves carry off the capex bulldozer and the working-capital truck. What's left is FCF.",
+  "prompt": "A loaf of bread with two extra crusts being added on top, two thieves hauling away a toy bulldozer and a small delivery truck, a smaller remaining loaf left on a plate."
+ },
+ "256": {
+  "emoji": "🎣",
+  "scene": "An HR recruiter dangles two baits: a gift of real shares (equity settled), and an envelope of cash that grows with the share price (cash settled). Both hook new employees.",
+  "prompt": "A recruiter with a fishing rod dangling two lures above a pond of job candidates: one a small share certificate, the other an envelope stuffed with cash and a rising graph arrow, fish in suits jumping toward them."
+ },
+ "257": {
+  "emoji": "🎒",
+  "scene": "A tenant carries every rented item over a year on his back, finance leases and operating leases, along with a debt backpack. A weekend rental under a year stays on the doorstep.",
+  "prompt": "A tenant carrying heavy rented furniture on his back with a second backpack of debt on his shoulders, a small weekend-rental item sitting on the doorstep behind him, a calendar with many pages."
+ },
+ "258": {
+  "emoji": "🕳️",
+  "scene": "A row of future rent cheques crawls through a shrinking time tunnel and drops into one bucket today. Lease liability at inception is the present value of those payments.",
+  "prompt": "A line of rent cheques receding into a tunnel in the distance, shrinking as they get farther, and a single bucket at the front catching the shrunk cheques, a clock beside the tunnel."
+ },
+ "259": {
+  "emoji": "🚗",
+  "scene": "A car maker hands the keys to a customer: the car vanishes from the shelf and a paper IOU chain appears in its place. Long lease means a sale; asset out, receivable in.",
+  "prompt": "A car dealer handing keys to a customer, an empty spot on the shelf where the car was, a paper IOU chain lying where the car used to stand, a coin pile of sale profit beside the dealer."
+ },
+ "260": {
+  "emoji": "🔮",
+  "scene": "The pension actuary peers into his crystal ball; every wobble of gain or loss falls into a side bin marked OCI and never goes back to the main profit pot.",
+  "prompt": "An actuary peering into a crystal ball, small coins and sparks dropping from it into a separate side bin, a main profit pot on the other side of the room kept clean, a one-way arrow into the bin."
+ },
+ "261": {
+  "emoji": "🥖",
+  "scene": "Revenue is the whole loaf; cut away the flour-and-labour chunk (COGS), and what remains, over the whole loaf, is gross margin. Sold in Dublin, naturally.",
+  "prompt": "A bakery shop in Dublin, a baker cutting off a large end chunk from a whole loaf, the leftover crust measured against the whole loaf on a scale, a flour sack beside the chunk."
+ },
+ "262": {
+  "emoji": "🏷️",
+  "scene": "Each pallet wears two price tags, cost and net realisable value; the clerk always picks the lower. Only a farmer and a miner may pick the taller tag.",
+  "prompt": "A clerk holding two price tags up to a pallet, one tag low and one tag high, choosing the lower; a farmer with a hay bale and a miner with a gold nugget stand aside, each reaching for the taller tag."
+ },
+ "263": {
+  "emoji": "🔄",
+  "scene": "A US eagle slams a one-way valve: a written-down inventory can never be written back up. The IFRS side is a revolving door letting it climb back, up to its original cost.",
+  "prompt": "Two doors side by side: one with a one-way valve that an eagle is slamming shut, the other a revolving door with a pile of boxes rolling back out upward, a ceiling line marking the original cost."
+ },
+ "264": {
+  "emoji": "🥫",
+  "scene": "A conveyor sells the oldest cheap cans out the front first, while new expensive cans pile up at the back. The cheap goes, the expensive stays in the stockroom.",
+  "prompt": "A conveyor belt with small cheap cans leaving through the front door while larger gold-coloured cans pile up at the back of the stockroom, a stockkeeper watching with a checklist."
+ },
+ "265": {
+  "emoji": "🍽️",
+  "scene": "A tower of plates: the last, shiniest, most expensive plate is grabbed from the top first, while the old cheap plates rot at the bottom. The expensive goes, the cheap stays.",
+  "prompt": "A tall tower of plates with a shiny gold plate on top being lifted away first, old dull plates at the bottom of the tower, dust and cobwebs on them, a waiter reaching up."
+ },
+ "266": {
+  "emoji": "🌀",
+  "scene": "A revolving door spins goods out: the speed of what leaves (COGS) on top, over the average pile of stock standing in the warehouse below. Airbus-sized stock turns slowly.",
+  "prompt": "A giant revolving door of a warehouse spinning boxes out quickly, above a fraction-like line, a pile of stock below it, small Airbus-style aeroplanes parked in the pile, a worker timing it with a stopwatch."
+ },
+ "267": {
+  "emoji": "🥞",
+  "scene": "A stacked-plate juggler in an American hat is welcomed into the circus ring (US GAAP). The globe-headed bouncer at the international ring bars him at the gate: no LIFO.",
+  "prompt": "A juggler in a star-spangled hat balancing a tall stack of plates, welcomed into a circus ring on the left; on the right a bouncer with a globe for a head blocking the gate, arms crossed, stopping the same juggler."
+ },
+ "268": {
+  "emoji": "📡",
+  "scene": "A shopkeeper with an always-on scanner beeps at every sale, and the tally board updates in the same instant. Perpetual: updated after every transaction.",
+  "prompt": "A shopkeeper with a handheld scanner beeping at each item as a customer buys, a tally board behind him changing numbers at once, small flash lines around the scanner."
+ },
+ "269": {
+  "emoji": "😴",
+  "scene": "The shopkeeper sleeps through the whole year and wakes only on the last day to count every shelf with a clipboard in a panic. Periodic: updated only at period end.",
+  "prompt": "A shopkeeper snoring asleep behind the counter with cobwebs, then the same shopkeeper waking up on the last day, frantically counting shelves with a clipboard, a calendar showing the final page."
+ },
+ "270": {
+  "emoji": "👑",
+  "scene": "A short stack of old cheap plates is LIFO inventory; place the reserve crown on top and the stack becomes the tall FIFO inventory. FIFO equals LIFO plus reserve.",
+  "prompt": "A short stack of dull old plates, next to it a taller stack with the same dull plates plus a golden crown placed on top, a tape measure showing the tall stack is the short stack plus the crown."
+ },
+ "271": {
+  "emoji": "✂️",
+  "scene": "When the reserve crown grows, scissors cut that growth off the LIFO cost-of-goods pile. FIFO COGS is lower: LIFO COGS minus the change in reserve.",
+  "prompt": "A pile of coins, scissors cutting a chunk off the pile, a golden crown that has grown taller beside it, the cut chunk equal to the crown's growth, a satisfied accountant."
+ },
+ "272": {
+  "emoji": "🥇",
+  "scene": "The reserve crown grows by a gold nugget; the taxman grabs his share t first, and only the remainder, one minus t, tips into the profit pile. FIFO net income is higher.",
+  "prompt": "A crown with a freshly added gold nugget, a taxman in a suit snatching a portion of the nugget, the remaining nugget being tipped onto a profit pile, a happy owner."
+ },
+ "273": {
+  "emoji": "🌳",
+  "scene": "The owner's equity tree grows a branch the size of the whole reserve crown after the taxman chops his share off it. FIFO equity is bigger.",
+  "prompt": "A tree with a thick extra branch growing, next to it a golden crown, a taxman with an axe chopping off a piece of the new branch, the remaining branch still large and healthy."
+ },
+ "274": {
+  "emoji": "🍞",
+  "scene": "A loaf of revenue after every bite, costs, interest, tax, leaves one tiny crumb. Crumb over loaf is net profit margin.",
+  "prompt": "A whole large loaf of bread with many bites taken out, a single tiny crumb left on a plate, a thin line between the crumb and the whole loaf, a mouse studying the crumb."
+ },
+ "275": {
+  "emoji": "✂️",
+  "scene": "The owner holds two offers: sell price minus the truck fee, or keep-using value. He takes the higher one; if his machine's tag stands taller, he saws off the excess as impairment loss.",
+  "prompt": "A machine owner holding two offers, one short and one tall, selecting the taller; a tag standing on the machine taller than that offer, a saw cutting the excess top off the tag."
+ },
+ "276": {
+  "emoji": "🔗",
+  "scene": "Two towers, income statement and balance sheet, joined by a bridge. A transaction swapping coins between pockets in one tower leaves the other alone; anything else shakes both.",
+  "prompt": "Two towers connected by a rope bridge: one with a swapping crew exchanging coins between two pockets inside it while the other tower stays still, then a different event shaking both towers and the bridge."
+ },
+ "277": {
+  "emoji": "🕯️",
+  "scene": "Net plant and equipment is the candle stub; annual depreciation is how much burns each year. Stub length divided by yearly burn gives the years left to light.",
+  "prompt": "A candle stub standing next to a measuring ruler, a small flame burning a thin slice per year, a calendar page leaf falling off, a worker counting with fingers how many slices fit."
+ },
+ "278": {
+  "emoji": "🐘",
+  "scene": "A huge EBIT elephant stands on one end of a see-saw, lifting a tiny interest mouse up high. How many times EBIT covers interest is how safe the debt payment feels.",
+  "prompt": "A seesaw with a big elephant on one end and a tiny mouse on the other held high in the air, the mouse looking pleased, a bag of coins beside the mouse."
+ },
+ "279": {
+  "emoji": "🐹",
+  "scene": "At Airbus, revenue per machine: a hamster wheel is average net fixed assets, and the coin sack it spins out sits on top. More coins per wheel is better use of assets.",
+  "prompt": "A giant hamster wheel with a factory-like machine, a hamster running inside, coins flying out of the wheel into a big sack, a ruler comparing sack size to wheel size, an Airbus-style plane silhouette in the background."
+ },
+ "280": {
+  "emoji": "📂",
+  "scene": "The machine carries a satchel of five items: ruler (measurement basis), cog (depreciation method), clock (useful life), gross crate, and a rolling ledger tracking opening-to-closing movements.",
+  "prompt": "A machine wearing a satchel holding five items: a ruler, a cog, a clock, a wooden crate, a rolling scroll ledger, an inspector looking at the open satchel."
+ },
+ "281": {
+  "emoji": "🔮",
+  "scene": "A fortune-teller gazes into her crystal ball and shows five ice cubes lined up, each melting a little: the patent's amortization for each of the next five years.",
+  "prompt": "A fortune-teller at a table with a crystal ball, five ice cubes in a row in front of her, each a little more melted than the one before, a small patent scroll beside them."
+ },
+ "282": {
+  "emoji": "🔥",
+  "scene": "An inventor in a garage feeds cash straight into the expense furnace instead of shelving it on the balance sheet. Home-grown intangibles are generally expensed; bought ones are shelved.",
+  "prompt": "An inventor in a garage shovelling coins into a roaring furnace, a clean empty shelf in the background, and on the right a purchased brand shelved neatly with a price tag."
+ },
+ "283": {
+  "emoji": "🧊",
+  "scene": "An ice sculpture (finite life) is shaved down a little each year: amortised. A diamond statue (indefinite life) never melts, only checked under a magnifier for cracks.",
+  "prompt": "An ice sculpture melting slightly on one side and, on the other, a diamond statue untouched, a person examining the diamond with a magnifying glass for cracks, a calendar between them."
+ },
+ "284": {
+  "emoji": "🔐",
+  "scene": "The IFRS factory wears a padlock held by a bank (title restricted, pledged), holds signed scrolls to buy more machines, and shows a cost tag and a gold-glazed revaluation surplus fountain.",
+  "prompt": "A factory with a heavy padlock held by a banker, a rolled signed contract scroll on a desk, a plain price tag on one machine, a gold-glazed machine with a small fountain of surplus coins beside it."
+ },
+ "285": {
+  "emoji": "🏭",
+  "scene": "The US GAAP warehouse shows three bins of asset classes, a meter of this year's depreciation spent, and an hourglass pile of accumulated depreciation sand.",
+  "prompt": "A warehouse containing three bins: land, building, machine, a dial meter showing the yearly wear and a big hourglass with a pile of sand piled at the bottom, a clerk checking them."
+ },
+ "286": {
+  "emoji": "✏️",
+  "scene": "A patent scroll and a licence card are sharpened down like pencils each year. Amortization is just depreciation for intangibles.",
+  "prompt": "A pencil sharpener shaving a patent scroll and a licence card like pencils, the shavings falling into a small bin, a rusting machine in the background for comparison."
+ },
+ "287": {
+  "emoji": "🐄",
+  "scene": "Net sales milked per cow: the average net PPE is the cow, and the milk it yields is the sales. A big bucket over a small cow means PPE works hard.",
+  "prompt": "A big dairy cow made of small gears and bricks being milked, a huge bucket full of coins beside her, a farmer comparing the bucket to the cow's size with a ruler."
+ },
+ "288": {
+  "emoji": "🪚",
+  "scene": "A ladder man (carrying value) is sawn down to the height of the taller of two measuring sticks: sale value or use value. The sawn-off top is the impairment loss.",
+  "prompt": "A man standing on a tall ladder, two measuring sticks of different heights beside him, a saw cutting the top of the ladder down to the taller stick's height, the sawn-off piece falling."
+ },
+ "289": {
+  "emoji": "🦒",
+  "scene": "A giant asset body balances on tiny equity stilts. The more body per stilt, the higher the leverage: average assets over average equity.",
+  "prompt": "A giant bulky body made of stacked boxes balancing on two thin stilts, a small rider on one stilt holding on tight, the stilts bending under the weight, a tape measure comparing body size to stilt size."
+ },
+ "290": {
+  "emoji": "🛣️",
+  "scene": "Two rivers, accounting and taxable income, split at a fork and never meet again. A tax-credit stamp sits at the fork. Permanent: no deferred bridge is built.",
+  "prompt": "A river splitting into two branches that flow away from each other and never rejoin, a golden stamp planted in the fork, a builder holding bridge planks and dropping them in frustration."
+ },
+ "291": {
+  "emoji": "🗼",
+  "scene": "Book carrying amount tower stands taller than the tax-base tower. The extra slice is taxed by a taxman holding a rate stick; that tax IOU is the deferred tax liability.",
+  "prompt": "Two towers side by side, the book tower taller than the tax tower, the extra top segment glowing, a taxman measuring it with a long stick and holding an IOU slip."
+ },
+ "292": {
+  "emoji": "🛒",
+  "scene": "The effective rate is a shopping bag collecting every tax, federal, foreign, deferred, all in one, divided by pre-tax profit. Everything goes in.",
+  "prompt": "A big shopping bag stuffed with different tax envelopes, a federal-styled building, a foreign flag, a stack of IOU papers, a pile of pre-tax profit coins beside the bag."
+ },
+ "293": {
+  "emoji": "📜",
+  "scene": "Statutory is the rate carved in a stone law tablet; effective is the smaller receipt actually paid after the loopholes. Written versus paid.",
+  "prompt": "A huge stone tablet with a carved large number-like bar, next to it a small paper receipt of a different height held by a businessman with a smug grin."
+ },
+ "294": {
+  "emoji": "🌧️",
+  "scene": "A gloomy accountant under a rain cloud shrinks profits, inflates liabilities, lowers asset values. Always a half-empty glass: conservative means bias toward worse.",
+  "prompt": "A gloomy accountant in a raincoat with a small dark cloud above his head, holding a half-empty glass, a deflated profit balloon and a swollen debt anchor beside him."
+ },
+ "295": {
+  "emoji": "👑",
+  "scene": "On the quality ladder, the top rung: a steady well that pumps enough water every year to fill the village bucket, forever. Sustainable and adequate: best earnings quality.",
+  "prompt": "A tall ladder with a golden crown on the top rung, a steady well at the top pouring water into a village bucket that is exactly full, villagers smiling, a calm sunny sky."
+ },
+ "296": {
+  "emoji": "📸",
+  "scene": "A Davy analyst watches the CEO airbrush blemishes from a profit photo: pro forma is management's own selfie filter on earnings, not the standard version.",
+  "prompt": "A CEO taking a selfie of a glowing profit chart, a smartphone filter smoothing away ugly dark spots, the unretouched ugly chart held behind his back, an investor squinting suspiciously."
+ },
+ "297": {
+  "emoji": "🎁",
+  "scene": "A gorgeous gift box with a perfect bow arrives, and inside sits a rotten apple. A beautifully reported statement can still hide low-quality earnings.",
+  "prompt": "A beautifully wrapped gift box with a golden bow, opened to show a rotten, worm-eaten apple inside, a stunned recipient staring at it."
+ },
+ "298": {
+  "emoji": "☔",
+  "scene": "A gloomy forecaster predicts rain, so nobody sues when it rains. The cheerful one predicts sunshine and gets chased by soaked investors with legal papers.",
+  "prompt": "A gloomy weather forecaster holding an umbrella while crowds stay calm in the rain; beside him a cheerful forecaster with a sun placard being chased by drenched people waving legal papers and gavels."
+ },
+ "299": {
+  "emoji": "🐕",
+  "scene": "The banker walks the borrower like a dog on a leash inside a fenced yard: do this, never do that. Covenants are the rules in the loan.",
+  "prompt": "A banker in a suit walking a borrower on a leash inside a small fenced yard, a rulebook in the banker's other hand, a loan bag of cash hanging from the borrower's neck."
+ },
+ "300": {
+  "emoji": "🧀",
+  "scene": "A plumber trades a wheel of cheese for a haircut: hands meet, no coins anywhere. The accountant still records both sides at fair value.",
+  "prompt": "A plumber handing a large cheese wheel to a barber who has just given him a haircut, no money visible anywhere, an accountant in the corner writing in a ledger."
+ },
+ "301": {
+  "emoji": "⏳",
+  "scene": "In Dublin a Davy client sips a pint of Guinness while the invoice-chaser waits with an hourglass and a pile of calendar pages. Pages piled equals days to get paid.",
+  "prompt": "A man in a Dublin pub sipping a dark pint calmly, an invoice collector standing beside him with an hourglass and a thick stack of calendar pages, a cityscape of Dublin through the window."
+ },
+ "302": {
+  "emoji": "🧊",
+  "scene": "A tall ice block is the cost; a small salvage cube at the bottom never melts. The meltable part is cut into equal slabs, one per year of life.",
+  "prompt": "A tall ice block with a small cube at the bottom separated by a line, the upper part sliced into equal slabs by a worker with a saw, the same number of slabs lined up in a row as years of life, a calendar behind."
+ },
+ "303": {
+  "emoji": "🏭",
+  "scene": "A factory cuts one cake worth cost minus salvage into equal slices, one per unit it will ever make. Each unit produced eats exactly one slice, so depreciation tracks output, not time.",
+  "prompt": "Cartoon factory conveyor belt producing identical gadgets; beside it a big round cake with a small stub core removed, cut into equal slices. A worker hands one slice to a hungry machine for each gadget it makes. Bright flat illustration."
+ },
+ "304": {
+  "emoji": "⏩",
+  "scene": "A speedometer-mad accountant hits the book value pie with a double-sized spoon (2 divided by life) every year. Bites shrink as the pie shrinks, and salvage is ignored in the bite.",
+  "prompt": "Cartoon accountant with an oversized double-headed spoon scooping a big fraction off a pie each year; three pies in a row, each smaller than the last, bites getting smaller. A tiny forgotten box sits ignored at the side."
+ },
+ "305": {
+  "emoji": "📦",
+  "scene": "A salesman buries a customer in towers of unordered boxes before year-end. Revenue balloon inflates, warehouse shelves look empty, and next quarter the boxes come tumbling back.",
+  "prompt": "Cartoon salesman shoving huge towers of cardboard boxes onto a startled customer's doorstep; a revenue balloon inflates over the salesman while empty warehouse shelves gape behind him; a few boxes already boomerang back."
+ },
+ "306": {
+  "emoji": "✂️",
+  "scene": "A giant pair of scissors snips four things off profit: interest, tax, depreciation, amortization. What's left is shiny but home-made, not on the official GAAP shelf.",
+  "prompt": "Cartoon scissors cutting four ribbons of different colours off a gleaming gold coin. The trimmed coin sits on a hand-made wooden pedestal beside a formal glass display case that stays empty."
+ },
+ "307": {
+  "emoji": "🔍",
+  "scene": "A detective lines up your company beside its peers and holds a magnifier to the odd one out: its ratios stick out like a sore thumb. Compare against peers to spot the cooking.",
+  "prompt": "Cartoon detective with magnifying glass beside a row of identical chefs holding normal pots; one chef in the row has a steaming, wildly overflowing pot with a hidden extra spoon. Detective peers at him."
+ },
+ "308": {
+  "emoji": "🏅",
+  "scene": "A gold-medal earnings bar stamped by GAAP, easy to understand for decisions, and standing on strong legs that will last next year too. Rule-following, useful, sustainable.",
+  "prompt": "Cartoon gold medal on a podium; a sturdy bar graph beside it, standing on thick strong legs with a rulebook-shaped stamp on it. A happy investor holds it up and nods at the camera."
+ },
+ "309": {
+  "emoji": "⏳",
+  "scene": "Receivables pile sits on top; underneath, a pile of daily sales (annual sales cut into 365 slices). Count how many daily-sales slices the unpaid pile equals: days to get paid.",
+  "prompt": "Cartoon large stack of unpaid invoices on top of a divider line; below it a small slice of a pie cut into many tiny slivers representing one day. A weary clerk counts how many slivers fit into the stack."
+ },
+ "310": {
+  "emoji": "🏃",
+  "scene": "A runner hauls a backpack of assets and gets timed on how fast it spins: inventory turning like a hamster wheel, receivables collected fast. Efficiency of assets, not size.",
+  "prompt": "Cartoon runner with a backpack full of warehouse stock sprinting on a hamster wheel, inventory boxes spinning round and round; a stopwatch in his hand and coins dropping quickly into a till behind him."
+ },
+ "311": {
+  "emoji": "💧",
+  "scene": "A person with a fistful of bills, cash, and quickly sellable items stands at the door of the short-term bills collector. Can they pay now? Current, quick, cash: three escalating buckets of water.",
+  "prompt": "Cartoon person at a front door holding three buckets of water in a row: a big one, a medium one, a small one. A collector in a hat waits with an open hand, watching the water level."
+ },
+ "312": {
+  "emoji": "🏰",
+  "scene": "A castle with a huge tower of borrowed debt bricks stands on a thin foundation of equity and assets. Long-term survival: can the base carry the debt tower?",
+  "prompt": "Cartoon castle with a tall, wobbly tower of dark bricks leaning on a small shallow foundation block. A concerned architect measures the tower against the base with a long ruler and chews his pencil."
+ },
+ "313": {
+  "emoji": "💰",
+  "scene": "A farmer counts the harvest after costs: slices of margin on each sale, then return on every asset tractor and on the owner's own acres. How much do you actually keep?",
+  "prompt": "Cartoon farmer proudly holding a big golden pie with several slices pulled out, small piles of coins by a tractor and by his own field. Smiling cow behind him wearing a tiny bow tie."
+ },
+ "314": {
+  "emoji": "🔄",
+  "scene": "A pizza is stocked on the shelf for days, sold on credit for more days, and the two timers run end to end. Total wait before cash: shelf days plus collection days.",
+  "prompt": "Cartoon pizza on a shelf under a clock, then handed to a customer who promises payment under a second clock; the two clock arms are chained end to end into one long ribbon of days. A delivery chef sweats."
+ },
+ "315": {
+  "emoji": "🚂",
+  "scene": "A three-carriage ROE train: margin carriage (profit over revenue), asset-turnover carriage (revenue over assets), and a leverage carriage (assets over equity) hauling the borrowed load. Revenue and assets cancel.",
+  "prompt": "Cartoon steam train of three carriages joined together: first holds a golden profit chunk over a revenue pile, second holds the revenue pile over a warehouse, third holds the warehouse over a small treasure chest. Matching piles are at the joins."
+ },
+ "316": {
+  "emoji": "🥧",
+  "scene": "A debt slice on a pie sits on top; underneath, the whole pie is debt plus equity. Debt to capital is how much of the entire pie is the borrowed slice.",
+  "prompt": "Cartoon round pie, one dark slice. Above a line, that slice alone; below the line, the whole pie of dark slice and light slices together. A chef points to the proportion."
+ },
+ "317": {
+  "emoji": "🎨",
+  "scene": "An artist's intangible painting is valued two ways: kept at what he paid, minus wear (cost model), or marked to the market price on an active auction (revaluation model). The price tag decides.",
+  "prompt": "Cartoon artist beside a painting; on one side a shopping receipt and small tray with worn rubber, on the other an auction hall with raised paddles and a gavel. Painting appears in both scenes."
+ },
+ "318": {
+  "emoji": "⏱️",
+  "scene": "Walk the cash race: shelf days then waiting-for-customers days, but then subtract the days your own suppliers let you wait. Net days your cash is stuck: stock plus receivables minus payables.",
+  "prompt": "Cartoon runner dragging a long ribbon of two joined clocks behind him, then a third clock ribbon bites a piece off its end. Cash coins are stuck on the long ribbon, a supplier waves from the side."
+ },
+ "319": {
+  "emoji": "🎯",
+  "scene": "Profit before interest and tax sits on top, but the bottom bowl holds all interest paid, plus the sneaky interest tucked away in assets (capitalised). Ignore the hidden bit and coverage looks falsely safe.",
+  "prompt": "Cartoon big gold pile on top of a line; below it a bowl with visible coins plus a lid-covered second pot beside it that is being poured into the bowl. Anxious analyst peers inside the second pot."
+ },
+ "320": {
+  "emoji": "🎛️",
+  "scene": "A pilot twiddles one dial at a time on a control panel, asking 'what if?', and a screen shows the range of outcomes swinging wide or narrow. One assumption changed, many results.",
+  "prompt": "Cartoon pilot at a control panel turning one big dial while other dials stay still; a screen above shows a fan of different lines spreading out. Pilot wears a curious grin and holds a coffee cup."
+ },
+ "321": {
+  "emoji": "🧾",
+  "scene": "Purchases poured on top, divided by the average pile of unpaid supplier bills underneath. A big ratio means you pay suppliers quickly; the bills turn over fast.",
+  "prompt": "Cartoon grocer pouring a big sack of purchased goods onto a line; below it a modest pile of unpaid invoices. A supplier stands holding an empty hand, an arrow looping round the invoice pile showing it turning over."
+ },
+ "322": {
+  "emoji": "🛡️",
+  "scene": "A Davy broker sits in a bunker with only liquid assets in cash-filled cups, burning through daily expenses like a coffee bill. How many days can he last without selling anything else?",
+  "prompt": "Cartoon broker in a suit sitting in a sandbag bunker, surrounded by cups of cash and a few easy-to-sell items, a row of daily-expense coins marching into a coffee machine. A calendar with many days ripped off hangs behind him."
+ },
+ "323": {
+  "emoji": "🤝",
+  "scene": "A butler in a suit holds the client's umbrella over the client in the rain and lets himself get soaked. Legally bound to put the client's best interest first.",
+  "prompt": "Cartoon butler holding a big umbrella entirely over a smiling client in heavy rain while he himself is soaked, with a legal scroll chained around his wrist. Cheerful style."
+ },
+ "324": {
+  "emoji": "📏",
+  "scene": "A guard checks only one question at the gate: is it legal? He lets in anything that passes the law ruler, however smelly. Compliance approach asks 'Is it legal?', nothing more.",
+  "prompt": "Cartoon gatekeeper measuring each person with a plain ruler marked as the law; a smelly, shady figure passes through because he fits the ruler. A well-behaved person waves from the other side, puzzled."
+ },
+ "325": {
+  "emoji": "⚖️",
+  "scene": "A village's scales of good and bad: every action weighed on society's conscience, with a halo cloud on one pan and a devil's pitchfork on the other. Ethics is society's view of good vs bad.",
+  "prompt": "Cartoon scales with a halo and cloud on one pan and a small pitchfork on the other; crowd of villagers watching and nodding at the result. Warm colours."
+ },
+ "326": {
+  "emoji": "👔",
+  "scene": "A tailor measures the client's needs, risk and circumstances before cutting the investment suit; one size doesn't fit all. Standard III C: a recommendation must be suitable, which is a rule, not a courtesy.",
+  "prompt": "Cartoon tailor with a tape measure fitting a nervous client for a suit made out of coins; a rack of ill-fitting giant and tiny suits is rejected behind him. A rulebook sits on the desk."
+ },
+ "327": {
+  "emoji": "🔦",
+  "scene": "Step one: shine a torch to see what is going on: facts, who is involved, duties and conflicts. Identify the situation before acting.",
+  "prompt": "Cartoon detective with a torch lighting up a dark room, revealing people, a conflict of two tugging hands and a duty scroll. Wide spotlight beam on the floor."
+ },
+ "328": {
+  "emoji": "🔀",
+  "scene": "Step two: stand at a crossroads and consider every path: alternatives, other people's views, and guidance, before choosing. A signpost with many options, no hurry.",
+  "prompt": "Cartoon person at a crossroads with five arrow signs, peering down each path with binoculars and holding a map. Little thought bubbles show different outcomes down each road."
+ },
+ "329": {
+  "emoji": "✅",
+  "scene": "Step three: after reading the guidance, you make your pick and actually walk down the chosen road. A decision stamped and carried out, not just considered.",
+  "prompt": "Cartoon person striding down one chosen path while stamping a green tick on a decision form, a guidance book tucked under his arm. Other paths fade behind him."
+ },
+ "330": {
+  "emoji": "🪞",
+  "scene": "Step four: look in the mirror and ask what you'd do differently next time. A person studies the replay of yesterday on a mirror-screen and nods thoughtfully.",
+  "prompt": "Cartoon person staring into a big mirror that shows a rewinding replay of his earlier actions, one hand on chin, a sticky note of improvements on the mirror frame."
+ },
+ "331": {
+  "emoji": "🧗",
+  "scene": "Average assets on top, average equity underneath: a tall pile of assets perched on a small equity stool. The higher the stack per stool, the more borrowed leverage.",
+  "prompt": "Cartoon tall tower of crates balanced on a small three-legged stool; a leaning lever beside it. A circus performer holds it steady, sweating."
+ },
+ "332": {
+  "emoji": "📢",
+  "scene": "Before the pitch, the adviser hands the client a bright warning label: risks and limits of this recommendation. And if the process changes, he rushes back to tell them promptly. Standard V B, communication.",
+  "prompt": "Cartoon adviser handing a client a big warning sign with a lightning bolt and a small broken-gear symbol, then sprinting back with a flashing alarm bell as the client waves. Bright style."
+ },
+ "333": {
+  "emoji": "🏢",
+  "scene": "Loyal employee carries the boss's briefcase and uses all his talent for the firm; he doesn't hold back his skill or sneak clients away to a rival. Standard IV A: loyalty to employer.",
+  "prompt": "Cartoon employee proudly carrying his boss's briefcase while pouring a glowing skill-cloud into the firm's building; a rival firm's open door is ignored. Boss smiles from a window."
+ },
+ "334": {
+  "emoji": "🪨",
+  "scene": "A judge carves facts into stone tablets and writes opinions on wobbly clouds, then hangs both clearly apart. Standard V: never mix up the stone and the cloud.",
+  "prompt": "Cartoon analyst chiselling a hard fact into a stone slab while opinions float as fluffy clouds with thinking faces above. A clear fence separates the stone and the clouds."
+ },
+ "335": {
+  "emoji": "⚖️",
+  "scene": "Robed CFA Institute governors sit on a high bench running the Professional Conduct Program: they police members and candidates. Board of Governors, the disciplinary court of the CFA.",
+  "prompt": "Cartoon row of governors in robes behind a high bench with a gavel, a scroll and a gold shield on the wall. A nervous candidate stands before them."
+ },
+ "336": {
+  "emoji": "🚫",
+  "scene": "The CFA judge reaches for sanctions: public censure, suspension, charter revoked, and candidacy cancelled. But his wallet stays shut: no monetary fines.",
+  "prompt": "Cartoon judge with a gavel next to a shelf of four items: a wagging finger, a cut-off membership card, a torn charter, a crossed-out candidate cap. A big cash register is crossed out with a red cross."
+ },
+ "337": {
+  "emoji": "🪙",
+  "scene": "A client's trading commission jar is not a petty-cash jar: the manager reaches for it to pay his rent and gets slapped. Commissions belong to the client, only for execution and client-benefiting services.",
+  "prompt": "Cartoon manager with greedy hand reaching into a large jar of coins held by a client; a hand slaps his wrist. A rent bill and office desk lie crossed out beside him."
+ },
+ "338": {
+  "emoji": "🧩",
+  "scene": "An analyst assembles a jigsaw from many public scraps and small non-material pieces, and the finished picture is a big conclusion. No single stolen piece of inside information needed.",
+  "prompt": "Cartoon analyst at a table assembling a big jigsaw of many small public pieces: a newspaper, a shop queue, a truck. A finished picture of a rising chart emerges while a tiny locked secret box stays unused."
+ },
+ "339": {
+  "emoji": "🍽️",
+  "scene": "A broker takes the client's trading commissions and hands the manager a free research lunch: the client's money pays for research, which should help the client, not the manager's own pocket.",
+  "prompt": "Cartoon broker serving a big research-report lunch to a manager, while the client's coin purse empties onto the broker's counter. The client watches, arms folded, from the corner."
+ },
+ "340": {
+  "emoji": "🧐",
+  "scene": "Analyst with magnifier and a lab coat checks every number, works on his own, and double-checks the sums. Thorough, independent, careful: diligence.",
+  "prompt": "Cartoon analyst in a lab coat with magnifier and tidy stack of checked papers, working at a desk with nobody else's hands on the work, double-checking a calculation on a calculator."
+ },
+ "341": {
+  "emoji": "🏗️",
+  "scene": "A recommendation stands on a strong foundation of research bricks; no bricks, no tower. Reasonable basis means adequate research under every call.",
+  "prompt": "Cartoon tall recommendation tower of gold coins resting on a thick foundation of research books and charts, with a wobbly tower beside it that has an empty foundation tipping over."
+ },
+ "342": {
+  "emoji": "🎁",
+  "scene": "A banker tips you a gift for sending him a client: you must tell your boss, the client, and the next prospect about the gift. Referral fee: tell all three.",
+  "prompt": "Cartoon person receiving a gift box from a banker for introducing a client, then holding up the gift while three people, a boss, a client and a prospect, look at it. Open and honest."
+ },
+ "343": {
+  "emoji": "🧠",
+  "scene": "A worker rebuilds the lost files from memory: but the clerk slaps a big red stop hand. Records must be real supporting documents, never conjured from memory.",
+  "prompt": "Cartoon worker sitting at a desk with a thought-bubble of papers, drawing documents out of his head; a clerk's huge red stop hand pushes the invented files away. Real files sit in a sealed box."
+ },
+ "344": {
+  "emoji": "🧑‍⚖️",
+  "scene": "A referee hands equal slices of cake to every client at once, taking nobody's side: no favourite gets served first. Fair and impartial, not same results.",
+  "prompt": "Cartoon referee in a striped shirt giving every client in a queue the same sort of slice at the same time. A favourite client trying to cut in line is gently blocked by the referee's arm."
+ },
+ "345": {
+  "emoji": "🎭",
+  "scene": "A man in a mask lies, forges and cons: three dishonest hats, fraudulent, deceitful. Misconduct: nothing dishonest, fraudulent or deceitful, ever.",
+  "prompt": "Cartoon man wearing a smiling mask, a forged document behind his back and fingers crossed, a stack of three crooked hats on his head. A wagging finger rises behind him."
+ },
+ "346": {
+  "emoji": "📊",
+  "scene": "A performance presentation must show the whole chart: fair, accurate and complete, with extra notes handed to clients and prospects. Standard III D: no cherry-picked bars.",
+  "prompt": "Cartoon presenter holding a complete performance chart with all bars visible, a stack of footnote papers handed to clients and a prospect. A cherry-picked half-chart lies torn and discarded."
+ },
+ "347": {
+  "emoji": "🎢",
+  "scene": "In Dublin, thousands queue for an IPO that is oversubscribed; the shares are cut into the same fraction for everyone, so each client gets, say, half of what they asked for. Prorated, fair.",
+  "prompt": "Cartoon queue of Dublin people outside a pub-like bank, each handed exactly half of their requested pizza slice by a smiling banker; all slices are the same fraction. Irish flag bunting overhead."
+ },
+ "348": {
+  "emoji": "📘",
+  "scene": "A supervisor hands every new employee a copy of the firm's code of ethics, and nudges the boss to supply copies. Recommended procedure: encourage employers to provide it.",
+  "prompt": "Cartoon supervisor handing out neat copies of a thick blue ethics book to employees while pushing a stack from an owner's hand. Everyone has one."
+ },
+ "349": {
+  "emoji": "🗣️",
+  "scene": "The firm's code of ethics is written in plain, everyday language, with a big heart symbol for fiduciary duty: easy enough for a child to read.",
+  "prompt": "Cartoon child comfortably reading a large code book with large simple pictures; a heart-shaped shield on the cover and a butler figure on the page. Smiley sun in the corner."
+ },
+ "350": {
+  "emoji": "🗄️",
+  "scene": "A clerk locks every client record in a filing cabinet and sets a seven-candle timer: keep records for at least seven years.",
+  "prompt": "Cartoon clerk slamming shut a big filing cabinet, with seven burning candles on top in a row and a dusty calendar pile. Spiders watching the cabinet."
+ },
+ "351": {
+  "emoji": "💼",
+  "scene": "A loyal, prudent manager shows clients every pay envelope: base, bonus, hidden perk. Disclose all forms of manager compensation to the client.",
+  "prompt": "Cartoon manager spreading out a row of different pay envelopes, a coin sack, bonus cheque and a hidden perk ticket, on a table for a watching client to inspect. Honest grin."
+ },
+ "352": {
+  "emoji": "🌍",
+  "scene": "Firms from every country race on the same fair track with the same rules: GIPS promotes fair, global competition and comparable returns.",
+  "prompt": "Cartoon runners from many countries lined up at the same starting line on one globe-shaped track, identical lane markings and a judge with a fair-play whistle."
+ },
+ "353": {
+  "emoji": "🏛️",
+  "scene": "The verifier's stamp lands on the whole firm's building, not on one composite room: GIPS verification is firm-wide, not composite-level.",
+  "prompt": "Cartoon verifier with a giant stamp coming down on a whole office building while one small room inside is ignored. Whole building glows green."
+ },
+ "354": {
+  "emoji": "🙋",
+  "scene": "A voluntary club: nobody forces you into the GIPS club, no regulator's whip. GIPS is a voluntary standard, not a legal requirement.",
+  "prompt": "Cartoon firm freely walking into a door of a club with a friendly handshake-shaped door, while a whip-holding regulator stands behind a glass wall, unused and bored."
+ },
+ "355": {
+  "emoji": "🧺",
+  "scene": "A composite basket holds only actual, discretionary, fee-paying portfolios, not model, not non-discretionary, not free ones. Real money, manager's free hand, paying fees.",
+  "prompt": "Cartoon basket filled with real gold-coin portfolios, each with a steering wheel in the manager's hands and a coin paid. A fake paper model, a no-fee token and a locked-up portfolio sit outside."
+ },
+ "356": {
+  "emoji": "🎁",
+  "scene": "A wrap-fee package unwraps at New Year's midnight fireworks of 1 January 2006: the earliest effective compliance date for wrap-fee portfolios.",
+  "prompt": "Cartoon gift wrapped in ribbon opening under midnight fireworks and a big calendar page torn off at its very first day. Cheering crowd around."
+ },
+ "357": {
+  "emoji": "🏢",
+  "scene": "Nine-storey tower: compliance basement, data, calculator, composite and pooled keepers, then clock (time-weighted) and purse (money-weighted) for composites, again for pooled funds, billboard on the roof for advertising.",
+  "prompt": "Cartoon nine-floor tower cross-section: bottom rulebook, then data bricks, calculator, keepers with ledgers, clock room, purse room, a second clock room, a second purse room, rooftop billboard shining. Each floor clearly distinct."
+ },
+ "358": {
+  "emoji": "🔐",
+  "scene": "A vault guards the clients' secrets with a big padlock; the employer's own papers lie in a plain drawer with no lock. Confidentiality protects clients, not the boss.",
+  "prompt": "Cartoon vault with a huge padlock and a client silhouette on its door, and next to it a plain open drawer for the boss, a boss shrugging. Guard stands only at the vault."
+ },
+ "359": {
+  "emoji": "🚫",
+  "scene": "An investment consultant tries to wave a GIPS flag, and the judge blows a whistle: only firms managing assets can claim compliance. A consultant can't.",
+  "prompt": "Cartoon consultant with a clipboard waving a flag while a judge blows a loud whistle and shakes his head. A real asset manager next to him proudly holds the same flag."
+ },
+ "360": {
+  "emoji": "📆",
+  "scene": "Every three months, a postman hands the client a long itemised list of everything held in their account: quarterly, line by line.",
+  "prompt": "Cartoon postman handing a client a long, itemised scroll that touches the floor; four seasonal trees behind them, one for each three months, and a client's safe in the background."
+ },
+ "361": {
+  "emoji": "✍️",
+  "scene": "You gently nudge the boss with a pencil: write the code of ethics in plain language. A loyalty-friendly employee encourages, not enforces.",
+  "prompt": "Cartoon employee offering a pencil and a plain sheet to a boss at a desk with a thick, jargon-clogged book pushed aside. Boss smiling and writing with a big pen."
+ },
+ "362": {
+  "emoji": "🗺️",
+  "scene": "A trader holds a world map with a rulebook pinned on every country he trades in: know them all, and obey the stricter one.",
+  "prompt": "Cartoon trader beside a big world map with a little rulebook pinned on each country he trades in, sweating while holding a stack of stricter rulebooks. Passport and suitcase beside him."
+ },
+ "363": {
+  "emoji": "⬇️",
+  "scene": "In perfect competition's long run, every firm slides down to the very bottom of the U-shaped long-run average cost curve, price equals that minimum, and profit is zero.",
+  "prompt": "Cartoon marbles rolling down a big U-shaped valley to settle at the very bottom, all in a tight pile; a flat price line touches only the bottom. Smiling sleepy firm mascots."
+ },
+ "364": {
+  "emoji": "🧺",
+  "scene": "The real exchange rate swaps the nominal rate for baskets: each country's basket of goods compared, not just currency notes, and it can be built against a whole basket of other currencies.",
+  "prompt": "Cartoon two shopping baskets full of the same groceries on a scale; each basket sits in front of a different currency pile, and a third mega basket of other-country notes joins. Scales balance."
+ },
+ "365": {
+  "emoji": "🦫",
+  "scene": "Spot rate times a ratio: the beaver's (CAD) interest pile on top and the euro bull's pile below. The higher rate on top, the higher forward price of the euro in CAD.",
+  "prompt": "Cartoon beaver with a big pile of coins above a line, euro bull with a smaller pile below it; a spot-rate coin multiplies with the ratio. Taller beaver pile sits above shorter bull pile."
+ },
+ "366": {
+  "emoji": "🤖",
+  "scene": "A robot crunches the data but a human in a white coat stands behind it with a hand on its shoulder: machine learning still needs human judgement of what the data means.",
+  "prompt": "Cartoon robot at a desk typing furiously at a computer full of graphs while a human in a lab coat stands behind it, pointing at a confusing chart and shaking his head. Both are thoughtful."
+ },
+ "367": {
+  "emoji": "👨‍🍳",
+  "scene": "SEC sheriff storms the kitchen where auditors and company chefs are cooking the books on a stove: Sarbanes-Oxley stops them, with handcuffs and a locked recipe book.",
+  "prompt": "Cartoon sheriff with a gold star storming a kitchen, handcuffs in hand, as chefs in suits stir a smoking ledger in a pot over a stove. A locked recipe book sits on the counter."
+ },
+ "368": {
+  "emoji": "🚢",
+  "scene": "A ship sails on into the foreseeable future with its engine kept running: financial statements assume the business keeps going, not scrapped next week. Going concern, upkeep included.",
+  "prompt": "Cartoon ship sailing toward a distant horizon with a long road of sunny days ahead; a mechanic oils the engine. A scrap-yard with a crane and wrecking ball stays behind in the fog."
+ },
+ "369": {
+  "emoji": "🚀",
+  "scene": "Davy's NVIDIA rocket gains 20%, then Tesla's car drops 10% — don't add, multiply: one plus the first, times one plus the second, minus one. Returns compound like chained gears.",
+  "prompt": "Cartoon NVIDIA-green rocket climbing, followed by a red electric car rolling downhill, each linked by a gear to the next; a final single gear outputs the total growth. Minus one marked by a small coin removed."
+ },
+ "370": {
+  "emoji": "📡",
+  "scene": "Central bank's policy-rate tap feeds four pipes: lending rates, asset prices, expectations, and exchange rate. Turn the tap and all four flows change.",
+  "prompt": "Cartoon central bank building with a big tap on top and four pipes leading to four places: a bank counter, a house and stock chart, a head with a thought cloud, and a currency exchange booth."
+ },
+ "371": {
+  "emoji": "🧮",
+  "scene": "Pearson's R: on top, the covariance (each x-gap times each y-gap added up). Underneath, a square-root basket holding both gaps squared. Covariance over both spreads, trapped between -1 and 1.",
+  "prompt": "Cartoon wizard with a large fraction on a board: top, two arrows of different colours multiplied side by side; bottom, a square root box with two squared piles inside, joined by a multiplication sign."
+ },
+ "372": {
+  "emoji": "🏁",
+  "scene": "Rank two lists, take the rank gap d for each pair, square them, sum, times six, over n times n-squared-minus-one, then flip it from one. Perfect rank agreement gives 1.",
+  "prompt": "Cartoon two lines of runners, each ranked by medals, with strings connecting the same runner in each line; the strings are crossed in a few places. A coach holds up a big flipping coin and a tiny sixth sticker."
+ },
+ "373": {
+  "emoji": "📒",
+  "scene": "Retained earnings jar: begin with last year's jar, pour in this year's net income, and take out the dividends scooped by shareholders. Ending equals beginning plus income minus dividends.",
+  "prompt": "Cartoon jar half full of coins; an arrow pours in a new bag of profit coins while a shareholder hand scoops out some dividend coins from the side. Final jar level is shown by a marker."
+ },
+ "374": {
+  "emoji": "⏪",
+  "scene": "A time machine rewinds to restate all earlier statements as if the new policy had always applied: retrospective restatement for accounting policy changes.",
+  "prompt": "Cartoon accountant in a time machine rewinding a row of old financial statement pages, repainting each past page in the new colour. A calendar spins backwards."
+ },
+ "375": {
+  "emoji": "🌾",
+  "scene": "A farmer values his harvested crops at the price they'd fetch if sold today, minus costs to sell: IFRS and US GAAP both allow agricultural inventory at net realizable value.",
+  "prompt": "Cartoon farmer holding a basket of harvested vegetables with a price tag pointing to a market scale; a small coin for selling costs removed. Two flags, one international and one US, stand on either side."
+ },
+ "376": {
+  "emoji": "🏛️",
+  "scene": "Government's two levers: a spending hose pouring cash into the economy and a tax vacuum sucking it back. Fiscal policy is government spending and taxes.",
+  "prompt": "Cartoon government building with a big spending hose pouring coins into a town and a big tax vacuum sucking some coins back. Two levers on the roof."
+ },
+ "377": {
+  "emoji": "🎚️",
+  "scene": "Central bank dial turns interest rates up and down; the economy tilts like a see-saw. Monetary policy is the central bank's rate-and-money dial.",
+  "prompt": "Cartoon central banker turning a big dial between low and high; a city on a see-saw tilts as the dial moves. Coins roll toward one end."
+ },
+ "378": {
+  "emoji": "🌱",
+  "scene": "An organic garden grows on its own: more plants (volume) and pricier, better-mixed bouquets (price/mix), not by buying the neighbour's garden or changing currencies.",
+  "prompt": "Cartoon gardener with a garden of growing plants and fancier bouquets at higher price tags, while a neighbour's bought-in garden and a foreign coin are fenced off with a plain wooden fence. Growth arrows point up."
+ },
+ "379": {
+  "emoji": "🔁",
+  "scene": "If the convertible bond converts, the interest bill vanishes, so add back the after-tax interest (interest times one minus tax) to earnings, and add the new shares to the crowd. Diluted EPS is lower.",
+  "prompt": "Cartoon convertible bond transforming into shares as the interest bill disappears; a coin pile on top grows by an after-tax slice, while the share crowd below gets bigger. A pie slice shrinks."
+ },
+ "380": {
+  "emoji": "🎟️",
+  "scene": "A lottery host walks along a line of people and taps every kth head, again and again, until the bag is full. Systematic sampling: every kth member.",
+  "prompt": "Cartoon host walking along a long queue and tapping every fifth head with a golden wand; tapped people step into a bag. Regular rhythm of taps."
+ },
+ "381": {
+  "emoji": "🧮",
+  "scene": "On the BA II Plus, multiply the growth factors together, take the nth root (power one over n), then subtract one. Geometric return: product root, minus the one.",
+  "prompt": "Cartoon calculator character with a long chain of growth-factor blocks multiplied together, then a root-shaped chopper cutting the chain to an even size, and finally a one-coin removed. Calculator wears a hat."
+ },
+ "382": {
+  "emoji": "🏆",
+  "scene": "Net profit sits on top, average shareholders' equity underneath: how much profit the owners' own pile earned. Return on equity: income over the owners' average stake.",
+  "prompt": "Cartoon trophy of coins on top of a line and a smaller treasure chest of equity below it; an owner proudly measuring how many trophies fit per chest."
+ },
+ "383": {
+  "emoji": "📉",
+  "scene": "Under IFRS, pension actuarial gains and losses and other remeasurements bypass the income statement and hide in the OCI side pocket, never to be recycled into profit.",
+  "prompt": "Cartoon accountant sweeping pension-related coins and a remeasuring tape into a side pocket of his jacket, away from the main income ledger. A one-way arrow into the pocket."
+ },
+ "384": {
+  "emoji": "🚪",
+  "scene": "Open borders: currencies, money and trade flow freely through wide-open gates; no tariffs or walls. A geopolitical tool of cooperation.",
+  "prompt": "Cartoon wide-open gates on a country border with coins, currency notes and trade crates streaming through freely both directions. Customs officer waves them through, smiling."
+ },
+ "385": {
+  "emoji": "🥊",
+  "scene": "Two populations step into the ring: the F-test divides one variance by the other, to see if their spreads differ. Variance ratio of two normal populations.",
+  "prompt": "Cartoon two boxers in a ring, each holding a different-sized cloud of spread-out dots; a referee holds the larger cloud over the smaller on a fraction board."
+ },
+ "386": {
+  "emoji": "🧪",
+  "scene": "Chi-square tests the spread of a single normally distributed population: one lab beaker of dots, sampled and compared against a hypothetical spread. Only one population.",
+  "prompt": "Cartoon scientist peering into one beaker of scattered dots, comparing it to a ghost-beaker with a target spread outline. A single squared-shaped lab flag stands beside it."
+ },
+ "387": {
+  "emoji": "➕",
+  "scene": "Multi-period continuous compounding: just add the single-period continuous returns end to end like beads on a string, no multiplying needed.",
+  "prompt": "Cartoon beads on a string, each a different size, being slid together and summed into one long necklace. A happy jeweller holds it up."
+ },
+ "388": {
+  "emoji": "📉",
+  "scene": "US GAAP impairment: when the carrying amount outweighs fair value less costs to sell, the gap is the loss. Heavy book weight on one scale, lighter market value on the other.",
+  "prompt": "Cartoon scale: a heavy asset on the left pan, and a lighter asset beside a small selling-cost coin on the right pan. The gap between pans is highlighted by a red bite."
+ },
+ "389": {
+  "emoji": "🏗️",
+  "scene": "Total assets on top, total equity underneath: a tall crate pile on a tiny stool. Financial leverage is how many asset crates each equity stool must hold.",
+  "prompt": "Cartoon tall pile of crates balanced on a tiny stool; a ruler measures the stack against the stool. A circus performer sweats at the base."
+ },
+ "390": {
+  "emoji": "🎈",
+  "scene": "Utility is a balloon of expected return, dragged down by a gremlin A (risk aversion) carrying half a squared sack of variance. More fear, more wobble: lower utility.",
+  "prompt": "Cartoon balloon floating up, with a nervous half-sized gremlin hanging below it carrying a heavy squared sack of wobble. The balloon sags the more the gremlin's sack swells."
+ },
+ "391": {
+  "emoji": "🪜",
+  "scene": "A ramp starts at the risk-free anchor and shoots up through the portfolio of all risky assets: mix them with the anchor and you walk anywhere along it.",
+  "prompt": "Cartoon straight ramp rising from a safe anchor on the ground through a big bundle of many risky balloons at its top; a person walks along the ramp at different points."
+ },
+ "392": {
+  "emoji": "📐",
+  "scene": "Start at the safe anchor Rf, then climb the CAL slope: the risky portfolio's excess return per unit of risk (the Sharpe ratio), times how much risk you pick, σp.",
+  "prompt": "Cartoon hiker beginning at a low anchor and climbing a straight ramp whose steepness is shown by a big arrow, with a measured distance of risk walked along the ground. Climb height is added to the anchor."
+ },
+ "393": {
+  "emoji": "〰️",
+  "scene": "Standard deviation is the typical swing up or down around the mean, like a pendulum; calculators square it to work in variance, so unsquare at the end.",
+  "prompt": "Cartoon pendulum swinging left and right around a centre line; beside it a bigger squared shadow of the swing used in calculations. Scientist holds a square-root axe to cut it back."
+ },
+ "394": {
+  "emoji": "🔔",
+  "scene": "A bell curve with three nested shells: one sigma holds roughly two-thirds, two sigma nearly everyone (95), and three sigma almost all (99.7).",
+  "prompt": "Cartoon bell curve hill with three nested shaded arches: a small inner arch with most people, a middle arch with almost everyone, and a big outer arch with nearly all."
+ },
+ "395": {
+  "emoji": "🍕",
+  "scene": "Sample std dev: take each gap from the sample mean, square, add, then divide by n minus one, not n, because one slice was used to find the mean. Then square-root.",
+  "prompt": "Cartoon pizza with one slice missing and each remaining slice squashed and summed; divided by a number that is one less than the slice count, then a square root chopper. Shaky chef."
+ },
+ "396": {
+  "emoji": "🚗",
+  "scene": "A Tesla and an Airbus in one portfolio: square each weight and variance separately, then add twice the weights times covariance, the rope tying the two together.",
+  "prompt": "Cartoon electric car and an airplane tied by a thick rope; two squared piles one for each and a twin-sized rope-pile in the middle, all added into one pile of risk. Calm engineer."
+ },
+ "397": {
+  "emoji": "🧵",
+  "scene": "Covariance is how much two threads wiggle together: the average of paired gaps from the means, with n-1; equally, correlation times both standard deviations.",
+  "prompt": "Cartoon two wiggly threads of different colours dancing together; a stack of paired gaps is averaged into one pile. A knot-of-correlation times two spread rulers sits beside it."
+ },
+ "398": {
+  "emoji": "🔗",
+  "scene": "Correlation is the covariance, the pair's shared wiggle, divided by both individual spreads, which squashes it into a leash between minus one and plus one.",
+  "prompt": "Cartoon two dogs on one leash; the shared wiggle on top of a fraction divided by two spread rulers below. Leash is clamped at both ends by two stakes on a field."
+ },
+ "399": {
+  "emoji": "📈",
+  "scene": "The efficient frontier is the best curve using only risky assets, beginning at the global min-variance spot (the leftmost dip) and rising upward from there.",
+  "prompt": "Cartoon curved hill road starting at the leftmost tip of a bullet-shaped cloud of dots and rising up and to the right; a little car climbs the top edge. Dots below are left behind."
+ },
+ "400": {
+  "emoji": "😊",
+  "scene": "A curved slide on which an investor is equally happy anywhere: more risk needs more return to stay the same smile. Each curve is one utility level.",
+  "prompt": "Cartoon investor on a curved slide, the same big smile at every point; sliding up steeper means a bigger prize bag in hand. Several curves are nested above each other."
+ },
+ "401": {
+  "emoji": "🏙️",
+  "scene": "Everyone agrees on the same market portfolio of all risky assets and holds it plus safe cash; to want more return, borrow at the safe rate and lever up along the line.",
+  "prompt": "Cartoon crowd of identical rational investors all pointing at one big risky-asset balloon bunch; a straight line goes from anchor through it and beyond, where a borrower leans out holding a loan rope."
+ },
+ "402": {
+  "emoji": "🌪️",
+  "scene": "A storm hits every boat in the harbour at once: recession, rate hikes, inflation, war. Diversifying boats doesn't help; the entire market sails through the same tempest.",
+  "prompt": "Cartoon harbour of many different boats of all sizes all hit by the same huge storm cloud with lightning; no boat is spared. A diversification-minded sailor shrugs."
+ },
+ "403": {
+  "emoji": "📏",
+  "scene": "Two gauges on Catalin's Tesla dashboard: sigma measures the total shake of the whole ride; beta only measures how much it lurches when the whole market road shakes.",
+  "prompt": "Cartoon Tesla dashboard with two gauges: a wide one showing all the shakes and a narrow one showing only shakes caused by a quake in the road. Driver peers at both."
+ },
+ "404": {
+  "emoji": "🐒",
+  "scene": "A monkey (asset σ) stands on top of an elephant's back (market σm): monkey above, elephant below, like a fraction. A tight rope (ρ) between them decides how much he sways. Beta.",
+  "prompt": "Cartoon monkey standing on the back of a huge elephant, stacked like a fraction bar, a tight rope tied between monkey and elephant, monkey swaying as elephant steps, bright flat illustration, no text."
+ },
+ "405": {
+  "emoji": "🛝",
+  "scene": "A kid on a seesaw: a fixed step-stool lifts him (alpha), the market's push swings the lever by beta, and a random banana peel trips him (error).",
+  "prompt": "Cartoon child on a seesaw standing on a small step stool, a giant hand pushing the lever down, a banana peel on the ground about to trip him, bright flat illustration, no text."
+ },
+ "406": {
+  "emoji": "⛷️",
+  "scene": "Skiers on a ramp whose sideways axis is beta: heavier beta-backpacks sit higher on the line. Only market risk gets paid; skiers on the ramp are fairly priced. Security market line.",
+  "prompt": "Cartoon skiers standing along a straight upward-sloping ramp, skiers on the left carry tiny backpacks and stand low, skiers on the right carry huge backpacks and stand high, bright flat illustration, no text."
+ },
+ "407": {
+  "emoji": "🌉",
+  "scene": "A rope bridge leaves the risk-free hut and runs through the market tower. Walkers measure sideways distance in wobble (standard deviation), not beta. Total risk on X.",
+  "prompt": "Cartoon rope bridge rising from a small safe cabin on the left through a tall tower, tiny walkers on the bridge with a wobbly shadow measured sideways along the ground, bright flat illustration, no text."
+ },
+ "408": {
+  "emoji": "🪜",
+  "scene": "A ladder starts on the safe floor (Rf). A giant hand scaled by beta stretches the market's extra stair-height (market minus Rf) and stacks it on top. Beta scales only the premium.",
+  "prompt": "Cartoon ladder standing on a flat floor, a short base section, a taller extra section lifted by a giant adjustable hand-shaped scaler stacked on top, bright flat illustration, no text."
+ },
+ "409": {
+  "emoji": "🏆",
+  "scene": "A fortune teller (CAPM) predicts where a runner will finish; the runner lands elsewhere. The gap, actual minus predicted, is hauled in as a trophy: alpha. Ahead of prediction means positive.",
+  "prompt": "Cartoon fortune teller with crystal ball placing a marker flag on a racetrack, a runner crossing the line well beyond the flag, a gap between flag and runner with a golden trophy, bright flat illustration, no text."
+ },
+ "410": {
+  "emoji": "⚖️",
+  "scene": "Two scales weigh one excess-return trophy. Sharpe's scale hangs total wobble (σ) beneath it; Treynor swaps in a small beta weight, market risk only, for diversified portfolios.",
+  "prompt": "Two balance scales side by side, each with the same golden trophy on top; one has a big wobbling jelly weight underneath, the other a small neat metal weight, bright flat illustration, no text."
+ },
+ "411": {
+  "emoji": "📏",
+  "scene": "A shrink-ray dial resizes the portfolio dog to exactly the market dog's size (same σ). Then both race; the finish-line gap in percent is M². Sharpe translated into a percentage.",
+  "prompt": "Cartoon scientist turning a dial on a machine that resizes a dog to exactly match the size of a second dog beside it, then both dogs racing, a measured gap at the finish line, bright flat illustration, no text."
+ },
+ "412": {
+  "emoji": "🛒",
+  "scene": "A utopia supermarket with no taxes, no limits: a shopper takes one share or a billion, flips shares upside down (shorting), borrows at the same rate as a hamster. Everyone shares one map.",
+  "prompt": "Cartoon supermarket with no checkout queue, a shopper pushing a cart heaped to the ceiling and another holding a single item, a shopper hanging upside down from a shelf, everyone holding identical maps, bright flat illustration, no text."
+ },
+ "413": {
+  "emoji": "🧱",
+  "scene": "A wobbling tower: bottom block is beta-squared times market wobble (systematic, welded on); top is a loose sprinkle of own error (unsystematic, diversified away). Add them: total variance.",
+  "prompt": "Cartoon tower of two stacked blocks: a huge bottom block welded to the ground with two small square badges, a thin top layer of loose sprinkles blowing away in a breeze, bright flat illustration, no text."
+ },
+ "414": {
+  "emoji": "🏴‍☠️",
+  "scene": "A pirate opens a chest: private company shares in a suit, a toy house, a log and oil barrel, a tiny bridge, a trimmed hedge, and a glowing coin. Six alternatives.",
+  "prompt": "Cartoon pirate opening a treasure chest containing a tiny man in a suit, a toy house, a log and an oil barrel, a miniature bridge, a neatly trimmed hedge, and a glowing coin, bright flat illustration, no text."
+ },
+ "415": {
+  "emoji": "🏦",
+  "scene": "A bank teller with a revolving door and a queue yanking cash out nonstop keeps the money in a bucket by the door, not buried. Highest liquidity need of any investor.",
+  "prompt": "Cartoon bank teller beside a spinning revolving door, a long queue of customers grabbing coins from an open bucket by the door, the vault in the background left empty, bright flat illustration, no text."
+ },
+ "416": {
+  "emoji": "🦖",
+  "scene": "A suit-wearing giant swallows an entire, established, grey-bearded factory in one gulp. Whole company, mature, pricey, hauled off by a debt crane. Buyout, not a stake.",
+  "prompt": "Cartoon giant in a business suit lifting an entire old factory with a grey beard and chimney into his mouth, a crane hauling a heavy chain behind him, bright flat illustration, no text."
+ },
+ "417": {
+  "emoji": "🎰",
+  "scene": "A gambler sprinkles small chips on baby startups in cradles, one slice each. Most cradles go bust; one baby suddenly turns into a rocket.",
+  "prompt": "Cartoon gambler placing single small chips on a row of baby cradles, most cradles toppled and broken, one baby in the middle blasting off like a rocket, bright flat illustration, no text."
+ },
+ "418": {
+  "emoji": "🌯",
+  "scene": "A giant tortilla wraps the manager, the custodian guard and the broker together, tied with one ribbon and one price tag, paid once a year. One annual fee for everything.",
+  "prompt": "Cartoon giant tortilla wrap rolled around three little characters (a manager, a guard with a key, a trader), tied with a single ribbon and a single price tag, bright flat illustration, no text."
+ },
+ "419": {
+  "emoji": "🧊",
+  "scene": "Bond ice-cubes in a drink melt in about three months, three moon phases, and never last longer. Cash-like, safe, short-lived. Money market fund.",
+  "prompt": "Cartoon glass of drink with ice cubes melting, three moon phases floating above the glass, a tiny puddle forming, bright flat illustration, no text."
+ },
+ "420": {
+  "emoji": "🤝",
+  "scene": "A client shakes hands at the door and unrolls a scroll of his life story: family, job, wallet. Who he is and his situation. The IPS's first page.",
+  "prompt": "Cartoon client shaking hands with an adviser at an office door while unrolling a long scroll with small pictures of family, job and wallet, bright flat illustration, no text."
+ },
+ "421": {
+  "emoji": "🧭",
+  "scene": "A captain beats a drum before a lighthouse (the why) while a money pipe pours into the ship's hold (how it's funded). Statement of purpose.",
+  "prompt": "Cartoon ship captain pointing to a bright lighthouse, a large pipe pouring coins into the open hold of his ship, bright flat illustration, no text."
+ },
+ "422": {
+  "emoji": "👨‍🍳",
+  "scene": "A kitchen brigade: client holds the menu, adviser stirs the pot, custodian guards the pantry key, manager chops. Everyone wears their own hat. Who does what.",
+  "prompt": "Cartoon kitchen with four chefs wearing different coloured hats: one holding a menu, one stirring a pot, one guarding a big key by a pantry, one chopping, bright flat illustration, no text."
+ },
+ "423": {
+  "emoji": "🤖",
+  "scene": "A robot follows a flowchart cookbook step by step and stops at a fork to repair a collapsed soufflé. Procedures: how the IPS is run and updated when things change.",
+  "prompt": "Cartoon robot reading a branching flowchart cookbook step by step, standing at a fork in the page next to a collapsed soufflé in a dish, bright flat illustration, no text."
+ },
+ "424": {
+  "emoji": "🐂",
+  "scene": "A bull charges across a pasture and bumps five fence rails: a bucket (liquidity), hourglass (time), tax tag, gavel (legal), quirky flag (unique). Constraints are limits.",
+  "prompt": "Cartoon bull stopped by a fence of five rails, each rail carrying a different object: a bucket, an hourglass, a tag, a gavel, a quirky flag, bright flat illustration, no text."
+ },
+ "425": {
+  "emoji": "🧵",
+  "scene": "A tailor measures an odd-shaped client and stitches a custom suit with a no-tobacco patch and a leverage pocket. Guidelines: how to invest, tailored to distinctive needs.",
+  "prompt": "Cartoon tailor with measuring tape fitting an odd-shaped client in a custom suit with unusual patches and an extra pocket, bright flat illustration, no text."
+ },
+ "426": {
+  "emoji": "🎤",
+  "scene": "Talent-show judges hold up scorecards after the portfolio runner crosses the finish, comparing him to a benchmark pace-car, then meet again at a yearly review table.",
+  "prompt": "Cartoon talent-show panel of judges holding scorecards while a runner crosses a finish line beside a small pace car, a round table with the judges gathered in the background, bright flat illustration, no text."
+ },
+ "427": {
+  "emoji": "📎",
+  "scene": "At the back of a thick book hangs an appendix tail holding a sliced pie (asset allocation) and a seesaw being pushed level again (rebalancing).",
+  "prompt": "Cartoon thick book with a small tail at the back page, on the tail a sliced pie chart and a seesaw being pushed level by a tiny hand, bright flat illustration, no text."
+ },
+ "428": {
+  "emoji": "🏊",
+  "scene": "A client on a diving board has a trembling brain (willingness, nerves) and a pair of strong legs over a net (ability). Risk assessment starts with willingness: how brave he feels.",
+  "prompt": "Cartoon client on a diving board, a thought bubble showing a brave heart and a nervous face, strong legs and a safety net below, bright flat illustration, no text."
+ },
+ "429": {
+  "emoji": "🦥",
+  "scene": "A sloth glued to a sofa ignores a neon better-deal sign, clutching his old holdings. Status quo bias: doing nothing is the comfy default even when changing is better.",
+  "prompt": "Cartoon sloth stuck to a sofa with glue, holding an old bundle of papers, ignoring a flashing neon arrow pointing to a better pile of gold, bright flat illustration, no text."
+ },
+ "430": {
+  "emoji": "☕",
+  "scene": "A man hugs his scruffy mug and sticks a huge gold price tag on it, while a buyer holds an identical mug marked with a tiny tag. Worth more just because it's mine.",
+  "prompt": "Cartoon man hugging a scruffy mug with a giant golden price tag, a buyer beside him holding an identical mug with a tiny tag, bright flat illustration, no text."
+ },
+ "431": {
+  "emoji": "🐌",
+  "scene": "A snail with a paper map ignores a courier shouting fresh news, correcting the map one tiny stroke a day. Conservatism: views update slowly despite new information.",
+  "prompt": "Cartoon snail holding an old paper map with a tiny pencil, a courier on a motorbike shouting beside him and waving a fresh bulletin, snail barely changing one line, bright flat illustration, no text."
+ },
+ "432": {
+  "emoji": "😇",
+  "scene": "A glowing halo floats over one polished apple; a viewer swoons and assumes the worm-eaten rest of the barrel is perfect too. One good trait, everything judged good.",
+  "prompt": "Cartoon apple with a glowing halo above it, polished and shiny, a smitten viewer with heart eyes looking at it, behind it a barrel of worm-eaten apples, bright flat illustration, no text."
+ },
+ "433": {
+  "emoji": "🔭",
+  "scene": "A lighthouse crew in three jobs: one spots icebergs with binoculars (identify), one measures them with a giant ruler (measure), one watches radar nonstop (monitor).",
+  "prompt": "Cartoon lighthouse crew of three: one looking through binoculars at an iceberg, one holding a giant ruler against an iceberg, one watching a green radar screen, bright flat illustration, no text."
+ },
+ "434": {
+  "emoji": "🚰",
+  "scene": "A water tank (tolerance) pours into a splitter valve (budgeting) that fills separate buckets, and each bucket spills through a hose into a real pond (exposures). It flows downhill in that order.",
+  "prompt": "Cartoon water tank at the top pouring into a splitter valve, which fills several buckets, each bucket draining through a hose into ponds at the bottom, flowing downhill in three clear stages, bright flat illustration, no text."
+ },
+ "435": {
+  "emoji": "🍕",
+  "scene": "A chef holds one fixed-size pizza, the total allowed risk, and slices it into portions served to different trading desks. Risk budgeting: dividing the risk allowance.",
+  "prompt": "Cartoon chef slicing one big pizza and handing different-sized slices to several traders sitting at separate desks, bright flat illustration, no text."
+ },
+ "436": {
+  "emoji": "🎚️",
+  "scene": "A mechanic tunes the risk engine's dial, weighing a bag of benefits against a bag of costs on a scale against the firm's tolerance line, deciding to hedge, insure or cut.",
+  "prompt": "Cartoon mechanic adjusting a large dial on an engine, a balance scale beside him with a bag on each pan, a painted line on the floor, bright flat illustration, no text."
+ },
+ "437": {
+  "emoji": "🎛️",
+  "scene": "A DJ turns the volatility knob by one notch, one percentage point, and the option balloon inflates by a measured puff. Vega: price change per notch of vol.",
+  "prompt": "Cartoon DJ turning a single knob exactly one notch on a mixing desk, a balloon next to the desk inflating by a small puff, bright flat illustration, no text."
+ },
+ "438": {
+  "emoji": "🖥️",
+  "scene": "A mission-control room: staff in headsets and humming computers track glowing dots (exposures) across big screens. Risk infrastructure: the people and systems watching risk.",
+  "prompt": "Cartoon mission-control room with staff in headsets at computers, large screens showing many glowing dots, bright flat illustration, no text."
+ },
+ "439": {
+  "emoji": "🍲",
+  "scene": "A chef tastes the soup and adds salt or water until the spice is just right, neither bland nor burning. Risk management is adjusting to the right amount, not removing all risk.",
+  "prompt": "Cartoon chef tasting soup from a ladle with a pinch of salt in one hand and a water jug in the other, a chilli pepper next to the pot, bright flat illustration, no text."
+ },
+ "440": {
+  "emoji": "🤹",
+  "scene": "A tightrope walker holds two things: a brave heart (willingness) and strong legs with a safety net (ability). The firm can only walk as far as both allow. Risk tolerance.",
+  "prompt": "Cartoon tightrope walker with a glowing heart on the chest and strong muscular legs, a safety net strung below, bright flat illustration, no text."
+ },
+ "441": {
+  "emoji": "🪝",
+  "scene": "A tiny man lifts a huge anchor (position, on top) with a small pouch of his own cash (underneath). A 1% nudge on the anchor throws him around that many times harder.",
+  "prompt": "Cartoon tiny man holding a small coin pouch standing underneath a gigantic anchor balanced above him, the anchor nudged slightly and the man flung wildly, bright flat illustration, no text."
+ },
+ "442": {
+  "emoji": "🥧",
+  "scene": "A hungry customer snatches a pie already sitting on the counter with a price tag and pays whatever it says, instantly. Taker: accepts a posted price, executes now.",
+  "prompt": "Cartoon hungry customer grabbing a pie off a counter with a price tag already attached and handing over coins, bright flat illustration, no text."
+ },
+ "443": {
+  "emoji": "🎣",
+  "scene": "A fisherman sets his baited hook at his chosen price, sits in a deckchair and waits for a fish to bite. Maker: posts a limit price and may wait forever.",
+  "prompt": "Cartoon fisherman in a deckchair holding a rod with a baited hook and a small price tag on the line, fish swimming nearby ignoring it, bright flat illustration, no text."
+ },
+ "444": {
+  "emoji": "⏳",
+  "scene": "A parcel marked with an hourglass sits at the broker's door and crumbles to dust when the sand runs out. Validity: how long the order stays alive to be filled.",
+  "prompt": "Cartoon parcel with an hourglass strapped to it sitting on a doorstep, the sand nearly gone, the corner of the parcel starting to crumble to dust, bright flat illustration, no text."
+ },
+ "445": {
+  "emoji": "🍻",
+  "scene": "At a bar queue the best-priced person is served first; among ties the one with a bright visible badge; among those, whoever arrived first. Price, then display, then time.",
+  "prompt": "Cartoon bar queue: a person holding the best price tag at the front, next a person wearing a bright big badge, then a person with a clock on their wrist, bartender pouring drinks, bright flat illustration, no text."
+ },
+ "446": {
+  "emoji": "🚪",
+  "scene": "A host slips a few new shares through the back door to six tuxedoed qualified investors in a private room, skipping the public stadium. Private placement.",
+  "prompt": "Cartoon host handing a small crate of glowing share certificates through a back door to six tuxedoed guests in a private room, a huge empty stadium visible outside, bright flat illustration, no text."
+ },
+ "447": {
+  "emoji": "🪂",
+  "scene": "A sinking ship's captain hands his cargo to a buyer at the agreed price however low the sea falls. Put: the right, not the duty, to sell at strike. A guaranteed floor.",
+  "prompt": "Cartoon sinking ship with the captain handing a crate of cargo to a waiting buyer on a dock, the water level dropping below a painted floor line, bright flat illustration, no text."
+ },
+ "448": {
+  "emoji": "🔄",
+  "scene": "Two people at a fence: one hands over a steady trickle of fixed coins, the other tosses back a wild firework bag tracking a stock or index. No shares ever change hands.",
+  "prompt": "Cartoon two characters at a fence: one passing a thin steady stream of coins, the other passing a bag of wild fireworks back, neither holding any share certificates, bright flat illustration, no text."
+ },
+ "449": {
+  "emoji": "🕶️",
+  "scene": "Cloaked traders in a pitch-dark cellar keep orders hidden in their pockets; only after a handshake does a lantern flash the price. Dark pools: hidden until the trade.",
+  "prompt": "Cartoon dark cellar with cloaked traders hiding papers in their pockets, two traders shaking hands as a lantern flashes light on them, bright flat illustration, no text."
+ },
+ "450": {
+  "emoji": "💍",
+  "scene": "A matchmaker walks a bride toward a groom across a room, carrying no ring himself, empty-handed. Brokered market: the broker never owns the asset, just finds the other side.",
+  "prompt": "Cartoon matchmaker with empty hands leading a bride toward a groom, the bride holding a ring box, bright flat illustration, no text."
+ },
+ "451": {
+  "emoji": "🏠",
+  "scene": "A mortgaged house: the owner's equity is the top slice of the roof. Top = initial deposit plus price change; bottom = the current price. Equity slice over the whole house.",
+  "prompt": "Cartoon house with its roof painted in a different colour as the owner's slice, a small upward arrow beside the house showing growth, the whole house outlined beneath the roof slice, bright flat illustration, no text."
+ },
+ "452": {
+  "emoji": "🦜",
+  "scene": "A pirate prices every treasure at today's market value, piles them up, then subtracts the creditor sacks dragging them down. What's left is asset-based intrinsic value.",
+  "prompt": "Cartoon pirate weighing a pile of treasures on a scale while small sacks tied to the pile with ropes are pulled off by creditors, a small leftover pile remains, bright flat illustration, no text."
+ },
+ "453": {
+  "emoji": "⏪",
+  "scene": "Future dividend apples ride a time tunnel back to today, shrinking on the way, and land in a bowl. The bowl is the PV model's value: dividends and FCFE you will receive.",
+  "prompt": "Cartoon time tunnel with big apples entering at the far end and small apples shrinking as they travel toward the front, landing in a bowl on a table, bright flat illustration, no text."
+ },
+ "454": {
+  "emoji": "🏷️",
+  "scene": "A giant price tag sits on top of a fraction bar, with a fundamental (earnings coin, sales cart, book) tied below. The multiplier says how many fundamentals you pay for.",
+  "prompt": "Cartoon giant price tag balanced above a horizontal bar, below the bar a coin, a shopping cart and a small book hanging in a row, bright flat illustration, no text."
+ },
+ "455": {
+  "emoji": "🧮",
+  "scene": "A conveyor of dividend coins shrinks more each year (divided by 1 plus R, raised to t), ending with a huge sale-price crate shrunk n steps. Add all piles on the BAII CF worksheet.",
+  "prompt": "Cartoon conveyor belt carrying coins that get smaller and smaller along the belt, ending with a large crate that has shrunk much more, a calculator at the end of the belt, bright flat illustration, no text."
+ },
+ "456": {
+  "emoji": "🚿",
+  "scene": "A hose of free cash flow pours coins year after year; each year's coins pass a shrink gate (1 plus R, raised to t). The pond is every shrunken flow added together.",
+  "prompt": "Cartoon hose pouring coins in several batches through a row of progressively tighter shrink gates, the coins landing in a pond at the end, bright flat illustration, no text."
+ },
+ "457": {
+  "emoji": "🌁",
+  "scene": "Next year's dividend sits on a cart perched above a bridge gap, and the gap is required return minus growth. Narrow the gap and the price rockets; g can never reach RR.",
+  "prompt": "Cartoon cart loaded with coins perched above a gap between two cliffs, the gap very narrow with a rocket launching from the cart, bright flat illustration, no text."
+ },
+ "458": {
+  "emoji": "🐑",
+  "scene": "A shepherd measures five similar sheep's price-per-earnings ratios, averages them, and stamps that average onto his own sheep's earnings to price it. P/E comparables.",
+  "prompt": "Cartoon shepherd with a tape measure beside five similar sheep, then holding one stamp over a sixth sheep, bright flat illustration, no text."
+ },
+ "459": {
+  "emoji": "🐾",
+  "scene": "A snail divides its price by last year's actual footprints left behind. The footprints never get stretched with growth. Trailing P/E: price over past 12 months' earnings.",
+  "prompt": "Cartoon snail with a small price tag on its shell, a trail of footprints behind it, a measuring tape laid along the trail only, bright flat illustration, no text."
+ },
+ "460": {
+  "emoji": "🥧",
+  "scene": "Stack a fraction: the top is a payout pie (D1 over E1); the bottom is the gap between required return and growth. Gordon price divided by earnings gives P/E.",
+  "prompt": "Cartoon pie with a slice cut out on top of a fraction bar, the gap between two cliffs below the bar, bright flat illustration, no text."
+ },
+ "461": {
+  "emoji": "🍺",
+  "scene": "Buying a pub: pay the owners, the bank and preferred guests, then subtract the cash in the till. That's EV; pair it with operating flows: EBITDA, sales, free cash flow.",
+  "prompt": "Cartoon buyer paying three groups of people (owners, a banker, VIP guests) in front of a pub, taking a cash drawer back from the till, bright flat illustration, no text."
+ },
+ "462": {
+  "emoji": "🌾",
+  "scene": "A farmer keeps a share of his harvest (retention, one minus payout) and feeds it into a ROE multiplier machine; more kept and a faster machine mean a faster-growing dividend garden.",
+  "prompt": "Cartoon farmer putting part of a harvest into a whirring multiplier machine and the rest into a basket given away, a garden growing taller beside the machine, bright flat illustration, no text."
+ },
+ "463": {
+  "emoji": "🪙",
+  "scene": "From the whole-pub price EV, the owner pays off the bank, hands the preferred guests their share, then finds cash in the till and adds it back. What remains is equity.",
+  "prompt": "Cartoon pub owner handing a bag to a banker and another to a guest in a fancy chair, then taking a cash drawer from the till and adding it to a pile, bright flat illustration, no text."
+ },
+ "464": {
+  "emoji": "🐄",
+  "scene": "A cow gives the same bucket of milk forever (dividend never grows): one flat bucket on top, required rate beneath. Price is one bucket divided by the rate, like a perpetual bond.",
+  "prompt": "Cartoon cow giving exactly one bucket of milk every day along a long row of identical buckets stretching to the horizon, bright flat illustration, no text."
+ },
+ "465": {
+  "emoji": "🚀",
+  "scene": "A rocket (ROA) strapped to a leverage booster: a big pile of assets perched on a tiny equity pedestal. ROE equals ROA times that top-heavy pile.",
+  "prompt": "Cartoon rocket strapped to a booster, the booster is a giant pile of boxes balanced on a tiny pedestal, bright flat illustration, no text."
+ },
+ "466": {
+  "emoji": "🏭",
+  "scene": "Three pubs funded with different mixes of beer barrels (debt) and cash (equity) are all measured as whole-pub price over operating profit. EV/EBITDA ignores funding mix.",
+  "prompt": "Cartoon three pubs, each with different amounts of barrels stacked outside and coins inside, a single measuring stick beside each pub measuring the same way, bright flat illustration, no text."
+ },
+ "467": {
+  "emoji": "🍰",
+  "scene": "A payout pie sits on top of a fraction bar, and below it is the ditch between required return and growth. Shrink the ditch and the pie multiplies. Justified forward P/E.",
+  "prompt": "Cartoon pie on top of a plank, a ditch below the plank getting narrower with a smaller ditch next to a larger one, bright flat illustration, no text."
+ },
+ "468": {
+  "emoji": "🌳",
+  "scene": "A man plants an acorn and stares at a future oak with coins in its branches. He invests today for the benefits he expects later. The fundamental tenet of PV models.",
+  "prompt": "Cartoon man planting an acorn and looking up at a vision of a giant oak tree with coins hanging from its branches, bright flat illustration, no text."
+ },
+ "469": {
+  "emoji": "🏃",
+  "scene": "A relay of four runners: the first shouts an announcement (declaration), the second drops a tag at the gate (ex-date), the third signs the register (record), the fourth delivers the coins, even on a Saturday.",
+  "prompt": "Cartoon relay of four runners passing a baton: first with a megaphone, second dropping a tag at a gate, third signing a book, fourth carrying a bag of coins past a weekend sunshine, bright flat illustration, no text."
+ },
+ "470": {
+  "emoji": "🍒",
+  "scene": "A shopper entering today buys the cake without the cherry on top; the cherry stays with yesterday's buyer. Ex date: first day the share trades without its dividend.",
+  "prompt": "Cartoon cake missing its cherry being bought by a shopper at a counter, a different customer walking away with a cherry, bright flat illustration, no text."
+ },
+ "471": {
+  "emoji": "🔮",
+  "scene": "A chart-reading wizard bets old price patterns still pay, wagering the market fails even at the weakest level. Fundamental analysts must beat semi-strong; insiders beat strong.",
+  "prompt": "Cartoon wizard reading squiggly lines on a long scroll of past prices, two other figures with magnifying glass and whispering mask standing at taller steps behind him, bright flat illustration, no text."
+ },
+ "472": {
+  "emoji": "🎃",
+  "scene": "A grumpy pumpkin on a clearance shelf drops coin after coin from a fat dividend pouch while a tiny price tag hangs from its stem. Value stock: cheap, high yield, low P/E.",
+  "prompt": "Cartoon grumpy pumpkin on a clearance shelf with a tiny price tag on its stem, coins pouring out of a pouch beside it, bright flat illustration, no text."
+ },
+ "473": {
+  "emoji": "🏎️",
+  "scene": "A sports car wears a giant diamond price tag and keeps all its coins locked inside, with no dividend pouch. Growth stock: expensive, high P/E, low yield.",
+  "prompt": "Cartoon shiny sports car with a giant diamond-studded price tag, no pouch of coins, a small coin purse tightly shut inside the car window, bright flat illustration, no text."
+ },
+ "474": {
+  "emoji": "🔮",
+  "scene": "A crystal-ball market instantly swallows every headline and spits out a new price, while the crowd behind it acts wildly irrational. EMH: prices reflect information, not rational people.",
+  "prompt": "Cartoon crystal ball swallowing newspapers and spitting out new price tags, behind it a crowd of wildly misbehaving people, bright flat illustration, no text."
+ },
+ "475": {
+  "emoji": "🥀",
+  "scene": "An investor clutches a drooping wilted flower (a loser) and refuses to let go, while quickly selling his blooming winners. Disposition effect: avoid realizing losses.",
+  "prompt": "Cartoon investor holding a wilted flower tightly against his chest while handing blooming flowers to a buyer, bright flat illustration, no text."
+ },
+ "476": {
+  "emoji": "⛄",
+  "scene": "A snowball already rolling downhill keeps gathering snow and speed while a crowd pushes the leading sprinter further ahead. Momentum anomaly: past winners keep winning.",
+  "prompt": "Cartoon snowball rolling down a hill getting larger, a sprinter ahead of the pack with a cheering crowd behind him, bright flat illustration, no text."
+ },
+ "477": {
+  "emoji": "🦜",
+  "scene": "A parrot reads the headline over the newsman's shoulder and tattoos the new price on the tag before anyone can move. Efficient: the price already knows.",
+  "prompt": "Cartoon parrot looking over a newsman's shoulder at a newspaper and stamping a new number on a price tag, bright flat illustration, no text."
+ },
+ "478": {
+  "emoji": "🛴",
+  "scene": "A price tag chases a speeding headline car on a tiny tricycle, out of breath far behind, while a bargain hunter sits in the gap. Inefficient: price hasn't caught up.",
+  "prompt": "Cartoon price tag on a tiny tricycle chasing a speeding car with a headline banner, a bargain hunter sitting in the gap on a lawn chair, bright flat illustration, no text."
+ },
+ "479": {
+  "emoji": "🔲",
+  "scene": "Each firm's market share is squared into a literal square tile, and the tiles are added up. One giant firm gives a huge tile; many tiny firms give specks. HHI measures concentration.",
+  "prompt": "Cartoon floor with a few square tiles, one gigantic square tile beside many tiny specks, a small figure measuring the sides of the squares, bright flat illustration, no text."
+ },
+ "480": {
+  "emoji": "🏊",
+  "scene": "A pool full of shares: a chunk is fenced off by insiders and the government with a padlock, so only the water the public can splash in counts toward index weight. Float adjusted.",
+  "prompt": "Cartoon swimming pool with a fenced and padlocked section holding suited insiders, the open section with the public swimming, bright flat illustration, no text."
+ },
+ "481": {
+  "emoji": "🧑‍🍳",
+  "scene": "An index chef weighs ingredients by fundamentals, not price: he buys dusty cheap goods and sells flashy overpriced ones (value tilt, contrarian), keeps re-measuring, and it costs more.",
+  "prompt": "Cartoon chef weighing dusty cheap-looking ingredients on a scale, a shiny overpriced ingredient being returned, a constantly spinning stopwatch with coins flying out, bright flat illustration, no text."
+ },
+ "482": {
+  "emoji": "⚓",
+  "scene": "Cap-weighted: giants grow bigger by themselves in a snowball-heavy pile, so the pile self-adjusts and needs no hands; a lazy janitor sleeps. Momentum tilt, no rebalancing, low cost.",
+  "prompt": "Cartoon lopsided pile with one giant snowball and small ones, a janitor sleeping on a chair beside the pile with a tiny coin jar, bright flat illustration, no text."
+ },
+ "483": {
+  "emoji": "🍰",
+  "scene": "A parent hands every child, tall or tiny, an identical slice, so tiny kids dominate (small-cap tilt), and keeps running around re-slicing as pieces change. Equal weighted: most rebalancing of all.",
+  "prompt": "Cartoon parent handing identical cake slices to a row of children of different sizes, then running around re-cutting slices, bright flat illustration, no text."
+ },
+ "484": {
+  "emoji": "👗",
+  "scene": "A wardrobe sorts stocks on a grid: rows are small, mid and large sizes (market cap); columns are a bargain tag (value) and a rocket (growth). A style index slices the market along those lines.",
+  "prompt": "Cartoon wardrobe grid of three rows of increasingly large clothes, two columns marked by a bargain tag and a rocket icon, bright flat illustration, no text."
+ },
+ "485": {
+  "emoji": "🎣",
+  "scene": "A giant net trawls every investment-grade bond, government, corporate and mortgage, into one basket while junk fish slip through the mesh. One broad bond benchmark.",
+  "prompt": "Cartoon fishing trawler with a huge net full of many types of fish while a few ragged fish slip through the mesh, bright flat illustration, no text."
+ },
+ "486": {
+  "emoji": "🛢️",
+  "scene": "A cart carries an ingot, oil barrel, wheat sack and cow, but each is just a paper contract pinned to it, nothing physical. Commodity indexes hold futures.",
+  "prompt": "Cartoon cart holding an ingot, an oil barrel, a wheat sack and a cow, each pinned with a small paper contract, bright flat illustration, no text."
+ },
+ "487": {
+  "emoji": "🏘️",
+  "scene": "Three house-watchers: a smug appraiser guessing a value (appraisal), a man tracking the same house sold twice (repeat sales), a man watching a house-shaped stock on a screen (REIT).",
+  "prompt": "Cartoon three watchers around a house: one with a clipboard and a guess, one with a camera photographing the same house twice, one looking at a screen showing a tiny house stock, bright flat illustration, no text."
+ },
+ "488": {
+  "emoji": "📸",
+  "scene": "Hedge funds queue at a photo booth: only the proud, handsome ones step in front of the camera; the ugly ones hide behind the hedge. Voluntary reporting means self-selection bias.",
+  "prompt": "Cartoon queue at a photo booth with handsome people posing and uglier people hiding behind a hedge, bright flat illustration, no text."
+ },
+ "489": {
+  "emoji": "🌫️",
+  "scene": "Equity index: a bright public scoreboard. Bond index: a foggy back room where dealers whisper separate prices for thousands of different bonds. Fixed income is harder and costlier to index.",
+  "prompt": "Cartoon split scene: bright scoreboard with neat rows on the left, foggy back room with whispering dealers and many different papers on the right, bright flat illustration, no text."
+ },
+ "490": {
+  "emoji": "🪑",
+  "scene": "A VIP in a velvet chair is gagged (no vote), gets the same fixed coin payout each month like a bond, with a slightly bigger purse than the bond man. Preference shares.",
+  "prompt": "Cartoon VIP sitting in a velvet chair with a cloth over the mouth, a neat stack of coins on the lap, a smaller purse for a man on a plain chair beside him, bright flat illustration, no text."
+ },
+ "491": {
+  "emoji": "🎁",
+  "scene": "A shareholder holds a fixed coin cup; when the company's meter crosses a target line, a bonus coin shower pours into the cup. Participating preferred: fixed dividend plus extra at target.",
+  "prompt": "Cartoon shareholder holding a cup of coins, a meter with a line marked and its needle crossing it, extra coins showering into the cup, bright flat illustration, no text."
+ },
+ "492": {
+  "emoji": "📜",
+  "scene": "A bank clerk in a Dublin pub hands out a paper certificate standing in for a foreign company's share locked in a vault abroad, traded for local euros. Depositary receipt.",
+  "prompt": "Cartoon bank clerk in a pub handing a paper certificate to a customer, a vault with a shining share inside it visible through a window behind, bright flat illustration, no text."
+ },
+ "493": {
+  "emoji": "🏢",
+  "scene": "A three-floor building: ground-floor flea market (Level I, over the counter), middle-floor exchange hall (Level II), roof stage raising new money from the public (Level III).",
+  "prompt": "Cartoon three-floor building: a flea market on the ground floor, a tidy exchange hall on the middle floor, a big rooftop stage with a crowd on the top, bright flat illustration, no text."
+ },
+ "494": {
+  "emoji": "📚",
+  "scene": "A shopkeeper piles up all the shop's assets, then ties off the debts hanging like anchors. What's left on the scale is book value: total assets minus total liabilities.",
+  "prompt": "Cartoon shopkeeper stacking goods on a scale with anchors tied to the stack, the anchors pulled off one by one, a small leftover pile on the scale, bright flat illustration, no text."
+ },
+ "495": {
+  "emoji": "🌽",
+  "scene": "A farmer collects this year's harvest (net income, on top) and divides it by the field size he had at the start of the year (beginning book equity, below). Last year's field, not this year's.",
+  "prompt": "Cartoon farmer holding a basket of corn above a bar line, beneath the bar a small field with a faded marker from last year, bright flat illustration, no text."
+ },
+ "496": {
+  "emoji": "🌫️",
+  "scene": "A man reads the printed rate off a loan paper easily (debt) but squints into a fog bank where the cost of equity hides. Harder to see, it must be estimated.",
+  "prompt": "Cartoon man holding a clear paper in one hand and squinting into a thick fog bank with a mystery creature in it, bright flat illustration, no text."
+ },
+ "497": {
+  "emoji": "🗳️",
+  "scene": "A shareholder with three tickets for three seats drops all three into his favorite candidate's bucket. Cumulative voting: pile your votes on chosen candidates.",
+  "prompt": "Cartoon shareholder dropping three tickets into one single bucket among three buckets with different candidates, bright flat illustration, no text."
+ },
+ "498": {
+  "emoji": "🧤",
+  "scene": "A sleeping shareholder in a hammock hands a signed glove to a stand-in who walks to the ballot box and votes for him. Voting by proxy.",
+  "prompt": "Cartoon man sleeping in a hammock handing a glove to a stand-in walking to a ballot box, bright flat illustration, no text."
+ },
+ "499": {
+  "emoji": "💰",
+  "scene": "A preferred holder gets fixed coins, then an extra jackpot when profit tops a mark, and when the company is dismantled grabs a second helping from the leftover pile. Participating; VC favourite.",
+  "prompt": "Cartoon preferred holder with a cup of coins, a profit meter crossing a line with a jackpot pouring in, a second plate of leftovers on a table being dragged toward him, bright flat illustration, no text."
+ },
+ "500": {
+  "emoji": "🪢",
+  "scene": "A shareholder has a bungee cord tied to the issuer; whenever the price plunges he yanks and sells his share back at the fixed price. Safer floor, so lower return and less wobble.",
+  "prompt": "Cartoon shareholder tied to a company building with a bungee cord, a falling price graph spiking downward, the shareholder yanking the cord toward the building, bright flat illustration, no text."
+ },
+ "501": {
+  "emoji": "🖌️",
+  "scene": "A manager with a paint-roller makes the asset pile look taller and slips a debt rock behind a curtain through accounting choices. Book value is something management can influence.",
+  "prompt": "Cartoon manager painting a tall pile of boxes taller and hiding a heavy stone behind a curtain, bright flat illustration, no text."
+ }
+}
