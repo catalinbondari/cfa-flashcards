@@ -755,8 +755,8 @@ function undo(){
   var h=hist.pop(), c=deck[h.at];
   if(h.ok) hits--; else { misses--; var k=roundMissed.lastIndexOf(c); if(k>-1) roundMissed.splice(k,1); }
   if(h.wasMissed) S.missed[c._i]=1; else delete S.missed[c._i];
-  save();
   i=h.at;
+  save();
   el('done').hidden=true; el('stage').hidden=false;
   render(); flip();
 }
