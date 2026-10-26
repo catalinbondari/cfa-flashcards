@@ -538,8 +538,16 @@ function flip(){
   if(c.src && c.f) openSrc();
   el('flip').hidden=true; el('acts').hidden=false;
 }
-function mark(ok){
+function unflip(){
   if(!flipped||i>=deck.length) return;
+  flipped=false;
+  el('defn').hidden=true; el('note').hidden=true; el('legend').hidden=true;
+  el('srcwrap').hidden=true; el('meme').hidden=true;
+  el('hint').hidden=false;
+  el('acts').hidden=true; el('flip').hidden=false;
+}
+function mark(ok){
+  if(i>=deck.length) return;
   var c=deck[i];
   hist.push({at:i,ok:ok,wasMissed:!!S.missed[c._i]});
   if(ok){hits++; delete S.missed[c._i];}
@@ -750,7 +758,7 @@ function finish(){
   roundMissed.forEach(function(c){var li=document.createElement('li');li.textContent=c.t;ul.appendChild(li)});
 }
 el('card').onclick=flip;
-el('card').onkeydown=function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();flip()}};
+el('card').onkeydown=function(e){if(e.key==='Enter'){e.preventDefault();flip()}};
 el('flip').onclick=flip;
 el('hit').onclick=function(){mark(true)};
 el('miss').onclick=function(){mark(false)};
@@ -790,12 +798,13 @@ el('reset').onclick=function(){S.missed={};S.onlyMissed=false;el('onlymiss').cla
 document.addEventListener('keydown',function(e){
   if(!el('printview').hidden) return;
   if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA') return;
-  if(e.target.tagName==='BUTTON'&&e.key===' ') return;
-  if(e.key===' '){e.preventDefault(); flipped?mark(true):flip();}
-  else if(e.key==='ArrowRight'){mark(true)}
-  else if(e.key==='ArrowLeft'){mark(false)}
+  var stage=!el('stage').hidden;
+  if(e.key===' '){e.preventDefault(); if(e.target.blur&&e.target!==document.body) e.target.blur(); if(stage&&!e.repeat) (flipped?unflip():flip());}
+  else if(e.key==='ArrowRight'&&stage){e.preventDefault();mark(true)}
+  else if(e.key==='ArrowLeft'&&stage){e.preventDefault();mark(false)}
   else if(e.key==='Backspace'||e.key==='z'||e.key==='Z'){e.preventDefault();undo()}
 });
+document.addEventListener('keyup',function(e){if(e.key===' '&&el('printview').hidden&&e.target.tagName!=='INPUT'&&e.target.tagName!=='TEXTAREA') e.preventDefault();});
 el('shuf').classList.toggle('on',S.shuffle);
 masc=el('masc'); setInterval(updateMascot,3000); setInterval(tick,360);
 chips(); build(true);
