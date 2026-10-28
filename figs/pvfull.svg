@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="640" height="480">
+<rect width="640" height="480" fill="#131519"/>
+<g font-family="Helvetica,Arial,sans-serif" fill="#C9CDD4" font-size="16">
+<line x1="60" y1="400" x2="615" y2="400" stroke="#555" /><line x1="60" y1="50" x2="60" y2="400" stroke="#555"/>
+<text x="330" y="440" text-anchor="middle">Yield →</text><text x="66" y="40">Price</text>
+<path d="M60.0 81.3 L66.9 88.1 L73.8 94.8 L80.6 101.4 L87.5 107.8 L94.4 114.2 L101.2 120.4 L108.1 126.5 L115.0 132.5 L121.9 138.4 L128.8 144.2 L135.6 149.9 L142.5 155.4 L149.4 160.9 L156.2 166.3 L163.1 171.6 L170.0 176.8 L176.9 181.9 L183.8 186.9 L190.6 191.8 L197.5 196.7 L204.4 201.4 L211.2 206.1 L218.1 210.7 L225.0 215.2 L231.9 219.6 L238.7 224.0 L245.6 228.2 L252.5 232.4 L259.4 236.6 L266.2 240.6 L273.1 244.6 L280.0 248.5 L286.9 252.4 L293.8 256.2 L300.6 259.9 L307.5 263.6 L314.4 267.2 L321.2 270.7 L328.1 274.2 L335.0 277.6 L341.9 281.0 L348.7 284.3 L355.6 287.5 L362.5 290.7 L369.4 293.9 L376.2 296.9 L383.1 300.0 L390.0 303.0 L396.9 305.9 L403.7 308.8 L410.6 311.6 L417.5 314.4 L424.4 317.2 L431.2 319.9 L438.1 322.6 L445.0 325.2 L451.9 327.8 L458.8 330.3 L465.6 332.8 L472.5 335.2 L479.4 337.6 L486.2 340.0 L493.1 342.4 L500.0 344.7 L506.9 346.9 L513.8 349.2 L520.6 351.3 L527.5 353.5 L534.4 355.6 L541.2 357.7 L548.1 359.8 L555.0 361.8 L561.9 363.8 L568.8 365.8 L575.6 367.7 L582.5 369.6 L589.4 371.5 L596.2 373.3 L603.1 375.1 L610.0 376.9" fill="none" stroke="#378ADD" stroke-width="4"/>
+<path d="M60.0 142.0 L610.0 413.2" stroke="#EF9F27" stroke-width="3" stroke-dasharray="10 7" fill="none"/>
+<line x1="163.1" y1="171.6" x2="163.1" y2="192.9" stroke="#5DCAA5" stroke-width="6"/><line x1="506.9" y1="346.9" x2="506.9" y2="362.3" stroke="#5DCAA5" stroke-width="6"/>
+<circle cx="335.0" cy="277.6" r="7" fill="#fff"/>
+<text x="347.0" y="265.6" fill="#fff">today</text>
+<text x="400" y="110" fill="#378ADD" font-size="18">real price (curve)</text>
+<text x="400" y="135" fill="#EF9F27" font-size="18">duration only (straight line)</text>
+<text x="400" y="160" fill="#5DCAA5" font-size="18">gap = convexity, always +</text>
+<text x="496.9" y="359.6" fill="#5DCAA5" text-anchor="end">rates ↑: falls less</text>
+<text x="173.1" y="187.2" fill="#5DCAA5">rates ↓: rises more</text>
+</g></svg>
