@@ -2643,5 +2643,310 @@
   "emoji": "🚇",
   "scene": "Each cash flow rides its own tunnel: year one's coupon through a short shrink-ray at Z1, year two's through a longer one at Z2, last coupon plus face value through the longest. Sum what emerges.",
   "prompt": "Cartoon coin conveyor belts entering three tunnels of increasing length, each with a shrink-ray machine of different size. Coins emerge smaller at the other ends and drop into one big collecting jar. Bright industrial colours."
+ },
+ "529": {
+  "emoji": "🎭",
+  "scene": "A puppeteer works two strings: one pulls a megaphone shouting fake rumours, the other makes a stock chart jump with fake trades. An honest analyst with a magnifying glass stands calmly beside, untouched.",
+  "prompt": "A sneaky puppeteer in a mask controlling two strings: one string moves a megaphone blowing smoke clouds, the other yanks a giant jagged price line upward like a jump rope. Next to him a calm analyst with a magnifying glass looks at a plain document, untouched by the strings."
+ },
+ "530": {
+  "emoji": "🔬",
+  "scene": "An analyst inspects a pile of third-party research with a four-lens microscope: assumptions, rigor, a calendar for timeliness, and a lone wolf for independence. The price tag and the grey beard of the author are swept into the bin.",
+  "prompt": "An analyst peering into a microscope with four lenses aimed at a stack of reports; nearby a calendar and a lone wolf statue. A broom sweeps a price tag and a fake grey beard into a waste bin."
+ },
+ "531": {
+  "emoji": "🎁",
+  "scene": "A giant gold-plated yacht gift is passed between two people: BOTH hands get handcuffed. A tiny cupcake handed over next to it gets a thumbs up.",
+  "prompt": "Two people in suits passing a huge shiny golden yacht with a bow on it; both of their wrists are snapped into handcuffs. Beside them, a small cupcake changes hands and a friendly hand gives a thumbs up."
+ },
+ "532": {
+  "emoji": "⏱️",
+  "scene": "Client holding the tap that pours cash in and out: the manager gets a stopwatch (time-weighted). Manager holding the tap: the manager gets a money bag scale (money-weighted).",
+  "prompt": "Split scene on one table: a client turning a water tap that pours coins, while the manager holds a big stopwatch; on the other side, the manager turns the coin tap and holds a balance scale weighing a money bag."
+ },
+ "533": {
+  "emoji": "👨‍👩‍👧",
+  "scene": "Your spouse, kids and parents all stand inside your own wallet. In the trading queue the clients go first; the family wallet waits at the back.",
+  "prompt": "A giant open wallet with a cartoon spouse, child and grandparents standing inside it, waving. In front, a queue of clients walks through a door first while the family wallet waits patiently at the back of the line."
+ },
+ "534": {
+  "emoji": "🤥",
+  "scene": "Left: a man with a growing long nose holds a fake diploma (misrepresentation = lie). Right: a man in a lab coat confidently fiddling with a machine he obviously doesn't understand while sparks fly (misconduct).",
+  "prompt": "Two cartoon advisers: one with a long growing wooden nose proudly holding up a fake diploma scroll; the other in a lab coat confidently turning random knobs on a smoking, sparking machine he clearly does not understand."
+ },
+ "535": {
+  "emoji": "🚪",
+  "scene": "Three-step staircase: point at the rotten apple, ring the compliance bell, then walk out the door carrying your box. Meanwhile someone whispers into a relative's ear and gets cuffed.",
+  "prompt": "A three-step staircase: on step one a person points at a rotten apple, on step two rings a big bell, on step three walks out through a door carrying a cardboard box of belongings. In the corner a person whispering into a relative's ear has a handcuff on his wrist."
+ },
+ "536": {
+  "emoji": "🧩",
+  "scene": "A scary spiky puzzle piece (put option) looks dangerous alone, but slotted into a calm portfolio puzzle it becomes a protective umbrella.",
+  "prompt": "A spiky puzzle piece floating alone looking scary, then snapping into a large calm puzzle where it unfolds into an umbrella shielding the other pieces from rain."
+ },
+ "537": {
+  "emoji": "📞",
+  "scene": "A client phones in a buy order while the analyst holds a fresh, still-sealed envelope with a changed opinion. The analyst says 'wait, first hear this', then takes the order.",
+  "prompt": "An analyst on the phone with an eager client, holding up a sealed envelope with a wax seal, pausing the client with an open palm before writing down an order on a notepad."
+ },
+ "538": {
+  "emoji": "🗳️",
+  "scene": "A proxy voter at a ballot box with a giant research bill in one hand and a tiny benefit coin in the other: the bill is bigger, so he walks past the box.",
+  "prompt": "A person at a ballot box holding an enormous long paper bill in one hand and a tiny coin in the other, deciding to stroll past the box with a shrug."
+ },
+ "539": {
+  "emoji": "📢",
+  "scene": "A CEO speaks into a megaphone to a crowd of analysts, and newspapers confirm it: now it's public. Planes grounded and fuel cans on fire show what material means.",
+  "prompt": "A CEO on stage with a megaphone in front of a big crowd of analysts with notebooks, newspapers flying around confirming it; in the background airplanes sit grounded and fuel cans are on fire."
+ },
+ "540": {
+  "emoji": "🧑‍✈️",
+  "scene": "A supervisor hands a task to a junior but keeps a chain around his own wrist tied to it. A broken compliance alarm sits nearby; the supervisor refuses the captain's hat, signing a letter.",
+  "prompt": "A supervisor handing a box to a junior employee, but a chain still links the box to the supervisor's wrist. Nearby a broken smoke alarm hangs from the ceiling and the supervisor pushes away a captain's hat while signing a letter."
+ },
+ "541": {
+  "emoji": "🪵",
+  "scene": "A log (ln) sits on a perfect bell-shaped hill. Its shadow on the ground is a lopsided slide that never goes below the floor and has a long tail to the right.",
+  "prompt": "A wooden log balanced on top of a symmetrical bell-shaped green hill; the hill casts a lopsided shadow on the floor that starts at the floor edge and stretches far to the right with a long thin tail."
+ },
+ "542": {
+  "emoji": "🧱",
+  "scene": "A tower of building blocks: a solid base block (real rate), an inflating balloon block, a cracked block (default), a sticky honey block (liquidity), and a tall clock block on top (maturity).",
+  "prompt": "A tall tower stacked from five different blocks: a plain stone base, an inflating balloon, a cracked brick, a block dripping honey, and an hourglass on top."
+ },
+ "543": {
+  "emoji": "🪵",
+  "scene": "Three seesaws: one with a log on the left seat (log-lin), one with a log on the right seat (lin-log), and one with logs on both seats balancing like a stretchy rubber band (elasticity).",
+  "prompt": "Three seesaws in a playground: the first has a wooden log on the left seat, the second has a log on the right seat, the third has logs on both seats connected by a stretched rubber band."
+ },
+ "544": {
+  "emoji": "🏦",
+  "scene": "A pension piggy bank: service-cost and interest coins drop into the P&L register; the jiggly actuarial jelly and surprise returns slide off into a side drawer (OCI).",
+  "prompt": "A retirement piggy bank on a counter: coins drop into a big cash register, while a wobbly jelly and a jack-in-the-box slide off into a separate side drawer."
+ },
+ "545": {
+  "emoji": "🦺",
+  "scene": "A stack of crates where the newest, most expensive crate on top is taken first: the cost pile is heavy, profit balloon shrinks, the tax man frowns, and the warehouse looks small.",
+  "prompt": "A warehouse worker pulling the top shiny expensive crate off a tall stack of crates whose prices rise as they go up; a profit balloon nearby deflating and a tax collector frowning with an empty bag."
+ },
+ "546": {
+  "emoji": "⛏️",
+  "scene": "A miner digs down to an ancient layer of cheap dusty crates under the warehouse floor; selling them makes a profit balloon swell, but it's a one-off fossil.",
+  "prompt": "A miner digging through a warehouse floor into ancient dusty crates buried like fossils; a profit balloon above him inflates hugely but has a crack in it."
+ },
+ "547": {
+  "emoji": "🏗️",
+  "scene": "A half-built bridge: a cost bucket fills up to the halfway mark, and an equal share of the contract cake slides onto the builder's plate.",
+  "prompt": "A half-built bridge over a river; a big bucket of coins half full on one side, and a builder holding a plate onto which half of a giant cake slides."
+ },
+ "548": {
+  "emoji": "⚖️",
+  "scene": "An asset on a balance scale: when the book side is heavier than the tax side, a tax bill (liability) pops out; when the tax side is heavier, a tax refund coupon (asset) pops out.",
+  "prompt": "A balance scale with a book on one pan and a tax receipt stack on the other; when the book side dips, a red bill shoots out, and when the receipt side dips, a green coupon shoots out."
+ },
+ "549": {
+  "emoji": "🪆",
+  "scene": "Five nesting dolls stacked as ROE: tax, interest, margin, turnover, leverage. A plant grows from the top doll, watered only with the earnings kept (b × ROE).",
+  "prompt": "Five nesting dolls of decreasing size lined up and multiplied together into one big doll; a small plant growing from the top of the big doll watered by a watering can filled with coins."
+ },
+ "550": {
+  "emoji": "🚗",
+  "scene": "A happy person drives off in a car with no down payment, holding a loose easy-going contract, while a borrower nearby is wrapped in tight chains of covenants.",
+  "prompt": "A smiling person driving a car away from a dealership with empty pockets and a floppy relaxed paper in hand; next to him another person is tied up in chains while holding a bank loan."
+ },
+ "551": {
+  "emoji": "🧪",
+  "scene": "Lab spending dumped straight into the expense bin makes the EBITDA tower shorter; parking it in a capital vault and dripping it out as amortization below the line makes the tower taller.",
+  "prompt": "A scientist dumping beakers into a bin which makes a nearby tower shrink; on the other side the scientist locks beakers in a vault and the tower grows tall."
+ },
+ "552": {
+  "emoji": "✂️",
+  "scene": "An analyst with scissors cuts the same goodwill cloud out of both the assets column and the equity column, and tosses the impairment rain cloud off the income statement.",
+  "prompt": "An analyst with giant scissors cutting an identical fluffy cloud out of two tall pillars, and throwing a small rain cloud out of a window."
+ },
+ "553": {
+  "emoji": "🌳",
+  "scene": "Price paid is a fixed basket. The more fruit the tree really has (higher fair value, longer life, bigger salvage), the smaller the leftover air bubble of goodwill.",
+  "prompt": "A buyer holding a fixed-size basket under a fruit tree; as the tree grows more fruit and its trunk grows taller, a floating air bubble beside it shrinks."
+ },
+ "554": {
+  "emoji": "🕶️",
+  "scene": "Management behind a foggy window across many countries and complex gadgets; a crowd of big institutional investors wipes the fog clean. A CEO stuffed with options rides a rocket recklessly.",
+  "prompt": "A manager behind a foggy glass window surrounded by globes and complicated gadgets; big serious investors with cloths wiping the glass clean; in the corner a CEO with pockets full of tickets riding a rocket recklessly."
+ },
+ "555": {
+  "emoji": "🎢",
+  "scene": "A tightrope walker balances a tax-shield umbrella against a growing pile of distress bricks. He keeps wobbling off the sweet spot when the share price drops or a bond deal is upsized.",
+  "prompt": "A tightrope walker balancing with a shield on one side and a pile of bricks on the other, wobbling off the centre as the rope sags."
+ },
+ "556": {
+  "emoji": "🎛️",
+  "scene": "A project control panel with four knobs: a pause button (timing), a shrink/grow dial (sizing), a switch for price/output (flexibility), and an oil barrel gauge wired to everything (fundamental).",
+  "prompt": "A big retro control panel with a pause button, a growing and shrinking dial, a toggle switch, and a gauge connected by cables to an oil barrel."
+ },
+ "557": {
+  "emoji": "📈",
+  "scene": "A project announcement makes every share jump the same height; multiply the jump by the crowd of shares and the whole crowd's lift is the NPV.",
+  "prompt": "A crowd of identical cartoon share certificates all jumping into the air at once the moment a curtain is pulled back to reveal a new factory."
+ },
+ "558": {
+  "emoji": "🍰",
+  "scene": "A cake taxed twice: the corporate tax man takes a slice in the kitchen, then the dividend tax man takes a bite from each piece served on the plate.",
+  "prompt": "A cake in a kitchen with one tax collector cutting out a slice, then a second tax collector biting chunks from the slices served on plates to shareholders."
+ },
+ "559": {
+  "emoji": "🏛️",
+  "scene": "A developed-market stock exchange building emptying as companies sneak out the back to private equity; a bright emerging-market exchange next door with a queue forming at the door.",
+  "prompt": "Two stock exchange buildings side by side: an old grey one with companies sneaking out the back door into a private limousine; a bright new one with a long queue of companies waiting to get in."
+ },
+ "560": {
+  "emoji": "🛁",
+  "scene": "A trade-balance bathtub: water rises only when the saving tap beats the investment drain, or the government stops draining the tub.",
+  "prompt": "A bathtub filling up as one tap pours coins in, with a drain pulling coins out, and a government figure plugging a second drain with a cork."
+ },
+ "561": {
+  "emoji": "🛡️",
+  "scene": "A row of shields: most are pointed at an enemy, but one circle of shields holds hands in friendship. A rising number of shields could mean either.",
+  "prompt": "A row of knights holding shields facing away from each other in conflict, and a circle of knights linking shields together in friendship, all on one battlefield."
+ },
+ "562": {
+  "emoji": "🌊",
+  "scene": "A surfer rides one big wave: paddling up the front while the beach is still crowded with unemployed, hot sun at the crest (inflation), slowing at the peak, then tumbling down.",
+  "prompt": "A surfer riding one huge wave: climbing up its front from a crowded beach, a blazing sun at the crest, and a wipeout tumble down the back."
+ },
+ "563": {
+  "emoji": "🎢",
+  "scene": "A nervous person refuses to ride a scary rollercoaster until someone hands them a bigger and bigger bag of coins.",
+  "prompt": "A frightened person at the entrance of a giant rollercoaster, arms crossed, while an operator piles larger and larger coin bags into their arms until they shrug and climb in."
+ },
+ "564": {
+  "emoji": "🚪",
+  "scene": "Open-end fund: a revolving door minting new shares at a fixed sign price, with a cash bucket by the door. Closed-end fund: a locked club where members swap tickets at haggled prices.",
+  "prompt": "Left: a revolving door where people enter and exit freely, a bucket of coins next to it. Right: a locked club door with a bouncer, inside people trading tickets and haggling."
+ },
+ "565": {
+  "emoji": "🧠",
+  "scene": "A brain with two rooms: the left room has a teacher at a chalkboard fixing errors (cognitive); the right room has a stormy heart in a cage that you can only learn to live with (emotional).",
+  "prompt": "A cartoon brain split into two rooms: in one a teacher pointing at a blank chalkboard, in the other a stormy red heart in a cage with lightning bolts."
+ },
+ "566": {
+  "emoji": "🎯",
+  "scene": "A weather forecaster throws three darts: how much, how likely, over what period. Only when all three hit does the warning siren light up.",
+  "prompt": "A weather forecaster throwing three different coloured darts at a target; a warning siren lights up when all three hit."
+ },
+ "567": {
+  "emoji": "🦸",
+  "scene": "A stock flies ABOVE the SML line like a superhero (bargain, buy); another one crawls below the line in a tunnel (overpriced).",
+  "prompt": "A cartoon stock with a cape flying above a straight upward-sloping road, while another stock crawls in a tunnel below the road."
+ },
+ "568": {
+  "emoji": "🧺",
+  "scene": "Rebalancing: same team players, coach adjusts how much each plays. Reconstitution: the coach swaps players off the bench and new ones on.",
+  "prompt": "A sports coach on a field: on one side resizing the same players with a pump, on the other side swapping a player off the field for a new one from the bench."
+ },
+ "569": {
+  "emoji": "💎",
+  "scene": "A seesaw index: the most expensive diamond stock on one end outweighs a pile of big cheap pebbles on the other end, regardless of size.",
+  "prompt": "A seesaw with a single small sparkling diamond on one end outweighing a giant pile of big grey boulders on the other."
+ },
+ "570": {
+  "emoji": "🏷️",
+  "scene": "A seller rushes to the dealer shouting the highest bid; a buyer rushes to the dealer with the lowest asking price tag. Both walk past the others.",
+  "prompt": "A crowd of dealers in a market; a seller running to the dealer holding the tallest flag, and a buyer running to the dealer holding the shortest flag."
+ },
+ "571": {
+  "emoji": "🍋",
+  "scene": "A lemonade stand: each cup's price minus the lemon cost drops one coin into a bucket; once the bucket holds enough to pay the stand's rent, the stand breaks even.",
+  "prompt": "A lemonade stand where each cup sold drops a coin into a bucket; a landlord waits with an open hand for the rent, the bucket rising toward a fill line."
+ },
+ "572": {
+  "emoji": "🎂",
+  "scene": "The first birthday cake arrives in year 4, but the Gordon machine always spits out the price one year before: year 3. So you only rewind three candles.",
+  "prompt": "A cake delivery van arriving at a house, a machine next to it shooting out a price ticket one step earlier on a timeline, and a hand rewinding a clock three turns."
+ },
+ "573": {
+  "emoji": "🚦",
+  "scene": "Three traffic lights for growth: one steady green light (Gordon), green then yellow (two-stage), green, yellow, then steady (three-stage). A short-trip driver still uses them.",
+  "prompt": "Three traffic lights in a row: one showing only green, one green then yellow, one green, yellow and a calm blue; a car with a short trip map passes by."
+ },
+ "574": {
+  "emoji": "🏭",
+  "scene": "A factory fleet: start with last year's machines, add new ones bought with a slice of revenue, then a rust monster eats a slice of LAST year's fleet.",
+  "prompt": "A factory yard with a row of machines; a truck delivering new machines and a rust monster nibbling the old ones."
+ },
+ "575": {
+  "emoji": "📦",
+  "scene": "A daily-revenue loaf sliced into days; stack DSO slices to get receivables. A daily-COGS loaf; stack DOH slices to get inventory.",
+  "prompt": "Two loaves of bread sliced into thin daily slices, with a stack of slices piled next to each loaf."
+ },
+ "576": {
+  "emoji": "🌍",
+  "scene": "A six-legged globe walking slowly like a tortoise (politics, economy, society, tech, law, environment): changes slowly. Porter's five-headed dragon guards the profit treasure.",
+  "prompt": "A slow tortoise with a globe for a shell and six legs, next to a five-headed dragon guarding a pile of treasure."
+ },
+ "577": {
+  "emoji": "📆",
+  "scene": "A T-bill bought at a discount and a CD paying add-on interest both get stretched to a full 365-day year ruler to compare.",
+  "prompt": "A discount coupon and an add-on gift box both stretched along a long measuring ruler shaped like a year-round calendar wheel."
+ },
+ "578": {
+  "emoji": "🛝",
+  "scene": "A smiley curved slide: rolling down when yields fall launches the price balloon high, rolling up when yields rise barely deflates it.",
+  "prompt": "A curved smiling playground slide; a balloon soaring high on one side and only slightly deflating on the other."
+ },
+ "579": {
+  "emoji": "☂️",
+  "scene": "Bond tranches under a prepayment storm: the PAC tranche stays dry under a fixed umbrella, the support tranche gets soaked absorbing the rain.",
+  "prompt": "A thunderstorm over a row of people: one person stays dry under a sturdy umbrella, while the person next to them gets drenched protecting them."
+ },
+ "580": {
+  "emoji": "🍕",
+  "scene": "A coupon pizza: the buyer pays the seller the slices already eaten since the last coupon date.",
+  "prompt": "A pizza with some slices already eaten, and a buyer paying a seller coins for the eaten slices."
+ },
+ "581": {
+  "emoji": "🛁",
+  "scene": "An issuer drains the debt bathtub a little each year: less risk of overflow, but the drained coins have to be reinvested at lower rates.",
+  "prompt": "A person scooping coins out of an overflowing bathtub a little each year into buckets, with a lower water line each time."
+ },
+ "582": {
+  "emoji": "🍫",
+  "scene": "A premium chocolate bar broken into equal pieces, one piece deducted each year until the bar is gone.",
+  "prompt": "A large chocolate bar being broken into equal pieces, one piece handed out at each tick of a calendar."
+ },
+ "583": {
+  "emoji": "📏",
+  "scene": "A call price in a box: floor = stock minus discounted strike (never below zero), ceiling = the stock itself. Put's ceiling is the discounted strike.",
+  "prompt": "Two boxes with floors and ceilings; a bouncing ball trapped between the floor and ceiling of each box."
+ },
+ "584": {
+  "emoji": "🤝",
+  "scene": "OTC: you shake hands with a dealer who then passes the risk hot-potato on to someone else. Exchange: a giant referee clearinghouse stands between everyone.",
+  "prompt": "A handshake with a dealer who is secretly tossing a hot potato to someone behind him; next to them, a giant referee standing between two traders."
+ },
+ "585": {
+  "emoji": "🎟️",
+  "scene": "A party: new long and new short arrive together, guest count rises. One guest leaves and a stranger takes their seat, count unchanged. Both leave, count drops.",
+  "prompt": "A party with a door counter: two guests arriving together, one guest swapping seats with a stranger, and two guests leaving together."
+ },
+ "586": {
+  "emoji": "🔒",
+  "scene": "The forward price is locked in a safe at inception; the value balloon outside floats up and down as markets move.",
+  "prompt": "A heavy locked safe sitting still, with a balloon tied to it floating up and down in the wind."
+ },
+ "587": {
+  "emoji": "⛽",
+  "scene": "A GP fills a fuel tank fee meter on the full committed tank, not just on the gas pumped, so there's no rush to burn fuel.",
+  "prompt": "A relaxed driver at a petrol station paying for a full tank at once while slowly driving away, the fuel pump nozzle hanging back."
+ },
+ "588": {
+  "emoji": "🌲",
+  "scene": "A forest is a warehouse: when timber prices are low, the logger leaves trees growing. Big institutions hire a forest butler; small investors buy shares of the forest.",
+  "prompt": "A logger relaxing under a tall tree and waiting; a butler serving a large stately institution building; small investors buying tickets to a forest park."
+ },
+ "589": {
+  "emoji": "🚪",
+  "scene": "Five exit doors from a PE building: IPO red carpet, strategic sale handshake, swap to another PE firm, a recap refill, and a trapdoor write-off.",
+  "prompt": "A building with five exit doors: a red carpet door with cameras, a handshake door, a door leading to another building, a door with a refill pump, and a trapdoor."
  }
 }
