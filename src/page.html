@@ -55,6 +55,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .fn{border-bottom:1.6px solid currentColor;padding:0 .3em .05em}
 .fd{padding:.07em .3em 0}
 .sq{display:inline-flex;align-items:flex-start}
+.sqg{display:inline-block;line-height:1;transform-origin:top left}
 .sqb{border-top:1.6px solid currentColor;padding:.1em .16em 0;margin-left:-.04em}
 .tx{font-family:var(--fh)}
 .ac{white-space:nowrap}
@@ -382,7 +383,7 @@ function mathHTML(src){
         var cmd=s.slice(st,i);
         if(cmd==='frac'||cmd==='tfrac'||cmd==='dfrac'){var a=grp(),b=grp();
           o+='<span class="fr"><span class="fn">'+a+'</span><span class="fd">'+b+'</span></span>';}
-        else if(cmd==='sqrt'){o+='<span class="sq">√<span class="sqb">'+grp()+'</span></span>';}
+        else if(cmd==='sqrt'){o+='<span class="sq"><span class="sqg">√</span><span class="sqb">'+grp()+'</span></span>';}
         else if(cmd==='text'||cmd==='mathrm'||cmd==='operatorname'){o+='<span class="tx">'+grp()+'</span>';}
         else if(cmd==='bar'||cmd==='overline'){o+='<span class="ov">'+grp()+'</span>';}
         else if(ACC[cmd]){o+='<span class="ac">'+grp()+ACC[cmd]+'</span>';}
@@ -534,6 +535,7 @@ function setMeme(c){
   var url=c.pic||('memes/'+('00'+c._i).slice(-3)+'.jpg');
   if(img.getAttribute('src')!==url) img.setAttribute('src',url);
 }
+function fixRoots(box){box.querySelectorAll('.sq').forEach(function(s){var g=s.querySelector('.sqg'),b=s.querySelector('.sqb');if(!g||!b)return;g.style.transform='';var r=b.offsetHeight/g.offsetHeight;if(r>1.2)g.style.transform='scaleY('+r.toFixed(2)+')';});}
 function flip(){
   if(flipped||i>=deck.length) return;
   flipped=true;
@@ -543,6 +545,7 @@ function flip(){
   el('legend').hidden=!c.w;
   el('srcwrap').hidden=!c.src;
   el('meme').hidden=!(c.ms||c.pic);
+  fixRoots(el('defn'));
   if(c.src && c.f) openSrc();
   el('flip').hidden=true; el('acts').hidden=false;
 }
