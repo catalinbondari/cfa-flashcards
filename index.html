@@ -305,6 +305,8 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
       <button id="reset">Reset</button>
       <button id="printbtn">Print this list</button>
       <button id="savebtn">Save progress</button>
+      <input id="gotonum" type="number" min="1" placeholder="#" style="width:4.5em" aria-label="Card number">
+      <button id="gotobtn">Go to</button>
     </div>
   </div>
   <div class="savepanel" id="savepanel" hidden>
@@ -810,6 +812,7 @@ el('again').onclick=function(){S.onlyMissed=false;el('onlymiss').classList.remov
 el('revmiss').onclick=function(){S.onlyMissed=true;el('onlymiss').classList.add('on');build()};
 el('onlymiss').onclick=function(){S.onlyMissed=!S.onlyMissed;this.classList.toggle('on',S.onlyMissed);build()};
 el('shuf').onclick=function(){S.shuffle=!S.shuffle;this.classList.toggle('on',S.shuffle);save();build()};
+el('gotobtn').onclick=function(){var v=parseInt(el('gotonum').value,10); if(v>=1&&v<=deck.length){i=v-1; el('done').hidden=true; el('stage').hidden=false; save(); render();}};
 el('reset').onclick=function(){S.missed={};S.onlyMissed=false;el('onlymiss').classList.remove('on');save();build()};
 document.addEventListener('keydown',function(e){
   if(!el('printview').hidden) return;
