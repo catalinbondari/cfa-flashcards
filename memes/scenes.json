@@ -2948,5 +2948,295 @@
   "emoji": "🚪",
   "scene": "Five exit doors from a PE building: IPO red carpet, strategic sale handshake, swap to another PE firm, a recap refill, and a trapdoor write-off.",
   "prompt": "A building with five exit doors: a red carpet door with cameras, a handshake door, a door leading to another building, a door with a refill pump, and a trapdoor."
+ },
+ "590": {
+  "emoji": "🏦",
+  "scene": "A king on a throne hoards a mountain of gold coins for himself while a village crowd of workers, customers and neighbours stands in a wider circle around the same castle: shareholder theory watches one pile, stakeholder theory waves at the whole crowd.",
+  "prompt": "A castle where a king sits on a pile of gold coins with a spotlight only on him, while on the other side of the same castle a wide circle of workers, shoppers, a mail carrier and neighbours all hold little glowing lanterns pointed at the building."
+ },
+ "591": {
+  "emoji": "⛓️",
+  "scene": "One chocolatier stirs a single pot (value chain), while a long conveyor belt snakes across farms, ships, trucks and shops in a giant loop (supply chain).",
+  "prompt": "On the left a single chef stirs one big steaming pot inside a small kitchen with a golden ribbon around it; on the right a very long conveyor belt winds past cocoa farms, a cargo ship, a delivery truck and a corner shop."
+ },
+ "592": {
+  "emoji": "🐌",
+  "scene": "A snail drags a heavy sack of coins into the vault (drag) while a vacuum cleaner on the other side sucks coins out through a hose too early (pull).",
+  "prompt": "A cartoon vault where a tired snail slowly drags a sack of coins in through the front door, while at the back a giant vacuum cleaner with a hose is sucking coins out through the wall into the hands of suppliers."
+ },
+ "593": {
+  "emoji": "🚰",
+  "scene": "A tap-and-pipes system: the home well bubbles up cash from inside the company, a bank bucket brigade hands over loans, and a giant market waterfall pours in from bonds and shares above.",
+  "prompt": "A garden with three water sources feeding one plant: a small well in the plant's own pot, a bucket handed over by a bank clerk through a window, and a big waterfall from a tall cliff poured from above."
+ },
+ "594": {
+  "emoji": "⚖️",
+  "scene": "A seesaw with a growth rocket on one end and a heavy cost-of-capital anvil on the other: when the rocket outweighs the anvil the share price balloon floats up, otherwise it sinks.",
+  "prompt": "A seesaw with a shiny rocket on one end and a heavy anvil on the other; above the pivot a party balloon floats up on the rocket side, while on the other side a deflating balloon sinks into the ground."
+ },
+ "595": {
+  "emoji": "🔍",
+  "scene": "A tiny footnote-sized fine-print door at the bottom of a giant financial report hides a messy cupboard: a courtroom gavel, a handshake with a cousin, a promise scroll and a rule book fall out.",
+  "prompt": "A big thick report with a tiny trapdoor at the bottom; when opened, a small gavel, two relatives shaking hands, a scroll tied with a ribbon and a thick rulebook tumble out like a messy cupboard."
+ },
+ "596": {
+  "emoji": "💸",
+  "scene": "A water tank (operating cash) loses a bucket for the capital investment, gains a bucket from the bank, and whatever is left sloshing in the tank is what the owners can drink.",
+  "prompt": "A big cartoon water tank with a hose pouring in on top, one pipe draining a bucket away to a building site, another pipe pouring in a bucket from a bank, and a happy owner holding a cup under a tap at the bottom."
+ },
+ "597": {
+  "emoji": "🧮",
+  "scene": "A sandwich of equity: the share-capital base, minus a bite taken out by buybacks, plus a retained-earnings layer that grows with profit and shrinks with dividends, topped with a side-dish of OCI.",
+  "prompt": "A layered sandwich on a plate: a thick bottom slice, a bite taken out of one layer by a hungry cartoon bull, a growing lettuce layer with a few coins falling out the side, and a tiny side dish on a toothpick on top."
+ },
+ "598": {
+  "emoji": "📦",
+  "scene": "Two shopkeepers value a dusty box: one asks what it would fetch if sold today and caps it, the other has a replacement-cost tag that is boxed between a ceiling and a floor.",
+  "prompt": "Two shopkeepers staring at the same dusty box; one holds a scale and a price tag for what it would sell for, the other holds a measuring tape from a replacement shop, and the box is squeezed between a ceiling plank and a floor plank."
+ },
+ "599": {
+  "emoji": "🚩",
+  "scene": "A red flag waves over a company where the profit mountain is huge but the cash stream is a trickle; a harmless green flag flies when profits and cash match and the dividend comes from seasonal sales.",
+  "prompt": "A split scene: on the left a huge golden mountain beside a tiny dry creek with red flags planted all over; on the right a matching mountain and a flowing stream with a calm green flag."
+ },
+ "600": {
+  "emoji": "📦",
+  "scene": "A customer who ordered the goods has a sticky label on a box that stays in the seller's warehouse; the box is ready to go, the customer is waiting with a receipt, and the seller says hands off.",
+  "prompt": "In a warehouse a customer in a coat points at a clearly tagged box on a shelf; a seller stands next to it with crossed arms, and a forklift with a ribbon is parked ready to carry it away."
+ },
+ "601": {
+  "emoji": "🏗️",
+  "scene": "Interest on a loan to build your own factory gets poured into the building bricks like cement, and only trickles out later as the walls slowly wear away, not as an interest bill.",
+  "prompt": "A construction site where a worker pours a bucket of coins as cement into the wall bricks of a new factory, while a chimney slowly crumbles into dust one brick at a time."
+ },
+ "602": {
+  "emoji": "🧪",
+  "scene": "A scale-based recipe: start with the profit pot, add back the vapour of non-cash charges, and for every pile that grows on the asset side pour some cash out; when liabilities grow, cash pours in.",
+  "prompt": "A chemist's table with a bubbling pot of coins, a puff of steam rising from it back into the pot, a shelf of growing boxes with a coin tap draining out, and a tank of IOU scrolls growing with a coin tap pouring in."
+ },
+ "603": {
+  "emoji": "🍰",
+  "scene": "A stratified cake gets a slice taken from every layer; a cluster gets a few whole mini-cakes picked at random, each a copy of the whole.",
+  "prompt": "Left: a layered cake with a fork taking a small bite out of every layer; right: a table of many identical mini-cakes with a hand picking three whole cakes at random."
+ },
+ "604": {
+  "emoji": "🐒",
+  "scene": "A monkey whose long tail stretches left behind it while his body hangs on the right shows negative skew, and a fat-tailed dog with giant heavy tail pads is leptokurtic.",
+  "prompt": "A cartoon creature sitting on the right of a hill with a very long tail stretching far out to the left across the ground; beside it a hill shaped like a pointy peak with two thick heavy fat tails at both sides."
+ },
+ "605": {
+  "emoji": "🚨",
+  "scene": "A guard who sounds the alarm for an innocent cat (Type I) versus a guard who sleeps through the burglar (Type II); the power is how often he catches the burglar.",
+  "prompt": "A night guard blowing a whistle at an innocent cat in the garden on the left; on the right a different guard fast asleep in a chair while a burglar in a mask tiptoes out with a sack."
+ },
+ "606": {
+  "emoji": "🌊",
+  "scene": "Big Data as a monster with four arms: a huge ocean, a speeding fire hose, a messy pile of mixed items, and a lie-detector tag on the truthfulness of each bucket.",
+  "prompt": "A cartoon monster with four arms: one holds a huge ocean wave, one holds a gushing fire hose, one holds a jumble of all kinds of objects, and one holds a magnifying glass over a bucket of questionable water."
+ },
+ "607": {
+  "emoji": "✂️",
+  "scene": "A barber who trims the wild extremes right off the head and sweeps the hairs away (trimming), versus a barber who combs them back to the cut-off line so the head stays the same size (winsorizing).",
+  "prompt": "Two barbers: the left one snips off wild strands from a customer's hair and sweeps them into a bin; the right one gently pulls the wild strands down to a flat line and pins them in place with a clip."
+ },
+ "608": {
+  "emoji": "⚓",
+  "scene": "A small country anchors its boat to a huge neighbour's ship with a heavy chain; to hold the rope it must keep tossing its own steering wheel away.",
+  "prompt": "A small rowing boat chained by a thick rope to a huge ship, with the rower holding the ship's steering wheel at arm's length and watching his own wheel floating away on the waves."
+ },
+ "609": {
+  "emoji": "🤝",
+  "scene": "Two players in a locked arena each stare at the other's move: neither can switch doors and do better, so both stay put.",
+  "prompt": "Two cartoon players in a small arena each standing in front of a door, each pointing at the other's door and shaking their head, with a little padlock hanging in the air between them."
+ },
+ "610": {
+  "emoji": "🛡️",
+  "scene": "A beta turtle is a defensive shield only if its lowest-sensitivity shell is against the market quakes; the market variance is the bottom shell and the stock's own movement is the top.",
+  "prompt": "A tortoise with a thick shell standing on a table that gently rocks from market earthquakes; the shell barely moves while a nervous rabbit next to it shakes violently."
+ },
+ "611": {
+  "emoji": "🧺",
+  "scene": "A basket of different fruits wobbles less than a basket of only apples: the lower the swing ratio, the better the diversification.",
+  "prompt": "On the left a basket full of identical apples being shaken violently and rolling away; on the right a basket of many different fruits sitting calmly while someone shakes the table."
+ },
+ "612": {
+  "emoji": "🎯",
+  "scene": "Passive is a mirror copy-cat marching behind the benchmark's footsteps; active is a runner who tries to sprint ahead of it.",
+  "prompt": "A runner trying to sprint ahead of a shadow figure on a track, while behind them a second runner in a mirror suit copies the shadow's steps perfectly."
+ },
+ "613": {
+  "emoji": "🧾",
+  "scene": "A pawn shop clerk lends a little less cash than the value of the watch handed over: the extra watch value sitting there is the haircut.",
+  "prompt": "A pawn shop where a customer hands over a heavy gold watch and the clerk gives back a thin stack of coins; a barber's scissors snips a small lock off the stack."
+ },
+ "614": {
+  "emoji": "🌍",
+  "scene": "Two dashboards in a ship's cabin: one tells how heavy the debt anchor is, the other shows how many foreign coins are in the lifeboat.",
+  "prompt": "A ship's captain looking at a giant anchor chain dragging in the water on one side and a lifeboat full of foreign coins on the other, with a worried first mate."
+ },
+ "615": {
+  "emoji": "📏",
+  "scene": "A ruler with two marks: the plain Mod bar, and the Macaulay bar is just the Mod bar stretched by one extra little yield-sized step.",
+  "prompt": "A stretching ruler where a long wooden stick is pulled by a tiny spring to become slightly longer, while an inspector measures both ends with calipers."
+ },
+ "616": {
+  "emoji": "💍",
+  "scene": "A make-whole call is a stylish jeweller who charges a huge price for every ring the issuer wants back, so almost nobody ever calls; a regular call is a cheap yank on the bond.",
+  "prompt": "An issuer holding a bond ring and walking toward a jeweller's counter with a huge pile of coins, sweating, while the bondholder smiles with arms crossed; in the corner a cheap vending machine is out of order."
+ },
+ "617": {
+  "emoji": "🍕",
+  "scene": "A bullet bond is a whole pizza handed back at the end; an amortizing loan is a pizza sliced and eaten bit by bit all year, so the lender gets cash earlier.",
+  "prompt": "Left: a whole pizza locked in a box with a big keyhole; right: a pizza being handed out slice by slice to a happy lender along the whole road."
+ },
+ "618": {
+  "emoji": "🎢",
+  "scene": "The longer, lower-coupon, lower-yield bond is a taller roller-coaster with a steeper, bouncier hill: when yields fall it shoots up the most.",
+  "prompt": "A tall winding roller-coaster with a bond cart at the top of a curved hill, next to a short flat track with a small cart barely moving."
+ },
+ "619": {
+  "emoji": "🔗",
+  "scene": "A chain of linked rings: take the spot ring, hook on each forward ring one by one, then break off the root of the total length.",
+  "prompt": "A long chain made of different-sized rings hanging from a hook, with a cartoon hand pulling it taut and a gardener's saw ready to cut out a root at the end of the chain."
+ },
+ "620": {
+  "emoji": "🧁",
+  "scene": "A flat coupon cupcake divided by the bakery price: current yield forgets that cupcakes get stale over time and ends up at par.",
+  "prompt": "A baker pointing at a single cupcake with a tag, ignoring a clock melting in the background and a small hill pulling the cupcake slowly toward a flat plate."
+ },
+ "621": {
+  "emoji": "📜",
+  "scene": "A scroll with a wax seal that a judge can enforce: the derivative is a real contract with a courtroom, not just an exchange's whim.",
+  "prompt": "A rolled scroll with a big wax seal in the foreground, a judge with a wooden gavel behind it, and a small exchange kiosk in the corner looking embarrassed."
+ },
+ "622": {
+  "emoji": "⚖️",
+  "scene": "A swap is a bundle of forwards: each little forward leans one way, but the bundle sits perfectly balanced at zero.",
+  "prompt": "A perfectly balanced scale in the centre, each side holding a bundle of small tilted forward-rods, which lean in different directions but cancel each other out."
+ },
+ "623": {
+  "emoji": "🪙",
+  "scene": "Option exercise is a gate: step through if it is worth more than the gate fee and ignore the ticket price you already paid.",
+  "prompt": "A theme-park gate with a turnstile; a visitor with a crumpled ticket he already paid for walks through only if a shiny prize is waiting on the other side."
+ },
+ "624": {
+  "emoji": "🏴‍☠️",
+  "scene": "A pirate buys the cheap forward, sells the dear spot, and pockets the gap between the two prices while lending the loot at the bank.",
+  "prompt": "A pirate swapping a cheap treasure map for an expensive treasure chest, walking away with a bulging coin sack and a cheeky wink while a bank teller catches coins in a bucket."
+ },
+ "625": {
+  "emoji": "🌐",
+  "scene": "One ordinary share wearing different clothes: a hat for the maple-leaf exchange and a hat for the stars-and-stripes exchange, same person underneath.",
+  "prompt": "A single cartoon shareholder wearing two different hats in turn, one with a maple leaf and another with stars, standing between two street markets."
+ },
+ "626": {
+  "emoji": "👑",
+  "scene": "A king raises the toll on his bridge and the crowd still crosses because there is no other bridge; his pricing power comes from a unique castle.",
+  "prompt": "A king standing on a bridge raising the toll sign while a long line of customers patiently waits to cross, with a deep moat and no other bridge in sight."
+ },
+ "627": {
+  "emoji": "🧑‍🤝‍🧑",
+  "scene": "Investing via a fund is a taxi ride, co-investing is riding in the front seat next to the driver and learning to steer, direct investing is driving your own car.",
+  "prompt": "Three vehicles: a taxi with a passenger in the back, a car where the passenger sits next to the driver watching the steering wheel, and a car where the passenger drives alone."
+ },
+ "628": {
+  "emoji": "🥪",
+  "scene": "Fund of funds is a sandwich with two bread slices: the first slice is the top fee, and the second slice is each underlying fund taking its own bite before you get the filling.",
+  "prompt": "A person about to eat a sandwich with two hungry mouths drawn on the bread slices, each nibbling a bit of the filling."
+ },
+ "629": {
+  "emoji": "₿",
+  "scene": "A golden coin mine with a hard ceiling: every few years the pickaxe swing is cut in half, so each nugget is rarer than the last.",
+  "prompt": "A miner swinging a pickaxe at a coin mine shaped like a golden mountain, with a heavy lid overhead and a smaller pickaxe each time, until the last tiny pickaxe barely scratches."
+ },
+ "630": {
+  "emoji": "🕵️",
+  "scene": "A supervisor who suspects a violation does not just ask for a promise: he investigates and then blocks the path with a barrier and a camera.",
+  "prompt": "A supervisor with a magnifying glass looking at an employee's desk, while a barrier gate and a watching camera are installed on the path to the research files."
+ },
+ "631": {
+  "emoji": "🩺",
+  "scene": "A doctor who prescribes before asking any questions is the bad advisor: the right order is to ask first, then recommend.",
+  "prompt": "A doctor who has already written a huge prescription and shoves it at a surprised patient before even looking at them; the patient raises a hand to stop him."
+ },
+ "632": {
+  "emoji": "🏢",
+  "scene": "Total firm assets include the money handed to a helper sub-advisor if the firm picks the helper; the big building holds the whole family of assets.",
+  "prompt": "A big building with a smaller shed attached by a rope, with the owner holding the rope and some coins flowing into the shed; a plain flag flies over both."
+ },
+ "633": {
+  "emoji": "🎓",
+  "scene": "You earn the GIPS diploma only by passing every exam: a student with half the papers gets sent home, and only schools that actually manage assets can enrol.",
+  "prompt": "A graduation ceremony where a student with every paper collected gets a diploma, while another student holding only half the papers is gently turned away, and a confused consultant stands at the gate."
+ },
+ "634": {
+  "emoji": "✈️",
+  "scene": "Pay your own ticket on the commercial flight, but if the only way to the oil rig is the company helicopter, hop on and keep your wallet out of the hotel.",
+  "prompt": "A traveller buying his own plane ticket at a counter on the left, while on the right a company helicopter is landing on a remote rig where he climbs aboard."
+ },
+ "635": {
+  "emoji": "🏛️",
+  "scene": "The pension's real clients are the retirees sitting on the bench, not the executive in the fancy suit who hired you.",
+  "prompt": "A fancy executive in a suit pointing at an advisor, while the advisor looks past him at a row of elderly participants on a park bench who are waving."
+ },
+ "636": {
+  "emoji": "📖",
+  "scene": "When the boss's rulebook clashes with the Code, you hand him a copy of the Code and urge him to change it before you break either rule.",
+  "prompt": "An employee politely handing a thick code book to a boss who holds a torn-up memo; a halo of clients, then employer, then self, arranged on three steps behind them."
+ },
+ "637": {
+  "emoji": "🗺️",
+  "scene": "A toolbox sorted by question: one mean gets a t-spanner, two independent means get a pooled wrench, paired data gets a pair of pliers, variances get a chi-shaped hammer.",
+  "prompt": "A toolbox with separate compartments showing only pictures: a wrench, a pair of pliers tied together by a string, a hammer and a ruler, each tool next to a matching little puzzle piece."
+ },
+ "638": {
+  "emoji": "🔧",
+  "scene": "Parametric tests are the precision tools that need a pristine workshop (normal data), non-parametric tests are the sturdy hammer for rough data.",
+  "prompt": "A clean lab bench with a precise caliper on the left, and a rugged workbench with a big hammer pounding on a bumpy rock on the right."
+ },
+ "639": {
+  "emoji": "📈",
+  "scene": "In the sentence 'A on B' the first name is the one that gets explained, standing on the vertical pole, and the second name stands on the horizontal floor.",
+  "prompt": "A cartoon figure standing on the vertical pole being pushed up by a second figure standing on the horizontal ground, with a tall ladder between them."
+ },
+ "640": {
+  "emoji": "➗",
+  "scene": "The pile of cross-product crumbs is not the covariance; you must divide the pile by n minus one before it counts.",
+  "prompt": "A baker pouring a big pile of crumbs on a table next to a knife that cuts the pile down to a small neat portion, while a student frowns at the big pile."
+ },
+ "641": {
+  "emoji": "🎢",
+  "scene": "The intercept is the lonely starting point on the y-axis where the line touches down at zero, not the middle of the data; the real centre is where the line crosses the mean point.",
+  "prompt": "A straight line drawn through a cloud of dots, passing through a big bullseye in the middle of the cloud, while a lonely flag is planted where the line meets the vertical axis far to the left."
+ },
+ "642": {
+  "emoji": "🔌",
+  "scene": "A dummy variable is a light switch: off gives the base level, on adds a jump.",
+  "prompt": "A big light switch with a bulb above it, in the off position a dim room and a low stair step, in the on position a bright room and the stair step one level higher."
+ },
+ "643": {
+  "emoji": "🪜",
+  "scene": "LINE is a ladder with four rungs: a straight rail, residuals that never touch each other, a bell-shaped hump of leftovers, and equal-width bands all along the way.",
+  "prompt": "A ladder with four rungs: one rung is a straight line, one is a row of separate unconnected leaves, one is a bell shape, and one is a band of equal width stretching across."
+ },
+ "644": {
+  "emoji": "🎯",
+  "scene": "Don't aim at the usual zero target: move the dartboard to the hypothesised value before you throw the t-dart.",
+  "prompt": "A person aiming at a dartboard that has been moved to a different spot on the wall, with a faded old bullseye at the usual centre crossed out by a cartoon X."
+ },
+ "645": {
+  "emoji": "📐",
+  "scene": "The prediction interval is a rubber band stretched around the forecast by a critical-sized multiple of the forecast's error, not just the error itself.",
+  "prompt": "A forecast dot stretched with a rubber band to two posts on either side, a ruler measuring a larger gap than a smaller marker pinned beside it."
+ },
+ "646": {
+  "emoji": "🕰️",
+  "scene": "Time-series follows one traveller through many years, while cross-section lines up many travellers at one station on one day.",
+  "prompt": "On the left one person walking along a long road passing many mile markers; on the right a crowd of different people all standing in one line at a station at the same moment."
+ },
+ "647": {
+  "emoji": "➖",
+  "scene": "A negative slope times a negative X is two grumpy faces shaking hands and turning into one smiling face: the forecast climbs above the intercept.",
+  "prompt": "Two grumpy cartoon figures with downturned mouths shaking hands, and from the handshake a smiling figure with a cheerful face pops up, while a small arrow points upward above a baseline."
  }
 }
