@@ -549,9 +549,20 @@ function setMeme(c){
   el('memo').textContent=c.pic?'':(c.me||''); el('mcap').textContent=c.pic?'':c.ms;
   m.classList.remove('noimg'); m.classList.toggle('wide',!!c.pic);
   img.onerror=function(){ m.classList.add('noimg'); };
+  if(!c.pic && MEME_SHEETS){
+    var t=c._i%16, sh=(c._i-t)/16;
+    if(img.getAttribute('src')!==BLANK) img.setAttribute('src',BLANK);
+    img.style.backgroundImage='url(memes/s'+('0'+sh).slice(-2)+'.jpg)';
+    img.style.backgroundSize='400% 400%';
+    img.style.backgroundPosition=(t%4)*100/3+'% '+Math.floor(t/4)*100/3+'%';
+    return;
+  }
+  img.style.backgroundImage='';
   var url=c.pic||('memes/'+('00'+c._i).slice(-3)+'.jpg');
   if(img.getAttribute('src')!==url) img.setAttribute('src',url);
 }
+var BLANK='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+var MEME_SHEETS=!/github\.io$/.test(location.hostname);
 function fixRoots(box){box.querySelectorAll('.sq').forEach(function(s){var g=s.querySelector('.sqg'),b=s.querySelector('.sqb');if(!g||!b)return;g.style.transform='';var r=b.offsetHeight/g.offsetHeight;if(r>1.2)g.style.transform='scaleY('+r.toFixed(2)+')';});}
 function flip(){
   if(flipped||i>=deck.length) return;
