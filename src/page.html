@@ -293,6 +293,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
     <div class="mini">
       <button id="shuf" class="on">Shuffle</button>
       <button id="onlymiss">Missed only</button>
+      <button id="skiptoday">Skip done today</button>
       <button id="reset">Reset</button>
       <button id="printbtn">Print this list</button>
       <button id="savebtn">Save progress</button>
@@ -408,7 +409,8 @@ function mathHTML(src){
 var CARDS = JSON.parse(document.getElementById('data').textContent);
 var NAMES = {quant:'Quant',econ:'Economics',fsa:'Financial statements',corp:'Corporate issuers',equity:'Equity',fi:'Fixed income',deriv:'Derivatives',alts:'Alternatives',pm:'Portfolio mgmt',ethics:'Ethics'};
 var KEY='cfa-gap-deck-v1';
-var S={topic:'all',missed:{},shuffle:false,onlyMissed:false};
+var S={topic:'all',missed:{},shuffle:false,onlyMissed:false,seen:{},skipToday:false};
+function today(){var d=new Date();return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate()}
 var saved=null;
 function migrate(p){
   /* 499 -> 502: old card 12 (merged means) became new cards 12-15; everything after shifted by 3 */
@@ -434,10 +436,12 @@ function migrate(p){
 }
 try{var raw=localStorage.getItem(KEY); if(raw){var p=migrate(JSON.parse(raw));
   S.missed=p.missed||{}; S.topic=p.topic||'all'; S.shuffle=!!p.shuffle; S.onlyMissed=!!p.onlyMissed;
+  S.seen=p.seen||{}; S.skipToday=!!p.skipToday;
+  if(!p.seen && p.order && p.i){ p.order.slice(0,p.i).forEach(function(n){S.seen[n]=today()}); }
   if(p.n>=502 && p.n<=CARDS.length && p.order && p.order.length) saved=p;
 }}catch(e){}
 function save(){try{localStorage.setItem(KEY,JSON.stringify({
-  missed:S.missed, topic:S.topic, shuffle:S.shuffle, onlyMissed:S.onlyMissed,
+  missed:S.missed, topic:S.topic, shuffle:S.shuffle, onlyMissed:S.onlyMissed, seen:S.seen, skipToday:S.skipToday,
   n:CARDS.length,
   order:deck.map(function(c){return c._i}),
   i:i, hits:hits, misses:misses,
@@ -456,6 +460,7 @@ function pool(){
   else if(S.topic==='mm2') a=a.filter(function(c){return c.m2});
   else if(S.topic!=='all') a=a.filter(function(c){return c.c===S.topic});
   if(S.onlyMissed) a=a.filter(function(c){return S.missed[c._i]});
+  if(S.skipToday){var td=today(); a=a.filter(function(c){return S.seen[c._i]!==td});}
   return a;
 }
 function byIdx(n){var c=CARDS[n]; c._i=n; return c}
@@ -496,7 +501,7 @@ function render(){
   el('th').textContent=hits+' got'; el('tm').textContent=misses+' missed';
   el('undorow').hidden=!hist.length;
   if(!n){ el('stage').hidden=true; el('done').hidden=false; el('undorow').hidden=true; el('doneh').textContent='Nothing here';
-    el('score').textContent='0'; el('donep').textContent=S.onlyMissed?'No missed cards in this selection yet. Turn off “Missed only” to start a round.':'No cards in this topic.';
+    el('score').textContent='0'; el('donep').textContent=S.onlyMissed?'No missed cards in this selection yet. Turn off “Missed only” to start a round.':S.skipToday?'You have done every card here today. Turn off “Skip done today” to go again.':'No cards in this topic.';
     el('misslist').textContent=''; return; }
   if(i>=n){ finish(); return; }
   var c=deck[i];
@@ -562,6 +567,7 @@ function mark(ok){
   if(i>=deck.length) return;
   var c=deck[i];
   hist.push({at:i,ok:ok,wasMissed:!!S.missed[c._i]});
+  S.seen[c._i]=today();
   if(ok){hits++; delete S.missed[c._i];}
   else {misses++; S.missed[c._i]=1; roundMissed.push(c);}
   save(); i++; recordPace(); onGrade(ok); updateMascot(); render();
@@ -805,6 +811,7 @@ el('pvback').onclick=closePrint;
 el('again').onclick=function(){S.onlyMissed=false;el('onlymiss').classList.remove('on');build()};
 el('revmiss').onclick=function(){S.onlyMissed=true;el('onlymiss').classList.add('on');build()};
 el('onlymiss').onclick=function(){S.onlyMissed=!S.onlyMissed;this.classList.toggle('on',S.onlyMissed);build()};
+el('skiptoday').onclick=function(){S.skipToday=!S.skipToday;this.classList.toggle('on',S.skipToday);save();build()};
 el('shuf').onclick=function(){S.shuffle=!S.shuffle;this.classList.toggle('on',S.shuffle);save();build()};
 el('gotobtn').onclick=function(){var v=parseInt(el('gotonum').value,10); if(v>=1&&v<=deck.length){i=v-1; el('done').hidden=true; el('stage').hidden=false; save(); render();}};
 el('reset').onclick=function(){S.missed={};S.onlyMissed=false;el('onlymiss').classList.remove('on');save();build()};
@@ -819,6 +826,7 @@ document.addEventListener('keydown',function(e){
 });
 document.addEventListener('keyup',function(e){if(e.key===' '&&el('printview').hidden&&e.target.tagName!=='INPUT'&&e.target.tagName!=='TEXTAREA') e.preventDefault();});
 el('shuf').classList.toggle('on',S.shuffle);
+el('skiptoday').classList.toggle('on',S.skipToday);
 masc=el('masc'); setInterval(updateMascot,3000); setInterval(tick,360);
 chips(); build(true);
 })();
