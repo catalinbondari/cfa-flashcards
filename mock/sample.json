@@ -1,0 +1,97 @@
+{
+  "id": "sample",
+  "title": "Sample mock",
+  "breakMinutes": 30,
+  "sessions": [
+    {
+      "name": "Session 1",
+      "minutes": 135,
+      "questions": [
+        {
+          "id": "s1q1",
+          "topic": "quant",
+          "concept": "TVM: compounding frequency",
+          "stem": "<p>An investor deposits &euro;10,000 in an account that pays a stated annual rate of 6% compounded monthly. The value of the account after two years is <b>closest to</b>:</p>",
+          "options": {
+            "A": "&euro;11,200.00",
+            "B": "&euro;11,271.60",
+            "C": "&euro;11,236.00"
+          },
+          "answer": "B",
+          "explanation": "<p><b>B is correct.</b> The monthly rate is 6% / 12 = 0.5% and there are 24 periods: FV = 10,000 &times; (1.005)<sup>24</sup> = &euro;11,271.60.</p><p><b>A is incorrect.</b> &euro;11,200 uses simple interest (10,000 &times; (1 + 0.06 &times; 2)) and ignores compounding.</p><p><b>C is incorrect.</b> &euro;11,236 compounds annually: 10,000 &times; 1.06<sup>2</sup>. The question states monthly compounding, which gives a higher value.</p>"
+        },
+        {
+          "id": "s1q2",
+          "topic": "fsa",
+          "concept": "Inventory: LIFO vs FIFO in rising prices",
+          "stem": "<p>A company holds 100 units of opening inventory and buys 100 more units during the year. It then sells 100 units. Unit costs are rising:</p><table><tr><th>Layer</th><th>Units</th><th>Unit cost</th></tr><tr><td>Opening inventory</td><td>100</td><td>$10</td></tr><tr><td>Purchase</td><td>100</td><td>$12</td></tr></table><p>Compared with FIFO, LIFO will most likely report:</p>",
+          "options": {
+            "A": "higher cost of goods sold and lower net income.",
+            "B": "lower cost of goods sold and higher gross profit.",
+            "C": "higher ending inventory and lower net income."
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> LIFO assigns the most recent (highest) costs to COGS: 100 &times; $12 = $1,200 versus FIFO at 100 &times; $10 = $1,000. Higher COGS means lower gross profit, lower pre-tax income and lower net income.</p><p><b>B is incorrect.</b> This describes FIFO in a rising-price environment, not LIFO.</p><p><b>C is incorrect.</b> LIFO leaves the oldest, cheapest layer in ending inventory ($1,000 versus $1,200 under FIFO), so ending inventory is lower, not higher.</p>"
+        },
+        {
+          "id": "s1q3",
+          "topic": "ethics",
+          "concept": "Standard III(B) Fair Dealing",
+          "stem": "<p>An equity analyst downgrades a stock from <i>buy</i> to <i>sell</i>. Before the firm publishes the change, she telephones her three largest institutional clients and tells them about it. Smaller clients receive the report the next day. The analyst has most likely violated the Standard on:</p>",
+          "options": {
+            "A": "Fair Dealing.",
+            "B": "Misrepresentation.",
+            "C": "Material Nonpublic Information."
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> Standard III(B) requires members to deal fairly and objectively with all clients when disseminating investment recommendations or changes in them. Giving the largest clients advance notice disadvantages the others.</p><p><b>B is incorrect.</b> Nothing in the facts suggests a false or misleading statement was made.</p><p><b>C is incorrect.</b> A firm's own recommendation change is not material nonpublic information about the issuer, so Standard II(A) is not the issue.</p>"
+        }
+      ]
+    },
+    {
+      "name": "Session 2",
+      "minutes": 135,
+      "questions": [
+        {
+          "id": "s2q1",
+          "topic": "fi",
+          "concept": "Price-yield convexity",
+          "stem": "<p>A five-year, 4% annual-pay bond is priced at par to yield 4%. If the yield to maturity rises by 100 bps, the bond's price will most likely fall by:</p>",
+          "options": {
+            "A": "more than it would rise if the yield fell by 100 bps.",
+            "B": "the same amount as it would rise if the yield fell by 100 bps.",
+            "C": "less than it would rise if the yield fell by 100 bps."
+          },
+          "answer": "C",
+          "explanation": "<p><b>C is correct.</b> Option-free bonds have positive convexity, so the price-yield curve is convex. For equal yield changes, the price gain from a fall in yield is larger than the price loss from a rise in yield. Here the price falls to about 95.67 (a fall of 4.33) but would rise to about 104.58 (a rise of 4.58) if the yield fell to 3%.</p><p><b>A is incorrect.</b> This is the pattern of negative convexity, e.g. a callable bond near its call price.</p><p><b>B is incorrect.</b> Equal moves would be implied by duration alone, which is a linear approximation that ignores convexity.</p>"
+        },
+        {
+          "id": "s2q2",
+          "topic": "equity",
+          "concept": "Gordon growth model",
+          "stem": "<p>A stock is expected to pay a dividend of $2.00 next year. Dividends are forecast to grow at 4% a year indefinitely and the required return on equity is 9%. Using the Gordon growth model, the stock's value is <b>closest to</b>:</p>",
+          "options": {
+            "A": "$22.22.",
+            "B": "$40.00.",
+            "C": "$41.60."
+          },
+          "answer": "B",
+          "explanation": "<p><b>B is correct.</b> V<sub>0</sub> = D<sub>1</sub> / (r &minus; g) = 2.00 / (0.09 &minus; 0.04) = $40.00.</p><p><b>A is incorrect.</b> $22.22 = 2.00 / 0.09 ignores growth altogether.</p><p><b>C is incorrect.</b> $41.60 = 2.00 &times; 1.04 / 0.05 grows the dividend one period too many. The $2.00 is already next year's dividend (D<sub>1</sub>).</p>"
+        },
+        {
+          "id": "s2q3",
+          "topic": "deriv",
+          "concept": "Forward price with no carry",
+          "stem": "<p>A non-dividend-paying stock trades at $50.00. The annual risk-free rate is 4.0% (annual compounding). The no-arbitrage price of a six-month forward contract on the stock is <b>closest to</b>:</p>",
+          "options": {
+            "A": "$50.00.",
+            "B": "$50.99.",
+            "C": "$52.00."
+          },
+          "answer": "B",
+          "explanation": "<p><b>B is correct.</b> F<sub>0</sub> = S<sub>0</sub> (1 + r)<sup>T</sup> = 50 &times; 1.04<sup>0.5</sup> = $50.99.</p><p><b>A is incorrect.</b> The forward would equal spot only if the risk-free rate were zero.</p><p><b>C is incorrect.</b> $52.00 = 50 &times; 1.04 is the one-year forward price; the contract here is for six months.</p>"
+        }
+      ]
+    }
+  ]
+}
