@@ -3288,5 +3288,10 @@
   "emoji": "🧮",
   "scene": "Under LIFO a secret drawer under the shelf hides the LIFO reserve; open it and the inventory, profit and equity all grow to their FIFO size.",
   "prompt": "A cartoon accountant pulling open a hidden drawer beneath a store shelf, revealing a stash of glowing golden boxes, while the shelf above magically grows taller and a piggy bank on top gets plumper."
+ },
+ "658": {
+  "emoji": "💧",
+  "scene": "Pocket money vs selling your PlayStation: the wallet and the bank tap are everyday liquidity; the garage sale and the begging letter to the bank are the emergency kind.",
+  "prompt": "A split cartoon: on the left a calm smiling business owner taking coins from a wallet and a small tap labelled BANK; on the right the same owner sweating at a garage sale selling boxes of stock and a game console, while handing a pleading letter to a frowning banker."
  }
 }
