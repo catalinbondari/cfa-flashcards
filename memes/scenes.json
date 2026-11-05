@@ -3298,5 +3298,10 @@
   "emoji": "♾️",
   "scene": "A money tap dripping THB30 forever into a bucket: the IRR is just the drip divided by what the tap cost, no outside rate needed.",
   "prompt": "A cartoon golden tap on a wall endlessly dripping coins into a bucket, a price tag on the tap reading 270, a calculator beside it showing 30 divided by 270, and a sly fox in a suit holding a sign reading 12% labelled TRAP."
+ },
+ "660": {
+  "emoji": "⚖️",
+  "scene": "50% on a fiver vs 30% on a grand: the small project brags about its percentage, the big one quietly brings more euros home. NPV picks the big one.",
+  "prompt": "A cartoon of two kids at a lemonade contest: a tiny kid proudly waving a banner reading 50% next to a single coin, and a bigger kid with a modest banner reading 30% next to a huge pile of gold coins, with a judge pinning a gold medal labelled NPV on the bigger kid."
  }
 }
