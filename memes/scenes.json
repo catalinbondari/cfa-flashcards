@@ -3283,5 +3283,10 @@
   "emoji": "🛒",
   "scene": "FIFO sells the cheap old cans and leaves the shiny expensive ones on the shelf: fat inventory, fat profit, everything high except the 3 C's.",
   "prompt": "A cartoon shopkeeper handing small dusty old cans to a customer while behind him the shelf is packed with big shiny golden cans, a happy plump piggy bank on the counter and a skinny worried cash register beside it."
+ },
+ "657": {
+  "emoji": "🧮",
+  "scene": "Under LIFO a secret drawer under the shelf hides the LIFO reserve; open it and the inventory, profit and equity all grow to their FIFO size.",
+  "prompt": "A cartoon accountant pulling open a hidden drawer beneath a store shelf, revealing a stash of glowing golden boxes, while the shelf above magically grows taller and a piggy bank on top gets plumper."
  }
 }
