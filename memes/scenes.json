@@ -3293,5 +3293,10 @@
   "emoji": "💧",
   "scene": "Pocket money vs selling your PlayStation: the wallet and the bank tap are everyday liquidity; the garage sale and the begging letter to the bank are the emergency kind.",
   "prompt": "A split cartoon: on the left a calm smiling business owner taking coins from a wallet and a small tap labelled BANK; on the right the same owner sweating at a garage sale selling boxes of stock and a game console, while handing a pleading letter to a frowning banker."
+ },
+ "659": {
+  "emoji": "♾️",
+  "scene": "A money tap dripping THB30 forever into a bucket: the IRR is just the drip divided by what the tap cost, no outside rate needed.",
+  "prompt": "A cartoon golden tap on a wall endlessly dripping coins into a bucket, a price tag on the tap reading 270, a calculator beside it showing 30 divided by 270, and a sly fox in a suit holding a sign reading 12% labelled TRAP."
  }
 }
