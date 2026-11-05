@@ -3243,5 +3243,10 @@
   "emoji": "🧾",
   "scene": "Tax bill this year plus the IOU pile you'll owe later, minus the gift voucher the taxman owes you back = the true tax expense.",
   "prompt": "A cartoon accountant at a desk stacking a thick bill on a scale, adding a growing pile of IOU notes on the same side, while a smiling tax collector hands back a shiny gift voucher that lifts the scale slightly."
+ },
+ "649": {
+  "emoji": "📋",
+  "scene": "A hiring manager ticks four boxes on a clipboard while the hired babysitter ignores the bedtime plan behind his back: always check adherence to the stated strategy.",
+  "prompt": "A man holding a clipboard proudly ticking boxes in a hallway, while behind him through an open door a babysitter lets cartoon kids jump on the bed at night under a moon, ignoring a neat bedtime plan pinned to the wall."
  }
 }
