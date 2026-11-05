@@ -3278,5 +3278,10 @@
   "emoji": "🚦",
   "scene": "Clients cross first at the traffic light, the firm second, you last; pre-clearance and blackout periods are the lights, not a road closure.",
   "prompt": "A busy pedestrian crossing with a traffic light: a crowd of clients crossing first, then a small office building waddling across, while an employee waits patiently at the back holding a permission slip."
+ },
+ "656": {
+  "emoji": "🛒",
+  "scene": "FIFO sells the cheap old cans and leaves the shiny expensive ones on the shelf: fat inventory, fat profit, everything high except the 3 C's.",
+  "prompt": "A cartoon shopkeeper handing small dusty old cans to a customer while behind him the shelf is packed with big shiny golden cans, a happy plump piggy bank on the counter and a skinny worried cash register beside it."
  }
 }
