@@ -3248,5 +3248,35 @@
   "emoji": "📋",
   "scene": "A hiring manager ticks four boxes on a clipboard while the hired babysitter ignores the bedtime plan behind his back: always check adherence to the stated strategy.",
   "prompt": "A man holding a clipboard proudly ticking boxes in a hallway, while behind him through an open door a babysitter lets cartoon kids jump on the bed at night under a moon, ignoring a neat bedtime plan pinned to the wall."
+ },
+ "650": {
+  "emoji": "🚪",
+  "scene": "Step away from the conflict when nobody loses; if stepping away would cost the client the best option, wave the 'my dad's shop' flag and recommend it anyway.",
+  "prompt": "A young woman at a crossroads with two signposts drawn as arrows: one path leads to a quiet exit door, the other to a bike shop where she proudly points to a shiny bike while holding up a small banner showing a heart and a family photo."
+ },
+ "651": {
+  "emoji": "🃏",
+  "scene": "A shop owner sitting on a mountain of the cards he's recommending is a conflict; an uncle delivering boxes to the factory isn't.",
+  "prompt": "A cartoon shopkeeper shouting through a megaphone while secretly sitting on a huge pile of collectible cards, while in the background an uncle with a delivery cart drops boxes at a distant factory gate."
+ },
+ "652": {
+  "emoji": "🎓",
+  "scene": "Fresh out of the exam hall, the candidate brags about a certificate he hasn't received, while his laptop blog leaks the exam topics.",
+  "prompt": "A nervous student walking out of an exam hall holding up an imaginary golden certificate drawn as a thought bubble, while a laptop under his arm spills papers with question marks blowing away in the wind."
+ },
+ "653": {
+  "emoji": "🏰",
+  "scene": "The Lego castle built at school stays at school; at home you rebuild from your own bricks and your own skills.",
+  "prompt": "A child leaving a school classroom waving at a big brick castle left behind on a desk, then at home happily building a new castle from his own box of colourful bricks on the floor."
+ },
+ "654": {
+  "emoji": "📝",
+  "scene": "A note on the fridge isn't a yes: wait for written consent before taking outside paid work.",
+  "prompt": "A young man sticking a note on a fridge with a magnet and running out the door with car keys, while his parents in the background raise eyebrows and hold up a blank permission form."
+ },
+ "655": {
+  "emoji": "🚦",
+  "scene": "Clients cross first at the traffic light, the firm second, you last; pre-clearance and blackout periods are the lights, not a road closure.",
+  "prompt": "A busy pedestrian crossing with a traffic light: a crowd of clients crossing first, then a small office building waddling across, while an employee waits patiently at the back holding a permission slip."
  }
 }
