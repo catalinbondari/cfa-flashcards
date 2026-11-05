@@ -3303,5 +3303,10 @@
   "emoji": "⚖️",
   "scene": "50% on a fiver vs 30% on a grand: the small project brags about its percentage, the big one quietly brings more euros home. NPV picks the big one.",
   "prompt": "A cartoon of two kids at a lemonade contest: a tiny kid proudly waving a banner reading 50% next to a single coin, and a bigger kid with a modest banner reading 30% next to a huge pile of gold coins, with a judge pinning a gold medal labelled NPV on the bigger kid."
+ },
+ "661": {
+  "emoji": "🎟️",
+  "scene": "The cinema ticket you already bought is sunk: it shouldn't decide whether you stay for the boring film; the snacks you'd stop selling next door do count.",
+  "prompt": "A cartoon accountant in a cinema crumpling an old ticket stub labelled SUNK into a bin, while next to him a sad popcorn stand labelled LOST SALES is circled in red and counted on his clipboard."
  }
 }
