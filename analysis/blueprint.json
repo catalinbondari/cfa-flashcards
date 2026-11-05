@@ -1,0 +1,982 @@
+[
+ {
+  "session": 1,
+  "topic": "ethics",
+  "n": 31,
+  "concepts": [
+   {
+    "concept": "GIPS: composites, who may claim compliance, firm definition, requirements",
+    "n": 3,
+    "why": "weak",
+    "evidence": "missed 3/5 across MM1, MM2 (composites, consultants, total firm assets)",
+    "style": "concept"
+   },
+   {
+    "concept": "Independence and objectivity I(B): gifts, issuer-paid research and travel",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/3 (gift, travel)",
+    "style": "concept"
+   },
+   {
+    "concept": "Suitability III(C): know the client, judge in portfolio context",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/3",
+    "style": "concept"
+   },
+   {
+    "concept": "Supervisors IV(C): inadequate compliance, suspected violation",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/3 (restrict and monitor, not just warn)",
+    "style": "concept"
+   },
+   {
+    "concept": "Conflicts VI(A) and referral fees VI(C): what and when to disclose",
+    "n": 2,
+    "why": "frequent",
+    "evidence": "VI(C) wrong; VI(A) 2 right; \"must disclose\" minimum-answer trap",
+    "style": "concept"
+   },
+   {
+    "concept": "Diligence V(A) and communication V(B): research depth, fact vs forecast",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/2 diligence",
+    "style": "concept"
+   },
+   {
+    "concept": "Performance presentation III(D): TWR vs MWR, composites in marketing",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 2/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Loyalty, prudence and care III(A): proxy voting, who is the client",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 2/2 (one left blank)",
+    "style": "concept"
+   },
+   {
+    "concept": "Market manipulation II(B) and MNPI II(A)",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 3/3 (info-based vs transaction-based; public info)",
+    "style": "concept"
+   },
+   {
+    "concept": "Misrepresentation I(C) and misconduct I(D)",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 3/3",
+    "style": "concept"
+   },
+   {
+    "concept": "Fair dealing III(B) and priority of transactions VI(B)",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/3 (changed recommendation, family accounts)",
+    "style": "concept"
+   },
+   {
+    "concept": "Record retention V(C) and prior-employer work product",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 1/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Loyalty to employer IV(A): whistleblowing, non-compete, independent practice",
+    "n": 2,
+    "why": "coverage",
+    "evidence": "IV(A) never tested",
+    "style": "concept"
+   },
+   {
+    "concept": "Ethics foundations: Code of Ethics, professionalism, ethical decision framework",
+    "n": 2,
+    "why": "coverage",
+    "evidence": "LM1 never tested (MM data only LM2-4)",
+    "style": "concept"
+   },
+   {
+    "concept": "Confidentiality III(E) exceptions and Knowledge of law I(A)",
+    "n": 2,
+    "why": "coverage",
+    "evidence": "tested 1x each, right",
+    "style": "concept"
+   },
+   {
+    "concept": "GIPS: verification, presentation and asset-owner basics",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM4 only 3 Qs seen",
+    "style": "concept"
+   },
+   {
+    "concept": "CFA Program conduct VII(A)/(B): designation claims",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "2/2 right but only 2 items",
+    "style": "concept"
+   },
+   {
+    "concept": "Additional compensation IV(B) and responsibilities to employer",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "1 right, 1 missed (firm policy vs Code)",
+    "style": "concept"
+   }
+  ]
+ },
+ {
+  "session": 1,
+  "topic": "quant",
+  "n": 12,
+  "concepts": [
+   {
+    "concept": "Hypothesis testing: Type I/II error, power, significance level wording",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 8/17 (M8 Q6,8,9,21,30; MM2 S1 Q51,62)",
+    "style": "concept"
+   },
+   {
+    "concept": "Test selection and calc: pooled t, paired t, chi-square single variance, F-test",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 5/10; pooled t 1/3 in drill",
+    "style": "calc"
+   },
+   {
+    "concept": "Regression: prediction interval (x t_c), SEE (n-2), un-log, forecast from equation",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed prediction interval 2/2, SEE 1/3, log-linear 1/1",
+    "style": "calc"
+   },
+   {
+    "concept": "Regression: ANOVA F, R-squared vs r, slope t-test against non-zero H0, dummy interpretation",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 11/21 across M10, MM1, MM2",
+    "style": "calc"
+   },
+   {
+    "concept": "Parametric vs nonparametric; Spearman rank correlation and correlation t-test",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 4/8 (MM1 Q33,Q75; MM2 Q44; M8 Q29)",
+    "style": "concept"
+   },
+   {
+    "concept": "Descriptive statistics: CV, sample vs population SD, harmonic/geometric mean, downside deviation",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 3/4; downside dev 0/1, CV 2/2 in drills",
+    "style": "calc"
+   },
+   {
+    "concept": "Covariance, correlation and expected value/variance from probability tables",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "7 items, 2 missed (MM1 S1 Q42 sigma)",
+    "style": "calc"
+   },
+   {
+    "concept": "Time value of money: annuities, EAR, loan amortisation",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM2 only 2 Qs seen",
+    "style": "calc"
+   },
+   {
+    "concept": "Probability: Bayes, total probability, counting rules, probability trees",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM4 barely tested",
+    "style": "concept"
+   },
+   {
+    "concept": "Confidence intervals, standard error, t vs z, degrees of freedom",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "SE quadruple-n drill 1/2",
+    "style": "calc"
+   },
+   {
+    "concept": "Simulation and lognormal; Big Data and ML terminology",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "lognormal missed 1/1; ML 1/2",
+    "style": "concept"
+   }
+  ]
+ },
+ {
+  "session": 1,
+  "topic": "econ",
+  "n": 11,
+  "concepts": [
+   {
+    "concept": "FX calculations: cross rates, forward points, triangular arbitrage, appreciation vs depreciation",
+    "n": 2,
+    "why": "frequent",
+    "evidence": "4 items, all right but exam-critical calc",
+    "style": "calc"
+   },
+   {
+    "concept": "Exchange-rate regimes and trade-balance effects (absorption, Marshall-Lerner)",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 2/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Fiscal policy: multiplier, crowding out, automatic stabilisers",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 1/3",
+    "style": "concept"
+   },
+   {
+    "concept": "Monetary policy: tools, neutral rate, central bank roles and independence",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 1/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Business cycle phases and indicators",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 1/2 (late expansion)",
+    "style": "concept"
+   },
+   {
+    "concept": "Market structures: HHI, Nash equilibrium, long-run competition",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 1/4",
+    "style": "concept"
+   },
+   {
+    "concept": "Geopolitics, globalisation, trading blocs",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 1/4",
+    "style": "concept"
+   },
+   {
+    "concept": "Comparative advantage, tariffs, quotas, trade restrictions",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM6 sparsely tested",
+    "style": "concept"
+   },
+   {
+    "concept": "Elasticity, breakeven and shutdown points, monopoly and monopolistic competition",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM1 identification items only",
+    "style": "concept"
+   },
+   {
+    "concept": "Balance of payments and capital flows",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "not tested",
+    "style": "concept"
+   }
+  ]
+ },
+ {
+  "session": 1,
+  "topic": "fsa",
+  "n": 23,
+  "concepts": [
+   {
+    "concept": "Deferred taxes: DTA vs DTL (incl. liabilities), difference x rate, tax expense sign rule",
+    "n": 3,
+    "why": "weak",
+    "evidence": "missed 2/5 in mocks; drills 1/3 (Tue), 1/3 (Wed), 1/3 (Thu) then 2/3 retest with DTL-fall sign slip",
+    "style": "calc"
+   },
+   {
+    "concept": "Diluted EPS: convertible bonds/preferred, options (TSM), antidilution",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/2 in mocks; drills 0/3, 2/2, 4/6, then 5/7",
+    "style": "calc"
+   },
+   {
+    "concept": "FCFF and FCFE from NI/CFO (payables sign, Int(1-t), net borrowing)",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/2; payables sign slip repeated across Tue and Wed drills",
+    "style": "calc"
+   },
+   {
+    "concept": "Long-lived assets: capitalised interest, impairment, revaluation, depreciation effects on ratios",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 6/9",
+    "style": "concept"
+   },
+   {
+    "concept": "Inventory: LIFO vs FIFO vs weighted average, LIFO liquidation, LCNRV US GAAP vs IFRS",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 4/4",
+    "style": "concept"
+   },
+   {
+    "concept": "Revenue recognition: percentage of completion, bill-and-hold, contract steps",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 2/4",
+    "style": "calc"
+   },
+   {
+    "concept": "DuPont, ROE vs required return, sustainable growth",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 1/2; ROE drill 2/3",
+    "style": "calc"
+   },
+   {
+    "concept": "Pro forma modelling, CFO indirect method and equity roll-forward",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "4 items, 2 missed (equity roll-forward, CFO)",
+    "style": "calc"
+   },
+   {
+    "concept": "Leases (lessee view) and long-term liabilities",
+    "n": 1,
+    "why": "weak",
+    "evidence": "leases missed 1/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Pensions: DB assumptions, OCI vs P&L",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 1/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Bond issuance, effective interest amortisation, debt covenants (long-term liabilities)",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM7 not tested as a calc",
+    "style": "calc"
+   },
+   {
+    "concept": "Income statement: non-recurring items, discontinued ops, OCI, comprehensive income",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM2 only revenue items tested",
+    "style": "concept"
+   },
+   {
+    "concept": "Cash flow statement: direct method, IFRS vs US GAAP classification",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "1 item seen",
+    "style": "concept"
+   },
+   {
+    "concept": "Financial reporting quality: earnings quality spectrum, warning signs",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "1 item seen (missed)",
+    "style": "concept"
+   },
+   {
+    "concept": "Activity and liquidity ratios: DSO, DIO, turnover, cash conversion cycle calc",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "ratio calcs seen as quick ratio only",
+    "style": "calc"
+   },
+   {
+    "concept": "Balance sheet: intangibles, goodwill impairment, equity components, treasury stock",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "goodwill missed 2/2; treasury roll-forward missed",
+    "style": "concept"
+   },
+   {
+    "concept": "Expense recognition: depreciation methods, warranties, bad debts",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "depreciation calc not tested",
+    "style": "calc"
+   }
+  ]
+ },
+ {
+  "session": 1,
+  "topic": "ci",
+  "n": 13,
+  "concepts": [
+   {
+    "concept": "Real options: identify timing, sizing, abandonment, flexibility, fundamental options",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 2/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Capital allocation: NPV vs IRR conflicts, ROIC vs WACC, share-price NPV, project categories",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/5",
+    "style": "calc"
+   },
+   {
+    "concept": "WACC with target D/E weights, marginal tax, project risk adjustment",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 1/2; D/E to weights trap",
+    "style": "calc"
+   },
+   {
+    "concept": "Liquidity: primary vs secondary sources, drags vs pulls, factoring, cash conversion cycle",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 3/4",
+    "style": "concept"
+   },
+   {
+    "concept": "Governance and agency: stakeholder vs shareholder theory, pay structures",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 2/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Capital structure: static trade-off, why leverage below optimum, start-up financing",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 1/2",
+    "style": "concept"
+   },
+   {
+    "concept": "Business models: value chain, pricing strategies; public vs private issuers and double taxation",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 3/4",
+    "style": "concept"
+   },
+   {
+    "concept": "Organisational forms, stakeholder groups and conflicts (shareholders vs creditors)",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM1-2 almost untested",
+    "style": "concept"
+   },
+   {
+    "concept": "Working capital management and short-term funding sources",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "only liquidity metrics seen",
+    "style": "concept"
+   },
+   {
+    "concept": "ESG factors and integration; green finance",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "1 item seen (right)",
+    "style": "concept"
+   },
+   {
+    "concept": "Operating and financial leverage, payback and profitability index",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "not tested",
+    "style": "calc"
+   }
+  ]
+ },
+ {
+  "session": 2,
+  "topic": "equity",
+  "n": 23,
+  "concepts": [
+   {
+    "concept": "DDM: multistage (D_n+1 at year n), delayed first dividend, model selection, preferred valuation",
+    "n": 3,
+    "why": "weak",
+    "evidence": "missed 6/9; D_n vs D_n+1 slip in 4 drills",
+    "style": "calc"
+   },
+   {
+    "concept": "Equity indexes: price vs total return index, weighting methods, reconstitution, multi-market",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 6/9",
+    "style": "calc"
+   },
+   {
+    "concept": "Justified P/E, P/B and P/S relationships; sustainable growth rate",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/6; justified P/E missed 3 of 5 incl. MM2 S1 Q57",
+    "style": "calc"
+   },
+   {
+    "concept": "Company and industry analysis: PESTLE, five forces, revenue drivers, working capital and PP&E forecasts",
+    "n": 3,
+    "why": "weak",
+    "evidence": "missed 8/16 (largest equity block)",
+    "style": "calc"
+   },
+   {
+    "concept": "Order types, trade execution, short selling, margin calls and leverage ratio",
+    "n": 2,
+    "why": "frequent",
+    "evidence": "12 items, 5 missed",
+    "style": "calc"
+   },
+   {
+    "concept": "Market efficiency and anomalies: semi-strong implications, momentum, size effect",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/9; semi-strong missed in Mock A and MM1, right in MM2",
+    "style": "concept"
+   },
+   {
+    "concept": "Stock dividends, ADR/GRS types, preference shares",
+    "n": 2,
+    "why": "weak",
+    "evidence": "dividends 2/2 and ADR 2/2 missed",
+    "style": "concept"
+   },
+   {
+    "concept": "Primary vs secondary markets, IPOs and securities offerings",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM1 offering mechanics untested",
+    "style": "concept"
+   },
+   {
+    "concept": "Residual income and asset-based valuation",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM8 only DDM and P/E tested",
+    "style": "calc"
+   },
+   {
+    "concept": "Enterprise value multiples: EV/EBITDA, P/S comparisons",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "EV multiple seen once (R&D item)",
+    "style": "calc"
+   },
+   {
+    "concept": "Industry life cycle and competitive strategy positioning",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "1 item seen",
+    "style": "concept"
+   },
+   {
+    "concept": "Equity security types and risks; depositary receipts vs common vs private equity",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "types seen but not risks",
+    "style": "concept"
+   },
+   {
+    "concept": "Contracts, positions, clearing and settlement; financial system functions",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "1 item (well-functioning system)",
+    "style": "concept"
+   },
+   {
+    "concept": "Bank and financial-sector analysis",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "1 item (right)",
+    "style": "concept"
+   }
+  ]
+ },
+ {
+  "session": 2,
+  "topic": "fi",
+  "n": 22,
+  "concepts": [
+   {
+    "concept": "Bond pricing: accrued interest, flat vs full price (30/360, ACT), YTM via BA II Plus BOND worksheet, current yield",
+    "n": 3,
+    "why": "weak",
+    "evidence": "missed 7/11; worksheet slips were input errors",
+    "style": "calc"
+   },
+   {
+    "concept": "Duration calculations: Macaulay, modified, approximate, portfolio (market-value weights), money duration, annualisation",
+    "n": 3,
+    "why": "weak",
+    "evidence": "missed 5/7",
+    "style": "calc"
+   },
+   {
+    "concept": "Duration/convexity concepts: effective vs modified, empirical, price-yield asymmetry, horizon and reinvestment risk",
+    "n": 2,
+    "why": "frequent",
+    "evidence": "13 items, 4 missed",
+    "style": "concept"
+   },
+   {
+    "concept": "Spot, forward and par rates: implied spot from forwards, forward from spots",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/2",
+    "style": "calc"
+   },
+   {
+    "concept": "Yield spreads: G-spread, Z-spread, I-spread, credit spread movement",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 2/4",
+    "style": "calc"
+   },
+   {
+    "concept": "Securitization, MBS/ABS, CMO tranches, SPE, non-recourse loans",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 3/8",
+    "style": "concept"
+   },
+   {
+    "concept": "Bond features: callable, putable, sinking fund, make-whole, negative covenants, FRN reset",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 4/6",
+    "style": "concept"
+   },
+   {
+    "concept": "Credit analysis: leverage ratios, notching, expected loss, seniority",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "missed 2/6",
+    "style": "calc"
+   },
+   {
+    "concept": "Money market yields and BEY: discount vs add-on",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 1/1 (card BEY 1/3 in drill)",
+    "style": "calc"
+   },
+   {
+    "concept": "Term structure: yield curve shapes and theories",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "not tested",
+    "style": "concept"
+   },
+   {
+    "concept": "Issuance and trading: primary market, shelf registration, covered bonds, repo mechanics",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM3 never appeared",
+    "style": "concept"
+   },
+   {
+    "concept": "Indenture and legal structure: secured vs unsecured, zero and deferred coupon",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "LM1 3 items only",
+    "style": "concept"
+   },
+   {
+    "concept": "Yield-to-worst, horizon return, key-rate duration",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "not tested",
+    "style": "calc"
+   },
+   {
+    "concept": "Prepayment measures: CPR, PSA, extension and contraction",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "extension risk tested once",
+    "style": "concept"
+   },
+   {
+    "concept": "Sovereign and municipal issuers: credit analysis and funding choices",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "sovereign items seen: 1 missed of 5",
+    "style": "concept"
+   },
+   {
+    "concept": "Corporate bond market structure and ratings agencies",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "notching missed once",
+    "style": "concept"
+   }
+  ]
+ },
+ {
+  "session": 2,
+  "topic": "deriv",
+  "n": 14,
+  "concepts": [
+   {
+    "concept": "Put-call parity and put-call-forward parity (c - p direction, PV(X) vs spot)",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 3/3 across Mock A, MM1, MM2",
+    "style": "calc"
+   },
+   {
+    "concept": "Option payoffs and profit: long/short call and put, exercise value, time value, protective put, risk reversal",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 4/7",
+    "style": "calc"
+   },
+   {
+    "concept": "Forward valuation: mark-to-market, cost of carry, arbitrage direction when F is mispriced",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 3/6 incl. arbitrage direction (MM2 S2 Q83) and forward value (MM1 S2 Q69)",
+    "style": "calc"
+   },
+   {
+    "concept": "Forwards vs futures: counterparty risk, correlation with rates, open interest, margin and marking to market",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "6 items, 2 missed (open interest 2/2)",
+    "style": "calc"
+   },
+   {
+    "concept": "Binomial hedge ratio and one-period value; option bounds (min/max European call and put)",
+    "n": 1,
+    "why": "weak",
+    "evidence": "binomial missed 2/3 early, right on repeat; bounds missed 1/3",
+    "style": "calc"
+   },
+   {
+    "concept": "Swaps: swap rate, replication with bonds and forwards",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "4 items, 2 missed",
+    "style": "concept"
+   },
+   {
+    "concept": "Greeks, implied volatility, derivative uses and risk transfer",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 4/7",
+    "style": "concept"
+   },
+   {
+    "concept": "Futures pricing with income and storage; convenience yield",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "convenience yield missed once",
+    "style": "calc"
+   },
+   {
+    "concept": "Swap valuation after inception; FRA",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "not tested",
+    "style": "calc"
+   },
+   {
+    "concept": "Credit derivatives and CDS payoffs",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "one conceptual item seen",
+    "style": "concept"
+   },
+   {
+    "concept": "Exchange-traded vs OTC: clearing, margin, American vs European exercise",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "transparency seen once",
+    "style": "concept"
+   }
+  ]
+ },
+ {
+  "session": 2,
+  "topic": "alts",
+  "n": 13,
+  "concepts": [
+   {
+    "concept": "Private equity and VC: buyout vs growth, exits, MOIC vs IRR, clawback, co-investment",
+    "n": 3,
+    "why": "weak",
+    "evidence": "missed 7/11",
+    "style": "concept"
+   },
+   {
+    "concept": "Fee calculations: hard vs soft hurdle, high-water mark, committed vs invested capital, fund of funds net return",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 3/9; soft vs hard hurdle missed 2/3",
+    "style": "calc"
+   },
+   {
+    "concept": "Real estate, REITs, infrastructure, MLPs, farmland and timberland features",
+    "n": 2,
+    "why": "frequent",
+    "evidence": "12 items, 3 missed",
+    "style": "concept"
+   },
+   {
+    "concept": "Hedge fund strategies, lockups, prime broker, fund structures",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "5 items, 0 missed (maintain)",
+    "style": "concept"
+   },
+   {
+    "concept": "Digital assets: tokens, Bitcoin supply, altcoins vs stablecoins",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "4 items, 1 missed",
+    "style": "concept"
+   },
+   {
+    "concept": "Commodities: return components, roll yield, contango and backwardation",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "factors seen once, calc not tested",
+    "style": "concept"
+   },
+   {
+    "concept": "Performance appraisal: TVPI, DPI, RVPI, PME, J-curve",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "not tested",
+    "style": "calc"
+   },
+   {
+    "concept": "Real estate valuation: cap rate, NOI, appraisal smoothing",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "not tested",
+    "style": "calc"
+   },
+   {
+    "concept": "Private debt: direct lending, mezzanine, distressed",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "leveraged loan missed once",
+    "style": "concept"
+   }
+  ]
+ },
+ {
+  "session": 2,
+  "topic": "pm",
+  "n": 18,
+  "concepts": [
+   {
+    "concept": "Beta: Cov/sigma_m^2 and rho x sigma_i/sigma_m, then CAPM expected return",
+    "n": 2,
+    "why": "weak",
+    "evidence": "beta missed 3/3 (MM2 S2); CAPM-family missed 3/6",
+    "style": "calc"
+   },
+   {
+    "concept": "SML/CAPM valuation (over/undervalued) and Jensen alpha",
+    "n": 1,
+    "why": "weak",
+    "evidence": "missed 3/6 CAPM-family",
+    "style": "calc"
+   },
+   {
+    "concept": "CAL/CML slope = Sharpe ratio, optimal portfolio, Sharpe vs correlation rule, M-squared",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 2/6",
+    "style": "calc"
+   },
+   {
+    "concept": "Two-asset portfolio sigma (2 w1 w2 rho term), rho = -1 and +1, diversification ratio",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 3/7; dropped the 2 in the cross term",
+    "style": "calc"
+   },
+   {
+    "concept": "Risk management process: starts with risk tolerance; risk budgeting; governance; VaR meaning",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 5/7",
+    "style": "concept"
+   },
+   {
+    "concept": "Risk tolerance (ability vs willingness), risk objectives absolute vs relative, risk aversion",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "8 items, 3 missed",
+    "style": "concept"
+   },
+   {
+    "concept": "Behavioral biases: cognitive vs emotional, curable vs not, anomalies explained by bias",
+    "n": 2,
+    "why": "weak",
+    "evidence": "missed 3/6",
+    "style": "concept"
+   },
+   {
+    "concept": "IPS, investor types and pooled funds, active vs passive",
+    "n": 1,
+    "why": "frequent",
+    "evidence": "10 items, 4 missed",
+    "style": "concept"
+   },
+   {
+    "concept": "Risk aversion and utility; HPR and indifference curves",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "utility item seen once",
+    "style": "calc"
+   },
+   {
+    "concept": "IPS constraints (liquidity, horizon, tax, legal, unique); strategic vs tactical allocation",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "IPS use seen, constraints not",
+    "style": "concept"
+   },
+   {
+    "concept": "Treynor ratio, systematic vs unsystematic risk, efficient frontier",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "Treynor not seen",
+    "style": "calc"
+   },
+   {
+    "concept": "Portfolio management process (plan, execute, feedback); ETFs and hedge funds as products",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "pooled funds missed once",
+    "style": "concept"
+   },
+   {
+    "concept": "Risk modification (insulate, transfer, shift) and stress testing",
+    "n": 1,
+    "why": "coverage",
+    "evidence": "not tested",
+    "style": "concept"
+   }
+  ]
+ }
+]

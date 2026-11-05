@@ -1,0 +1,5134 @@
+[
+ {
+  "source": "MM1 S1",
+  "number": 1,
+  "topic": "ethics",
+  "concept": "Market manipulation II(B): intent to mislead",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Market manipulation II(B)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 2,
+  "topic": "ethics",
+  "concept": "Diligence V(A): criteria for third-party research",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Diligence V(A)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 3,
+  "topic": "ethics",
+  "concept": "Communication V(B): fact vs forecast",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Communication V(B)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 4,
+  "topic": "ethics",
+  "concept": "Independence I(B): gifts to influence manager selection",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Independence and objectivity I(B)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 5,
+  "topic": "ethics",
+  "concept": "Performance presentation III(D): TWR vs MWR when client controls flows",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Performance presentation III(D)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 6,
+  "topic": "ethics",
+  "concept": "Fair dealing III(B): recommended procedures",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Fair dealing III(B)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 7,
+  "topic": "ethics",
+  "concept": "CFA designation misuse VII(B): claims about program",
+  "qtype": "concept",
+  "result": "right",
+  "family": "CFA Institute programs and designation VII",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 8,
+  "topic": "ethics",
+  "concept": "Priority of transactions VI(B): family account beneficial interest",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Priority of transactions VI(B)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 9,
+  "topic": "ethics",
+  "concept": "Misrepresentation I(C): recommending outside competence",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Misrepresentation I(C)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 10,
+  "topic": "ethics",
+  "concept": "Independence I(B): issuer-paid research",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Independence and objectivity I(B)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 11,
+  "topic": "ethics",
+  "concept": "Prior employer work product: re-creating model at new firm",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Record retention V(C) / prior employer materials",
+  "los": "Ethical And Professional Standards LM3 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 12,
+  "topic": "ethics",
+  "concept": "Misconduct I(D): personal conduct outside work",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Misconduct I(D)",
+  "los": "Ethical And Professional Standards LM3 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 13,
+  "topic": "ethics",
+  "concept": "Disclosure of conflicts VI(A): brokerage arrangements",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Disclosure of conflicts VI(A)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 14,
+  "topic": "ethics",
+  "concept": "Referral fees VI(C): disclosure timing to employer",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Referral fees VI(C)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 15,
+  "topic": "ethics",
+  "concept": "Knowledge of law I(A): conflict between law and Code",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Knowledge of law I(A)",
+  "los": "Ethical And Professional Standards LM3 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 16,
+  "topic": "ethics",
+  "concept": "Suitability III(C): judge investment in portfolio context",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Suitability III(C)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 17,
+  "topic": "ethics",
+  "concept": "Suitability III(C): due diligence before recommending",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Suitability III(C)",
+  "los": "Ethical And Professional Standards LM3 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 18,
+  "topic": "ethics",
+  "concept": "CFA program conduct VII(A): exam rules",
+  "qtype": "concept",
+  "result": "right",
+  "family": "CFA Institute programs and designation VII",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 19,
+  "topic": "ethics",
+  "concept": "Disclosure of conflicts VI(A): family board seat and recommendation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Disclosure of conflicts VI(A)",
+  "los": "Ethical And Professional Standards LM3 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 20,
+  "topic": "ethics",
+  "concept": "Fair dealing III(B): changed recommendation, inform clients first",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Fair dealing III(B)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 21,
+  "topic": "ethics",
+  "concept": "Loyalty III(A): proxy voting in client interest",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Loyalty III(A)",
+  "los": "Ethical And Professional Standards LM2 LOS c",
+  "blank": true
+ },
+ {
+  "source": "MM1 S1",
+  "number": 22,
+  "topic": "ethics",
+  "concept": "Additional compensation IV(B): written employer permission",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Additional compensation IV(B)",
+  "los": "Ethical And Professional Standards LM3 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 23,
+  "topic": "ethics",
+  "concept": "Record retention V(C): records belong to former employer",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Record retention V(C) / prior employer materials",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 24,
+  "topic": "ethics",
+  "concept": "GIPS composites: non-discretionary portfolios excluded",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "GIPS",
+  "los": "Ethical And Professional Standards LM4 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 25,
+  "topic": "ethics",
+  "concept": "GIPS compliance: key requirements of firms",
+  "qtype": "concept",
+  "result": "right",
+  "family": "GIPS",
+  "los": "Ethical And Professional Standards LM4 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 26,
+  "topic": "ethics",
+  "concept": "Supervisors IV(C): inadequate compliance system",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Supervisors IV(C)",
+  "los": "Ethical And Professional Standards LM3 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 27,
+  "topic": "ethics",
+  "concept": "Confidentiality III(E): sharing client information",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Confidentiality III(E)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 28,
+  "topic": "ethics",
+  "concept": "Market manipulation II(B): misleading financial statements",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Market manipulation II(B)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 29,
+  "topic": "ethics",
+  "concept": "MNPI II(A): when information is public",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "MNPI II(A)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 30,
+  "topic": "ethics",
+  "concept": "Misrepresentation I(C): credentials and education",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Misrepresentation I(C)",
+  "los": "Ethical And Professional Standards LM2 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 31,
+  "topic": "ethics",
+  "concept": "Supervisors IV(C): research independence and diligence",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Supervisors IV(C)",
+  "los": "Ethical And Professional Standards LM3 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 32,
+  "topic": "ethics",
+  "concept": "GIPS compliance: minimum years of history",
+  "qtype": "concept",
+  "result": "right",
+  "family": "GIPS",
+  "los": "Ethical And Professional Standards LM4 LOS d"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 33,
+  "topic": "quant",
+  "concept": "Non-parametric: test choice for non-normal small samples",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "parametric vs nonparametric tests",
+  "los": "Quantitative Methods LM8 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 34,
+  "topic": "quant",
+  "concept": "Lognormal distribution: defining property",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "lognormal distribution",
+  "los": "Quantitative Methods LM6 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 35,
+  "topic": "fsa",
+  "concept": "DB pension IFRS: remeasurements in OCI",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "pensions (DB assumptions, OCI)",
+  "los": "Financial Statement Analysis LM8 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 36,
+  "topic": "econ",
+  "concept": "FX: appreciation vs depreciation of currency pair",
+  "qtype": "calc",
+  "result": "right",
+  "family": "FX: appreciation, cross rates, forward points, covered interest",
+  "los": "Economics LM7 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 37,
+  "topic": "quant",
+  "concept": "Zero-coupon bond: expected annualized return",
+  "qtype": "calc",
+  "result": "right",
+  "family": "time value / interest rates: building blocks, real returns",
+  "los": "Quantitative Methods LM2 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 38,
+  "topic": "fsa",
+  "concept": "Diluted EPS: convertible bonds if-converted",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "diluted EPS",
+  "los": "Financial Statement Analysis LM2 LOS d"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 39,
+  "topic": "fsa",
+  "concept": "Inventory: LIFO vs weighted average, rising costs and quantity",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "inventory: LIFO/FIFO, LCNRV, disclosures",
+  "los": "Financial Statement Analysis LM6 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 40,
+  "topic": "ci",
+  "concept": "Agency costs: governance features that reduce them",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "governance and agency costs",
+  "los": "Corporate Issuers LM3 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 41,
+  "topic": "ci",
+  "concept": "Capital structure: static trade-off, why leverage below optimal",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "capital structure theory",
+  "los": "Corporate Issuers LM6 LOS d"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 42,
+  "topic": "quant",
+  "concept": "Expected value and standard deviation from probability table",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "probability: expected value, variance, SD from table",
+  "los": "Quantitative Methods LM5 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 43,
+  "topic": "fsa",
+  "concept": "Inventory disclosures: LIFO liquidation",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "inventory: LIFO/FIFO, LCNRV, disclosures",
+  "los": "Financial Statement Analysis LM6 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 44,
+  "topic": "econ",
+  "concept": "Trading blocs: customs union identification",
+  "qtype": "concept",
+  "result": "right",
+  "family": "trading blocs",
+  "los": "Economics LM6 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 45,
+  "topic": "fsa",
+  "concept": "Common-size balance sheet: liquidity ratio vs industry",
+  "qtype": "calc",
+  "result": "right",
+  "family": "ratio analysis: common-size, quick, solvency",
+  "los": "Financial Statement Analysis LM3 LOS e"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 46,
+  "topic": "ci",
+  "concept": "Real options: identify type of option",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "real options",
+  "los": "Corporate Issuers LM5 LOS d"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 47,
+  "topic": "ci",
+  "concept": "Business models: freemium pricing",
+  "qtype": "concept",
+  "result": "right",
+  "family": "business models",
+  "los": "Corporate Issuers LM7 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 48,
+  "topic": "fsa",
+  "concept": "FCFF: from net income",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "FCFF and FCFE",
+  "los": "Financial Statement Analysis LM5 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 49,
+  "topic": "econ",
+  "concept": "Forward rate from spot and forward points",
+  "qtype": "calc",
+  "result": "right",
+  "family": "FX: appreciation, cross rates, forward points, covered interest",
+  "los": "Economics LM8 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 50,
+  "topic": "fsa",
+  "concept": "Deferred tax: intangible expensed for tax creates DTL",
+  "qtype": "concept",
+  "result": "right",
+  "family": "deferred taxes: DTA vs DTL and permanent differences",
+  "los": "Financial Statement Analysis LM9 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 51,
+  "topic": "econ",
+  "concept": "Perfect competition: long-run equilibrium identification",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market structure: perfect competition, oligopoly game theory",
+  "los": "Economics LM1 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 52,
+  "topic": "econ",
+  "concept": "Absorption approach: trade balance improvement",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "exchange rates: absorption approach and regimes",
+  "los": "Economics LM7 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 53,
+  "topic": "quant",
+  "concept": "Central limit theorem: sampling distribution of mean",
+  "qtype": "concept",
+  "result": "right",
+  "family": "sampling, CLT and resampling",
+  "los": "Quantitative Methods LM7 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 54,
+  "topic": "ci",
+  "concept": "Cash conversion cycle: pulls on liquidity (payables)",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "liquidity: sources, drags/pulls, cash conversion cycle",
+  "los": "Corporate Issuers LM4 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 55,
+  "topic": "ci",
+  "concept": "NPV inferred from share price reaction",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "capital allocation: NPV, IRR, ROIC and market reaction",
+  "los": "Corporate Issuers LM5 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 56,
+  "topic": "ci",
+  "concept": "WACC: target D/E weights and marginal tax rate",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "WACC and cost of capital",
+  "los": "Corporate Issuers LM6 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 57,
+  "topic": "fsa",
+  "concept": "Acquisition accounting: asset value changes lower goodwill",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "goodwill and acquisition accounting"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 58,
+  "topic": "fsa",
+  "concept": "Revenue recognition: percentage of completion (input method)",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "revenue recognition",
+  "los": "Financial Statement Analysis LM2 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 59,
+  "topic": "econ",
+  "concept": "Central banks: roles and objectives",
+  "qtype": "concept",
+  "result": "right",
+  "family": "monetary policy and central banks",
+  "los": "Economics LM4 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 60,
+  "topic": "econ",
+  "concept": "Forward discount vs interest rate differential",
+  "qtype": "concept",
+  "result": "right",
+  "family": "FX: appreciation, cross rates, forward points, covered interest",
+  "los": "Economics LM8 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 61,
+  "topic": "ci",
+  "concept": "Public vs private issuers: listing trends",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "public vs private issuers and taxation",
+  "los": "Corporate Issuers LM1 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 62,
+  "topic": "quant",
+  "concept": "Resampling: jackknife vs bootstrap",
+  "qtype": "concept",
+  "result": "right",
+  "family": "sampling, CLT and resampling",
+  "los": "Quantitative Methods LM7 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 63,
+  "topic": "fsa",
+  "concept": "Deferred tax: permanent difference (key-person insurance)",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "deferred taxes: DTA vs DTL and permanent differences",
+  "los": "Financial Statement Analysis LM9 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 64,
+  "topic": "quant",
+  "concept": "Sample standard deviation",
+  "qtype": "calc",
+  "result": "right",
+  "family": "descriptive statistics: dispersion, mean types, skew/kurtosis",
+  "los": "Quantitative Methods LM3 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 65,
+  "topic": "ci",
+  "concept": "Double taxation: total tax rate on distributed earnings",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "public vs private issuers and taxation",
+  "los": "Corporate Issuers LM1 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 66,
+  "topic": "fsa",
+  "concept": "Deferred tax: PPE revaluation under IFRS",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "deferred taxes: DTA vs DTL and permanent differences"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 67,
+  "topic": "fsa",
+  "concept": "DuPont 5-way and sustainable growth rate",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "DuPont and sustainable growth",
+  "los": "Financial Statement Analysis LM11 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 68,
+  "topic": "fsa",
+  "concept": "Leases: lessee advantages and statements",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "leases",
+  "los": "Financial Statement Analysis LM8 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 69,
+  "topic": "quant",
+  "concept": "Machine learning: underfitting definition",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Big Data and machine learning",
+  "los": "Quantitative Methods LM11 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 70,
+  "topic": "econ",
+  "concept": "Geopolitics: national security tools",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "geopolitics and globalization",
+  "los": "Economics LM5 LOS e"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 71,
+  "topic": "quant",
+  "concept": "Interest rate building blocks: implied risk premium",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "time value / interest rates: building blocks, real returns",
+  "los": "Quantitative Methods LM1 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 72,
+  "topic": "fsa",
+  "concept": "Solvency vs coverage ratios: direction and statements",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "ratio analysis: common-size, quick, solvency",
+  "los": "Financial Statement Analysis LM11 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 73,
+  "topic": "econ",
+  "concept": "Business cycle: late expansion characteristics",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "business cycle phases",
+  "los": "Economics LM2 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 74,
+  "topic": "fsa",
+  "concept": "Revenue recognition: conservative vs aggressive methods",
+  "qtype": "concept",
+  "result": "right",
+  "family": "revenue recognition",
+  "los": "Financial Statement Analysis LM10 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 75,
+  "topic": "quant",
+  "concept": "Spearman rank correlation: significance test conclusion",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "correlation significance t-test (Pearson, Spearman)",
+  "los": "Quantitative Methods LM9 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 76,
+  "topic": "fsa",
+  "concept": "Audit opinions: qualified opinion",
+  "qtype": "concept",
+  "result": "right",
+  "family": "financial reporting basics: audit, notes, measurement bases, CF classification",
+  "los": "Financial Statement Analysis LM1 LOS c"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 77,
+  "topic": "fsa",
+  "concept": "Pro forma model: projected cash flow from operations",
+  "qtype": "calc",
+  "result": "right",
+  "family": "CFO, equity roll-forward and pro forma modelling",
+  "los": "Financial Statement Analysis LM12 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 78,
+  "topic": "fsa",
+  "concept": "R&D capitalise vs expense: effect on valuation multiples",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "los": "Financial Statement Analysis LM7 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 79,
+  "topic": "quant",
+  "concept": "Regression functional forms: lin-log slope interpretation",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: interpret slope, intercept, dummy, functional form",
+  "los": "Quantitative Methods LM10 LOS f"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 80,
+  "topic": "econ",
+  "concept": "Market structure: HHI vs concentration ratio",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market structure: HHI and concentration",
+  "los": "Economics LM1 LOS e"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 81,
+  "topic": "fsa",
+  "concept": "Balance sheet measurement bases: fair value vs historical cost",
+  "qtype": "concept",
+  "result": "right",
+  "family": "financial reporting basics: audit, notes, measurement bases, CF classification"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 82,
+  "topic": "fsa",
+  "concept": "Goodwill: analyst adjustments",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "goodwill and acquisition accounting",
+  "los": "Financial Statement Analysis LM3 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 83,
+  "topic": "ci",
+  "concept": "Liquidity: primary vs secondary sources",
+  "qtype": "concept",
+  "result": "right",
+  "family": "liquidity: sources, drags/pulls, cash conversion cycle",
+  "los": "Corporate Issuers LM4 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 84,
+  "topic": "fsa",
+  "concept": "Cash flow statement: classification of taxes on investing sale",
+  "qtype": "concept",
+  "result": "right",
+  "family": "financial reporting basics: audit, notes, measurement bases, CF classification",
+  "los": "Financial Statement Analysis LM4 LOS d"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 85,
+  "topic": "quant",
+  "concept": "Covariance from joint probability table",
+  "qtype": "calc",
+  "result": "right",
+  "family": "covariance and correlation calculations",
+  "los": "Quantitative Methods LM5 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 86,
+  "topic": "econ",
+  "concept": "Fiscal deficit: crowding out argument",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "fiscal policy",
+  "los": "Economics LM3 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 87,
+  "topic": "quant",
+  "concept": "Covariance: properties",
+  "qtype": "concept",
+  "result": "right",
+  "family": "covariance and correlation calculations",
+  "los": "Quantitative Methods LM4 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 88,
+  "topic": "ci",
+  "concept": "Capital allocation: project categories",
+  "qtype": "concept",
+  "result": "right",
+  "family": "capital allocation: NPV, IRR, ROIC and market reaction",
+  "los": "Corporate Issuers LM5 LOS b"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 89,
+  "topic": "quant",
+  "concept": "Confidence level and Type I error",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level",
+  "los": "Quantitative Methods LM8 LOS a"
+ },
+ {
+  "source": "MM1 S1",
+  "number": 90,
+  "topic": "quant",
+  "concept": "Regression F-statistic from SSR and SSE",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: ANOVA F-statistic and degrees of freedom",
+  "los": "Quantitative Methods LM10 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 1,
+  "topic": "pm",
+  "concept": "Risk budgeting: which action is risk-based",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "risk management and governance",
+  "los": "Portfolio Management LM6 LOS e"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 2,
+  "topic": "pm",
+  "concept": "Risk-return trade-off: risk aversion",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "risk tolerance, risk aversion and risk objectives",
+  "los": "Portfolio Management LM1 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 3,
+  "topic": "pm",
+  "concept": "Pooled funds: open-end vs closed-end features",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "IPS, investor types and fund structures",
+  "los": "Portfolio Management LM3 LOS f"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 4,
+  "topic": "pm",
+  "concept": "M-squared: market return implied by zero alpha",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "CAL/CML, Sharpe ratio and optimal portfolio, M-squared",
+  "los": "Portfolio Management LM2 LOS i"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 5,
+  "topic": "pm",
+  "concept": "CML: expected return with leveraged market weight",
+  "qtype": "calc",
+  "result": "right",
+  "family": "CAL/CML, Sharpe ratio and optimal portfolio, M-squared",
+  "los": "Portfolio Management LM2 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 6,
+  "topic": "pm",
+  "concept": "Behavioral biases: cognitive vs emotional classification",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "behavioral finance and anomalies",
+  "los": "Portfolio Management LM5 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 7,
+  "topic": "pm",
+  "concept": "Asset class specification: correlation within vs across classes",
+  "qtype": "concept",
+  "result": "right",
+  "family": "portfolio risk: two-asset sigma, diversification, correlation",
+  "los": "Portfolio Management LM4 LOS f"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 8,
+  "topic": "pm",
+  "concept": "Two-asset portfolio standard deviation: solve for correlation",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "portfolio risk: two-asset sigma, diversification, correlation",
+  "los": "Portfolio Management LM1 LOS e"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 9,
+  "topic": "pm",
+  "concept": "Systematic risk priced: efficient markets expected return",
+  "qtype": "concept",
+  "result": "right",
+  "family": "portfolio risk: two-asset sigma, diversification, correlation",
+  "los": "Portfolio Management LM2 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 10,
+  "topic": "pm",
+  "concept": "Adding an asset: Sharpe ratio vs correlation rule",
+  "qtype": "calc",
+  "result": "right",
+  "family": "CAL/CML, Sharpe ratio and optimal portfolio, M-squared",
+  "los": "Portfolio Management LM1 LOS f"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 11,
+  "topic": "pm",
+  "concept": "Institutional investors: insurer objectives",
+  "qtype": "concept",
+  "result": "right",
+  "family": "IPS, investor types and fund structures",
+  "los": "Portfolio Management LM3 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 12,
+  "topic": "pm",
+  "concept": "Market anomaly vs risk-factor explanation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "behavioral finance and anomalies",
+  "los": "Portfolio Management LM5 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 13,
+  "topic": "pm",
+  "concept": "Risk measurement: VaR and other metrics usage",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "risk management and governance",
+  "los": "Portfolio Management LM6 LOS g"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 14,
+  "topic": "pm",
+  "concept": "Risk tolerance: ability vs willingness mismatch",
+  "qtype": "concept",
+  "result": "right",
+  "family": "risk tolerance, risk aversion and risk objectives",
+  "los": "Portfolio Management LM4 LOS d"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 15,
+  "topic": "pm",
+  "concept": "Risk governance: board vs management responsibilities",
+  "qtype": "concept",
+  "result": "right",
+  "family": "risk management and governance",
+  "los": "Portfolio Management LM6 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 16,
+  "topic": "pm",
+  "concept": "Behavioral biases: which can be corrected by education",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "behavioral finance and anomalies",
+  "los": "Portfolio Management LM5 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 17,
+  "topic": "pm",
+  "concept": "Risk objectives: relative vs absolute",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "risk tolerance, risk aversion and risk objectives",
+  "los": "Portfolio Management LM4 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 18,
+  "topic": "pm",
+  "concept": "CAPM/SML: over- vs undervalued stock",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "CAPM/SML: expected return and valuation",
+  "los": "Portfolio Management LM2 LOS h"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 19,
+  "topic": "deriv",
+  "concept": "Swap: fixed rate determination",
+  "qtype": "concept",
+  "result": "right",
+  "family": "swaps",
+  "los": "Derivatives LM7 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 20,
+  "topic": "equity",
+  "concept": "Index: reconstitution vs rebalancing",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "equity indexes: weighting and return calculations",
+  "los": "Equity Investments LM2 LOS f",
+  "blank": true
+ },
+ {
+  "source": "MM1 S2",
+  "number": 21,
+  "topic": "fi",
+  "concept": "Money market yields: BEY comparison discount vs add-on",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "los": "Fixed Income LM8 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 22,
+  "topic": "equity",
+  "concept": "Dividends: stock dividend vs special cash dividend",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "dividends: stock dividend vs cash",
+  "los": "Equity Investments LM8 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 23,
+  "topic": "fi",
+  "concept": "Modified duration: money duration",
+  "qtype": "calc",
+  "result": "right",
+  "family": "duration calculations: Macaulay, modified, approximate, portfolio, money",
+  "los": "Fixed Income LM11 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 24,
+  "topic": "fi",
+  "concept": "Yield spreads: Z-spread vs G-spread",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "yield spreads: G-, Z-, I-spread, credit spreads",
+  "los": "Fixed Income LM7 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 25,
+  "topic": "equity",
+  "concept": "Company analysis: competitive strategy",
+  "qtype": "concept",
+  "result": "right",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM5 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 26,
+  "topic": "equity",
+  "concept": "Initiating coverage report: required elements",
+  "qtype": "concept",
+  "result": "right",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM5 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 27,
+  "topic": "alts",
+  "concept": "Private fund fees: committed vs invested capital",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF",
+  "los": "Alternative Investments LM1 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 28,
+  "topic": "fi",
+  "concept": "Convexity: asymmetry of price changes",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon",
+  "los": "Fixed Income LM12 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 29,
+  "topic": "fi",
+  "concept": "Government debt auctions: single-price auction",
+  "qtype": "concept",
+  "result": "right",
+  "family": "sovereign and government debt issuance",
+  "los": "Fixed Income LM5 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 30,
+  "topic": "deriv",
+  "concept": "Option bounds: minimum and maximum European call",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "option value bounds",
+  "los": "Derivatives LM8 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 31,
+  "topic": "deriv",
+  "concept": "Forward contract: mark-to-market value",
+  "qtype": "calc",
+  "result": "right",
+  "family": "forward valuation and arbitrage",
+  "los": "Derivatives LM5 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 32,
+  "topic": "equity",
+  "concept": "Operating profitability: contribution margin analysis",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM5 LOS d"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 33,
+  "topic": "fi",
+  "concept": "Bond covenants: negative covenant on debt",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "bond features: callable, covenants, structures, FRNs",
+  "los": "Fixed Income LM1 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 34,
+  "topic": "deriv",
+  "concept": "Derivative markets: OTC forward counterparty",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "derivative markets, Greeks, implied volatility",
+  "los": "Derivatives LM1 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 35,
+  "topic": "equity",
+  "concept": "Margin buying: margin call price",
+  "qtype": "calc",
+  "result": "right",
+  "family": "margin buying and leverage ratio",
+  "los": "Equity Investments LM1 LOS f"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 36,
+  "topic": "equity",
+  "concept": "ADRs: levels and Rule 144A",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "ADRs and global shares",
+  "los": "Equity Investments LM4 LOS d"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 37,
+  "topic": "fi",
+  "concept": "MBS: CMO tranches and extension risk",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "securitization: MBS, ABS, mortgages",
+  "los": "Fixed Income LM19 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 38,
+  "topic": "alts",
+  "concept": "Private fund fees: soft vs hard hurdle",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF",
+  "los": "Alternative Investments LM2 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 39,
+  "topic": "equity",
+  "concept": "DDM: delayed first dividend (g = retention x ROE)",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "DDM and PV models: model selection and multistage value",
+  "los": "Equity Investments LM8 LOS h"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 40,
+  "topic": "equity",
+  "concept": "Justified P/E: payout, g and required return",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "P/E multiples, justified P/E, sustainable growth",
+  "los": "Equity Investments LM8 LOS k"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 41,
+  "topic": "equity",
+  "concept": "Market efficiency: semi-strong implications for manager choice",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "market efficiency and anomalies",
+  "los": "Equity Investments LM3 LOS e"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 42,
+  "topic": "alts",
+  "concept": "Private debt: leveraged loan",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private debt",
+  "los": "Alternative Investments LM3 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 43,
+  "topic": "alts",
+  "concept": "Hedge funds: prime broker role",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hedge funds: strategies, lockups, prime broker",
+  "los": "Alternative Investments LM6 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 44,
+  "topic": "equity",
+  "concept": "Forecasting: PP&E balance",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM7 LOS d"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 45,
+  "topic": "alts",
+  "concept": "Real assets: farmland and timberland features",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM5 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 46,
+  "topic": "alts",
+  "concept": "Farmland: drivers of return",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM5 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 47,
+  "topic": "deriv",
+  "concept": "Option exercise value: risk reversal",
+  "qtype": "calc",
+  "result": "right",
+  "family": "option payoffs, exercise value and strategies",
+  "los": "Derivatives LM8 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 48,
+  "topic": "equity",
+  "concept": "Total return index: price return plus income",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "equity indexes: weighting and return calculations",
+  "los": "Equity Investments LM2 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 49,
+  "topic": "equity",
+  "concept": "Preference shares: risk ranking of features",
+  "qtype": "concept",
+  "result": "right",
+  "family": "preference shares",
+  "los": "Equity Investments LM4 LOS e"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 50,
+  "topic": "deriv",
+  "concept": "Binomial option model: hedge ratio",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "binomial option model",
+  "los": "Derivatives LM10 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 51,
+  "topic": "fi",
+  "concept": "Credit analysis: seniority and cross-default",
+  "qtype": "concept",
+  "result": "right",
+  "family": "credit analysis and ratings",
+  "los": "Fixed Income LM16 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 52,
+  "topic": "deriv",
+  "concept": "Arbitrage pricing: risk-free rate in discount rate",
+  "qtype": "concept",
+  "result": "right",
+  "family": "forward valuation and arbitrage",
+  "los": "Derivatives LM4 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 53,
+  "topic": "alts",
+  "concept": "Private equity fund: management fee basis",
+  "qtype": "concept",
+  "result": "right",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "los": "Alternative Investments LM2 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 54,
+  "topic": "fi",
+  "concept": "Portfolio duration: market-value weighted",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "duration calculations: Macaulay, modified, approximate, portfolio, money",
+  "los": "Fixed Income LM12 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 55,
+  "topic": "fi",
+  "concept": "Macaulay duration from cash flow table",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "duration calculations: Macaulay, modified, approximate, portfolio, money",
+  "los": "Fixed Income LM10 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 56,
+  "topic": "fi",
+  "concept": "Sovereign bonds: characteristics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "sovereign and government debt issuance",
+  "los": "Fixed Income LM1 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 57,
+  "topic": "deriv",
+  "concept": "Put-call-forward parity: solve for forward",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "put-call-forward parity",
+  "los": "Derivatives LM9 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 58,
+  "topic": "fi",
+  "concept": "ABS: credit card revolving period principal",
+  "qtype": "concept",
+  "result": "right",
+  "family": "securitization: MBS, ABS, mortgages",
+  "los": "Fixed Income LM18 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 59,
+  "topic": "fi",
+  "concept": "Repo: term vs overnight rate and haircut",
+  "qtype": "concept",
+  "result": "right",
+  "family": "repo",
+  "los": "Fixed Income LM4 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 60,
+  "topic": "deriv",
+  "concept": "Futures: open interest count",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "forwards vs futures",
+  "los": "Derivatives LM2 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 61,
+  "topic": "alts",
+  "concept": "REITs: benefits and tax treatment",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM4 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 62,
+  "topic": "fi",
+  "concept": "Bond full price with accrued interest (30/360)",
+  "qtype": "calc",
+  "result": "right",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "los": "Fixed Income LM6 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 63,
+  "topic": "deriv",
+  "concept": "Forwards vs futures: correlation with interest rates",
+  "qtype": "concept",
+  "result": "right",
+  "family": "forwards vs futures",
+  "los": "Derivatives LM6 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 64,
+  "topic": "alts",
+  "concept": "Private fund waterfall: distribution methods",
+  "qtype": "concept",
+  "result": "right",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF",
+  "los": "Alternative Investments LM1 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 65,
+  "topic": "fi",
+  "concept": "Securitization: effect on liquidity risk",
+  "qtype": "concept",
+  "result": "right",
+  "family": "securitization: MBS, ABS, mortgages",
+  "los": "Fixed Income LM17 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 66,
+  "topic": "equity",
+  "concept": "Market efficiency: price reaction to EPS surprise",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market efficiency and anomalies",
+  "los": "Equity Investments LM3 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 67,
+  "topic": "equity",
+  "concept": "DDM selection: short holding period",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "DDM and PV models: model selection and multistage value",
+  "los": "Equity Investments LM8 LOS e"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 68,
+  "topic": "fi",
+  "concept": "Bond price change from yield change (BA II Plus)",
+  "qtype": "calc",
+  "result": "right",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "los": "Fixed Income LM6 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 69,
+  "topic": "deriv",
+  "concept": "Forward contract: value after underlying price change",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "forward valuation and arbitrage",
+  "los": "Derivatives LM6 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 70,
+  "topic": "deriv",
+  "concept": "Futures: price discovery by market type",
+  "qtype": "concept",
+  "result": "right",
+  "family": "forwards vs futures",
+  "los": "Derivatives LM3 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 71,
+  "topic": "alts",
+  "concept": "Hedge fund strategies: bottom-up vs top-down",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hedge funds: strategies, lockups, prime broker",
+  "los": "Alternative Investments LM6 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 72,
+  "topic": "alts",
+  "concept": "Infrastructure: economic vs social assets",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM4 LOS d"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 73,
+  "topic": "alts",
+  "concept": "LBO: attractive target characteristics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "los": "Alternative Investments LM3 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 74,
+  "topic": "alts",
+  "concept": "Hedge fund: net return after fees",
+  "qtype": "calc",
+  "result": "right",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF",
+  "los": "Alternative Investments LM1 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 75,
+  "topic": "fi",
+  "concept": "Credit analysis: leverage ratios and credit risk",
+  "qtype": "concept",
+  "result": "right",
+  "family": "credit analysis and ratings",
+  "los": "Fixed Income LM16 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 76,
+  "topic": "equity",
+  "concept": "Industry analysis: PESTLE",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM6 LOS d"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 77,
+  "topic": "fi",
+  "concept": "Bond accrued interest (30/360, semiannual)",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "los": "Fixed Income LM6 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 78,
+  "topic": "fi",
+  "concept": "Effective vs modified duration for option-free bond",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon",
+  "los": "Fixed Income LM13 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 79,
+  "topic": "alts",
+  "concept": "Digital assets: token types",
+  "qtype": "concept",
+  "result": "right",
+  "family": "digital assets",
+  "los": "Alternative Investments LM7 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 80,
+  "topic": "equity",
+  "concept": "Market orders: execution at best bid",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "order types, trading and market structure",
+  "los": "Equity Investments LM1 LOS h"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 81,
+  "topic": "equity",
+  "concept": "Margin: leveraged return on position",
+  "qtype": "calc",
+  "result": "right",
+  "family": "margin buying and leverage ratio",
+  "los": "Equity Investments LM1 LOS f"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 82,
+  "topic": "equity",
+  "concept": "Market anomalies: growth stocks evidence",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market efficiency and anomalies",
+  "los": "Equity Investments LM3 LOS f"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 83,
+  "topic": "fi",
+  "concept": "Bond cash flow structure: sinking fund",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "bond features: callable, covenants, structures, FRNs",
+  "los": "Fixed Income LM2 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 84,
+  "topic": "equity",
+  "concept": "Preference shares: cumulative and participating",
+  "qtype": "concept",
+  "result": "right",
+  "family": "preference shares",
+  "los": "Equity Investments LM4 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 85,
+  "topic": "equity",
+  "concept": "Price-weighted index: impact of highest price",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "equity indexes: weighting and return calculations",
+  "los": "Equity Investments LM2 LOS d"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 86,
+  "topic": "alts",
+  "concept": "Private equity: exit strategy IPO",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "los": "Alternative Investments LM3 LOS a"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 87,
+  "topic": "fi",
+  "concept": "Spot rates: implied spot from forward rate",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "spot and forward rates",
+  "los": "Fixed Income LM9 LOS b"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 88,
+  "topic": "equity",
+  "concept": "DDM selection: mature constant-growth company",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "DDM and PV models: model selection and multistage value",
+  "los": "Equity Investments LM8 LOS i"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 89,
+  "topic": "equity",
+  "concept": "Forecasting: receivables and inventory via days ratios",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM7 LOS c"
+ },
+ {
+  "source": "MM1 S2",
+  "number": 90,
+  "topic": "fi",
+  "concept": "Bond premium: tax deduction of amortization",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "los": "Fixed Income LM2 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 33,
+  "topic": "ci",
+  "concept": "Capital allocation: going concern projects",
+  "qtype": "concept",
+  "result": "right",
+  "family": "capital allocation: NPV, IRR, ROIC and market reaction",
+  "los": "Corporate Issuers LM5 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 34,
+  "topic": "ci",
+  "concept": "Corporate governance: shareholder vs stakeholder theory",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "governance and agency costs",
+  "los": "Corporate Issuers LM3 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 35,
+  "topic": "fsa",
+  "concept": "Inventory: FIFO ending inventory approximates current cost",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "inventory: LIFO/FIFO, LCNRV, disclosures",
+  "los": "Financial Statement Analysis LM6 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 36,
+  "topic": "quant",
+  "concept": "Sampling methods: cluster sampling",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "sampling, CLT and resampling",
+  "los": "Quantitative Methods LM7 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 37,
+  "topic": "ci",
+  "concept": "Business models: value chain vs supply chain",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "business models",
+  "los": "Corporate Issuers LM7 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 38,
+  "topic": "fsa",
+  "concept": "Financial statement notes: where disclosures are found",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "financial reporting basics: audit, notes, measurement bases, CF classification",
+  "los": "Financial Statement Analysis LM1 LOS c"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 39,
+  "topic": "fsa",
+  "concept": "Deferred tax: permanent vs temporary differences",
+  "qtype": "concept",
+  "result": "right",
+  "family": "deferred taxes: DTA vs DTL and permanent differences",
+  "los": "Financial Statement Analysis LM9 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 40,
+  "topic": "fsa",
+  "concept": "Leases: lessee benefits of operating lease",
+  "qtype": "concept",
+  "result": "right",
+  "family": "leases",
+  "los": "Financial Statement Analysis LM8 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 41,
+  "topic": "fsa",
+  "concept": "FCFE from CFO and net borrowing",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "FCFF and FCFE",
+  "los": "Financial Statement Analysis LM5 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 42,
+  "topic": "econ",
+  "concept": "FX swap: characteristics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "FX swap and market features",
+  "los": "Economics LM7 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 43,
+  "topic": "ci",
+  "concept": "Mutually exclusive projects: NPV vs IRR ranking",
+  "qtype": "calc",
+  "result": "right",
+  "family": "capital allocation: NPV, IRR, ROIC and market reaction",
+  "los": "Corporate Issuers LM5 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 44,
+  "topic": "quant",
+  "concept": "Correlation test: negative covariance in one-tailed test",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "correlation significance t-test (Pearson, Spearman)",
+  "los": "Quantitative Methods LM9 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 45,
+  "topic": "ci",
+  "concept": "Liquidity drags and pulls vs peers",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "liquidity: sources, drags/pulls, cash conversion cycle",
+  "los": "Corporate Issuers LM4 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 46,
+  "topic": "quant",
+  "concept": "Covariance: effect of changing portfolio weights",
+  "qtype": "concept",
+  "result": "right",
+  "family": "covariance and correlation calculations",
+  "los": "Quantitative Methods LM4 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 47,
+  "topic": "fsa",
+  "concept": "Revenue recognition: aggressive vs conservative methods",
+  "qtype": "concept",
+  "result": "right",
+  "family": "revenue recognition",
+  "los": "Financial Statement Analysis LM10 LOS c"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 48,
+  "topic": "fsa",
+  "concept": "Shareholders' equity roll-forward with treasury stock",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "CFO, equity roll-forward and pro forma modelling",
+  "los": "Financial Statement Analysis LM3 LOS c"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 49,
+  "topic": "econ",
+  "concept": "Fiscal policy: automatic stabilizers",
+  "qtype": "concept",
+  "result": "right",
+  "family": "fiscal policy",
+  "los": "Economics LM3 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 50,
+  "topic": "quant",
+  "concept": "Skewness and kurtosis: identify distribution",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "descriptive statistics: dispersion, mean types, skew/kurtosis",
+  "los": "Quantitative Methods LM3 LOS c"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 51,
+  "topic": "quant",
+  "concept": "Hypothesis testing: power of test equals 1 minus beta",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "hypothesis testing: Type I/II error, power, significance level",
+  "los": "Quantitative Methods LM8 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 52,
+  "topic": "fsa",
+  "concept": "Quick ratio",
+  "qtype": "calc",
+  "result": "right",
+  "family": "ratio analysis: common-size, quick, solvency",
+  "los": "Financial Statement Analysis LM3 LOS e"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 53,
+  "topic": "ci",
+  "concept": "Liquidity sources: factoring receivables",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "liquidity: sources, drags/pulls, cash conversion cycle",
+  "los": "Corporate Issuers LM4 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 54,
+  "topic": "quant",
+  "concept": "Null hypothesis: definition",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule",
+  "los": "Quantitative Methods LM8 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 55,
+  "topic": "quant",
+  "concept": "Covariance from correlation and standard deviations",
+  "qtype": "calc",
+  "result": "right",
+  "family": "covariance and correlation calculations",
+  "los": "Quantitative Methods LM4 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 56,
+  "topic": "econ",
+  "concept": "Fiscal multiplier: impact",
+  "qtype": "concept",
+  "result": "right",
+  "family": "fiscal policy",
+  "los": "Economics LM3 LOS c"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 57,
+  "topic": "quant",
+  "concept": "Implied return vs forward P/E: investment decision",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "time value / interest rates: building blocks, real returns",
+  "los": "Quantitative Methods LM2 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 58,
+  "topic": "fsa",
+  "concept": "Inventory: lower of cost and NRV under US GAAP vs IFRS",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "inventory: LIFO/FIFO, LCNRV, disclosures",
+  "los": "Financial Statement Analysis LM6 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 59,
+  "topic": "fsa",
+  "concept": "Pro forma model: projected change in cash",
+  "qtype": "calc",
+  "result": "right",
+  "family": "CFO, equity roll-forward and pro forma modelling",
+  "los": "Financial Statement Analysis LM12 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 60,
+  "topic": "fsa",
+  "concept": "Deferred tax liability: depreciation method difference",
+  "qtype": "calc",
+  "result": "right",
+  "family": "deferred taxes: DTA vs DTL and permanent differences",
+  "los": "Financial Statement Analysis LM9 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 61,
+  "topic": "fsa",
+  "concept": "DB pension: assumptions that raise liability",
+  "qtype": "concept",
+  "result": "right",
+  "family": "pensions (DB assumptions, OCI)",
+  "los": "Financial Statement Analysis LM8 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 62,
+  "topic": "quant",
+  "concept": "Significance level: effect on test outcome",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis testing: Type I/II error, power, significance level",
+  "los": "Quantitative Methods LM8 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 63,
+  "topic": "quant",
+  "concept": "Regression: expected residual value",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: prediction from fitted equation and residual",
+  "los": "Quantitative Methods LM10 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 64,
+  "topic": "fsa",
+  "concept": "Accounting warning signs: earnings quality",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "earnings quality and warning signs",
+  "los": "Financial Statement Analysis LM10 LOS h"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 65,
+  "topic": "ci",
+  "concept": "WACC: project with different systematic risk",
+  "qtype": "concept",
+  "result": "right",
+  "family": "WACC and cost of capital",
+  "los": "Corporate Issuers LM6 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 66,
+  "topic": "quant",
+  "concept": "Big Data: velocity characteristic",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Big Data and machine learning",
+  "los": "Quantitative Methods LM11 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 67,
+  "topic": "quant",
+  "concept": "Variance of EPS from probability table",
+  "qtype": "calc",
+  "result": "right",
+  "family": "probability: expected value, variance, SD from table",
+  "los": "Quantitative Methods LM5 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 68,
+  "topic": "econ",
+  "concept": "FX: triangular arbitrage profit",
+  "qtype": "calc",
+  "result": "right",
+  "family": "FX: appreciation, cross rates, forward points, covered interest",
+  "los": "Economics LM8 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 69,
+  "topic": "quant",
+  "concept": "Winsorized vs trimmed mean",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "descriptive statistics: dispersion, mean types, skew/kurtosis",
+  "los": "Quantitative Methods LM3 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 70,
+  "topic": "ci",
+  "concept": "Real options: identify type of option",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "real options",
+  "los": "Corporate Issuers LM5 LOS d"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 71,
+  "topic": "fsa",
+  "concept": "Revenue recognition: bill-and-hold",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "revenue recognition",
+  "los": "Financial Statement Analysis LM2 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 72,
+  "topic": "econ",
+  "concept": "Central bank: exchange-rate targeting effects",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "exchange rates: absorption approach and regimes",
+  "los": "Economics LM4 LOS c"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 73,
+  "topic": "fsa",
+  "concept": "DuPont: average equity from ROE",
+  "qtype": "calc",
+  "result": "right",
+  "family": "DuPont and sustainable growth",
+  "los": "Financial Statement Analysis LM11 LOS d"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 74,
+  "topic": "fsa",
+  "concept": "Capitalised borrowing costs",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "los": "Financial Statement Analysis LM2 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 75,
+  "topic": "fsa",
+  "concept": "Asset disposal: effect on total assets",
+  "qtype": "calc",
+  "result": "right",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "los": "Financial Statement Analysis LM7 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 76,
+  "topic": "econ",
+  "concept": "Market structure: HHI interpretation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market structure: HHI and concentration",
+  "los": "Economics LM1 LOS e"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 77,
+  "topic": "fsa",
+  "concept": "Diluted EPS: convertible securities and options",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "diluted EPS",
+  "los": "Financial Statement Analysis LM2 LOS d"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 78,
+  "topic": "econ",
+  "concept": "Globalization: definition and political cooperation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "geopolitics and globalization",
+  "los": "Economics LM5 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 79,
+  "topic": "ci",
+  "concept": "Capital allocation: ROIC vs WACC share price reaction",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "capital allocation: NPV, IRR, ROIC and market reaction",
+  "los": "Corporate Issuers LM5 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 80,
+  "topic": "econ",
+  "concept": "Monetary policy tools: open market operations",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "monetary policy and central banks",
+  "los": "Economics LM4 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 81,
+  "topic": "quant",
+  "concept": "Regression: slope sign and correlation from covariance",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: interpret slope, intercept, dummy, functional form",
+  "los": "Quantitative Methods LM10 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 82,
+  "topic": "quant",
+  "concept": "Harmonic mean",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "descriptive statistics: dispersion, mean types, skew/kurtosis",
+  "los": "Quantitative Methods LM1 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 83,
+  "topic": "fsa",
+  "concept": "CFO indirect method: working capital changes",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "CFO, equity roll-forward and pro forma modelling",
+  "los": "Financial Statement Analysis LM4 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 84,
+  "topic": "fsa",
+  "concept": "Fair value measurement under IFRS: valuation method",
+  "qtype": "concept",
+  "result": "right",
+  "family": "financial reporting basics: audit, notes, measurement bases, CF classification",
+  "los": "Financial Statement Analysis LM3 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 85,
+  "topic": "ci",
+  "concept": "Capital structure: start-up characteristics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "capital structure theory",
+  "los": "Corporate Issuers LM6 LOS b"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 86,
+  "topic": "fsa",
+  "concept": "Intangibles: indefinite-life trademark amortization",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "los": "Financial Statement Analysis LM7 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 87,
+  "topic": "econ",
+  "concept": "Business cycle: identifying the peak",
+  "qtype": "concept",
+  "result": "right",
+  "family": "business cycle phases",
+  "los": "Economics LM2 LOS c"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 88,
+  "topic": "econ",
+  "concept": "Oligopoly: Nash equilibrium",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "market structure: perfect competition, oligopoly game theory",
+  "los": "Economics LM1 LOS d"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 89,
+  "topic": "ci",
+  "concept": "ESG: green financing",
+  "qtype": "concept",
+  "result": "right",
+  "family": "ESG",
+  "los": "Corporate Issuers LM2 LOS c"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 90,
+  "topic": "econ",
+  "concept": "Trading blocs: customs union impact",
+  "qtype": "concept",
+  "result": "right",
+  "family": "trading blocs",
+  "los": "Economics LM6 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 1,
+  "topic": "pm",
+  "concept": "Financial risks: liquidity vs market risk",
+  "qtype": "concept",
+  "result": "right",
+  "family": "risk management and governance",
+  "los": "Portfolio Management LM6 LOS f"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 2,
+  "topic": "pm",
+  "concept": "Market efficiency: momentum anomaly and behavioral explanation",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "behavioral finance and anomalies",
+  "los": "Portfolio Management LM5 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 3,
+  "topic": "pm",
+  "concept": "Beta from covariance and market variance",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "beta calculation",
+  "los": "Portfolio Management LM2 LOS e"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 4,
+  "topic": "pm",
+  "concept": "Pension plans: DB vs DC investment risk bearer",
+  "qtype": "concept",
+  "result": "right",
+  "family": "IPS, investor types and fund structures",
+  "los": "Portfolio Management LM3 LOS d"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 5,
+  "topic": "pm",
+  "concept": "Beta from correlation then CAPM expected return",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "beta calculation",
+  "los": "Portfolio Management LM2 LOS g"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 6,
+  "topic": "pm",
+  "concept": "Institutional investors: liquidity needs",
+  "qtype": "concept",
+  "result": "right",
+  "family": "IPS, investor types and fund structures",
+  "los": "Portfolio Management LM3 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 7,
+  "topic": "pm",
+  "concept": "SML: expected return from slope and beta",
+  "qtype": "calc",
+  "result": "right",
+  "family": "CAPM/SML: expected return and valuation",
+  "los": "Portfolio Management LM2 LOS g"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 8,
+  "topic": "pm",
+  "concept": "Risk management process: starts with risk tolerance",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "risk management and governance",
+  "los": "Portfolio Management LM6 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 9,
+  "topic": "pm",
+  "concept": "Risk management: definition",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "risk management and governance",
+  "los": "Portfolio Management LM6 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 10,
+  "topic": "pm",
+  "concept": "Diversification ratio: interpretation",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "portfolio risk: two-asset sigma, diversification, correlation",
+  "los": "Portfolio Management LM3 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 11,
+  "topic": "pm",
+  "concept": "Optimal risky portfolio: highest Sharpe on CAL",
+  "qtype": "calc",
+  "result": "right",
+  "family": "CAL/CML, Sharpe ratio and optimal portfolio, M-squared",
+  "los": "Portfolio Management LM2 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 12,
+  "topic": "pm",
+  "concept": "Active vs passive management: benchmark weights",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "IPS, investor types and fund structures",
+  "los": "Portfolio Management LM3 LOS e"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 13,
+  "topic": "pm",
+  "concept": "Risk tolerance: willingness vs ability combined",
+  "qtype": "concept",
+  "result": "right",
+  "family": "risk tolerance, risk aversion and risk objectives",
+  "los": "Portfolio Management LM4 LOS d"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 14,
+  "topic": "pm",
+  "concept": "Beta from correlation and volatility: defensive asset",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "beta calculation",
+  "los": "Portfolio Management LM2 LOS e"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 15,
+  "topic": "pm",
+  "concept": "Risk aversion: utility preference by aversion coefficient",
+  "qtype": "calc",
+  "result": "right",
+  "family": "risk tolerance, risk aversion and risk objectives",
+  "los": "Portfolio Management LM1 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 16,
+  "topic": "quant",
+  "concept": "Real after-tax return objective",
+  "qtype": "concept",
+  "result": "right",
+  "family": "time value / interest rates: building blocks, real returns",
+  "los": "Quantitative Methods LM1 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 17,
+  "topic": "pm",
+  "concept": "Behavioral biases: endowment and loss aversion in holding",
+  "qtype": "concept",
+  "result": "right",
+  "family": "behavioral finance and anomalies",
+  "los": "Portfolio Management LM5 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 18,
+  "topic": "pm",
+  "concept": "Optimal CAL slope equals Sharpe ratio",
+  "qtype": "calc",
+  "result": "right",
+  "family": "CAL/CML, Sharpe ratio and optimal portfolio, M-squared",
+  "los": "Portfolio Management LM1 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 19,
+  "topic": "pm",
+  "concept": "Portfolio approach: effect on risk vs return",
+  "qtype": "concept",
+  "result": "right",
+  "family": "portfolio risk: two-asset sigma, diversification, correlation",
+  "los": "Portfolio Management LM3 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 20,
+  "topic": "fi",
+  "concept": "Empirical vs analytical duration: flight to quality",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon",
+  "los": "Fixed Income LM10 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 21,
+  "topic": "equity",
+  "concept": "Present value models: FCFE selection",
+  "qtype": "concept",
+  "result": "right",
+  "family": "DDM and PV models: model selection and multistage value",
+  "los": "Equity Investments LM8 LOS e"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 22,
+  "topic": "alts",
+  "concept": "Venture capital: main risk",
+  "qtype": "concept",
+  "result": "right",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "los": "Alternative Investments LM3 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 23,
+  "topic": "equity",
+  "concept": "Intrinsic vs market value: valuation judgement",
+  "qtype": "concept",
+  "result": "right",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM3 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 24,
+  "topic": "fi",
+  "concept": "Repo haircut from initial margin",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "repo",
+  "los": "Fixed Income LM2 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 25,
+  "topic": "alts",
+  "concept": "Co-investment: benefits and drawbacks",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "los": "Alternative Investments LM1 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 26,
+  "topic": "deriv",
+  "concept": "Long call: payoff at expiration",
+  "qtype": "calc",
+  "result": "right",
+  "family": "option payoffs, exercise value and strategies",
+  "los": "Derivatives LM2 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 27,
+  "topic": "deriv",
+  "concept": "Derivative contracts: legal nature",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "derivative markets, Greeks, implied volatility",
+  "los": "Derivatives LM1 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 28,
+  "topic": "fi",
+  "concept": "Yield spread: I-spread vs benchmark mismatch",
+  "qtype": "concept",
+  "result": "right",
+  "family": "yield spreads: G-, Z-, I-spread, credit spreads",
+  "los": "Fixed Income LM7 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 29,
+  "topic": "deriv",
+  "concept": "Derivatives uses: risk transfer",
+  "qtype": "concept",
+  "result": "right",
+  "family": "derivative markets, Greeks, implied volatility",
+  "los": "Derivatives LM3 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 30,
+  "topic": "deriv",
+  "concept": "Swaps vs series of off-market forwards",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "swaps",
+  "los": "Derivatives LM7 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 31,
+  "topic": "equity",
+  "concept": "Revenue drivers: evaluating top-down comments",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM5 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 32,
+  "topic": "equity",
+  "concept": "Market vs book value of equity: management actions",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM4 LOS g"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 33,
+  "topic": "equity",
+  "concept": "Well-functioning financial system: characteristics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "order types, trading and market structure",
+  "los": "Equity Investments LM1 LOS k"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 34,
+  "topic": "equity",
+  "concept": "Justified P/E: CAPM required return, payout and g",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "P/E multiples, justified P/E, sustainable growth",
+  "los": "Equity Investments LM8 LOS k"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 35,
+  "topic": "deriv",
+  "concept": "Binomial option model: hedge ratio",
+  "qtype": "calc",
+  "result": "right",
+  "family": "binomial option model",
+  "los": "Derivatives LM10 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 36,
+  "topic": "fi",
+  "concept": "Bond flat price (30/360)",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "los": "Fixed Income LM6 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 37,
+  "topic": "fi",
+  "concept": "Sovereign credit analysis: economy indicators",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "credit analysis and ratings",
+  "los": "Fixed Income LM15 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 38,
+  "topic": "alts",
+  "concept": "Fund of funds: net-of-fees return",
+  "qtype": "calc",
+  "result": "right",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF",
+  "los": "Alternative Investments LM2 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 39,
+  "topic": "deriv",
+  "concept": "Credit exposure: who benefits from issuer distress",
+  "qtype": "concept",
+  "result": "right",
+  "family": "derivative markets, Greeks, implied volatility",
+  "los": "Derivatives LM5 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 40,
+  "topic": "fi",
+  "concept": "MBS: mortgage pool characteristics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "securitization: MBS, ABS, mortgages",
+  "los": "Fixed Income LM19 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 41,
+  "topic": "alts",
+  "concept": "Private fund performance: IRR vs MOIC fund type",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "los": "Alternative Investments LM2 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 42,
+  "topic": "equity",
+  "concept": "Index total return: price and dividends",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "equity indexes: weighting and return calculations",
+  "los": "Equity Investments LM2 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 43,
+  "topic": "alts",
+  "concept": "Commodities: factors affecting returns",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM5 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 44,
+  "topic": "alts",
+  "concept": "Fund of funds fees: soft vs hard hurdle",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF",
+  "los": "Alternative Investments LM2 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 45,
+  "topic": "alts",
+  "concept": "Bitcoin: supply schedule features",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "digital assets",
+  "los": "Alternative Investments LM7 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 46,
+  "topic": "equity",
+  "concept": "Alternative trading systems: features",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "order types, trading and market structure",
+  "los": "Equity Investments LM1 LOS d"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 47,
+  "topic": "equity",
+  "concept": "Fundamentally weighted index return",
+  "qtype": "calc",
+  "result": "right",
+  "family": "equity indexes: weighting and return calculations",
+  "los": "Equity Investments LM2 LOS e"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 48,
+  "topic": "deriv",
+  "concept": "Put-call-forward parity: solve for put",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "put-call-forward parity",
+  "los": "Derivatives LM9 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 49,
+  "topic": "fi",
+  "concept": "Macaulay vs modified duration: annualisation",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "duration calculations: Macaulay, modified, approximate, portfolio, money",
+  "los": "Fixed Income LM10 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 50,
+  "topic": "fi",
+  "concept": "Callable bonds: make-whole call features",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "bond features: callable, covenants, structures, FRNs",
+  "los": "Fixed Income LM2 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 51,
+  "topic": "fi",
+  "concept": "Bond yield relationships: price, coupon and yield",
+  "qtype": "concept",
+  "result": "right",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "los": "Fixed Income LM6 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 52,
+  "topic": "equity",
+  "concept": "Margin: leverage ratio",
+  "qtype": "calc",
+  "result": "right",
+  "family": "margin buying and leverage ratio",
+  "los": "Equity Investments LM1 LOS f"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 53,
+  "topic": "equity",
+  "concept": "DDM valuation: investment recommendation",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "DDM and PV models: model selection and multistage value",
+  "los": "Equity Investments LM8 LOS h"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 54,
+  "topic": "fi",
+  "concept": "Floating rate note: coupon reset",
+  "qtype": "calc",
+  "result": "right",
+  "family": "bond features: callable, covenants, structures, FRNs",
+  "los": "Fixed Income LM8 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 55,
+  "topic": "fi",
+  "concept": "Securitization: transaction structure statements",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "securitization: MBS, ABS, mortgages",
+  "los": "Fixed Income LM17 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 56,
+  "topic": "fi",
+  "concept": "Putable bond: price vs interest rates",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon",
+  "los": "Fixed Income LM2 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 57,
+  "topic": "equity",
+  "concept": "Industry analysis: antitrust concentration (HHI)",
+  "qtype": "concept",
+  "result": "right",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM6 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 58,
+  "topic": "deriv",
+  "concept": "Futures: open interest from volume",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "forwards vs futures",
+  "los": "Derivatives LM2 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 59,
+  "topic": "equity",
+  "concept": "Momentum contradicts weak-form efficiency",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market efficiency and anomalies",
+  "los": "Equity Investments LM3 LOS f"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 60,
+  "topic": "alts",
+  "concept": "Infrastructure: inflation protection",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM4 LOS d"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 61,
+  "topic": "alts",
+  "concept": "Private equity vs public equity: explaining outperformance",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "los": "Alternative Investments LM3 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 62,
+  "topic": "fi",
+  "concept": "Credit ratios: debt to EBITDA",
+  "qtype": "calc",
+  "result": "right",
+  "family": "credit analysis and ratings",
+  "los": "Fixed Income LM16 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 63,
+  "topic": "equity",
+  "concept": "Alternative investment indexes: features",
+  "qtype": "concept",
+  "result": "right",
+  "family": "equity indexes: weighting and return calculations",
+  "los": "Equity Investments LM2 LOS k"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 64,
+  "topic": "equity",
+  "concept": "DDM: two-stage dividend valuation",
+  "qtype": "calc",
+  "result": "right",
+  "family": "DDM and PV models: model selection and multistage value",
+  "los": "Equity Investments LM8 LOS h"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 65,
+  "topic": "deriv",
+  "concept": "Option bounds: minimum and maximum European put",
+  "qtype": "calc",
+  "result": "right",
+  "family": "option value bounds",
+  "los": "Derivatives LM8 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 66,
+  "topic": "alts",
+  "concept": "Hedge fund: lockup and notice period",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hedge funds: strategies, lockups, prime broker",
+  "los": "Alternative Investments LM6 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 67,
+  "topic": "alts",
+  "concept": "MLPs: tax advantage",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM4 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 68,
+  "topic": "equity",
+  "concept": "Global registered shares vs ADRs",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "ADRs and global shares",
+  "los": "Equity Investments LM4 LOS d"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 69,
+  "topic": "alts",
+  "concept": "Private equity: buyout investment type",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "los": "Alternative Investments LM3 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 70,
+  "topic": "fi",
+  "concept": "Debt structures: bullet vs amortizing loan",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "bond features: callable, covenants, structures, FRNs",
+  "los": "Fixed Income LM2 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 71,
+  "topic": "equity",
+  "concept": "Cost of equity vs ROE: required price change",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "DDM and PV models: model selection and multistage value",
+  "los": "Equity Investments LM4 LOS h"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 72,
+  "topic": "fi",
+  "concept": "Credit risk: expected loss compensation",
+  "qtype": "calc",
+  "result": "right",
+  "family": "credit analysis and ratings",
+  "los": "Fixed Income LM14 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 73,
+  "topic": "equity",
+  "concept": "Fundamental P/E: inverse relationship with required return",
+  "qtype": "concept",
+  "result": "right",
+  "family": "P/E multiples, justified P/E, sustainable growth",
+  "los": "Equity Investments LM8 LOS j"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 74,
+  "topic": "equity",
+  "concept": "Behavioral biases: conservatism",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market efficiency and anomalies",
+  "los": "Equity Investments LM3 LOS g"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 75,
+  "topic": "equity",
+  "concept": "Forecasting: gross profit from revenue and margin",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM7 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 76,
+  "topic": "deriv",
+  "concept": "Long put: exercise value and break-even",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "option payoffs, exercise value and strategies",
+  "los": "Derivatives LM8 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 77,
+  "topic": "fi",
+  "concept": "Duration and convexity: what raises price sensitivity",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon",
+  "los": "Fixed Income LM4 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 78,
+  "topic": "equity",
+  "concept": "Semi-strong efficiency: trading on public news",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market efficiency and anomalies",
+  "los": "Equity Investments LM3 LOS d"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 79,
+  "topic": "fi",
+  "concept": "Sovereign funding choices: regular issuance",
+  "qtype": "concept",
+  "result": "right",
+  "family": "sovereign and government debt issuance",
+  "los": "Fixed Income LM5 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 80,
+  "topic": "fi",
+  "concept": "Spot rates: implied spot from forward rates",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "spot and forward rates",
+  "los": "Fixed Income LM9 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 81,
+  "topic": "alts",
+  "concept": "Real estate: investment characteristics spectrum",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM4 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 82,
+  "topic": "alts",
+  "concept": "Digital assets: altcoins vs stablecoins",
+  "qtype": "concept",
+  "result": "right",
+  "family": "digital assets",
+  "los": "Alternative Investments LM7 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 83,
+  "topic": "deriv",
+  "concept": "Forward arbitrage: price below cost of carry",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "forward valuation and arbitrage",
+  "los": "Derivatives LM4 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 84,
+  "topic": "deriv",
+  "concept": "Forwards vs futures: correlation with interest rates",
+  "qtype": "concept",
+  "result": "right",
+  "family": "forwards vs futures",
+  "los": "Derivatives LM6 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 85,
+  "topic": "fi",
+  "concept": "Bond index features: aggregate index",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "bond indexes",
+  "los": "Fixed Income LM2 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 86,
+  "topic": "alts",
+  "concept": "Commodity indexes: futures-based construction",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland",
+  "los": "Alternative Investments LM5 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 87,
+  "topic": "fi",
+  "concept": "Bond holding period: duration matching",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon",
+  "los": "Fixed Income LM10 LOS b"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 88,
+  "topic": "alts",
+  "concept": "Hedge fund lockups: soft lockup",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hedge funds: strategies, lockups, prime broker",
+  "los": "Alternative Investments LM6 LOS a"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 89,
+  "topic": "equity",
+  "concept": "Revenue drivers: pricing power",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "company/industry analysis and forecasting",
+  "los": "Equity Investments LM5 LOS c"
+ },
+ {
+  "source": "MM2 S2",
+  "number": 90,
+  "topic": "fi",
+  "concept": "Current yield",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "los": "Fixed Income LM1 LOS a"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 1,
+  "topic": "ethics",
+  "concept": "Supervisors IV(C): suspected violation, restrict and monitor",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Supervisors IV(C)"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 2,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 3,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 4,
+  "topic": "ethics",
+  "concept": "Suitability III(C): know client before recommending",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Suitability III(C)"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 5,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 6,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 7,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 8,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 9,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 10,
+  "topic": "ethics",
+  "concept": "Performance presentation III(D)",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Performance presentation III(D)"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 11,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 12,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 13,
+  "topic": "ethics",
+  "concept": "GIPS: total firm assets and sub-advisors",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "GIPS"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 14,
+  "topic": "ethics",
+  "concept": "Diligence V(A) and suitability III(C): research depth vs risk",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Diligence V(A)"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 15,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 16,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 17,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 18,
+  "topic": "ethics",
+  "concept": "GIPS: who can claim compliance, consultants",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "GIPS"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 19,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 20,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 21,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 22,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 23,
+  "topic": "ethics",
+  "concept": "Independence I(B): issuer-paid travel",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Independence and objectivity I(B)"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 24,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 25,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 26,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 27,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 28,
+  "topic": "ethics",
+  "concept": "Loyalty III(A): pension plan client and conflicts disclosure",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Loyalty III(A)"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 29,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 30,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "MM2 S1",
+  "number": 31,
+  "topic": "ethics",
+  "concept": "Responsibilities to employer: firm policy conflicts with Code",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "Responsibilities to employer IV"
+ },
+ {
+  "source": "MM2 S1",
+  "number": 32,
+  "topic": "ethics",
+  "concept": "Ethics: standard not recorded",
+  "qtype": "concept",
+  "result": "right",
+  "family": "Ethics",
+  "concept_known": false
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 1,
+  "topic": "deriv",
+  "concept": "Forward vs futures: counterparty credit risk",
+  "qtype": "concept",
+  "result": "right",
+  "family": "forwards vs futures"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 2,
+  "topic": "alts",
+  "concept": "Hedge fund incentive fee with hard hurdle",
+  "qtype": "calc",
+  "result": "right",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 3,
+  "topic": "fi",
+  "concept": "Credit spreads: effect on credit-risky bond performance",
+  "qtype": "concept",
+  "result": "right",
+  "family": "yield spreads: G-, Z-, I-spread, credit spreads"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 4,
+  "topic": "fi",
+  "concept": "MBS/ABS: prepayment risk",
+  "qtype": "concept",
+  "result": "right",
+  "family": "securitization: MBS, ABS, mortgages"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 5,
+  "topic": "deriv",
+  "concept": "Binomial model: risk-neutral probability and risk aversion",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "binomial option model"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 6,
+  "topic": "fi",
+  "concept": "Callable bonds: issuer option",
+  "qtype": "concept",
+  "result": "right",
+  "family": "bond features: callable, covenants, structures, FRNs"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 7,
+  "topic": "equity",
+  "concept": "Equity issuance: purposes",
+  "qtype": "concept",
+  "result": "right",
+  "family": "company/industry analysis and forecasting"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 8,
+  "topic": "equity",
+  "concept": "Valuation: market price vs intrinsic value",
+  "qtype": "concept",
+  "result": "right",
+  "family": "company/industry analysis and forecasting"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 9,
+  "topic": "alts",
+  "concept": "Venture capital: characteristics and risk",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 10,
+  "topic": "equity",
+  "concept": "Limit orders: sell limit above best offer",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "order types, trading and market structure"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 11,
+  "topic": "pm",
+  "concept": "Risk budgeting: applies to business and portfolio",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "risk management and governance"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 12,
+  "topic": "fi",
+  "concept": "Macaulay duration equals maturity: zero-coupon bond",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 13,
+  "topic": "fi",
+  "concept": "YTM conversion between compounding frequencies",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 14,
+  "topic": "equity",
+  "concept": "Trade execution: large block of stock",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "order types, trading and market structure"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 15,
+  "topic": "deriv",
+  "concept": "Short put: profit at expiration",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "option payoffs, exercise value and strategies"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 16,
+  "topic": "alts",
+  "concept": "Hedge fund strategies: convertible arbitrage",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hedge funds: strategies, lockups, prime broker"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 17,
+  "topic": "pm",
+  "concept": "CAPM expected return from correlation",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "CAPM/SML: expected return and valuation"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 18,
+  "topic": "equity",
+  "concept": "Price multiples: disadvantages",
+  "qtype": "concept",
+  "result": "right",
+  "family": "P/E multiples, justified P/E, sustainable growth"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 19,
+  "topic": "fi",
+  "concept": "Empirical duration: definition",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 20,
+  "topic": "fi",
+  "concept": "Approximate convexity",
+  "qtype": "calc",
+  "result": "right",
+  "family": "duration calculations: Macaulay, modified, approximate, portfolio, money",
+  "unsure_but_right": true
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 21,
+  "topic": "deriv",
+  "concept": "Convenience yield: spot price vs futures",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "forward valuation and arbitrage"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 22,
+  "topic": "fi",
+  "concept": "Duration: coupon and sensitivity",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 23,
+  "topic": "deriv",
+  "concept": "Put-call-forward parity: relationship",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "put-call-forward parity"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 24,
+  "topic": "alts",
+  "concept": "Cryptocurrencies: issuers",
+  "qtype": "concept",
+  "result": "right",
+  "family": "digital assets"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 25,
+  "topic": "deriv",
+  "concept": "OTC vs exchange-traded derivatives: transparency",
+  "qtype": "concept",
+  "result": "right",
+  "family": "derivative markets, Greeks, implied volatility"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 26,
+  "topic": "fi",
+  "concept": "Approximate modified duration",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "duration calculations: Macaulay, modified, approximate, portfolio, money"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 27,
+  "topic": "equity",
+  "concept": "Price index vs total return index at inception",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "equity indexes: weighting and return calculations"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 28,
+  "topic": "deriv",
+  "concept": "Greeks: gamma as second-order risk",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "derivative markets, Greeks, implied volatility"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 29,
+  "topic": "pm",
+  "concept": "IPS plus capital market expectations: strategic asset allocation",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "IPS, investor types and fund structures"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 30,
+  "topic": "deriv",
+  "concept": "Option bounds: minimum European call",
+  "qtype": "calc",
+  "result": "right",
+  "family": "option value bounds",
+  "unsure_but_right": true
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 31,
+  "topic": "deriv",
+  "concept": "Forward price from call option profit",
+  "qtype": "calc",
+  "result": "right",
+  "family": "forward valuation and arbitrage"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 32,
+  "topic": "pm",
+  "concept": "Relative risk objective: tracking band",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "risk tolerance, risk aversion and risk objectives"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 33,
+  "topic": "pm",
+  "concept": "Efficient markets: risk-return trade-off",
+  "qtype": "concept",
+  "result": "right",
+  "family": "risk tolerance, risk aversion and risk objectives"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 34,
+  "topic": "fi",
+  "concept": "Duration plus convexity: percentage price change",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "duration calculations: Macaulay, modified, approximate, portfolio, money"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 35,
+  "topic": "fi",
+  "concept": "Bond price to discount rate (YTM)",
+  "qtype": "calc",
+  "result": "right",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield",
+  "unsure_but_right": true
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 36,
+  "topic": "pm",
+  "concept": "Market model: abnormal return",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "CAPM/SML: expected return and valuation"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 37,
+  "topic": "alts",
+  "concept": "Hedge fund fees with high-water mark",
+  "qtype": "calc",
+  "result": "right",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 38,
+  "topic": "alts",
+  "concept": "Real estate: investment characteristics",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "real assets: real estate, REITs, infrastructure, farmland"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 39,
+  "topic": "pm",
+  "concept": "CAPM: assumptions",
+  "qtype": "concept",
+  "result": "right",
+  "family": "CAPM/SML: expected return and valuation"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 40,
+  "topic": "deriv",
+  "concept": "Swap pricing: fixed rate sets PV to zero",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "swaps"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 41,
+  "topic": "fi",
+  "concept": "Effective convexity: definition",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 42,
+  "topic": "pm",
+  "concept": "Two-asset portfolio standard deviation when correlation is -1",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "portfolio risk: two-asset sigma, diversification, correlation"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 43,
+  "topic": "alts",
+  "concept": "Timberland: flexibility to delay harvests",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 44,
+  "topic": "pm",
+  "concept": "Asset management industry: firm types",
+  "qtype": "concept",
+  "result": "right",
+  "family": "IPS, investor types and fund structures"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 45,
+  "topic": "equity",
+  "concept": "Industry classification systems",
+  "qtype": "concept",
+  "result": "right",
+  "family": "company/industry analysis and forecasting"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 46,
+  "topic": "pm",
+  "concept": "Endowments and foundations: alternatives allocation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "IPS, investor types and fund structures"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 47,
+  "topic": "pm",
+  "concept": "Jensen's alpha",
+  "qtype": "calc",
+  "result": "right",
+  "family": "CAPM/SML: expected return and valuation",
+  "unsure_but_right": true
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 48,
+  "topic": "equity",
+  "concept": "Margin buying: margin call price",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "margin buying and leverage ratio"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 49,
+  "topic": "equity",
+  "concept": "Equity index types: multi-market index",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "equity indexes: weighting and return calculations"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 50,
+  "topic": "equity",
+  "concept": "Equal-weighted index: characteristics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "equity indexes: weighting and return calculations"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 51,
+  "topic": "pm",
+  "concept": "IPS: appropriate use",
+  "qtype": "concept",
+  "result": "right",
+  "family": "IPS, investor types and fund structures"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 52,
+  "topic": "equity",
+  "concept": "DDM: multistage valuation",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "DDM and PV models: model selection and multistage value"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 53,
+  "topic": "alts",
+  "concept": "Infrastructure: high-risk greenfield",
+  "qtype": "concept",
+  "result": "right",
+  "family": "real assets: real estate, REITs, infrastructure, farmland"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 54,
+  "topic": "alts",
+  "concept": "Private debt: mezzanine features",
+  "qtype": "concept",
+  "result": "right",
+  "family": "private debt"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 55,
+  "topic": "deriv",
+  "concept": "Long call: value at expiration",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "option payoffs, exercise value and strategies"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 56,
+  "topic": "pm",
+  "concept": "Correlation and diversification: equally weighted portfolio",
+  "qtype": "concept",
+  "result": "right",
+  "family": "portfolio risk: two-asset sigma, diversification, correlation"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 57,
+  "topic": "equity",
+  "concept": "Short selling: mechanics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "order types, trading and market structure"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 58,
+  "topic": "deriv",
+  "concept": "Option time value: definition",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "option payoffs, exercise value and strategies"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 59,
+  "topic": "equity",
+  "concept": "Semi-strong efficiency: role of fundamental analysis",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "market efficiency and anomalies"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 60,
+  "topic": "fi",
+  "concept": "Eurobond vs foreign bond",
+  "qtype": "concept",
+  "result": "right",
+  "family": "sovereign and government debt issuance"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 61,
+  "topic": "equity",
+  "concept": "Market structure: dealers and liquidity",
+  "qtype": "concept",
+  "result": "right",
+  "family": "order types, trading and market structure"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 62,
+  "topic": "deriv",
+  "concept": "Implied volatility",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "derivative markets, Greeks, implied volatility"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 63,
+  "topic": "fi",
+  "concept": "Bond price from spot rates",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "bond pricing: accrued interest, flat/full price, YTM, current yield"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 64,
+  "topic": "alts",
+  "concept": "Private equity returns: MOIC vs IRR and time",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 65,
+  "topic": "alts",
+  "concept": "Private equity: clawback provision",
+  "qtype": "concept",
+  "result": "right",
+  "family": "private fund fees: hurdle, high-water mark, committed capital, FoF"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 66,
+  "topic": "equity",
+  "concept": "Stock dividend: no valuation effect",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "dividends: stock dividend vs cash"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 67,
+  "topic": "fi",
+  "concept": "Investment horizon vs Macaulay duration: price risk",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 68,
+  "topic": "equity",
+  "concept": "Margin: maximum leverage ratio",
+  "qtype": "calc",
+  "result": "right",
+  "family": "margin buying and leverage ratio"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 69,
+  "topic": "equity",
+  "concept": "Preference shares: convertible",
+  "qtype": "concept",
+  "result": "right",
+  "family": "preference shares"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 70,
+  "topic": "pm",
+  "concept": "Behavioral biases: belief perseverance",
+  "qtype": "concept",
+  "result": "right",
+  "family": "behavioral finance and anomalies"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 71,
+  "topic": "fi",
+  "concept": "G-spread",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "yield spreads: G-, Z-, I-spread, credit spreads"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 72,
+  "topic": "pm",
+  "concept": "CAL slope equals Sharpe ratio",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "CAL/CML, Sharpe ratio and optimal portfolio, M-squared"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 73,
+  "topic": "pm",
+  "concept": "IPS: foundation spending rule",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "IPS, investor types and fund structures"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 74,
+  "topic": "fi",
+  "concept": "Effective duration for bonds with embedded options",
+  "qtype": "concept",
+  "result": "right",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 75,
+  "topic": "equity",
+  "concept": "Bank analysis: starts with balance sheet",
+  "qtype": "concept",
+  "result": "right",
+  "family": "company/industry analysis and forecasting"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 76,
+  "topic": "pm",
+  "concept": "Risk preference: risk-averse choice from expected value",
+  "qtype": "concept",
+  "result": "right",
+  "family": "risk tolerance, risk aversion and risk objectives"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 77,
+  "topic": "equity",
+  "concept": "Justified forward P/E: Gordon growth relationships",
+  "qtype": "concept",
+  "result": "right",
+  "family": "P/E multiples, justified P/E, sustainable growth"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 78,
+  "topic": "equity",
+  "concept": "Sustainable growth rate from ROA and leverage",
+  "qtype": "calc",
+  "result": "right",
+  "family": "P/E multiples, justified P/E, sustainable growth",
+  "unsure_but_right": true
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 79,
+  "topic": "alts",
+  "concept": "Alternative investments: characteristics",
+  "qtype": "concept",
+  "result": "right",
+  "family": "alternative investment characteristics"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 80,
+  "topic": "equity",
+  "concept": "Size effect anomaly",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market efficiency and anomalies"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 81,
+  "topic": "fi",
+  "concept": "Non-sovereign government bonds",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "sovereign and government debt issuance"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 82,
+  "topic": "equity",
+  "concept": "Market efficiency: determinants",
+  "qtype": "concept",
+  "result": "right",
+  "family": "market efficiency and anomalies"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 83,
+  "topic": "fi",
+  "concept": "Non-recourse mortgage loans",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "securitization: MBS, ABS, mortgages"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 84,
+  "topic": "deriv",
+  "concept": "Protective put strategy",
+  "qtype": "concept",
+  "result": "right",
+  "family": "option payoffs, exercise value and strategies"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 85,
+  "topic": "fi",
+  "concept": "ABS: special purpose entity as legal owner",
+  "qtype": "concept",
+  "result": "right",
+  "family": "securitization: MBS, ABS, mortgages"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 86,
+  "topic": "alts",
+  "concept": "Limited partnership structure",
+  "qtype": "concept",
+  "result": "right",
+  "family": "private equity and venture capital: LBO, exits, MOIC/IRR, co-invest",
+  "unsure_but_right": true
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 87,
+  "topic": "fi",
+  "concept": "Coupon reinvestment risk: long horizon",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "duration/convexity concepts: effective, empirical, drivers, horizon"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 88,
+  "topic": "deriv",
+  "concept": "Swap replication using bonds",
+  "qtype": "concept",
+  "result": "right",
+  "family": "swaps"
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 89,
+  "topic": "equity",
+  "concept": "Preferred share valuation: retractable",
+  "qtype": "calc",
+  "result": "right",
+  "family": "DDM and PV models: model selection and multistage value",
+  "unsure_but_right": true
+ },
+ {
+  "source": "CFA Mock A P2",
+  "number": 90,
+  "topic": "fi",
+  "concept": "Credit ratings: notching adjustment",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "credit analysis and ratings"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 1,
+  "topic": "quant",
+  "concept": "Hypothesis setup: one-sided alternative formulation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 2,
+  "topic": "quant",
+  "concept": "Hypothesis testing: alternative covers remaining values",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 3,
+  "topic": "quant",
+  "concept": "Null hypothesis: complement of alternative",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 4,
+  "topic": "quant",
+  "concept": "One-tailed test: rejection region and researcher belief",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 5,
+  "topic": "quant",
+  "concept": "Significance level vs confidence level",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 6,
+  "topic": "quant",
+  "concept": "Rejection region: one-tailed vs two-tailed at 5%",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 7,
+  "topic": "quant",
+  "concept": "Test statistic: purpose",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 8,
+  "topic": "quant",
+  "concept": "Type I error: definition",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 9,
+  "topic": "quant",
+  "concept": "Type II error: definition",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 10,
+  "topic": "quant",
+  "concept": "Significance level: sets rejection points",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 11,
+  "topic": "quant",
+  "concept": "Power of test: correctly rejecting false null",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 12,
+  "topic": "quant",
+  "concept": "Power of test: definition",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 13,
+  "topic": "quant",
+  "concept": "Decision rule: critical value",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 14,
+  "topic": "quant",
+  "concept": "Pooled estimator: equal variances two means",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 15,
+  "topic": "quant",
+  "concept": "Paired comparisons for dependent samples",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 16,
+  "topic": "quant",
+  "concept": "Chi-square test: single variance",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 17,
+  "topic": "quant",
+  "concept": "F-test: two variances",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 18,
+  "topic": "quant",
+  "concept": "Nonparametric test: ranked data",
+  "qtype": "concept",
+  "result": "right",
+  "family": "parametric vs nonparametric tests"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 19,
+  "topic": "quant",
+  "concept": "Nonparametric test: when used",
+  "qtype": "concept",
+  "result": "right",
+  "family": "parametric vs nonparametric tests"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 20,
+  "topic": "quant",
+  "concept": "Test selection: mean of two funds' returns (paired)",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 21,
+  "topic": "quant",
+  "concept": "Type I error: probability definition",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 22,
+  "topic": "quant",
+  "concept": "Paired comparisons t-test: decision vs critical value",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 23,
+  "topic": "quant",
+  "concept": "Hypothesis setup: variance test (square sigma)",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 24,
+  "topic": "quant",
+  "concept": "Two-sample t-test with pooled variance",
+  "qtype": "calc",
+  "result": "right",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 25,
+  "topic": "quant",
+  "concept": "Paired comparisons t-statistic",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 26,
+  "topic": "quant",
+  "concept": "Test selection: two means independent samples",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 27,
+  "topic": "quant",
+  "concept": "Nonparametric: least appropriate data types",
+  "qtype": "concept",
+  "result": "right",
+  "family": "parametric vs nonparametric tests"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 28,
+  "topic": "quant",
+  "concept": "Chi-square test statistic for single variance",
+  "qtype": "calc",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 29,
+  "topic": "quant",
+  "concept": "Parametric vs nonparametric: when parametric preferred",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "parametric vs nonparametric tests"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 30,
+  "topic": "quant",
+  "concept": "Power of test: definition",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 31,
+  "topic": "quant",
+  "concept": "Type II error: definition",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 32,
+  "topic": "quant",
+  "concept": "Power of test: probability of correctly rejecting",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 33,
+  "topic": "quant",
+  "concept": "Power equals one minus Type II error probability",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 34,
+  "topic": "quant",
+  "concept": "Hypothesis setup: alternative for mean greater than zero",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 35,
+  "topic": "quant",
+  "concept": "Paired t-test: degrees of freedom",
+  "qtype": "calc",
+  "result": "right",
+  "family": "hypothesis tests: choose test (pooled/paired/chi-square/F)"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 36,
+  "topic": "quant",
+  "concept": "Hypothesis test: what changes when hypothesised difference changes",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: setup of H0/Ha, test statistic, decision rule"
+ },
+ {
+  "source": "Topic quiz M8",
+  "number": 37,
+  "topic": "quant",
+  "concept": "Nonparametric: least appropriate situation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "parametric vs nonparametric tests"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 1,
+  "topic": "quant",
+  "concept": "Regression prediction: predicted value from equation",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: prediction from fitted equation and residual"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 2,
+  "topic": "quant",
+  "concept": "Slope coefficient interpretation: change in Y",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: interpret slope, intercept, dummy, functional form"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 3,
+  "topic": "quant",
+  "concept": "Residual equals observed minus predicted",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: prediction from fitted equation and residual"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 4,
+  "topic": "quant",
+  "concept": "Homoskedasticity: definition",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: assumptions, data type, causation, variables"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 5,
+  "topic": "quant",
+  "concept": "Dummy variable identification",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: interpret slope, intercept, dummy, functional form"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 6,
+  "topic": "quant",
+  "concept": "Indicator regression: intercept interpretation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: interpret slope, intercept, dummy, functional form"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 7,
+  "topic": "quant",
+  "concept": "Indicator regression: slope interpretation",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: interpret slope, intercept, dummy, functional form"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 8,
+  "topic": "quant",
+  "concept": "Indicator regression: significance of change",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: interpret slope, intercept, dummy, functional form"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 9,
+  "topic": "quant",
+  "concept": "Coefficient of determination from output",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: R-squared, correlation from R-squared"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 10,
+  "topic": "quant",
+  "concept": "Correlation from R-squared and slope sign",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: R-squared, correlation from R-squared"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 11,
+  "topic": "quant",
+  "concept": "Prediction from regression equation (CFO on net income)",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: prediction from fitted equation and residual"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 12,
+  "topic": "quant",
+  "concept": "Slope significance via p-value",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: slope significance (t-test, p-value, non-zero H0)"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 13,
+  "topic": "quant",
+  "concept": "Regression data type: time-series vs cross-sectional",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: assumptions, data type, causation, variables"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 14,
+  "topic": "quant",
+  "concept": "Prediction with negative change in X",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: prediction from fitted equation and residual"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 15,
+  "topic": "quant",
+  "concept": "R-squared interpretation: X explains Y variation",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: R-squared, correlation from R-squared"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 16,
+  "topic": "quant",
+  "concept": "Standard error of estimate: meaning",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: standard error of estimate"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 17,
+  "topic": "quant",
+  "concept": "Regression output: incorrect conclusion on significance",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: assumptions, data type, causation, variables"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 18,
+  "topic": "quant",
+  "concept": "Scatter plot direction from slope sign",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: interpret slope, intercept, dummy, functional form"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 19,
+  "topic": "quant",
+  "concept": "Sample covariance from data",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "covariance and correlation calculations"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 20,
+  "topic": "quant",
+  "concept": "Correlation from R-squared and slope sign",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: R-squared, correlation from R-squared"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 21,
+  "topic": "quant",
+  "concept": "Regression: association not causation",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: assumptions, data type, causation, variables"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 22,
+  "topic": "quant",
+  "concept": "Dependent vs independent variable identification",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: assumptions, data type, causation, variables"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 23,
+  "topic": "quant",
+  "concept": "Degrees of freedom for slope t-test",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: ANOVA F-statistic and degrees of freedom"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 24,
+  "topic": "quant",
+  "concept": "Slope significance: t-statistic vs critical value",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: slope significance (t-test, p-value, non-zero H0)"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 25,
+  "topic": "quant",
+  "concept": "Predicted value from regression equation",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: prediction from fitted equation and residual"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 26,
+  "topic": "quant",
+  "concept": "F-statistic from regression ANOVA",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: ANOVA F-statistic and degrees of freedom"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 27,
+  "topic": "quant",
+  "concept": "Test slope equals one: forecast unbiasedness",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: slope significance (t-test, p-value, non-zero H0)"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 28,
+  "topic": "quant",
+  "concept": "Prediction interval for forecast",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: prediction interval and forecast interval"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 29,
+  "topic": "quant",
+  "concept": "Forecast interval: effect of confidence level",
+  "qtype": "concept",
+  "result": "right",
+  "family": "hypothesis testing: Type I/II error, power, significance level"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 30,
+  "topic": "quant",
+  "concept": "Linear regression assumptions: identify incorrect",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: assumptions, data type, causation, variables"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 31,
+  "topic": "quant",
+  "concept": "Standard error of estimate from SSE and n minus 2",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: standard error of estimate"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 32,
+  "topic": "quant",
+  "concept": "Slope test against non-zero value",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "regression: slope significance (t-test, p-value, non-zero H0)"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 33,
+  "topic": "quant",
+  "concept": "Predicted value for forecast X",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: prediction from fitted equation and residual"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 34,
+  "topic": "quant",
+  "concept": "Prediction interval: t-critical times forecast standard error",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: prediction interval and forecast interval"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 35,
+  "topic": "quant",
+  "concept": "R-squared from SSR and SST",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: R-squared, correlation from R-squared"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 36,
+  "topic": "quant",
+  "concept": "Standard error of estimate from MSE",
+  "qtype": "calc",
+  "result": "right",
+  "family": "regression: standard error of estimate"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 37,
+  "topic": "quant",
+  "concept": "Slope significance: p-value conclusion",
+  "qtype": "concept",
+  "result": "right",
+  "family": "regression: slope significance (t-test, p-value, non-zero H0)"
+ },
+ {
+  "source": "Topic quiz M10",
+  "number": 38,
+  "topic": "quant",
+  "concept": "Log-linear model: predicted value and un-logging",
+  "qtype": "calc",
+  "result": "wrong",
+  "family": "regression: prediction from fitted equation and residual"
+ },
+ {
+  "source": "Topic quiz M7",
+  "number": 9,
+  "topic": "fsa",
+  "concept": "Capitalized interest: effect on coverage and turnover ratios",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "partial_set": true
+ },
+ {
+  "source": "Topic quiz M7",
+  "number": 10,
+  "topic": "fsa",
+  "concept": "Depreciation methods: effect on net profit margin",
+  "qtype": "concept",
+  "result": "right",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "partial_set": true
+ },
+ {
+  "source": "Topic quiz M7",
+  "number": 11,
+  "topic": "fsa",
+  "concept": "Asset base: average age, remaining life, total useful life",
+  "qtype": "concept",
+  "result": "right",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "partial_set": true
+ },
+ {
+  "source": "Topic quiz M7",
+  "number": 12,
+  "topic": "fsa",
+  "concept": "Impairment loss: effect on ratios and cash flow",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "partial_set": true
+ },
+ {
+  "source": "Topic quiz M7",
+  "number": 13,
+  "topic": "fsa",
+  "concept": "Asset revaluation: effect on ROE, ROA and leverage",
+  "qtype": "concept",
+  "result": "wrong",
+  "family": "long-lived assets: capitalise, impair, revalue, depreciate",
+  "partial_set": true
+ }
+]
