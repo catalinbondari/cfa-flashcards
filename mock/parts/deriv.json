@@ -1,0 +1,198 @@
+[
+ {
+  "id": "deriv-01",
+  "topic": "deriv",
+  "concept": "Put-call parity and put-call-forward parity (c - p direction, PV(X) vs spot)",
+  "difficulty": "medium",
+  "stem": "<p>European call and put options on Aldine Corp stock have the same strike, USD 50.00, and expire in six months. The stock trades at USD 48.00, the call at USD 3.80, and the annual risk-free rate is 4.0% (annual compounding). The stock pays no dividends.</p><p>The put price is closest to:</p>",
+  "options": {
+   "A": "USD 4.83",
+   "B": "USD 5.80",
+   "C": "USD 2.77"
+  },
+  "answer": "A",
+  "explanation": "<p>Put-call parity: c + PV(X) = p + S<sub>0</sub>, so p = c + PV(X) − S<sub>0</sub>.</p><p>PV(X) = 50/1.04<sup>0.5</sup> = 49.03. p = 3.80 + 49.03 − 48.00 = <b>USD 4.83</b>.</p><p><b>BA II Plus:</b> 1.04 [y<sup>x</sup>] 0.5 [=] [1/x] [×] 50 [=] 49.03; then 3.80 + 49.03 − 48 = 4.83.</p><p>LOS: put-call parity (c − p = S − PV(X)).</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — USD 5.80 uses X undiscounted: 3.80 + 50 − 48.</li><li><b>C</b> — USD 2.77 flips the direction (p = c − PV(X) + S): 3.80 − 49.03 + 48. Remember c − p = S − PV(X), so p = c − S + PV(X).</li></ul>"
+ },
+ {
+  "id": "deriv-02",
+  "topic": "deriv",
+  "concept": "Put-call parity and put-call-forward parity (c - p direction, PV(X) vs spot)",
+  "difficulty": "hard",
+  "stem": "<p>A European call and put on a stock have strike USD 100.00 and expire in one year. The stock trades at USD 90.00 and will pay a dividend before expiry; the one-year forward price on the stock is USD 92.40. The risk-free rate is 5.0% (annual) and the call trades at USD 4.10.</p><p>The put price consistent with put-call-forward parity is closest to:</p>",
+  "options": {
+   "A": "USD 9.34",
+   "B": "USD 11.34",
+   "C": "USD 11.70"
+  },
+  "answer": "B",
+  "explanation": "<p>Put-call-forward parity: c + PV(X) = p + PV(F<sub>0</sub>(T)), so p = c + [X − F<sub>0</sub>(T)]/(1 + r)<sup>T</sup>.</p><p>p = 4.10 + (100 − 92.40)/1.05 = 4.10 + 7.238 = <b>USD 11.34</b>.</p><p><b>BA II Plus:</b> 100 [−] 92.4 [÷] 1.05 [+] 4.1 [=] 11.34.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — USD 9.34 uses the spot-based formula p = c + PV(X) − S<sub>0</sub> = 4.10 + 95.24 − 90, which ignores the dividend that is embedded in the forward price. With a dividend, spot parity needs S<sub>0</sub> − PV(dividend).</li><li><b>C</b> — USD 11.70 does not discount the difference: 4.10 + (100 − 92.40).</li></ul>"
+ },
+ {
+  "id": "deriv-03",
+  "topic": "deriv",
+  "concept": "Option payoffs and profit: long/short call and put, exercise value, time value, protective put, risk reversal",
+  "difficulty": "easy",
+  "stem": "<p>An investor buys a share at USD 50.00 and, at the same time, buys a put on it with a strike of USD 48.00 for a premium of USD 2.50. At expiry the share price is USD 41.00. The profit per share on the protective put position is closest to:</p>",
+  "options": {
+   "A": "−USD 2.50",
+   "B": "−USD 11.50",
+   "C": "−USD 4.50"
+  },
+  "answer": "C",
+  "explanation": "<p>At expiry: share worth 41.00; put payoff = 48 − 41 = 7.00. Total value = 48.00 (the floor X). Cost = 50 + 2.50 = 52.50. Profit = 48.00 − 52.50 = <b>−USD 4.50</b> (= −(S<sub>0</sub> − X + p), the maximum loss).</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — −2.50 is just the premium; the loss on the share is ignored.</li><li><b>B</b> — −11.50 is the share loss (−9) plus premium (−2.50), ignoring the put payoff of 7.</li></ul>"
+ },
+ {
+  "id": "deriv-04",
+  "topic": "deriv",
+  "concept": "Option payoffs and profit: long/short call and put, exercise value, time value, protective put, risk reversal",
+  "difficulty": "medium",
+  "stem": "<p>An investor establishes a risk reversal on an index: buys a call with strike 105 for USD 2.00 and sells a put with strike 95 for USD 2.60, same expiry. At expiry the index closes at 89. The profit per unit is closest to:</p>",
+  "options": {
+   "A": "−USD 5.40",
+   "B": "−USD 6.00",
+   "C": "−USD 6.60"
+  },
+  "answer": "A",
+  "explanation": "<p>Long call (X = 105): worthless at 89. Short put (X = 95): pays out 95 − 89 = 6.00, a loss of 6.00. Net premium = +2.60 received − 2.00 paid = +0.60.</p><p>Profit = 0 − 6.00 + 0.60 = <b>−USD 5.40</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — −6.00 ignores the net premium of +0.60.</li><li><b>C</b> — −6.60 treats the net premium as a cost (−0.60) although premium received on the put exceeds premium paid on the call.</li></ul>"
+ },
+ {
+  "id": "deriv-05",
+  "topic": "deriv",
+  "concept": "Forward valuation: mark-to-market, cost of carry, arbitrage direction when F is mispriced",
+  "difficulty": "medium",
+  "stem": "<p>Six months ago a trader entered a long forward contract to buy a non-dividend-paying stock at USD 102.00 in one year. Today the stock trades at USD 104.00, six months remain, and the risk-free rate is 4.0% (annual compounding).</p><p>The current value of the long position is closest to:</p>",
+  "options": {
+   "A": "USD 5.92",
+   "B": "USD 3.98",
+   "C": "USD 2.00"
+  },
+  "answer": "B",
+  "explanation": "<p>V<sub>t</sub> (long) = S<sub>t</sub> − F<sub>0</sub>/(1 + r)<sup>T−t</sup> = 104 − 102/1.04<sup>0.5</sup> = 104 − 100.02 = <b>USD 3.98</b>.</p><p><b>BA II Plus:</b> 1.04 [y<sup>x</sup>] 0.5 [=] [1/x] [×] 102 [=] 100.02; 104 − 100.02 = 3.98.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — USD 5.92 discounts the contract price over a full year (102/1.04 = 98.08) instead of the remaining six months.</li><li><b>C</b> — USD 2.00 is S − F<sub>0</sub> with no discounting.</li></ul>"
+ },
+ {
+  "id": "deriv-06",
+  "topic": "deriv",
+  "concept": "Forward valuation: mark-to-market, cost of carry, arbitrage direction when F is mispriced",
+  "difficulty": "hard",
+  "stem": "<p>A stock trades at USD 80.00 and will pay a dividend of USD 1.50 in exactly one year. The one-year forward is quoted at USD 81.00. The risk-free rate is 5.0% (annual compounding). Which strategy captures an arbitrage profit and what is that profit at the forward's expiry?</p>",
+  "options": {
+   "A": "Buy the forward, short the stock and invest the proceeds; profit USD 1.50",
+   "B": "Sell the forward, buy the stock with borrowed money; profit USD 1.50",
+   "C": "Buy the forward, short the stock and invest the proceeds; profit USD 3.00"
+  },
+  "answer": "A",
+  "explanation": "<p>Fair forward price = S<sub>0</sub>(1 + r) − dividend = 80 × 1.05 − 1.50 = 82.50. The quoted 81.00 is below fair value (forward underpriced), so buy the forward and short the stock.</p><p>At expiry: invested 80 grows to 84.00; pay the stock lender the 1.50 dividend; pay 81.00 under the forward to take delivery and close the short. Profit = 84.00 − 1.50 − 81.00 = <b>USD 1.50</b> (= 82.50 − 81.00).</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — Right profit, wrong direction: selling an underpriced forward and buying the stock locks in a loss.</li><li><b>C</b> — Right direction, but 3.00 ignores the dividend owed to the stock lender (84 − 81); fair price is 82.50, not 84.00.</li></ul>"
+ },
+ {
+  "id": "deriv-07",
+  "topic": "deriv",
+  "concept": "Forwards vs futures: counterparty risk, correlation with rates, open interest, margin and marking to market",
+  "difficulty": "medium",
+  "stem": "<p>A trader buys 5 index futures contracts at 4,000 (multiplier USD 50 per index point). Initial margin is USD 5,000 per contract and maintenance margin is USD 4,000 per contract; the account was funded at exactly the initial margin. At the end of the day the settlement price is 3,970. The amount the trader must deposit to satisfy the margin call is closest to:</p>",
+  "options": {
+   "A": "USD 2,500",
+   "B": "USD 1,500",
+   "C": "USD 7,500"
+  },
+  "answer": "C",
+  "explanation": "<p>Daily loss = 30 points × USD 50 × 5 contracts = USD 7,500. Equity = 25,000 − 7,500 = 17,500, below the total maintenance margin of 20,000, so a margin call is made. Variation margin must restore the account to the <b>initial</b> margin of 25,000: deposit <b>USD 7,500</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — USD 2,500 brings equity back only to the maintenance level (20,000 − 17,500); the call requires returning to the initial margin.</li><li><b>B</b> — USD 1,500 is the loss per contract (30 × 50); the position has 5 contracts.</li></ul>"
+ },
+ {
+  "id": "deriv-08",
+  "topic": "deriv",
+  "concept": "Binomial hedge ratio and one-period value; option bounds (min/max European call and put)",
+  "difficulty": "hard",
+  "stem": "<p>A dealer has sold 600 one-period European call options, each on one share. The stock is USD 50 and will move to USD 62.50 or USD 40.00 at the end of the period. The strike is USD 55 and the one-period risk-free rate is 5%.</p><p>To delta-hedge the position, the dealer should buy approximately:</p>",
+  "options": {
+   "A": "333 shares",
+   "B": "200 shares",
+   "C": "1,800 shares"
+  },
+  "answer": "B",
+  "explanation": "<p>Call payoffs: up = 62.50 − 55 = 7.50; down = 0. Hedge ratio h = (c<sup>+</sup> − c<sup>−</sup>)/(S<sup>+</sup> − S<sup>−</sup>) = 7.50/22.50 = 1/3 share per call.</p><p>Shares = 600 × 1/3 = <b>200</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — 333 uses the risk-neutral up-probability π = (1.05 − 0.80)/(1.25 − 0.80) = 0.556 as the hedge ratio.</li><li><b>C</b> — 1,800 divides by the hedge ratio (600/0.333) instead of multiplying.</li></ul>"
+ },
+ {
+  "id": "deriv-09",
+  "topic": "deriv",
+  "concept": "Swaps: swap rate, replication with bonds and forwards",
+  "difficulty": "medium",
+  "stem": "<p>Which statement about a plain vanilla interest rate swap is most accurate?</p>",
+  "options": {
+   "A": "A pay-fixed swap is equivalent to issuing a floating-rate bond and investing the proceeds in a fixed-rate bond",
+   "B": "At initiation a swap is typically priced so that its value to the receive-fixed party is positive",
+   "C": "A pay-fixed swap is equivalent to issuing a fixed-rate bond and investing the proceeds in a floating-rate bond"
+  },
+  "answer": "C",
+  "explanation": "<p>The pay-fixed party makes fixed payments (like a fixed-rate issuer) and receives floating payments (like a floating-rate investor): short fixed-rate bond, long floating-rate note. The swap rate is set so that the swap's value is zero to both parties at initiation.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — Reverses the legs: that describes the receive-fixed side.</li><li><b>B</b> — The swap rate makes the initial value zero for both parties; a positive value would be an off-market swap requiring an upfront payment.</li></ul>"
+ },
+ {
+  "id": "deriv-10",
+  "topic": "deriv",
+  "concept": "Greeks, implied volatility, derivative uses and risk transfer",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about option sensitivities is LEAST accurate?</p>",
+  "options": {
+   "A": "The gamma of a long put is negative because the delta of a put is negative",
+   "B": "The delta of a long call lies between 0 and +1",
+   "C": "All else equal, an increase in implied volatility raises the price of both calls and puts"
+  },
+  "answer": "A",
+  "explanation": "<p>Gamma is the rate of change of delta with respect to the price of the underlying; it is positive for any long option, call or put. A put's delta is negative (between −1 and 0), but that does not make gamma negative: put delta rises toward 0 as the price rises.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — Accurate: call delta is between 0 and 1.</li><li><b>C</b> — Accurate: positive vega for long calls and puts.</li></ul>"
+ },
+ {
+  "id": "deriv-11",
+  "topic": "deriv",
+  "concept": "Futures pricing with income and storage; convenience yield",
+  "difficulty": "medium",
+  "stem": "<p>Crude oil trades at USD 75.00 per barrel. The one-year risk-free rate is 4.0% (annual). The present value of storage costs over the year is USD 2.50 per barrel and the present value of the convenience yield is USD 1.20 per barrel. The no-arbitrage one-year futures price is closest to:</p>",
+  "options": {
+   "A": "USD 80.60",
+   "B": "USD 79.35",
+   "C": "USD 81.85"
+  },
+  "answer": "B",
+  "explanation": "<p>F<sub>0</sub> = (S<sub>0</sub> + PV(storage) − PV(convenience yield))(1 + r) = (75 + 2.50 − 1.20) × 1.04 = 76.30 × 1.04 = <b>USD 79.35</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — USD 80.60 leaves out the convenience yield: (75 + 2.5) × 1.04.</li><li><b>C</b> — USD 81.85 adds the convenience yield instead of subtracting it: (75 + 2.5 + 1.2) × 1.04.</li></ul>"
+ },
+ {
+  "id": "deriv-12",
+  "topic": "deriv",
+  "concept": "Swap valuation after inception; FRA",
+  "difficulty": "hard",
+  "stem": "<p>A two-year annual-pay interest rate swap with notional EUR 50 million has a fixed rate of 3.00%. Current spot rates are 3.2% for one year and 3.6% for two years (annual compounding), and the current par swap rate for the remaining term is 3.59%. The value to the party that pays fixed is closest to:</p>",
+  "options": {
+   "A": "−EUR 563,000",
+   "B": "EUR 593,000",
+   "C": "EUR 563,000"
+  },
+  "answer": "C",
+  "explanation": "<p>Discount factors: Z<sub>1</sub> = 1/1.032 = 0.96899; Z<sub>2</sub> = 1/1.036<sup>2</sup> = 0.93172. Annuity factor = 1.90071.</p><p>Current par swap rate = (1 − 0.93172)/1.90071 = 3.593%.</p><p>The payer pays 3.00% when the market rate is 3.593%: a gain of (3.593% − 3.00%) × 50m = 296,457 per year for two years, discounted: 0.005929 × 1.90071 × 50,000,000 = <b>+EUR 563,000</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — Sign reversed: that is the value to the receive-fixed party, who is locked into a below-market rate.</li><li><b>B</b> — Does not discount the annual savings: 0.005929 × 2 × 50m = 593,000.</li></ul>"
+ },
+ {
+  "id": "deriv-13",
+  "topic": "deriv",
+  "concept": "Credit derivatives and CDS payoffs",
+  "difficulty": "medium",
+  "stem": "<p>Which statement about a single-name credit default swap (CDS) is most accurate?</p>",
+  "options": {
+   "A": "If the reference entity's credit spread widens after initiation, the CDS gains value for the protection buyer",
+   "B": "The protection seller makes periodic premium payments to the protection buyer",
+   "C": "After a credit event the protection buyer pays the seller the difference between par and the recovery value"
+  },
+  "answer": "A",
+  "explanation": "<p>The protection buyer pays the periodic premium (the CDS spread). If the reference entity's credit worsens, the market spread on a new CDS rises, so the existing CDS (which pays protection at the old, lower spread) gains value to the buyer. After a credit event the protection <i>seller</i> pays the buyer the loss, i.e. par minus recovery.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — The buyer pays the premium; the seller receives it.</li><li><b>C</b> — Reverses the payer: the seller pays par minus recovery (loss given default) to the buyer.</li></ul>"
+ },
+ {
+  "id": "deriv-14",
+  "topic": "deriv",
+  "concept": "Exchange-traded vs OTC: clearing, margin, American vs European exercise",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following is LEAST likely to describe exchange-traded derivatives?</p>",
+  "options": {
+   "A": "Contracts have standardized terms",
+   "B": "Terms such as expiration date and size are tailored to the needs of the counterparties",
+   "C": "A clearinghouse stands between the buyer and seller, reducing counterparty credit risk"
+  },
+  "answer": "B",
+  "explanation": "<p>Tailored terms are a feature of over-the-counter derivatives. Exchange-traded contracts are standardized, trade on a regulated exchange and are guaranteed by a clearinghouse.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — Standardization is a defining feature of exchange-traded contracts.</li><li><b>C</b> — The clearinghouse guarantee is a defining feature of exchange-traded contracts.</li></ul>"
+ }
+]

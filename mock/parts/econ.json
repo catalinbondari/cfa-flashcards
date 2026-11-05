@@ -1,0 +1,156 @@
+[
+ {
+  "id": "econ-01",
+  "topic": "econ",
+  "concept": "FX calculations: cross rates, forward points, triangular arbitrage, appreciation vs depreciation",
+  "difficulty": "easy",
+  "stem": "<p>A dealer quotes USD/GBP = 1.2800 and USD/EUR = 1.0800, both in price currency/base currency terms (USD per one GBP and USD per one EUR). The implied EUR/GBP cross rate, in euros per one pound, is closest to:</p>",
+  "options": {
+   "A": "1.1852",
+   "B": "0.8438",
+   "C": "1.3824"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> 1 GBP = 1.2800 USD and 1 EUR = 1.0800 USD, so 1 GBP = 1.2800 / 1.0800 = 1.1852 EUR. EUR/GBP = (USD/GBP) / (USD/EUR) = 1.1852. The USD cancels.</p><p><b>B is incorrect.</b> 0.8438 = 1.0800 / 1.2800 is the inverse (GBP/EUR, pounds per euro).</p><p><b>C is incorrect.</b> 1.3824 = 1.2800 &times; 1.0800 multiplies the two quotes; dollars would not cancel.</p><p><b>BA II Plus:</b> 1.28 [&divide;] 1.08 [=] 1.1852.</p><p>LOS: cross-rate calculation.</p>"
+ },
+ {
+  "id": "econ-02",
+  "topic": "econ",
+  "concept": "FX calculations: cross rates, forward points, triangular arbitrage, appreciation vs depreciation",
+  "difficulty": "hard",
+  "stem": "<p>The USD/EUR exchange rate (USD per one EUR) rises from 1.0800 to 1.1016. Relative to the euro, the US dollar has most likely:</p>",
+  "options": {
+   "A": "depreciated by 2.00%.",
+   "B": "depreciated by 1.96%.",
+   "C": "appreciated by 2.00%."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> A rise in USD/EUR means the euro (base currency) appreciated: 1.1016/1.0800 &minus; 1 = +2.00%. The dollar is the price currency. In euros per dollar, the rate fell from 1/1.0800 = 0.9259 to 1/1.1016 = 0.9078, a change of 1.0800/1.1016 &minus; 1 = &minus;1.96%. The dollar depreciated by 1.96%.</p><p><b>A is incorrect.</b> The 2.00% is the euro's appreciation (the base currency's percentage change); the dollar's depreciation must be measured on the inverted quote, giving 1.96%.</p><p><b>C is incorrect.</b> The size is the euro's move and the direction is wrong: a higher USD price of the euro means the dollar buys fewer euros, so it weakened.</p><p><b>BA II Plus:</b> 1.08 [&divide;] 1.1016 [=] 0.9804; [&minus;] 1 [=] &minus;0.0196.</p><p>LOS: percentage appreciation/depreciation of base and price currencies.</p>"
+ },
+ {
+  "id": "econ-03",
+  "topic": "econ",
+  "concept": "Exchange-rate regimes and trade-balance effects (absorption, Marshall-Lerner)",
+  "difficulty": "hard",
+  "stem": "<p>A country runs a trade deficit and its economy is operating at full employment. Its currency depreciates. According to the <b>absorption approach</b>, the trade balance will most likely improve only if:</p>",
+  "options": {
+   "A": "the sum of the price elasticities of demand for exports and imports exceeds one.",
+   "B": "domestic absorption rises faster than national income.",
+   "C": "domestic absorption (spending) falls relative to national income."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Trade balance = national income (output) &minus; domestic absorption. At full employment, depreciation cannot raise output, so the deficit shrinks only if domestic spending falls relative to income (or capacity allows income to rise).</p><p><b>A is incorrect.</b> This is the Marshall-Lerner condition of the <i>elasticities</i> approach, not the absorption approach.</p><p><b>B is incorrect.</b> Absorption rising faster than income would widen the deficit.</p><p>LOS: effect of exchange-rate changes on the trade balance: elasticities and absorption approaches.</p>"
+ },
+ {
+  "id": "econ-04",
+  "topic": "econ",
+  "concept": "Fiscal policy: multiplier, crowding out, automatic stabilisers",
+  "difficulty": "medium",
+  "stem": "<p>In an economy the marginal propensity to consume out of disposable income is 0.75 and the income tax rate is 20%. The government increases spending by &euro;40 billion, financed by borrowing, with no change in tax rates and no crowding out of private spending. The increase in real GDP is closest to:</p>",
+  "options": {
+   "A": "&euro;100 billion",
+   "B": "&euro;160 billion",
+   "C": "&euro;47 billion"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Fiscal multiplier = 1 / [1 &minus; MPC(1 &minus; t)] = 1 / [1 &minus; 0.75 &times; 0.80] = 1 / 0.40 = 2.5. &Delta;GDP = 2.5 &times; 40 = &euro;100 billion.</p><p><b>B is incorrect.</b> &euro;160 billion uses the multiplier without taxes, 1/(1 &minus; MPC) = 4.</p><p><b>C is incorrect.</b> &euro;47 billion uses 1 / (1 &minus; MPC &times; t) = 1/0.85, applying the tax rate where (1 &minus; t) belongs.</p><p><b>BA II Plus:</b> 0.75 [&times;] 0.8 [=] 0.6; 1 [&minus;] 0.6 [=] 0.4; [1/x] 2.5; [&times;] 40 [=] 100.</p><p>LOS: fiscal multiplier.</p>"
+ },
+ {
+  "id": "econ-05",
+  "topic": "econ",
+  "concept": "Monetary policy: tools, neutral rate, central bank roles and independence",
+  "difficulty": "medium",
+  "stem": "<p>A central bank targets inflation of 2.0% and estimates the real trend rate of economic growth at 1.5%. The current policy rate is 3.0%. The central bank's policy stance is best described as:</p>",
+  "options": {
+   "A": "contractionary, because the policy rate exceeds the 2.0% inflation target.",
+   "B": "expansionary, because the policy rate is below the neutral rate.",
+   "C": "contractionary, because the real policy rate is positive."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Neutral nominal policy rate = real trend growth + target inflation = 1.5% + 2.0% = 3.5%. The policy rate of 3.0% is below it, so policy is expansionary (stimulative).</p><p><b>A is incorrect.</b> The comparison is with the neutral rate (3.5%), not with the inflation target alone.</p><p><b>C is incorrect.</b> The real policy rate is 3.0% &minus; 2.0% = +1.0%, but the benchmark is the real neutral rate (the 1.5% trend growth rate). 1.0% &lt; 1.5%, so policy is still expansionary.</p><p>LOS: the neutral interest rate and the stance of monetary policy.</p>"
+ },
+ {
+  "id": "econ-06",
+  "topic": "econ",
+  "concept": "Business cycle phases and indicators",
+  "difficulty": "medium",
+  "stem": "<p>An economy shows these conditions: real GDP growth is positive but decelerating; unemployment is at a multi-year low; wage and price inflation are accelerating; the central bank is raising its policy rate; and the inventory-to-sales ratio is rising. The economy is most likely in:</p>",
+  "options": {
+   "A": "an early expansion.",
+   "B": "a recession.",
+   "C": "a late expansion."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Late expansion: growth positive but slowing, tight labor markets, accelerating wages and inflation, tightening monetary policy, and inventories building as sales soften.</p><p><b>A is incorrect.</b> In an early expansion, unemployment is high but falling, inflation is low and often falling, and policy is accommodative.</p><p><b>B is incorrect.</b> A recession features falling real GDP and rising unemployment, not an unemployment low and positive growth.</p><p>LOS: phases of the business cycle and typical indicators.</p>"
+ },
+ {
+  "id": "econ-07",
+  "topic": "econ",
+  "concept": "Market structures: HHI, Nash equilibrium, long-run competition",
+  "difficulty": "medium",
+  "stem": "<p>In an industry, the Herfindahl-Hirschman Index (HHI) is computed with market shares expressed in percent. Two firms with market shares of 15% and 12% propose to merge, and the combined firm is expected to hold a 27% share. The increase in the HHI caused by the merger is closest to:</p>",
+  "options": {
+   "A": "180",
+   "B": "360",
+   "C": "369"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Before: 15<sup>2</sup> + 12<sup>2</sup> = 225 + 144 = 369. After: 27<sup>2</sup> = 729. Increase = 729 &minus; 369 = 360 = 2 &times; 15 &times; 12.</p><p><b>A is incorrect.</b> 180 = 15 &times; 12 omits the factor 2 from (a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup>.</p><p><b>C is incorrect.</b> 369 is the sum of the two firms' squared shares <i>before</i> the merger, not the change.</p><p><b>BA II Plus:</b> 2 [&times;] 15 [&times;] 12 [=] 360.</p><p>LOS: HHI and the effect of mergers on concentration.</p>"
+ },
+ {
+  "id": "econ-08",
+  "topic": "econ",
+  "concept": "Geopolitics, globalisation, trading blocs",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about trading blocs is <b>least accurate</b>?</p>",
+  "options": {
+   "A": "A common market requires its members to adopt a single currency.",
+   "B": "A customs union adopts a common set of tariffs on imports from non-member countries.",
+   "C": "In a free trade area, members remove barriers to trade among themselves but each sets its own tariffs on non-members."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct (least accurate).</b> A common market allows free movement of goods, services and factors of production (labor and capital) among members. A single currency is a feature of a <i>monetary union</i>, the step beyond an economic union.</p><p><b>B is accurate.</b> This defines a customs union: free internal trade plus a common external tariff.</p><p><b>C is accurate.</b> In a free trade area, there is no common external tariff, each member keeps its own.</p><p>Ladder: free trade area, customs union, common market, economic union, monetary union.</p><p>LOS: forms of regional integration.</p>"
+ },
+ {
+  "id": "econ-09",
+  "topic": "econ",
+  "concept": "Comparative advantage, tariffs, quotas, trade restrictions",
+  "difficulty": "medium",
+  "stem": "<p>Country M imports steel. Its government compares a tariff with an import quota that limits imports to the <i>same quantity</i> as the tariff would, all else equal. The quota licences are given free to foreign exporters. Compared with the tariff, the quota will most likely result in:</p>",
+  "options": {
+   "A": "a smaller rise in the domestic price of steel.",
+   "B": "higher government revenue.",
+   "C": "quota rents accruing to foreign exporters rather than tariff revenue going to Country M's government."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> With the same import quantity, the domestic price is the same. The gap between domestic and world price is a tariff revenue under a tariff, but under a quota with licences allocated to foreign exporters it becomes quota rent captured by them. Country M's welfare loss is therefore larger.</p><p><b>A is incorrect.</b> The same import quantity implies the same domestic price, consumer surplus loss and domestic production gain.</p><p><b>B is incorrect.</b> The tariff raises government revenue; a quota with free licences raises none.</p><p>LOS: effects of tariffs and quotas on welfare.</p>"
+ },
+ {
+  "id": "econ-10",
+  "topic": "econ",
+  "concept": "Elasticity, breakeven and shutdown points, monopoly and monopolistic competition",
+  "difficulty": "easy",
+  "stem": "<p>A perfectly competitive firm faces a market price of &pound;8.00 per unit. At its current output, average total cost is &pound;9.50 and average variable cost is &pound;7.20. In the short run, the firm should most appropriately:</p>",
+  "options": {
+   "A": "shut down immediately, because price is below average total cost.",
+   "B": "continue to operate, because price exceeds average variable cost, and exit in the long run if price stays below average total cost.",
+   "C": "continue to operate in both the short and the long run, because price exceeds average variable cost."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Price (8.00) exceeds AVC (7.20), so each unit contributes &pound;0.80 towards fixed costs; operating loses &pound;1.50 per unit but shutting down would lose all fixed costs. In the long run all costs are variable, so the firm exits if price stays below ATC.</p><p><b>A is incorrect.</b> The short-run shutdown test compares price with AVC, not ATC.</p><p><b>C is incorrect.</b> Covering AVC justifies short-run operation only; a long-run loss (P &lt; ATC) leads to exit.</p><p>LOS: breakeven and shutdown points under perfect competition.</p>"
+ },
+ {
+  "id": "econ-11",
+  "topic": "econ",
+  "concept": "Balance of payments and capital flows",
+  "difficulty": "hard",
+  "stem": "<p>Which of the following changes would be <b>least likely</b> to widen a country's current account deficit?</p>",
+  "options": {
+   "A": "An increase in private-sector saving, with investment and the government budget balance unchanged.",
+   "B": "An increase in the government budget deficit, with private saving and investment unchanged.",
+   "C": "A surge in domestic business investment, with private saving and the government budget balance unchanged."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct (least likely).</b> Current account = (S<sub>private</sub> &minus; I) + (T &minus; G). Higher private saving raises (S &minus; I) and narrows the deficit (less need to borrow from abroad).</p><p><b>B is incorrect (it widens the deficit).</b> A larger budget deficit lowers (T &minus; G).</p><p><b>C is incorrect (it widens the deficit).</b> Higher investment lowers (S &minus; I), so more capital must be imported.</p><p>LOS: balance of payments, saving&ndash;investment identity.</p>"
+ }
+]

@@ -1,0 +1,324 @@
+[
+ {
+  "id": "fsa-01",
+  "topic": "fsa",
+  "concept": "Deferred taxes: DTA vs DTL (incl. liabilities), difference x rate, tax expense sign rule",
+  "difficulty": "hard",
+  "stem": "<p>Brandt AG's tax note shows income tax payable of &euro;520 million for the year. Over the year its deferred tax liability decreased from &euro;150 million to &euro;110 million, and its deferred tax asset increased from &euro;30 million to &euro;45 million. Income tax expense in the income statement is <b>closest to</b>:</p>",
+  "options": {
+   "A": "&euro;465 million",
+   "B": "&euro;495 million",
+   "C": "&euro;545 million"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Income tax expense = taxes payable + &Delta;DTL &minus; &Delta;DTA = 520 + (&minus;40) &minus; (+15) = &euro;465 million. A falling DTL means that, on balance, more tax is being paid than expensed, so expense is below the amount payable; a rising DTA means tax has been prepaid, which also lowers expense.</p><p><b>B is incorrect.</b> This is 520 &minus; 40 + 15: the DTL change has the right sign but the rise in the DTA was added instead of subtracted. A higher DTA reduces tax expense relative to taxes payable.</p><p><b>C is incorrect.</b> This is 520 + 40 &minus; 15: the fall in the DTL was treated as a rise (+40). A DTL that falls must be subtracted from taxes payable.</p><p><b>BA II Plus:</b> No special worksheet. Key: 520 &minus; 40 &minus; 15 = 465 (enter the DTL change as &minus;40 and the DTA change as +15, then subtract the DTA change).</p>"
+ },
+ {
+  "id": "fsa-02",
+  "topic": "fsa",
+  "concept": "Deferred taxes: DTA vs DTL (incl. liabilities), difference x rate, tax expense sign rule",
+  "difficulty": "medium",
+  "stem": "<p>Larkin Corp. (enacted tax rate 30%) recognises a &euro;240,000 provision for product warranties in its first year of operation. For tax purposes, warranty costs are deductible only when claims are paid, and no claims were paid during the year. At year-end Larkin will <b>most likely</b> report:</p>",
+  "options": {
+   "A": "a deferred tax liability of &euro;72,000.",
+   "B": "no deferred tax, because the difference is permanent.",
+   "C": "a deferred tax asset of &euro;72,000."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> This reverses the direction. The DTA/DTL rule is flipped for liabilities: carrying amount above tax base is a DTL for an asset but a DTA for a liability.</p><p><b>B is incorrect.</b> A permanent difference never reverses (for example, a fine that is never deductible). The warranty expense will become deductible when claims are paid, so this is a temporary difference.</p><p><b>C is correct.</b> The warranty liability has a carrying amount of &euro;240,000 and a tax base of zero (the carrying amount less the amount deductible in future periods is 240,000 &minus; 240,000 = 0). A liability whose carrying amount exceeds its tax base creates a deductible temporary difference: Larkin expenses the cost for reporting now but deducts it for tax later, so it pays more tax today. DTA = 240,000 &times; 30% = &euro;72,000.</p><p><b>BA II Plus:</b> 240,000 &times; 0.30 = 72,000.</p>"
+ },
+ {
+  "id": "fsa-03",
+  "topic": "fsa",
+  "concept": "Deferred taxes: DTA vs DTL (incl. liabilities), difference x rate, tax expense sign rule",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following is <b>least likely</b> to result in a deferred tax liability?</p>",
+  "options": {
+   "A": "Using accelerated depreciation for financial reporting and straight-line depreciation for tax.",
+   "B": "Using accelerated depreciation for tax and straight-line depreciation for financial reporting.",
+   "C": "Recognising revenue on a long-term contract for financial reporting before it is taxable."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Accelerated depreciation for reporting gives a lower carrying amount than the tax base. Taxable income is higher than pretax income now, so the company pays more tax today and has a deferred tax <i>asset</i>, not a liability. The rule: whoever deducts the expense first has the lower taxes today and the DTL.</p><p><b>B is incorrect.</b> Tax depreciation is higher in the early years, so taxable income is lower than pretax income and tax is deferred. Carrying amount exceeds tax base, which creates a DTL.</p><p><b>C is incorrect.</b> Revenue is recorded now but taxed later, so taxable income is lower than pretax income today. The tax is deferred and a DTL is created.</p>"
+ },
+ {
+  "id": "fsa-04",
+  "topic": "fsa",
+  "concept": "Diluted EPS: convertible bonds/preferred, options (TSM), antidilution",
+  "difficulty": "hard",
+  "stem": "<p>Marlowe Inc. reported net income of $1,500,000 and had 500,000 common shares outstanding throughout the year. It also had:</p><ul><li>non-convertible preferred stock with annual dividends of $100,000;</li><li>convertible preferred stock with annual dividends of $120,000, convertible into 100,000 common shares;</li><li>options to buy 60,000 common shares at $20, with an average market price of $30 during the year.</li></ul><p>Diluted EPS is <b>closest to</b>:</p>",
+  "options": {
+   "A": "$2.06",
+   "B": "$2.12",
+   "C": "$2.26"
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> $2.06 = (1,500,000 &minus; 100,000 &minus; 120,000) / 620,000. The numerator still deducts the convertible preferred dividend even though the shares are added: the dividend must be added back when conversion is assumed.</p><p><b>B is incorrect.</b> $2.12 = 1,400,000 / (500,000 + 100,000 + 60,000). All 60,000 option shares were added instead of the treasury stock method net of 20,000 shares repurchased with the exercise proceeds.</p><p><b>C is correct.</b> Basic EPS = (1,500,000 &minus; 100,000 &minus; 120,000) / 500,000 = $2.56. The convertible preferred is dilutive (120,000 / 100,000 = $1.20 per incremental share is below $2.56), so its dividend is added back but the non-convertible dividend still comes off. Treasury stock method: 60,000 &minus; (60,000 &times; 20 / 30) = 20,000 net new shares. Diluted EPS = (1,500,000 &minus; 100,000) / (500,000 + 100,000 + 20,000) = 1,400,000 / 620,000 = <b>$2.26</b>.</p><p><b>BA II Plus:</b> Numerator: 1,500,000 &minus; 100,000 = 1,400,000. Shares: 60,000 &times; (1 &minus; 20 &divide; 30) = 20,000 (keys: 1 &minus; 20 &divide; 30 = 0.3333, &times; 60,000 = 20,000). Then 1,400,000 &divide; 620,000 = 2.258.</p>"
+ },
+ {
+  "id": "fsa-05",
+  "topic": "fsa",
+  "concept": "Diluted EPS: convertible bonds/preferred, options (TSM), antidilution",
+  "difficulty": "hard",
+  "stem": "<p>Vantor Ltd. reported net income of &pound;800,000 and a weighted average of 400,000 shares, so basic EPS is &pound;2.00. The tax rate is 25%. Dilutive securities outstanding all year:</p><ul><li>6% convertible bonds: annual interest expense of &pound;120,000 (before tax), convertible into 25,000 shares;</li><li>options on 40,000 shares at an exercise price of &pound;15, with an average market price of &pound;25.</li></ul><p>Diluted EPS is <b>closest to</b>:</p>",
+  "options": {
+   "A": "&pound;1.92",
+   "B": "&pound;2.00",
+   "C": "&pound;2.02"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Options: 40,000 &minus; (40,000 &times; 15 / 25) = 16,000 incremental shares, which lowers EPS to 800,000 / 416,000 = &pound;1.923. The bonds add 120,000 &times; (1 &minus; 0.25) = 90,000 of income for 25,000 shares, or &pound;3.60 per incremental share, which exceeds EPS of &pound;1.92 (and basic EPS of &pound;2.00). They are antidilutive and are excluded. Diluted EPS = &pound;1.92.</p><p><b>B is incorrect.</b> Diluted EPS equal to basic would require that no security be dilutive. The options are dilutive because their exercise price is below the average market price.</p><p><b>C is incorrect.</b> &pound;2.02 = (800,000 + 90,000) / (400,000 + 16,000 + 25,000). Including the bonds raises EPS above the figure without them, which signals antidilution. Diluted EPS can never be higher than basic EPS.</p><p><b>BA II Plus:</b> 800,000 &divide; 416,000 = 1.923. Antidilution check: 90,000 &divide; 25,000 = 3.60 > 1.92.</p>"
+ },
+ {
+  "id": "fsa-06",
+  "topic": "fsa",
+  "concept": "FCFF and FCFE from NI/CFO (payables sign, Int(1-t), net borrowing)",
+  "difficulty": "medium",
+  "stem": "<p>A company reports the following for the year (in &pound; millions): net income 240; depreciation 80; interest expense 50; tax rate 30%; capital expenditures 150; accounts receivable increased by 40; accounts payable increased by 30. Free cash flow to the firm is <b>closest to</b>:</p>",
+  "options": {
+   "A": "&pound;135 million",
+   "B": "&pound;195 million",
+   "C": "&pound;210 million"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> &pound;135 million subtracts the rise in payables (WCInv = 40 + 30 = 70). Liability increases must be added.</p><p><b>B is correct.</b> FCFF = NI + non-cash charges + Int(1 &minus; t) &minus; FCInv &minus; WCInv. Int(1 &minus; t) = 50 &times; 0.70 = 35. Working capital investment = &Delta;AR &minus; &Delta;AP = 40 &minus; 30 = 10 (a rise in a liability is a source of cash). FCFF = 240 + 80 + 35 &minus; 150 &minus; 10 = &pound;195 million.</p><p><b>C is incorrect.</b> &pound;210 million adds back the full interest of 50 rather than after-tax interest of 35.</p><p><b>BA II Plus:</b> 50 &times; 0.7 = 35; 240 + 80 + 35 &minus; 150 &minus; 40 + 30 = 195.</p>"
+ },
+ {
+  "id": "fsa-07",
+  "topic": "fsa",
+  "concept": "FCFF and FCFE from NI/CFO (payables sign, Int(1-t), net borrowing)",
+  "difficulty": "hard",
+  "stem": "<p>A Swiss manufacturer reports (in CHF millions): net income 300; depreciation 90; inventory increased by 40; accounts payable decreased by 25; capital expenditures 180; new borrowing 100; debt repayment 160. Free cash flow to equity is <b>closest to</b>:</p>",
+  "options": {
+   "A": "CHF 85 million",
+   "B": "CHF 135 million",
+   "C": "CHF 205 million"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> FCFE = NI + NCC &minus; FCInv &minus; WCInv + net borrowing. WCInv = 40 (inventory up) + 25 (payables down, a use of cash) = 65. Net borrowing = 100 &minus; 160 = &minus;60. FCFE = 300 + 90 &minus; 180 &minus; 65 &minus; 60 = CHF 85 million.</p><p><b>B is incorrect.</b> CHF 135 million treats the fall in payables as a source of cash (+25): 300 + 90 &minus; 40 + 25 &minus; 180 &minus; 60. A decrease in a liability is an outflow.</p><p><b>C is incorrect.</b> CHF 205 million adds the repayment as if it were positive net borrowing (+60). The company repaid more than it borrowed, so net borrowing is negative.</p><p><b>BA II Plus:</b> 300 + 90 &minus; 40 &minus; 25 &minus; 180 + 100 &minus; 160 = 85.</p>"
+ },
+ {
+  "id": "fsa-08",
+  "topic": "fsa",
+  "concept": "Long-lived assets: capitalised interest, impairment, revaluation, depreciation effects on ratios",
+  "difficulty": "medium",
+  "stem": "<p>Orvale Corp., a US GAAP reporter, borrows to build its own production plant and capitalises the related interest rather than expensing it. Compared with expensing the interest, capitalising it will <b>most likely</b> result, in the year of capitalisation, in:</p>",
+  "options": {
+   "A": "a lower interest coverage ratio and a higher cash flow from operations.",
+   "B": "a higher interest coverage ratio and a higher cash flow from operations.",
+   "C": "a higher interest coverage ratio and an unchanged cash flow from operations."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> CFO is higher, but interest coverage is higher too, not lower: the reported interest expense in the denominator is smaller. (Analysts often add capitalised interest back to the denominator to adjust, but the reported ratio rises.)</p><p><b>B is correct.</b> Capitalised interest is added to the asset instead of being expensed, so reported interest expense is lower and net income and EBIT-based interest coverage (EBIT / interest expense) are higher in the year. Under US GAAP the cash paid for capitalised interest is an investing outflow (part of the cost of the plant), whereas expensed interest is an operating outflow, so CFO is higher and CFI is lower. Depreciation of the larger asset depresses income in later years.</p><p><b>C is incorrect.</b> Coverage is higher, but CFO is not unchanged. Capitalised interest is reclassified from operating to investing cash flow under US GAAP, so CFO increases.</p>"
+ },
+ {
+  "id": "fsa-09",
+  "topic": "fsa",
+  "concept": "Long-lived assets: capitalised interest, impairment, revaluation, depreciation effects on ratios",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about impairment of long-lived assets held for use is <b>least accurate</b>?</p>",
+  "options": {
+   "A": "Under IFRS, an impairment loss may be reversed, but only up to the carrying amount that would have existed had no impairment been recognised.",
+   "B": "Under US GAAP, an impairment loss is recognised only if the asset's carrying amount exceeds the undiscounted expected future cash flows.",
+   "C": "Under US GAAP, an impairment loss is reversed if the asset's fair value later recovers."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Accurate. IFRS allows reversal when the recoverable amount (the higher of fair value less costs of disposal and value in use) rises, capped at depreciated historical cost. Goodwill impairments are never reversed.</p><p><b>B is incorrect.</b> Accurate. US GAAP is a two-step test: the asset is impaired if carrying amount exceeds the sum of undiscounted future cash flows, and the loss is then measured as carrying amount less fair value. IFRS has a one-step test using the recoverable amount.</p><p><b>C is correct.</b> US GAAP prohibits reversal of impairment losses on assets held for use. After impairment the written-down amount becomes the new cost basis. This is the false statement.</p>"
+ },
+ {
+  "id": "fsa-10",
+  "topic": "fsa",
+  "concept": "Inventory: LIFO vs FIFO vs weighted average, LIFO liquidation, LCNRV US GAAP vs IFRS",
+  "difficulty": "easy",
+  "stem": "<p>In a period of rising prices, a LIFO company sells more units than it purchases, so layers of older, lower-cost inventory are liquidated. Compared with a year without liquidation, this will <b>most likely</b> result in:</p>",
+  "options": {
+   "A": "lower cost of goods sold and higher income taxes paid.",
+   "B": "higher cost of goods sold and lower income taxes paid.",
+   "C": "lower cost of goods sold and lower income taxes paid."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Liquidating old, low-cost layers charges them to COGS instead of current-cost purchases, so COGS is lower and gross profit is inflated. Higher taxable income means higher income taxes paid, which is a cash cost of the \"paper\" profit.</p><p><b>B is incorrect.</b> This is the effect of LIFO in rising prices when no liquidation occurs (COGS at current cost), not of liquidation.</p><p><b>C is incorrect.</b> COGS is lower, but lower COGS raises taxable income, so taxes paid rise rather than fall.</p>"
+ },
+ {
+  "id": "fsa-11",
+  "topic": "fsa",
+  "concept": "Inventory: LIFO vs FIFO vs weighted average, LIFO liquidation, LCNRV US GAAP vs IFRS",
+  "difficulty": "hard",
+  "stem": "<p>At the end of Year 1, inventory with a cost of 500,000 (FIFO) is written down to its net realisable value (NRV) of 420,000. At the end of Year 2 the same inventory is still on hand and its NRV has risen to 560,000. Assuming one company reports under IFRS and an identical company under US GAAP, the Year 2 carrying amounts are:</p>",
+  "options": {
+   "A": "IFRS 500,000; US GAAP 420,000.",
+   "B": "IFRS 560,000; US GAAP 560,000.",
+   "C": "IFRS 420,000; US GAAP 500,000."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> IFRS allows reversal of an inventory write-down when NRV recovers, limited to the original cost: the carrying amount returns to 500,000 (the lower of cost 500,000 and NRV 560,000). US GAAP does not allow reversal of a write-down for FIFO or average-cost inventory; the written-down 420,000 becomes the new cost basis.</p><p><b>B is incorrect.</b> Inventory can never be carried above original cost under either framework. IFRS caps the reversal at 500,000 and US GAAP prohibits it altogether.</p><p><b>C is incorrect.</b> The frameworks are reversed. It is IFRS that permits reversal (up to original cost); US GAAP does not.</p>"
+ },
+ {
+  "id": "fsa-12",
+  "topic": "fsa",
+  "concept": "Revenue recognition: percentage of completion, bill-and-hold, contract steps",
+  "difficulty": "medium",
+  "stem": "<p>A contractor signs a fixed-price contract to build a facility for &pound;8,000,000 with revenue recognised over time using costs incurred as a share of total expected costs. Original total cost estimate: &pound;6,000,000. In Year 1 costs incurred were &pound;1,800,000. In Year 2 costs incurred were &pound;2,700,000 and the estimate of total contract costs was revised to &pound;6,400,000. Revenue recognised in Year 2 is <b>closest to</b>:</p>",
+  "options": {
+   "A": "&pound;3,225,000",
+   "B": "&pound;3,600,000",
+   "C": "&pound;5,625,000"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Year 1: 1.8 / 6.0 = 30%, revenue 2,400,000. At the end of Year 2 cumulative costs are 4,500,000, so progress = 4,500,000 / 6,400,000 = 70.3125% and cumulative revenue = 5,625,000. Year 2 revenue = 5,625,000 &minus; 2,400,000 = &pound;3,225,000.</p><p><b>B is incorrect.</b> &pound;3,600,000 keeps the original estimate: 4,500,000 / 6,000,000 = 75%, cumulative 6,000,000, less 2,400,000. The revised cost estimate must be used.</p><p><b>C is incorrect.</b> &pound;5,625,000 is the cumulative revenue at the end of Year 2. The 2,400,000 recognised in Year 1 has not been deducted.</p><p><b>BA II Plus:</b> 4,500,000 &divide; 6,400,000 = 0.703125; &times; 8,000,000 = 5,625,000; &minus; 2,400,000 = 3,225,000.</p>"
+ },
+ {
+  "id": "fsa-13",
+  "topic": "fsa",
+  "concept": "DuPont, ROE vs required return, sustainable growth",
+  "difficulty": "medium",
+  "stem": "<p>A company has a tax rate of 30%, interest expense equal to 20% of EBIT, an EBIT margin of 15%, total asset turnover of 1.2 and a financial leverage ratio (assets / equity) of 2.0. It pays out 40% of net income as dividends. Using the five-component DuPont decomposition, the sustainable growth rate is <b>closest to</b>:</p>",
+  "options": {
+   "A": "8.1%",
+   "B": "12.1%",
+   "C": "20.2%"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> 8.1% multiplies ROE by the payout ratio (0.40) instead of the retention ratio (0.60).</p><p><b>B is correct.</b> ROE = tax burden &times; interest burden &times; EBIT margin &times; turnover &times; leverage = 0.70 &times; 0.80 &times; 0.15 &times; 1.2 &times; 2.0 = 20.16%. Sustainable growth = ROE &times; retention = 20.16% &times; (1 &minus; 0.40) = 12.1%.</p><p><b>C is incorrect.</b> 20.2% is the ROE. The last step, multiplying by the retention rate, was skipped.</p><p><b>BA II Plus:</b> 0.7 &times; 0.8 &times; 0.15 &times; 1.2 &times; 2 = 0.2016; &times; 0.6 = 0.1210.</p>"
+ },
+ {
+  "id": "fsa-14",
+  "topic": "fsa",
+  "concept": "Pro forma modelling, CFO indirect method and equity roll-forward",
+  "difficulty": "hard",
+  "stem": "<p>An industrial company reports the following (in &yen; millions): retained earnings of 800 at the start and 870 at the end of the year; net income of 190; dividends payable of 35 at the start and 15 at the end of the year. All dividends declared flow through dividends payable. Cash dividends paid in the financing section of the cash flow statement are <b>closest to</b>:</p>",
+  "options": {
+   "A": "&yen;100 million",
+   "B": "&yen;120 million",
+   "C": "&yen;140 million"
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> &yen;100 million subtracts the 20 decline in payable from declared dividends. A decrease in a liability means cash paid exceeds the expense, so it must be added.</p><p><b>B is incorrect.</b> &yen;120 million is the dividends declared; the change in dividends payable was ignored.</p><p><b>C is correct.</b> Roll-forward of retained earnings: dividends declared = 800 + 190 &minus; 870 = 120. Dividends payable fell by 20, so more cash was paid than declared: cash paid = 120 + 20 = &yen;140 million.</p><p><b>BA II Plus:</b> 800 + 190 &minus; 870 = 120; 120 + (35 &minus; 15) = 140.</p>"
+ },
+ {
+  "id": "fsa-15",
+  "topic": "fsa",
+  "concept": "Leases (lessee view) and long-term liabilities",
+  "difficulty": "medium",
+  "stem": "<p>Helio plc and Ortho Inc. each sign an identical five-year equipment lease with the same payments. Helio reports under IFRS 16. Ortho reports under US GAAP and classifies the lease as an operating lease. Compared with Ortho, Helio will <b>most likely</b> report in the first year:</p>",
+  "options": {
+   "A": "higher EBITDA and lower cash flow from operations.",
+   "B": "lower total lease-related expense and lower reported liabilities.",
+   "C": "higher EBITDA and higher cash flow from operations."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> EBITDA is higher, but CFO is not lower. Only the interest portion could remain in CFO under IFRS; the principal repayment moves to financing, so CFO is higher.</p><p><b>B is incorrect.</b> The IFRS 16 method front-loads expense (interest is highest early on), so total expense in the early years is higher, not lower. Both approaches put the lease liability on the balance sheet, so liabilities are not lower.</p><p><b>C is correct.</b> Under IFRS 16 the lessee reports depreciation and interest on the lease; both are below EBITDA, so EBITDA is higher than under US GAAP, where a single straight-line operating lease expense is deducted within operating expenses. The principal portion of the payment is a financing outflow under IFRS 16, whereas the whole payment is operating under a US GAAP operating lease, so CFO is higher under IFRS.</p>"
+ },
+ {
+  "id": "fsa-16",
+  "topic": "fsa",
+  "concept": "Pensions: DB assumptions, OCI vs P&L",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about defined benefit pension reporting is <b>least accurate</b>?</p>",
+  "options": {
+   "A": "Under IFRS, current service cost is recognised in profit or loss.",
+   "B": "Under US GAAP, pension expense in profit or loss includes the actual return on plan assets.",
+   "C": "Under IFRS, remeasurements of the net pension liability are recognised in other comprehensive income and not later reclassified to profit or loss."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Accurate. Current service cost is part of employee benefit expense in profit or loss under IFRS (and also in US GAAP).</p><p><b>B is correct.</b> US GAAP includes the <i>expected</i> return on plan assets in periodic pension cost; the difference between actual and expected return goes to OCI (and may be amortised into profit or loss later). The statement is false.</p><p><b>C is incorrect.</b> Accurate. IFRS recognises remeasurements (actuarial gains and losses and the difference between actual return on assets and the interest income on assets) in OCI; they are not amortised or recycled through profit or loss.</p>"
+ },
+ {
+  "id": "fsa-17",
+  "topic": "fsa",
+  "concept": "Bond issuance, effective interest amortisation, debt covenants (long-term liabilities)",
+  "difficulty": "medium",
+  "stem": "<p>On 1 January a company issues CHF 1,000,000 face value of five-year bonds with an annual coupon of 6%, paid at each year-end. The market yield at issuance is 8%. Under the effective interest method, the carrying amount of the bonds immediately after the first coupon payment is <b>closest to</b>:</p>",
+  "options": {
+   "A": "CHF 920,146",
+   "B": "CHF 933,757",
+   "C": "CHF 936,117"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> CHF 920,146 is the issue price, i.e. no amortisation of the discount. The carrying amount of a discount bond rises toward face value each period.</p><p><b>B is correct.</b> Issue price = PV of 5 coupons of 60,000 and 1,000,000 at 8% = CHF 920,146. Year 1 interest expense = 920,146 &times; 8% = 73,612; coupon paid = 60,000; discount amortised = 13,612. Carrying amount = 920,146 + 13,612 = CHF 933,757.</p><p><b>C is incorrect.</b> CHF 936,117 uses straight-line amortisation of the discount (79,854 / 5 = 15,971). The effective interest method amortises less in the early years.</p><p><b>BA II Plus:</b> N = 5, I/Y = 8, PMT = 60,000, FV = 1,000,000, CPT PV = &minus;920,145.80. Then 920,145.80 &times; 1.08 &minus; 60,000 = 933,757.46.</p>"
+ },
+ {
+  "id": "fsa-18",
+  "topic": "fsa",
+  "concept": "Income statement: non-recurring items, discontinued ops, OCI, comprehensive income",
+  "difficulty": "easy",
+  "stem": "<p>A company reports the following for the year (in &euro; millions): income from continuing operations, net of tax, 400; loss from discontinued operations, net of tax, 60; unrealised gain on debt securities measured at fair value through OCI, 30; foreign currency translation loss, 45; dividends paid, 100. Total comprehensive income is:</p>",
+  "options": {
+   "A": "&euro;225 million",
+   "B": "&euro;325 million",
+   "C": "&euro;385 million"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> &euro;225 million deducts dividends paid. Dividends are a distribution to owners and are not part of comprehensive income.</p><p><b>B is correct.</b> Net income = 400 &minus; 60 = 340 (discontinued operations are part of net income). OCI = +30 &minus; 45 = &minus;15. Comprehensive income = 340 &minus; 15 = &euro;325 million.</p><p><b>C is incorrect.</b> &euro;385 million leaves out the discontinued operations loss. Although non-recurring, it is included in net income and therefore in comprehensive income.</p><p><b>BA II Plus:</b> 400 &minus; 60 + 30 &minus; 45 = 325.</p>"
+ },
+ {
+  "id": "fsa-19",
+  "topic": "fsa",
+  "concept": "Cash flow statement: direct method, IFRS vs US GAAP classification",
+  "difficulty": "medium",
+  "stem": "<p>Compared with IFRS, US GAAP most likely:</p>",
+  "options": {
+   "A": "permits dividends paid to be classified as an operating cash flow.",
+   "B": "permits interest received to be classified as an investing cash flow.",
+   "C": "requires interest paid to be classified as an operating cash flow."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> This is an IFRS option. US GAAP requires dividends paid to be a financing cash flow.</p><p><b>B is incorrect.</b> This is an IFRS option (interest and dividends received in operating or investing). US GAAP requires interest received to be operating.</p><p><b>C is correct.</b> US GAAP requires interest paid, interest received and dividends received to be operating cash flows and dividends paid to be financing. IFRS allows interest paid in operating or financing activities.</p>"
+ },
+ {
+  "id": "fsa-20",
+  "topic": "fsa",
+  "concept": "Financial reporting quality: earnings quality spectrum, warning signs",
+  "difficulty": "easy",
+  "stem": "<p>An analyst finds that Brenner Inc.'s financial statements comply with applicable accounting standards and are decision-useful, but this year's earnings include a large gain on the sale of a plant that will not recur. Brenner's results are <b>best described</b> as:</p>",
+  "options": {
+   "A": "high-quality reporting with low-quality earnings.",
+   "B": "low-quality reporting with high-quality earnings.",
+   "C": "low-quality reporting with low-quality earnings."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Reporting quality refers to compliance and decision-usefulness (satisfied here). Earnings quality refers to whether earnings are sustainable and reflect adequate returns; a non-recurring gain is not sustainable, so earnings quality is low.</p><p><b>B is incorrect.</b> The reverse of the situation: the reporting is compliant and useful, and the earnings are not sustainable.</p><p><b>C is incorrect.</b> The reporting itself is compliant and decision-useful, so reporting quality is high. Only the earnings are low quality.</p>"
+ },
+ {
+  "id": "fsa-21",
+  "topic": "fsa",
+  "concept": "Activity and liquidity ratios: DSO, DIO, turnover, cash conversion cycle calc",
+  "difficulty": "medium",
+  "stem": "<p>A company reports annual revenue of &euro;4,800 thousand and cost of goods sold of &euro;3,200 thousand. Average accounts receivable are &euro;400 thousand, average inventory &euro;480 thousand and average accounts payable &euro;320 thousand. Using a 365-day year, the cash conversion cycle is <b>closest to</b>:</p>",
+  "options": {
+   "A": "42.6 days",
+   "B": "48.7 days",
+   "C": "121.7 days"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> 42.6 days uses revenue instead of COGS for DIO and DPO (36.5 and 24.3 days). Inventory and payables relate to COGS.</p><p><b>B is correct.</b> DSO = 400 / 4,800 &times; 365 = 30.4 days (revenue basis). DIO = 480 / 3,200 &times; 365 = 54.8 days and DPO = 320 / 3,200 &times; 365 = 36.5 days (COGS basis). CCC = DSO + DIO &minus; DPO = 30.4 + 54.8 &minus; 36.5 = 48.7 days.</p><p><b>C is incorrect.</b> 121.7 days adds DPO instead of subtracting it. Payables days are a source of financing and shorten the cycle.</p><p><b>BA II Plus:</b> 400 &divide; 4,800 &times; 365 = 30.42; 480 &divide; 3,200 &times; 365 = 54.75; 320 &divide; 3,200 &times; 365 = 36.50; 30.42 + 54.75 &minus; 36.50 = 48.67.</p>"
+ },
+ {
+  "id": "fsa-22",
+  "topic": "fsa",
+  "concept": "Balance sheet: intangibles, goodwill impairment, equity components, treasury stock",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about goodwill is <b>least accurate</b>?</p>",
+  "options": {
+   "A": "Goodwill is not amortised but is tested for impairment at least annually.",
+   "B": "Under IFRS, a goodwill impairment loss may be reversed if the recoverable amount of the cash-generating unit later recovers.",
+   "C": "A goodwill impairment loss reduces net income but has no direct effect on cash flow."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Accurate. Acquired goodwill is carried at cost less impairment and tested at least annually (at the cash-generating unit level under IFRS, the reporting unit under US GAAP).</p><p><b>B is correct.</b> Neither IFRS nor US GAAP allows reversal of a goodwill impairment loss. (IFRS permits reversal for other assets, but not for goodwill.) This statement is false.</p><p><b>C is incorrect.</b> Accurate. The impairment is a non-cash charge: net income and equity fall, but cash flow from operations is unaffected (it is added back in the indirect method).</p>"
+ },
+ {
+  "id": "fsa-23",
+  "topic": "fsa",
+  "concept": "Expense recognition: depreciation methods, warranties, bad debts",
+  "difficulty": "easy",
+  "stem": "<p>A company buys equipment for $90,000 with an estimated residual value of $10,000 and a five-year useful life, and uses the double-declining balance method. Depreciation expense in the second year is:</p>",
+  "options": {
+   "A": "$14,400",
+   "B": "$19,200",
+   "C": "$21,600"
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> $14,400 applies 40% to the first-year depreciation (36,000 &times; 40%) rather than to the beginning carrying amount.</p><p><b>B is incorrect.</b> $19,200 deducts the residual value before applying DDB: (80,000 &minus; 32,000) &times; 40%. DDB applies to the carrying amount without subtracting salvage.</p><p><b>C is correct.</b> DDB rate = 2 &times; (1/5) = 40% of beginning carrying amount (residual ignored until the end). Year 1: 90,000 &times; 40% = 36,000. Year 2: (90,000 &minus; 36,000) &times; 40% = $21,600.</p><p><b>BA II Plus:</b> 90,000 &times; 0.4 = 36,000; (90,000 &minus; 36,000) &times; 0.4 = 21,600.</p>"
+ }
+]

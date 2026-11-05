@@ -1,0 +1,310 @@
+[
+ {
+  "id": "fi-01",
+  "topic": "fi",
+  "concept": "Bond pricing: accrued interest, flat vs full price (30/360, ACT), YTM via BA II Plus BOND worksheet, current yield",
+  "difficulty": "hard",
+  "stem": "<p>A bond pays a 6% coupon semiannually on 15 March and 15 September and matures on 15 September 2031. It is priced to yield 3.9% (stated annual rate, compounded semiannually) for settlement on 12 August 2026. The bond uses the 30/360 day-count convention. The flat (clean) price per 100 of par value is <b>closest to</b>:</p>",
+  "options": {
+   "A": "112.06",
+   "B": "109.61",
+   "C": "108.25"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> From the last coupon (15 March) to settlement (12 August) is 5 &times; 30 &minus; 3 = 147 days on a 30/360 basis, so accrued interest = 3.00 &times; 147/180 = 2.45. The fraction of the coupon period remaining is w = (180 &minus; 147)/180 = 0.1833. Discounting the 11 remaining coupons and the redemption at 1.95% per period with the first cash flow at time w gives a full price of 112.06. Flat price = full price &minus; accrued interest = 112.06 &minus; 2.45 = <b>109.61</b>.</p><p><b>A is incorrect.</b> 112.06 is the full (dirty) price. The question asks for the flat price, so accrued interest must be removed.</p><p><b>C is incorrect.</b> 108.25 discounts the first coupon over 147/180 of a period instead of the 33/180 that remain (the days elapsed were used as the days to the next coupon), then subtracts accrued interest.</p><p><b>BA II Plus:</b> 2nd [BOND] (US date format MM.DDYY). SDT = 8.1226 ENTER &darr; CPN = 6 ENTER &darr; RDT = 9.1531 ENTER &darr; RV = 100 ENTER &darr; set 360 (2nd [SET] until it shows 360) &darr; 2/Y &darr; YLD = 3.9 ENTER &darr; CPT PRI = 109.61 (this is the flat price). &darr; AI = 2.45. The full price is PRI + AI = 112.06. Common input slips: wrong RDT year, entering the call/redemption price wrongly, leaving ACT instead of 360.</p>"
+ },
+ {
+  "id": "fi-02",
+  "topic": "fi",
+  "concept": "Bond pricing: accrued interest, flat vs full price (30/360, ACT), YTM via BA II Plus BOND worksheet, current yield",
+  "difficulty": "medium",
+  "stem": "<p>A dealer quotes a flat price of 99.40 per 100 par for a GBP 5,000,000 par holding of a 4% government bond that pays coupons semiannually on 10 January and 10 July. The bond uses the actual/actual day-count convention, and settlement is on 25 May 2027 (there are 181 days between the 10 January and 10 July coupon dates). The amount the buyer pays at settlement is <b>closest to</b>:</p>",
+  "options": {
+   "A": "GBP 4,970,000",
+   "B": "GBP 5,119,171",
+   "C": "GBP 5,044,586"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> The buyer pays the full price = flat price + accrued interest. Days from 10 January to 25 May = 135, and the coupon period has 181 days. Accrued interest = (4%/2) &times; 135/181 = 2.00 &times; 0.7459 = 1.4917 per 100. Full price = 99.40 + 1.4917 = 100.8917. Amount = 100.8917% &times; 5,000,000 = <b>GBP 5,044,586</b>.</p><p><b>A is incorrect.</b> GBP 4,970,000 is the flat price only (99.40% of par). Accrued interest is also paid to the seller.</p><p><b>B is incorrect.</b> GBP 5,119,171 accrues interest on the annual coupon (4.00 &times; 135/181 = 2.9834) instead of the semiannual coupon of 2.00, which overstates accrued interest.</p><p><b>BA II Plus:</b> 2 &times; 135 &divide; 181 = 1.4917 (accrued per 100); + 99.40 = 100.8917; &times; 50,000 = 5,044,586. (A 30/360 count would give 1.50 and about 5,045,000, the same answer here; the day-count matters for the convention stated in the question.)</p>"
+ },
+ {
+  "id": "fi-03",
+  "topic": "fi",
+  "concept": "Bond pricing: accrued interest, flat vs full price (30/360, ACT), YTM via BA II Plus BOND worksheet, current yield",
+  "difficulty": "hard",
+  "stem": "<p>A bond pays a 5% coupon semiannually on 15 March and 15 September and matures on 15 September 2030. It is quoted at a flat price of 98.70 per 100 of par for settlement on 15 June 2026, using the 30/360 convention. The bond's yield to maturity, stated as an annual rate compounded semiannually, is <b>closest to</b>:</p>",
+  "options": {
+   "A": "5.34%",
+   "B": "5.07%",
+   "C": "5.68%"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Accrued interest = 2.50 &times; 90/180 = 1.25, so the full price is 98.70 + 1.25 = 99.95. There are 9 coupons remaining and the first is half a period away (w = 0.5). Solving for the semiannual yield that discounts all cash flows to a full price of 99.95 gives 2.6719% per period, or <b>5.34%</b> annualised.</p><p><b>B is incorrect.</b> 5.07% is the current yield (annual coupon / flat price = 5.00/98.70). It ignores the pull to par and the time to maturity, so it is not a yield to maturity.</p><p><b>C is incorrect.</b> 5.68% treats 98.70 as the full price. That implies a flat price of only 97.45, so the discount to par (and the yield) is overstated.</p><p><b>BA II Plus:</b> 2nd [BOND]. SDT = 6.1526 ENTER &darr; CPN = 5 ENTER &darr; RDT = 9.1530 ENTER &darr; RV = 100 &darr; 360 &darr; 2/Y &darr; PRI = 98.7 ENTER &darr; CPT YLD = 5.34. Enter the flat price in PRI; the worksheet adds accrued interest itself.</p>"
+ },
+ {
+  "id": "fi-04",
+  "topic": "fi",
+  "concept": "Duration calculations: Macaulay, modified, approximate, portfolio (market-value weights), money duration, annualisation",
+  "difficulty": "medium",
+  "stem": "<p>A bond pays coupons semiannually and has a yield to maturity of 6.0%, stated as an annual rate compounded semiannually. A spreadsheet reports the bond's Macaulay duration as 17.6, measured in semiannual periods. The bond's modified duration, in years, is <b>closest to</b>:</p>",
+  "options": {
+   "A": "17.09",
+   "B": "8.30",
+   "C": "8.54"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Convert periods to years first: 17.6/2 = 8.80 years. Then ModDur = MacDur/(1 + y/m) = 8.80/(1 + 0.06/2) = 8.80/1.03 = <b>8.54</b>.</p><p><b>A is incorrect.</b> 17.09 = 17.6/1.03 divides the period-based figure by the periodic factor but never annualises it, so the answer is in periods, not years.</p><p><b>B is incorrect.</b> 8.30 = 8.80/1.06 uses the annual yield as the divisor even though the bond is yield-quoted with semiannual compounding; the divisor must be 1 + 0.06/2.</p><p><b>BA II Plus:</b> 17.6 &divide; 2 = 8.8; &divide; 1.03 = 8.5437.</p>"
+ },
+ {
+  "id": "fi-05",
+  "topic": "fi",
+  "concept": "Duration calculations: Macaulay, modified, approximate, portfolio (market-value weights), money duration, annualisation",
+  "difficulty": "medium",
+  "stem": "<p>A portfolio manager holds three bonds, shown below. The modified duration of the portfolio is <b>closest to</b>:</p><table><tr><th>Bond</th><th>Par value (EUR)</th><th>Full price (per 100)</th><th>Modified duration</th></tr><tr><td>X</td><td>6,000,000</td><td>104</td><td>3.0</td></tr><tr><td>Y</td><td>2,000,000</td><td>95</td><td>6.5</td></tr><tr><td>Z</td><td>2,000,000</td><td>62</td><td>12.0</td></tr></table>",
+  "options": {
+   "A": "4.90",
+   "B": "5.50",
+   "C": "7.17"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Portfolio duration is the market-value-weighted average of the bonds' durations. Market values: X = 6,240,000, Y = 1,900,000, Z = 1,240,000; total = 9,380,000. Weights = 0.6652, 0.2026, 0.1322. Duration = 0.6652 &times; 3.0 + 0.2026 &times; 6.5 + 0.1322 &times; 12.0 = <b>4.90</b>.</p><p><b>B is incorrect.</b> 5.50 weights by par value (60%/20%/20%) instead of market value. Bond Z is trading at 62, so its true weight is much lower than its par weight.</p><p><b>C is incorrect.</b> 7.17 is the simple average of the three durations (equal weights), which ignores position sizes entirely.</p><p><b>BA II Plus:</b> MV weights: 6,240,000 &divide; 9,380,000 = 0.6652, etc. Then 0.6652 &times; 3 + 0.2026 &times; 6.5 + 0.1322 &times; 12 = 4.90.</p>"
+ },
+ {
+  "id": "fi-06",
+  "topic": "fi",
+  "concept": "Duration calculations: Macaulay, modified, approximate, portfolio (market-value weights), money duration, annualisation",
+  "difficulty": "medium",
+  "stem": "<p>A callable bond is priced at 101.40. A valuation model shows that the price would be 104.30 if the benchmark yield curve fell by 50 bps and 98.60 if it rose by 50 bps (both after allowing for the call option). The bond's effective duration is <b>closest to</b>:</p>",
+  "options": {
+   "A": "11.24",
+   "B": "5.62",
+   "C": "2.81"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Effective duration = (V<sub>&minus;</sub> &minus; V<sub>+</sub>) / (2 &times; V<sub>0</sub> &times; &Delta;Curve) = (104.30 &minus; 98.60) / (2 &times; 101.40 &times; 0.005) = 5.70/1.0140 = <b>5.62</b>.</p><p><b>A is incorrect.</b> 11.24 omits the 2 in the denominator, so the price change over the whole 100 bp range is divided by a 50 bp shift and the result is doubled.</p><p><b>C is incorrect.</b> 2.81 uses the full 100 bp range (1%) as the curve shift and also keeps the 2, so it is halved.</p><p><b>BA II Plus:</b> (104.30 &minus; 98.60) &divide; (2 &times; 101.40 &times; 0.005) = 5.6213. Use brackets, or compute the denominator first and store it.</p>"
+ },
+ {
+  "id": "fi-07",
+  "topic": "fi",
+  "concept": "Duration/convexity concepts: effective vs modified, empirical, price-yield asymmetry, horizon and reinvestment risk",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following statements about duration and convexity is <b>least</b> accurate?</p>",
+  "options": {
+   "A": "The Macaulay duration of a zero-coupon bond equals its time to maturity.",
+   "B": "Modified duration, unlike effective duration, reflects changes in a bond's expected cash flows caused by embedded options when benchmark yields change.",
+   "C": "For two bonds with the same duration and yield, the bond with the higher convexity gains more when yields fall and loses less when yields rise."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct (it is the inaccurate statement).</b> It is reversed. Modified duration is based on the bond's yield to maturity and assumes the cash flows do not change when yields change. Effective duration is based on a full valuation model and the benchmark curve, so it captures how option exercise changes expected cash flows. That is why effective duration is the appropriate measure for callable and putable bonds.</p><p><b>A is incorrect (accurate statement).</b> A zero-coupon bond has a single cash flow at maturity, so its weighted-average time to receipt is its maturity.</p><p><b>C is incorrect (accurate statement).</b> Higher convexity means the price-yield curve bends more, so for equal yield changes the price gain is larger and the price loss smaller. This is the price-yield asymmetry that the convexity adjustment captures.</p><p><i>LOS idea: effective vs modified duration; Macaulay duration of a zero; convexity.</i></p>"
+ },
+ {
+  "id": "fi-08",
+  "topic": "fi",
+  "concept": "Duration/convexity concepts: effective vs modified, empirical, price-yield asymmetry, horizon and reinvestment risk",
+  "difficulty": "medium",
+  "stem": "<p>An investor with a 6-year investment horizon buys a bond with a Macaulay duration of 6.0 years at a yield to maturity of 5%. Immediately after purchase, yields rise by 100 bps in a one-time parallel shift and stay at the new level. All coupons are reinvested at the new yield and the bond is sold at the horizon. Compared with the 5% yield to maturity at purchase, the investor's annualised horizon return will most likely be:</p>",
+  "options": {
+   "A": "approximately equal, because the price loss at the horizon is offset by the gain from reinvesting at a higher rate.",
+   "B": "significantly lower, because the capital loss from the higher yield exceeds the extra income earned by reinvesting coupons.",
+   "C": "significantly higher, because the investor's horizon is shorter than the bond's maturity, so the price decline is irrelevant to the return."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> When the Macaulay duration equals the investment horizon, interest rate (price) risk and reinvestment risk offset each other for a one-time parallel yield shift. The rise in yield lowers the sale price but raises reinvestment income by about the same amount, so the realised return is approximately the original YTM.</p><p><b>B is incorrect.</b> It counts the price loss but ignores the offsetting reinvestment gain. With a horizon shorter than the maturity the investor is exposed to both effects.</p><p><b>C is incorrect.</b> Because the bond is sold at the horizon, before maturity, its price at that time reflects the higher yield; the price decline is relevant. It is the offset with reinvestment income that keeps the return near 5%.</p><p><i>LOS idea: Macaulay duration = horizon immunises against a parallel shift; horizon return and reinvestment risk.</i></p>"
+ },
+ {
+  "id": "fi-09",
+  "topic": "fi",
+  "concept": "Spot, forward and par rates: implied spot from forwards, forward from spots",
+  "difficulty": "hard",
+  "stem": "<p>The 1-year spot rate is 2.0%, the 1-year forward rate one year from now (1y1y) is 3.0%, and the 1-year forward rate two years from now (2y1y) is 4.5%. All rates are annual with annual compounding. The 3-year spot rate is <b>closest to</b>:</p>",
+  "options": {
+   "A": "3.75%",
+   "B": "4.78%",
+   "C": "3.16%"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> (1 + S<sub>3</sub>)<sup>3</sup> = (1 + S<sub>1</sub>)(1 + f<sub>1,1</sub>)(1 + f<sub>2,1</sub>) = 1.02 &times; 1.03 &times; 1.045 = 1.0979. S<sub>3</sub> = 1.0979<sup>1/3</sup> &minus; 1 = <b>3.16%</b>.</p><p><b>A is incorrect.</b> 3.75% is the average of the two forward rates (3.0% and 4.5%); it omits the 1-year spot rate and is not a geometric calculation.</p><p><b>B is incorrect.</b> 4.78% takes the square root instead of the cube root: the product covers three annual periods, so the exponent must be 1/3.</p><p><b>BA II Plus:</b> 1.02 &times; 1.03 &times; 1.045 = 1.0978; [y<sup>x</sup>] 3 [1/x] = 1.0316; &minus; 1 = 0.0316 (3.16%).</p>"
+ },
+ {
+  "id": "fi-10",
+  "topic": "fi",
+  "concept": "Spot, forward and par rates: implied spot from forwards, forward from spots",
+  "difficulty": "hard",
+  "stem": "<p>The 2-year spot rate is 3.2% and the 5-year spot rate is 4.1%, both annual rates with annual compounding. The implied 3-year forward rate two years from now (2y3y) is <b>closest to</b>:</p>",
+  "options": {
+   "A": "2.80%",
+   "B": "4.70%",
+   "C": "4.93%"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> (1 + S<sub>2</sub>)<sup>2</sup>(1 + f<sub>2,3</sub>)<sup>3</sup> = (1 + S<sub>5</sub>)<sup>5</sup>. So f<sub>2,3</sub> = [(1.041)<sup>5</sup> / (1.032)<sup>2</sup>]<sup>1/3</sup> &minus; 1 = [1.1479]<sup>1/3</sup> &minus; 1 = <b>4.70%</b>.</p><p><b>A is incorrect.</b> 2.80% takes the fifth root of the ratio, as if the forward period lasted 5 years; the forward covers only the last 3 years (years 3 to 5).</p><p><b>C is incorrect.</b> 4.93% divides the 3-year growth (1.1479 &minus; 1) by 3, an arithmetic average, instead of taking the geometric root.</p><p><b>BA II Plus:</b> 1.041 [y<sup>x</sup>] 5 = 1.2224; &divide; (1.032 [y<sup>x</sup>] 2) = 1.1479; [y<sup>x</sup>] 3 [1/x] = 1.0470; &minus; 1 = 4.70%. Use brackets for the denominator.</p>"
+ },
+ {
+  "id": "fi-11",
+  "topic": "fi",
+  "concept": "Yield spreads: G-spread, Z-spread, I-spread, credit spread movement",
+  "difficulty": "medium",
+  "stem": "<p>A corporate bond with 6.4 years to maturity yields 5.57%. The table shows benchmark yields:</p><table><tr><th>Maturity</th><th>Government yield</th><th>Swap rate</th></tr><tr><td>5 years</td><td>3.90%</td><td>4.10%</td></tr><tr><td>7 years</td><td>4.50%</td><td>4.60%</td></tr></table><p>Using linear interpolation for the 6.4-year benchmarks, the bond's I-spread is <b>closest to</b>:</p>",
+  "options": {
+   "A": "112 bps",
+   "B": "125 bps",
+   "C": "97 bps"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> The I-spread is the bond yield minus the interpolated swap rate. Weight on the 7-year point = (6.4 &minus; 5)/(7 &minus; 5) = 0.70. Swap rate = 4.10 + 0.70 &times; (4.60 &minus; 4.10) = 4.45%. I-spread = 5.57 &minus; 4.45 = 1.12% = <b>112 bps</b>.</p><p><b>B is incorrect.</b> 125 bps is the G-spread: it uses the interpolated <i>government</i> yield (3.90 + 0.70 &times; 0.60 = 4.32%) as the benchmark instead of the swap curve.</p><p><b>C is incorrect.</b> 97 bps subtracts the 7-year swap rate (4.60%) rather than interpolating to the bond's 6.4-year maturity.</p><p><i>LOS idea: G-spread uses the government curve, I-spread the swap curve; the Z-spread is a constant spread over the whole spot curve and would require spot rates.</i></p>"
+ },
+ {
+  "id": "fi-12",
+  "topic": "fi",
+  "concept": "Securitization, MBS/ABS, CMO tranches, SPE, non-recourse loans",
+  "difficulty": "medium",
+  "stem": "<p>A bank securitizes a pool of auto loans by transferring them to a special purpose entity (SPE), which issues tranched asset-backed securities (ABS) to investors. Which of the following statements is <b>least</b> accurate?</p>",
+  "options": {
+   "A": "Because the loans are legally sold to the SPE, they are generally beyond the reach of the bank's creditors if the bank becomes insolvent.",
+   "B": "Credit enhancement, such as subordination or overcollateralization, can allow the senior tranche to be rated higher than the originating bank.",
+   "C": "If losses on the loan pool exceed the available credit enhancement, ABS investors have recourse to the bank's other assets."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct (it is the inaccurate statement).</b> Securitization is non-recourse to the originator once the true sale is made. Investors rely on the cash flows and collateral in the SPE and its credit enhancement; if losses exceed that protection, they cannot claim against the bank's other assets.</p><p><b>A is incorrect (accurate).</b> A key purpose of the SPE is to make the pool bankruptcy-remote from the originator.</p><p><b>B is incorrect (accurate).</b> Internal credit enhancement (subordination, overcollateralization, excess spread) is what allows the senior tranche to achieve a higher rating than the originator.</p>"
+ },
+ {
+  "id": "fi-13",
+  "topic": "fi",
+  "concept": "Bond features: callable, putable, sinking fund, make-whole, negative covenants, FRN reset",
+  "difficulty": "medium",
+  "stem": "<p>Compared with a bond that is callable at a fixed price after a call-protection period, a bond with a make-whole call provision will most likely:</p>",
+  "options": {
+   "A": "be more likely to be called when interest rates decline, because the call price is fixed below par and the issuer can refinance cheaply.",
+   "B": "give the issuer less incentive to call when rates decline, because the call price is the present value of remaining payments at a Treasury yield plus a fixed spread.",
+   "C": "give bondholders less protection against early redemption than a fixed-price call, because the make-whole price can never exceed par."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> The make-whole price discounts the remaining coupons and principal at a benchmark yield plus a small fixed spread. When rates fall, the call price rises, which makes calling the bond expensive and keeps the issuer from refinancing. Make-whole calls are mainly used to allow early redemption (for example in a takeover or restructuring) at a fair price to the bondholder.</p><p><b>A is incorrect.</b> The make-whole price is not set below par; when rates fall it is typically above par, so the incentive to call falls.</p><p><b>C is incorrect.</b> The make-whole price is not capped at par; it is the PV of the remaining cash flows and normally exceeds par, protecting bondholders.</p>"
+ },
+ {
+  "id": "fi-14",
+  "topic": "fi",
+  "concept": "Credit analysis: leverage ratios, notching, expected loss, seniority",
+  "difficulty": "medium",
+  "stem": "<p>A bank has an exposure of USD 8,000,000 to a corporate borrower. The estimated probability of default over the next year is 2.5% and, if default occurs, the bank expects to recover 55% of the exposure. The bank's expected loss is <b>closest to</b>:</p>",
+  "options": {
+   "A": "USD 90,000",
+   "B": "USD 110,000",
+   "C": "USD 200,000"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Expected loss = PD &times; LGD &times; exposure. LGD = 1 &minus; recovery rate = 45%. EL = 0.025 &times; 0.45 &times; 8,000,000 = <b>USD 90,000</b>.</p><p><b>B is incorrect.</b> USD 110,000 multiplies by the recovery rate (55%) instead of the loss given default (45%).</p><p><b>C is incorrect.</b> USD 200,000 is PD &times; exposure; it assumes nothing is recovered (LGD of 100%).</p><p><b>BA II Plus:</b> 8,000,000 &times; 0.025 &times; (1 &minus; 0.55) = 90,000.</p>"
+ },
+ {
+  "id": "fi-15",
+  "topic": "fi",
+  "concept": "Money market yields and BEY: discount vs add-on",
+  "difficulty": "medium",
+  "stem": "<p>A 180-day Treasury bill is quoted at a discount rate of 3.60% (360-day year basis). The bond equivalent yield (365-day year, simple annualisation) is <b>closest to</b>:</p>",
+  "options": {
+   "A": "3.67%",
+   "B": "3.75%",
+   "C": "3.72%"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Price per 1 of face = 1 &minus; 0.036 &times; 180/360 = 0.9820. Holding period return = (1 &minus; 0.9820)/0.9820 = 1.8330%. Bond equivalent yield = HPR &times; 365/180 = <b>3.72%</b>.</p><p><b>A is incorrect.</b> 3.67% is the add-on yield on a 360-day year (HPR &times; 360/180). The bond equivalent yield uses 365 days.</p><p><b>B is incorrect.</b> 3.75% is the effective annual yield, (1 + HPR)<sup>365/180</sup> &minus; 1. It compounds, whereas the bond equivalent yield is a simple annualisation.</p><p><b>BA II Plus:</b> 1 &minus; 0.036 &times; 180 &divide; 360 = 0.982; 1 &divide; 0.982 &minus; 1 = 0.018330; &times; 365 &divide; 180 = 0.03717.</p>"
+ },
+ {
+  "id": "fi-16",
+  "topic": "fi",
+  "concept": "Term structure: yield curve shapes and theories",
+  "difficulty": "easy",
+  "stem": "<p>An analyst believes investors expect short-term interest rates to remain unchanged, yet the government yield curve is upward sloping. Which of the following statements best explains the upward slope under the liquidity preference theory?</p>",
+  "options": {
+   "A": "Forward rates equal expected future spot rates, so the upward slope reflects only expected future increases in short-term rates.",
+   "B": "Investors demand a premium for holding longer bonds, so forward rates exceed expected future spot rates by a premium that grows with maturity.",
+   "C": "Supply and demand in each maturity segment are independent, so the slope is unrelated to expected future short-term rates or premiums."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Liquidity preference theory adds a liquidity (term) premium to the pure expectations theory. Even with flat expected short rates, the premium rises with maturity, so the curve slopes upward.</p><p><b>A is incorrect.</b> This describes the pure expectations theory, under which unchanged expected short rates would produce a flat curve.</p><p><b>C is incorrect.</b> This describes the market segmentation theory, which attributes the shape to supply and demand in separate maturity segments, not to a liquidity premium.</p>"
+ },
+ {
+  "id": "fi-17",
+  "topic": "fi",
+  "concept": "Issuance and trading: primary market, shelf registration, covered bonds, repo mechanics",
+  "difficulty": "medium",
+  "stem": "<p>A dealer enters a 45-day repurchase agreement to raise cash. It delivers collateral with a market value of CHF 12,000,000. The haircut is 5% and the repo rate is 2.4% (360-day year). The amount the dealer must pay to repurchase the collateral at maturity is <b>closest to</b>:</p>",
+  "options": {
+   "A": "CHF 11,434,200",
+   "B": "CHF 12,036,000",
+   "C": "CHF 11,462,857"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> The haircut reduces the cash lent: loan = 12,000,000 &times; (1 &minus; 0.05) = CHF 11,400,000. Interest = 11,400,000 &times; 0.024 &times; 45/360 = 34,200. Repurchase price = <b>CHF 11,434,200</b>.</p><p><b>B is incorrect.</b> CHF 12,036,000 applies the repo rate to the full collateral value, as if the dealer received CHF 12,000,000; the haircut means the dealer borrows less than the collateral is worth.</p><p><b>C is incorrect.</b> CHF 11,462,857 computes the loan as collateral value / 1.05 (treating the haircut as a markup) rather than collateral &times; (1 &minus; haircut).</p><p><b>BA II Plus:</b> 12,000,000 &times; 0.95 = 11,400,000; &times; (1 + 0.024 &times; 45 &divide; 360) = 11,434,200.</p>"
+ },
+ {
+  "id": "fi-18",
+  "topic": "fi",
+  "concept": "Indenture and legal structure: secured vs unsecured, zero and deferred coupon",
+  "difficulty": "medium",
+  "stem": "<p>An issuer sells two 10-year bonds with annual coupons, both priced to the same yield to maturity of 5.5%. Bond X pays a 5% coupon starting in year 1. Bond Y pays no coupon in years 1 to 3 and then pays the same 5% coupon in years 4 to 10. Both repay par at maturity. Relative to Bond X, Bond Y will most likely have a:</p>",
+  "options": {
+   "A": "lower price and a shorter duration.",
+   "B": "higher price and a longer duration.",
+   "C": "lower price and a longer duration."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Bond Y is a deferred-coupon bond and forgoes three coupons, so at the same yield its present value is lower (about 82.74 vs 96.23 per 100). Because more of its value comes from later cash flows (the coupons paid in years 4 to 10 and the principal), the weighted-average time to receipt is longer: Macaulay duration is about 9.06 years vs 8.07 years for Bond X.</p><p><b>A is incorrect.</b> The price is lower, but removing early cash flows lengthens, not shortens, the duration.</p><p><b>B is incorrect.</b> Bond Y receives fewer cash flows, so its price cannot be higher at the same yield.</p>"
+ },
+ {
+  "id": "fi-19",
+  "topic": "fi",
+  "concept": "Yield-to-worst, horizon return, key-rate duration",
+  "difficulty": "hard",
+  "stem": "<p>A bond has 8 years to maturity and pays a 7% coupon semiannually. It is priced at 108.50 per 100 of par on a coupon date. The bond can be called in 3 years at 103. Yields are stated as annual rates compounded semiannually. The bond's yield to worst is <b>closest to</b>:</p>",
+  "options": {
+   "A": "5.66%",
+   "B": "4.86%",
+   "C": "3.97%"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> A bond trading at a premium is most likely to be called, so compare the yield to maturity and the yield to call. YTM: N = 16, PMT = 3.5, FV = 100, PV = &minus;108.50 gives 5.66%. YTC: N = 6, PMT = 3.5, FV = 103, PV = &minus;108.50 gives 2.4309% per period = 4.86%. The yield to worst is the lowest of the possible yields: <b>4.86%</b>.</p><p><b>A is incorrect.</b> 5.66% is the yield to maturity. A premium bond with a call date has a lower yield to call, which is the worst case for the investor.</p><p><b>C is incorrect.</b> 3.97% uses a call price of 100 instead of the stated 103, which understates the cash received at the call and the yield to call.</p><p><b>BA II Plus:</b> 6 [N], 3.5 [PMT], 103 [FV], &minus;108.5 [PV], [CPT] [I/Y] = 2.4309; &times; 2 = 4.86%. (Remember N = years &times; 2 and multiply the periodic yield by 2.)</p>"
+ },
+ {
+  "id": "fi-20",
+  "topic": "fi",
+  "concept": "Prepayment measures: CPR, PSA, extension and contraction",
+  "difficulty": "medium",
+  "stem": "<p>A pool of mortgages is prepaying at 150 PSA. The conditional prepayment rate (CPR) assumed in month 10 is <b>closest to</b>:</p>",
+  "options": {
+   "A": "3.0%",
+   "B": "9.0%",
+   "C": "2.0%"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> The 100 PSA benchmark ramps CPR from 0 by 0.2% per month up to 6.0% at month 30. In month 10, 100 PSA CPR = 6% &times; 10/30 = 2.0%. At 150 PSA the CPR is 1.5 times that: 2.0% &times; 1.5 = <b>3.0%</b>.</p><p><b>B is incorrect.</b> 9.0% = 6% &times; 1.5 applies the fully seasoned CPR, ignoring that month 10 is still in the ramp-up period.</p><p><b>C is incorrect.</b> 2.0% is the CPR at 100 PSA in month 10; the 150% multiple was not applied.</p><p><i>LOS idea: PSA benchmark; faster prepayments (higher PSA) shorten average life (contraction), slower ones lengthen it (extension).</i></p>"
+ },
+ {
+  "id": "fi-21",
+  "topic": "fi",
+  "concept": "Sovereign and municipal issuers: credit analysis and funding choices",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following statements about sovereign credit analysis is <b>least</b> likely to be accurate?</p>",
+  "options": {
+   "A": "The strength of a country's institutions, such as rule of law and predictability of policy, is a factor in sovereign credit analysis.",
+   "B": "A sovereign's foreign-currency debt is typically rated higher than its local-currency debt, because foreign investors hold it.",
+   "C": "A government that issues debt in its own currency generally has more flexibility to service that debt than one issuing in a foreign currency."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct (it is the inaccurate statement).</b> Local-currency debt is usually rated equal to or higher than foreign-currency debt, because the government can tax and, at the extreme, create its own currency to meet local obligations. It cannot print a foreign currency.</p><p><b>A is incorrect (accurate).</b> Institutional effectiveness and political risk are core sovereign credit factors.</p><p><b>C is incorrect (accurate).</b> Revenue and debt in the same currency removes currency mismatch and adds monetary policy flexibility.</p>"
+ },
+ {
+  "id": "fi-22",
+  "topic": "fi",
+  "concept": "Corporate bond market structure and ratings agencies",
+  "difficulty": "medium",
+  "stem": "<p>Rating agencies often rate the senior unsecured bonds of a holding company one or more notches below the senior unsecured bonds of its operating subsidiary. This notching most likely reflects differences in:</p>",
+  "options": {
+   "A": "the liquidity of the bonds in the secondary market, which is usually lower for holding company issues, and the resulting yield premium.",
+   "B": "the probability of default only, because the holding company usually issues more debt than the subsidiary does, which raises its leverage.",
+   "C": "expected recovery if default occurs, because holding company creditors rank behind the subsidiary's own creditors for subsidiary assets."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Notching adjusts the issuer rating for differences in loss given default. Holding-company creditors are structurally subordinated: subsidiary creditors are paid from subsidiary assets first, so recovery is expected to be lower and the bonds are notched down.</p><p><b>A is incorrect.</b> Ratings measure credit risk (probability of default and loss severity), not secondary market liquidity.</p><p><b>B is incorrect.</b> Notching is mainly about relative recovery, not just default probability, and the amount of debt issued does not by itself explain it.</p>"
+ }
+]

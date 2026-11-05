@@ -1,0 +1,184 @@
+[
+ {
+  "id": "alts-01",
+  "topic": "alts",
+  "concept": "Private equity and VC: buyout vs growth, exits, MOIC vs IRR, clawback, co-investment",
+  "difficulty": "easy",
+  "stem": "<p>A private equity fund owns a profitable portfolio company. To return capital to the fund without selling its stake, the fund arranges for the company to borrow and pay a large one-time dividend to its shareholders. This transaction is best described as a:</p>",
+  "options": {
+   "A": "secondary sale.",
+   "B": "strategic (trade) sale.",
+   "C": "dividend recapitalization."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> In a dividend recapitalization the portfolio company raises new debt and pays the proceeds to its owners, returning cash to the fund while the fund keeps its ownership.</p><p><b>A is incorrect.</b> In a secondary sale the fund sells its stake to another private equity firm or a group of investors, so the fund gives up ownership.</p><p><b>B is incorrect.</b> A strategic (trade) sale is a sale of the company to a corporate buyer, again ending the fund's ownership.</p>"
+ },
+ {
+  "id": "alts-02",
+  "topic": "alts",
+  "concept": "Private equity and VC: buyout vs growth, exits, MOIC vs IRR, clawback, co-investment",
+  "difficulty": "medium",
+  "stem": "<p>Two buyout funds each invest EUR 100 million in a single company at inception and receive a single distribution at exit. Fund P receives EUR 240 million after 9 years. Fund Q receives EUR 180 million after 4 years. Which of the following statements is most accurate?</p>",
+  "options": {
+   "A": "Fund P has the higher IRR because it produces the higher MOIC on the same invested capital.",
+   "B": "Fund Q has the higher IRR despite its lower multiple of invested capital (MOIC), because MOIC ignores the timing of cash flows.",
+   "C": "The IRRs are equal because both funds invested the same amount at inception and exited in a single distribution."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> MOIC = total value / invested capital: Fund P = 2.4&times;, Fund Q = 1.8&times;. IRR for a single in and out flow = MOIC<sup>1/n</sup> &minus; 1: Fund P = 2.4<sup>1/9</sup> &minus; 1 = 10.2%; Fund Q = 1.8<sup>1/4</sup> &minus; 1 = 15.8%. Fund Q returned capital sooner, so its IRR is higher.</p><p><b>A is incorrect.</b> A higher MOIC does not imply a higher IRR; MOIC does not consider how long the capital was tied up.</p><p><b>C is incorrect.</b> The same initial investment does not make the IRRs equal; IRR depends on the size and timing of the distributions.</p>"
+ },
+ {
+  "id": "alts-03",
+  "topic": "alts",
+  "concept": "Private equity and VC: buyout vs growth, exits, MOIC vs IRR, clawback, co-investment",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following characteristics would make a company <b>least</b> attractive as a leveraged buyout (LBO) target?</p>",
+  "options": {
+   "A": "Highly cyclical earnings and large, unpredictable capital expenditure needs.",
+   "B": "Stable, predictable operating cash flows.",
+   "C": "Substantial tangible assets that can serve as collateral for borrowing."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> An LBO uses a high level of debt that must be serviced from the target's cash flows. Cyclical earnings and heavy, unpredictable capex make those cash flows unreliable and raise the risk of default.</p><p><b>B is incorrect.</b> Stable cash flows are a classic LBO attraction because they support debt service.</p><p><b>C is incorrect.</b> Tangible assets provide collateral, making debt financing easier to obtain.</p>"
+ },
+ {
+  "id": "alts-04",
+  "topic": "alts",
+  "concept": "Fee calculations: hard vs soft hurdle, high-water mark, committed vs invested capital, fund of funds net return",
+  "difficulty": "hard",
+  "stem": "<p>A hedge fund starts the year with USD 200 million of assets and earns a gross return of 14%. The management fee is 1.5% of beginning assets and is deducted first. The incentive fee is 20% of the profit, after the management fee, in excess of a 6% hard hurdle (the hurdle is measured on beginning assets). The return to investors, net of all fees, is <b>closest to</b>:</p>",
+  "options": {
+   "A": "10.0%",
+   "B": "11.2%",
+   "C": "10.9%"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Gross profit = 14% &times; 200 = 28.0. Management fee = 3.0. Profit after management fee = 25.0. Hurdle amount = 6% &times; 200 = 12.0. Excess = 25.0 &minus; 12.0 = 13.0, so the incentive fee = 20% &times; 13.0 = 2.6. Net profit = 28.0 &minus; 3.0 &minus; 2.6 = 22.4, a net return of 22.4/200 = <b>11.2%</b>.</p><p><b>A is incorrect.</b> 10.0% applies a soft hurdle: once the hurdle is cleared, the incentive fee is charged on all profit (20% &times; 25.0 = 5.0). A hard hurdle charges only on the excess over the hurdle.</p><p><b>C is incorrect.</b> 10.9% measures the excess over the hurdle before deducting the management fee (28.0 &minus; 12.0 = 16.0; fee = 3.2); the question states the incentive fee is calculated on profit after the management fee.</p><p><b>BA II Plus:</b> (28 &minus; 3 &minus; 12) &times; 0.2 = 2.6; (28 &minus; 3 &minus; 2.6) &divide; 200 = 0.112.</p>"
+ },
+ {
+  "id": "alts-05",
+  "topic": "alts",
+  "concept": "Fee calculations: hard vs soft hurdle, high-water mark, committed vs invested capital, fund of funds net return",
+  "difficulty": "hard",
+  "stem": "<p>A hedge fund charges an incentive fee of 20% of gains above its high-water mark, assessed annually. There is no hurdle rate and no management fee. The net asset value (NAV) per unit starts at USD 100.00, which is the initial high-water mark. Over three years the NAV per unit before incentive fees evolves as follows:</p><table><tr><th>Year</th><th>NAV per unit before incentive fee</th></tr><tr><td>1</td><td>120.00</td></tr><tr><td>2</td><td>104.00 (after year 1's fee was paid)</td></tr><tr><td>3</td><td>127.00</td></tr></table><p>The incentive fee per unit paid at the end of year 3 is <b>closest to</b>:</p>",
+  "options": {
+   "A": "USD 2.20",
+   "B": "USD 1.40",
+   "C": "USD 4.60"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Year 1 fee = 20% &times; (120 &minus; 100) = 4.00, so NAV after fees = 116.00, which becomes the new high-water mark. Year 2 NAV of 104.00 is below the high-water mark: no fee. In year 3 the fee applies only to the gain above 116.00: 20% &times; (127.00 &minus; 116.00) = <b>USD 2.20</b>.</p><p><b>B is incorrect.</b> USD 1.40 uses the pre-fee year-1 NAV of 120.00 as the high-water mark. The high-water mark is the NAV after the fee was deducted (116.00).</p><p><b>C is incorrect.</b> USD 4.60 charges on the gain from the year-2 NAV (127 &minus; 104 = 23.00). That recovers the loss and ignores the high-water mark, so investors would pay fees twice on the same gains.</p><p><b>BA II Plus:</b> 120 &minus; 100 = 20 &times; 0.2 = 4; 120 &minus; 4 = 116; (127 &minus; 116) &times; 0.2 = 2.2.</p>"
+ },
+ {
+  "id": "alts-06",
+  "topic": "alts",
+  "concept": "Real estate, REITs, infrastructure, MLPs, farmland and timberland features",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about real estate investment trusts (REITs), relative to direct private real estate investment, is most accurate?</p>",
+  "options": {
+   "A": "REIT returns are typically less correlated with equity markets, because the underlying properties are appraised infrequently.",
+   "B": "REIT shares always trade at their net asset value, because the underlying properties are professionally appraised.",
+   "C": "REIT shares are generally more liquid, and their prices can trade at a premium or discount to the net asset value of the underlying properties."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> REITs are listed, so their shares trade daily and are far more liquid than direct property. Their market prices are set by supply and demand and can differ from NAV.</p><p><b>A is incorrect.</b> The reverse is true. Because REITs are market priced, their returns are more correlated with equities than appraisal-based private real estate returns, which look smoothed and less volatile.</p><p><b>B is incorrect.</b> Appraisal values give an estimate of NAV, but market prices of REIT shares routinely deviate from it.</p>"
+ },
+ {
+  "id": "alts-07",
+  "topic": "alts",
+  "concept": "Real estate, REITs, infrastructure, MLPs, farmland and timberland features",
+  "difficulty": "medium",
+  "stem": "<p>An investor compares two infrastructure investments. Project X is a toll road that has been planned but not yet built. Project Y is an existing toll road that is already operating. Relative to Project Y, Project X most likely has:</p>",
+  "options": {
+   "A": "lower risk, because its revenues carry no demand uncertainty, and a correspondingly lower expected return.",
+   "B": "greater construction and demand risk, a higher expected return, and cash flows starting only after construction.",
+   "C": "immediate and stable cash flows, which give it lower risk but also a higher expected return."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Project X is a greenfield investment (new construction); Project Y is a brownfield (existing) asset. Greenfield projects carry construction, completion and demand-forecast risk and generate no cash flows during the build, so investors require a higher expected return.</p><p><b>A is incorrect.</b> Greenfield projects have more, not less, risk, and demand for a new facility is uncertain.</p><p><b>C is incorrect.</b> This describes a brownfield asset. A project not yet built cannot produce immediate cash flows, and lower risk would not justify a higher expected return.</p>"
+ },
+ {
+  "id": "alts-08",
+  "topic": "alts",
+  "concept": "Hedge fund strategies, lockups, prime broker, fund structures",
+  "difficulty": "medium",
+  "stem": "<p>A hedge fund requires investors to leave their capital in the fund for at least one year after investing. The most likely purpose of this lockup period is to:</p>",
+  "options": {
+   "A": "allow the manager to hold less liquid positions without being forced to sell them to meet early redemptions.",
+   "B": "protect the high-water mark by preventing redemptions when the fund's NAV is below it.",
+   "C": "allow the fund to borrow more from its prime broker without receiving margin calls."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> A lockup gives the manager a stable capital base, so illiquid or longer-horizon positions can be held to maturity without fire sales driven by redemptions.</p><p><b>B is incorrect.</b> The high-water mark relates to how performance fees are charged; it does not restrict redemptions and is not the purpose of a lockup.</p><p><b>C is incorrect.</b> Margin requirements are set by the prime broker according to the fund's positions and collateral, not by investors' lockups.</p>"
+ },
+ {
+  "id": "alts-09",
+  "topic": "alts",
+  "concept": "Digital assets: tokens, Bitcoin supply, altcoins vs stablecoins",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about digital assets is <b>least</b> accurate?</p>",
+  "options": {
+   "A": "The supply of Bitcoin is capped at 21 million coins by its protocol.",
+   "B": "Stablecoins aim to maintain a stable value by being pegged to a reference asset, often backed by reserves.",
+   "C": "Altcoins are cryptocurrencies whose value is pegged to a fiat currency to reduce price volatility."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct (it is the inaccurate statement).</b> Altcoins are all cryptocurrencies other than Bitcoin. Stablecoins, not altcoins in general, are the digital assets designed to hold a stable value through a peg.</p><p><b>A is incorrect (accurate).</b> Bitcoin's issuance schedule is limited to 21 million coins.</p><p><b>B is incorrect (accurate).</b> Stablecoins peg to fiat currencies or other assets and are typically backed by reserves.</p>"
+ },
+ {
+  "id": "alts-10",
+  "topic": "alts",
+  "concept": "Commodities: return components, roll yield, contango and backwardation",
+  "difficulty": "medium",
+  "stem": "<p>The futures curve for a commodity is upward sloping (contango). An investor holds long futures positions and rolls them forward as they approach expiration. Assuming the spot price is unchanged, the investor will most likely earn a roll yield that is:</p>",
+  "options": {
+   "A": "positive, because the convenience yield exceeds the cost of carry.",
+   "B": "negative, because the costs of storage and financing exceed the convenience yield.",
+   "C": "negative, because the convenience yield exceeds the cost of carry."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Contango arises when storage and financing costs are greater than the convenience yield. Rolling means selling the expiring contract (lower price) and buying a longer-dated one at a higher price, so the roll yield is negative.</p><p><b>A is incorrect.</b> A positive roll yield happens in backwardation, not contango.</p><p><b>C is incorrect.</b> A convenience yield greater than the cost of carry produces backwardation, which gives a positive roll yield; the direction of the reason does not match the sign.</p><p><i>Commodity futures total return = spot return + roll yield + collateral return.</i></p>"
+ },
+ {
+  "id": "alts-11",
+  "topic": "alts",
+  "concept": "Performance appraisal: TVPI, DPI, RVPI, PME, J-curve",
+  "difficulty": "medium",
+  "stem": "<p>A private equity fund has committed capital of GBP 100 million. To date, investors have paid in GBP 80 million, received distributions of GBP 36 million, and the fund's residual net asset value is GBP 72 million. The fund's TVPI (total value to paid-in) is <b>closest to</b>:</p>",
+  "options": {
+   "A": "0.90",
+   "B": "1.08",
+   "C": "1.35"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> TVPI = (distributions + residual NAV)/paid-in capital = (36 + 72)/80 = <b>1.35</b>. It equals DPI (36/80 = 0.45) plus RVPI (72/80 = 0.90).</p><p><b>A is incorrect.</b> 0.90 is the RVPI (residual value only). It ignores the distributions already received.</p><p><b>B is incorrect.</b> 1.08 divides by committed capital (100) instead of paid-in capital (80). Paid-in capital is the denominator for TVPI, DPI and RVPI.</p><p><b>BA II Plus:</b> (36 + 72) &divide; 80 = 1.35.</p>"
+ },
+ {
+  "id": "alts-12",
+  "topic": "alts",
+  "concept": "Real estate valuation: cap rate, NOI, appraisal smoothing",
+  "difficulty": "hard",
+  "stem": "<p>An analyst values an office building using the direct capitalization approach with a cap rate of 6.25%. The building's potential gross rental income is CHF 2,400,000 a year. Vacancy and collection losses are 7.5% of potential gross income. Operating expenses (including property taxes and insurance) are CHF 640,000. Annual depreciation is CHF 210,000 and annual mortgage interest is CHF 380,000. The building's estimated value is <b>closest to</b>:</p>",
+  "options": {
+   "A": "CHF 25.28 million",
+   "B": "CHF 15.84 million",
+   "C": "CHF 28.16 million"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Effective gross income = 2,400,000 &times; (1 &minus; 0.075) = 2,220,000. NOI = EGI &minus; operating expenses = 2,220,000 &minus; 640,000 = 1,580,000. Value = NOI / cap rate = 1,580,000/0.0625 = <b>CHF 25,280,000</b>.</p><p><b>B is incorrect.</b> CHF 15.84 million deducts depreciation and mortgage interest. NOI excludes depreciation (non-cash) and financing costs; the cap rate is applied to unlevered income.</p><p><b>C is incorrect.</b> CHF 28.16 million ignores vacancy and collection losses (2,400,000 &minus; 640,000 = 1,760,000) and so overstates NOI.</p><p><b>BA II Plus:</b> 2,400,000 &times; 0.925 = 2,220,000; &minus; 640,000 = 1,580,000; &divide; 0.0625 = 25,280,000.</p>"
+ },
+ {
+  "id": "alts-13",
+  "topic": "alts",
+  "concept": "Private debt: direct lending, mezzanine, distressed",
+  "difficulty": "easy",
+  "stem": "<p>Compared with senior secured direct loans, mezzanine debt issued by a private company most likely:</p>",
+  "options": {
+   "A": "ranks ahead of senior debt in repayment priority but offers a lower yield.",
+   "B": "is subordinated to senior debt, offers a higher yield, and often includes an equity feature such as warrants.",
+   "C": "has a lower expected return and lower risk because it is typically floating rate and covenant heavy."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Mezzanine debt ranks below senior loans (and above common equity), so lenders require a higher return; it often includes equity kickers such as warrants or conversion features, and may pay part of its interest in kind.</p><p><b>A is incorrect.</b> Mezzanine debt is junior to senior debt, not ahead of it.</p><p><b>C is incorrect.</b> Subordination makes mezzanine debt riskier, with a higher, not lower, expected return.</p>"
+ }
+]

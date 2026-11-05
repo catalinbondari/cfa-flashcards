@@ -1,0 +1,184 @@
+[
+ {
+  "id": "ci-01",
+  "topic": "ci",
+  "concept": "Real options: identify timing, sizing, abandonment, flexibility, fundamental options",
+  "difficulty": "medium",
+  "stem": "<p>Caldera Energy is evaluating a lease on an offshore oil field. Once developed, the field's profitability depends almost entirely on the market price of oil: if prices are high the project is highly valuable, and if they stay low the project has little value. The cash flows resemble the payoff of an option on the price of oil, and the company has no ability to defer, resize or abandon the project once it has begun. The project is <b>best described</b> as containing a:</p>",
+  "options": {
+   "A": "fundamental option.",
+   "B": "timing option.",
+   "C": "flexibility option."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> A fundamental option arises when the project itself is an option on an underlying asset, such as an oil or mineral project whose payoff depends on the commodity price. Its value derives from the underlying price, not from management actions during the project.</p><p><b>B is incorrect.</b> A timing option involves the ability to delay investment to gain information. The stem rules out deferral.</p><p><b>C is incorrect.</b> Flexibility options (price-setting and production-flexibility options) involve management changing prices or output in response to conditions. The stem rules out management intervention.</p>"
+ },
+ {
+  "id": "ci-02",
+  "topic": "ci",
+  "concept": "Capital allocation: NPV vs IRR conflicts, ROIC vs WACC, share-price NPV, project categories",
+  "difficulty": "hard",
+  "stem": "<p>A company with a weighted average cost of capital of 9% must choose between two mutually exclusive projects with the following cash flows (in $ thousands):</p><table><tr><th>Project</th><th>Year 0</th><th>Year 1</th><th>Year 2</th><th>Year 3</th></tr><tr><td>X</td><td>&minus;300</td><td>200</td><td>200</td><td>100</td></tr><tr><td>Y</td><td>&minus;900</td><td>300</td><td>400</td><td>700</td></tr></table><p>The company should <b>most appropriately</b> choose:</p>",
+  "options": {
+   "A": "Project X, because it has the higher IRR.",
+   "B": "Project X, because it has the higher profitability index.",
+   "C": "Project Y, because it has the higher NPV."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> IRR of X is about 34.6% versus about 22.0% for Y, so IRR ranks X first. IRR ignores project scale and can conflict with NPV for mutually exclusive projects; NPV wins.</p><p><b>B is incorrect.</b> PI = 1 + NPV / outlay is 1.43 for X versus 1.28 for Y. Like IRR, PI is a ratio that ignores the scale of the investment and can rank mutually exclusive projects differently from NPV.</p><p><b>C is correct.</b> NPV of X at 9% = $129.0 thousand; NPV of Y = $252.4 thousand. For mutually exclusive projects, NPV measures the increase in shareholder wealth and is the correct criterion when rankings conflict. Y adds more value even though it is larger and has a lower IRR.</p><p><b>BA II Plus:</b> CF0 = &minus;300, C01 = 200, F01 = 2 (or enter each year), C02 = 100, then NPV, I = 9, CPT = 129.04. Repeat for Y: &minus;900, 300, 400, 700 gives NPV = 252.43. IRR CPT: X = 34.6%, Y = 22.0%.</p>"
+ },
+ {
+  "id": "ci-03",
+  "topic": "ci",
+  "concept": "Capital allocation: NPV vs IRR conflicts, ROIC vs WACC, share-price NPV, project categories",
+  "difficulty": "medium",
+  "stem": "<p>Torvik SE has 40 million shares outstanding trading at &euro;25.00. It announces a new project that investors had not anticipated, with an NPV of &euro;60 million. Assuming the market is efficient and the NPV is the only new information, the share price should rise to:</p>",
+  "options": {
+   "A": "&euro;25.00",
+   "B": "&euro;26.50",
+   "C": "&euro;85.00"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> The price would be unchanged only if the market had already anticipated the project and priced it in. The stem says it was not anticipated.</p><p><b>B is correct.</b> The NPV accrues to existing shareholders: &euro;60 million / 40 million shares = &euro;1.50 per share. New price = 25.00 + 1.50 = &euro;26.50.</p><p><b>C is incorrect.</b> &euro;85.00 adds the whole NPV in millions (60) to the per-share price without dividing by the number of shares.</p><p><b>BA II Plus:</b> 60 &divide; 40 = 1.50; 25 + 1.50 = 26.50.</p>"
+ },
+ {
+  "id": "ci-04",
+  "topic": "ci",
+  "concept": "WACC with target D/E weights, marginal tax, project risk adjustment",
+  "difficulty": "hard",
+  "stem": "<p>A company targets a debt-to-equity ratio of 0.6. Its pre-tax cost of debt is 6%, its marginal tax rate is 25% (its average tax rate is 20%), the risk-free rate is 3%, its equity beta is 1.1 and the equity risk premium is 5.5%. Its weighted average cost of capital is <b>closest to</b>:</p>",
+  "options": {
+   "A": "6.32%",
+   "B": "7.34%",
+   "C": "7.91%"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> 6.32% treats D/E as the weight on debt and uses 0.4 for equity: 0.6 &times; 4.5% + 0.4 &times; 9.05%. D/E must first be converted to D/V.</p><p><b>B is correct.</b> D/E = 0.6 means D/V = 0.6 / 1.6 = 37.5% and E/V = 62.5%. Cost of equity = 3% + 1.1 &times; 5.5% = 9.05%. WACC = 0.375 &times; 6% &times; (1 &minus; 0.25) + 0.625 &times; 9.05% = 1.69% + 5.66% = 7.34%.</p><p><b>C is incorrect.</b> 7.91% omits the interest tax shield: 0.375 &times; 6% + 0.625 &times; 9.05%. The after-tax cost of debt must be used.</p><p><b>BA II Plus:</b> 1 + 0.6 = 1.6; 0.6 &divide; 1.6 = 0.375; 6 &times; 0.75 = 4.5; 0.375 &times; 4.5 + 0.625 &times; 9.05 = 7.34.</p>"
+ },
+ {
+  "id": "ci-05",
+  "topic": "ci",
+  "concept": "Liquidity: primary vs secondary sources, drags vs pulls, factoring, cash conversion cycle",
+  "difficulty": "medium",
+  "stem": "<p>Zenith Corp.'s treasurer reports two developments: (1) customers are paying later than the agreed terms, and (2) suppliers have shortened their credit terms from 60 to 30 days. These developments are <b>most likely</b>, respectively:</p>",
+  "options": {
+   "A": "a drag on liquidity and a pull on liquidity.",
+   "B": "a pull on liquidity and a drag on liquidity.",
+   "C": "both pulls on liquidity."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Drags delay cash inflows (slow receivables, obsolete inventory, bad debts). Pulls accelerate cash outflows (shortened payables terms, lower credit limits, margin calls). Late-paying customers are a drag; shorter supplier terms are a pull.</p><p><b>B is incorrect.</b> The classification is reversed. Slow collections delay inflows (drag) and shorter supplier terms accelerate outflows (pull).</p><p><b>C is incorrect.</b> Late customer payments do not speed up outflows; they delay inflows, which is a drag.</p>"
+ },
+ {
+  "id": "ci-06",
+  "topic": "ci",
+  "concept": "Liquidity: primary vs secondary sources, drags vs pulls, factoring, cash conversion cycle",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following is <b>least likely</b> a secondary source of liquidity?</p>",
+  "options": {
+   "A": "Negotiating a change to the terms of existing debt contracts.",
+   "B": "Selling a non-core division.",
+   "C": "Drawing on a committed bank line of credit."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Secondary source: renegotiating debt contracts (for example, covenants or maturities) is a way to relieve liquidity strain and can signal financial distress.</p><p><b>B is incorrect.</b> Secondary source: liquidating assets is a typical secondary source and may affect operations and signal weakness.</p><p><b>C is correct.</b> Ready cash, cash flow from operations and short-term funding such as committed credit lines and trade credit are primary sources. A drawn committed line is a primary source of liquidity.</p>"
+ },
+ {
+  "id": "ci-07",
+  "topic": "ci",
+  "concept": "Governance and agency: stakeholder vs shareholder theory, pay structures",
+  "difficulty": "medium",
+  "stem": "<p>The board of a listed manufacturer wants to reduce the agency conflict between executives and shareholders, including short-term risk taking. Which compensation structure would <b>most likely</b> achieve this?</p>",
+  "options": {
+   "A": "Restricted shares that vest over five years, with clawback provisions tied to long-term performance.",
+   "B": "A large annual cash bonus based on revenue growth.",
+   "C": "A fixed salary only, with no variable pay."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Multi-year vesting aligns executives with long-term shareholder value, and clawback discourages excessive short-term risk taking and misreporting.</p><p><b>B is incorrect.</b> An annual bonus on revenue growth encourages short-termism and growth at the expense of profitability, which worsens the agency conflict.</p><p><b>C is incorrect.</b> With only fixed pay, managers bear no outcome-based incentive, and may be risk-averse or complacent; there is no alignment with shareholders.</p>"
+ },
+ {
+  "id": "ci-08",
+  "topic": "ci",
+  "concept": "Capital structure: static trade-off, why leverage below optimum, start-up financing",
+  "difficulty": "easy",
+  "stem": "<p>At its current level of debt, the marginal benefit of the interest tax shield for Delmar Ltd. exceeds the present value of the marginal expected costs of financial distress. Under static trade-off theory, Delmar:</p>",
+  "options": {
+   "A": "is at its optimal capital structure, so changing debt will not affect firm value.",
+   "B": "is over-levered, and reducing debt would increase firm value.",
+   "C": "is under-levered, and adding debt would increase firm value."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> The optimum is where the marginal benefit equals the marginal cost. Here the benefit is larger, so the optimum has not been reached.</p><p><b>B is incorrect.</b> Over-leverage would mean the marginal distress cost exceeds the marginal tax benefit. The stem states the opposite.</p><p><b>C is correct.</b> Firm value = value if unlevered + PV of tax shield &minus; PV of expected distress costs. While the marginal tax benefit exceeds the marginal expected distress cost, each additional unit of debt raises firm value, so the firm is below its optimal leverage.</p>"
+ },
+ {
+  "id": "ci-09",
+  "topic": "ci",
+  "concept": "Business models: value chain, pricing strategies; public vs private issuers and double taxation",
+  "difficulty": "medium",
+  "stem": "<p>A publicly traded corporation in a jurisdiction with a classical double-taxation system earns &euro;1,000,000 of profit before tax. The corporate tax rate is 25%, the company distributes all after-tax profit as dividends, and shareholders pay a 20% tax on dividends received. The total amount that shareholders retain after all taxes is:</p>",
+  "options": {
+   "A": "&euro;550,000",
+   "B": "&euro;600,000",
+   "C": "&euro;750,000"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> &euro;550,000 adds the two tax rates (25% + 20% = 45%) and applies them to the pre-tax profit. The dividend tax applies to the after-corporate-tax amount.</p><p><b>B is correct.</b> Profit after corporate tax = 1,000,000 &times; 0.75 = 750,000. Dividends are taxed again: 750,000 &times; 0.80 = &euro;600,000. The combined burden is 40%, not 45%.</p><p><b>C is incorrect.</b> &euro;750,000 ignores the second layer of tax at the shareholder level.</p><p><b>BA II Plus:</b> 1,000,000 &times; 0.75 = 750,000; 750,000 &times; 0.80 = 600,000.</p>"
+ },
+ {
+  "id": "ci-10",
+  "topic": "ci",
+  "concept": "Organisational forms, stakeholder groups and conflicts (shareholders vs creditors)",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following management actions, taken in the interest of shareholders, would <b>most likely</b> be detrimental to creditors?</p>",
+  "options": {
+   "A": "Issuing new equity to repay existing debt.",
+   "B": "Paying a large special dividend financed by selling assets.",
+   "C": "Retaining earnings to fund low-risk investments."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Using equity proceeds to repay debt strengthens the creditors' position.</p><p><b>B is correct.</b> A debt-financed or asset-funded special dividend transfers value from creditors to shareholders: collateral and the equity cushion shrink while claims on the firm are unchanged. This is a classic shareholder-creditor conflict.</p><p><b>C is incorrect.</b> Retaining earnings for low-risk investments raises the equity cushion and reduces risk for creditors.</p>"
+ },
+ {
+  "id": "ci-11",
+  "topic": "ci",
+  "concept": "Working capital management and short-term funding sources",
+  "difficulty": "hard",
+  "stem": "<p>Compared with an uncommitted line of credit, a committed line of credit with a bank will <b>most likely</b>:</p>",
+  "options": {
+   "A": "involve a commitment fee but legally oblige the bank to lend up to the limit.",
+   "B": "carry no fees but allow the bank to refuse to lend if conditions change.",
+   "C": "be available only to issuers with the highest credit ratings, and it is unsecured."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> A committed line (a formal agreement) charges a fee on the unused portion and obliges the bank to provide funds, subject to conditions. It is a more reliable primary source of liquidity.</p><p><b>B is incorrect.</b> This describes an uncommitted line: usually no commitment fee, but the bank has no obligation to lend.</p><p><b>C is incorrect.</b> Commercial paper, not bank credit lines, is restricted to high-rated issuers. Committed lines are available to a broader range of firms and may be secured or unsecured.</p>"
+ },
+ {
+  "id": "ci-12",
+  "topic": "ci",
+  "concept": "ESG factors and integration; green finance",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following is <b>least likely</b> classified as a governance factor in ESG analysis?</p>",
+  "options": {
+   "A": "Board independence.",
+   "B": "Executive remuneration structure.",
+   "C": "Employee health and safety record."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Governance: board composition and independence.</p><p><b>B is incorrect.</b> Governance: executive remuneration and its alignment with shareholders.</p><p><b>C is correct.</b> Employee health and safety is a social factor (labour practices and human capital).</p>"
+ },
+ {
+  "id": "ci-13",
+  "topic": "ci",
+  "concept": "Operating and financial leverage, payback and profitability index",
+  "difficulty": "medium",
+  "stem": "<p>A company has annual sales of $5,000 thousand, variable operating costs of $3,000 thousand, fixed operating costs of $1,000 thousand and interest expense of $200 thousand. Variable costs move in proportion to sales and the tax rate is constant. If sales increase by 10%, net income will most likely increase by:</p>",
+  "options": {
+   "A": "12.5%",
+   "B": "20.0%",
+   "C": "25.0%"
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> 12.5% uses only DFL (1.25 &times; 10%), ignoring operating leverage.</p><p><b>B is incorrect.</b> 20% = DOL &times; 10% only, which is the change in EBIT. Financial leverage then magnifies the change in net income.</p><p><b>C is correct.</b> Contribution margin = 5,000 &minus; 3,000 = 2,000. EBIT = 2,000 &minus; 1,000 = 1,000. DOL = 2,000 / 1,000 = 2.0. DFL = EBIT / (EBIT &minus; interest) = 1,000 / 800 = 1.25. DTL = 2.0 &times; 1.25 = 2.5; net income rises 10% &times; 2.5 = 25%.</p><p><b>BA II Plus:</b> 2,000 &divide; 1,000 = 2.0; 1,000 &divide; 800 = 1.25; 2.0 &times; 1.25 = 2.5.</p>"
+ }
+]

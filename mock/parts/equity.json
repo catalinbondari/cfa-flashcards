@@ -1,0 +1,324 @@
+[
+ {
+  "id": "equity-01",
+  "topic": "equity",
+  "concept": "DDM: multistage (D_n+1 at year n), delayed first dividend, model selection, preferred valuation",
+  "difficulty": "medium",
+  "stem": "<p>Halvorsen Marine Ltd paid an annual dividend of USD 1.50 per share yesterday. Analysts expect dividends to grow 10% a year for the next three years and 3% a year indefinitely thereafter. The required return on equity is 8%.</p><p>The value of a share today is closest to:</p>",
+  "options": {
+   "A": "USD 37.32",
+   "B": "USD 36.37",
+   "C": "USD 34.90"
+  },
+  "answer": "A",
+  "explanation": "<p>Dividends: D<sub>1</sub> = 1.50 × 1.10 = 1.650; D<sub>2</sub> = 1.815; D<sub>3</sub> = 1.9965. First dividend of the stable stage: D<sub>4</sub> = 1.9965 × 1.03 = 2.0564.</p><p>V<sub>3</sub> = D<sub>4</sub> / (r − g) = 2.0564 / 0.05 = 41.128 (value at the end of year 3).</p><p>V<sub>0</sub> = 1.650/1.08 + 1.815/1.08<sup>2</sup> + (1.9965 + 41.128)/1.08<sup>3</sup> = 1.528 + 1.556 + 34.233 = <b>USD 37.32</b>.</p><p><b>BA II Plus:</b> [CF] [2nd][CLR WORK]; CF0 = 0 [ENTER]; C01 = 1.65 ; C02 = 1.815 ; C03 = 43.1244 (= 1.9965 + 41.128); [NPV] I = 8 [ENTER] [↓] [CPT] = 37.32.</p><p>LOS: multistage DDM — the terminal value at year n uses D<sub>n+1</sub> and is discounted n periods, plus D<sub>n</sub> in year n.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — Uses D<sub>3</sub> instead of D<sub>4</sub> in the terminal value: 1.9965/0.05 = 39.93, then PV = 1.528 + 1.556 + (1.9965 + 39.93)/1.08<sup>3</sup> = 36.37. The Gordon step must use the first dividend of the new growth rate, D<sub>n+1</sub>.</li><li><b>C</b> — Discounts the terminal value four periods instead of three: V<sub>3</sub>/1.08<sup>4</sup> = 41.128/1.3605 = 30.23, plus PV(D<sub>1</sub>..D<sub>3</sub>) = 1.528 + 1.556 + 1.585 = 4.669, total 34.90. V<sub>3</sub> is a value at t = 3 (one period before D<sub>4</sub>), so it is discounted three periods.</li></ul>"
+ },
+ {
+  "id": "equity-02",
+  "topic": "equity",
+  "concept": "DDM: multistage (D_n+1 at year n), delayed first dividend, model selection, preferred valuation",
+  "difficulty": "hard",
+  "stem": "<p>Brightwater Biotech pays no dividend today. Management states that the first annual dividend, EUR 2.40 per share, will be paid exactly four years from today (t = 4), and dividends will grow at 5% a year thereafter. The required return on equity is 10%.</p><p>The value of a share today is closest to:</p>",
+  "options": {
+   "A": "EUR 32.78",
+   "B": "EUR 36.06",
+   "C": "EUR 37.87"
+  },
+  "answer": "B",
+  "explanation": "<p>The Gordon model values the share one period <i>before</i> the first dividend: V<sub>3</sub> = D<sub>4</sub> / (r − g) = 2.40 / (0.10 − 0.05) = 48.00.</p><p>V<sub>0</sub> = 48.00 / 1.10<sup>3</sup> = <b>EUR 36.06</b>.</p><p><b>BA II Plus:</b> 48 [÷] 1.1 [y<sup>x</sup>] 3 [=] 36.06.</p><p>LOS: delayed-dividend / multistage DDM — discount the Gordon value n periods where D<sub>n+1</sub> is the first dividend.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — Discounts 4 periods (48.00/1.10<sup>4</sup> = 32.78): treats the Gordon value as being at t = 4, the date of the first dividend, rather than one year before it.</li><li><b>C</b> — Grows the first dividend again (2.40 × 1.05 = 2.52; 2.52/0.05 = 50.40; /1.331 = 37.87). The EUR 2.40 already is D<sub>4</sub>, the first dividend of the growth phase.</li></ul>"
+ },
+ {
+  "id": "equity-03",
+  "topic": "equity",
+  "concept": "DDM: multistage (D_n+1 at year n), delayed first dividend, model selection, preferred valuation",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following companies is LEAST suited to valuation with the constant-growth (Gordon) dividend discount model?</p>",
+  "options": {
+   "A": "A mature regulated water utility paying stable dividends that grow with inflation",
+   "B": "A consumer-staples company with a stable 60% payout ratio, steady ROE and long-run growth of 3%",
+   "C": "Nexa Software, which pays no dividend, is growing earnings 25% a year, and expects to start paying dividends in six years"
+  },
+  "answer": "C",
+  "explanation": "<p>The Gordon model needs dividends that are paid now (or soon), growing at a stable rate below the required return indefinitely. A fast-growing firm with no dividend and a very different future growth pattern needs a multistage (or delayed-dividend) model, or a model that does not depend on dividends (FCFE, residual income, multiples).</p><p>LOS: select the appropriate dividend discount model.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — The utility has stable, inflation-linked growth: a textbook Gordon candidate.</li><li><b>B</b> — The staples firm has a stable payout, steady ROE and moderate growth: suited to Gordon.</li></ul>"
+ },
+ {
+  "id": "equity-04",
+  "topic": "equity",
+  "concept": "Equity indexes: price vs total return index, weighting methods, reconstitution, multi-market",
+  "difficulty": "medium",
+  "stem": "<p>An analyst tracks a three-stock market with the data below (no dividends, no splits).</p><table><tr><th>Stock</th><th>Price at start (USD)</th><th>Price at end (USD)</th><th>Shares outstanding (m)</th></tr><tr><td>X</td><td>80</td><td>84</td><td>40</td></tr><tr><td>Y</td><td>20</td><td>24</td><td>10</td></tr><tr><td>Z</td><td>50</td><td>45</td><td>30</td></tr></table><p>The return on an equal-weighted index of the three stocks is closest to:</p>",
+  "options": {
+   "A": "2.0%",
+   "B": "5.0%",
+   "C": "1.0%"
+  },
+  "answer": "B",
+  "explanation": "<p>Individual returns: X = 84/80 − 1 = +5.0%; Y = 24/20 − 1 = +20.0%; Z = 45/50 − 1 = −10.0%.</p><p>Equal-weighted index return = simple average = (5 + 20 − 10)/3 = <b>5.0%</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — 2.0% is the price-weighted return: (84 + 24 + 45)/(80 + 20 + 50) − 1 = 153/150 − 1. Higher-priced stocks get more weight, not equal weight.</li><li><b>C</b> — 1.0% is the value-weighted return: market caps 3,200 + 200 + 1,500 = 4,900 rise to 3,360 + 240 + 1,350 = 4,950, i.e. +1.02%.</li></ul>"
+ },
+ {
+  "id": "equity-05",
+  "topic": "equity",
+  "concept": "Equity indexes: price vs total return index, weighting methods, reconstitution, multi-market",
+  "difficulty": "hard",
+  "stem": "<p>At the start of the year the price return index of a large-cap equity market stood at 1,500 and the total return index at 2,400. During the year the price return index rose to 1,590. The constituents paid dividends equal to 36 index points over the year, received at year-end and not reinvested earlier.</p><p>The total return index at the end of the year is closest to:</p>",
+  "options": {
+   "A": "2,544.0",
+   "B": "2,526.0",
+   "C": "2,601.6"
+  },
+  "answer": "C",
+  "explanation": "<p>Total return for the year = (price change + dividends)/starting price index = (1,590 − 1,500 + 36)/1,500 = 126/1,500 = 8.4%.</p><p>The total return index is grown by that return: 2,400 × 1.084 = <b>2,601.6</b>.</p><p>Price return alone is 6.0%; the dividend adds 2.4%.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — 2,544.0 grows the total return index by the price return only (6.0%), ignoring dividends.</li><li><b>B</b> — 2,526.0 adds index points from the price index to the total return index level (2,400 + 90 + 36). The two indexes are on different bases; apply the percentage return instead.</li></ul>"
+ },
+ {
+  "id": "equity-06",
+  "topic": "equity",
+  "concept": "Justified P/E, P/B and P/S relationships; sustainable growth rate",
+  "difficulty": "hard",
+  "stem": "<p>Calder Foods earns a steady return on equity of 12% and pays out 60% of earnings as dividends. Its required return on equity is 9%, and the growth rate can be assumed sustainable and constant.</p><p>The justified <i>trailing</i> P/E is closest to:</p>",
+  "options": {
+   "A": "15.0",
+   "B": "14.3",
+   "C": "33.3"
+  },
+  "answer": "A",
+  "explanation": "<p>Sustainable growth g = retention × ROE = (1 − 0.60) × 12% = 4.8%.</p><p>Justified leading P/E = payout/(r − g) = 0.60/(0.09 − 0.048) = 14.29.</p><p>Trailing P/E = leading × (1 + g) = 14.29 × 1.048 = <b>14.97 ≈ 15.0</b> (equivalently D<sub>0</sub>/E<sub>0</sub> × (1+g)/(r−g)).</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — 14.3 is the justified <i>leading</i> (forward) P/E, P<sub>0</sub>/E<sub>1</sub>; the question asks for trailing.</li><li><b>C</b> — 33.3 uses g = payout × ROE = 7.2% (instead of retention × ROE): 0.60/(0.09 − 0.072) = 33.3.</li></ul>"
+ },
+ {
+  "id": "equity-07",
+  "topic": "equity",
+  "concept": "Justified P/E, P/B and P/S relationships; sustainable growth rate",
+  "difficulty": "medium",
+  "stem": "<p>A bank has an expected sustainable ROE of 14%, a required return on equity of 9%, and a constant growth rate of 5%. Its justified price-to-book ratio is closest to:</p>",
+  "options": {
+   "A": "1.25",
+   "B": "2.25",
+   "C": "3.50"
+  },
+  "answer": "B",
+  "explanation": "<p>Justified P/B = (ROE − g)/(r − g) = (0.14 − 0.05)/(0.09 − 0.05) = 0.09/0.04 = <b>2.25</b>.</p><p>Check: = 1 + (ROE − r)/(r − g) = 1 + 0.05/0.04.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — 1.25 is only the premium over book, (ROE − r)/(r − g); the 1 for the book value itself is missing.</li><li><b>C</b> — 3.50 divides ROE by (r − g) = 0.14/0.04, forgetting to subtract g in the numerator.</li></ul>"
+ },
+ {
+  "id": "equity-08",
+  "topic": "equity",
+  "concept": "Company and industry analysis: PESTLE, five forces, revenue drivers, working capital and PP&E forecasts",
+  "difficulty": "medium",
+  "stem": "<p>Orsini Packaging forecasts sales of EUR 2,000m next year. Capital expenditure is projected at 6% of sales and depreciation at 8% of beginning net PP&E. Beginning net PP&E is EUR 800m and there are no disposals.</p><p>Forecast end-of-year net PP&E is closest to:</p>",
+  "options": {
+   "A": "EUR 984m",
+   "B": "EUR 736m",
+   "C": "EUR 856m"
+  },
+  "answer": "C",
+  "explanation": "<p>Capex = 6% × 2,000 = 120. Depreciation = 8% × 800 = 64.</p><p>Ending net PP&E = beginning + capex − depreciation = 800 + 120 − 64 = <b>EUR 856m</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — 984 adds depreciation instead of subtracting it (800 + 120 + 64).</li><li><b>B</b> — 736 omits capex (800 − 64): net PP&E falls only by depreciation if nothing is invested.</li></ul>"
+ },
+ {
+  "id": "equity-09",
+  "topic": "equity",
+  "concept": "Company and industry analysis: PESTLE, five forces, revenue drivers, working capital and PP&E forecasts",
+  "difficulty": "hard",
+  "stem": "<p>An analyst forecasts sales of EUR 3,650m for Veldt Industrial. COGS is 60% of sales. Assumptions (365-day year): days sales outstanding 45, days inventory on hand 60, days payables outstanding 30.</p><p>Forecast operating working capital (receivables + inventory − payables) is closest to:</p>",
+  "options": {
+   "A": "EUR 630m",
+   "B": "EUR 750m",
+   "C": "EUR 990m"
+  },
+  "answer": "A",
+  "explanation": "<p>COGS = 0.60 × 3,650 = 2,190.</p><p>Receivables = 3,650 × 45/365 = 450. Inventory = 2,190 × 60/365 = 360. Payables = 2,190 × 30/365 = 180.</p><p>Operating working capital = 450 + 360 − 180 = <b>EUR 630m</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — 750 drives inventory (600) and payables (300) off sales instead of COGS: 450 + 600 − 300.</li><li><b>C</b> — 990 adds payables instead of subtracting them: 450 + 360 + 180.</li></ul>"
+ },
+ {
+  "id": "equity-10",
+  "topic": "equity",
+  "concept": "Company and industry analysis: PESTLE, five forces, revenue drivers, working capital and PP&E forecasts",
+  "difficulty": "easy",
+  "stem": "<p>Using Porter's five forces, which of the following is LEAST likely to increase rivalry among existing competitors in an industry?</p>",
+  "options": {
+   "A": "High exit barriers",
+   "B": "Rapid growth in industry demand",
+   "C": "Competitors of similar size selling largely undifferentiated products"
+  },
+  "answer": "B",
+  "explanation": "<p>Rivalry intensifies when growth is slow (firms gain share only by taking it from rivals), exit barriers keep excess capacity in the industry, and competitors are similar in size with little differentiation. Rapid demand growth lets all firms expand without taking share from others, so it eases rivalry.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — High exit barriers keep marginal firms and excess capacity in the industry: raises rivalry.</li><li><b>C</b> — Similar-sized rivals with undifferentiated products compete on price: raises rivalry.</li></ul>"
+ },
+ {
+  "id": "equity-11",
+  "topic": "equity",
+  "concept": "Order types, trade execution, short selling, margin calls and leverage ratio",
+  "difficulty": "medium",
+  "stem": "<p>An investor buys 1,000 shares of Tessin Instruments at CHF 40 using 50% initial margin and borrows the rest. The maintenance margin requirement is 30%. Ignore interest and dividends.</p><p>The share price at which the investor first receives a margin call is closest to:</p>",
+  "options": {
+   "A": "CHF 28.57",
+   "B": "CHF 28.00",
+   "C": "CHF 46.15"
+  },
+  "answer": "A",
+  "explanation": "<p>Loan = 0.50 × 40 × 1,000 = CHF 20,000 (CHF 20 per share). Equity % = (P − 20)/P. Margin call when (P − 20)/P = 0.30 ⇒ P = 20/(1 − 0.30) = <b>CHF 28.57</b>.</p><p>Equivalent: P<sub>0</sub> × (1 − initial margin)/(1 − maintenance margin) = 40 × 0.50/0.70.</p><p><b>BA II Plus:</b> 40 [×] 0.5 [÷] 0.7 [=] 28.57.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — 28.00 is 40 × (1 − 0.30): applies the maintenance margin to the purchase price, ignoring that the CHF 20 loan stays fixed.</li><li><b>C</b> — 46.15 is the short-sale formula P<sub>0</sub>(1 + IM)/(1 + MM) = 40 × 1.5/1.3; a long position is called when the price falls, not rises.</li></ul>"
+ },
+ {
+  "id": "equity-12",
+  "topic": "equity",
+  "concept": "Order types, trade execution, short selling, margin calls and leverage ratio",
+  "difficulty": "hard",
+  "stem": "<p>An investor sells short 1,000 shares of Norvik Retail at USD 50, with an initial margin of 50% (USD 25,000 of the investor's own equity is deposited). While the position is open, Norvik pays a dividend of USD 1.50 per share. The investor then buys the shares back at USD 44. Ignore interest on the margin account and commissions.</p><p>The return on the investor's initial equity is closest to:</p>",
+  "options": {
+   "A": "24.0%",
+   "B": "30.0%",
+   "C": "18.0%"
+  },
+  "answer": "C",
+  "explanation": "<p>Gain from price fall = (50 − 44) × 1,000 = 6,000. The short seller must reimburse the dividend: 1.50 × 1,000 = 1,500.</p><p>Net profit = 6,000 − 1,500 = 4,500. Return on equity = 4,500/25,000 = <b>18.0%</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — 24.0% is 6,000/25,000: ignores the dividend the short seller owes the lender.</li><li><b>B</b> — 30.0% adds the dividend (7,500/25,000) instead of deducting it; a short seller pays dividends, never receives them.</li></ul>"
+ },
+ {
+  "id": "equity-13",
+  "topic": "equity",
+  "concept": "Market efficiency and anomalies: semi-strong implications, momentum, size effect",
+  "difficulty": "medium",
+  "stem": "<p>Assume the equity market is semi-strong form efficient but not strong form efficient, and ignore legal constraints. Which strategy is MOST likely to produce consistent abnormal returns after costs?</p>",
+  "options": {
+   "A": "Buying shares immediately after a positive quarterly earnings surprise is announced",
+   "B": "Trading on confidential knowledge, held by a few executives, of an unannounced takeover bid",
+   "C": "Screening financial statements for stocks with low P/E ratios and holding them"
+  },
+  "answer": "B",
+  "explanation": "<p>Semi-strong efficiency means prices already reflect all <i>public</i> information (past prices and published financial data), so neither fundamental analysis of public data nor reacting to announcements should earn abnormal returns. Only private (inside) information is not yet reflected, which is the condition ruled out by the strong form.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — An earnings announcement is public; prices adjust at once, so buying afterwards earns only the normal return.</li><li><b>C</b> — P/E screens use public information; under semi-strong efficiency they cannot earn consistent abnormal returns.</li></ul>"
+ },
+ {
+  "id": "equity-14",
+  "topic": "equity",
+  "concept": "Market efficiency and anomalies: semi-strong implications, momentum, size effect",
+  "difficulty": "medium",
+  "stem": "<p>Which statement about market anomalies is LEAST accurate?</p>",
+  "options": {
+   "A": "Many anomalies weaken or disappear after they are widely publicized, consistent with investors trading them away",
+   "B": "Apparent anomalies can arise because the asset pricing model used to measure risk-adjusted returns is wrong (the joint-hypothesis problem)",
+   "C": "An anomaly that is statistically significant in a single sample period is sufficient proof that the market is inefficient"
+  },
+  "answer": "C",
+  "explanation": "<p>One significant sample is not proof: results may come from data mining, chance, risk mis-measurement or transaction costs that make the strategy unprofitable. Anomalies must persist out of sample, after costs and risk adjustment, before they point to inefficiency.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — Accurate: disappearance after publication is a common finding (e.g. size effect weakening).</li><li><b>B</b> — Accurate: tests of efficiency are joint tests of efficiency and the pricing model.</li></ul>"
+ },
+ {
+  "id": "equity-15",
+  "topic": "equity",
+  "concept": "Stock dividends, ADR/GRS types, preference shares",
+  "difficulty": "easy",
+  "stem": "<p>An investor owns 1,000 shares of Lindqvist AB, priced at EUR 33.00. The company declares a 10% stock dividend. All else equal, the value of the investor's holding immediately after the stock dividend is closest to:</p>",
+  "options": {
+   "A": "EUR 33,000",
+   "B": "EUR 36,300",
+   "C": "EUR 30,000"
+  },
+  "answer": "A",
+  "explanation": "<p>A stock dividend splits ownership into more shares without changing the company's assets or total value. Holding becomes 1,100 shares; the price adjusts to 33.00/1.10 = 30.00. Value = 1,100 × 30.00 = <b>EUR 33,000</b>, unchanged.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — 36,300 = 1,100 × 33: assumes the price stays unchanged, so wealth rises 10%. A stock dividend creates no wealth.</li><li><b>C</b> — 30,000 = 1,000 × 30: uses the new price but the old number of shares.</li></ul>"
+ },
+ {
+  "id": "equity-16",
+  "topic": "equity",
+  "concept": "Stock dividends, ADR/GRS types, preference shares",
+  "difficulty": "medium",
+  "stem": "<p>A Taiwanese semiconductor company wants to list on a major US exchange and, at the same time, sell newly issued shares to US investors through a public offering. Which depositary receipt structure is required?</p>",
+  "options": {
+   "A": "Sponsored Level I ADR",
+   "B": "Sponsored Level III ADR",
+   "C": "Sponsored Level II ADR"
+  },
+  "answer": "B",
+  "explanation": "<p>Level III is the only level that can raise new capital in a US public offering; it requires full SEC registration and exchange listing. Level I trades over the counter with minimal disclosure and no capital raising; Level II lists existing shares on an exchange but cannot raise capital.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — Level I: OTC, minimal SEC disclosure; cannot raise capital.</li><li><b>C</b> — Level II: exchange listing of existing shares only, no new capital.</li></ul>"
+ },
+ {
+  "id": "equity-17",
+  "topic": "equity",
+  "concept": "Equity security types and risks; depositary receipts vs common vs private equity",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following statements about preference shares is LEAST accurate?</p>",
+  "options": {
+   "A": "They typically pay a fixed dividend",
+   "B": "They rank ahead of common shares in claims on assets in liquidation",
+   "C": "Preference shareholders normally have the same voting rights as common shareholders"
+  },
+  "answer": "C",
+  "explanation": "<p>Preference shares usually carry no (or limited) voting rights; in exchange they receive a fixed dividend and rank ahead of common shareholders on dividends and liquidation.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — Accurate: dividends are usually fixed at a stated rate.</li><li><b>B</b> — Accurate: preference shares have a senior claim to common equity.</li></ul>"
+ },
+ {
+  "id": "equity-18",
+  "topic": "equity",
+  "concept": "Primary vs secondary markets, IPOs and securities offerings",
+  "difficulty": "easy",
+  "stem": "<p>Meridian Logistics, already listed, wants to file one registration statement and then sell shares in several tranches over the next 24 months as market conditions allow. This offering mechanism is best described as a:</p>",
+  "options": {
+   "A": "shelf registration",
+   "B": "private placement",
+   "C": "rights offering"
+  },
+  "answer": "A",
+  "explanation": "<p>A shelf registration lets an issuer register securities once and sell them in portions over time, reducing delay and cost.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — A private placement sells to a small group of investors without a public registration.</li><li><b>C</b> — A rights offering offers new shares to existing shareholders in proportion to their holdings.</li></ul>"
+ },
+ {
+  "id": "equity-19",
+  "topic": "equity",
+  "concept": "Residual income and asset-based valuation",
+  "difficulty": "medium",
+  "stem": "<p>Sorell AG has a book value of EUR 40.00 per share and expected EPS of EUR 4.80 next year. The required return on equity is 9%. Residual income is expected to stay at its first-year level in perpetuity.</p><p>The intrinsic value per share is closest to:</p>",
+  "options": {
+   "A": "EUR 41.20",
+   "B": "EUR 53.33",
+   "C": "EUR 13.33"
+  },
+  "answer": "B",
+  "explanation": "<p>RI<sub>1</sub> = EPS − r × B<sub>0</sub> = 4.80 − 0.09 × 40.00 = 1.20.</p><p>V<sub>0</sub> = B<sub>0</sub> + RI/r = 40.00 + 1.20/0.09 = 40.00 + 13.33 = <b>EUR 53.33</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — 41.20 = B<sub>0</sub> + RI<sub>1</sub>: adds one year of residual income instead of capitalizing it as a perpetuity.</li><li><b>C</b> — 13.33 is only the PV of the residual income; the book value is missing.</li></ul>"
+ },
+ {
+  "id": "equity-20",
+  "topic": "equity",
+  "concept": "Enterprise value multiples: EV/EBITDA, P/S comparisons",
+  "difficulty": "medium",
+  "stem": "<p>Pelham Chemicals has a market capitalization of USD 800m, debt of USD 300m, preferred shares of USD 50m and cash of USD 100m. EBITDA is USD 150m. Its EV/EBITDA is closest to:</p>",
+  "options": {
+   "A": "8.33",
+   "B": "6.67",
+   "C": "7.00"
+  },
+  "answer": "C",
+  "explanation": "<p>EV = market cap + debt + preferred − cash = 800 + 300 + 50 − 100 = 1,050. EV/EBITDA = 1,050/150 = <b>7.00</b>.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — 8.33 adds cash (1,250/150) instead of subtracting it.</li><li><b>B</b> — 6.67 omits the preferred shares (1,000/150); preferred is part of enterprise value.</li></ul>"
+ },
+ {
+  "id": "equity-21",
+  "topic": "equity",
+  "concept": "Industry life cycle and competitive strategy positioning",
+  "difficulty": "medium",
+  "stem": "<p>In one industry, growth has slowed sharply, capacity exceeds demand, price competition is intense and weaker firms are being forced to exit. Which stage of the industry life cycle is this?</p>",
+  "options": {
+   "A": "Shakeout",
+   "B": "Mature",
+   "C": "Growth"
+  },
+  "answer": "A",
+  "explanation": "<p>Shakeout: slowing growth and overcapacity cause price competition, falling profits and exits of weak firms. Mature: slow stable growth with a consolidated set of survivors. Growth: rapid expansion with new entrants.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — Mature is a stabilised stage after the weak firms have already left; here exits are still under way.</li><li><b>C</b> — Growth has rapid demand expansion and few price wars; here demand growth is slowing.</li></ul>"
+ },
+ {
+  "id": "equity-22",
+  "topic": "equity",
+  "concept": "Contracts, positions, clearing and settlement; financial system functions",
+  "difficulty": "easy",
+  "stem": "<p>Which description best fits <i>settlement</i> of an equity trade?</p>",
+  "options": {
+   "A": "Confirming that trade details agree between the two parties",
+   "B": "Transfer of securities to the buyer and cash to the seller after the trade has been matched",
+   "C": "Determining the price at which the security will trade"
+  },
+  "answer": "B",
+  "explanation": "<p>Clearing validates and matches trade details; settlement is the final transfer of ownership and cash.</p><p><b>Why the others are wrong</b></p><ul><li><b>A</b> — That describes confirmation/matching (clearing).</li><li><b>C</b> — That is price discovery.</li></ul>"
+ },
+ {
+  "id": "equity-23",
+  "topic": "equity",
+  "concept": "Bank and financial-sector analysis",
+  "difficulty": "medium",
+  "stem": "<p>A bank has a larger share of its liabilities than of its assets repricing within the next year. If short-term interest rates rise 100 bp in parallel, the bank's net interest income over the next year is most likely to:</p>",
+  "options": {
+   "A": "decrease",
+   "B": "increase",
+   "C": "be unaffected, because both assets and liabilities reprice"
+  },
+  "answer": "A",
+  "explanation": "<p>Liability-sensitive: funding costs reprice up faster than asset yields, so net interest income falls.</p><p><b>Why the others are wrong</b></p><ul><li><b>B</b> — An asset-sensitive bank would gain; this one is liability-sensitive.</li><li><b>C</b> — The two sides reprice by different amounts, so net interest income does change.</li></ul>"
+ }
+]

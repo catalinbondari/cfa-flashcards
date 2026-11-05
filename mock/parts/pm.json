@@ -1,0 +1,254 @@
+[
+ {
+  "id": "pm-01",
+  "topic": "pm",
+  "concept": "Beta: Cov/sigma_m^2 and rho x sigma_i/sigma_m, then CAPM expected return",
+  "difficulty": "medium",
+  "stem": "<p>The covariance between the returns of Halden Foods and the returns of the market portfolio is 0.0270. The standard deviation of the market portfolio's returns is 18%. The risk-free rate is 3% and the expected market return is 9%. Using the CAPM, the expected return on Halden Foods is <b>closest to</b>:</p>",
+  "options": {
+   "A": "3.9%",
+   "B": "7.5%",
+   "C": "8.0%"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> &beta; = Cov(R<sub>i</sub>, R<sub>m</sub>) / &sigma;<sub>m</sub>&sup2; = 0.0270 / 0.18&sup2; = 0.0270 / 0.0324 = 0.8333. E(R<sub>i</sub>) = R<sub>f</sub> + &beta;[E(R<sub>m</sub>) &minus; R<sub>f</sub>] = 3% + 0.8333 &times; 6% = 8.0%.</p><p><b>A is incorrect.</b> 3.9% divides the covariance by &sigma;<sub>m</sub> (0.0270 / 0.18 = 0.15) instead of by the market <i>variance</i>; 3% + 0.15 &times; 6% = 3.9%.</p><p><b>B is incorrect.</b> 7.5% = 0.8333 &times; 9% multiplies beta by the whole market return and leaves out the risk-free rate and the market risk premium step.</p><p><b>BA II Plus:</b> 0.18 [x&sup2;] = 0.0324 (STO 1); 0.027 &divide; RCL 1 = 0.8333; &times; 6 + 3 = 8.00.</p>"
+ },
+ {
+  "id": "pm-02",
+  "topic": "pm",
+  "concept": "Beta: Cov/sigma_m^2 and rho x sigma_i/sigma_m, then CAPM expected return",
+  "difficulty": "medium",
+  "stem": "<p>A stock has a correlation of 0.72 with the market portfolio. The standard deviation of the stock's returns is 25% and the standard deviation of the market's returns is 20%. The risk-free rate is 2% and the expected market return is 8%. The stock's expected return under the CAPM is <b>closest to</b>:</p>",
+  "options": {
+   "A": "5.5%",
+   "B": "7.4%",
+   "C": "9.5%"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> &beta; = &rho;<sub>i,m</sub> &times; &sigma;<sub>i</sub> / &sigma;<sub>m</sub> = 0.72 &times; 25% / 20% = 0.90. E(R) = 2% + 0.90 &times; (8% &minus; 2%) = 7.4%.</p><p><b>A is incorrect.</b> 5.5% puts the sigmas the wrong way round (&rho; &times; &sigma;<sub>m</sub> / &sigma;<sub>i</sub> = 0.72 &times; 20 / 25 = 0.576); 2% + 0.576 &times; 6% = 5.5%. The stock's own &sigma; is the numerator.</p><p><b>C is incorrect.</b> 9.5% drops the correlation (&beta; = 25 / 20 = 1.25); 2% + 1.25 &times; 6% = 9.5%. That would only be right if the stock were perfectly correlated with the market.</p><p><b>BA II Plus:</b> 0.72 &times; 25 &divide; 20 = 0.90; &times; 6 + 2 = 7.40.</p>"
+ },
+ {
+  "id": "pm-03",
+  "topic": "pm",
+  "concept": "SML/CAPM valuation (over/undervalued) and Jensen alpha",
+  "difficulty": "medium",
+  "stem": "<p>A stock has a beta of 1.2. The risk-free rate is 3% and the expected return on the market portfolio is 8%. An analyst forecasts an expected return of 8.4% for the stock. Relative to the security market line (SML), the stock is <b>most likely</b>:</p>",
+  "options": {
+   "A": "undervalued, with an alpha of +0.6%.",
+   "B": "overvalued, with an alpha of &minus;0.6%.",
+   "C": "overvalued, with an alpha of &minus;4.2%."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Required return = 3% + 1.2 &times; (8% &minus; 3%) = 9.0%. Alpha = forecast &minus; required = 8.4% &minus; 9.0% = &minus;0.6%. The stock offers less than the SML requires for its beta, so it plots below the SML and is overvalued.</p><p><b>A is incorrect.</b> The magnitude is right but the sign is flipped (required &minus; forecast). A forecast below the required return means overvalued, not undervalued.</p><p><b>C is incorrect.</b> &minus;4.2% multiplies beta by the full market return instead of the risk premium: 3% + 1.2 &times; 8% = 12.6%; 8.4% &minus; 12.6% = &minus;4.2%. The SML slope is E(R<sub>m</sub>) &minus; R<sub>f</sub> = 5%, not 8%.</p><p><b>BA II Plus:</b> 8 &minus; 3 = 5; &times; 1.2 = 6; + 3 = 9.00; then 8.4 &minus; 9 = &minus;0.60.</p>"
+ },
+ {
+  "id": "pm-04",
+  "topic": "pm",
+  "concept": "CAL/CML slope = Sharpe ratio, optimal portfolio, Sharpe vs correlation rule, M-squared",
+  "difficulty": "easy",
+  "stem": "<p>Risky portfolio P has an expected return of 11% and a standard deviation of 16%. The risk-free rate is 3%. An investor combines P with the risk-free asset (borrowing at the risk-free rate if necessary) to build a portfolio with a standard deviation of 24%. The expected return of that portfolio is <b>closest to</b>:</p>",
+  "options": {
+   "A": "15.0%",
+   "B": "16.5%",
+   "C": "18.0%"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> The slope of the capital allocation line is the Sharpe ratio of P: (11% &minus; 3%) / 16% = 0.50. E(R) = R<sub>f</sub> + slope &times; &sigma; = 3% + 0.50 &times; 24% = 15.0%. Equivalent check: weight in P = 24 / 16 = 1.5, so E(R) = 1.5 &times; 11% + (&minus;0.5) &times; 3% = 15.0%.</p><p><b>B is incorrect.</b> 16.5% = 1.5 &times; 11%: it levers up P but ignores the borrowing cost (the &minus;0.5 weight in the risk-free asset costs 1.5%).</p><p><b>C is incorrect.</b> 18.0% = 1.5 &times; 11% + 0.5 &times; 3%: the sign of the borrowing is wrong, so the 1.5% borrowing cost is added instead of subtracted.</p><p><b>BA II Plus:</b> 11 &minus; 3 = 8; &divide; 16 = 0.5; &times; 24 = 12; + 3 = 15.00.</p>"
+ },
+ {
+  "id": "pm-05",
+  "topic": "pm",
+  "concept": "CAL/CML slope = Sharpe ratio, optimal portfolio, Sharpe vs correlation rule, M-squared",
+  "difficulty": "hard",
+  "stem": "<p>Over the past period a fund returned 12.5% with a standard deviation of 18%. The risk-free rate was 2%. The benchmark market portfolio returned 8% with a standard deviation of 12%. The fund's M&sup2; (Modigliani-Modigliani) measure is <b>closest to</b>:</p>",
+  "options": {
+   "A": "1.00%",
+   "B": "9.00%",
+   "C": "9.75%"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> M&sup2; levers or de-levers the fund with the risk-free asset until its risk equals the market's risk, then compares returns. Fund Sharpe ratio = (12.5% &minus; 2%) / 18% = 0.5833. Risk-adjusted fund return = R<sub>f</sub> + Sharpe &times; &sigma;<sub>m</sub> = 2% + 0.5833 &times; 12% = 9.00%. M&sup2; = 9.00% &minus; 8% = 1.00%.</p><p><b>B is incorrect.</b> 9.00% is the risk-adjusted return of the fund. The last step, subtracting the market return, was skipped.</p><p><b>C is incorrect.</b> 9.75% scales the excess return by &sigma;<sub>p</sub> / &sigma;<sub>m</sub> (18 / 12) instead of &sigma;<sub>m</sub> / &sigma;<sub>p</sub>: 2% + 10.5% &times; 1.5 = 17.75%, less 8% = 9.75%. The fund must be scaled <i>down</i> to market risk.</p><p><b>BA II Plus:</b> 12.5 &minus; 2 = 10.5; &divide; 18 = 0.5833; &times; 12 = 7.00; + 2 = 9.00; &minus; 8 = 1.00.</p>"
+ },
+ {
+  "id": "pm-06",
+  "topic": "pm",
+  "concept": "Two-asset portfolio sigma (2 w1 w2 rho term), rho = -1 and +1, diversification ratio",
+  "difficulty": "medium",
+  "stem": "<p>A portfolio is invested 60% in Asset X and 40% in Asset Y. Asset X has a standard deviation of 20%, Asset Y has a standard deviation of 30%, and the correlation between the two assets is 0.25. The standard deviation of the portfolio is <b>closest to</b>:</p>",
+  "options": {
+   "A": "18.0%",
+   "B": "19.0%",
+   "C": "24.0%"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> &sigma;<sub>p</sub>&sup2; = w<sub>X</sub>&sup2;&sigma;<sub>X</sub>&sup2; + w<sub>Y</sub>&sup2;&sigma;<sub>Y</sub>&sup2; + 2 w<sub>X</sub> w<sub>Y</sub> &rho; &sigma;<sub>X</sub> &sigma;<sub>Y</sub> = 0.0144 + 0.0144 + 2(0.6)(0.4)(0.25)(0.20)(0.30) = 0.0144 + 0.0144 + 0.0072 = 0.0360. &sigma;<sub>p</sub> = &radic;0.0360 = 18.97%, about 19.0%.</p><p><b>A is incorrect.</b> 18.0% drops the 2 in the covariance term (cross term 0.0036 instead of 0.0072): &radic;0.0324 = 18.0%.</p><p><b>C is incorrect.</b> 24.0% is the weighted average of the standard deviations (0.6 &times; 20 + 0.4 &times; 30). That is the portfolio &sigma; only when &rho; = +1; with &rho; = 0.25 diversification lowers it.</p><p><b>BA II Plus:</b> 0.6 [x&sup2;] &times; 0.2 [x&sup2;] = 0.0144 (STO 1); 0.4 [x&sup2;] &times; 0.3 [x&sup2;] = 0.0144 (STO 2); 2 &times; 0.6 &times; 0.4 &times; 0.25 &times; 0.2 &times; 0.3 = 0.0072; RCL1 + RCL2 + 0.0072 = 0.0360; [2nd][&radic;x] = 0.1897.</p>"
+ },
+ {
+  "id": "pm-07",
+  "topic": "pm",
+  "concept": "Two-asset portfolio sigma (2 w1 w2 rho term), rho = -1 and +1, diversification ratio",
+  "difficulty": "hard",
+  "stem": "<p>Asset A has a standard deviation of 12% and Asset B has a standard deviation of 20%. The correlation between the two assets is &minus;1.0. The weight in Asset A that gives a zero-risk portfolio is <b>closest to</b>:</p>",
+  "options": {
+   "A": "37.5%",
+   "B": "50.0%",
+   "C": "62.5%"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> With &rho; = &minus;1, &sigma;<sub>p</sub> = |w<sub>A</sub>&sigma;<sub>A</sub> &minus; w<sub>B</sub>&sigma;<sub>B</sub>|. Setting it to zero: w<sub>A</sub>(12) = (1 &minus; w<sub>A</sub>)(20), so w<sub>A</sub> = 20 / (12 + 20) = 62.5%. Check: 0.625 &times; 12 = 7.5 = 0.375 &times; 20.</p><p><b>A is incorrect.</b> 37.5% = 12 / (12 + 20) puts the sigmas the wrong way round. That is the weight A would need if the sigmas were swapped (it is the zero-risk weight of Asset B); it gives |0.375 &times; 12 &minus; 0.625 &times; 20| = 8%, not zero. The lower-risk asset needs the larger weight.</p><p><b>B is incorrect.</b> An equal weighting gives |0.5 &times; 12 &minus; 0.5 &times; 20| = 4%. Perfect negative correlation does not eliminate risk unless the weights are set to offset the two standard deviations.</p><p><b>BA II Plus:</b> 20 &divide; (12 + 20) = 0.625.</p>"
+ },
+ {
+  "id": "pm-08",
+  "topic": "pm",
+  "concept": "Risk management process: starts with risk tolerance; risk budgeting; governance; VaR meaning",
+  "difficulty": "hard",
+  "stem": "<p>Which of the following sequences <b>best</b> represents the steps of an organization's risk management process, from first to last?</p>",
+  "options": {
+   "A": "Establish risk governance; determine risk tolerance; identify and measure risks; set the risk budget; adjust risk exposures.",
+   "B": "Establish risk governance; determine risk tolerance; set the risk budget; identify and measure risks; adjust risk exposures.",
+   "C": "Establish risk governance; identify and measure risks; determine risk tolerance; set the risk budget; adjust risk exposures."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Risk governance comes first because it sets the framework, responsibilities and reporting lines under which every later decision is made. The organization then decides how much risk it is willing and able to bear (risk tolerance), identifies and measures the risks it actually has, allocates the acceptable risk through a risk budget, and finally modifies exposures (avoid, accept, transfer, shift) where actual risk differs from the budget.</p><p><b>B is incorrect.</b> A budget cannot be set before the existing risks have been identified and measured; there is nothing to allocate or compare against.</p><p><b>C is incorrect.</b> Risks are measured before tolerance is set. Tolerance is the yardstick that identified risks are judged against, so it must be determined first.</p><p>LOS idea: risk management process and risk governance (tolerance, then identification/measurement, then budgeting, then modification).</p>"
+ },
+ {
+  "id": "pm-09",
+  "topic": "pm",
+  "concept": "Risk management process: starts with risk tolerance; risk budgeting; governance; VaR meaning",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about value at risk (VaR) and risk budgeting is <b>least likely</b> accurate?</p>",
+  "options": {
+   "A": "A one-day 5% VaR of USD 3.2 million means a loss of at least USD 3.2 million would be expected on about one day in twenty.",
+   "B": "Risk budgeting allocates the total risk an organization is willing to take among its portfolios, strategies or managers, using measures such as VaR or tracking error.",
+   "C": "A one-day 5% VaR of USD 3.2 million is the maximum amount the portfolio can lose on any single day."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct (least accurate).</b> VaR is a <i>minimum</i> loss in the worst 5% of outcomes, not a maximum. On the bad 5% of days the loss can exceed USD 3.2 million, and VaR says nothing about how much more. This is why VaR is complemented by stress testing.</p><p><b>A is incorrect (it is accurate).</b> This is the standard interpretation: a 5% probability of a loss of at least the VaR amount over the horizon.</p><p><b>B is incorrect (it is accurate).</b> Risk budgeting divides the overall risk tolerance among units, often in terms of VaR, tracking error or beta, so risk is taken where it is expected to be rewarded.</p>"
+ },
+ {
+  "id": "pm-10",
+  "topic": "pm",
+  "concept": "Risk tolerance (ability vs willingness), risk objectives absolute vs relative, risk aversion",
+  "difficulty": "medium",
+  "stem": "<p>Marta Kowalczyk, 62, tells her adviser she wants to maximize growth and would be comfortable with a 30% fall in her portfolio. Her pension will cover only 40% of her essential spending, and she must draw on this portfolio for the rest within eight years. Her overall risk tolerance is <b>most likely</b>:</p>",
+  "options": {
+   "A": "above average, because her willingness to take risk is high.",
+   "B": "average, because high willingness offsets low ability.",
+   "C": "below average, because her ability to take risk is low."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Risk tolerance has two components: willingness (psychological) and ability (financial capacity: liabilities, time horizon, wealth, other income). Marta's willingness is high but her ability is low: a short horizon, heavy reliance on the portfolio and a pension that covers only part of her needs. When the two conflict, the <i>lower</i> of the two determines overall risk tolerance.</p><p><b>A is incorrect.</b> It relies on willingness alone; willingness cannot create financial capacity to bear losses.</p><p><b>B is incorrect.</b> The components are not averaged. A client who cannot afford a loss should not be exposed to it just because she is willing to accept it.</p>"
+ },
+ {
+  "id": "pm-11",
+  "topic": "pm",
+  "concept": "Behavioral biases: cognitive vs emotional, curable vs not, anomalies explained by bias",
+  "difficulty": "easy",
+  "stem": "<p>Aisha Rahman's fund has fallen 30% since she bought it. Her adviser's analysis shows that selling and switching to a comparable fund would improve her prospects, but Aisha refuses to sell because she 'cannot stand locking in the loss'. This behavior is <b>most likely</b>:</p>",
+  "options": {
+   "A": "a cognitive error, best addressed by giving Aisha more information about the fund.",
+   "B": "an emotional bias, which is hard to correct, so the adviser should adapt the advice to the bias where possible.",
+   "C": "an emotional bias, which is easily corrected through education, so the adviser should insist on the sale."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Reluctance to realize a loss is loss aversion, an emotional bias arising from feelings rather than faulty reasoning or information processing. Emotional biases are difficult to override, so the adviser's practical response is to <i>adapt</i> to the bias (for example, a staged switch) rather than try to eliminate it.</p><p><b>A is incorrect.</b> Cognitive errors come from faulty reasoning or memory, and more information and education help correct them. Aisha already has the information; her problem is emotional discomfort.</p><p><b>C is incorrect.</b> The classification is right but the treatment is not: emotional biases are less amenable to correction by education, and insisting on the sale risks the client relationship without removing the bias.</p>"
+ },
+ {
+  "id": "pm-12",
+  "topic": "pm",
+  "concept": "Behavioral biases: cognitive vs emotional, curable vs not, anomalies explained by bias",
+  "difficulty": "medium",
+  "stem": "<p>Researchers find that stocks with the highest returns over the past 12 months continue to outperform over the following 3 to 12 months. Other authors propose that herding and under-reaction to news explain the pattern. Which of the following statements is <b>most</b> accurate?</p>",
+  "options": {
+   "A": "The pattern remains a market anomaly even though behavioral biases are offered as an explanation.",
+   "B": "The pattern ceases to be an anomaly once a behavioral bias is shown to explain it.",
+   "C": "The pattern is evidence that the market is semi-strong form efficient."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> An anomaly is a persistent pattern in returns that cannot be explained by the efficient market hypothesis and a rational risk-based model. Proposing that behavioral biases (herding, under-reaction) cause the pattern gives an explanation for <i>why</i> it exists, but the pattern is still inconsistent with efficient markets and is still an anomaly.</p><p><b>B is incorrect.</b> A behavioral explanation does not remove the anomaly; it reconciles the pattern with behavioral rather than rational models.</p><p><b>C is incorrect.</b> Predictable outperformance based on past prices contradicts even the weak form, so it cannot support semi-strong efficiency.</p>"
+ },
+ {
+  "id": "pm-13",
+  "topic": "pm",
+  "concept": "IPS, investor types and pooled funds, active vs passive",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about institutional investors is <b>least likely</b> accurate?</p>",
+  "options": {
+   "A": "A defined-benefit pension plan with mostly retired members typically has a shorter time horizon and greater liquidity needs than one with mostly young members.",
+   "B": "An endowment typically has a perpetual time horizon, and its return objective usually has to cover spending needs plus inflation.",
+   "C": "Property and casualty insurers typically have longer and more predictable liabilities than life insurers and can therefore hold more illiquid assets."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct (least accurate).</b> It is the reverse of the true position. Life insurers have long-term, relatively predictable liabilities and can hold longer, less liquid assets. Property and casualty insurers face shorter, less predictable claims, so they need more liquid, shorter-duration portfolios.</p><p><b>A is incorrect (it is accurate).</b> A mature plan pays out sooner and has less time to recover from losses, so its horizon is shorter and its liquidity needs higher.</p><p><b>B is incorrect (it is accurate).</b> Endowments aim to preserve real capital for future generations while funding current spending, so the required return is approximately spending rate plus inflation.</p>"
+ },
+ {
+  "id": "pm-14",
+  "topic": "pm",
+  "concept": "Risk aversion and utility; HPR and indifference curves",
+  "difficulty": "medium",
+  "stem": "<p>An investor has a risk aversion coefficient A = 4 and uses the utility function U = E(R) &minus; 0.5 A &sigma;&sup2;. She is choosing among three portfolios:</p><table><tr><th>Portfolio</th><th>E(R)</th><th>&sigma;</th></tr><tr><td>X</td><td>10.0%</td><td>18%</td></tr><tr><td>Y</td><td>8.5%</td><td>12%</td></tr><tr><td>Z</td><td>5.5%</td><td>5%</td></tr></table><p>The portfolio that gives her the highest utility is:</p>",
+  "options": {
+   "A": "Portfolio X.",
+   "B": "Portfolio Y.",
+   "C": "Portfolio Z."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> U<sub>X</sub> = 0.100 &minus; 0.5(4)(0.18)&sup2; = 0.100 &minus; 0.0648 = 0.0352. U<sub>Y</sub> = 0.085 &minus; 2(0.0144) = 0.085 &minus; 0.0288 = 0.0562. U<sub>Z</sub> = 0.055 &minus; 2(0.0025) = 0.055 &minus; 0.005 = 0.0500. Y has the highest utility (5.62%).</p><p><b>A is incorrect.</b> X has the highest expected return but its risk penalty (6.48%) is so large that its utility is only 3.52%. Choosing the highest return ignores risk aversion.</p><p><b>C is incorrect.</b> Z is the choice of someone who drops the 0.5 from the penalty term (U = E(R) &minus; A&sigma;&sup2;): Z = 0.055 &minus; 0.010 = 0.045 beats Y = 0.085 &minus; 0.0576 = 0.0274. With the correct formula Z scores 5.00%, below Y.</p><p><b>BA II Plus:</b> for Y: 0.12 [x&sup2;] = 0.0144; &times; 2 = 0.0288; 0.085 &minus; 0.0288 = 0.0562.</p>"
+ },
+ {
+  "id": "pm-15",
+  "topic": "pm",
+  "concept": "IPS constraints (liquidity, horizon, tax, legal, unique); strategic vs tactical allocation",
+  "difficulty": "medium",
+  "stem": "<p>An adviser is classifying the constraints in three clients' investment policy statements (IPS). Which of the following classifications is <b>most likely</b> correct?</p>",
+  "options": {
+   "A": "A client refuses to hold tobacco companies on moral grounds: legal and regulatory constraint.",
+   "B": "A client's capital gains are taxed more heavily than dividend income: unique circumstances.",
+   "C": "A client needs GBP 180,000 in 15 months to buy a business: liquidity constraint."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> A known, near-term cash need is the classic liquidity constraint: part of the portfolio must be held in assets that can be sold quickly at close to their value.</p><p><b>A is incorrect.</b> A personal ethical preference is a unique circumstance. Legal and regulatory constraints come from external laws, rules and trust or regulatory requirements, not from the client's values.</p><p><b>B is incorrect.</b> Different tax rates on capital gains and dividends are a tax constraint, affecting after-tax returns and the choice between income and growth assets. Unique circumstances cover things such as ESG exclusions or a concentrated inherited holding.</p><p>LOS idea: the five IPS constraint categories: liquidity, time horizon, tax, legal and regulatory, unique circumstances.</p>"
+ },
+ {
+  "id": "pm-16",
+  "topic": "pm",
+  "concept": "Treynor ratio, systematic vs unsystematic risk, efficient frontier",
+  "difficulty": "hard",
+  "stem": "<p>The risk-free rate is 3%. Two well-diversified portfolios have the following results:</p><table><tr><th>Portfolio</th><th>Return</th><th>Beta</th><th>Standard deviation</th></tr><tr><td>P</td><td>12.0%</td><td>1.20</td><td>20%</td></tr><tr><td>Q</td><td>10.5%</td><td>0.80</td><td>22%</td></tr></table><p>Which portfolio ranks higher on each measure?</p>",
+  "options": {
+   "A": "Treynor ratio: P; Sharpe ratio: Q.",
+   "B": "Treynor ratio: Q; Sharpe ratio: P.",
+   "C": "Treynor ratio: P; Sharpe ratio: P."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Treynor = (R<sub>p</sub> &minus; R<sub>f</sub>) / &beta;: P = 9.0 / 1.20 = 7.50%; Q = 7.5 / 0.80 = 9.375%, so Q is higher. Sharpe = (R<sub>p</sub> &minus; R<sub>f</sub>) / &sigma;: P = 9.0 / 20 = 0.450; Q = 7.5 / 22 = 0.341, so P is higher. The rankings differ because Treynor rewards systematic risk only (Q has much lower beta) while Sharpe uses total risk.</p><p><b>A is incorrect.</b> This swaps the denominators: it ranks by Sharpe what is Treynor and vice versa (using &sigma; to compare Treynor and &beta; to compare Sharpe).</p><p><b>C is incorrect.</b> P wins on Sharpe but not on Treynor. P's higher raw excess return (9.0% vs 7.5%) is overwhelmed by its higher beta when divided by beta.</p><p><b>BA II Plus:</b> 12 &minus; 3 = 9; &divide; 1.2 = 7.50. 10.5 &minus; 3 = 7.5; &divide; 0.8 = 9.375; 9 &divide; 20 = 0.450; 7.5 &divide; 22 = 0.341.</p>"
+ },
+ {
+  "id": "pm-17",
+  "topic": "pm",
+  "concept": "Portfolio management process (plan, execute, feedback); ETFs and hedge funds as products",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following statements about pooled investment products and management styles is <b>least likely</b> accurate?</p>",
+  "options": {
+   "A": "Hedge funds are typically subject to the same leverage and short-selling restrictions as mutual funds sold to the public.",
+   "B": "ETF shares trade on an exchange at intraday prices, and the creation and redemption process used by authorized participants helps keep the price close to net asset value.",
+   "C": "Passive management seeks to replicate a benchmark and typically charges lower fees than active management."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct (least accurate).</b> Hedge funds are lightly regulated private pools. They can use leverage, short selling and derivatives, usually charge performance fees, and may impose lock-ups. Public mutual funds face much tighter limits on leverage and short selling.</p><p><b>B is incorrect (it is accurate).</b> Unlike open-end mutual funds, which transact at end-of-day NAV, ETFs trade intraday, and arbitrage by authorized participants keeps price near NAV.</p><p><b>C is incorrect (it is accurate).</b> Passive strategies track an index with little research cost and low turnover, so fees are lower than for active strategies.</p>"
+ },
+ {
+  "id": "pm-18",
+  "topic": "pm",
+  "concept": "Risk modification (insulate, transfer, shift) and stress testing",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about risk modification and stress testing is <b>most</b> accurate?</p>",
+  "options": {
+   "A": "Stress tests apply extreme but plausible scenarios to a portfolio and can reveal losses that a VaR estimate based on normal market conditions would understate.",
+   "B": "Buying an insurance policy is an example of risk shifting, whereas using derivatives to change the distribution of outcomes is risk transfer.",
+   "C": "Stress testing assigns a probability to each scenario, so its results can be used in place of VaR."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Stress testing and scenario analysis examine portfolio outcomes under extreme historical or hypothetical events. They complement VaR, which describes losses under normal conditions and says nothing about the size of losses beyond the VaR threshold.</p><p><b>B is incorrect.</b> The labels are swapped. Insurance is risk <i>transfer</i> (the risk passes to a third party for a premium). Using derivatives to change the probability distribution of outcomes is risk <i>shifting</i>.</p><p><b>C is incorrect.</b> Stress tests do not attach probabilities to the scenarios, which is a limitation; they supplement VaR and cannot replace it.</p>"
+ }
+]

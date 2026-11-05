@@ -1,7 +1,12 @@
 [
-  {
-    "id": "sample",
-    "title": "Sample mock (6 questions)",
-    "description": "Short test mock with two sessions of three questions, for trying out the exam interface."
-  }
+ {
+  "id": "g1",
+  "title": "Mock G1 (targeted)",
+  "description": "180 original questions, 2 × 90, 2h15 each. Weighted to the official topic ranges and to your most-tested and weakest concepts (analysis of 530 practice questions)."
+ },
+ {
+  "id": "sample",
+  "title": "Sample mock (6 questions)",
+  "description": "Short test mock with two sessions of three questions, for trying out the exam interface."
+ }
 ]

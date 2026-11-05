@@ -1,0 +1,170 @@
+[
+ {
+  "id": "quant-01",
+  "topic": "quant",
+  "concept": "Hypothesis testing: Type I/II error, power, significance level wording",
+  "difficulty": "hard",
+  "stem": "<p>An analyst tests H<sub>0</sub>: the fund's mean monthly alpha is less than or equal to zero, against H<sub>a</sub>: the fund's mean monthly alpha is greater than zero, at a 5% significance level. Which of the following statements about the test is <b>least accurate</b>?</p>",
+  "options": {
+   "A": "Raising the significance level from 5% to 10%, all else equal, reduces the probability of a Type II error.",
+   "B": "Increasing the sample size while keeping the significance level at 5% reduces the probability of a Type I error.",
+   "C": "The power of the test is the probability of rejecting H<sub>0</sub> when the fund's true mean alpha is positive."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct (the least accurate statement).</b> The probability of a Type I error (rejecting a true H<sub>0</sub>) <i>is</i> the significance level the analyst chose, 5%. A bigger sample does not change it; it reduces the probability of a Type II error (and so raises power) because the standard error shrinks.</p><p><b>A is accurate, so it is not the answer.</b> A higher significance level moves the critical value closer to zero, so H<sub>0</sub> is rejected more easily: Type I probability rises, Type II probability falls (and power rises).</p><p><b>C is accurate, so it is not the answer.</b> Power = 1 &minus; P(Type II error) = P(reject H<sub>0</sub> | H<sub>0</sub> is false). H<sub>0</sub> is false exactly when true alpha is positive. Rule: errors are always about H<sub>0</sub>: Type I = reject a <i>true</i> H<sub>0</sub>; Type II = fail to reject a <i>false</i> H<sub>0</sub>.</p><p>LOS: Type I and Type II errors, significance level and power of a test.</p>"
+ },
+ {
+  "id": "quant-02",
+  "topic": "quant",
+  "concept": "Test selection and calc: pooled t, paired t, chi-square single variance, F-test",
+  "difficulty": "medium",
+  "stem": "<p>An analyst compares the monthly returns of two equity funds, X and Y, over the <i>same</i> 36 months. The mean of the 36 monthly differences (X &minus; Y) is 0.80% and the standard deviation of the differences is 2.40%. The sample standard deviations of the individual funds' returns are 4.00% (X) and 3.50% (Y). The analyst tests H<sub>0</sub>: &mu;<sub>d</sub> = 0. The most appropriate test statistic is closest to:</p>",
+  "options": {
+   "A": "2.00",
+   "B": "0.90",
+   "C": "0.33"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> The two funds' returns are measured over the same months, so the samples are dependent and a paired-comparisons t-test on the differences is appropriate: t = (d&#772; &minus; &mu;<sub>d0</sub>) / (s<sub>d</sub>/&radic;n) = 0.80 / (2.40/&radic;36) = 0.80 / 0.40 = 2.00, with 35 degrees of freedom.</p><p><b>B is incorrect.</b> 0.90 comes from treating the samples as independent with a pooled variance: s<sub>p</sub><sup>2</sup> = (4.00<sup>2</sup> + 3.50<sup>2</sup>)/2 = 14.125; SE = &radic;(14.125 &times; (1/36 + 1/36)) = 0.886; t = 0.80/0.886 = 0.90. That ignores the pairing.</p><p><b>C is incorrect.</b> 0.33 = 0.80/2.40 divides by the standard deviation of the differences instead of the standard error (forgot &radic;n).</p><p><b>BA II Plus:</b> 36 [2nd][&radic;x] = 6; 2.4 [&divide;] 6 [=] 0.4; 0.8 [&divide;] 0.4 [=] 2.00.</p><p>LOS: choose the test for the situation (paired vs independent samples).</p>"
+ },
+ {
+  "id": "quant-03",
+  "topic": "quant",
+  "concept": "Regression: prediction interval (x t_c), SEE (n-2), un-log, forecast from equation",
+  "difficulty": "hard",
+  "stem": "<p>A regression of a stock's monthly excess return (Y, in %) on the monthly change in a macroeconomic index (X, in index points) is estimated from 27 observations: <b>Y&#770; = 1.50 + 0.80X</b>. The analyst wants a 95% prediction interval for Y when X = &minus;3.0. The standard error of the forecast is 0.90. Critical t-values for 25 degrees of freedom: 1.708 (5% one-tail) and 2.060 (2.5% one-tail).</p><p>The 95% prediction interval for Y is closest to:</p>",
+  "options": {
+   "A": "2.05% to 5.75%",
+   "B": "&minus;1.80% to 0.00%",
+   "C": "&minus;2.75% to 0.95%"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Forecast: Y&#770; = 1.50 + 0.80 &times; (&minus;3.0) = &minus;0.90%. Prediction interval = Y&#770; &plusmn; t<sub>c</sub> &times; s<sub>f</sub>. A 95% two-sided interval with 27 &minus; 2 = 25 degrees of freedom uses t<sub>c</sub> = 2.060: 2.060 &times; 0.90 = 1.854. Interval = &minus;0.90 &plusmn; 1.854 = &minus;2.75% to 0.95%.</p><p><b>A is incorrect.</b> 2.05% to 5.75% drops the minus sign on X: 1.50 + 0.80 &times; 3 = 3.90, and 3.90 &plusmn; 1.854.</p><p><b>B is incorrect.</b> &minus;1.80% to 0.00% is &minus;0.90 &plusmn; 0.90: the standard error of the forecast was used without multiplying by the critical t-value.</p><p>(Using 1.708, the one-tail value, would give &minus;2.44% to 0.64%, which is a 90% interval, not 95%.)</p><p><b>BA II Plus:</b> 0.8 [&times;] 3 [+/&minus;] [+] 1.5 [=] &minus;0.9; 2.06 [&times;] 0.9 [=] 1.854; &minus;0.9 [&minus;] 1.854 [=] &minus;2.754; &minus;0.9 [+] 1.854 [=] 0.954.</p><p>LOS: prediction intervals for the dependent variable.</p>"
+ },
+ {
+  "id": "quant-04",
+  "topic": "quant",
+  "concept": "Regression: prediction interval (x t_c), SEE (n-2), un-log, forecast from equation",
+  "difficulty": "medium",
+  "stem": "<p>An analyst estimates a log-linear model of a retailer's annual sales on real GDP growth: <b>ln(Sales) = 1.20 + 0.35 &times; (GDP growth)</b>, where Sales is in &pound; millions and GDP growth is in percentage points. If GDP growth is forecast at &minus;2.0%, the forecast sales are closest to:</p>",
+  "options": {
+   "A": "&pound;0.50 million",
+   "B": "&pound;1.65 million",
+   "C": "&pound;6.69 million"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> ln(Sales) = 1.20 + 0.35 &times; (&minus;2.0) = 0.50. The dependent variable is the natural log of sales, so un-log it: Sales = e<sup>0.50</sup> = &pound;1.65 million.</p><p><b>A is incorrect.</b> &pound;0.50 million is ln(Sales); the last step e<sup>x</sup> was skipped.</p><p><b>C is incorrect.</b> &pound;6.69 million = e<sup>1.90</sup> comes from using GDP growth of +2.0% (sign of X lost): 1.20 + 0.70 = 1.90.</p><p><b>BA II Plus:</b> 0.35 [&times;] 2 [+/&minus;] [+] 1.2 [=] 0.5; [2nd][e<sup>x</sup>] 1.6487.</p><p>LOS: forecasting with a log-linear model; the dependent variable must be transformed back.</p>"
+ },
+ {
+  "id": "quant-05",
+  "topic": "quant",
+  "concept": "Regression: ANOVA F, R-squared vs r, slope t-test against non-zero H0, dummy interpretation",
+  "difficulty": "hard",
+  "stem": "<p>A regression of a fund's monthly return on a single risk factor, estimated from a sample of 22 observations, produces the ANOVA table below. The estimated slope coefficient is <b>negative</b>.</p><table><tr><th>Source</th><th>df</th><th>Sum of squares</th></tr><tr><td>Regression</td><td>1</td><td>180</td></tr><tr><td>Residual</td><td>20</td><td>320</td></tr><tr><td>Total</td><td>21</td><td>500</td></tr></table><p>The standard error of estimate and the sample correlation between the fund's return and the risk factor are closest to:</p>",
+  "options": {
+   "A": "SEE = 4.00; correlation = &minus;0.60",
+   "B": "SEE = 3.81; correlation = &minus;0.60",
+   "C": "SEE = 4.00; correlation = &minus;0.36"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> SEE = &radic;(SSE/(n &minus; 2)) = &radic;(320/20) = &radic;16 = 4.00. R<sup>2</sup> = SSR/SST = 180/500 = 0.36. In a one-variable regression r = &plusmn;&radic;R<sup>2</sup> = &plusmn;0.60, and the sign of r is the sign of the slope, so r = &minus;0.60.</p><p><b>B is incorrect.</b> SEE = 3.81 divides SSE by n = 22 instead of n &minus; 2 = 20: &radic;(320/22) = 3.81.</p><p><b>C is incorrect.</b> &minus;0.36 is R<sup>2</sup> with a sign attached. R<sup>2</sup> is the square of r, so r = &minus;&radic;0.36 = &minus;0.60.</p><p><b>BA II Plus:</b> 320 [&divide;] 20 [=] [&radic;x] 4.00; 180 [&divide;] 500 [=] 0.36 [&radic;x] 0.60, then [+/&minus;].</p><p>LOS: ANOVA table, standard error of estimate, R<sup>2</sup> and the correlation coefficient in simple regression.</p>"
+ },
+ {
+  "id": "quant-06",
+  "topic": "quant",
+  "concept": "Parametric vs nonparametric; Spearman rank correlation and correlation t-test",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following situations is <b>least likely</b> to call for a nonparametric test?</p>",
+  "options": {
+   "A": "An analyst has only the ordinal ranks that two rating agencies gave 30 funds and wants to test whether the two rankings are associated.",
+   "B": "An analyst tests a claim about the median earnings change of a small sample of 12 firms that contains several extreme outliers.",
+   "C": "An analyst tests whether the mean of 400 daily returns, drawn from an approximately normal population with unknown variance, differs from zero."
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct (least likely).</b> Testing a mean from a large, approximately normal sample with unknown variance is the standard case for a parametric t-test. The distributional assumptions hold, so no substitute is needed.</p><p><b>A is incorrect.</b> The data are ranks (ordinal), so a parametric test of Pearson correlation is not appropriate; the Spearman rank correlation test is the nonparametric tool.</p><p><b>B is incorrect.</b> The sample is small, clearly non-normal and contains outliers, and the claim concerns a median, which is a parameter parametric tests do not address; a sign test or Wilcoxon signed-rank test fits.</p><p>Nonparametric tests are used when assumptions about the distribution are violated, data are ranks, or the hypothesis is not about a parameter.</p><p>LOS: situations in which nonparametric tests are appropriate.</p>"
+ },
+ {
+  "id": "quant-07",
+  "topic": "quant",
+  "concept": "Descriptive statistics: CV, sample vs population SD, harmonic/geometric mean, downside deviation",
+  "difficulty": "medium",
+  "stem": "<p>The annual returns on a fund over the last five years, treated as a sample, were 4%, 9%, 12%, 7% and 8%. The coefficient of variation of the returns is closest to:</p>",
+  "options": {
+   "A": "0.33",
+   "B": "0.36",
+   "C": "2.74"
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> Mean = 8%. Squared deviations: 16, 1, 16, 1, 0, sum 34. Sample variance = 34/(5 &minus; 1) = 8.5 (%<sup>2</sup>); sample standard deviation s = 2.9155%. CV = s / mean = 2.9155 / 8 = 0.36.</p><p><b>A is incorrect.</b> 0.33 uses the population standard deviation (divides by n = 5): &radic;6.8 = 2.608; 2.608/8 = 0.33. The returns are a sample, so divide by n &minus; 1.</p><p><b>C is incorrect.</b> 2.74 is mean/standard deviation (8/2.9155), the inverse of the CV.</p><p><b>BA II Plus:</b> [2nd][DATA], enter 4 [ENTER][&darr;] 9 [ENTER][&darr;] &hellip; 8 [ENTER]; [2nd][STAT] until 1-V; [&darr;] to read x&#772; = 8 and S<sub>x</sub> = 2.9155 (use S<sub>x</sub>, not &sigma;<sub>x</sub>). 2.9155 [&divide;] 8 [=] 0.3644.</p><p>LOS: coefficient of variation; sample vs population standard deviation.</p>"
+ },
+ {
+  "id": "quant-08",
+  "topic": "quant",
+  "concept": "Covariance, correlation and expected value/variance from probability tables",
+  "difficulty": "medium",
+  "stem": "<p>An analyst models the one-year returns on two assets, A and B, under three economic scenarios:</p><table><tr><th>Scenario</th><th>Probability</th><th>Return on A</th><th>Return on B</th></tr><tr><td>Strong</td><td>0.30</td><td>12%</td><td>8%</td></tr><tr><td>Normal</td><td>0.50</td><td>6%</td><td>4%</td></tr><tr><td>Weak</td><td>0.20</td><td>&minus;4%</td><td>0%</td></tr></table><p>The covariance between the returns on A and B is closest to:</p>",
+  "options": {
+   "A": "15.28",
+   "B": "21.79",
+   "C": "40.80"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> E(R<sub>A</sub>) = 0.3(12) + 0.5(6) + 0.2(&minus;4) = 5.8%; E(R<sub>B</sub>) = 0.3(8) + 0.5(4) + 0.2(0) = 4.4%. Cov = &Sigma; P<sub>i</sub> (R<sub>A,i</sub> &minus; 5.8)(R<sub>B,i</sub> &minus; 4.4) = 0.3(6.2)(3.6) + 0.5(0.2)(&minus;0.4) + 0.2(&minus;9.8)(&minus;4.4) = 6.696 &minus; 0.04 + 8.624 = 15.28 (%<sup>2</sup>).</p><p><b>B is incorrect.</b> 21.79 is the simple average of the three cross-products (65.36/3), ignoring the scenario probabilities.</p><p><b>C is incorrect.</b> 40.80 is E(R<sub>A</sub>R<sub>B</sub>) = 0.3(96) + 0.5(24) + 0.2(0). Covariance = E(R<sub>A</sub>R<sub>B</sub>) &minus; E(R<sub>A</sub>)E(R<sub>B</sub>) = 40.80 &minus; 25.52 = 15.28; the expected-return product was not subtracted.</p><p><b>BA II Plus:</b> 0.3 [&times;] 6.2 [&times;] 3.6 [=] 6.696; add 0.5 [&times;] 0.2 [&times;] 0.4 [+/&minus;] [=] &minus;0.04 and 0.2 [&times;] 9.8 [&times;] 4.4 [=] 8.624 (the two negatives multiply to a positive).</p><p>LOS: expected value and covariance from a joint probability table.</p>"
+ },
+ {
+  "id": "quant-09",
+  "topic": "quant",
+  "concept": "Time value of money: annuities, EAR, loan amortisation",
+  "difficulty": "easy",
+  "stem": "<p>A borrower takes a &pound;300,000 mortgage with a 25-year term and a stated annual rate of 4.5% compounded monthly. Level payments are made at the <b>end</b> of each month. The monthly payment is closest to:</p>",
+  "options": {
+   "A": "&pound;1,661.27",
+   "B": "&pound;1,685.98",
+   "C": "&pound;1,667.50"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Monthly rate = 4.5%/12 = 0.375%; N = 25 &times; 12 = 300. PMT = 300,000 &times; 0.00375 / (1 &minus; 1.00375<sup>&minus;300</sup>) = &pound;1,667.50.</p><p><b>A is incorrect.</b> &pound;1,661.27 is the payment with the calculator left in BGN (annuity-due) mode: 1,667.50 / 1.00375. Payments here are at the end of each month.</p><p><b>B is incorrect.</b> &pound;1,685.98 treats the loan as annual-pay (N = 25, I/Y = 4.5): payment &pound;20,231.71, divided by 12. That ignores monthly compounding within the year.</p><p><b>BA II Plus:</b> [2nd][BGN] check it shows END ([2nd][SET] if needed); [2nd][CLR TVM]; 300 [N]; 0.375 [I/Y]; 300000 [PV]; 0 [FV]; [CPT][PMT] = &minus;1,667.50.</p><p>LOS: loan amortisation; ordinary annuity payment.</p>"
+ },
+ {
+  "id": "quant-10",
+  "topic": "quant",
+  "concept": "Probability: Bayes, total probability, counting rules, probability trees",
+  "difficulty": "medium",
+  "stem": "<p>A bank's credit model labels each borrower as \"flagged\" or \"not flagged\". Historically 20% of borrowers default within a year. The model flags 85% of the borrowers who go on to default and 10% of those who do not. A borrower is flagged. The probability that this borrower defaults within a year is closest to:</p>",
+  "options": {
+   "A": "0.68",
+   "B": "0.85",
+   "C": "0.17"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Bayes' formula: P(default | flag) = P(flag | default) P(default) / P(flag). P(flag) = 0.85 &times; 0.20 + 0.10 &times; 0.80 = 0.17 + 0.08 = 0.25. So P(default | flag) = 0.17 / 0.25 = 0.68.</p><p><b>B is incorrect.</b> 0.85 is P(flag | default), the model's hit rate; it reverses the conditioning.</p><p><b>C is incorrect.</b> 0.17 is the joint probability P(flag and default) = 0.85 &times; 0.20; the division by P(flag) was skipped.</p><p><b>BA II Plus:</b> 0.85 [&times;] 0.2 [=] 0.17 [STO]1; 0.1 [&times;] 0.8 [=] 0.08 [+] [RCL]1 [=] 0.25; 0.17 [&divide;] 0.25 [=] 0.68.</p><p>LOS: Bayes' formula, total probability.</p>"
+ },
+ {
+  "id": "quant-11",
+  "topic": "quant",
+  "concept": "Confidence intervals, standard error, t vs z, degrees of freedom",
+  "difficulty": "medium",
+  "stem": "<p>An analyst draws a random sample of 25 monthly returns from a population assumed to be normally distributed with unknown variance. The sample mean is 1.2% and the sample standard deviation is 3.0%. Relevant critical values: t<sub>0.025,24</sub> = 2.064 and z<sub>0.025</sub> = 1.96. The 95% confidence interval for the population mean is closest to:</p>",
+  "options": {
+   "A": "0.02% to 2.38%",
+   "B": "&minus;4.99% to 7.39%",
+   "C": "&minus;0.04% to 2.44%"
+  },
+  "answer": "C",
+  "explanation": "<p><b>C is correct.</b> Population variance unknown and population normal: use the t-distribution with n &minus; 1 = 24 degrees of freedom. SE = s/&radic;n = 3.0/5 = 0.60. Interval = 1.2 &plusmn; 2.064 &times; 0.60 = 1.2 &plusmn; 1.238 = &minus;0.04% to 2.44%.</p><p><b>A is incorrect.</b> 0.02% to 2.38% uses z = 1.96 (1.2 &plusmn; 1.176). With an unknown variance and n = 25, the t-value is required; the interval is too narrow and wrongly excludes zero.</p><p><b>B is incorrect.</b> &minus;4.99% to 7.39% multiplies t by the standard deviation (3.0) instead of the standard error (0.60), i.e. forgot to divide by &radic;n.</p><p><b>BA II Plus:</b> 3 [&divide;] 25 [&radic;x] [=] 0.6; [&times;] 2.064 [=] 1.2384; 1.2 [&minus;] 1.2384 [=] &minus;0.0384; 1.2 [+] 1.2384 [=] 2.4384.</p><p>LOS: confidence intervals; t vs z; standard error of the sample mean.</p>"
+ },
+ {
+  "id": "quant-12",
+  "topic": "quant",
+  "concept": "Simulation and lognormal; Big Data and ML terminology",
+  "difficulty": "easy",
+  "stem": "<p>A data scientist trains a supervised model on 5,000 labelled observations to classify companies as likely or unlikely to restate earnings. The model classifies 98% of the training sample correctly but only 72% of a separate validation sample. The best description of the problem and the most appropriate response is:</p>",
+  "options": {
+   "A": "underfitting; add more features and increase the model's complexity.",
+   "B": "overfitting; reduce model complexity (for example by regularization) and use k-fold cross-validation.",
+   "C": "no problem; a gap of this size between training and validation accuracy is normal and no action is needed."
+  },
+  "answer": "B",
+  "explanation": "<p><b>B is correct.</b> High accuracy in-sample and much lower accuracy out-of-sample is the signature of overfitting: the model has learned noise specific to the training data. Remedies are a simpler model or regularization/penalties, more training data, and k-fold cross-validation to tune complexity.</p><p><b>A is incorrect.</b> Underfitting means poor performance on <i>both</i> training and validation data. Making the model more complex would worsen overfitting.</p><p><b>C is incorrect.</b> A small gap is expected, but a 26-point drop signals poor generalisation, so action is needed.</p><p>LOS: overfitting, underfitting and cross-validation in machine learning.</p>"
+ }
+]

@@ -1,0 +1,436 @@
+[
+ {
+  "id": "eth-01",
+  "topic": "ethics",
+  "concept": "GIPS: composites, who may claim compliance, firm definition, requirements",
+  "difficulty": "medium",
+  "stem": "<p>Halden Capital, a GIPS-compliant firm, manages a &ldquo;Nordic Small-Cap&rdquo; composite. In March, the portfolio manager moves a discretionary, fee-paying account out of this composite and into the firm&rsquo;s &ldquo;European Core&rdquo; composite because the account lagged the Nordic Small-Cap composite in the previous quarter. The client&rsquo;s investment guidelines have not changed and neither composite definition has been revised. The move is:</p>",
+  "options": {
+   "A": "not permitted, because a portfolio may be moved between composites only after a documented change in the client&rsquo;s guidelines or a redefinition of a composite.",
+   "B": "permitted, as long as the move is disclosed in the compliant presentations of both composites.",
+   "C": "permitted, because the firm has discretion to decide which composite best fits an account&rsquo;s strategy."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Under GIPS, portfolios must not be switched from one composite to another unless there is a documented, significant change in the client&rsquo;s investment guidelines or the composite itself is redefined. Moving an account because of its performance would let the firm cherry-pick composite results.</p><p><b>B is incorrect.</b> Disclosure does not cure the problem. The restriction is on the move itself, and the account&rsquo;s history must stay in the original composite.</p><p><b>C is incorrect.</b> Firm discretion is limited by the GIPS requirement that composites be defined by strategy and that moves be justified by documented guideline changes, not by performance.</p>"
+ },
+ {
+  "id": "eth-02",
+  "topic": "ethics",
+  "concept": "GIPS: composites, who may claim compliance, firm definition, requirements",
+  "difficulty": "hard",
+  "stem": "<p>Tavira Asset Management defines itself as the &ldquo;firm&rdquo; for GIPS purposes. At year-end it manages EUR 1,200m in discretionary, fee-paying portfolios and EUR 150m in a discretionary portfolio for its own staff pension plan, which pays no fee. It also manages EUR 90m in non-discretionary portfolios where the client must approve each trade before Tavira executes it. Separately, Tavira gives asset-allocation advice, without any trading authority, on EUR 400m of assets held by a consulting client. Total firm assets that Tavira should report in its compliant presentations are:</p>",
+  "options": {
+   "A": "EUR 1,350m.",
+   "B": "EUR 1,440m.",
+   "C": "EUR 1,840m."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> EUR 1,350m is the discretionary assets only (1,200 + 150). It leaves out the non-discretionary assets that Tavira manages.</p><p><b>B is correct.</b> Total firm assets include all discretionary and non-discretionary assets the firm manages, whether or not they pay a fee: 1,200 + 150 + 90 = EUR 1,440m. Advisory-only assets with no trading authority are assets under advisement and are not part of total firm assets (GIPS: firm definition and total firm assets).</p><p><b>C is incorrect.</b> EUR 1,840m adds the EUR 400m of assets under advisement (1,440 + 400). Tavira has no trading authority over these assets, so they are not firm assets.</p>"
+ },
+ {
+  "id": "eth-03",
+  "topic": "ethics",
+  "concept": "GIPS: composites, who may claim compliance, firm definition, requirements",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following can claim compliance with the GIPS standards?</p>",
+  "options": {
+   "A": "An individual portfolio manager who has met all of the requirements for the portfolios he or she manages.",
+   "B": "A composite whose construction and return calculations meet all of the composite requirements.",
+   "C": "An investment firm or asset owner that has met all of the applicable GIPS requirements."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Individual managers cannot claim GIPS compliance. Compliance is a firm-wide claim.</p><p><b>B is incorrect.</b> Composites are presented by a compliant firm. A single composite, product or strategy cannot be claimed as &ldquo;GIPS compliant&rdquo; on its own.</p><p><b>C is correct.</b> Only a firm (or an asset owner) can claim compliance, and it can do so only if it meets all applicable requirements. Compliance applies to the whole firm, not to parts of it.</p>"
+ },
+ {
+  "id": "eth-04",
+  "topic": "ethics",
+  "concept": "Independence and objectivity I(B): gifts, issuer-paid research and travel",
+  "difficulty": "medium",
+  "stem": "<p>Anneke de Vries is a portfolio manager at Rhenish Investments and decides how the firm&rsquo;s equity orders are allocated among approved brokers. One approved broker sends her two tickets to a sold-out international football final, worth about EUR 1,500, &ldquo;as thanks for a great year together&rdquo;. Rhenish has no written gift policy. De Vries&rsquo;s <b>best</b> course of action is to:</p>",
+  "options": {
+   "A": "accept the tickets and keep allocating orders strictly on best execution.",
+   "B": "decline the tickets, because a gift of this size from a broker she allocates orders to could compromise her objectivity.",
+   "C": "accept the tickets and disclose them to her supervisor in writing."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Her intention to stay objective is not enough. The Standard is concerned with what could reasonably be expected to compromise independence, and the appearance of a quid pro quo remains.</p><p><b>B is correct.</b> Gifts that could reasonably be expected to affect a member&rsquo;s independence and objectivity should be refused. A EUR 1,500 gift from a broker whose orders she controls creates that risk, and the best way to protect objectivity is to avoid the conflict (Standard I(B) Independence and Objectivity).</p><p><b>C is incorrect.</b> Disclosure is good practice and may be needed, but it does not remove the threat to objectivity. Disclosure is the minimum, not the best course of action.</p>"
+ },
+ {
+  "id": "eth-05",
+  "topic": "ethics",
+  "concept": "Independence and objectivity I(B): gifts, issuer-paid research and travel",
+  "difficulty": "hard",
+  "stem": "<p>Anil Rao is a sell-side analyst who covers Kalvera Mining. Kalvera invites him on a site visit. Which of the following arrangements is <b>least likely</b> to compromise Rao&rsquo;s independence and objectivity?</p>",
+  "options": {
+   "A": "Rao accepts business-class flights and a five-star hotel from Kalvera for a plant that is easily reached by scheduled flights and ordinary hotels.",
+   "B": "Rao accepts two additional days of personal holiday after the visit, paid for by Kalvera.",
+   "C": "Rao flies on Kalvera&rsquo;s private aircraft to a remote mine that has no scheduled air service, and his firm pays for his hotel and meals."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Lavish business-class flights and a five-star hotel are not needed for the visit. Commercial options exist, and the issuer-paid luxury would create a bias toward Kalvera.</p><p><b>B is incorrect.</b> A holiday paid for by the issuer is a personal benefit unrelated to the work. It is the clearest threat to objectivity of the three.</p><p><b>C is correct.</b> Analysts should normally pay their own transport and lodging, but where the only practical way to reach a remote site is the issuer&rsquo;s aircraft, accepting that ride while the firm covers the other costs keeps Rao independent. This is the arrangement least likely to compromise him (Standard I(B)).</p>"
+ },
+ {
+  "id": "eth-06",
+  "topic": "ethics",
+  "concept": "Suitability III(C): know the client, judge in portfolio context",
+  "difficulty": "medium",
+  "stem": "<p>Priya Nair advises Mr. Vasquez, 58, whose written IPS sets a moderate risk tolerance and a seven-year horizon to retirement. She recommends putting 5% of his portfolio into a volatile emerging-market small-cap fund. The remainder is diversified across global large-cap equities and investment-grade bonds, and her analysis shows that total portfolio risk stays within the limits of the IPS. Is the recommendation most likely consistent with her suitability duty?</p>",
+  "options": {
+   "A": "Yes, because suitability is judged in the context of the total portfolio, and overall risk and return remain consistent with the client&rsquo;s objectives and constraints.",
+   "B": "Yes, but only after Mr. Vasquez signs a waiver acknowledging that the fund is riskier than his stated tolerance.",
+   "C": "No, because a volatile small-cap fund is unsuitable for any client with a moderate risk tolerance."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Suitability is assessed for the portfolio as a whole, not investment by investment. A small allocation to a risky asset can be suitable if total portfolio risk and return stay within the client&rsquo;s IPS (Standard III(C) Suitability).</p><p><b>B is incorrect.</b> A waiver is not needed, and it would not make an unsuitable recommendation suitable. Here the total portfolio is within the IPS limits, so no waiver is required.</p><p><b>C is incorrect.</b> This judges the fund in isolation. A risky asset can reduce or add little to total risk when held in a diversified portfolio.</p>"
+ },
+ {
+  "id": "eth-07",
+  "topic": "ethics",
+  "concept": "Suitability III(C): know the client, judge in portfolio context",
+  "difficulty": "medium",
+  "stem": "<p>Tomas Bergstr&ouml;m has managed Ms. Ilves&rsquo;s portfolio for six years under an IPS that targets growth with high risk tolerance. Last month she told him that she has retired earlier than planned and will start drawing income from the portfolio within 12 months. Bergstr&ouml;m has not changed the IPS. Which action is most consistent with the Standards?</p>",
+  "options": {
+   "A": "Wait for the next scheduled annual review in eight months, because the Standards require updates only once a year.",
+   "B": "Update the IPS now to reflect her changed circumstances, reassessing return objectives, risk tolerance and constraints, and review it again at least annually.",
+   "C": "Keep the IPS in place, because the client has not formally asked him to change her objectives."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> The duty to know the client is the adviser&rsquo;s. He cannot wait for a formal request after learning of a material change.</p><p><b>B is incorrect.</b> Annual reviews are a minimum, not a limit. A material change in circumstances triggers an update when it occurs.</p><p><b>C is correct.</b> A member must make reasonable inquiry into a client&rsquo;s situation and update it as circumstances change, as well as periodically (at least annually). Early retirement and an income need is a material change that calls for an immediate update (Standard III(C) Suitability).</p>"
+ },
+ {
+  "id": "eth-08",
+  "topic": "ethics",
+  "concept": "Supervisors IV(C): inadequate compliance, suspected violation",
+  "difficulty": "medium",
+  "stem": "<p>Dagny Holm supervises the trading desk at Strand Capital. At lunch, a junior trader, Luis Ferrer, mentions that a friend at a listed company told him it will announce a takeover bid next week, and that he &ldquo;bought a few shares in his own account this morning&rdquo;. Holm is concerned that Ferrer may have traded on material nonpublic information. Her <b>most appropriate</b> immediate action is to:</p>",
+  "options": {
+   "A": "wait until the bid is announced and the facts are confirmed before taking any action.",
+   "B": "restrict Ferrer&rsquo;s trading in the security, put the stock on the firm&rsquo;s restricted list, and increase monitoring of his activity while compliance investigates.",
+   "C": "warn Ferrer verbally not to trade on inside information and take no further action unless he does it again."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Delay would allow further trading and potentially further violations. The supervisor has to act when there are grounds for suspicion, not when the violation is proven.</p><p><b>B is correct.</b> When a supervisor has reason to suspect a violation she must act promptly: restrict or monitor the employee&rsquo;s activity and investigate, usually through compliance or legal, not just warn. (Standard IV(C) Responsibilities of Supervisors).</p><p><b>C is incorrect.</b> A verbal warning alone does not prevent further violations and does not start an investigation. The warning has to be backed by restriction and monitoring.</p>"
+ },
+ {
+  "id": "eth-09",
+  "topic": "ethics",
+  "concept": "Supervisors IV(C): inadequate compliance, suspected violation",
+  "difficulty": "hard",
+  "stem": "<p>Karin Selwyn is offered the role of head of equities at Beacon Partners, a small advisory firm. During her due diligence she finds that Beacon has no written procedures for monitoring employees&rsquo; personal trading or for handling client complaints, and the owner says there is no budget to create them. Which course of action is <b>most consistent</b> with Selwyn&rsquo;s supervisory responsibilities?</p>",
+  "options": {
+   "A": "Decline in writing to accept supervisory responsibility until the firm adopts reasonable compliance procedures.",
+   "B": "Accept the role and supervise her team informally using her own judgment, intending to press for written procedures later.",
+   "C": "Accept the role and delegate compliance to the owner so that her own supervisory responsibility is limited."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> A supervisor who finds that the firm&rsquo;s compliance system is inadequate should decline in writing to accept supervisory responsibility until reasonable procedures are in place. She cannot supervise effectively without them (Standard IV(C)).</p><p><b>B is incorrect.</b> Accepting the role without the procedures leaves her responsible for employees she cannot reasonably supervise. Good intentions do not replace the procedures.</p><p><b>C is incorrect.</b> Delegation does not remove a supervisor&rsquo;s responsibility for those under her supervision, and moving it to the owner who refuses to fund procedures does not solve the lack of a system.</p>"
+ },
+ {
+  "id": "eth-10",
+  "topic": "ethics",
+  "concept": "Conflicts VI(A) and referral fees VI(C): what and when to disclose",
+  "difficulty": "hard",
+  "stem": "<p>Samira Haddad is a portfolio manager at Keldon Asset Management. She is about to buy shares of Orvento plc for client portfolios. The following facts apply:</p><p>(1) Haddad personally owns shares in Orvento.<br>(2) Keldon&rsquo;s affiliated investment bank is currently advising Orvento on a bond issue.<br>(3) Haddad will receive a fee from a trust company for introducing clients to it.<br>(4) Haddad receives a fixed annual salary from Keldon.</p><p>How many of these facts must be disclosed to clients under the Standards?</p>",
+  "options": {
+   "A": "Two",
+   "B": "Three",
+   "C": "Four"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Two counts only the share ownership and the referral fee, and misses the firm-level investment banking relationship. Conflicts of the employer must be disclosed as well.</p><p><b>B is correct.</b> Facts (1), (2) and (3) must be disclosed: personal ownership and the firm&rsquo;s investment-banking relationship could impair independence (Standard VI(A) Disclosure of Conflicts), and the referral fee must be disclosed under VI(C) Referral Fees. Fact (4), an ordinary salary from her employer, is not a conflict, so the count is three.</p><p><b>C is incorrect.</b> Four wrongly counts her regular salary. Standard compensation from the employer is expected by clients and is not a conflict of interest.</p>"
+ },
+ {
+  "id": "eth-11",
+  "topic": "ethics",
+  "concept": "Conflicts VI(A) and referral fees VI(C): what and when to disclose",
+  "difficulty": "medium",
+  "stem": "<p>Elena Marchetti is an adviser at Calder Wealth. She agrees with a local law firm that it will pay her 15% of its first-year fees for each client she refers to it. She has not yet referred anyone. Under the Standards, Marchetti must disclose the arrangement to:</p>",
+  "options": {
+   "A": "her clients only, once she has made her first referral and received the fee.",
+   "B": "Calder Wealth, her clients and prospective clients, before they enter into an agreement for the law firm&rsquo;s services.",
+   "C": "Calder Wealth only, because the payment comes from a third party and not from clients."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Disclosure to the employer alone leaves the clients without the information they need to judge the referral.</p><p><b>B is incorrect.</b> Disclosure after the first referral and payment is too late. The disclosure has to come before the client agrees to the service.</p><p><b>C is correct.</b> A member must disclose to the employer, clients and prospects any compensation or benefit received for recommending services, so that they can evaluate the possible bias in the recommendation. The disclosure must come before the client enters into any agreement for the services (Standard VI(C) Referral Fees).</p>"
+ },
+ {
+  "id": "eth-12",
+  "topic": "ethics",
+  "concept": "Diligence V(A) and communication V(B): research depth, fact vs forecast",
+  "difficulty": "hard",
+  "stem": "<p>Pieter Holm, an equity analyst at Brandt Securities, is told on Monday to initiate coverage of Nordhaven Shipping by Friday. He reads Nordhaven&rsquo;s latest press release, takes consensus earnings estimates from a data vendor without examining how they were built, performs no valuation of his own, and publishes a &ldquo;buy&rdquo; with a price target. The report says clearly that the target is derived from vendor consensus numbers and the press release, and that it is Holm&rsquo;s opinion. Holm has most likely:</p>",
+  "options": {
+   "A": "violated the requirement for a reasonable and adequate basis for the recommendation, which disclosing the sources does not cure.",
+   "B": "violated only the requirement to distinguish fact from opinion and to disclose the limitations of his analysis.",
+   "C": "not violated any Standard, because the report discloses its sources and labels the target as opinion."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Holm had no reasonable and adequate basis: he did no analysis of his own and did not test the vendor numbers. That is a failure of diligence (Standard V(A) Diligence and Reasonable Basis). Disclosing the sources is a communication matter and cannot supply the missing basis.</p><p><b>B is incorrect.</b> The report does separate fact and opinion and names its sources, so a communication violation is not what happened. The problem is the lack of analysis behind the recommendation.</p><p><b>C is incorrect.</b> Disclosure of sources and labelling of opinion address communication, but they cannot make an unsupported recommendation acceptable.</p>"
+ },
+ {
+  "id": "eth-13",
+  "topic": "ethics",
+  "concept": "Diligence V(A) and communication V(B): research depth, fact vs forecast",
+  "difficulty": "medium",
+  "stem": "<p>Mei Lin Chow, a senior analyst at Aldgate Research, builds a detailed model of Corvette Motors&rsquo; earnings, tests its assumptions against industry data and concludes that the stock is attractive. Her published note says: &ldquo;Corvette&rsquo;s earnings will grow 18% a year for the next five years, so the stock will certainly double by 2031.&rdquo; The note does not mention the model&rsquo;s key assumptions or the risks. Chow&rsquo;s note is most likely:</p>",
+  "options": {
+   "A": "in violation, because she lacked a reasonable and adequate basis for her conclusion.",
+   "B": "in violation, because it presents a forecast as a certainty and omits the assumptions and risks, even though her analytical basis was adequate.",
+   "C": "consistent with the Standards, because her research was thorough and her analysis well supported."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> A thorough basis does not cure a misleading presentation. The Standards also govern how the conclusions are communicated.</p><p><b>B is incorrect.</b> She did test her assumptions and had a model. The shortfall is in the wording and the omissions, not in her diligence.</p><p><b>C is correct.</b> Chow&rsquo;s analysis was sound, but the note presents a projection as a fact and does not disclose the assumptions and limitations. The communication to clients is the problem (Standard V(B) Communication with Clients and Prospective Clients).</p>"
+ },
+ {
+  "id": "eth-14",
+  "topic": "ethics",
+  "concept": "Performance presentation III(D): TWR vs MWR, composites in marketing",
+  "difficulty": "medium",
+  "stem": "<p>Nikolai Egorov manages a balanced fund sold through a retail platform. Investors decide when to deposit and withdraw, and Egorov has no control over these flows. The marketing brochure quotes the fund&rsquo;s three-year return on a money-weighted basis, which is higher than the time-weighted return because investors added large sums shortly before a strong rally. Egorov&rsquo;s firm should most appropriately present:</p>",
+  "options": {
+   "A": "the change in net asset value per unit, ignoring distributions, to keep the figure simple.",
+   "B": "the money-weighted return, because it reflects what investors actually earned.",
+   "C": "the time-weighted return, because it removes the effect of cash flows that the manager does not control."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Ignoring distributions leaves out part of the total return, so the figure would not be complete as the Standard requires.</p><p><b>B is correct.</b> The manager cannot control external cash flows, so the time-weighted return is the fair and accurate measure of his investment performance. The money-weighted return here is flattered by investor timing, which would mislead prospective clients (Standard III(D) Performance Presentation).</p><p><b>C is incorrect.</b> The money-weighted return measures investors&rsquo; experience, which depends on the timing of their flows, not on the manager&rsquo;s skill. It is inappropriate for assessing or marketing the manager&rsquo;s performance.</p>"
+ },
+ {
+  "id": "eth-15",
+  "topic": "ethics",
+  "concept": "Loyalty, prudence and care III(A): proxy voting, who is the client",
+  "difficulty": "hard",
+  "stem": "<p>Sven Aalto manages the defined-benefit pension plan of Brightwell Ltd. Brightwell&rsquo;s finance director instructs him to route all of the plan&rsquo;s equity trades through Hallmark Securities, which in return gives Brightwell&rsquo;s treasury department a free market-data subscription. Aalto finds that Hallmark&rsquo;s commissions are 6 basis points above comparable brokers and its execution quality is no better. Aalto&rsquo;s <b>best</b> course of action is to:</p>",
+  "options": {
+   "A": "decline to route the trades to Hallmark and select brokers on best execution for the benefit of the plan&rsquo;s participants and beneficiaries.",
+   "B": "follow the instruction, because Brightwell is the client that hired him and set his mandate.",
+   "C": "follow the instruction and disclose the arrangement to the plan&rsquo;s trustees."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Aalto&rsquo;s duty runs to the plan participants and beneficiaries, not to the sponsor who hired him. Commissions are the plan&rsquo;s assets, and soft-dollar benefits (such as research or data) may be accepted only if they benefit the clients who paid the commissions. Here the benefit goes to the sponsor and execution is worse, so he should use best execution (Standard III(A) Loyalty, Prudence and Care).</p><p><b>B is incorrect.</b> The plan sponsor is not the beneficial client. Following the instruction would use plan assets to benefit the sponsor at the beneficiaries&rsquo; expense.</p><p><b>C is incorrect.</b> Disclosure does not make it acceptable to pay higher commissions for no client benefit. The plan would still be bearing the cost of a benefit it does not receive.</p>"
+ },
+ {
+  "id": "eth-16",
+  "topic": "ethics",
+  "concept": "Market manipulation II(B) and MNPI II(A)",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following is most likely an example of <i>transaction-based</i> market manipulation?</p>",
+  "options": {
+   "A": "A manager places a series of large buy orders in the final minutes of the last trading day of the quarter in an illiquid stock held by his clients, to lift the closing price.",
+   "B": "A portfolio manager gives journalists false positive earnings estimates for a company that her clients hold.",
+   "C": "An analyst posts a false rumour on an investor forum that a small-cap company is under investigation, then buys the shares after the price falls."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Leaking false earnings estimates is also information-based manipulation. No trading pattern is used to create a false price.</p><p><b>B is incorrect.</b> Spreading a false rumour is information-based manipulation: the price is moved by misleading information, not by the trades.</p><p><b>C is correct.</b> Transaction-based manipulation uses trading itself to distort the price or the volume, such as marking the close in a thinly traded stock to inflate portfolio values (Standard II(B) Market Manipulation).</p>"
+ },
+ {
+  "id": "eth-17",
+  "topic": "ethics",
+  "concept": "Market manipulation II(B) and MNPI II(A)",
+  "difficulty": "hard",
+  "stem": "<p>During a private call, the CFO of Torvald Engineering tells twelve invited analysts that its largest customer has cancelled a contract worth 30% of revenue. The company has not yet issued a press release or filing. Immediately after the call, Joon-ho Park, one of the analysts, sells his clients&rsquo; holdings of Torvald. Park has most likely:</p>",
+  "options": {
+   "A": "violated the Standards, because he acted on material information that had not been disseminated to the public.",
+   "B": "not violated the Standards, because twelve analysts heard the information, so it is already public.",
+   "C": "not violated the Standards, because he traded for clients and not for his own account."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Information is public only when it has been disseminated to the marketplace in general, not when a handful of analysts have heard it.</p><p><b>B is correct.</b> The information was selectively disclosed to a small group and was not broadly disseminated, so it remains nonpublic. It is also material (30% of revenue), and trading on it breaches the prohibition on acting on material nonpublic information (Standard II(A)).</p><p><b>C is incorrect.</b> The prohibition applies to trading for clients as well as for personal accounts. Trading for clients on MNPI is still a violation.</p>"
+ },
+ {
+  "id": "eth-18",
+  "topic": "ethics",
+  "concept": "Misrepresentation I(C) and misconduct I(D)",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following actions by a research analyst most likely violates the Standard on misrepresentation?</p>",
+  "options": {
+   "A": "Copying the forecasts, tables and conclusions from a competitor&rsquo;s report into her own note without attribution and calling them &ldquo;our estimates&rdquo;.",
+   "B": "Using a vendor&rsquo;s industry model after reviewing its assumptions and stating in the report that the model comes from the vendor.",
+   "C": "Citing a central bank&rsquo;s published inflation series in a report and naming the source."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Presenting someone else&rsquo;s work as one&rsquo;s own is plagiarism, a form of misrepresentation (Standard I(C) Misrepresentation).</p><p><b>B is incorrect.</b> Using third-party work is acceptable when its assumptions are checked and its source is acknowledged.</p><p><b>C is incorrect.</b> Using publicly available data with an acknowledgement of the source is proper.</p>"
+ },
+ {
+  "id": "eth-19",
+  "topic": "ethics",
+  "concept": "Misrepresentation I(C) and misconduct I(D)",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following is most likely a violation of the Standard on misconduct?</p>",
+  "options": {
+   "A": "An analyst pays a parking fine incurred while driving to a client meeting.",
+   "B": "An adviser submits an expense claim of EUR 640 for a client dinner that cost EUR 410, and keeps the difference.",
+   "C": "A portfolio manager is dismissed by her employer after two years of weak performance."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Dismissal for poor performance is a competence or business matter, not dishonesty, fraud or deceit.</p><p><b>B is incorrect.</b> A minor parking fine does not involve dishonesty and does not reflect on professional integrity or competence.</p><p><b>C is correct.</b> Falsifying an expense claim is dishonest and reflects adversely on the member&rsquo;s integrity and professional reputation, which is misconduct (Standard I(D) Misconduct).</p>"
+ },
+ {
+  "id": "eth-20",
+  "topic": "ethics",
+  "concept": "Fair dealing III(B) and priority of transactions VI(B)",
+  "difficulty": "medium",
+  "stem": "<p>Lars Nygaard, an analyst at Fjord Securities, downgrades Halbach Chemicals from &ldquo;buy&rdquo; to &ldquo;sell&rdquo;. Before the written report is published, he telephones the firm&rsquo;s five largest institutional clients with the change and emails it to all other clients 40 minutes later. Fjord discloses to all clients that larger accounts receive more frequent reviews and personal calls. Nygaard&rsquo;s action is most likely:</p>",
+  "options": {
+   "A": "a violation, because some clients had a fair chance to act on the changed recommendation before others.",
+   "B": "consistent with the Standards, because every client received the recommendation before the written report was published.",
+   "C": "consistent with the Standards, because disclosed differences in service levels are permitted."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Clients may receive different levels of service if it is disclosed and does not disadvantage others, but a change in a recommendation must be disseminated so that all clients have a fair chance to act on it. Calling the largest clients first disadvantaged the rest (Standard III(B) Fair Dealing).</p><p><b>B is incorrect.</b> Receiving it before the report is published is not the test. The test is whether all clients had a fair opportunity to act at the same time.</p><p><b>C is incorrect.</b> Different service levels (review frequency, calls) are acceptable, but the timing of a recommendation change is not a service level. Selective early notice is unfair.</p>"
+ },
+ {
+  "id": "eth-21",
+  "topic": "ethics",
+  "concept": "Fair dealing III(B) and priority of transactions VI(B)",
+  "difficulty": "medium",
+  "stem": "<p>Rashid Karim manages portfolios at Meridian Advisers. His mother holds a fee-paying managed account at Meridian that follows the same mandate as many of his other client accounts. An oversubscribed IPO is allocated to Karim&rsquo;s portfolios. Which allocation approach is consistent with the Standards?</p>",
+  "options": {
+   "A": "Allocate shares to her account on the same pro rata basis as to the other clients&rsquo; accounts.",
+   "B": "Exclude his mother&rsquo;s account, because family accounts may not take part in IPO allocations.",
+   "C": "Fill her account only after all other clients&rsquo; accounts have been filled, to avoid any appearance of favouritism."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> There is no rule that excludes family client accounts. Excluding her would treat her unfairly because of the relationship.</p><p><b>B is correct.</b> A family-member account that is a client account should be treated like any other client account, with no preferential or disadvantageous treatment (Standard VI(B) Priority of Transactions and III(B) Fair Dealing).</p><p><b>C is incorrect.</b> Putting her at the back of the line disadvantages her account. Fair treatment means the same allocation rules as other clients.</p>"
+ },
+ {
+  "id": "eth-22",
+  "topic": "ethics",
+  "concept": "Record retention V(C) and prior-employer work product",
+  "difficulty": "medium",
+  "stem": "<p>Hana Mizuno is leaving Sakura Securities to join a rival firm. Before leaving she copies to a USB drive the valuation models she built for Sakura, her research notes on the companies she covered, and Sakura&rsquo;s client contact list, planning to use them in her new job. Asked about it, she says that she created the models herself and will keep the records for at least seven years, as recommended. Which statement is most accurate?</p>",
+  "options": {
+   "A": "The models, notes and client list were created during her employment and belong to Sakura, so she may not take or use them without its permission, although she may use general skills and public information at her new firm.",
+   "B": "She may keep the models and notes, but not the client list, because only client information is confidential.",
+   "C": "She may keep the models because she authored them, and seven years of retention satisfies the record-keeping Standard."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> The models and research notes are also the employer&rsquo;s property. Confidentiality of client information is a separate issue.</p><p><b>B is incorrect.</b> Authorship does not give ownership. Retention for seven years is the recommended minimum for the employer&rsquo;s records, not a right to keep copies.</p><p><b>C is correct.</b> Work product created for an employer belongs to the employer. A former employee may take her skills, general knowledge and publicly available information but not the records, models or client lists. Record retention rules do not change who owns the records (Standard V(C) Record Retention and the duty to the former employer).</p>"
+ },
+ {
+  "id": "eth-23",
+  "topic": "ethics",
+  "concept": "Loyalty to employer IV(A): whistleblowing, non-compete, independent practice",
+  "difficulty": "medium",
+  "stem": "<p>Oskar Lindh is a full-time analyst at Verde Capital. He wants to earn extra income by writing paid investment newsletters for retail subscribers at weekends, using his own computer and no firm information. Verde&rsquo;s employment contract is silent on outside work. Which action is <b>required</b> before Lindh starts?</p>",
+  "options": {
+   "A": "Obtain Verde&rsquo;s written consent after describing the nature, compensation and time involved in the activity.",
+   "B": "Nothing, because the work is done outside working hours and does not use firm resources.",
+   "C": "Inform Verde within a month of starting, once he knows how the newsletter is doing."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Independent practice that may compete with the employer requires the employer&rsquo;s written consent, given after the member discloses the nature, duration and compensation of the work (Standard IV(A) Loyalty).</p><p><b>B is incorrect.</b> Working outside hours and avoiding firm resources do not remove the potential for competition. Written consent is still required.</p><p><b>C is incorrect.</b> Telling the employer after the work has begun does not meet the requirement. Consent must come first.</p>"
+ },
+ {
+  "id": "eth-24",
+  "topic": "ethics",
+  "concept": "Loyalty to employer IV(A): whistleblowing, non-compete, independent practice",
+  "difficulty": "hard",
+  "stem": "<p>Rafael Costa plans to leave Corvin Wealth and set up his own advisory firm. While he is still employed, which of the following actions is <b>least likely</b> to violate his duty of loyalty to Corvin?</p>",
+  "options": {
+   "A": "Registering the new firm&rsquo;s name with the authorities and renting office space in his own time, without using Corvin&rsquo;s resources or approaching its clients.",
+   "B": "Emailing Corvin&rsquo;s clients during working hours to announce his departure and the launch of his new firm.",
+   "C": "Copying the client contact list from Corvin&rsquo;s CRM so that he can contact clients on the first day of his new firm."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Soliciting the employer&rsquo;s clients during the employment, and on the employer&rsquo;s time, is a violation.</p><p><b>B is incorrect.</b> Taking client records is taking the employer&rsquo;s property and prepares for solicitation, which breaches the duty of loyalty.</p><p><b>C is correct.</b> A departing employee may make preparations to begin competing, such as registering a business and leasing space, provided he does so on his own time and does not use the employer&rsquo;s resources or solicit its clients before he leaves (Standard IV(A)).</p>"
+ },
+ {
+  "id": "eth-25",
+  "topic": "ethics",
+  "concept": "Ethics foundations: Code of Ethics, professionalism, ethical decision framework",
+  "difficulty": "easy",
+  "stem": "<p>Which of the following is <b>NOT</b> a component of the CFA Institute Code of Ethics?</p>",
+  "options": {
+   "A": "Place the integrity of the investment profession and the interests of clients above their own personal interests.",
+   "B": "Ensure that every client portfolio outperforms its benchmark in each measurement period.",
+   "C": "Promote the integrity and viability of the global capital markets for the ultimate benefit of society."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> This is the first component of the Code of Ethics.</p><p><b>B is correct.</b> The Code requires ethical conduct but does not promise outperformance. No member can guarantee that returns will beat a benchmark.</p><p><b>C is incorrect.</b> This is a component of the Code of Ethics.</p>"
+ },
+ {
+  "id": "eth-26",
+  "topic": "ethics",
+  "concept": "Ethics foundations: Code of Ethics, professionalism, ethical decision framework",
+  "difficulty": "medium",
+  "stem": "<p>Beatrix Lund, an analyst, is under pressure from her manager to publish a favourable note. She is working through the ethical decision-making framework: she is weighing the influence of that pressure on her judgment, checking the relevant laws, the Code and Standards and firm policy, and listing alternative courses of action. Which step of the framework is she most likely performing?</p>",
+  "options": {
+   "A": "Consider",
+   "B": "Decide and act",
+   "C": "Identify"
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Weighing situational influences, applicable guidelines (laws, Code and Standards, firm policy) and alternative actions belongs to the Consider step of the framework (Identify, Consider, Decide and act, Reflect).</p><p><b>B is incorrect.</b> Decide and act comes after the alternatives have been evaluated. She is still comparing options.</p><p><b>C is incorrect.</b> Identify is about establishing the relevant facts, the stakeholders and duties owed, and any conflicts. Lund is already past that point.</p>"
+ },
+ {
+  "id": "eth-27",
+  "topic": "ethics",
+  "concept": "Confidentiality III(E) exceptions and Knowledge of law I(A)",
+  "difficulty": "easy",
+  "stem": "<p>Alvaro Beltran, an adviser, discovers during a review that his client Mr. Karlsen has been using his brokerage account to launder the proceeds of criminal activity. Which statement best describes Beltran&rsquo;s position under the Standards?</p>",
+  "options": {
+   "A": "He may disclose the information only after obtaining Mr. Karlsen&rsquo;s written consent.",
+   "B": "He may disclose the information to the proper authorities, because it concerns illegal activity by the client.",
+   "C": "He must keep the information confidential, because the duty of confidentiality to a client is absolute."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> The duty has exceptions, including client illegal activity.</p><p><b>B is incorrect.</b> Asking the client for consent is not needed for the exception to apply, and doing so could tip off a client who is committing a crime.</p><p><b>C is correct.</b> Confidentiality is not absolute: a member may disclose information when it concerns illegal activity by the client, when disclosure is required by law, or when the client permits it (Standard III(E) Preservation of Confidentiality).</p>"
+ },
+ {
+  "id": "eth-28",
+  "topic": "ethics",
+  "concept": "Confidentiality III(E) exceptions and Knowledge of law I(A)",
+  "difficulty": "easy",
+  "stem": "<p>Fiona Reilly, a CFA charterholder, works in a country where local securities law allows advisers to trade for their own accounts ahead of client orders if they report it to the regulator. Her firm has no policy on the subject. Reilly should:</p>",
+  "options": {
+   "A": "follow the Code and Standards only for clients outside the country.",
+   "B": "follow local law, because it is the governing standard in the jurisdiction in which she works.",
+   "C": "follow the Code and Standards, which are stricter than local law, and not trade ahead of clients."
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> There is no geographic carve-out. The Standards apply wherever the member works.</p><p><b>B is correct.</b> Members must comply with the stricter of applicable law and the Code and Standards. Where the Code is stricter than the law, Reilly must follow the Code and put clients ahead of her own account (Standard I(A) Knowledge of the Law).</p><p><b>C is incorrect.</b> The law sets a minimum, not the standard. When the Code is stricter, the Code applies.</p>"
+ },
+ {
+  "id": "eth-29",
+  "topic": "ethics",
+  "concept": "GIPS: verification, presentation and asset-owner basics",
+  "difficulty": "medium",
+  "stem": "<p>Which of the following statements about GIPS verification is <b>least accurate</b>?</p>",
+  "options": {
+   "A": "A firm may choose to have verification carried out on a single composite rather than on the whole firm.",
+   "B": "Verification is voluntary, but it must be performed by an independent third-party verifier.",
+   "C": "Verification tests whether the firm has complied with the composite construction requirements on a firm-wide basis and whether its policies and procedures for calculating and presenting performance are designed to meet GIPS."
+  },
+  "answer": "A",
+  "explanation": "<p><b>A is correct.</b> Verification is firm-wide. It cannot be performed on a single composite, and a firm cannot claim that one composite alone has been verified. This is the inaccurate statement.</p><p><b>B is incorrect.</b> This is accurate: verification is optional and has to be done by an independent third party.</p><p><b>C is incorrect.</b> This is accurate: it describes the two things a verifier tests.</p>"
+ },
+ {
+  "id": "eth-30",
+  "topic": "ethics",
+  "concept": "CFA Program conduct VII(A)/(B): designation claims",
+  "difficulty": "medium",
+  "stem": "<p>Nia Okafor has passed the Level I and Level II CFA exams in consecutive years and is registered for Level III. Which of the following statements in her marketing materials is <b>least likely</b> to violate the Standards on referring to the CFA designation and program?</p>",
+  "options": {
+   "A": "&ldquo;Having passed both exams in consecutive years, Nia is a stronger investor than her peers.&rdquo;",
+   "B": "&ldquo;Nia Okafor, CFA&rdquo; on her business cards, because she has passed two of the three exams.",
+   "C": "&ldquo;Nia has passed Levels I and II of the CFA Program in consecutive years and is a candidate for Level III.&rdquo;"
+  },
+  "answer": "B",
+  "explanation": "<p><b>A is incorrect.</b> Passing the exams does not imply superior performance, and claiming that it does overstates the meaning of the program.</p><p><b>B is correct.</b> A factual statement of exams passed and her candidacy, without implying more, is permitted (Standard VII(B) Reference to CFA Institute, the CFA Designation and the CFA Program).</p><p><b>C is incorrect.</b> Only a charterholder may use the CFA designation after her name. Passing exams does not entitle her to it.</p>"
+ },
+ {
+  "id": "eth-31",
+  "topic": "ethics",
+  "concept": "Additional compensation IV(B) and responsibilities to employer",
+  "difficulty": "medium",
+  "stem": "<p>Marek Dvorak is a private banker at Alpen Trust. A long-standing client, delighted with performance, offers Dvorak a cash bonus of EUR 5,000 on top of Alpen&rsquo;s regular fee. Alpen&rsquo;s policies do not address bonuses paid by clients. Which action is <b>required</b> under the Standards?</p>",
+  "options": {
+   "A": "Accept the bonus and tell Alpen at the next annual review.",
+   "B": "Obtain written permission from Alpen before accepting the bonus.",
+   "C": "Decline the bonus, because members may never accept additional compensation from clients."
+  },
+  "answer": "C",
+  "explanation": "<p><b>A is incorrect.</b> Additional compensation is allowed with consent. Declining may be sensible but is not a requirement.</p><p><b>B is incorrect.</b> Consent has to be obtained before accepting, not disclosed afterwards.</p><p><b>C is correct.</b> Members must obtain written consent from their employer before accepting compensation or benefits from clients or third parties that could create a conflict with the employer&rsquo;s interest (Standard IV(B) Additional Compensation Arrangements). Declining is not required, only consent.</p>"
+ }
+]
