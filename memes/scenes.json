@@ -3238,5 +3238,10 @@
   "emoji": "➖",
   "scene": "A negative slope times a negative X is two grumpy faces shaking hands and turning into one smiling face: the forecast climbs above the intercept.",
   "prompt": "Two grumpy cartoon figures with downturned mouths shaking hands, and from the handshake a smiling figure with a cheerful face pops up, while a small arrow points upward above a baseline."
+ },
+ "648": {
+  "emoji": "🧾",
+  "scene": "Tax bill this year plus the IOU pile you'll owe later, minus the gift voucher the taxman owes you back = the true tax expense.",
+  "prompt": "A cartoon accountant at a desk stacking a thick bill on a scale, adding a growing pile of IOU notes on the same side, while a smiling tax collector hands back a shiny gift voucher that lifts the scale slightly."
  }
 }
