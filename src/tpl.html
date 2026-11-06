@@ -65,6 +65,7 @@ h1{font-size:19px;font-weight:600;margin:0;letter-spacing:-.01em}
 .note sub,.lg sub,.defn sub{font-size:.7em;vertical-align:sub;line-height:0}
 .note sup,.lg sup,.defn sup{font-size:.7em;vertical-align:super;line-height:0}
 .dx{font-family:var(--fs);font-size:15px;line-height:1.55;color:var(--ink-soft);margin-top:14px}
+.cfig{margin-top:16px;max-width:600px}.cfig svg{width:100%;height:auto;display:block}
 .note{font-size:13.5px;line-height:1.6;color:var(--ink-soft);font-family:var(--fs);margin:10px 0 0}
 .legend{margin:14px 0 0;padding-top:11px;border-top:1px dashed var(--rule);display:flex;flex-direction:column;gap:5px}
 .lg{font-family:var(--fs);font-size:13px;line-height:1.45;color:var(--ink-soft)}
@@ -514,6 +515,7 @@ function render(){
   el('term').textContent=c.t;
   if(c.m){ el('defn').innerHTML=mathHTML(c.m)+(c.d&&c.d.length>=50?'<div class="dx">'+symFmt(c.d)+'</div>':''); } else { el('defn').innerHTML=symFmt(c.d); }
   if(c.note){ el('note').innerHTML=symFmt(c.note); } else { el('note').textContent=''; }
+  if(c.svg){ el('note').insertAdjacentHTML('beforeend','<div class="cfig">'+c.svg+'</div>'); }
   var lg=el('legend'); lg.textContent='';
   if(c.w){
     var hd=document.createElement('div'); hd.className='lgh'; hd.textContent='where'; lg.appendChild(hd);
