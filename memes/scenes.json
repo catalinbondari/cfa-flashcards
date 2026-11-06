@@ -3498,5 +3498,10 @@
   "emoji": "🏃",
   "scene": "Sprint a few laps, then jog forever; value the sprint lap by lap and the jog as one lump.",
   "prompt": "A cartoon runner sprinting on a short red track that turns into an endless calm path into the horizon, with a coin bag waiting where the track changes colour. No text anywhere."
+ },
+ "700": {
+  "emoji": "🎟️",
+  "scene": "Wilder lottery draws make every ticket worth more, whichever way they win.",
+  "prompt": "A cartoon stormy sea with two happy sailors holding golden lottery tickets, one on a wave going up and one on a wave going down, both cheering. No text anywhere."
  }
 }
