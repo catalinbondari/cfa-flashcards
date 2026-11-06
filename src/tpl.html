@@ -367,6 +367,7 @@ function symFmt(raw){
   });
   s=s.replace(/([A-Za-zΔσρβμπχ̄²])([0-9]+(?:,[0-9]+)*)(?![0-9A-Za-z])/g,'$1<sub>$2</sub>');
   s=s.replace(/([σβ])([a-zA-Z])(?![a-zA-Z])/g,'$1<sub>$2</sub>');
+  s=s.replace(/&lt;(\/?)(b|i|br|sub|sup|u)&gt;/g,'<$1$2>');
   return s;
 }
 function mathHTML(src){
