@@ -3493,5 +3493,10 @@
   "emoji": "🌱",
   "scene": "Investing from seed to tree.",
   "prompt": "A cartoon investor watering a seed, a sapling and a tall tree in a row, handing coins to each. No text anywhere."
+ },
+ "699": {
+  "emoji": "🏃",
+  "scene": "Sprint a few laps, then jog forever; value the sprint lap by lap and the jog as one lump.",
+  "prompt": "A cartoon runner sprinting on a short red track that turns into an endless calm path into the horizon, with a coin bag waiting where the track changes colour. No text anywhere."
  }
 }
