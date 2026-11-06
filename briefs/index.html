@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Exam-Day Briefs</title>
+<style>
+:root{--bg:#fff;--fg:#1d1d1f;--mut:#5f5e5a;--acc:#185FA5;--hl:#FAEEDA;--line:#d3d1c7}
+@media (prefers-color-scheme:dark){:root{--bg:#16181d;--fg:#e8e6df;--mut:#a5a39b;--acc:#85B7EB;--hl:#3a2e12;--line:#3a3c42}}
+body{background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,system-ui,sans-serif;margin:0;padding:16px}
+main{max-width:980px;margin:auto}
+h1{font-size:22px;margin:4px 0 2px}h2{font-size:17px;color:var(--acc);margin:18px 0 6px;border-bottom:1px solid var(--line);padding-bottom:3px}
+.sub{color:var(--mut);margin:0 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:4px 22px}
+ul{margin:0;padding-left:18px}li{margin:2px 0}
+.box{background:var(--hl);padding:8px 12px;border-radius:8px;margin:8px 0}
+b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
+.paper{page-break-after:always}
+@media print{body{font-size:11px;padding:0}h2{margin:10px 0 4px}.box{padding:5px 8px}}
+</style></head><body><main>
+
+<section class="paper">
+<h1>Paper 1 brief — read before Session 1</h1>
+<p class="sub">Ethics · Quant · Economics · FSA · Corporate Issuers. 10 minutes. Read, don't study.</p>
+
+<div class="box"><b>Pace:</b> minutes used = Q# × 1.5 → Q30 @ 0:45 used (1:30 left) · Q60 @ 1:30 used (0:45 left) · Q90 @ 2:05 used (0:10 left). Over 2.5 min on one Q → flag, guess, move.<br>
+<b>Before every answer:</b> circle LEAST / NOT / EXCEPT · name the formula before touching numbers (extra data = trap) · answer exactly what's asked · cheap calc → compute all three options.</div>
+
+<h2>Ethics</h2>
+<div class="grid"><ul>
+<li>Judge the <b>action</b>, never the outcome.</li>
+<li>"Only X" vs "both" → <b>both</b> is usually right.</li>
+<li>LEAST likely a violation → find the <b>clean</b> option.</li>
+<li>Best practice ≠ minimum required — read which one is asked.</li>
+<li>Count <b>every</b> violation in "how many" questions.</li>
+</ul><ul>
+<li>Notice ≠ consent. Disclosure ≠ permission.</li>
+<li>Referral fees: disclose <b>before</b> the agreement.</li>
+<li>Soft dollars must benefit <b>those</b> clients.</li>
+<li>Name the Standard by what <b>happened</b>, not by keywords.</li>
+<li>Watch one swapped word: staff↔clients, must↔may, fair↔equal.</li>
+</ul></div>
+
+<h2>Quant</h2>
+<div class="grid"><ul>
+<li>Sample σ² ÷ (n − 1). CV = σ / mean.</li>
+<li>Cov = ρ σ<sub>A</sub> σ<sub>B</sub> · ρ = Cov / (σ<sub>A</sub>σ<sub>B</sub>).</li>
+<li>Correlation t = r√(n − 2) / √(1 − r²).</li>
+<li><b>χ² = (n − 1)s² / σ<sub>0</sub>²</b> — square BOTH, use n − 1.</li>
+<li>Two variances → <b>F = s<sub>1</sub>² / s<sub>2</sub>²</b> (bigger on top). Means → t.</li>
+<li>Independence table df = (r − 1)(c − 1).</li>
+<li>Type I = reject a true H<sub>0</sub> (α). Type II = keep a false H<sub>0</sub>. Power = 1 − β.</li>
+</ul><ul>
+<li>b<sub>1</sub> = Cov(X,Y) / Var(X). R² = SSR / SST. SEE = √(SSE / (n − 2)).</li>
+<li>F = MSR / MSE. t = (b<sub>1</sub> − B<sub>1</sub>) / s<sub>b1</sub> — test vs the stated value, not always 0.</li>
+<li>Prediction interval Ŷ ± <b>t<sub>c</sub> × s<sub>f</sub></b> — don't skip × t<sub>c</sub>.</li>
+<li>Log model → un-log with <b>e<sup>x</sup></b>.</li>
+<li>LINE: Linear · Independent residuals · Normal <b>residuals</b> · Equal variance. X and Y need NOT be normal.</li>
+<li>"X explains Y" — Y is the dependent variable.</li>
+</ul></div>
+
+<h2>Economics</h2>
+<div class="grid"><ul>
+<li>Cross rate: common currency in the <b>same</b> spot → divide; opposite spots → multiply.</li>
+<li>Forward: F = S × (1 + i<sub>price</sub>) / (1 + i<sub>base</sub>).</li>
+<li>Base currency = the "1" (after the slash in A/B).</li>
+</ul><ul>
+<li>Cycle: Recovery → Expansion → Slowdown → Contraction. Overtime before hiring = <b>recovery</b>; cut overtime then layoffs = contraction.</li>
+<li>~2% target, not 0% → buffer against deflation / zero rates.</li>
+</ul></div>
+
+<h2>FSA</h2>
+<div class="grid"><ul>
+<li><b>FCFF = CFO + Int(1 − t) − FCInv</b> (give interest back).</li>
+<li><b>FCFE = CFO − FCInv + net borrowing.</b> CFO already holds non-cash + WC.</li>
+<li>Diluted EPS: + convertible pref divs, + bond interest × (1 − t); TSM shares = n(P − X)/P; skip if antidilutive.</li>
+<li>Tax expense = payable + ΔDTL − ΔDTA.</li>
+<li>Payable &gt; expense (taxman bigger) → <b>DTA</b>.</li>
+<li>DTL not expected to reverse → equity.</li>
+<li>ROE = NPM × TAT × leverage (5-way: × tax burden × interest burden × EBIT margin).</li>
+</ul><ul>
+<li>Rising prices, FIFO ("Fat Slow Taxpayer"): higher inventory, NI, equity, taxes; lower COGS, lower D/E, lower CFO.</li>
+<li>LIFO → FIFO: inventory + reserve; COGS − Δreserve.</li>
+<li>Impairment reversal: IFRS yes (not goodwill); US GAAP held for use <b>never</b>, held for sale <b>yes</b>.</li>
+<li>Leases: everyone 2 lines (amortisation + interest) except <b>US GAAP operating = 1 line</b>.</li>
+<li>Gain on sale: subtract in CFO (indirect); proceeds in CFI.</li>
+<li>US GAAP: interest paid/received + dividends received = CFO; dividends paid = CFF.</li>
+</ul></div>
+
+<h2>Corporate Issuers</h2>
+<div class="grid"><ul>
+<li>WACC = w<sub>d</sub>r<sub>d</sub>(1 − t) + w<sub>p</sub>r<sub>p</sub> + w<sub>e</sub>r<sub>e</sub> (marginal tax rate).</li>
+<li>Mutually exclusive → pick the higher <b>NPV</b>. Never "both", never highest IRR.</li>
+<li>Perpetuity IRR = CF / cost. Sunk costs out; cannibalisation in.</li>
+<li>Real options: timing · sizing (abandon / expand) · flexibility · fundamental.</li>
+</ul><ul>
+<li>MM no tax: WACC flat · MM tax: WACC falls, 100% debt · trade-off: U-shape. Pecking order: own cash → debt → equity.</li>
+<li>Liquidity: credit lines + trade credit = <b>primary</b>; selling assets / renegotiating / bankruptcy = secondary.</li>
+<li>Drag = slow inflows (receivables); pull = faster outflows (paying early).</li>
+<li>CCC = DOH + DSO − DPO.</li>
+</ul></div>
+</section>
+
+<section class="paper">
+<h1>Paper 2 brief — read before Session 2</h1>
+<p class="sub">Portfolio · Equity · Fixed Income · Derivatives · Alternatives.</p>
+
+<div class="box"><b>Long or short? Write three words in the margin:</b> who am I · what do I have · what hurts me → take the side that wins from it.<br>
+<b>Own it / receive it → SHORT. Owe it / need it → LONG.</b> Currency long/short = the <b>base</b> ("1") currency.</div>
+
+<h2>Portfolio management</h2>
+<div class="grid"><ul>
+<li><b>U = E(R) − ½Aσ²</b> (decimals). Risk-free σ = 0 → U = r<sub>f</sub>.</li>
+<li>Sharpe = (R<sub>p</sub> − R<sub>f</sub>)/<b>σ<sub>p</sub></b> · Treynor = (R<sub>p</sub> − R<sub>f</sub>)/<b>β<sub>p</sub></b>.</li>
+<li><b>M² = R<sub>f</sub> + Sharpe × σ<sub>m</sub></b> → compare with R<sub>m</sub>, never R<sub>p</sub>.</li>
+<li>Jensen α = R<sub>p</sub> − [R<sub>f</sub> + β(R<sub>m</sub> − R<sub>f</sub>)].</li>
+<li>β = Cov/σ<sub>m</sub>² = ρσ<sub>i</sub>/σ<sub>m</sub>.</li>
+<li>σ<sub>p</sub> = √(w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂) — don't forget √.</li>
+</ul><ul>
+<li>Slopes: CML = market Sharpe · SML = R<sub>m</sub> − R<sub>f</sub> · SCL = β.</li>
+<li>Market expectations change → frontier moves. Client changes → indifference curves move.</li>
+<li>Optimal <b>risky</b> portfolio = one tangency point on the frontier.</li>
+<li>Process: Plan (IPS, benchmark) → Execute (allocation, security analysis) → Feedback.</li>
+<li>DC: employee bears investment + inflation risk. Board sets risk appetite; management allocates.</li>
+</ul></div>
+
+<h2>Equity</h2>
+<div class="grid"><ul>
+<li>Gordon V<sub>0</sub> = <b>D<sub>1</sub></b>/(r − g); D<sub>1</sub> = D<sub>0</sub>(1 + g). Beta given → r from CAPM first.</li>
+<li><b>Justified forward P/E = payout/(r − g).</b> Retention given → payout = 1 − retention.</li>
+<li>Two-stage: <b>Guinness Stout Goes Down</b> — Grow, Step to D<sub>n+1</sub>, Gordon V<sub>n</sub>, Discount V<sub>n</sub> with D<sub>n</sub> over n years.</li>
+<li>Preferred = D / r. Count growth phases literally (high → transition → mature = three-stage).</li>
+</ul><ul>
+<li>Price-return index ignores dividends; total return adds them.</li>
+<li>Dealer trades from its own inventory; broker finds the other side.</li>
+<li>Execution = how · validity = when · clearing = settle.</li>
+<li>Bond issuer = short. Fragmented industry = price competition.</li>
+</ul></div>
+
+<h2>Fixed income</h2>
+<div class="grid"><ul>
+<li>Accrued = coupon × t/T (30/360: annual T = 360, semi T = 180).</li>
+<li>ModDur = MacDur/(1 + y/m). Periods → ÷ m to annualise.</li>
+<li>Money duration = ModDur × <b>full</b> price (× position). PVBP = MoneyDur × <b>0.0001</b>.</li>
+<li>%ΔP ≈ −ModDur × Δy + ½ × Convexity × (Δy)².</li>
+<li>(1 + S<sub>2</sub>)² = (1 + S<sub>1</sub>)(1 + f). Semi-annual → use periods, then × 2.</li>
+<li>Implied spot = geometric mean of the one-year forwards.</li>
+</ul><ul>
+<li>Expected loss = PD × (1 − RR). Spread ≥ EL → adequately paid.</li>
+<li>FRN: rate set at the <b>start</b>, paid at the end (taxi fare).</li>
+<li>Losses climb: equity → subordinated → senior unsecured (pro rata) → secured.</li>
+<li>Callable = negative convexity. Longer maturity = more duration.</li>
+<li>Flight to quality → HY spreads widen most.</li>
+</ul></div>
+
+<h2>Derivatives</h2>
+<div class="grid"><ul>
+<li>FRA: borrower <b>long</b>, lender <b>short</b>. 6×12 = starts month 6, ends month 12 (6-month rate).</li>
+<li>Odd size or odd date → forward, not futures.</li>
+<li><b>C − P = S − PV(X).</b> Stock + short forward = risk-free bond; bills + long forward = equity.</li>
+<li>Synthetic long (C − P) = stock bought with borrowed money.</li>
+</ul><ul>
+<li>Swap = off-market forwards whose values <b>sum</b> to 0.</li>
+<li>π = (1 + r − d)/(u − d); value = [π·up + (1 − π)·down]/(1 + r).</li>
+<li>Volatility and time help <b>both</b> calls and puts (time value only). r ↑ and dividends ↓ help calls.</li>
+<li>Forward <b>price</b> fixed; <b>value</b> starts at 0 and moves.</li>
+</ul></div>
+
+<h2>Alternatives</h2>
+<div class="grid"><ul>
+<li>Fees: read the order — management fee on end AUM; incentive net of it or independent; hard hurdle = fee only on the excess.</li>
+<li>High-water mark is per LP.</li>
+<li>Backwardation (spot &gt; futures) = positive roll for longs.</li>
+</ul><ul>
+<li>REIT shares trade at a premium/discount to NAV.</li>
+<li>Equity hedge = market neutral, long/short, value, growth, short-biased. VC = any stage.</li>
+<li>PE/HF indexes overstate returns (self-reporting, survivorship).</li>
+</ul></div>
+</section>
+</main></body></html>
