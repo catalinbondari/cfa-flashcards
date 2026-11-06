@@ -3308,5 +3308,85 @@
   "emoji": "🎟️",
   "scene": "The cinema ticket you already bought is sunk: it shouldn't decide whether you stay for the boring film; the snacks you'd stop selling next door do count.",
   "prompt": "A cartoon accountant in a cinema dropping an old ticket stub into a bin, while next to him a sad popcorn stand is circled in red and counted on his clipboard. No text anywhere."
+ },
+ "662": {
+  "emoji": "⚖️",
+  "scene": "Adding debt shrinks the taxman's slice of the pie until a cliff of bankruptcy appears.",
+  "prompt": "A cartoon pie being sliced where a grumpy taxman's slice shrinks as a banker adds bricks of debt, with a small cliff edge and a warning cone in the background. No text anywhere."
+ },
+ "663": {
+  "emoji": "🧮",
+  "scene": "Three projects that look best don't fit in the suitcase: check the budget before you count the prize.",
+  "prompt": "A cartoon traveller sitting on an overstuffed suitcase that won't close, three shiny project boxes spilling out, while a smaller neat set of three boxes fits perfectly in a second suitcase. No text anywhere."
+ },
+ "664": {
+  "emoji": "🌍",
+  "scene": "Charities and companies aren't governments, but they still tug on the strings of world politics.",
+  "prompt": "A cartoon world globe on a table with government officials on one side and a charity worker and a businessman on the other side, all pulling ropes attached to the globe. No text anywhere."
+ },
+ "665": {
+  "emoji": "💱",
+  "scene": "Line the currencies up like fractions so the middle one cancels out.",
+  "prompt": "A cartoon of three currency coin characters stacked like a fraction, the middle coin character waving goodbye and stepping off as the other two shake hands. No text anywhere."
+ },
+ "666": {
+  "emoji": "📅",
+  "scene": "A one-year credit line quietly expires: the money you thought was there has vanished on New Year's Day.",
+  "prompt": "A cartoon business owner reaching into a safe on New Year's morning with confetti around, finding it empty, while a calendar page flies away. No text anywhere."
+ },
+ "667": {
+  "emoji": "💳",
+  "scene": "Customers pay up front, so the shop never needs a loan for its stock.",
+  "prompt": "A cartoon shopkeeper happily collecting coins from a queue of customers before the delivery truck has even arrived with goods. No text anywhere."
+ },
+ "668": {
+  "emoji": "👑",
+  "scene": "The small rival slashes prices, loyal fans stay with the leader, and the rival runs out the door.",
+  "prompt": "A cartoon queen-like market leader stall with a long loyal queue, while a small rival stall with big discount banners sits empty and its owner runs away with a suitcase. No text anywhere."
+ },
+ "669": {
+  "emoji": "🌡️",
+  "scene": "Central bankers keep the thermometer a bit above zero so the economy doesn't freeze into deflation.",
+  "prompt": "A cartoon central banker holding a thermometer slightly above freezing, behind him a frozen ice block economy with people trapped inside as a warning. No text anywhere."
+ },
+ "670": {
+  "emoji": "📜",
+  "scene": "Two lease worlds: one shows two expense lines, the other just one flat line.",
+  "prompt": "A cartoon accountant comparing two receipts, one long receipt with two stacked expense bars and one short receipt with a single flat bar, a rented forklift in the background. No text anywhere."
+ },
+ "671": {
+  "emoji": "🪜",
+  "scene": "A ladder of reporting quality, from shining honest books at the top to forged books at the bottom.",
+  "prompt": "A cartoon ladder with a gleaming golden ledger at the top rung, slightly dusty ledgers in the middle, and a sneaky figure forging a fake ledger in a dark pit at the bottom. No text anywhere."
+ },
+ "672": {
+  "emoji": "🏦",
+  "scene": "A tax bill that never comes due is really just more money for the owners.",
+  "prompt": "A cartoon owner happily moving a heavy chest from a gloomy debt vault into a bright shareholders' vault, while a tax collector sleeps under a tree. No text anywhere."
+ },
+ "673": {
+  "emoji": "💵",
+  "scene": "Selling a machine: the profit is stripped out of operations and the full cash goes into investing.",
+  "prompt": "A cartoon factory worker wheeling an old machine out of the door to a buyer who hands over a bag of cash, while an accountant moves a small coin from one box into another bigger box. No text anywhere."
+ },
+ "674": {
+  "emoji": "🔧",
+  "scene": "One rulebook lets broken machines be repaired in value; the other only if they're for sale.",
+  "prompt": "A cartoon machine with a bandage on a repair bench, one mechanic allowed to fix it, another mechanic blocked unless the machine has a sale sign attached. No text anywhere."
+ },
+ "675": {
+  "emoji": "👴",
+  "scene": "Pension costs: some land on today's bill, others wait in a side box and drip in later.",
+  "prompt": "A cartoon retiree looking at a bill on the table while a side jar slowly drips coins into the bill over time. No text anywhere."
+ },
+ "676": {
+  "emoji": "📏",
+  "scene": "Measure how far each point sits from the middle, ignore the direction, take the average.",
+  "prompt": "A cartoon ruler measuring distances from a centre flag to scattered dots on a field, all arrows pointing outward, with a teacher averaging them on a chalkboard of symbols. No text anywhere."
+ },
+ "677": {
+  "emoji": "💾",
+  "scene": "Software costs are expensed until the project is proven, then they're put on the balance sheet.",
+  "prompt": "A cartoon programmer pouring coins into a bin labelled with a trash icon, then after a lightbulb moment putting coins into a treasure chest beside a glowing computer. No text anywhere."
  }
 }

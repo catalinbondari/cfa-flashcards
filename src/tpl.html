@@ -459,6 +459,7 @@ function pool(){
   else if(S.topic==='mock') a=a.filter(function(c){return c.mk});
   else if(S.topic==='mm1') a=a.filter(function(c){return c.m1});
   else if(S.topic==='mm2') a=a.filter(function(c){return c.m2});
+  else if(S.topic==='mm3') a=a.filter(function(c){return c.m3});
   else if(S.topic!=='all') a=a.filter(function(c){return c.c===S.topic});
   if(S.onlyMissed) a=a.filter(function(c){return S.missed[c._i]});
   if(S.skipToday){var td=today(); a=a.filter(function(c){return S.seen[c._i]!==td});}
@@ -484,14 +485,14 @@ function build(resume){
   save(); render();
 }
 function chips(){
-  var counts={all:0,formula:0,mock:0,mm1:0,mm2:0};
-  CARDS.forEach(function(c){ if(c.skip) return; counts.all++; counts[c.c]=(counts[c.c]||0)+1; if(c.f) counts.formula++; if(c.mk) counts.mock++; if(c.m1) counts.mm1++; if(c.m2) counts.mm2++;});
+  var counts={all:0,formula:0,mock:0,mm1:0,mm2:0,mm3:0};
+  CARDS.forEach(function(c){ if(c.skip) return; counts.all++; counts[c.c]=(counts[c.c]||0)+1; if(c.f) counts.formula++; if(c.mk) counts.mock++; if(c.m1) counts.mm1++; if(c.m2) counts.mm2++; if(c.m3) counts.mm3++;});
   var box=el('chips'); box.textContent='';
-  var keys=['all','formula','mock','mm1','mm2'].concat(Object.keys(NAMES));
+  var keys=['all','formula','mock','mm1','mm2','mm3'].concat(Object.keys(NAMES));
   keys.forEach(function(k){
     var b=document.createElement('button');
     b.className='chip'; b.setAttribute('aria-pressed', S.topic===k?'true':'false');
-    b.innerHTML=(k==='all'?'All':k==='formula'?'Formulas':k==='mock'?'Mock A gaps':k==='mm1'?'MM1 gaps':k==='mm2'?'MM2 gaps':NAMES[k])+' <b>'+(counts[k]||0)+'</b>';
+    b.innerHTML=(k==='all'?'All':k==='formula'?'Formulas':k==='mock'?'Mock A gaps':k==='mm1'?'MM1 gaps':k==='mm2'?'MM2 gaps':k==='mm3'?'MM3 gaps':NAMES[k])+' <b>'+(counts[k]||0)+'</b>';
     if(k==='formula') b.classList.add('chip-f');
     b.onclick=function(){S.topic=k;save();chips();build()};
     box.appendChild(b);
