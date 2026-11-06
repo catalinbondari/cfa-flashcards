@@ -3388,5 +3388,110 @@
   "emoji": "💾",
   "scene": "Software costs are expensed until the project is proven, then they're put on the balance sheet.",
   "prompt": "A cartoon programmer pouring coins into a bin labelled with a trash icon, then after a lightbulb moment putting coins into a treasure chest beside a glowing computer. No text anywhere."
+ },
+ "678": {
+  "emoji": "🏦",
+  "scene": "Employee carries the pension pot alone vs employer carrying it.",
+  "prompt": "A cartoon worker carrying a heavy piggy bank up a hill alone, while on the other side a company building carries a worker on its back. No text anywhere."
+ },
+ "679": {
+  "emoji": "🏛️",
+  "scene": "Board builds the fence, managers play inside it.",
+  "prompt": "Cartoon board members in suits building a wooden fence around a playground while managers play with coins inside it. No text anywhere."
+ },
+ "680": {
+  "emoji": "🎯",
+  "scene": "One tangent point on the curve, then each investor picks a spot on the line.",
+  "prompt": "A cartoon straight ladder leaning on a curved hill touching at exactly one glowing point, with different people standing at different heights on the ladder. No text anywhere."
+ },
+ "681": {
+  "emoji": "🧭",
+  "scene": "Plan the trip, drive, check the mirror.",
+  "prompt": "A cartoon family planning a road trip with a map, then driving a car, then the driver checking the rear-view mirror, three panels. No text anywhere."
+ },
+ "682": {
+  "emoji": "🃏",
+  "scene": "Dealer trades from his own deck; broker just introduces people.",
+  "prompt": "A cartoon card dealer handing cards from his own deck to a customer, while next to him a broker in a suit introduces two strangers shaking hands. No text anywhere."
+ },
+ "683": {
+  "emoji": "📉",
+  "scene": "Company receiving cash today and owing it back later.",
+  "prompt": "A cartoon company building receiving a bag of cash from investors while a long chain of IOU-like envelopes trails behind it into the future. No text anywhere."
+ },
+ "684": {
+  "emoji": "🗂️",
+  "scene": "Filing cabinet drawers keep getting relabelled.",
+  "prompt": "A cartoon librarian frantically moving folders between filing cabinet drawers while old charts on the wall no longer line up. No text anywhere."
+ },
+ "685": {
+  "emoji": "🛒",
+  "scene": "Hundreds of tiny shops undercutting each other.",
+  "prompt": "A cartoon street market with dozens of tiny stalls all slashing price tags with scissors, shouting at each other. No text anywhere."
+ },
+ "686": {
+  "emoji": "🌾",
+  "scene": "Custom-made contract for an odd amount of grain on odd dates.",
+  "prompt": "A cartoon tailor measuring a pile of wheat and corn sacks to sew a custom suit, while standard-sized boxes sit unused. No text anywhere."
+ },
+ "687": {
+  "emoji": "📈",
+  "scene": "Rates rocket up and the long holder celebrates.",
+  "prompt": "A cartoon person holding a rope tied to a rocket labelled with an up arrow shape, cheering as it shoots upward, while another person on the other side falls over. No text anywhere."
+ },
+ "688": {
+  "emoji": "💱",
+  "scene": "Selling dollars you will receive for Canadian dollars.",
+  "prompt": "A cartoon person handing a bag of green dollar bills across a counter and receiving a bag of maple-leaf coins. No text anywhere."
+ },
+ "689": {
+  "emoji": "🛡️",
+  "scene": "A shield turns a stormy stock portfolio into calm safe water.",
+  "prompt": "A cartoon investor holding a big shield over a boat of stocks in a storm, the water under the boat perfectly calm and flat. No text anywhere."
+ },
+ "690": {
+  "emoji": "⚖️",
+  "scene": "Some plus, some minus, all add to zero.",
+  "prompt": "A cartoon balance scale with several weights of different sizes on both sides perfectly level. No text anywhere."
+ },
+ "691": {
+  "emoji": "🏃",
+  "scene": "Everyone running from risky bonds into a safe vault.",
+  "prompt": "A cartoon crowd running away from a shaky rickety building toward a solid bank vault. No text anywhere."
+ },
+ "692": {
+  "emoji": "⏰",
+  "scene": "Rate set at the start, paid at the end.",
+  "prompt": "A cartoon clerk stamping a number on a ticket at sunrise, then handing over coins at sunset. No text anywhere."
+ },
+ "693": {
+  "emoji": "🌊",
+  "scene": "Flood fills the bottom floor first, then climbs up.",
+  "prompt": "A cartoon building cross-section with water flooding the basement first, then the next floor, with the top floor still dry. No text anywhere."
+ },
+ "694": {
+  "emoji": "🔁",
+  "scene": "Borrowing a bond, selling it, buying it back cheaper.",
+  "prompt": "A cartoon trader taking a bond certificate, selling it at a stall, then later buying it back at a cheaper stall and returning it. No text anywhere."
+ },
+ "695": {
+  "emoji": "🏢",
+  "scene": "Listed property shares trading away from what the buildings are worth.",
+  "prompt": "A cartoon office building on a scale on one side and a stock ticker screen on the other side not balancing. No text anywhere."
+ },
+ "696": {
+  "emoji": "🔒",
+  "scene": "Locked black box of strategy nobody can see inside.",
+  "prompt": "A cartoon hedge fund manager guarding a locked black box while an investor peers at it with a magnifying glass. No text anywhere."
+ },
+ "697": {
+  "emoji": "🗃️",
+  "scene": "Five families of strategy, each in its own house.",
+  "prompt": "A cartoon street with five differently styled houses, each with a family doing a different activity. No text anywhere."
+ },
+ "698": {
+  "emoji": "🌱",
+  "scene": "Investing from seed to tree.",
+  "prompt": "A cartoon investor watering a seed, a sapling and a tall tree in a row, handing coins to each. No text anywhere."
  }
 }
