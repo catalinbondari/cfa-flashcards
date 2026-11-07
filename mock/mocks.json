@@ -13,5 +13,10 @@
     "id": "fi-redo",
     "title": "FI redo (MM misses, twin questions)",
     "description": "25 original twin questions on fixed-income concepts and traps you missed in Mark Meldrum mocks."
+  },
+  {
+    "id": "fsa-redo",
+    "title": "FSA redo (MM misses, twin questions)",
+    "description": "30 original twin questions on FSA concepts and traps you missed in Mark Meldrum mocks. 45 min."
   }
 ]

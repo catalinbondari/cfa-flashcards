@@ -1,0 +1,432 @@
+{
+ "id": "fsa-redo",
+ "title": "FSA redo (MM misses, twin questions)",
+ "sessions": [
+  {
+   "name": "FSA redo",
+   "minutes": 45,
+   "questions": [
+    {
+     "id": "fsr-01",
+     "topic": "fsa",
+     "concept": "Diluted EPS: convertible bonds",
+     "difficulty": "medium",
+     "stem": "<p>Hartwell plc reports net income of £12.4m, pays no preferred dividends and has 4.0m weighted average ordinary shares outstanding. It also has £5.0m face value of 7% convertible bonds, issued at par, that convert into a total of 150,000 ordinary shares. The tax rate is 30%. Hartwell&rsquo;s diluted EPS is closest to:</p>",
+     "options": {
+      "A": "£3.07",
+      "B": "£3.05",
+      "C": "£3.01"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Adds back the interest before tax: (12,400 + 350) / 4,150 = 3.07. The interest saved on conversion is taxable, so only the after-tax amount is added back.</p><p><b>B is correct.</b> Interest = 5,000 × 7% = 350k; after tax = 350 × (1 &minus; 0.30) = 245k. Basic EPS = 12,400 / 4,000 = 3.10. The bonds are dilutive (245 / 150 = 1.63 &lt; 3.10), so diluted EPS = (12,400 + 245) / (4,000 + 150) = 3.05.</p><p><b>C is incorrect.</b> Adds back interest × t instead of interest × (1 &minus; t): (12,400 + 105) / 4,150 = 3.01.</p><p><b>BA II Plus:</b> 12400 + 350 &times; (1 &minus; 0.3) = 12,645; 12645 &divide; 4150 = 3.047.</p>"
+    },
+    {
+     "id": "fsr-02",
+     "topic": "fsa",
+     "concept": "Inventory: FIFO balance sheet",
+     "difficulty": "easy",
+     "stem": "<p>Purchase prices for a retailer&rsquo;s inventory have risen steadily throughout the year. An analyst wants the inventory carrying amount on the balance sheet that best approximates current replacement cost. Which inventory cost flow assumption most likely produces it?</p>",
+     "options": {
+      "A": "LIFO",
+      "B": "Weighted average cost",
+      "C": "FIFO"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> LIFO leaves the oldest, cheapest cost layers in ending inventory, so its balance sheet figure is the furthest from current cost. (LIFO is the method whose COGS is closest to current cost.)</p><p><b>B is incorrect.</b> Weighted average blends old and new purchases, so it lies between the two extremes and is not the closest to current cost.</p><p><b>C is correct.</b> FIFO sells the oldest units first, so ending inventory consists of the most recent purchases and is closest to current replacement cost.</p>"
+    },
+    {
+     "id": "fsr-03",
+     "topic": "fsa",
+     "concept": "Intangibles: indefinite life",
+     "difficulty": "easy",
+     "stem": "<p>Brightway Ltd. acquires a regional trademark with a 10-year legal registration. Renewal is routine and costs very little, and management plans to renew it indefinitely. No legal, competitive or economic factor limits its useful life. The trademark should most appropriately be:</p>",
+     "options": {
+      "A": "carried at cost, not amortised, and tested for impairment at least annually.",
+      "B": "amortised on a straight-line basis over the 10-year registration period.",
+      "C": "carried at cost with neither amortisation nor impairment testing."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> An intangible that can be renewed at minimal cost, with no factor limiting its life, has an indefinite useful life. It is not amortised but is tested for impairment at least annually.</p><p><b>B is incorrect.</b> The legal term is only 10 years, but renewal is nearly costless and planned, so the economic life is indefinite. Amortising over the registration period ignores the renewal.</p><p><b>C is incorrect.</b> Indefinite life removes amortisation, not impairment testing. Indefinite-life intangibles are tested at least annually.</p>"
+    },
+    {
+     "id": "fsr-04",
+     "topic": "fsa",
+     "concept": "Deferred tax liability: balance",
+     "difficulty": "hard",
+     "stem": "<p>Delmar Corp. buys equipment for €300,000 with a 10-year life and no salvage value. It depreciates the equipment straight-line for financial reporting and uses 20% declining-balance depreciation for tax. The tax rate is 28%. The deferred tax liability on Delmar&rsquo;s balance sheet at the end of year 3 is closest to:</p>",
+     "options": {
+      "A": "€15,792",
+      "B": "€2,352",
+      "C": "€40,992"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Carrying amount = 300,000 &minus; 3 × 30,000 = 210,000. Tax base = 300,000 × 0.80³ = 153,600. DTL = (210,000 &minus; 153,600) × 28% = 15,792. This is a balance: the carrying amount and tax base are already cumulative.</p><p><b>B is incorrect.</b> This is only the year-3 change: book depreciation 30,000 vs tax depreciation 38,400 gives a difference of 8,400 × 28% = 2,352. That movement hits year-3 tax expense; it is not the balance sheet DTL.</p><p><b>C is incorrect.</b> Applies the tax rate to accumulated tax depreciation: (300,000 &minus; 153,600) × 28% = 40,992. The difference must be between the carrying amount and the tax base, not between cost and the tax base.</p><p><b>BA II Plus:</b> 300000 &minus; 90000 &minus; 300000 &times; 0.8 y<sup>x</sup> 3 = 56,400; &times; 0.28 = 15,792.</p>"
+    },
+    {
+     "id": "fsr-05",
+     "topic": "fsa",
+     "concept": "Solvency ratios: direction",
+     "difficulty": "easy",
+     "stem": "<p>Which of the following would NOT indicate a weakening of a company&rsquo;s solvency, all else equal?</p>",
+     "options": {
+      "A": "An increase in the debt-to-equity ratio",
+      "B": "An increase in the ratio of EBIT to interest expense",
+      "C": "An increase in the debt-to-assets ratio"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Debt sits in the numerator, so a higher debt-to-equity ratio means more leverage and weaker solvency.</p><p><b>B is correct.</b> EBIT to interest expense is a coverage ratio (income statement based). Higher coverage means the company can service its debt more easily, so it signals stronger, not weaker, solvency.</p><p><b>C is incorrect.</b> Debt is in the numerator again: a higher debt-to-assets ratio means more of the assets are financed with debt, which is weaker solvency.</p>"
+    },
+    {
+     "id": "fsr-06",
+     "topic": "fsa",
+     "concept": "Cash conversion cycle",
+     "difficulty": "easy",
+     "stem": "<p>A retailer has 55 days of inventory on hand, 38 days of sales outstanding and 30 days of payables outstanding. It negotiates new supplier terms that extend days of payables outstanding to 45, with the other two metrics unchanged. The company&rsquo;s cash conversion cycle after the change is:</p>",
+     "options": {
+      "A": "78 days.",
+      "B": "63 days.",
+      "C": "48 days."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Adds the extra 15 payable days instead of subtracting them: 55 + 38 &minus; 30 + 15 = 78. Payables are the offset in the cycle.</p><p><b>B is incorrect.</b> 63 days is the cycle before the change (55 + 38 &minus; 30). Days of payables are part of the formula, so the change matters.</p><p><b>C is correct.</b> CCC = DOH + DSO &minus; DPO = 55 + 38 &minus; 45 = 48 days. Longer payables mean the company funds itself with supplier credit for longer, which shortens the cycle and reduces the pull on liquidity.</p>"
+    },
+    {
+     "id": "fsr-07",
+     "topic": "fsa",
+     "concept": "IFRS pension: remeasurements in OCI",
+     "difficulty": "medium",
+     "stem": "<p>Under IFRS, a company updates its mortality assumptions to reflect longer life expectancy for plan participants, which increases its defined benefit obligation. The resulting increase is most likely recognised in:</p>",
+     "options": {
+      "A": "profit or loss as part of current service cost.",
+      "B": "profit or loss as part of net interest expense.",
+      "C": "other comprehensive income as a remeasurement."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Current service cost is the PV of benefits earned in the period (and past service cost from plan changes). A change in an actuarial assumption is not service cost.</p><p><b>B is incorrect.</b> Net interest is the discount rate applied to the net defined benefit liability. It does not capture changes in actuarial assumptions.</p><p><b>C is correct.</b> Changes in actuarial assumptions (here, longer life expectancy) create an actuarial loss. Under IFRS, actuarial gains and losses and the difference between actual and expected return on plan assets are remeasurements, recognised in OCI and not reclassified to profit or loss.</p>"
+    },
+    {
+     "id": "fsr-08",
+     "topic": "fsa",
+     "concept": "LIFO liquidation",
+     "difficulty": "medium",
+     "stem": "<p>Norvik Ltd. uses periodic LIFO under US GAAP. Its opening inventory is 2,000 units carried at an old layer cost of €12 per unit. During the year it buys 8,000 units at €20 each and sells 9,500 units at €35 each. Had it bought 9,500 units at €20, no old layer would have been used. The pre-tax increase in gross profit attributable to the LIFO liquidation is closest to:</p>",
+     "options": {
+      "A": "€12,000",
+      "B": "€16,000",
+      "C": "€34,500"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Units liquidated = 9,500 &minus; 8,000 = 1,500. Each is costed at €12 instead of the current €20, so COGS is 1,500 × (20 &minus; 12) = €12,000 too low and profit is inflated by that amount. US GAAP requires disclosure of material LIFO liquidation profits.</p><p><b>B is incorrect.</b> Uses the whole opening layer: 2,000 × (20 &minus; 12) = 16,000. Only 1,500 units of the old layer are actually used.</p><p><b>C is incorrect.</b> Uses the selling price rather than the current cost: 1,500 × (35 &minus; 12) = 34,500. The €35 sale price would have been earned anyway; only the cost difference is the liquidation effect.</p>"
+    },
+    {
+     "id": "fsr-09",
+     "topic": "fsa",
+     "concept": "Percentage of completion (input method)",
+     "difficulty": "medium",
+     "stem": "<p>Calder Builders signs a fixed-price contract of €4.5m and recognises revenue by the cost-to-cost method. In year 1 it incurs €1.2m of costs and estimates total costs of €3.0m. In year 2 it incurs a further €0.9m (€2.1m cumulative) and revises estimated total costs to €3.5m. Revenue recognised in year 2 is closest to:</p>",
+     "options": {
+      "A": "€1,350,000",
+      "B": "€900,000",
+      "C": "€2,700,000"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Uses the stale year-1 estimate of total cost: 2.1 / 3.0 × 4.5m = 3.15m cumulative, less 1.8m = 1.35m. Progress must use the latest estimate of total cost (3.5m).</p><p><b>B is correct.</b> Year 1: 1.2 / 3.0 = 40% × 4.5m = 1.8m. Year 2 cumulative: 2.1 / 3.5 = 60% × 4.5m = 2.7m. Year 2 revenue = 2.7m &minus; 1.8m = 0.9m.</p><p><b>C is incorrect.</b> 2.7m is the cumulative revenue to date. Revenue already recognised in year 1 must be subtracted.</p>"
+    },
+    {
+     "id": "fsr-10",
+     "topic": "fsa",
+     "concept": "Deferred tax: asset vs liability direction",
+     "difficulty": "medium",
+     "stem": "<p>Under IFRS, Kestrel SA recognises a €3.6m impairment loss on equipment, reducing its carrying amount from €12.0m to €8.4m. The tax authority ignores the write-down until the equipment is sold, so the tax base remains €12.0m. The tax rate is 25%. Kestrel should recognise:</p>",
+     "options": {
+      "A": "a deferred tax liability of €0.9m.",
+      "B": "a deferred tax asset of €0.9m.",
+      "C": "no deferred tax, because the impairment is a permanent difference."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Direction error. A DTL arises when the carrying amount is greater than the tax base. Here the carrying amount (8.4m) is below the tax base (12.0m).</p><p><b>B is correct.</b> Tax base (12.0m) &gt; carrying amount (8.4m) gives a deductible temporary difference of 3.6m. DTA = 3.6m × 25% = 0.9m. The books deducted first (the write-down), so tax has been pre-paid and will be recovered when the asset is sold.</p><p><b>C is incorrect.</b> The loss will be deductible for tax eventually (on sale), so the difference reverses. Only items that never reach the tax return (fines, tax-free income, tax credits) are permanent differences.</p>"
+    },
+    {
+     "id": "fsr-11",
+     "topic": "fsa",
+     "concept": "5-way DuPont and sustainable growth",
+     "difficulty": "medium",
+     "stem": "<p>An analyst has the following data for Marlow Inc.: tax burden 0.72, interest burden 0.88, EBIT margin 11%, total asset turnover 1.30 and financial leverage 2.10. Marlow pays out 35% of earnings as dividends. Its sustainable growth rate is closest to:</p>",
+     "options": {
+      "A": "12.4%",
+      "B": "19.0%",
+      "C": "6.7%"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> ROE = 0.72 × 0.88 × 0.11 × 1.30 × 2.10 = 19.03%. Retention b = 1 &minus; 0.35 = 0.65. g = b × ROE = 0.65 × 19.03% = 12.4%.</p><p><b>B is incorrect.</b> This is ROE itself, which would assume full retention. The payout must be removed first.</p><p><b>C is incorrect.</b> Multiplies by the payout ratio instead of the retention ratio: 0.35 × 19.03% = 6.7%.</p><p><b>BA II Plus:</b> 0.72 &times; 0.88 &times; 0.11 &times; 1.3 &times; 2.1 = 0.1903; &times; 0.65 = 0.1237.</p>"
+    },
+    {
+     "id": "fsr-12",
+     "topic": "fsa",
+     "concept": "R&D: expensing vs capitalising",
+     "difficulty": "medium",
+     "stem": "<p>Two otherwise identical firms in the same industry have the same enterprise value. Firm X expenses all development costs as incurred. Firm Y, under IFRS, capitalises eligible development costs and amortises them. All else equal, X&rsquo;s EV/EBITDA is most likely:</p>",
+     "options": {
+      "A": "lower than Y&rsquo;s, because expensing lowers X&rsquo;s EV.",
+      "B": "the same as Y&rsquo;s, because EV is identical for both firms.",
+      "C": "higher than Y&rsquo;s, because expensing lowers X&rsquo;s EBITDA."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Expensing does not change market-based EV. EV is given as identical in the stem, so the difference must come from the denominator.</p><p><b>B is incorrect.</b> EV is the same, but EBITDA is not. Capitalised costs are amortised below the EBITDA line, so Y&rsquo;s EBITDA is higher.</p><p><b>C is correct.</b> X charges development costs against earnings above EBITDA, so its EBITDA is lower. Same EV divided by a smaller EBITDA gives a higher multiple.</p>"
+    },
+    {
+     "id": "fsr-13",
+     "topic": "fsa",
+     "concept": "Goodwill: analyst adjustments",
+     "difficulty": "medium",
+     "stem": "<p>When adjusting financial statements to compare companies with different levels of acquisition-related goodwill, which adjustment is NOT appropriate?</p>",
+     "options": {
+      "A": "Reducing total liabilities by the amount of goodwill",
+      "B": "Removing goodwill from assets and the same amount from equity",
+      "C": "Excluding goodwill impairment losses from the income statement"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Goodwill is financed by liabilities and equity together; removing it from assets does not reduce what is owed. Liabilities are left unchanged, so this adjustment is not appropriate.</p><p><b>B is incorrect.</b> This is the standard adjustment: take goodwill out of total assets and take the same amount out of equity so the balance sheet still balances.</p><p><b>C is incorrect.</b> Impairment charges are non-cash and driven by past acquisitions, so analysts exclude them to compare operating performance.</p>"
+    },
+    {
+     "id": "fsr-14",
+     "topic": "fsa",
+     "concept": "Acquisition: purchase price allocation",
+     "difficulty": "medium",
+     "stem": "<p>In allocating the purchase price for an acquisition, the acquirer values the target&rsquo;s plant using a discounted cash flow (income) approach. The purchase price and all other assets and liabilities are fixed. Which change in the plant valuation assumptions would most likely result in LOWER goodwill?</p>",
+     "options": {
+      "A": "A higher discount rate",
+      "B": "A lower expected salvage value",
+      "C": "A longer expected useful life"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> A higher discount rate reduces the present value of the plant&rsquo;s cash flows, so its fair value falls and goodwill (price less fair value of net assets) rises.</p><p><b>B is incorrect.</b> A lower salvage value reduces the terminal cash flow, so fair value falls and goodwill rises.</p><p><b>C is correct.</b> A longer useful life extends the cash flows, so the plant&rsquo;s fair value rises. Goodwill = price paid &minus; fair value of identifiable net assets, so higher asset values mean lower goodwill.</p>"
+    },
+    {
+     "id": "fsr-15",
+     "topic": "fsa",
+     "concept": "FCFE from CFO",
+     "difficulty": "medium",
+     "stem": "<p>Tarn Industries reports cash flow from operations of $41m, which is stated after depreciation of $9m and working capital changes. Capital expenditure was $17m. During the year it issued $12m of debt and repaid $5m. Free cash flow to equity is closest to:</p>",
+     "options": {
+      "A": "$17m",
+      "B": "$31m",
+      "C": "$40m"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Subtracts net borrowing instead of adding it: 41 &minus; 17 &minus; 7 = 17. Net borrowing is a cash inflow available to equity holders.</p><p><b>B is correct.</b> FCFE = CFO &minus; FCInv + net borrowing = 41 &minus; 17 + (12 &minus; 5) = 31.</p><p><b>C is incorrect.</b> Adds depreciation back again (31 + 9 = 40). Depreciation and working capital changes are already inside CFO.</p>"
+    },
+    {
+     "id": "fsr-16",
+     "topic": "fsa",
+     "concept": "Shareholders' equity roll-forward",
+     "difficulty": "hard",
+     "stem": "<p>Opening shareholders&rsquo; equity of Ellis Group was €1,025m. During the year, net income was €140m (including a €12m unrealised gain on securities classified at fair value through profit or loss), dividends were €45m, share repurchases were €30m, new shares were issued for €25m, and a €9m gain on securities at fair value through OCI was recorded. Closing equity is closest to:</p>",
+     "options": {
+      "A": "€1,136m",
+      "B": "€1,115m",
+      "C": "€1,124m"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Adds the €12m FVPL gain a second time (1,124 + 12 = 1,136). That gain is already inside net income.</p><p><b>B is incorrect.</b> Omits the €9m OCI gain (1,124 &minus; 9 = 1,115). FVOCI gains bypass net income and are added to equity through OCI.</p><p><b>C is correct.</b> 1,025 + 140 (NI, including the FVPL gain) &minus; 45 (dividends) &minus; 30 (buyback) + 25 (new shares) + 9 (OCI gain) = 1,124.</p>"
+    },
+    {
+     "id": "fsr-17",
+     "topic": "fsa",
+     "concept": "Inventory write-down: LIFO under US GAAP",
+     "difficulty": "hard",
+     "stem": "<p>At year-end, a batch of inventory has a historical cost of €250k, a net realisable value (NRV) of €232k, a replacement cost of €226k and an NRV less a normal profit margin of €215k. Company A applies IFRS. Company B is identical but applies US GAAP and uses LIFO. Compared with A, B&rsquo;s year-end carrying amount for this batch is:</p>",
+     "options": {
+      "A": "€17k lower.",
+      "B": "€6k lower.",
+      "C": "the same."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Uses the €215k floor (NRV less normal margin) as market for B. The floor only applies if replacement cost falls below it; here replacement cost (226) is inside the band.</p><p><b>B is correct.</b> IFRS: lower of cost and NRV = 232. US GAAP LIFO uses lower of cost or market, where market = replacement cost bounded by the ceiling (NRV 232) and the floor (215). Replacement cost 226 is inside the band, so market = 226. B is 232 &minus; 226 = €6k lower.</p><p><b>C is incorrect.</b> The same result would arise for FIFO or average cost under US GAAP, where NRV is used. Replacement cost is used only for LIFO and the retail method.</p>"
+    },
+    {
+     "id": "fsr-18",
+     "topic": "fsa",
+     "concept": "Earnings manipulation warning signs",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following is LEAST likely a warning sign of aggressive earnings management?</p>",
+     "options": {
+      "A": "Net income that is persistently lower than operating cash flow",
+      "B": "Quarterly results that repeatedly just beat consensus with no seasonal explanation",
+      "C": "Capitalising costs that comparable companies expense"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Net income below CFO is normal, mainly because depreciation and amortisation are non-cash charges deducted in arriving at income. The warning sign is the reverse: net income persistently above CFO.</p><p><b>B is incorrect.</b> Repeated narrow beats without a seasonal reason suggest timing or reserve manipulation, so this is a warning sign.</p><p><b>C is incorrect.</b> Capitalising costs that peers expense boosts current earnings and moves cost to the future, a classic warning sign.</p>"
+    },
+    {
+     "id": "fsr-19",
+     "topic": "fsa",
+     "concept": "Bill-and-hold revenue recognition",
+     "difficulty": "easy",
+     "stem": "<p>A manufacturer wants to recognise revenue on goods that remain in its warehouse at the customer&rsquo;s request. Which of the following is NOT a condition for recognising revenue under a bill-and-hold arrangement?</p>",
+     "options": {
+      "A": "The reason for the arrangement is substantive, such as a customer request",
+      "B": "The customer has already paid for the goods in full",
+      "C": "The goods are identified separately as belonging to the customer"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> A substantive reason (typically the customer&rsquo;s request) is one of the criteria.</p><p><b>B is correct.</b> Payment is not a criterion. The criteria are a substantive reason, goods separately identified as the customer&rsquo;s, goods ready for transfer, and the seller unable to use or redirect them.</p><p><b>C is incorrect.</b> Separate identification as the customer&rsquo;s goods is required.</p>"
+    },
+    {
+     "id": "fsr-20",
+     "topic": "fsa",
+     "concept": "Capitalised interest: effects",
+     "difficulty": "medium",
+     "stem": "<p>A company borrows to build a plant for its own use and capitalises the interest incurred during construction instead of expensing it. Compared with expensing the interest, which of the following is LEAST likely during the construction period?</p>",
+     "options": {
+      "A": "Lower reported net income",
+      "B": "Higher reported cash flow from operations",
+      "C": "Higher reported interest coverage ratio"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Capitalising moves interest out of expense into the asset, so reported net income is higher, not lower. The interest is expensed later through depreciation.</p><p><b>B is incorrect.</b> The interest payment is classified in investing cash flow when capitalised, so CFO is higher.</p><p><b>C is incorrect.</b> Reported interest expense is lower, so EBIT / interest expense is higher (analysts often adjust for this).</p>"
+    },
+    {
+     "id": "fsr-21",
+     "topic": "fsa",
+     "concept": "Indirect CFO: working-capital signs",
+     "difficulty": "medium",
+     "stem": "<p>Rivett Co. reports net income of $220m. Its depreciation was $60m and an impairment charge was $15m. Accounts receivable increased by $25m, inventory decreased by $12m, accounts payable increased by $8m, wages payable decreased by $3m and unearned revenue increased by $10m. Cash flow from operations is closest to:</p>",
+     "options": {
+      "A": "$347m",
+      "B": "$282m",
+      "C": "$297m"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Adds the increase in receivables (+25 instead of &minus;25), which overstates CFO by 50.</p><p><b>B is incorrect.</b> Leaves out the $15m impairment add-back: it is a non-cash charge that reduced net income. 297 &minus; 15 = 282.</p><p><b>C is correct.</b> 220 + 60 + 15 &minus; 25 (receivables up) + 12 (inventory down) + 8 (payables up) &minus; 3 (wages payable down) + 10 (unearned revenue up) = 297.</p><p><b>BA II Plus:</b> 220 + 60 + 15 &minus; 25 + 12 + 8 &minus; 3 + 10 = 297.</p>"
+    },
+    {
+     "id": "fsr-22",
+     "topic": "fsa",
+     "concept": "Income tax expense from taxes payable",
+     "difficulty": "hard",
+     "stem": "<p>A company reports income tax payable of $210m for the year. Over the same period, its deferred tax liability decreased by $14m and its deferred tax asset decreased by $9m. Its income tax expense is closest to:</p>",
+     "options": {
+      "A": "$215m",
+      "B": "$233m",
+      "C": "$205m"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Flips both signs (210 + 14 &minus; 9 = 215). A falling DTL lowers expense and a falling DTA raises it.</p><p><b>B is incorrect.</b> Treats the fall in the DTL as a rise (210 + 14 + 9 = 233). A DTL decrease reduces expense.</p><p><b>C is correct.</b> Tax expense = tax payable + increase in DTL &minus; increase in DTA = 210 + (&minus;14) &minus; (&minus;9) = 205.</p>"
+    },
+    {
+     "id": "fsr-23",
+     "topic": "fsa",
+     "concept": "FIFO vs LIFO: ratio effects",
+     "difficulty": "medium",
+     "stem": "<p>With rising purchase prices and stable unit volumes, two otherwise identical companies use different cost flow methods: Company F uses FIFO and Company L uses LIFO. Compared with Company L, Company F will most likely report a:</p>",
+     "options": {
+      "A": "lower debt-to-equity ratio and lower total asset turnover.",
+      "B": "higher debt-to-equity ratio and lower total asset turnover.",
+      "C": "lower debt-to-equity ratio and higher total asset turnover."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> FIFO inventory is larger and net income is higher, so equity and assets are higher. Debt-to-equity falls, and with a larger asset base total asset turnover falls.</p><p><b>B is incorrect.</b> Equity is higher under FIFO (more retained earnings), so debt-to-equity is lower, not higher.</p><p><b>C is incorrect.</b> Total assets are higher under FIFO, so asset turnover (revenue / assets) is lower, not higher.</p>"
+    },
+    {
+     "id": "fsr-24",
+     "topic": "fsa",
+     "concept": "Lessee income statement: IFRS vs US GAAP",
+     "difficulty": "medium",
+     "stem": "<p>Cedar Inc. reports under US GAAP and classifies its new 5-year equipment lease as an operating lease. Fjord SA reports under IFRS and signs an identical lease. In the first year, which statement about the income statements is most likely correct?</p>",
+     "options": {
+      "A": "Both report a single straight-line lease expense.",
+      "B": "Cedar reports a single lease expense; Fjord reports amortisation of the right-of-use asset and interest on the lease liability.",
+      "C": "Cedar reports amortisation and interest; Fjord reports a single lease expense."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Only US GAAP operating leases produce a single expense. IFRS has no operating lease category for lessees.</p><p><b>B is correct.</b> A US GAAP operating lease gives a single lease expense. All IFRS leases (and US GAAP finance leases) split the cost into ROU amortisation and interest on the liability. Both frameworks show an ROU asset and lease liability on the balance sheet.</p><p><b>C is incorrect.</b> This reverses the two frameworks.</p>"
+    },
+    {
+     "id": "fsr-25",
+     "topic": "fsa",
+     "concept": "Financial reporting quality spectrum",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following would most likely represent the LOWEST level on the spectrum of financial reporting quality?</p>",
+     "options": {
+      "A": "Reports that comply with accounting standards but reflect aggressive, biased choices",
+      "B": "Reports that include fictitious transactions",
+      "C": "Reports that comply with accounting standards but have earnings smoothed through discretionary provisions"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Aggressive choices within the standards are low quality, but the statements still comply, so this is not the bottom.</p><p><b>B is correct.</b> Fictitious transactions are fraud. This is at the bottom of the spectrum, below non-compliant reporting.</p><p><b>C is incorrect.</b> Smoothing is earnings management, but if it stays within the standards the statements still comply, so it is above non-compliance and fraud.</p>"
+    },
+    {
+     "id": "fsr-26",
+     "topic": "fsa",
+     "concept": "Analyst treatment of deferred tax liabilities",
+     "difficulty": "hard",
+     "stem": "<p>Farrow Corp. reports total liabilities of €1,900m, which include a €380m deferred tax liability, and equity of €1,520m. Because the company keeps growing its capital spending, management expects the DTL never to reverse. An analyst treats the DTL accordingly. Debt-to-equity (total liabilities / equity) is closest to:</p>",
+     "options": {
+      "A": "1.25",
+      "B": "1.00",
+      "C": "0.80"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This is the reported ratio, 1,900 / 1,520. It treats the DTL as a liability.</p><p><b>B is incorrect.</b> Removes the DTL from liabilities but does not add it to equity: 1,520 / 1,520 = 1.00. That treatment applies when timing and amount are uncertain.</p><p><b>C is correct.</b> A DTL not expected to reverse is reclassified as equity: liabilities fall to 1,520 and equity rises to 1,900. D/E = 1,520 / 1,900 = 0.80.</p>"
+    },
+    {
+     "id": "fsr-27",
+     "topic": "fsa",
+     "concept": "Cash flow statement: gain on sale",
+     "difficulty": "easy",
+     "stem": "<p>A company sells equipment with a carrying amount of $13m for $18m in cash, recognising a gain of $5m. Using the indirect method, the effect on the cash flow statement is:</p>",
+     "options": {
+      "A": "CFO: &minus;$5m; CFI: +$18m.",
+      "B": "CFO: &minus;$5m; CFI: +$13m.",
+      "C": "CFO: no adjustment; CFI: +$18m."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> The gain is in net income but is not operating cash, so it is subtracted in CFO. The full cash proceeds of $18m are an investing inflow.</p><p><b>B is incorrect.</b> Shows only the carrying amount in CFI. The proceeds, including the gain, are shown in CFI.</p><p><b>C is incorrect.</b> The gain is not removed from CFO, so it would be double-counted.</p>"
+    },
+    {
+     "id": "fsr-28",
+     "topic": "fsa",
+     "concept": "Impairment reversal: IFRS vs US GAAP",
+     "difficulty": "hard",
+     "stem": "<p>Ostrava Ltd. buys equipment for €500m with a 10-year life and no salvage value and depreciates it straight-line. At the end of year 2 it records an impairment, writing the carrying amount down to €320m (remaining life 8 years). At the end of year 4, the recoverable amount of the equipment is €330m. The equipment is held for use. The reversal of impairment recognised at the end of year 4 under IFRS and under US GAAP is:</p>",
+     "options": {
+      "A": "IFRS: €90m; US GAAP: nil.",
+      "B": "IFRS: €60m; US GAAP: €60m.",
+      "C": "IFRS: €60m; US GAAP: nil."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Ignores the cap: 330 &minus; 240 = 90. Under IFRS the carrying amount cannot exceed what it would have been with no impairment (500 × 6/10 = 300).</p><p><b>B is incorrect.</b> US GAAP does not allow reversal of an impairment on assets held for use.</p><p><b>C is correct.</b> Carrying amount before reversal = 320 &minus; 2 × 40 = 240. Cap: 500 &minus; 4 × 50 = 300 (below the 330 recoverable amount). IFRS reversal = 300 &minus; 240 = 60. US GAAP prohibits reversals for held-for-use assets.</p>"
+    },
+    {
+     "id": "fsr-29",
+     "topic": "fsa",
+     "concept": "DB pension: past service cost, US GAAP vs IFRS",
+     "difficulty": "medium",
+     "stem": "<p>A company amends its defined benefit plan to increase benefits for past service. In the period of the amendment, the past service cost is recognised:</p>",
+     "options": {
+      "A": "in OCI under US GAAP and in profit or loss under IFRS.",
+      "B": "in profit or loss under US GAAP and in OCI under IFRS.",
+      "C": "in profit or loss under both US GAAP and IFRS."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Under US GAAP, past service cost goes initially to OCI and is amortised into profit or loss later. Under IFRS, it is recognised immediately in profit or loss.</p><p><b>B is incorrect.</b> Reverses the two frameworks.</p><p><b>C is incorrect.</b> IFRS expenses it immediately, but US GAAP defers it through OCI.</p>"
+    },
+    {
+     "id": "fsr-30",
+     "topic": "fsa",
+     "concept": "Software development costs (US GAAP internal use)",
+     "difficulty": "medium",
+     "stem": "<p>Under US GAAP, a company develops accounting software for its own internal use. Which statement about the accounting treatment is most accurate?</p>",
+     "options": {
+      "A": "Costs are expensed until technological feasibility is established and capitalised thereafter.",
+      "B": "Preliminary-stage costs are expensed, and costs are capitalised once it is probable that the project will be completed and used as intended.",
+      "C": "All costs are expensed as incurred because the software will not be sold."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This is the rule for software to be sold, leased or marketed, not for internal-use software.</p><p><b>B is correct.</b> For internal-use software, preliminary costs are expensed. Application-development costs are capitalised once it is probable that the project will be completed and used as intended.</p><p><b>C is incorrect.</b> Internal-use software costs are capitalised from that point.</p>"
+    }
+   ]
+  }
+ ]
+}
