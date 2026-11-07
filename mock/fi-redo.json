@@ -1,0 +1,362 @@
+{
+ "id": "fi-redo",
+ "title": "FI redo (MM misses, twin questions)",
+ "sessions": [
+  {
+   "name": "FI redo",
+   "minutes": 38,
+   "questions": [
+    {
+     "id": "fir-01",
+     "topic": "fi",
+     "concept": "Covenants: affirmative vs negative",
+     "difficulty": "easy",
+     "stem": "<p>An indenture prohibits the issuer from issuing any additional debt that ranks pari passu with the bonds unless its interest coverage ratio stays above 3.0x. This provision is best described as a:</p>",
+     "options": {
+      "A": "affirmative covenant that primarily protects bondholders against dilution of their claim on the issuer&rsquo;s assets.",
+      "B": "negative covenant that primarily protects bondholders against dilution of their claim on the issuer&rsquo;s assets.",
+      "C": "negative covenant that primarily protects bondholders against the disposal of the issuer&rsquo;s assets."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> It is a restriction, not an obligation to act. Affirmative covenants are things the issuer must do (pay interest, maintain insurance, deliver financial statements).</p><p><b>B is correct.</b> A limit on additional debt is something the issuer promises NOT to do (a negative covenant). More pari passu debt means more creditors sharing the same asset pool, so the protection is against claim dilution.</p><p><b>C is incorrect.</b> The covenant protects the claim, not the asset base. Asset-sale and merger limits are the negative covenants that protect the assets themselves.</p>"
+    },
+    {
+     "id": "fir-02",
+     "topic": "fi",
+     "concept": "Duration/convexity: effect of maturity",
+     "difficulty": "easy",
+     "stem": "<p>Three option-free bonds pay a 5% annual coupon and are all priced to yield 4.0%. Their maturities are 9 years (Bond X), 12 years (Bond Y) and 15 years (Bond Z). If each bond&rsquo;s yield falls by 100 bps, which bond will most likely show the largest percentage price increase?</p>",
+     "options": {
+      "A": "Bond Y",
+      "B": "Bond X",
+      "C": "Bond Z"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Bond Y rises 9.62%, less than Z. Duration still increases with maturity here.</p><p><b>B is incorrect.</b> Bond X has the shortest maturity and the lowest sensitivity: +7.57%.</p><p><b>C is correct.</b> With the same coupon and the same yield, the longest maturity has the highest duration and convexity. Bond Z rises 11.48%.</p><p>Price changes: 9-yr +7.57%, 12-yr +9.62%, 15-yr +11.48%. (The exception, a low-coupon long bond, does not apply: coupons are equal.)</p>"
+    },
+    {
+     "id": "fir-03",
+     "topic": "fi",
+     "concept": "Duration calculations: Macaulay, modified, annualisation",
+     "difficulty": "hard",
+     "stem": "<p>A bond pays coupons quarterly. Its yield to maturity is 6.4%, stated as an annual rate compounded quarterly. A cash-flow table gives a Macaulay duration of 6.812 quarterly periods. The bond&rsquo;s modified duration, in years, is closest to:</p>",
+     "options": {
+      "A": "1.70",
+      "B": "6.70",
+      "C": "1.68"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> 1.70 = 6.812 &divide; 4: Macaulay duration converted to years, but it was never divided by (1 + y/m), so it is the Macaulay, not the modified, figure.</p><p><b>B is incorrect.</b> 6.70 is the modified duration still expressed in quarters. The question asks for years, so it must be divided by 4.</p><p><b>C is correct.</b> ModDur = MacDur &divide; (1 + y/m) = 6.812 &divide; 1.016 = 6.705 quarters; &divide; 4 = 1.676 years.</p><p><b>BA II Plus:</b> 6.812 &divide; ( 1 + 0.064 &divide; 4 ) &divide; 4 =  &rarr; 1.676</p>"
+    },
+    {
+     "id": "fir-04",
+     "topic": "fi",
+     "concept": "Credit analysis: expected loss vs credit spread",
+     "difficulty": "medium",
+     "stem": "<p>An analyst compares two corporate bonds with the following data (all annual):</p><table><tr><th></th><th>Bond P</th><th>Bond Q</th></tr><tr><td>Probability of default</td><td>2.0%</td><td>3.0%</td></tr><tr><td>Recovery rate</td><td>40%</td><td>55%</td></tr><tr><td>Bond yield</td><td>4.80%</td><td>6.40%</td></tr><tr><td>Government yield, same maturity</td><td>3.75%</td><td>4.90%</td></tr></table><p>Which bond(s) offer a credit spread at least as large as the expected loss?</p>",
+     "options": {
+      "A": "Bond P only",
+      "B": "Bond Q only",
+      "C": "Both Bond P and Bond Q"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This results from multiplying by the recovery rate instead of LGD: P would show 2.0% &times; 40% = 0.80% &lt; 1.05%, and Q 3.0% &times; 55% = 1.65% &gt; 1.50%. With the correct LGD, P&rsquo;s expected loss (1.20%) exceeds its spread (1.05%).</p><p><b>B is correct.</b> Expected loss = POD &times; LGD, with LGD = 1 &minus; recovery. Q: 3.0% &times; 45% = 1.35% vs spread 1.50%, so compensated. P: 2.0% &times; 60% = 1.20% vs spread 1.05%, so underpaid.</p><p><b>C is incorrect.</b> P fails: its expected loss (1.20%) is larger than its spread (1.05%).</p>"
+    },
+    {
+     "id": "fir-05",
+     "topic": "fi",
+     "concept": "Credit analysis: expected loss vs credit spread",
+     "difficulty": "medium",
+     "stem": "<p>A corporate bond has a one-year probability of default of 3.2% and offers a credit spread of 1.45% over the government yield. For the spread to just compensate investors for expected loss, the recovery rate must be closest to:</p>",
+     "options": {
+      "A": "45.3%",
+      "B": "96.8%",
+      "C": "54.7%"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> 45.3% is the LGD itself (spread &divide; POD). The question asks for recovery, so subtract it from 100%.</p><p><b>B is incorrect.</b> 96.8% = 1 &minus; POD, the survival probability, which has nothing to do with recovery.</p><p><b>C is correct.</b> Spread = POD &times; LGD, so LGD = 1.45% &divide; 3.2% = 45.3%. Recovery = 1 &minus; LGD = 54.7%.</p><p><b>BA II Plus:</b> 1.45 &divide; 3.2 =  &rarr; 0.4531;  1 &minus; 0.4531 = 0.5469</p>"
+    },
+    {
+     "id": "fir-06",
+     "topic": "fi",
+     "concept": "Securitization, SPE",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following statements about the securitization of a bank&rsquo;s auto loans is <b>least</b> accurate?</p>",
+     "options": {
+      "A": "The special purpose entity issues securities backed by the pooled loans.",
+      "B": "The bank reduces its liabilities by the amount of the loans transferred.",
+      "C": "Credit risk of the pooled loans is transferred away from the bank to the investors in the securities."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This is accurate: the SPE buys the pool and funds the purchase by issuing (often tranched) securities.</p><p><b>B is correct.</b> The loans are assets of the bank. Selling them to the SPE removes risky assets (and brings in cash); the bank&rsquo;s liabilities such as deposits and its own debt are not reduced.</p><p><b>C is incorrect.</b> This is accurate: the SPE legally isolates the pooled loans, so credit risk sits with the securityholders, not the originating bank.</p>"
+    },
+    {
+     "id": "fir-07",
+     "topic": "fi",
+     "concept": "Money market yields: discount vs add-on, BEY",
+     "difficulty": "hard",
+     "stem": "<p>A 90-day Treasury bill is quoted at a discount rate of 4.10% (360-day year). A 90-day certificate of deposit is quoted at an add-on rate of 4.12% (360-day year). On a bond equivalent yield (365-day year) basis, the instrument with the higher yield and its BEY is:</p>",
+     "options": {
+      "A": "the certificate of deposit, at 4.18%.",
+      "B": "the Treasury bill, at 4.16%.",
+      "C": "the Treasury bill, at 4.20%."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This compares the raw quotes (4.12% &gt; 4.10%). A discount rate is calculated on the face value, not on the price paid, so it understates the true yield; once converted, the bill (4.20%) beats the CD (4.18%).</p><p><b>B is incorrect.</b> 4.16% = 4.10% &times; 365/360 only changes the day count. It skips the step of dividing the discount (1.025) by the price paid (98.975).</p><p><b>C is correct.</b> T-bill price = 100 &minus; 4.10 &times; 90/360 = 98.975. BEY = (1.025 &divide; 98.975) &times; 365/90 = 4.20%. CD BEY = 4.12% &times; 365/360 = 4.18%. The bill is higher.</p><p><b>BA II Plus:</b> T-bill: 4.10 &times; 90 &divide; 360 = STO1 (1.025);  RCL1 &divide; ( 100 &minus; RCL1 ) &times; 365 &divide; 90 = &rarr; 0.0420.  CD: 4.12 &times; 365 &divide; 360 = &rarr; 4.1772.</p>"
+    },
+    {
+     "id": "fir-08",
+     "topic": "fi",
+     "concept": "Duration/convexity concepts: convexity effect",
+     "difficulty": "medium",
+     "stem": "<p>A 10-year option-free bond pays a 3% annual coupon and is priced at par (yield 3.00%). If its yield falls by 100 bps, its price rises to 108.98. If the yield instead rises by 100 bps, the percentage change in price will be closest to:</p>",
+     "options": {
+      "A": "&minus;8.98%",
+      "B": "&minus;8.11%",
+      "C": "&minus;8.55%"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> A symmetric &minus;8.98% mirrors the price rise and ignores convexity.</p><p><b>B is correct.</b> Because of positive convexity, the price rise when yields fall exceeds the price fall when yields rise by the same amount. Price at 4.00% = 91.89, a change of -8.11%.</p><p><b>C is incorrect.</b> &minus;8.55% is the duration-only estimate (effective duration &times; 1%). Convexity makes the actual fall smaller than this.</p><p><b>BA II Plus:</b> N=10, I/Y=4, PMT=3, FV=100, CPT PV = &minus;91.89 &rarr; 91.89 &divide; 100 &minus; 1 = &minus;8.11%</p>"
+    },
+    {
+     "id": "fir-09",
+     "topic": "fi",
+     "concept": "MBS and CMO tranches: PAC, support, sequential",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following statements about collateralized mortgage obligation (CMO) tranches is <b>least</b> accurate?</p>",
+     "options": {
+      "A": "A PAC tranche has a fixed principal payment schedule regardless of the prepayment speed.",
+      "B": "Support tranches absorb prepayment variability, so PAC tranches are less exposed to extension and contraction risk.",
+      "C": "In a sequential-pay structure, the later tranches bear more extension risk than the first tranche."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> A PAC schedule is only protected while prepayments stay within the PAC collar (band). Outside the band the schedule breaks down. This statement is therefore inaccurate.</p><p><b>B is incorrect.</b> This is accurate: the support tranche takes the excess or shortfall, so the PAC has the least extension and contraction risk.</p><p><b>C is incorrect.</b> This is accurate: the later tranches receive principal only after earlier ones are retired, so slower prepayments extend them the most.</p>"
+    },
+    {
+     "id": "fir-10",
+     "topic": "fi",
+     "concept": "Bond pricing: accrued interest",
+     "difficulty": "medium",
+     "stem": "<p>A EUR 1,000 par bond pays an annual coupon of 4.8% on 20 February. Using the 30/360 day-count convention, the accrued interest on a trade settling on 14 October of the same year is closest to:</p>",
+     "options": {
+      "A": "EUR 62.40",
+      "B": "EUR 31.20",
+      "C": "EUR 15.60"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> EUR 62.40 divides by 180, the length of a semiannual period. The coupon is annual, so the period is 360 days.</p><p><b>B is correct.</b> Days from 20 Feb to 14 Oct = 8 &times; 30 &minus; 6 = 234. The coupon is annual, so accrued interest = 48 &times; 234/360 = 31.20.</p><p><b>C is incorrect.</b> EUR 15.60 uses half the annual coupon (a semiannual payment) over a 360-day period. The coupon here is paid once a year.</p><p><b>BA II Plus:</b> 48 &times; 234 &divide; 360 = &rarr; 31.20</p>"
+    },
+    {
+     "id": "fir-11",
+     "topic": "fi",
+     "concept": "Bond pricing: accrued interest, flat vs full price",
+     "difficulty": "hard",
+     "stem": "<p>A EUR 1,000 par bond has a 5.4% coupon paid semiannually and exactly 4 years to maturity as of the last coupon date. It is priced to yield 6.0% (annual rate, compounded semiannually). Settlement is 100 days after the last coupon date, in a 180-day coupon period. The flat price is closest to:</p>",
+     "options": {
+      "A": "995.15",
+      "B": "980.15",
+      "C": "978.94"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> 995.15 is the full (dirty) price. The question asks for the flat price, so accrued interest must be subtracted.</p><p><b>B is correct.</b> Value at the last coupon date: N=8, I/Y=3, PMT=27, FV=1,000 gives 978.94. Full price = 978.94 &times; 1.03<sup>100/180</sup> = 995.15. Accrued interest = 27 &times; 100/180 = 15.00. Flat price = 995.15 &minus; 15.00 = 980.15.</p><p><b>C is incorrect.</b> 978.94 is the value on the last coupon date. It was not rolled forward by 100/180 of a period, and accrued interest was not removed.</p><p><b>BA II Plus:</b> N 8, I/Y 3, PMT 27, FV 1000, CPT PV = &minus;978.94;  978.94 &times; 1.03 y<sup>x</sup> ( 100 &divide; 180 ) = 995.15;  &minus; 15.00 = 980.15</p>"
+    },
+    {
+     "id": "fir-12",
+     "topic": "fi",
+     "concept": "Bond features: sinking fund",
+     "difficulty": "easy",
+     "stem": "<p>Compared with an otherwise identical bullet bond, a bond with a sinking fund provision is <b>least</b> likely to have:</p>",
+     "options": {
+      "A": "a longer weighted average life.",
+      "B": "lower credit risk.",
+      "C": "higher reinvestment risk."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Retiring part of the principal before maturity shortens the average life of the bond, so a longer average life is the least likely outcome.</p><p><b>B is incorrect.</b> Likely: gradual repayment of principal lowers the amount due at maturity, reducing credit risk.</p><p><b>C is incorrect.</b> Likely: investors receive principal earlier and must reinvest it, possibly at lower rates.</p>"
+    },
+    {
+     "id": "fir-13",
+     "topic": "fi",
+     "concept": "Bond features: tax treatment of premium",
+     "difficulty": "easy",
+     "stem": "<p>An investor in a jurisdiction that allows straight-line amortization of bond premium for tax purposes buys EUR 200,000 par of a bond at 106.5 (per 100 of par). The bond has exactly 7 years to maturity and pays annual coupons. The annual tax deduction for premium amortization is closest to:</p>",
+     "options": {
+      "A": "EUR 2,167",
+      "B": "EUR 1,857",
+      "C": "EUR 13,000"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> EUR 2,167 divides the premium by 6, one year too few. The bond has 7 years left.</p><p><b>B is correct.</b> Premium = 200,000 &times; 6.5% = 13,000. Straight-line over 7 years = 1,857 per year.</p><p><b>C is incorrect.</b> EUR 13,000 is the entire premium, not the yearly amount.</p>"
+    },
+    {
+     "id": "fir-14",
+     "topic": "fi",
+     "concept": "Repo: haircut vs initial margin",
+     "difficulty": "medium",
+     "stem": "<p>In a repurchase agreement, a dealer borrows GBP 75.0 million in cash against government bonds with a market value of GBP 78.0 million. The haircut on the collateral is closest to:</p>",
+     "options": {
+      "A": "4.00%",
+      "B": "96.15%",
+      "C": "3.85%"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> 4.00% divides by the cash lent. The haircut is a percentage of the collateral value.</p><p><b>B is incorrect.</b> 96.15% is cash &divide; collateral, which is 1 &minus; haircut.</p><p><b>C is correct.</b> Haircut = (collateral &minus; cash) &divide; collateral = 3.0 &divide; 78.0 = 3.85%. This is the same as 1 &minus; 1/initial margin = 1 &minus; 1/1.04.</p><p><b>BA II Plus:</b> 78 &minus; 75 = 3;  3 &divide; 78 = &rarr; 0.03846</p>"
+    },
+    {
+     "id": "fir-15",
+     "topic": "fi",
+     "concept": "Sovereign credit analysis",
+     "difficulty": "medium",
+     "stem": "<p>An analyst compares three emerging-market sovereigns:</p><table><tr><th></th><th>Country A</th><th>Country B</th><th>Country C</th></tr><tr><td>Government debt / GDP</td><td>38%</td><td>72%</td><td>65%</td></tr><tr><td>Interest / government revenue</td><td>11%</td><td>6%</td><td>9%</td></tr><tr><td>FX reserves / external debt</td><td>0.45</td><td>0.60</td><td>1.40</td></tr></table><p>Which country most likely has the strongest external stability?</p>",
+     "options": {
+      "A": "Country C",
+      "B": "Country A",
+      "C": "Country B"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> External stability is about the ability to repay foreign-currency debt. The reserve ratio (FX reserves &divide; external debt) is the relevant measure, and C has the highest at 1.40.</p><p><b>B is incorrect.</b> A has the lowest debt/GDP, but that is a fiscal-strength (debt burden) measure, not external stability.</p><p><b>C is incorrect.</b> B has the lowest interest/revenue, which is also a fiscal-burden measure. Its reserve ratio (0.60) is well below C&rsquo;s.</p>"
+    },
+    {
+     "id": "fir-16",
+     "topic": "fi",
+     "concept": "Duration calculations: Macaulay from modified",
+     "difficulty": "medium",
+     "stem": "<p>A bond with three years to maturity pays semiannual coupons and has a yield to maturity of 5.2%, stated as an annual rate compounded semiannually. Its annualized modified duration is 2.61 years. Its Macaulay duration is closest to:</p>",
+     "options": {
+      "A": "2.75 years",
+      "B": "2.68 years",
+      "C": "2.61 years"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> 2.75 multiplies by (1 + 0.052), forgetting to divide the yield by m = 2. The periodic yield is 2.6%.</p><p><b>B is correct.</b> MacDur = ModDur &times; (1 + y/m) = 2.61 &times; 1.026 = 2.678 years. It is above the modified duration and below the 3-year maturity.</p><p><b>C is incorrect.</b> 2.61 is the modified duration. Macaulay duration must be larger than modified duration when both are in the same units.</p><p><b>BA II Plus:</b> 2.61 &times; ( 1 + 0.052 &divide; 2 ) = &rarr; 2.678</p>"
+    },
+    {
+     "id": "fir-17",
+     "topic": "fi",
+     "concept": "Bond features: make-whole call",
+     "difficulty": "easy",
+     "stem": "<p>Two otherwise identical issuers sell 10-year bonds. Bond 1 has a make-whole call provision; Bond 2 is callable at a fixed price of 103 after a call-protection period. Which of the following best explains why Bond 1 will most likely carry the lower coupon rate?</p>",
+     "options": {
+      "A": "The make-whole call can be exercised only at par, so bondholders never lose any premium paid on the bond.",
+      "B": "The make-whole provision gives bondholders the right to sell the bond back to the issuer if yields rise.",
+      "C": "The make-whole redemption price is usually high, so the call is rarely exercised and bondholders face less call risk."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> The make-whole price is not par; it is the PV of the remaining cash flows, usually well above par.</p><p><b>B is incorrect.</b> That describes a put option. A make-whole call is an option of the issuer, not the bondholder.</p><p><b>C is correct.</b> The make-whole price is the PV of the remaining cash flows at a benchmark yield plus a small spread, so it is usually high. The issuer seldom calls, so investors accept a lower coupon.</p>"
+    },
+    {
+     "id": "fir-18",
+     "topic": "fi",
+     "concept": "Bond features: amortizing vs bullet",
+     "difficulty": "easy",
+     "stem": "<p>A lender can make a three-year, EUR 100,000 loan at 6%, either as a bullet loan (interest annually, principal at maturity) or as a fully amortizing loan (level annual payments). Compared with the bullet loan, the fully amortizing loan will most likely have:</p>",
+     "options": {
+      "A": "lower total interest received and higher reinvestment risk.",
+      "B": "higher total interest received and lower reinvestment risk.",
+      "C": "lower total interest received and lower reinvestment risk."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> The amortizing payment is EUR 37,411, so total interest is 12,233 versus 18,000 for the bullet. The lender gets principal back earlier and must reinvest it, so reinvestment risk is higher.</p><p><b>B is incorrect.</b> Interest is paid on a declining balance, so total interest is lower, not higher. Earlier cash flows raise reinvestment risk.</p><p><b>C is incorrect.</b> Total interest is lower, but receiving principal early increases, not decreases, reinvestment risk.</p><p><b>BA II Plus:</b> N 3, I/Y 6, PV &minus;100000, FV 0, CPT PMT = 37,410.98;  3 &times; 37,410.98 &minus; 100,000 = 12,232.94</p>"
+    },
+    {
+     "id": "fir-19",
+     "topic": "fi",
+     "concept": "Duration/convexity: determinants",
+     "difficulty": "medium",
+     "stem": "<p>Two option-free bonds, Y and Z, pay annual coupons and are both priced at par to yield 4.0%. When their yields fall by 100 bps, Bond Y&rsquo;s price rises by 6.2% and Bond Z&rsquo;s price rises by 8.5%. The most likely explanation for the difference is that Bond Z has a:</p>",
+     "options": {
+      "A": "longer maturity.",
+      "B": "lower coupon rate.",
+      "C": "call provision."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Both bonds are at par with the same yield, so their coupon rates are equal. With coupon and yield held constant, the larger price increase comes from higher duration and convexity, which must come from a longer maturity.</p><p><b>B is incorrect.</b> Both bonds are priced at par at the same 4.0% yield, so their coupons are identical (4.0%). A lower coupon would raise duration but cannot apply here.</p><p><b>C is incorrect.</b> A call option would limit price appreciation when yields fall (negative convexity), giving a smaller rise, not a larger one.</p><p>Check: 7-year: +6.23%; 10-year: +8.53% for a 100 bp fall.</p>"
+    },
+    {
+     "id": "fir-20",
+     "topic": "fi",
+     "concept": "Spot, forward and par rates: implied spot from forwards",
+     "difficulty": "medium",
+     "stem": "<p>The 3-year spot rate is 2.85%. The 1-year forward rate three years from now is 3.60%, and the 1-year forward rate four years from now is 4.10%. All rates are annual with annual compounding. The implied 5-year spot rate is closest to:</p>",
+     "options": {
+      "A": "3.52%",
+      "B": "4.08%",
+      "C": "3.25%"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> 3.52% is the simple average of the three rates given (2.85%, 3.60%, 4.10%). A multi-year spot rate is a geometric average of the one-year rates, with the 2.85% weighted over three years.</p><p><b>B is incorrect.</b> 4.08% takes the 4th root instead of the 5th. Five years of growth are compounded.</p><p><b>C is correct.</b> (1 + S<sub>5</sub>)<sup>5</sup> = 1.0285<sup>3</sup> &times; 1.0360 &times; 1.0410. The 5th root gives S<sub>5</sub> = 3.25%.</p><p><b>BA II Plus:</b> 1.0285 y<sup>x</sup> 3 &times; 1.036 &times; 1.041 = y<sup>x</sup> 5 1/x = &minus; 1 = &rarr; 0.03249</p>"
+    },
+    {
+     "id": "fir-21",
+     "topic": "fi",
+     "concept": "Yield measures: current yield",
+     "difficulty": "easy",
+     "stem": "<p>A bond with 7.5 years to maturity pays a 6.2% annual coupon in two semiannual installments and is quoted at a flat price of 96.40 per 100 of par. The bond&rsquo;s current yield is closest to:</p>",
+     "options": {
+      "A": "6.43%",
+      "B": "6.82%",
+      "C": "3.22%"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Current yield = annual coupon &divide; flat price = 6.20 &divide; 96.40 = 6.43%.</p><p><b>B is incorrect.</b> 6.82% is the yield to maturity (annualized). Current yield ignores the pull to par and the time value of money.</p><p><b>C is incorrect.</b> 3.22% divides the semiannual coupon payment (3.10) by price. Current yield uses the stated annual coupon.</p><p><b>BA II Plus:</b> 6.2 &divide; 96.40 = &rarr; 0.06432.  (YTM check: N 15, PV &minus;96.40, PMT 3.1, FV 100, CPT I/Y = 3.41; &times; 2 = 6.82)</p>"
+    },
+    {
+     "id": "fir-22",
+     "topic": "fi",
+     "concept": "Credit spreads: flight to quality and spread duration",
+     "difficulty": "hard",
+     "stem": "<p>During a flight to quality, credit spreads widen across the corporate market. Bond P is a BB-rated 4-year bond with a spread duration of 3.4; its spread widens by 90 bps. Bond Q is an A-rated 20-year bond with a spread duration of 13.6; its spread widens by 30 bps. Which bond most likely suffers the larger percentage price decline, and by approximately how much?</p>",
+     "options": {
+      "A": "Bond Q, about 4.1%",
+      "B": "Bond P, about 3.1%",
+      "C": "Neither bond, because investors buy both when they seek safety"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> &Delta;P/P &asymp; &minus;spread duration &times; &Delta;spread. Q: 13.6 &times; 0.30% = 4.08%; P: 3.4 &times; 0.90% = 3.06%. Q&rsquo;s long, low-spread duration outweighs P&rsquo;s larger spread move.</p><p><b>B is incorrect.</b> P has the bigger spread widening, but its short spread duration limits the loss to 3.06%, which is less than Q&rsquo;s.</p><p><b>C is incorrect.</b> Flight to quality means buying government bonds. Corporate spreads widen, so corporate bond prices fall.</p><p><b>BA II Plus:</b> 13.6 &times; 0.30 = 4.08;  3.4 &times; 0.90 = 3.06</p>"
+    },
+    {
+     "id": "fir-23",
+     "topic": "fi",
+     "concept": "Floating-rate notes: reset and payment dates",
+     "difficulty": "medium",
+     "stem": "<p>A USD 5,000,000 floating-rate note pays quarterly on 1 January, 1 April, 1 July and 1 October. The coupon is the 3-month market reference rate (MRR) plus 0.65%, set in advance, on a 30/360 basis. The 3-month MRR was 3.80% on 1 January, 3.95% on 1 April and 4.10% on 1 July. The coupon paid on 1 July is closest to:</p>",
+     "options": {
+      "A": "USD 59,375",
+      "B": "USD 57,500",
+      "C": "USD 55,625"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> USD 59,375 uses the 1 July MRR (4.10%). That rate is for the following quarter.</p><p><b>B is correct.</b> The coupon paid on 1 July covers the quarter that began on 1 April, so it uses the MRR on 1 April: (3.95% + 0.65%) &times; 5,000,000 &divide; 4 = 57,500.</p><p><b>C is incorrect.</b> USD 55,625 uses the 1 January MRR (3.80%), which set the previous period&rsquo;s coupon.</p><p><b>BA II Plus:</b> 5,000,000 &times; 0.046 &divide; 4 = &rarr; 57,500</p>"
+    },
+    {
+     "id": "fir-24",
+     "topic": "fi",
+     "concept": "Credit analysis: priority of claims and loss allocation",
+     "difficulty": "hard",
+     "stem": "<p>A firm&rsquo;s assets are written down by USD 9.0 million. The firm has USD 3.0 million of equity, USD 4.0 million of subordinated bonds, and two issues of senior unsecured bonds of the same rank: USD 5.0 million due in 3 years and USD 3.0 million due in 10 years. Assuming losses are absorbed in order of seniority, the loss borne by the 3-year senior unsecured bonds is closest to:</p>",
+     "options": {
+      "A": "USD 1.25 million",
+      "B": "USD 2.50 million",
+      "C": "USD 1.00 million"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Equity absorbs 3.0 and subordinated bonds absorb 4.0, leaving 2.0. The remaining loss is shared pro rata by the senior unsecured bonds of equal rank: 5/8 &times; 2.0 = 1.25.</p><p><b>B is incorrect.</b> USD 2.50 million shares the remaining 6.0 loss across the subordinated and senior bonds together (6.0 &times; 5/12). Subordinated bonds rank below senior, so they absorb their loss first.</p><p><b>C is incorrect.</b> USD 1.00 million splits the loss equally between the two senior issues. Bonds of the same rank share losses in proportion to their size, not equally.</p>"
+    },
+    {
+     "id": "fir-25",
+     "topic": "fi",
+     "concept": "Repo: reverse repo and short selling",
+     "difficulty": "hard",
+     "stem": "<p>A hedge fund lends USD 80,000,000 in cash for 40 days in a reverse repurchase agreement at 0.45% (360-day year), taking a government bond as collateral. It immediately sells the bond in the market for USD 80,000,000 and plans to buy it back in 40 days to return it. Ignoring other costs, the fund will make a profit if the cost of buying the bond back is less than:</p>",
+     "options": {
+      "A": "USD 79,960,000",
+      "B": "USD 80,000,000",
+      "C": "USD 80,040,000"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> USD 79,960,000 subtracts the interest. The fund <i>earns</i> the repo interest as the lender of cash.</p><p><b>B is incorrect.</b> USD 80,000,000 ignores the repo interest, which gives the fund extra room before the trade loses money.</p><p><b>C is correct.</b> The fund receives its cash back plus repo interest: 80,000,000 &times; 0.45% &times; 40/360 = 40,000, i.e. 80,040,000. It profits if the bond costs less than that to repurchase.</p><p><b>BA II Plus:</b> 80,000,000 &times; 0.0045 &times; 40 &divide; 360 = 40,000</p>"
+    }
+   ]
+  }
+ ]
+}
