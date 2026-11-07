@@ -141,6 +141,7 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 <li>Money duration = ModDur × <b>full</b> price (× position). PVBP = MoneyDur × <b>0.0001</b>.</li>
 <li>%ΔP ≈ −ModDur × Δy + ½ × Convexity × (Δy)².</li>
 <li><b>Approx ModDur = (PV₋ − PV₊) ÷ (2 × Δy × PV₀).</b> Δy = actual move (75bp = 0.0075); PV₀ = current price, not par.</li>
+<li><b>Money market price:</b> discount PV = FV(1 − Days/Year × DR); add-on PV = FV ÷ (1 + Days/Year × AOR).</li>
 <li><b>Money market BEY:</b> discount → PV = FV(1 − Days/360 × DR); BEY = 365/Days × (FV − PV)/PV. Not ICONV. BEY &gt; DR.</li>
 <li><b>FRN discount margin:</b> PMT = (MRR + QM)×100/m → CPT I/Y = r → DM = r×m − MRR (negative MRR: add it back). Price &gt; par → DM &lt; QM.</li>
 <li><b>Approx Convexity = (PV₋ + PV₊ − 2PV₀) ÷ ((Δy)² × PV₀).</b> The 2 is in the TOP, minus 2PV₀; bottom is Δy squared × PV₀.</li>
