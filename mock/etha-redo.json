@@ -1,0 +1,362 @@
+{
+ "id": "etha-redo",
+ "title": "Ethics + Alts redo (MM misses, twin questions)",
+ "sessions": [
+  {
+   "name": "Ethics + Alts redo",
+   "minutes": 38,
+   "questions": [
+    {
+     "id": "ear-01",
+     "topic": "ethics",
+     "concept": "Fair dealing: changed recommendation",
+     "difficulty": "easy",
+     "stem": "<p>Beatrice Okoro is a portfolio manager at Lantern Wealth. This morning the firm&rsquo;s research committee cut Tavish Retail from buy to sell; the note will be released to clients on Friday. Before then, a client, Gustav Lindahl, phones to say he wants to add to his holding in Tavish Retail. Okoro should most appropriately:</p>",
+     "options": {
+      "A": "execute the order, because the sell rating is not yet public and the client&rsquo;s instruction is clear.",
+      "B": "refuse the order until the new rating has been released to all clients.",
+      "C": "tell Lindahl about the changed recommendation and then execute the order if he still wishes to proceed."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> The client would be trading without knowing the firm&rsquo;s current view. Fair dealing requires clients to be told of a changed recommendation before they act, even if it is not yet public.</p><p><b>B is incorrect.</b> Okoro does not have to block the order. Clients may act against the firm&rsquo;s view; the duty is to inform, not to prohibit.</p><p><b>C is correct.</b> Standard III(B) Fair Dealing: when a recommendation changes, the client who is about to act on the old one is informed first. If Lindahl still wants to buy, the order is accepted, because taking orders against the firm&rsquo;s view is allowed.</p>"
+    },
+    {
+     "id": "ear-02",
+     "topic": "alts",
+     "concept": "MOIC: multiple of invested capital ignores timing",
+     "difficulty": "easy",
+     "stem": "<p>Two private equity funds each invested USD 60m. Fund Blue has distributed USD 70m to investors and its remaining holdings have a NAV of USD 50m after three years. Fund Green has distributed USD 120m and holds nothing further after six years. Which statement is most accurate?</p>",
+     "options": {
+      "A": "Fund Blue has the higher MOIC because it reached its total value in half the time.",
+      "B": "The two funds have the same MOIC; the difference in timing would show up in their IRRs.",
+      "C": "Fund Green has the higher MOIC because it had longer to compound its investments."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Speed is irrelevant to MOIC. Blue&rsquo;s MOIC is (70 + 50) &divide; 60 = 2.0x, the same as Green&rsquo;s. Timing is captured by IRR, not MOIC.</p><p><b>B is correct.</b> MOIC = (realised + unrealised value) &divide; invested capital. Blue: (70 + 50) &divide; 60 = 2.0x. Green: 120 &divide; 60 = 2.0x. Because MOIC ignores when cash flows occurred, a shorter holding period (Blue) would show up only as a higher IRR.</p><p><b>C is incorrect.</b> Holding period does not enter the MOIC formula. Green also equals 2.0x, so it is not higher.</p><p><b>BA II Plus:</b> ( 70 + 50 ) &divide; 60 = &rarr; 2.0; 120 &divide; 60 = &rarr; 2.0</p>"
+    },
+    {
+     "id": "ear-03",
+     "topic": "ethics",
+     "concept": "V(A) Diligence vs V(B) Communication",
+     "difficulty": "hard",
+     "stem": "<p>Tom&aacute;s Ferreira, a shipping analyst at Calder Securities, rates Brightwater Tankers a sell. At an industry dinner a shipping economist whom he respects says tanker rates have bottomed. The next morning, with no further research, Ferreira upgrades Brightwater to buy. His published note labels the upgrade as his opinion and lists the main risks to the view. Ferreira has most likely:</p>",
+     "options": {
+      "A": "violated the requirement for diligence and a reasonable basis, because another person&rsquo;s view is a reason to research, not a basis for a rating change.",
+      "B": "violated the requirement to separate fact from opinion and to disclose limitations when communicating the recommendation.",
+      "C": "violated no Standard, because the note identifies the upgrade as opinion and states the risks."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Standard V(A) Diligence and Reasonable Basis: the rating change rests on a conversation, not on any new work by Ferreira. Someone else&rsquo;s opinion should trigger research, not replace it.</p><p><b>B is incorrect.</b> The communication was handled properly: opinion is labelled and risks are given. The defect is in what the call is built on (V(A)), not how it is written (V(B)).</p><p><b>C is incorrect.</b> Good communication under V(B) does not cure the lack of a basis. A well-presented but unsupported upgrade still breaches V(A).</p>"
+    },
+    {
+     "id": "ear-04",
+     "topic": "alts",
+     "concept": "PE management fee basis: committed capital",
+     "difficulty": "medium",
+     "stem": "<p>A private equity fund has USD 400m of committed capital and charges a management fee of 1.75% a year. The GP has so far drawn down and invested USD 150m. The fee for the current year, and the reason it is usually charged on that basis, are best described as:</p>",
+     "options": {
+      "A": "USD 2.63m, because charging on invested capital aligns the GP&rsquo;s fee with the money actually at work.",
+      "B": "USD 7.00m, because charging on committed capital removes any incentive for the GP to rush into investments to build fees.",
+      "C": "USD 7.00m, because charging on committed capital rewards the GP for drawing down investors&rsquo; capital quickly."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> 2.63 = 1.75% &times; 150 is the fee on invested capital. The convention is to charge on committed capital; if the fee were on invested capital, GPs might deploy money carelessly to grow fees.</p><p><b>B is correct.</b> 1.75% &times; 400 = USD 7.00m. Committed capital is the fee base until it is fully drawn, so the GP gains nothing by investing faster than good opportunities allow.</p><p><b>C is incorrect.</b> The amount is right but the reason is reversed. A fee on committed capital is independent of the pace of drawdown, so it does not reward speed.</p><p><b>BA II Plus:</b> 400 &times; 0.0175 = &rarr; 7.00 (distractor: 150 &times; 0.0175 = 2.625)</p>"
+    },
+    {
+     "id": "ear-05",
+     "topic": "ethics",
+     "concept": "Third-party research V(A): what to assess",
+     "difficulty": "easy",
+     "stem": "<p>Hannah Weiss, a portfolio manager at Orchard Advisors, is considering relying on an external research report on a regional utility. Which of the following would she least likely need to consider when judging the soundness of the report?</p>",
+     "options": {
+      "A": "Whether the assumptions used in the analysis are reasonable and clearly stated.",
+      "B": "Whether the report is timely, given the date on which it was produced.",
+      "C": "How much the provider charges for its research subscription."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> The assumptions and the rigor of the analysis are core checks. This is something Weiss needs to consider, so it is not the answer.</p><p><b>B is incorrect.</b> Timeliness matters: stale research may no longer reflect the facts. Weiss does need to consider it, so it is not the answer.</p><p><b>C is correct.</b> Standard V(A): soundness is judged on assumptions, rigor, timeliness, and the provider&rsquo;s independence and objectivity. Subscription fees (and the provider&rsquo;s years of experience) say nothing about whether the analysis is sound.</p>"
+    },
+    {
+     "id": "ear-06",
+     "topic": "alts",
+     "concept": "Commodity curve: backwardation vs contango, roll yield",
+     "difficulty": "medium",
+     "stem": "<p>A long-only investor holds fully collateralised positions in three commodity futures. Spot prices and 3-month futures prices are:</p><table><tr><th>Commodity</th><th>Spot</th><th>3-month futures</th></tr><tr><td>X</td><td>82.00</td><td>80.20</td></tr><tr><td>Y</td><td>64.00</td><td>65.50</td></tr><tr><td>Z</td><td>150.00</td><td>152.40</td></tr></table><p>Assuming spot prices are unchanged, which commodity will most likely give the investor the highest return from rolling, and why?</p>",
+     "options": {
+      "A": "X, because the curve is in backwardation, which is consistent with a high convenience yield.",
+      "B": "Y, because it has the largest futures premium over spot, which is consistent with a high convenience yield.",
+      "C": "Z, because its futures price is the highest, so converging to spot gives the largest gain."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Backwardation (futures below spot) means a long who rolls buys cheap and the futures price converges up to spot: roll yield (82.00 &minus; 80.20) &divide; 82.00 = +2.20%.</p><p><b>B is incorrect.</b> A futures premium over spot is contango, which signals low convenience yield and storage costs. Y&rsquo;s roll yield is (64.00 &minus; 65.50) &divide; 64.00 = &minus;2.34%, the worst of the three.</p><p><b>C is incorrect.</b> A high futures price is not the test; the relation to spot is. Z is in contango: (150.00 &minus; 152.40) &divide; 150.00 = &minus;1.60%, a drag on a long position.</p><p><b>BA II Plus:</b> ( 82 &minus; 80.2 ) &divide; 82 = &rarr; 0.0220; ( 64 &minus; 65.5 ) &divide; 64 = &rarr; &minus;0.0234; ( 150 &minus; 152.4 ) &divide; 150 = &rarr; &minus;0.0160</p>"
+    },
+    {
+     "id": "ear-07",
+     "topic": "ethics",
+     "concept": "Gifts I(B): offering and accepting",
+     "difficulty": "medium",
+     "stem": "<p>Elena Sokolova, a portfolio manager at Tarn Asset Management, is bidding for a pension mandate. A week before the committee decides, she sends committee chair Marcus Lehto hospitality for a major tennis final worth about GBP 4,500. Lehto, who is also a CFA charterholder, accepts and tells Sokolova it will not affect his vote. Who has most likely violated the Code and Standards?</p>",
+     "options": {
+      "A": "Sokolova only, because she offered the gift.",
+      "B": "Lehto only, because he is the decision maker and accepted it.",
+      "C": "Both Sokolova and Lehto, even if the gift does not change the outcome."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Offering is a violation, but so is accepting. Lehto is not excused by being the recipient.</p><p><b>B is incorrect.</b> Accepting is a violation, but so is offering a lavish gift to someone who decides on your bid.</p><p><b>C is correct.</b> Standard I(B) Independence and Objectivity: a lavish gift compromises independence and objectivity whether it is given or taken, and Lehto&rsquo;s assurance that it will not influence him does not remove the appearance of a conflict.</p>"
+    },
+    {
+     "id": "ear-08",
+     "topic": "ethics",
+     "concept": "Changing firms: old records V(C)",
+     "difficulty": "medium",
+     "stem": "<p>Jun Watanabe leaves Orsini Capital to join Meridian Partners. At Orsini he built a valuation model for Vantage Utilities. He took no files and Orsini has not consented to any reuse of its work. Meridian asks him to publish a note on Vantage. Which approach is most likely permitted?</p>",
+     "options": {
+      "A": "Repeat the analysis at Meridian using Vantage&rsquo;s public filings and company meetings, creating new supporting records even if the conclusion is similar.",
+      "B": "Write down from memory the comparable-company data and assumptions in the Orsini model and file them as supporting records.",
+      "C": "Ask a former Orsini colleague to email the model&rsquo;s input sheet, since the underlying data is public anyway."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Standard V(C) Record Retention: the research records belong to the old firm, but Watanabe may use his general skills and experience, and may redo the work from public or company sources. New work, new records.</p><p><b>B is incorrect.</b> Reconstructing the old firm&rsquo;s supporting records from memory is the same as taking them. Records must be rebuilt from public or company sources.</p><p><b>C is incorrect.</b> The data may be public but the input sheet is the old firm&rsquo;s work product. Obtaining a copy through a colleague is still taking the records.</p>"
+    },
+    {
+     "id": "ear-09",
+     "topic": "alts",
+     "concept": "Direct vs co-investment vs fund",
+     "difficulty": "medium",
+     "stem": "<p>The investment committee of a mid-sized pension fund is comparing ways to gain private equity exposure: investing through a fund, co-investing alongside a GP in a single deal, and investing directly. Compared with investing through a fund, a co-investment most likely:</p>",
+     "options": {
+      "A": "allows a smaller investment, because the GP shares the deal with the fund.",
+      "B": "reduces the fees paid to the GP and builds deal skills, but needs a larger minimum investment and offers limited access.",
+      "C": "gives full control and pays no fees, because the investor is acting without a GP."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Co-investing does not allow a smaller investment. The LP puts money into one deal alongside the GP, and minimums are high.</p><p><b>B is correct.</b> The LP invests next to the GP in one deal, typically with lower fees and the chance to learn from the GP, but with high minimums and access that is limited to deals the GP chooses to offer.</p><p><b>C is incorrect.</b> This describes a direct investment. In a co-investment the GP still leads the deal and the LP does not have full control.</p>"
+    },
+    {
+     "id": "ear-10",
+     "topic": "ethics",
+     "concept": "Misconduct I(D): what counts",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following CFA charterholders has least likely violated the Code and Standards?</p>",
+     "options": {
+      "A": "Marta Kowalski files for personal bankruptcy after her restaurant venture fails; she disclosed all assets truthfully to the court and to her employer.",
+      "B": "Reggie Osei submits taxi receipts for client visits that he never made, to recover personal travel costs.",
+      "C": "Sandra Lund tells her new employer she left her last firm voluntarily, although she was dismissed for breaching compliance rules."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Standard I(D) Misconduct covers dishonesty, fraud and deceit. A personal bankruptcy with no fraud and with truthful disclosure shows no dishonesty, so it is not a violation.</p><p><b>B is incorrect.</b> Padding expense claims is dishonesty and breaches I(D) Misconduct.</p><p><b>C is incorrect.</b> Lying about the reason for leaving a prior firm is a dishonest act (I(D) Misconduct) and a false statement (I(C) Misrepresentation).</p>"
+    },
+    {
+     "id": "ear-11",
+     "topic": "alts",
+     "concept": "Timberland and farmland",
+     "difficulty": "medium",
+     "stem": "<p>Which statement about timberland as an investment is most accurate?</p>",
+     "options": {
+      "A": "Timberland investment management organisations (TIMOs) mainly manage forests for small retail investors who cannot buy land directly.",
+      "B": "Timberland is less flexible than farmland, because harvesting must follow a fixed annual cycle.",
+      "C": "Owners can postpone harvesting when timber prices are low because the trees keep growing, which makes timberland more flexible than farmland."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> TIMOs manage timberland for large institutions. Small investors typically use REITs or funds.</p><p><b>B is incorrect.</b> This reverses the comparison. Farmland crops must be harvested in season, whereas standing timber can be left to grow.</p><p><b>C is correct.</b> Timber behaves like a factory with a warehouse: a harvest can be delayed when prices are weak while the trees add volume and value.</p>"
+    },
+    {
+     "id": "ear-12",
+     "topic": "ethics",
+     "concept": "Market manipulation II(B): intent",
+     "difficulty": "hard",
+     "stem": "<p>Which of the following actions most likely violates the Code and Standards?</p>",
+     "options": {
+      "A": "Ines Duarte, an equity analyst, builds a large position in a small-cap that her model flags as undervalued and publishes research supporting the valuation; the stock later falls.",
+      "B": "Hugo Lindqvist, a fund manager, buys a large block of a thinly traded stock in the final minutes of quarter-end trading, with no investment view, so the fund&rsquo;s reported NAV and quarterly return look stronger.",
+      "C": "Yusuf Demir runs a fund holding 30% of a listed company; he votes the stake against a merger he considers value-destroying and lobbies other holders to do the same."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Standard II(B) Market Manipulation requires intent to mislead. A position based on honest analysis is legitimate, and the fall in price is irrelevant.</p><p><b>B is correct.</b> A transaction-based manipulation: the trade is meant to distort the closing price and mislead investors about performance, with no genuine investment purpose.</p><p><b>C is incorrect.</b> Using a large holding to vote and lobby on a proxy matter is a legitimate exercise of ownership. It does not aim to mislead the market.</p>"
+    },
+    {
+     "id": "ear-13",
+     "topic": "alts",
+     "concept": "High-water mark per LP",
+     "difficulty": "hard",
+     "stem": "<p>A hedge fund charges a 20% performance fee on gains above each investor&rsquo;s own high-water mark, crystallised at each year-end, with no hurdle and no management fee. An investor&rsquo;s high-water mark is the highest net-of-fee value at a prior crystallisation date, starting at the amount invested. Investor 1 put in GBP 10.0m at the start of Year 1; Investor 2 put in GBP 10.0m at the start of Year 2. The fund&rsquo;s returns before fees were +20% in Year 1, &minus;10% in Year 2 and +15% in Year 3. The performance fee paid by Investor 2 at the end of Year 3 is closest to:</p>",
+     "options": {
+      "A": "GBP 0.07m",
+      "B": "GBP 0.00m",
+      "C": "GBP 0.27m"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Investor 2 joined at 10.0m, fell to 9.0m in Year 2 (no fee, HWM stays at 10.0m) and ended Year 3 at 10.35m, so only the 0.35m above 10.0m is charged: 20% &times; 0.35 = GBP 0.07m. The HWM is Investor 2&rsquo;s own, not Investor 1&rsquo;s.</p><p><b>B is incorrect.</b> GBP 0.00m applies Investor 1&rsquo;s HWM (11.6m after its Year 1 fee) or the fund&rsquo;s peak to Investor 2. Investor 2&rsquo;s value of 10.35m is above its own HWM of 10.0m, so a fee is due.</p><p><b>C is incorrect.</b> GBP 0.27m takes the Year 2 trough of 9.0m as the HWM: 20% &times; (10.35 &minus; 9.00). A high-water mark is a peak, not the latest value; it stays at 10.0m.</p><p><b>BA II Plus:</b> 10 &times; 0.9 &times; 1.15 = &rarr; 10.35; ( 10.35 &minus; 10 ) &times; 0.2 = &rarr; 0.07. (Investor 1: 10 &times; 1.2 = 12.0, fee 0.4, HWM 11.6; Year 3 value 11.6 &times; 0.9 &times; 1.15 = 12.006, fee 0.2 &times; 0.406 = 0.081.)</p>"
+    },
+    {
+     "id": "ear-14",
+     "topic": "ethics",
+     "concept": "Supervisors IV(C): suspected violation",
+     "difficulty": "medium",
+     "stem": "<p>Anneliese Brandt is head of equity research at Kestrel Securities. She notices that a junior analyst&rsquo;s personal brokerage account bought shares in several stocks in the days before each of the last four rating upgrades was published. The analyst says it is coincidence and promises to stop. What should Brandt most appropriately do?</p>",
+     "options": {
+      "A": "Accept his assurance and review his trading again at year-end.",
+      "B": "Warn him in writing that further trading before publication will lead to disciplinary action.",
+      "C": "Restrict his access to unpublished rating changes and monitor his personal trading while she investigates the extent of the problem."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Relying on an employee&rsquo;s promise is not enough. A supervisor must investigate and act to prevent further violations.</p><p><b>B is incorrect.</b> A warning alone does not stop the trading or establish what happened. It is not sufficient.</p><p><b>C is correct.</b> Standard IV(C) Responsibilities of Supervisors: when a violation is suspected, investigate promptly and take steps so it cannot recur, for example by cutting off access to research and monitoring personal trades.</p>"
+    },
+    {
+     "id": "ear-15",
+     "topic": "alts",
+     "concept": "Hedge fund strategy families: relative value vs equity hedge",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following strategies is least likely classified as a relative value hedge fund strategy?</p>",
+     "options": {
+      "A": "Convertible bond arbitrage",
+      "B": "A market-neutral strategy that buys undervalued stocks and shorts overvalued stocks on fundamental analysis",
+      "C": "Volatility arbitrage"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Convertible arbitrage is one of the relative value strategies, exploiting price discrepancies between a convertible and the issuer&rsquo;s other securities.</p><p><b>B is correct.</b> Market neutral and fundamental long/short strategies belong to the equity hedge family, not relative value. Relative value is fixed income arbitrage, convertible arbitrage and volatility arbitrage.</p><p><b>C is incorrect.</b> Volatility arbitrage is a relative value strategy.</p>"
+    },
+    {
+     "id": "ear-16",
+     "topic": "ethics",
+     "concept": "GIPS: who can claim compliance",
+     "difficulty": "medium",
+     "stem": "<p>Which statement about claiming compliance with the Global Investment Performance Standards (GIPS) is most accurate?</p>",
+     "options": {
+      "A": "A consultancy that also manages client assets on a discretionary basis may claim compliance for its asset management business only.",
+      "B": "An advisory-only investment consultant may claim compliance for its manager-selection reports if it follows the GIPS standards in its presentations.",
+      "C": "A firm that meets every requirement except one minor presentation rule may claim compliance and disclose the exception."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Only firms that actually manage assets can claim compliance. A consultant that also runs discretionary mandates can claim it for that asset-management business, not for its advisory work.</p><p><b>B is incorrect.</b> A firm that manages no assets cannot claim compliance, however carefully it follows the standards in its reports.</p><p><b>C is incorrect.</b> Compliance is all or nothing. A firm that does not meet all the requirements may not refer to GIPS at all.</p>"
+    },
+    {
+     "id": "ear-17",
+     "topic": "ethics",
+     "concept": "Priority of transactions VI(B): family accounts",
+     "difficulty": "hard",
+     "stem": "<p>Karim Nasser, a portfolio manager at Dune Capital, is about to buy a newly issued bond that is in limited supply. He will place orders for the discretionary accounts of the firm&rsquo;s clients, his own brokerage account, and a discretionary trust he manages for his daughter, for which Dune charges no fee. Nasser should most appropriately place the orders:</p>",
+     "options": {
+      "A": "for clients first, then the trust, then his own account, because the trust is a separate legal entity.",
+      "B": "for clients first, with his own account and the trust last, because he is assumed to benefit from both.",
+      "C": "for the trust first, because it is a minor&rsquo;s account, then clients, then his own account."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> The trust is not a normal client: Nasser is assumed to benefit from an immediate family member&rsquo;s account, even a discretionary trust, and no fee is paid.</p><p><b>B is correct.</b> Standard VI(B) Priority of Transactions: clients and the employer trade before any account in which the member has a beneficial interest. Immediate family accounts are assumed to benefit the member. A family account paying a normal fee is treated as a normal client; this one pays no fee, so it is treated as his own.</p><p><b>C is incorrect.</b> Putting the trust ahead of clients is the reverse of the rule. Clients come first.</p>"
+    },
+    {
+     "id": "ear-18",
+     "topic": "ethics",
+     "concept": "Know the client: III(A) and III(C)",
+     "difficulty": "easy",
+     "stem": "<p>At her first meeting with new client Zainab Rahimi, adviser Oleksandr Petrenko recommends a high-yield bond fund that he believes is attractive. He has not asked about her goals, risk tolerance, time horizon or liquidity needs. Petrenko has most likely violated:</p>",
+     "options": {
+      "A": "Loyalty, Prudence and Care only.",
+      "B": "Suitability only.",
+      "C": "both Loyalty, Prudence and Care and Suitability."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Prudence and care is breached, but so is suitability. This is incomplete.</p><p><b>B is incorrect.</b> Suitability is breached, but so is the duty to act with prudence and care for the client. This is incomplete.</p><p><b>C is correct.</b> Standards III(A) Loyalty, Prudence and Care and III(C) Suitability: a recommendation made before learning the client&rsquo;s objectives and constraints has no suitable basis and fails the duty of care.</p>"
+    },
+    {
+     "id": "ear-19",
+     "topic": "alts",
+     "concept": "Fund-of-funds: two layers of fees",
+     "difficulty": "hard",
+     "stem": "<p>An endowment invests USD 500m in a fund of hedge funds. The fund of funds charges a 1.5% management fee on the amount invested. The underlying hedge funds charge a 2.0% management fee on the assets they manage after the fund-of-funds fee has been deducted. Assume no incentive fees and no change in asset values. Total management fees for the year are closest to:</p>",
+     "options": {
+      "A": "USD 17.35m",
+      "B": "USD 17.50m",
+      "C": "USD 9.85m"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> FoF fee: 1.5% &times; 500 = 7.50. Assets reaching the underlying funds: 500 &minus; 7.50 = 492.50. Underlying fee: 2.0% &times; 492.50 = 9.85. Total = 7.50 + 9.85 = USD 17.35m.</p><p><b>B is incorrect.</b> 17.50 charges both layers on the full 500 (3.5% &times; 500). The underlying funds only charge on what is left after the first fee.</p><p><b>C is incorrect.</b> 9.85 is the underlying layer alone; it omits the fund-of-funds fee of 7.50.</p><p><b>BA II Plus:</b> 500 &times; 0.015 = &rarr; 7.5; ( 500 &minus; 7.5 ) &times; 0.02 = &rarr; 9.85; 7.5 + 9.85 = &rarr; 17.35</p>"
+    },
+    {
+     "id": "ear-20",
+     "topic": "ethics",
+     "concept": "Material nonpublic information II(A): when public",
+     "difficulty": "hard",
+     "stem": "<p>Tobias Reinholt is a portfolio manager. On a conference call with about 40 analysts and investors, the CFO of Brightline Cruises says bookings have fallen sharply and fuel costs will rise by more than a quarter this year. The same figures are in slides posted on the company&rsquo;s website later that day. Reinholt has no other information and sells his clients&rsquo; Brightline shares. Reinholt has most likely:</p>",
+     "options": {
+      "A": "violated the Standards, because remarks by a company insider remain nonpublic until the company issues a formal press release.",
+      "B": "not violated the Standards, because the information was material but had been broadly disseminated and confirmed by other public sources.",
+      "C": "not violated the Standards, because information shared with many analysts is not material."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> There is no requirement for a formal press release. Information given to many analysts and also published is public.</p><p><b>B is correct.</b> Standard II(A) Material Nonpublic Information: the news would move the price, so it is material, but it is public once it has been disseminated widely and confirmed by other public sources. Reinholt may act on it.</p><p><b>C is incorrect.</b> Materiality depends on whether the information would move the price (sharp fall in bookings, much higher fuel costs), not on how many people heard it.</p>"
+    },
+    {
+     "id": "ear-21",
+     "topic": "alts",
+     "concept": "PE exit routes",
+     "difficulty": "medium",
+     "stem": "<p>A private equity fund is planning the exit of a profitable software company. Among the alternatives, the GP wants the route that most likely gives the highest valuation, keeps current management in place and lets the fund retain a large stake afterwards. The most appropriate exit is:</p>",
+     "options": {
+      "A": "a strategic sale to a competitor.",
+      "B": "a secondary sale to another private equity firm.",
+      "C": "an initial public offering."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> A strategic sale can pay for synergies, but the buyer usually replaces management and the fund sells its entire stake.</p><p><b>B is incorrect.</b> A secondary sale to another PE firm usually transfers the whole holding and does not give the highest valuation.</p><p><b>C is correct.</b> An IPO typically gives the highest valuation, management remains in place, and the PE firm can keep a large stake after listing.</p>"
+    },
+    {
+     "id": "ear-22",
+     "topic": "ethics",
+     "concept": "Pension plan: who is the client",
+     "difficulty": "medium",
+     "stem": "<p>Aksel Ruud is hired by Marit Holm, CFO of Nordvik Industries, to manage the company&rsquo;s defined benefit pension plan. Holm tells him the board has approved an allocation of 40% to Nordvik&rsquo;s own shares and 25% to an illiquid real estate fund, and asks him to implement it. Ruud&rsquo;s most appropriate action is to:</p>",
+     "options": {
+      "A": "implement the allocation, since written board approval means the sponsor has judged it appropriate.",
+      "B": "assess whether the allocation is suitable for the plan&rsquo;s participants and beneficiaries, and decline to implement it if it is not.",
+      "C": "implement the allocation after confirming that it meets Nordvik&rsquo;s return target."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Management approval does not replace Ruud&rsquo;s own suitability analysis.</p><p><b>B is correct.</b> Standards III(A) and III(C): for a pension plan the clients are the participants and beneficiaries, not the sponsor who hired him. His duty is to them, so he must judge the allocation for them.</p><p><b>C is incorrect.</b> Meeting the sponsor&rsquo;s target addresses the sponsor&rsquo;s interest, not the participants&rsquo;. Concentration in the sponsor&rsquo;s stock and an illiquid asset are the risks to be assessed.</p>"
+    },
+    {
+     "id": "ear-23",
+     "topic": "alts",
+     "concept": "Bitcoin supply and crypto types",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following statements about crypto assets is least likely correct?</p>",
+     "options": {
+      "A": "Bitcoin supply is capped at 21 million coins and the block reward halves every 210,000 blocks, about every four years.",
+      "B": "Stablecoins are designed to maintain a stable value by pegging to a fiat currency, which lowers their volatility.",
+      "C": "Bitcoin is issued at a constant rate indefinitely, so its supply keeps growing and offers no scarcity."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Correct statement: the cap and the halving schedule are core features of Bitcoin&rsquo;s design.</p><p><b>B is incorrect.</b> Correct statement: stablecoins aim for low volatility via a peg to fiat.</p><p><b>C is correct.</b> This is the incorrect statement. Issuance falls with each halving and stops at 21 million, so scarcity rises over time, which is why Bitcoin is compared to precious metals.</p>"
+    },
+    {
+     "id": "ear-24",
+     "topic": "ethics",
+     "concept": "Firm policy conflicts with the Code",
+     "difficulty": "medium",
+     "stem": "<p>Tessa Moreau is an adviser at Corvane Wealth. The firm&rsquo;s new procedures manual says that, when an oversubscribed new issue is offered, the firm&rsquo;s proprietary account must be filled before client accounts. Moreau believes the policy conflicts with the Code and Standards. What should she do first?</p>",
+     "options": {
+      "A": "Give management a copy of the Code and Standards and urge it to change the policy.",
+      "B": "Follow the policy, but disclose to clients that the firm trades ahead of them.",
+      "C": "Resign immediately."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Clients come first, then the employer, then oneself. The first step is to urge management to change the policy by showing it the Code and Standards. If it refuses, she should dissociate from the activity and resign if necessary.</p><p><b>B is incorrect.</b> Disclosure does not fix the problem. Following a policy that puts the firm ahead of clients breaches her duty to clients.</p><p><b>C is incorrect.</b> Resignation is the last step if management refuses to change, not the first.</p>"
+    },
+    {
+     "id": "ear-25",
+     "topic": "ethics",
+     "concept": "Performance presentation III(D): brief presentation",
+     "difficulty": "medium",
+     "stem": "<p>Liam O&rsquo;Connor is an adviser at Strand Wealth. He gives prospects a one-page flyer that shows the three-year composite return of Strand&rsquo;s small-cap strategy, accurately calculated and net of fees, and nothing else. What must O&rsquo;Connor do to meet his obligations for this brief presentation?</p>",
+     "options": {
+      "A": "Include the full composite presentation on the flyer itself.",
+      "B": "State that the information in the flyer is limited and make the full presentation available on request.",
+      "C": "Nothing further, because accurate composite figures are enough."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> A brief presentation does not have to carry all the detail; it has to be clear that it is limited.</p><p><b>B is correct.</b> Standard III(D) Performance Presentation: performance must be fair, accurate and complete. In a brief presentation, say that the information is limited and offer the full details on request.</p><p><b>C is incorrect.</b> Accuracy alone is not enough; presentation must also be fair and complete. Without a note that it is limited, the flyer could mislead prospects.</p>"
+    }
+   ]
+  }
+ ]
+}

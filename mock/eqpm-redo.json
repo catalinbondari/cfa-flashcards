@@ -1,0 +1,432 @@
+{
+ "id": "eqpm-redo",
+ "title": "Equity + PM redo (MM misses, twin questions)",
+ "sessions": [
+  {
+   "name": "Equity + PM redo",
+   "minutes": 45,
+   "questions": [
+    {
+     "id": "eqr-01",
+     "topic": "equity",
+     "concept": "Leverage ratio (buying on margin)",
+     "difficulty": "hard",
+     "stem": "<p>An investor buys shares on margin with an initial margin requirement of 35%. The shares then fall 12%. Ignoring interest, commissions and dividends, the investor&rsquo;s return on the equity invested is closest to:</p>",
+     "options": {
+      "A": "-34.3%",
+      "B": "-22.3%",
+      "C": "-4.2%"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Leverage = position value &divide; own equity = 1 &divide; 0.35 = 2.857. Return on equity = 2.857 &times; (&minus;12%) = -34.3%.</p><p><b>B is incorrect.</b> This uses debt-to-equity (1 &divide; 0.35 &minus; 1 = 1.857) as the multiplier. The loan is part of the position that moves with the price, so the multiplier is total position &divide; equity, not loan &divide; equity: -22.3%.</p><p><b>C is incorrect.</b> This multiplies the price move by the margin percentage (0.35 &times; &minus;12% = -4.2%), which shrinks the loss instead of magnifying it. Margin is the denominator of the leverage ratio, not the multiplier.</p><p><b>BA II Plus:</b> 1 &divide; 0.35 = 2.857; 2.857 &times; &minus;12 = &minus;34.29.</p>"
+    },
+    {
+     "id": "eqr-02",
+     "topic": "pm",
+     "concept": "Utility of a portfolio",
+     "difficulty": "medium",
+     "stem": "<p>An investor with a risk aversion coefficient A = 3 measures utility as U = E(r) &minus; &frac12;A&sigma;&sup2;. A risky portfolio has an expected return of 14% and a standard deviation of 20%. The risk-free rate at which the investor would be indifferent between the risk-free asset and this portfolio is closest to:</p>",
+     "options": {
+      "A": "2.0%",
+      "B": "12.0%",
+      "C": "8.0%"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This leaves out the &frac12;: 0.14 &minus; 3 &times; 0.04 = 0.02, which penalizes risk twice as heavily as the formula does.</p><p><b>B is incorrect.</b> This drops A: 0.14 &minus; 0.5 &times; 0.04 = 0.12. The penalty for risk must be scaled by the investor&rsquo;s risk aversion.</p><p><b>C is correct.</b> U = 0.14 &minus; 0.5 &times; 3 &times; 0.20&sup2; = 0.14 &minus; 0.06 = 0.08. A risk-free asset has &sigma; = 0, so its utility equals its return: r<sub>f</sub> = 8.0%.</p><p><b>BA II Plus:</b> 0.14 &minus; 0.5 &times; 3 &times; 0.2 x&sup2; = 0.08.</p>"
+    },
+    {
+     "id": "eqr-03",
+     "topic": "equity",
+     "concept": "Order instructions: execution vs validity",
+     "difficulty": "easy",
+     "stem": "<p>A client places an order that must be filled in its entirety or not at all, and that stays active until the client cancels it. Which classification of the two instructions is most likely correct?</p>",
+     "options": {
+      "A": "Both are validity instructions.",
+      "B": "All-or-none is a validity instruction; good-till-cancelled is an execution instruction.",
+      "C": "All-or-none is an execution instruction; good-till-cancelled is a validity instruction."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> All-or-none specifies how the order is filled (the whole quantity or nothing), so it is an execution instruction. Only good-till-cancelled sets a time frame.</p><p><b>B is incorrect.</b> This reverses both labels. Good-till-cancelled controls how long the order lives (validity); all-or-none controls the fill itself (execution).</p><p><b>C is correct.</b> Execution instructions say HOW to fill the order (all-or-none, hidden, display size, market or limit). Validity instructions say WHEN the order may be filled (day, good-till-cancelled, immediate-or-cancel, good-on-close, stop).</p>"
+    },
+    {
+     "id": "eqr-04",
+     "topic": "pm",
+     "concept": "Beta: formula from correlation; defensive asset",
+     "difficulty": "hard",
+     "stem": "<p>The market portfolio has a standard deviation of 15%. Three stocks have the following correlation with the market and standard deviation: Orion (&rho; = 0.90, &sigma; = 9%), Pallas (&rho; = 0.25, &sigma; = 30%) and Quartz (&rho; = 0.55, &sigma; = 10%). The stock that is most defensive is:</p>",
+     "options": {
+      "A": "Orion",
+      "B": "Quartz",
+      "C": "Pallas"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Orion has the lowest &sigma; but its beta is 0.90 &times; 9 &divide; 15 = 0.54, above Quartz. Total risk is not the measure of defensiveness; beta is.</p><p><b>B is correct.</b> Beta = &rho; &times; &sigma;<sub>i</sub> &divide; &sigma;<sub>m</sub>. Quartz = 0.55 &times; 10 &divide; 15 = 0.367, the lowest beta, so it is the most defensive.</p><p><b>C is incorrect.</b> Pallas has the lowest correlation, but its large &sigma; gives it a beta of 0.25 &times; 30 &divide; 15 = 0.50, still above Quartz. Low correlation alone does not make a stock defensive.</p><p><b>BA II Plus:</b> 0.55 &times; 10 &divide; 15 = 0.367.</p>"
+    },
+    {
+     "id": "eqr-05",
+     "topic": "equity",
+     "concept": "Dark pools / alternative trading systems",
+     "difficulty": "easy",
+     "stem": "<p>Which of the following statements about dark pools is least accurate?</p>",
+     "options": {
+      "A": "They are alternative trading systems that only broker-dealers may operate, not banks or exchanges.",
+      "B": "Orders submitted to a dark pool are not displayed to other participants until the trade has taken place.",
+      "C": "Institutions use them to reduce the market impact of large orders."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Alternative trading systems can be operated by broker-dealers, banks and exchanges, so this statement is the inaccurate one.</p><p><b>B is incorrect.</b> This is an accurate description. Hidden pre-trade orders are the defining feature of a dark pool, so this is not the exception.</p><p><b>C is incorrect.</b> This is an accurate statement of the main benefit. Keeping a large order out of view limits information leakage, so it is not the exception.</p>"
+    },
+    {
+     "id": "eqr-06",
+     "topic": "pm",
+     "concept": "Diversification ratio",
+     "difficulty": "medium",
+     "stem": "<p>The diversification ratio of a portfolio is its standard deviation divided by the weighted average standard deviation of its holdings. Portfolio X has a standard deviation of 7.2% and Portfolio Y has 10.8%; the weighted average standard deviation of the holdings is 12.0% in both. Which statement is most accurate?</p>",
+     "options": {
+      "A": "Portfolio X benefits more from diversification, because its ratio of 0.60 is lower than Portfolio Y&rsquo;s 0.90.",
+      "B": "Portfolio Y benefits more from diversification, because its higher ratio shows that more risk has been retained across holdings.",
+      "C": "Both ratios are below 1, which means the holdings in each portfolio must have negative correlations with each other."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> X = 7.2 &divide; 12.0 = 0.60; Y = 10.8 &divide; 12.0 = 0.90. The lower the ratio, the more risk has been removed by diversification. A ratio of 1 would mean no benefit.</p><p><b>B is incorrect.</b> This reverses the direction. A higher ratio means the portfolio&rsquo;s risk is close to the weighted average of its parts, so less risk has been diversified away.</p><p><b>C is incorrect.</b> A ratio below 1 only requires that correlations are below +1. Negative correlation is not needed, and the ratio itself cannot be negative (it runs from 0 to 1).</p>"
+    },
+    {
+     "id": "eqr-07",
+     "topic": "equity",
+     "concept": "Gordon growth model: D0 vs D1 and CAPM required return",
+     "difficulty": "medium",
+     "stem": "<p>A UK company has just paid an annual dividend of &pound;2.40 per share, and dividends are expected to grow at 3.5% a year indefinitely. The risk-free rate is 3.0%, the expected market return is 8.5% and the share&rsquo;s beta is 0.90. The value per share using the Gordon growth model is closest to:</p>",
+     "options": {
+      "A": "&pound;53.93",
+      "B": "&pound;55.82",
+      "C": "&pound;49.68"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This divides the dividend just paid (D<sub>0</sub> = 2.40) by (r &minus; g) without growing it first. The Gordon numerator is the next dividend, D<sub>1</sub>.</p><p><b>B is correct.</b> Required return from CAPM: 3.0% + 0.90 &times; (8.5% &minus; 3.0%) = 7.95%. D<sub>1</sub> = 2.40 &times; 1.035 = 2.484. Value = 2.484 &divide; (0.0795 &minus; 0.035) = &pound;55.82.</p><p><b>C is incorrect.</b> This uses the market return (8.5%) as the required return instead of computing the share&rsquo;s own return from CAPM. D<sub>1</sub> &divide; (0.085 &minus; 0.035) = &pound;49.68.</p><p><b>BA II Plus:</b> 3 + 0.9 &times; (8.5 &minus; 3) = 7.95 (use 0.0795 unrounded); 2.40 &times; 1.035 &divide; (0.0795 &minus; 0.035) = 55.82.</p>"
+    },
+    {
+     "id": "eqr-08",
+     "topic": "pm",
+     "concept": "Active vs passive management",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following is least likely an example of passive management?</p>",
+     "options": {
+      "A": "Holding the bonds of a broad index in the same proportions as the index.",
+      "B": "Building a portfolio that replicates the factor exposures of a published value-factor benchmark.",
+      "C": "Choosing individual office buildings for direct ownership based on the manager&rsquo;s view of local rental growth."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This is classic passive management: matching the benchmark by holding its securities in the same proportions.</p><p><b>B is incorrect.</b> Passive management can also match a benchmark&rsquo;s factor exposures rather than its exact holdings, so this is passive.</p><p><b>C is correct.</b> Selecting specific assets on a forecast is an active decision aimed at beating a benchmark. Direct real estate and private equity are mostly managed actively.</p>"
+    },
+    {
+     "id": "eqr-09",
+     "topic": "equity",
+     "concept": "Justified forward P/E: retention vs payout",
+     "difficulty": "hard",
+     "stem": "<p>An analyst values a company whose required return is 9.5% and whose dividends are expected to grow at 4.0% indefinitely. The company retains 55% of its earnings. The shares trade at a forward P/E of 10.0. Based on the justified forward P/E, the shares are most likely:</p>",
+     "options": {
+      "A": "fairly valued, with a justified forward P/E of 10.0.",
+      "B": "undervalued, with a justified forward P/E of 18.2.",
+      "C": "overvalued, with a justified forward P/E of 8.2."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This puts the retention ratio (0.55) in the numerator. The formula uses the payout ratio, so retention must be flipped first: 0.55 &divide; 0.055 = 10.0, which wrongly matches the market.</p><p><b>B is incorrect.</b> This ignores the payout ratio altogether: 1 &divide; (r &minus; g) = 18.2. Dividends are only a fraction of earnings, so the multiple must be scaled by payout.</p><p><b>C is correct.</b> Payout = 1 &minus; 0.55 = 0.45. Justified forward P/E = 0.45 &divide; (0.095 &minus; 0.04) = 8.18. The market P/E of 10.0 is above this, so the shares are overvalued.</p><p><b>BA II Plus:</b> 1 &minus; 0.55 = 0.45; 0.45 &divide; (0.095 &minus; 0.04) = 8.18.</p>"
+    },
+    {
+     "id": "eqr-10",
+     "topic": "pm",
+     "concept": "Risk management process",
+     "difficulty": "medium",
+     "stem": "<p>A pension fund&rsquo;s board has just approved the risk governance framework. According to the risk management process, management&rsquo;s next step is to:</p>",
+     "options": {
+      "A": "determine the fund&rsquo;s risk tolerance.",
+      "B": "identify and measure the risks the fund faces.",
+      "C": "split the allowable risk among the fund&rsquo;s activities."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> The order is governance, risk tolerance, risk identification and measurement, risk budgeting, then monitoring and managing exposures. Tolerance comes right after the governance framework is set.</p><p><b>B is incorrect.</b> Identification and measurement come after tolerance has been defined. Without a tolerance there is nothing against which to judge what is measured.</p><p><b>C is incorrect.</b> This is risk budgeting. It shares out the tolerance, so it follows both the tolerance and the identification and measurement steps.</p>"
+    },
+    {
+     "id": "eqr-11",
+     "topic": "equity",
+     "concept": "Market anomalies: momentum",
+     "difficulty": "medium",
+     "stem": "<p>A study reports that stocks with the highest returns over the past twelve months continue to outperform over the following three months, even after transaction costs and risk adjustment. Researchers attribute the pattern to recency bias and herding by investors. The finding is most likely:</p>",
+     "options": {
+      "A": "not an anomaly, because the behavioural explanation shows prices are driven by rational investor behaviour.",
+      "B": "an anomaly that, because it can be exploited using past prices, contradicts weak-form efficiency.",
+      "C": "consistent with weak-form efficiency, because the explanation is behavioural rather than based on new information."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Recency bias and herding are behavioural biases, not rational behaviour. In any case, a plausible explanation does not stop a persistent abnormal return from being an anomaly.</p><p><b>B is correct.</b> A rule based only on past prices that earns persistent abnormal returns is evidence against the weak form. A behavioural explanation tells us why the anomaly exists; it does not make it disappear.</p><p><b>C is incorrect.</b> Weak-form efficiency says past price data cannot earn abnormal returns. Past returns are exactly what this strategy uses, and it still works net of costs, so the weak form is contradicted whatever the cause.</p>"
+    },
+    {
+     "id": "eqr-12",
+     "topic": "pm",
+     "concept": "Risk budgeting",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following is the best example of risk budgeting?</p>",
+     "options": {
+      "A": "Cutting the equity weight from 60% to 50% to make the fund less volatile.",
+      "B": "Dividing an overall tracking error limit of 4% among three managers according to each one&rsquo;s mandate.",
+      "C": "Buying put options to protect a single large position."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This changes an allocation weight. Altering a percentage weight, without allocating a risk measure, is not risk budgeting.</p><p><b>B is correct.</b> Risk budgeting allocates the total acceptable risk among activities using a risk measure such as tracking error, beta or duration.</p><p><b>C is incorrect.</b> This is hedging an exposure, part of managing risk exposures. It does not divide a total risk allowance among activities.</p>"
+    },
+    {
+     "id": "eqr-13",
+     "topic": "equity",
+     "concept": "ADR programs and Rule 144A",
+     "difficulty": "medium",
+     "stem": "<p>A Brazilian manufacturer wants its shares to trade on the NYSE through depositary receipts and, at the same time, to raise new capital from the public in the United States. Which program is most appropriate?</p>",
+     "options": {
+      "A": "Level II ADR",
+      "B": "Rule 144A placement",
+      "C": "Level III ADR"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Level II also lists on the NYSE or Nasdaq, but it only lists existing shares. It does not raise new capital.</p><p><b>B is incorrect.</b> Rule 144A raises capital through a private placement to qualified institutions, without SEC registration and without an exchange listing, so it fails the NYSE and public-offering requirements.</p><p><b>C is correct.</b> Level III lists on a US exchange and includes a public offering that raises new capital, with full SEC registration.</p>"
+    },
+    {
+     "id": "eqr-14",
+     "topic": "pm",
+     "concept": "Risk management: hedge unwanted risk",
+     "difficulty": "medium",
+     "stem": "<p>A UK-based fund buys Swiss corporate bonds to earn the credit spread and has no view on the Swiss franc. Which action is most consistent with sound risk management?</p>",
+     "options": {
+      "A": "Hedge the credit risk with credit default swaps and keep the currency exposure.",
+      "B": "Hedge the franc exposure with currency forwards and keep the credit risk.",
+      "C": "Hedge every exposure so that the portfolio carries no risk."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This does the opposite. Credit spread is the return source, so hedging it removes the reason for the investment, while the unwanted currency risk remains.</p><p><b>B is correct.</b> Hedge the risks you are not paid to bear, and retain the risk you are paid for. Currency was not the source of expected return, so it is the exposure to remove.</p><p><b>C is incorrect.</b> Risk management is about holding the right amount of risk, not zero risk. A fully hedged portfolio would earn only the risk-free rate.</p>"
+    },
+    {
+     "id": "eqr-15",
+     "topic": "equity",
+     "concept": "Price index vs total return index",
+     "difficulty": "hard",
+     "stem": "<p>A market-capitalization-weighted index contains three stocks. Over the year the data were:</p><table><tr><th>Stock</th><th>Shares (m)</th><th>Start price</th><th>End price</th><th>Dividend per share</th></tr><tr><td>A</td><td>50</td><td>40</td><td>44</td><td>1.00</td></tr><tr><td>B</td><td>120</td><td>25</td><td>24</td><td>0.50</td></tr><tr><td>C</td><td>20</td><td>80</td><td>90</td><td>2.00</td></tr></table><p>The price return on the index for the year is closest to:</p>",
+     "options": {
+      "A": "4.24%",
+      "B": "6.52%",
+      "C": "6.17%"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Start capitalization = 2,000 + 3,000 + 1,600 = 6,600. End capitalization = 2,200 + 2,880 + 1,800 = 6,880. Price return = 6,880 &divide; 6,600 &minus; 1 = 4.24%.</p><p><b>B is incorrect.</b> This adds the dividends (150) to the end value, which gives the total return index. A price index ignores dividends.</p><p><b>C is incorrect.</b> This is the simple average of the three stock price returns (10.0%, &minus;4.0%, 12.5%), an equal-weighted figure. The question asks for a capitalization-weighted index, so each stock must count in proportion to its market value.</p><p><b>BA II Plus:</b> 6,880 &divide; 6,600 &minus; 1 = 0.0424 (4.24%).</p>"
+    },
+    {
+     "id": "eqr-16",
+     "topic": "pm",
+     "concept": "Efficient frontier vs indifference curves",
+     "difficulty": "medium",
+     "stem": "<p>An analyst lowers her equity return forecasts, and in the same quarter her client retires and becomes more risk averse. Which statement is most likely correct?</p>",
+     "options": {
+      "A": "The indifference curves shift because of the new forecasts, and the efficient frontier changes because of her new risk aversion.",
+      "B": "Only the efficient frontier changes, because both events alter the expected risk and return of investments.",
+      "C": "The efficient frontier shifts because of the new forecasts, and the client&rsquo;s indifference curves change because of her new risk aversion."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This swaps the two. The frontier does not depend on the client&rsquo;s preferences, and the indifference curves do not depend on market forecasts.</p><p><b>B is incorrect.</b> A change in the client&rsquo;s risk aversion is a change in preferences, not in the investment opportunity set, so it moves her indifference curves.</p><p><b>C is correct.</b> Capital market expectations determine the efficient frontier. The investor&rsquo;s objectives and constraints (risk aversion) determine the indifference curves. The market moves the frontier; the client moves the curves.</p>"
+    },
+    {
+     "id": "eqr-17",
+     "topic": "equity",
+     "concept": "Stock dividends",
+     "difficulty": "medium",
+     "stem": "<p>A company declares a 5% stock dividend. Which of the following statements about its effect is least accurate?</p>",
+     "options": {
+      "A": "Each shareholder&rsquo;s percentage ownership of the company increases by about 5%.",
+      "B": "The total market value of the equity is unchanged by the distribution.",
+      "C": "The number of shares outstanding rises by 5% and the price per share falls by about 4.8%."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Every shareholder receives the new shares in proportion to current holdings, so each owns the same percentage as before. Only the share count rises.</p><p><b>B is incorrect.</b> This is an accurate statement. No cash leaves the company and no value is created, so it is not the exception.</p><p><b>C is incorrect.</b> This is accurate. The same value is spread over 1.05 times as many shares, so the price falls by 1 &minus; 1/1.05 = 4.76%. It is not the exception.</p>"
+    },
+    {
+     "id": "eqr-18",
+     "topic": "pm",
+     "concept": "Capital market line slope",
+     "difficulty": "hard",
+     "stem": "<p>The risk-free rate is 3.0%. The market portfolio has an expected return of 9.6% and a standard deviation of 15%. An investor holds 40% in the risk-free asset and 60% in the market portfolio. The slope of the capital market line is closest to:</p>",
+     "options": {
+      "A": "0.44",
+      "B": "0.77",
+      "C": "0.066"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> The CML slope is the Sharpe ratio of the market portfolio: (9.6% &minus; 3.0%) &divide; 15% = 0.44. The investor&rsquo;s 40/60 mix lies on the line (E(R) = 6.96%, &sigma; = 9%, Sharpe = 0.44), so mixing does not change the slope.</p><p><b>B is incorrect.</b> This divides the investor&rsquo;s total return (6.96%) by their standard deviation (9%) without subtracting the risk-free rate. The slope uses the excess return.</p><p><b>C is incorrect.</b> 6.6% is the market risk premium, E(R<sub>m</sub>) &minus; R<sub>f</sub>. That is the slope of the security market line (plotted against beta), not the capital market line (plotted against &sigma;).</p><p><b>BA II Plus:</b> (9.6 &minus; 3) &divide; 15 = 0.44.</p>"
+    },
+    {
+     "id": "eqr-19",
+     "topic": "equity",
+     "concept": "Gordon growth with a delayed first dividend",
+     "difficulty": "hard",
+     "stem": "<p>A start-up plans to pay no dividend for three years. Its first dividend, &euro;1.80 per share, is expected at the end of year 4, and dividends will then grow at 6.0% a year indefinitely. The required return is 10.0%. The value per share today is closest to:</p>",
+     "options": {
+      "A": "&euro;30.74",
+      "B": "&euro;45.00",
+      "C": "&euro;33.81"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This discounts four years because the dividend arrives in year 4. The Gordon formula already values the stream one year before the first dividend, at t = 3, so only three years of discounting remain.</p><p><b>B is incorrect.</b> This is the value at t = 3 and is never discounted back to today.</p><p><b>C is correct.</b> Gordon on D<sub>4</sub> gives the value one period before it, at t = 3: 1.80 &divide; (0.10 &minus; 0.06) = &euro;45.00. Discount that back three years: 45.00 &divide; 1.10<sup>3</sup> = &euro;33.81.</p><p><b>BA II Plus:</b> 1.80 &divide; (0.10 &minus; 0.06) = 45.00; 45 &divide; 1.1 y<sup>x</sup> 3 = 33.81.</p>"
+    },
+    {
+     "id": "eqr-20",
+     "topic": "pm",
+     "concept": "M-squared",
+     "difficulty": "hard",
+     "stem": "<p>Over a year a portfolio returned 12.6% with a standard deviation of 21%. The risk-free rate was 2.0%, and the market index returned 9.4% with a standard deviation of 16%. Based on M&sup2;, the portfolio:</p>",
+     "options": {
+      "A": "underperformed the market by 2.52%.",
+      "B": "outperformed the market by 0.68%.",
+      "C": "underperformed the market by 1.32%."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This compares M&sup2; (10.08%) with the portfolio&rsquo;s own return (12.6%). M&sup2; is the return at the market&rsquo;s risk level, so the benchmark is the market return.</p><p><b>B is correct.</b> M&sup2; = R<sub>f</sub> + Sharpe ratio &times; &sigma;<sub>m</sub> = 2.0 + (10.6 &divide; 21) &times; 16 = 10.08%. Compare with the market return: 10.08% &minus; 9.4% = +0.68%.</p><p><b>C is incorrect.</b> This omits the risk-free rate when rebuilding the portfolio: 10.6 &divide; 21 &times; 16 = 8.08% against 9.4%. M&sup2; adds R<sub>f</sub> back.</p><p><b>BA II Plus:</b> (12.6 &minus; 2) &divide; 21 &times; 16 + 2 = 10.08; 10.08 &minus; 9.4 = 0.68.</p>"
+    },
+    {
+     "id": "eqr-21",
+     "topic": "equity",
+     "concept": "Choosing a DDM; two-stage model terminal value",
+     "difficulty": "hard",
+     "stem": "<p>A company has just paid a dividend of $2.00 per share. Dividends are expected to grow at 12% a year for three years and then at 4% a year indefinitely. The required return is 9%. Using a two-stage dividend discount model, the value per share is closest to:</p>",
+     "options": {
+      "A": "$49.73",
+      "B": "$51.47",
+      "C": "$47.74"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This capitalizes D<sub>3</sub> instead of D<sub>4</sub> (V<sub>3</sub> = 2.8099 &divide; 0.05 = 56.20). The first dividend of the constant-growth stage is the one after the high-growth period, so the terminal value needs D<sub>4</sub> = D<sub>3</sub> &times; (1 + g<sub>2</sub>).</p><p><b>B is correct.</b> D<sub>1</sub> = 2.2400, D<sub>2</sub> = 2.5088, D<sub>3</sub> = 2.8099. The terminal value at t = 3 uses D<sub>4</sub> = 2.8099 &times; 1.04 = 2.9223: V<sub>3</sub> = 2.9223 &divide; 0.05 = 58.45. Value = PV of D<sub>1</sub>&ndash;D<sub>3</sub> + 58.45 &divide; 1.09<sup>3</sup> = $51.47.</p><p><b>C is incorrect.</b> This discounts the terminal value four years instead of three. V<sub>3</sub> is a value at t = 3, so it is discounted with 1.09<sup>3</sup>.</p><p><b>BA II Plus:</b> CF0 = 0, C01 = 2.24, C02 = 2.5088, C03 = 2.8099 + 58.45 = 61.2599; I = 9; CPT NPV.</p>"
+    },
+    {
+     "id": "eqr-22",
+     "topic": "pm",
+     "concept": "Security market line: above or below",
+     "difficulty": "medium",
+     "stem": "<p>The risk-free rate is 3.5% and the expected market return is 9.5%. An analyst forecasts a return of 7.4% for a stock with a beta of 0.85. The stock most likely plots:</p>",
+     "options": {
+      "A": "below the security market line and is overvalued.",
+      "B": "above the security market line and is undervalued.",
+      "C": "below the security market line and is undervalued."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Required return = 3.5% + 0.85 &times; (9.5% &minus; 3.5%) = 8.6%. The forecast of 7.4% is less than the required return, so the stock plots below the SML. It is not offering enough return for its risk, which means it is overvalued.</p><p><b>B is incorrect.</b> This reverses the comparison. A forecast above the required return would plot above the SML, but 7.4% is below 8.6%.</p><p><b>C is incorrect.</b> The position is right but the conclusion is wrong. A stock that offers too little return for its risk is priced too high, so it is overvalued, not cheap.</p><p><b>BA II Plus:</b> 3.5 + 0.85 &times; (9.5 &minus; 3.5) = 8.6.</p>"
+    },
+    {
+     "id": "eqr-23",
+     "topic": "equity",
+     "concept": "Forecasting PP&E",
+     "difficulty": "medium",
+     "stem": "<p>An analyst forecasts a retailer&rsquo;s year-end property, plant and equipment (PP&amp;E). Beginning PP&amp;E is 8,400 and forecast revenue is 14,200. Capital expenditure is forecast at 6.5% of revenue and depreciation at 9.0% of beginning PP&amp;E. Forecast ending PP&amp;E is closest to:</p>",
+     "options": {
+      "A": "8,045",
+      "B": "8,567",
+      "C": "10,079"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This applies the depreciation percentage to revenue (0.09 &times; 14,200 = 1,278) instead of to beginning PP&amp;E, overstating the charge.</p><p><b>B is correct.</b> Capex = 0.065 &times; 14,200 = 923. Depreciation = 0.09 &times; 8,400 = 756. Ending PP&amp;E = 8,400 + 923 &minus; 756 = 8,567.</p><p><b>C is incorrect.</b> This adds depreciation instead of subtracting it. Depreciation reduces the book value of PP&amp;E.</p><p><b>BA II Plus:</b> 8,400 + 0.065 &times; 14,200 &minus; 0.09 &times; 8,400 = 8,567.</p>"
+    },
+    {
+     "id": "eqr-24",
+     "topic": "pm",
+     "concept": "Private equity: venture capital, growth and buyouts",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following statements about private equity strategies is least accurate?</p>",
+     "options": {
+      "A": "Venture capital funds may invest at stages from the initial idea to just before an IPO.",
+      "B": "Growth capital typically involves minority stakes in more mature companies.",
+      "C": "Leveraged buyout funds typically take minority stakes in early-stage companies and hold them for ten years or more."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This is accurate. Venture capital is defined by minority stakes in young companies, and the investment may occur at the seed, early or later stage up to pre-IPO.</p><p><b>B is incorrect.</b> This is accurate. Growth capital funds expansion of established firms without taking control, so it is not the exception.</p><p><b>C is correct.</b> Buyout funds acquire control of mature companies with stable cash flows, usually with significant debt, and seek to improve operations and exit in roughly five to seven years. This statement describes venture capital instead.</p>"
+    },
+    {
+     "id": "eqr-25",
+     "topic": "equity",
+     "concept": "Market orders and dealer quotes",
+     "difficulty": "easy",
+     "stem": "<p>Three dealers quote a stock (bid / ask): Dealer 1 24.12 / 24.18; Dealer 2 24.15 / 24.20; Dealer 3 24.10 / 24.16. A client submits a market order to sell 1,000 shares. The order will most likely be executed at:</p>",
+     "options": {
+      "A": "24.16",
+      "B": "24.10",
+      "C": "24.15"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> 24.16 is the best (lowest) ask, the price at which a client would buy. A seller hits bids, not asks.</p><p><b>B is incorrect.</b> 24.10 is the lowest bid. A market sell order goes to the best bid, which is the highest one.</p><p><b>C is correct.</b> A market sell order fills at the best (highest) bid. The highest bid across the three dealers is 24.15 from Dealer 2.</p>"
+    },
+    {
+     "id": "eqr-26",
+     "topic": "pm",
+     "concept": "Defined benefit vs defined contribution pensions",
+     "difficulty": "easy",
+     "stem": "<p>A manufacturer closes its defined benefit pension plan and replaces it with a defined contribution plan. After the change, which party bears the investment risk and chooses the asset allocation?</p>",
+     "options": {
+      "A": "The employer bears the investment risk and chooses the asset allocation.",
+      "B": "The employee bears the investment risk and chooses the asset allocation.",
+      "C": "The employee bears the investment risk, but the employer chooses the asset allocation."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This describes the defined benefit plan being closed. There the sponsor promises the benefit and so carries the risk and sets the allocation.</p><p><b>B is correct.</b> In a defined contribution plan the employee carries the investment and inflation risk, selects the allocation, and receives whatever the account grows to.</p><p><b>C is incorrect.</b> Risk and control go together here. The employee who carries the outcome also makes the allocation choice, so the split in this option does not match either plan type.</p>"
+    },
+    {
+     "id": "eqr-27",
+     "topic": "equity",
+     "concept": "Long and short positions",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following is least likely a short position?</p>",
+     "options": {
+      "A": "A company issues five-year bonds to raise cash.",
+      "B": "An investor buys shares using a loan from her broker.",
+      "C": "A trader writes a call option on a stock."
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> The issuer receives cash now and owes the coupons and principal later, so it is short the bonds. This is a short position, not the exception.</p><p><b>B is correct.</b> Buying on margin is a leveraged long position. The investor owns the shares and has borrowed cash, which is financing rather than a short position.</p><p><b>C is incorrect.</b> The writer receives a premium and must deliver the stock if the option is exercised, a short position in the call. It is not the exception.</p>"
+    },
+    {
+     "id": "eqr-28",
+     "topic": "pm",
+     "concept": "Value at risk",
+     "difficulty": "medium",
+     "stem": "<p>A fund reports a one-day 5% value at risk (VaR) of &euro;3.1 million. Which interpretation is most appropriate?</p>",
+     "options": {
+      "A": "On the worst 5% of days, the fund would expect to lose at least &euro;3.1 million.",
+      "B": "The most the fund could possibly lose in a single day is &euro;3.1 million.",
+      "C": "On 95% of days, the fund will lose at least &euro;3.1 million."
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> VaR is the minimum loss expected with a given probability over a given period. Equivalently, on 95% of days the loss should be smaller than &euro;3.1 million. The loss on the worst days could be much larger.</p><p><b>B is incorrect.</b> VaR is not a worst case. It is a threshold, and losses beyond it are possible in the remaining 5% of days.</p><p><b>C is incorrect.</b> This flips the probabilities. The &euro;3.1 million loss or worse is expected only about 5% of the time (roughly one day in twenty).</p>"
+    },
+    {
+     "id": "eqr-29",
+     "topic": "equity",
+     "concept": "Industry structure: fragmented vs concentrated",
+     "difficulty": "medium",
+     "stem": "<p>Industry X has 60 firms, none with more than 3% of sales. Industry Y has three firms that together hold 85% of sales. Other factors equal, which statement about pricing is most likely?</p>",
+     "options": {
+      "A": "Firms in Industry Y are more likely to compete on price because large market shares give them the scale to undercut rivals.",
+      "B": "Price competition is equally likely in both, because it depends only on demand elasticity.",
+      "C": "Firms in Industry X are more likely to compete on price than firms in Industry Y."
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Scale helps, but with only three firms each can see and answer the others&rsquo; moves, so price wars are less likely than in a fragmented industry. Concentration generally supports pricing discipline.</p><p><b>B is incorrect.</b> Industry structure matters beyond demand. The number and size of rivals determine how easily they coordinate, so the two industries do not behave alike.</p><p><b>C is correct.</b> With many small rivals it is hard to coordinate, so each firm tends to cut price to win volume. In a concentrated industry a few firms can tacitly follow each other, which supports pricing discipline.</p>"
+    },
+    {
+     "id": "eqr-30",
+     "topic": "equity",
+     "concept": "Price-weighted index",
+     "difficulty": "easy",
+     "stem": "<p>A price-weighted index contains three stocks priced at 120, 60 and 30 at the start of the period and 132, 54 and 30 at the end. Their shares outstanding are 10 million, 80 million and 200 million respectively. Ignoring divisor changes, the index price return is closest to:</p>",
+     "options": {
+      "A": "2.86%",
+      "B": "0.00%",
+      "C": "-3.00%"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> A price-weighted index depends only on prices: (132 + 54 + 30) &divide; (120 + 60 + 30) &minus; 1 = 216 &divide; 210 &minus; 1 = 2.86%.</p><p><b>B is incorrect.</b> This is the average of the three stock returns (+10%, &minus;10%, 0%), an equal-weighted result. A price-weighted index gives more influence to the higher-priced stock.</p><p><b>C is incorrect.</b> This weights by market capitalization (price &times; shares), which describes a value-weighted index. In a price-weighted index shares outstanding do not matter.</p><p><b>BA II Plus:</b> 216 &divide; 210 &minus; 1 = 0.0286.</p>"
+    }
+   ]
+  }
+ ]
+}

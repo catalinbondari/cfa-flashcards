@@ -1,0 +1,362 @@
+{
+  "id": "cie-redo",
+  "title": "CI + Econ redo (MM misses, twin questions)",
+  "sessions": [
+    {
+      "name": "CI + Econ redo",
+      "minutes": 38,
+      "questions": [
+        {
+          "id": "cer-01",
+          "topic": "ci",
+          "concept": "Modigliani-Miller with taxes vs trade-off",
+          "difficulty": "medium",
+          "stem": "<p>A firm operates in a world with corporate taxes and tax-deductible interest. Assume financial distress costs and agency costs are zero. According to Modigliani&ndash;Miller with taxes, as the firm replaces equity with more debt, its WACC and firm value will most likely:</p>",
+          "options": {
+            "A": "WACC is unchanged and firm value is unchanged, because the higher cost of equity offsets the cheaper debt.",
+            "B": "WACC decreases and firm value increases, so the optimum is 100% debt.",
+            "C": "WACC falls at first and then rises, so a value-maximising mix of debt and equity exists."
+          },
+          "answer": "B",
+          "explanation": "<p><b>A is incorrect.</b> That is the no-tax result (MM I and II without taxes), where the rise in the cost of equity exactly offsets the cheaper debt. The question states that corporate taxes exist.</p><p><b>B is correct.</b> With taxes, V<sub>L</sub> = V<sub>U</sub> + t&times;D. Each unit of debt adds a tax shield, so value rises and WACC falls steadily. With no distress costs nothing pushes back, so the optimum is 100% debt.</p><p><b>C is incorrect.</b> That is the static trade-off theory, which adds distress costs to the tax shield. MM with taxes has no offsetting cost, so WACC only falls.</p>"
+        },
+        {
+          "id": "cer-02",
+          "topic": "ci",
+          "concept": "Capital rationing",
+          "difficulty": "hard",
+          "stem": "<p>A firm has a capital budget of GBP 120 million and can undertake each of the following independent projects once (cost / NPV in GBP millions): A 45 / 6.8; B 65 / 11.3; C 35 / 6.4; D 60 / 12.5; E 50 / 8.1; F 25 / 5.2. Which combination should the firm select?</p>",
+          "options": {
+            "A": "Projects C, D and F",
+            "B": "Projects B, D and F",
+            "C": "Projects A, E and F"
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> Cost C+D+F = 35+60+25 = 120, within the budget; total NPV = 6.4+12.5+5.2 = 24.1. Testing every combination that fits GBP 120m, none has a higher total NPV.</p><p><b>B is incorrect.</b> B+D+F costs 65+60+25 = 150, which exceeds the budget of 120, so it is not feasible even though its NPV of 29.0 is the highest of the three. Always cross out combinations over budget first.</p><p><b>C is incorrect.</b> A+E+F costs 45+50+25 = 120, which fits, but its NPV is 6.8+8.1+5.2 = 20.1, below 24.1. Feasible but not the best.</p>"
+        },
+        {
+          "id": "cer-03",
+          "topic": "ci",
+          "concept": "Funding gap and credit lines",
+          "difficulty": "hard",
+          "stem": "<p>On 15 September 2026 a firm plans a capital project costing USD 25.0 million. Over the next year its net income is expected to be USD 8.2 million, depreciation USD 2.4 million, and trade payables are expected to rise by USD 1.5 million. It pays preferred dividends of USD 0.9 million. The firm has an undrawn USD 6.0 million revolving credit facility signed on 1 October 2024 for three years, and an undrawn USD 4.0 million 364-day committed line of credit opened on 1 September 2025. The new capital the firm must raise is closest to:</p>",
+          "options": {
+            "A": "USD 3.8 million",
+            "B": "USD 6.9 million",
+            "C": "USD 7.8 million"
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> This also counts the USD 4.0 million line: 25.0 &minus; 11.2 &minus; 6.0 &minus; 4.0 = 3.8. The line was a 364-day facility and has already lapsed.</p><p><b>B is incorrect.</b> This ignores the preferred dividends. Internal cash would be 12.1 and the gap 25.0 &minus; 12.1 &minus; 6.0 = 6.9. Preferred dividends are a fixed cash call, so that cash is not free for investment.</p><p><b>C is correct.</b> Internal cash = 8.2 + 2.4 + 1.5 &minus; 0.9 = 11.2. The revolver (three years from Oct 2024) is still available: 6.0. A committed line that is not a revolver is a 364-day line; opened 1 Sept 2025 it expired on 31 Aug 2026, so it no longer counts. Gap = 25.0 &minus; 11.2 &minus; 6.0 = 7.8.</p>"
+        },
+        {
+          "id": "cer-04",
+          "topic": "ci",
+          "concept": "Business models: pay-in-advance vs asset-light",
+          "difficulty": "easy",
+          "stem": "<p>An online fitness-streaming company collects 12-month subscription fees at sign-up, before it pays its content producers and other suppliers. The main financing advantage of this business model is that:</p>",
+          "options": {
+            "A": "ownership of expensive assets is shifted to other firms.",
+            "B": "the firm&rsquo;s working capital needs little or no external financing.",
+            "C": "customer prepayments serve as collateral that lowers the firm&rsquo;s borrowing costs."
+          },
+          "answer": "B",
+          "explanation": "<p><b>A is incorrect.</b> That describes an asset-light model (franchising, outsourcing, platforms), a different business model from pay-in-advance.</p><p><b>B is correct.</b> Customers pay before the firm pays suppliers, so the cash cycle is funded by customers rather than by lenders or investors.</p><p><b>C is incorrect.</b> Prepayments are a source of funding, not pledged collateral, and nothing in the model lowers borrowing costs directly. The advantage is that working capital is self-funded.</p>"
+        },
+        {
+          "id": "cer-05",
+          "topic": "ci",
+          "concept": "WACC: target weights and marginal tax rate",
+          "difficulty": "hard",
+          "stem": "<p>A firm targets a debt-to-equity ratio of 0.60. Its pre-tax cost of debt is 6.0% and its cost of equity is 11.0%. The firm&rsquo;s marginal tax rate is 25%, while its average effective tax rate over the last three years was 18%. The firm&rsquo;s WACC is closest to:</p>",
+          "options": {
+            "A": "8.56%",
+            "B": "8.72%",
+            "C": "7.10%"
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> D/E = 0.60 gives w<sub>d</sub> = 0.60/1.60 = 0.375 and w<sub>e</sub> = 1/1.60 = 0.625. WACC = 0.375 &times; 6.0% &times; (1 &minus; 0.25) + 0.625 &times; 11.0% = 1.6875% + 6.875% = 8.56%. Use the marginal tax rate, because the tax shield on new debt is earned at the marginal rate.</p><p><b>BA II Plus:</b> 0.375 &times; 6 &times; 0.75 = 1.6875; then + (0.625 &times; 11) = 8.5625.</p><p><b>B is incorrect.</b> This uses the 18% average effective rate: 0.375 &times; 6.0% &times; 0.82 + 6.875% = 8.72%. WACC needs the marginal rate.</p><p><b>C is incorrect.</b> This treats D/E = 0.60 as the weight of debt (w<sub>d</sub> = 0.60, w<sub>e</sub> = 0.40): 0.60 &times; 4.5% + 0.40 &times; 11.0% = 7.10%. D/E must be converted to D/V = 0.60/1.60.</p>"
+        },
+        {
+          "id": "cer-06",
+          "topic": "ci",
+          "concept": "Agency costs and information gaps",
+          "difficulty": "medium",
+          "stem": "<p>Which of the following is <b>LEAST</b> likely to widen the information gap between a firm&rsquo;s managers and its shareholders and thereby raise agency costs?</p>",
+          "options": {
+            "A": "The firm sells complex products across many countries.",
+            "B": "Only 9% of the shares are freely traded, with the rest held by the founding family.",
+            "C": "Institutional investors hold a majority of the shares and actively monitor management."
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> Operating in many countries with complex products makes the business harder for outsiders to understand and monitor, widening the gap.</p><p><b>B is incorrect.</b> A very low free float means few outside owners are positioned to scrutinise management, widening the gap.</p><p><b>C is correct.</b> Large, informed institutional owners have the resources to monitor managers, which narrows the information gap and lowers agency costs. It is the factor that does NOT raise them.</p>"
+        },
+        {
+          "id": "cer-07",
+          "topic": "ci",
+          "concept": "Real options",
+          "difficulty": "medium",
+          "stem": "<p>A software developer funds a new product in three stages. Each tranche is released only if the previous milestone is met, and the board can stop the project after any stage. Which type of real option is <b>LEAST</b> likely embedded in this arrangement?</p>",
+          "options": {
+            "A": "Timing option",
+            "B": "Flexibility option",
+            "C": "Sizing option"
+          },
+          "answer": "B",
+          "explanation": "<p><b>A is incorrect.</b> Releasing money only after a milestone sequences the investment and delays later commitments, which is a timing option, so it is present.</p><p><b>B is correct.</b> A flexibility option lets a firm change price or output while the project is running (for example, raising prices when demand exceeds capacity). Nothing in staged funding changes price or production.</p><p><b>C is incorrect.</b> Being able to stop after any stage is an abandonment option and releasing further tranches is an expansion option. Both are sizing options, so it is present.</p>"
+        },
+        {
+          "id": "cer-08",
+          "topic": "ci",
+          "concept": "NPV from share price reaction",
+          "difficulty": "medium",
+          "stem": "<p>A listed company with 80 million shares outstanding announces a capital project costing EUR 50 million. In an efficient market, the share price rises from EUR 41.20 to EUR 42.05 on the announcement, with no other news. The project&rsquo;s NPV is closest to:</p>",
+          "options": {
+            "A": "EUR 68.0 million",
+            "B": "EUR 18.0 million",
+            "C": "EUR 118.0 million"
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> In an efficient market, NPV = change in share price &times; shares = (42.05 &minus; 41.20) &times; 80 = EUR 68.0 million. The investment cost is already inside the NPV.</p><p><b>BA II Plus:</b> 42.05 &minus; 41.20 = 0.85; then &times; 80 = 68.00.</p><p><b>B is incorrect.</b> This subtracts the EUR 50 million cost from the market value gain (68 &minus; 50). The market value change already reflects the cost, so deducting it again double counts.</p><p><b>C is incorrect.</b> This adds the EUR 50 million cost back (68 + 50). The cost is already netted in the price reaction.</p>"
+        },
+        {
+          "id": "cer-09",
+          "topic": "ci",
+          "concept": "Double taxation total rate",
+          "difficulty": "medium",
+          "stem": "<p>A company earns pre-tax income of CHF 200 million and pays corporate tax at 25%. It distributes 60% of after-tax profit as dividends, which shareholders are taxed on at 15%. The total tax paid, as a percentage of the company&rsquo;s pre-tax income, is closest to:</p>",
+          "options": {
+            "A": "36.3%",
+            "B": "42.3%",
+            "C": "31.8%"
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> This taxes the whole after-tax profit as if 100% were paid out: (50 + 22.5)/200 = 36.3%. Only 60% is distributed.</p><p><b>B is incorrect.</b> This divides total tax by after-tax profit (63.5/150 = 42.3%). The base is pre-tax income.</p><p><b>C is correct.</b> Corporate tax = 200 &times; 25% = 50. After-tax profit = 150; dividends = 150 &times; 60% = 90; dividend tax = 90 &times; 15% = 13.5. Total tax = 63.5, and 63.5/200 = 31.8%.</p><p><b>BA II Plus:</b> 150 &times; 0.6 = 90; &times; 0.15 = 13.5; + 50 = 63.5; &divide; 200 = 0.3175.</p>"
+        },
+        {
+          "id": "cer-10",
+          "topic": "ci",
+          "concept": "Shareholder vs stakeholder theory",
+          "difficulty": "easy",
+          "stem": "<p>A company&rsquo;s governance charter requires management to balance the interests of employees, lenders, suppliers and the local community with those of the owners. This approach most closely reflects:</p>",
+          "options": {
+            "A": "shareholder theory.",
+            "B": "agency theory.",
+            "C": "stakeholder theory."
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> Shareholder theory holds that managers&rsquo; main job is to maximise shareholder value. It does not call for balancing other groups&rsquo; interests.</p><p><b>B is incorrect.</b> Agency theory describes the principal&ndash;agent conflict between owners and managers. It is a description of a conflict, not a view of whom the firm should serve.</p><p><b>C is correct.</b> Stakeholder theory says a firm should also serve customers, suppliers, employees, creditors and society, not only owners.</p>"
+        },
+        {
+          "id": "cer-11",
+          "topic": "ci",
+          "concept": "Value chain vs supply chain",
+          "difficulty": "medium",
+          "stem": "<p>Which of the following activities is most likely part of a bicycle manufacturer&rsquo;s own value chain?</p>",
+          "options": {
+            "A": "Its own service team phones each buyer after delivery to resolve any problems.",
+            "B": "An independent contractor assembles and tests the wheels under a supply contract.",
+            "C": "The aluminium producer that supplies the frame tubing smelts and rolls the metal."
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> The value chain covers the steps the firm itself performs to create value for customers, and follow-up service by the firm&rsquo;s own staff is one of them.</p><p><b>B is incorrect.</b> Work done by an outside contractor is a supply-chain activity of the firm, not a step the firm itself performs.</p><p><b>C is incorrect.</b> Smelting and rolling happen at a supplier. They belong to the supply chain (all steps to produce and deliver the product), not to this firm&rsquo;s value chain.</p>"
+        },
+        {
+          "id": "cer-12",
+          "topic": "ci",
+          "concept": "Drag vs pull on liquidity",
+          "difficulty": "medium",
+          "stem": "<p>Which of the following most likely represents a <i>pull</i> on a firm&rsquo;s liquidity?</p>",
+          "options": {
+            "A": "Customers&rsquo; invoices are paid after 75 days on average, compared with 45 days a year earlier.",
+            "B": "A key supplier shortens the payment terms it offers from 60 days to 30 days.",
+            "C": "The firm pays its suppliers after 70 days, against an industry norm of 50 days."
+          },
+          "answer": "B",
+          "explanation": "<p><b>A is incorrect.</b> Slow-paying customers delay cash coming IN. That is a drag, not a pull (Drag = Debtors).</p><p><b>B is correct.</b> A pull speeds up cash going OUT to suppliers or lenders. Shorter supplier terms force earlier payment (Pull = Payables).</p><p><b>C is incorrect.</b> Paying later than peers keeps cash in the firm longer; it eases liquidity rather than pulling cash out.</p>"
+        },
+        {
+          "id": "cer-13",
+          "topic": "ci",
+          "concept": "ROIC vs cost of capital",
+          "difficulty": "medium",
+          "stem": "<p>A firm reports EBIT of USD 180 million, a 25% tax rate and invested capital of USD 1,500 million. Its WACC is 9.8% and its after-tax cost of debt is 4.5%. Assuming an efficient market, the firm&rsquo;s share price is most likely to:</p>",
+          "options": {
+            "A": "rise, because the pre-tax return on invested capital of 12.0% exceeds the WACC.",
+            "B": "fall, because ROIC of 9.0% is below the WACC.",
+            "C": "rise, because ROIC of 9.0% exceeds the after-tax cost of debt."
+          },
+          "answer": "B",
+          "explanation": "<p><b>A is incorrect.</b> This uses pre-tax EBIT/capital = 12.0%. ROIC must use after-tax operating profit (NOPAT).</p><p><b>B is correct.</b> NOPAT = 180 &times; 0.75 = 135; ROIC = 135/1,500 = 9.0%. Since ROIC is below the 9.8% WACC, the firm destroys value and the share price falls.</p><p><b>BA II Plus:</b> 180 &times; 0.75 = 135; then &divide; 1,500 = 0.09.</p><p><b>C is incorrect.</b> The relevant hurdle is the WACC, not the cost of debt alone. 9.0% is below 9.8%, so value is destroyed.</p>"
+        },
+        {
+          "id": "cer-14",
+          "topic": "econ",
+          "concept": "Crowding out",
+          "difficulty": "medium",
+          "stem": "<p>A government plans to finance a spending increase by issuing bonds. The argument that the borrowing will crowd out private investment is <b>LEAST</b> persuasive when the economy has:</p>",
+          "options": {
+            "A": "high unemployment and large amounts of spare capacity.",
+            "B": "full employment and tight labour markets.",
+            "C": "a central bank that is raising its policy rate to curb inflation."
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> With idle resources, extra government borrowing is less likely to push up interest rates or displace investment that would otherwise have happened. This is an argument FOR the deficit.</p><p><b>B is incorrect.</b> At full employment resources are already in use, so government borrowing competes with private borrowers and bids up rates; crowding out is strongest here.</p><p><b>C is incorrect.</b> Rising rates reinforce the upward pressure on borrowing costs, so additional government issuance is more likely to squeeze out private investment.</p>"
+        },
+        {
+          "id": "cer-15",
+          "topic": "econ",
+          "concept": "Monetary policy tools",
+          "difficulty": "easy",
+          "stem": "<p>To reduce the money supply using the policy tool that central banks rely on most in normal times, a central bank would most likely:</p>",
+          "options": {
+            "A": "buy government securities in the open market.",
+            "B": "lower the reserve requirement.",
+            "C": "sell government securities in the open market."
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> Buying securities adds money to the system, which is expansionary.</p><p><b>B is incorrect.</b> A lower reserve requirement lets banks lend more, which expands money. It is also not the tool central banks use most.</p><p><b>C is correct.</b> Open market operations are the main tool. Selling government securities takes money out of the banking system and reduces the money supply.</p>"
+        },
+        {
+          "id": "cer-16",
+          "topic": "econ",
+          "concept": "Real exchange rate",
+          "difficulty": "hard",
+          "stem": "<p>The spot rate NOK/EUR is unchanged at 11.50 over a year. Over the same period consumer prices rise 1% in the euro area and 4% in Norway. Relative to the start of the year, the real exchange rate (NOK/EUR) most likely implies that:</p>",
+          "options": {
+            "A": "the euro has appreciated in real terms, so Norwegian goods have become cheaper for euro-area buyers.",
+            "B": "the euro has depreciated in real terms by about 2.9%, so Norwegian goods have become more expensive for euro-area buyers.",
+            "C": "the real exchange rate is unchanged, because the nominal rate is unchanged."
+          },
+          "answer": "B",
+          "explanation": "<p><b>A is incorrect.</b> This reverses the direction. A rising real rate (base on top, CPI base / CPI price) would signal base-currency appreciation; here the ratio 101/104 is below 1.</p><p><b>B is correct.</b> Real rate = nominal &times; (CPI base / CPI price) = 11.50 &times; (101/104) = 11.17, a fall of 2.9%. The base currency (EUR) is really weaker: Norwegian prices rose faster, so Norwegian goods cost more to euro-area buyers.</p><p><b>BA II Plus:</b> 1.01 &divide; 1.04 = 0.9712; &times; 11.50 = 11.17.</p><p><b>C is incorrect.</b> Inflation differences move the real rate even when the nominal rate is flat, as in this case.</p>"
+        },
+        {
+          "id": "cer-17",
+          "topic": "econ",
+          "concept": "HHI",
+          "difficulty": "hard",
+          "stem": "<p>An industry has five firms with market shares of 35%, 25%, 20%, 10% and 10%. The two firms with 20% and 10% propose to merge. The post-merger HHI and the most likely regulatory assessment are:</p>",
+          "options": {
+            "A": "2,850: highly concentrated, and the merger is likely to be challenged.",
+            "B": "0.285: unconcentrated, so the merger is unlikely to be challenged.",
+            "C": "2,450: moderately concentrated, so the merger is unlikely to be challenged."
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> Post-merger HHI = 35&sup2; + 25&sup2; + 30&sup2; + 10&sup2; = 1,225 + 625 + 900 + 100 = 2,850, up 400 from 2,450. Above 2,500 and with an increase of more than 200 points, a challenge is likely.</p><p><b>BA II Plus:</b> 35 x&sup2; = 1225; + 625 + 900 + 100 = 2850.</p><p><b>B is incorrect.</b> This uses shares as decimals (0.35&sup2; + &hellip; = 0.285) without multiplying by 10,000. 0.285 is not on the same scale as the 1,500 / 2,500 thresholds.</p><p><b>C is incorrect.</b> 2,450 is the pre-merger HHI (the merged firm&rsquo;s share was squared as 20&sup2; + 10&sup2; = 500 instead of 30&sup2; = 900). The merger adds 400 points.</p>"
+        },
+        {
+          "id": "cer-18",
+          "topic": "econ",
+          "concept": "Absorption approach",
+          "difficulty": "medium",
+          "stem": "<p>Using the absorption approach to the trade balance, X &minus; M = (S &minus; I) + (T &minus; G), which of the following changes would most likely improve a country&rsquo;s trade balance, all else equal?</p>",
+          "options": {
+            "A": "Firms increase investment spending while saving and the fiscal balance are unchanged.",
+            "B": "The government raises spending while tax revenue is unchanged.",
+            "C": "Households increase saving while investment and the fiscal balance are unchanged."
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> Higher investment lowers (S &minus; I), which worsens the trade balance.</p><p><b>B is incorrect.</b> Higher G with unchanged T lowers (T &minus; G), moving the fiscal balance toward deficit and worsening the trade balance.</p><p><b>C is correct.</b> Higher saving relative to investment raises (S &minus; I), so X &minus; M rises. The trade balance improves only if saving rises relative to investment or the government moves toward surplus (T &gt; G).</p>"
+        },
+        {
+          "id": "cer-19",
+          "topic": "econ",
+          "concept": "Business cycle phases",
+          "difficulty": "medium",
+          "stem": "<p>Real GDP growth has just turned positive after two quarters of decline. Output remains below potential and unemployment is well above its long-run average. Manufacturers are lengthening shifts and hiring temporary staff rather than adding permanent employees. The economy is most likely in:</p>",
+          "options": {
+            "A": "expansion.",
+            "B": "contraction.",
+            "C": "recovery."
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> In an expansion growth is above trend, unemployment is falling and capacity is tightening; firms are hiring rather than relying on overtime.</p><p><b>B is incorrect.</b> In a contraction GDP is falling and firms cut overtime and then lay off workers. Here growth has turned positive and shifts are being lengthened.</p><p><b>C is correct.</b> Growth turning positive with output below potential and high unemployment points to recovery. Firms use overtime and temporary staff before committing to permanent hiring.</p>"
+        },
+        {
+          "id": "cer-20",
+          "topic": "econ",
+          "concept": "Exchange-rate targeting",
+          "difficulty": "easy",
+          "stem": "<p>A small economy commits its central bank to keeping its currency within a narrow band against a large trading partner&rsquo;s currency. The most likely consequence for the economy is that:</p>",
+          "options": {
+            "A": "the central bank keeps full control of domestic interest rates and money supply.",
+            "B": "domestic money supply and interest rates become more volatile as the central bank trades foreign currency to defend the band.",
+            "C": "domestic interest rates become fixed and fully insulated from the partner country&rsquo;s policy."
+          },
+          "answer": "B",
+          "explanation": "<p><b>A is incorrect.</b> The bank gives up control of domestic monetary conditions in order to hold the exchange rate.</p><p><b>B is correct.</b> Buying and selling foreign exchange to hold the rate changes the domestic money supply, so domestic monetary conditions give way to the exchange-rate target and become more volatile.</p><p><b>C is incorrect.</b> Rates move as needed to defend the band; they are not fixed, and they follow the partner country&rsquo;s policy rather than being insulated from it.</p>"
+        },
+        {
+          "id": "cer-21",
+          "topic": "econ",
+          "concept": "Nash equilibrium",
+          "difficulty": "medium",
+          "stem": "<p>Two firms, X and Y, each choose a Premium or Budget product line. The payoffs (profit to X, profit to Y, in USD millions) are:</p><table><tr><th></th><th>Y: Premium</th><th>Y: Budget</th></tr><tr><th>X: Premium</th><td>9, 7</td><td>4, 8</td></tr><tr><th>X: Budget</th><td>10, 3</td><td>6, 5</td></tr></table><p>The Nash equilibrium of this game is:</p>",
+          "options": {
+            "A": "both firms choose Budget.",
+            "B": "both firms choose Premium.",
+            "C": "X chooses Budget and Y chooses Premium."
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> If Y plays Premium, X earns 10 with Budget vs 9 with Premium; if Y plays Budget, X earns 6 vs 4. Budget is X&rsquo;s best response either way. For Y: if X plays Premium, Y earns 8 vs 7; if X plays Budget, 5 vs 3. Budget is also Y&rsquo;s best response, so (Budget, Budget) = (6, 5) is the Nash equilibrium.</p><p><b>B is incorrect.</b> (Premium, Premium) pays the most in total (9 + 7 = 16), but X would gain by switching to Budget (10 &gt; 9), so it is not stable.</p><p><b>C is incorrect.</b> Y would switch to Budget (5 &gt; 3), so this outcome is not a Nash equilibrium even though X earns its highest payoff of 10.</p>"
+        },
+        {
+          "id": "cer-22",
+          "topic": "econ",
+          "concept": "State vs non-state actors",
+          "difficulty": "medium",
+          "stem": "<p>An international non-profit foundation funded by private donors runs health programmes in 20 countries. Which statement about the foundation is most accurate?</p>",
+          "options": {
+            "A": "It is a state actor, because it operates across national borders.",
+            "B": "It is a non-state actor, and it can still influence international relations and, through them, investment performance.",
+            "C": "It is a non-state actor and so cannot influence international relations."
+          },
+          "answer": "B",
+          "explanation": "<p><b>A is incorrect.</b> Operating across borders does not make an organisation a state actor; state actors are governments, political organisations and leaders tied to national security and resources.</p><p><b>B is correct.</b> State actors are national governments, their organisations and leaders. Everyone else, including charities, NGOs and multinationals, is a non-state actor, and such actors can still shape international relations.</p><p><b>C is incorrect.</b> Non-state actors can influence international relations, and through them investment performance, even without governmental authority.</p>"
+        },
+        {
+          "id": "cer-23",
+          "topic": "econ",
+          "concept": "Cross rates",
+          "difficulty": "hard",
+          "stem": "<p>The spot quotes are CHF/NZD 0.5600 and CHF/SEK 0.0850 (CHF per one unit of the base currency). The NZD/SEK cross rate (NZD per one SEK) is closest to:</p>",
+          "options": {
+            "A": "6.588",
+            "B": "0.0476",
+            "C": "0.1518"
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> This is the inverse (SEK per NZD = 0.5600 &divide; 0.0850 = 6.588), the wrong way round for a quote of NZD per SEK.</p><p><b>B is incorrect.</b> This multiplies the quotes (0.0850 &times; 0.5600 = 0.0476). CHF is in the same position in both quotes, so it cancels by dividing, not multiplying.</p><p><b>C is correct.</b> CHF is on top in both quotes, so divide: NZD/SEK = (CHF/SEK) &divide; (CHF/NZD) = 0.0850 &divide; 0.5600 = 0.1518.</p><p><b>BA II Plus:</b> 0.085 &divide; 0.56 = 0.1518.</p>"
+        },
+        {
+          "id": "cer-24",
+          "topic": "econ",
+          "concept": "Price wars and brand loyalty",
+          "difficulty": "easy",
+          "stem": "<p>A market leader with strong brand loyalty faces smaller rivals that cut their prices below cost. The most likely effect on the leader&rsquo;s market share is that it:</p>",
+          "options": {
+            "A": "rises, as loss-making rivals eventually exit the market.",
+            "B": "falls, as customers switch to the cheaper products.",
+            "C": "falls, as the leader is forced to match the price cuts."
+          },
+          "answer": "A",
+          "explanation": "<p><b>A is correct.</b> Loyal customers do not switch for a lower price, and rivals selling below cost lose money and leave, so the leader&rsquo;s share rises.</p><p><b>B is incorrect.</b> Brand loyalty means customers do not switch simply for a lower price.</p><p><b>C is incorrect.</b> A leader with pricing power from differentiation and loyalty does not need to match the cuts.</p>"
+        },
+        {
+          "id": "cer-25",
+          "topic": "econ",
+          "concept": "Inflation targets",
+          "difficulty": "medium",
+          "stem": "<p>Which of the following is <b>LEAST</b> likely to be a reason central banks target inflation of about 2% rather than 0%?</p>",
+          "options": {
+            "A": "A buffer reduces the risk of persistent deflation, in which people delay spending.",
+            "B": "A buffer keeps policy rates from hitting zero, which limits the central bank&rsquo;s room to cut.",
+            "C": "A positive inflation rate permanently raises the economy&rsquo;s potential output growth."
+          },
+          "answer": "C",
+          "explanation": "<p><b>A is incorrect.</b> Avoiding deflation, in which spending is delayed and real debt burdens rise, is a stated reason for aiming above 0%.</p><p><b>B is incorrect.</b> With a 0% target, policy rates are more likely to hit zero in a downturn and leave less room to ease, so a 2% buffer helps. It is a real reason.</p><p><b>C is correct.</b> Inflation does not permanently raise potential output growth, so this is NOT a reason for the target.</p>"
+        }
+      ]
+    }
+  ]
+}

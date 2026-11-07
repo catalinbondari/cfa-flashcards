@@ -18,5 +18,20 @@
     "id": "fsa-redo",
     "title": "FSA redo (MM misses, twin questions)",
     "description": "30 original twin questions on FSA concepts and traps you missed in Mark Meldrum mocks. 45 min."
+  },
+  {
+    "id": "eqpm-redo",
+    "title": "Equity + PM redo (MM misses, twin questions)",
+    "description": "30 original twin questions on equity and portfolio management traps you missed in Mark Meldrum mocks. 45 min."
+  },
+  {
+    "id": "cie-redo",
+    "title": "CI + Econ redo (MM misses, twin questions)",
+    "description": "25 original twin questions on corporate issuers and economics traps you missed in Mark Meldrum mocks. 38 min."
+  },
+  {
+    "id": "etha-redo",
+    "title": "Ethics + Alts redo (MM misses, twin questions)",
+    "description": "25 original twin questions on ethics and alternatives traps you missed in Mark Meldrum mocks. 38 min."
   }
 ]
