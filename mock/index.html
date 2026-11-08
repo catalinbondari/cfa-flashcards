@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Mock Exam</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
 :root{
   --navy:#0f2547; --navy2:#1b3a68; --bg:#eceff4; --paper:#fff; --ink:#1c2430; --soft:#5b6676; --faint:#98a2b1;
@@ -61,68 +63,91 @@ kbd{font:600 12px ui-monospace,Menlo,monospace;background:#f1f4f8;border:1px sol
 .bigclock{font-size:64px;font-weight:700;letter-spacing:.02em;color:var(--navy);font-variant-numeric:tabular-nums;margin:12px 0}
 .bigclock.low{color:var(--red)}
 
-/* exam shell */
-.exam{height:100%;display:grid;grid-template-rows:auto auto 1fr auto}
-.top{background:var(--navy);color:#fff;display:flex;align-items:center;gap:16px;padding:0 16px;min-height:52px}
-.top .title{font-weight:700;letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1 1 0;min-width:0}
-.top .qinfo{font-weight:600;text-align:center;white-space:nowrap}
-.top .qinfo small{opacity:.7;font-weight:500;margin-right:8px}
-.top .timer{flex:1 1 0;display:flex;justify-content:flex-end;align-items:center;gap:10px;white-space:nowrap}
-.tm{font:700 20px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;padding:3px 10px;border-radius:6px;background:rgba(255,255,255,.1)}
-.tm.amber{background:var(--amber);color:#2a1a00}
-.tm.red{background:var(--red);color:#fff;animation:pulse 1.2s ease-in-out infinite}
-@keyframes pulse{50%{opacity:.75}}
-.lnk{background:none;border:0;color:#c9d6ea;text-decoration:underline;font-size:13px;padding:2px}
-.lnk:hover{color:#fff}
-.tools{background:#f7f9fc;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px;padding:7px 16px;overflow-x:auto}
-.tools .sp{flex:1}
-.tools .btn{display:inline-flex;align-items:center;gap:6px}
-.btn.flagged{background:#fdeaea;border-color:var(--flag);color:#a3170e}
-.btn.flagged svg{fill:var(--flag)}
-.tools svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2}
-.xbody{display:flex;min-height:0;position:relative}
-.qarea{overflow:auto;padding:22px 16px 30px;flex:1;min-width:0}
-.side{flex:0 0 196px;background:#fff;border-right:1px solid var(--line);overflow-y:auto;padding:12px 12px 16px}
-.side h4{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--soft)}
-.sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
-.sq{position:relative;aspect-ratio:1;min-height:34px;border:1.5px solid var(--line);border-radius:6px;background:#fff;font-size:13px;font-weight:700;color:var(--soft);padding:0}
-.sq:hover{border-color:var(--blue)}
-.sq.ans{background:var(--navy2);border-color:var(--navy2);color:#fff}
-.sq.cur{border-color:var(--amber);box-shadow:0 0 0 2px var(--amber)}
-.sq .fg{position:absolute;top:-8px;right:-7px;font-size:11px;line-height:1;color:var(--flag);text-shadow:0 0 2px #fff,0 0 2px #fff}
-.sq .fg svg{width:17px;height:17px;fill:var(--flag);stroke:#fff;stroke-width:1.8;paint-order:stroke;display:block}
-.side .legend{margin-top:14px;flex-direction:column;gap:5px}
-.tools .sidebtn{display:none}
-.qcard{max-width:900px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:26px 30px;font-size:var(--qfs)}
-.qlabel{display:flex;align-items:center;gap:10px;font-size:.78em;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--soft);margin-bottom:12px}
-.qlabel .fl{color:var(--flag);display:flex;align-items:center;gap:4px}
-.qlabel svg{width:1.1em;height:1.1em;fill:var(--flag)}
-.stem{overflow-x:auto;margin-bottom:18px}
-.stem p{margin:0 0 .8em}
-.stem table{border-collapse:collapse;margin:.6em 0 1em;max-width:100%}
-.stem th,.stem td{border:1px solid var(--line);padding:5px 12px;text-align:left}
-.stem th{background:#f3f6fa}
-.opts{display:flex;flex-direction:column;gap:10px}
-.opt{display:flex;align-items:flex-start;gap:12px;border:1.5px solid var(--line);border-radius:9px;padding:13px 14px;cursor:pointer;background:#fff;outline:none}
-.opt:hover{border-color:#9db3d1;background:#fafcff}
-.opt:focus-visible{box-shadow:0 0 0 3px rgba(29,90,168,.35)}
-.opt.sel{border-color:var(--blue);background:var(--blue-soft)}
-.radio{flex:0 0 auto;width:20px;height:20px;border-radius:50%;border:2px solid #8896ab;margin-top:.12em;background:#fff;position:relative}
-.opt.sel .radio{border-color:var(--blue)}
-.opt.sel .radio::after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--blue)}
-.olet{font-weight:700;color:var(--navy);flex:0 0 auto}
-.otext{flex:1;min-width:0;user-select:text;-webkit-user-select:text}
-.otext p{margin:0}
-.xbtn{flex:0 0 auto;border:1px solid transparent;background:transparent;color:var(--faint);border-radius:5px;width:28px;height:28px;font-size:15px;line-height:1;margin:-3px -3px -3px 0}
-.xbtn:hover{background:#eef1f6;color:var(--ink);border-color:var(--line)}
-.opt.struck{background:#f4f5f7;border-style:dashed;cursor:not-allowed}
-.opt.struck .otext,.opt.struck .olet{text-decoration:line-through;color:#a3acba}
-.opt.struck .radio{border-color:#c5ccd7;background:#eef0f3}
-.opt.struck .xbtn{color:var(--red);border-color:#f0b9bb;background:#fff}
-mark.hl{background:var(--hl);color:inherit;padding:0}
-.bottom{background:#fff;border-top:1px solid var(--line);display:flex;align-items:center;gap:10px;padding:10px 16px}
-.bottom .sp{flex:1}
-.bottom .summary{color:var(--soft);font-size:13px}
+/* exam shell: Prometric CFA exam look (matches the official tutorial) */
+body.inexam{background:#dfe7eb}
+.exam{height:100%;display:flex;flex-direction:column;position:relative;background:#fff;font-family:"Open Sans","Source Sans Pro",Arial,sans-serif;color:#333;overflow:hidden}
+.xh{background:#4d4c4d;color:#fff;height:57px;flex:0 0 57px;display:flex;align-items:center;padding:0 13px;gap:12px;font-size:15px;line-height:19px}
+.xh b{font-weight:700}
+.xh .xl{flex:1 1 0;min-width:0;white-space:nowrap}
+.xh .xclk{display:flex;align-items:center;gap:7px;background:none;border:0;color:#fff;padding:2px 4px;text-align:left;font-size:16px;line-height:19px;position:relative}
+.xh .xclk svg{width:28px;height:28px;flex:0 0 28px}
+.xh .xclk .tv{font-variant-numeric:tabular-nums}
+.xh .xr{flex:1 1 0;display:flex;justify-content:flex-end;align-items:center;gap:28px}
+.xprog{width:120px;text-align:center;font-size:12px;line-height:16px}
+.xprog .trk{height:14px;background:#e9ecef;border-radius:7px;overflow:hidden;margin-bottom:3px}
+.xprog .trk i{display:block;height:100%;background:#8cc63f;border-radius:7px}
+.xfin{background:#fff8dc;color:#4d4c4d;border:0;border-radius:3px;font-weight:700;font-size:16px;width:165px;height:41px}
+.xfin:hover{background:#fff2c2}
+.talert{position:absolute;top:calc(100% + 6px);left:50%;transform:translateX(-50%);background:#fff8dc;color:#4d4c4d;border:2px solid #c58b2b;border-radius:3px;padding:4px 10px;font-size:13px;font-weight:700;white-space:nowrap;z-index:20}
+.xg{background:#8cc63f;color:#fff;height:25px;flex:0 0 25px;display:flex;align-items:center;justify-content:space-between;padding:0 12px;font-size:15px;white-space:nowrap;overflow:hidden;gap:12px}
+.xg span{overflow:hidden;text-overflow:ellipsis}
+.xb{flex:1 1 auto;display:flex;min-height:0;padding:4px 4px 4px 0}
+.xnav{flex:0 0 136px;overflow-y:auto;padding:4px 0 8px}
+.nv{display:flex;align-items:center;justify-content:center;gap:5px;position:relative;width:108px;height:24px;margin:0 0 4px 16px;background:#8cc63f;color:#fff;font:400 12px "Open Sans",Arial,sans-serif;border:0;border-radius:3px;padding:0}
+.nv:hover{filter:brightness(1.06)}
+.nv.att{background:#4d4c4d}
+.nv.att::before{content:"";position:absolute;left:0;top:0;border-top:11px solid #fff;border-right:11px solid #b9bfc3}
+.nv.cur{width:118px;border-radius:3px 0 0 3px;clip-path:polygon(0 0,calc(100% - 11px) 0,100% 50%,calc(100% - 11px) 100%,0 100%)}
+.nv svg{width:11px;height:11px;fill:#fff}
+.xc{flex:1 1 auto;min-width:0;overflow:auto;border:1px solid #b5b5b5;border-radius:4px;padding:20px 20px 30px;background:var(--cbg,#fff);color:var(--cfg,#000);font:16px/1.43 Arial,Helvetica,sans-serif}
+.xc .stem{background:var(--sbg,#f4f6f7);padding:12px 10px;margin:0 0 25px;overflow-x:auto}
+.xc .stem p{margin:0 0 .7em}.xc .stem p:last-child{margin-bottom:0}
+.xc .stem th,.xc .stem td{border:1px solid #9aa3a8;padding:5px 12px}
+.xc .stem th{background:rgba(0,0,0,.05)}
+.orow{display:flex;align-items:flex-start;gap:12px;margin:0 0 16px}
+.olet{flex:0 0 16px;color:var(--cfg,#333);padding-top:9px}
+.obox{flex:1;min-width:0;border:3px solid #444;border-radius:2px;padding:10px 11px;min-height:48px;background:var(--cbg,#fff);color:var(--cfg,#000);cursor:pointer;outline:none}
+.obox p{margin:0}
+.obox:focus-visible{box-shadow:0 0 0 3px rgba(140,198,63,.6)}
+.obox.sel{background:#fff8dc;border-color:#c58b2b;color:#000}
+.orow.struck .olet,.orow.struck .obox{text-decoration:line-through}
+mark.hl{background:#fff35c;color:#000;padding:0}
+.xf{flex:0 0 56px;background:#4d4c4d;border-top:4px solid #8cc63f;display:flex;align-items:center;padding:0 7px 0 9px;gap:10px}
+.xf .ic{background:none;border:0;padding:0;width:36px;height:36px;display:flex;align-items:center;justify-content:center}
+.xf .ic svg{width:34px;height:34px;fill:#fff}
+.xf .sp{flex:1}
+.gb{background:#8cc63f;color:#fff;border:0;border-radius:3px;height:41px;padding:0 14px;font:700 16px "Open Sans",Arial,sans-serif;display:inline-flex;align-items:center;gap:7px}
+.gb:hover:not(:disabled){filter:brightness(1.05)}
+.gb:disabled{opacity:.55;cursor:default}
+.gb svg{width:14px;height:14px;fill:none;stroke:#fff;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.gb.flagbtn{width:44px;padding:0;justify-content:center}
+.gb.flagbtn svg{width:20px;height:20px;fill:#fff;stroke:none}
+.gb.flagbtn.on{background:#6b9a2b;box-shadow:inset 0 2px 5px rgba(0,0,0,.35)}
+/* side panels (section review, preferences) */
+.xpanel{position:absolute;left:0;top:0;bottom:0;z-index:30;display:flex;flex-direction:column;background:#fff;box-shadow:3px 0 10px rgba(0,0,0,.25)}
+.xpanel .ph{background:#4d4c4d;color:#fff;display:flex;align-items:center;gap:12px;padding:0 15px;height:57px;flex:0 0 57px;font-size:16px;font-weight:700}
+.xpanel .ph .sp{flex:1}
+.xpanel .ph button{background:none;border:0;color:#fff;padding:2px;display:flex}
+.xpanel .ph svg{width:20px;height:20px;fill:#fff}
+.xpanel .pfoot{flex:0 0 56px;background:#4d4c4d;border-top:4px solid #8cc63f}
+.rv{width:372px}
+.rv .flt{background:#ced8dd;padding:14px 17px 20px;position:relative;font-size:15px;font-weight:700;color:#3d505a}
+.rv .flt label{display:flex;align-items:center;gap:10px;margin-top:10px;font-size:14px;cursor:pointer}
+.rv .flt input{width:18px;height:18px;margin:0}
+.rv .clr{position:absolute;right:20px;bottom:20px;background:#8cc63f;color:#fff;border:0;border-radius:3px;height:40px;padding:0 13px;font-size:17px}
+.rv .clr:disabled{opacity:.55}
+.rv .grid{flex:1;overflow-y:auto;padding:18px 10px;display:flex;flex-wrap:wrap;align-content:flex-start;gap:7px 12px}
+.rv .grid .nv{margin:0;width:90px}
+.rv .grid .nv.cur{width:100px}
+.pf{width:320px;background:#ced8dd}
+.pf .list{flex:1;overflow-y:auto;padding:14px 22px;display:flex;flex-direction:column;gap:12px}
+.pf .sw{border:4px solid #fff;border-radius:2px;padding:14px 12px;text-align:left;font:14px Arial,sans-serif;min-height:64px}
+.pf .sw.on{border-color:#000;box-shadow:0 0 0 3px #8cc63f}
+.pf .pb{flex:0 0 84px;background:#a6b7c0;display:flex;align-items:center;justify-content:center;gap:16px}
+.pf .pb button{background:#4d4c4d;color:#fff;border:0;border-radius:3px;width:108px;height:30px;font-size:14px}
+/* confirm finish + help dialogs */
+.cfback{position:fixed;inset:0;background:rgba(0,0,0,.45);display:flex;align-items:center;justify-content:center;padding:16px;z-index:50}
+.cf{background:#fff;width:100%;max-width:484px;border-radius:3px;box-shadow:0 8px 30px rgba(0,0,0,.4);font-family:"Open Sans",Arial,sans-serif;overflow:hidden}
+.cf .ch{background:#4d4c4d;color:#fff;font-weight:700;font-size:16px;padding:9px 12px}
+.cf .cb{padding:26px 34px 22px;text-align:center;color:#4d4c4d;font-weight:700;font-size:15px}
+.cf .cb > svg{width:64px;height:58px;display:block;margin:0 auto 18px}
+.cf .cb p{margin:0 0 12px}
+.cf .cb .btns{display:flex;justify-content:center;gap:14px;margin-top:26px}
+.cf.help{max-width:640px}
+.cf.help .cb{text-align:left;font-weight:400;font-size:14.5px;line-height:1.5;color:#333;max-height:70vh;overflow:auto}
+.cf.help .cb h4{margin:14px 0 4px;font-size:15px}
+.hlfloat{position:fixed;z-index:40;width:46px;height:46px;background:#8cc63f;border:2px solid #fff;border-radius:3px;box-shadow:0 2px 8px rgba(0,0,0,.35);display:flex;align-items:center;justify-content:center;padding:0;cursor:pointer}
+.hlfloat svg{width:26px;height:26px;fill:#fff}
 
 /* modals */
 .mback{position:fixed;inset:0;background:rgba(15,37,71,.55);display:flex;align-items:center;justify-content:center;padding:16px;z-index:50}
@@ -143,6 +168,11 @@ mark.hl{background:var(--hl);color:inherit;padding:0}
 .legend i.c{border-color:var(--amber);box-shadow:0 0 0 2px var(--amber)}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 
+.stem{overflow-x:auto;margin-bottom:18px}
+.stem p{margin:0 0 .8em}
+.stem table{border-collapse:collapse;margin:.6em 0 1em;max-width:100%}
+.stem th,.stem td{border:1px solid var(--line);padding:5px 12px;text-align:left}
+.stem th{background:#f3f6fa}
 /* results */
 .rtop{background:var(--navy);color:#fff}
 .rtop .in{max-width:920px;margin:0 auto;padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
@@ -178,23 +208,15 @@ textarea.code{width:100%;height:110px;font:12px ui-monospace,Menlo,monospace;bor
 
 @media (max-width:700px){
   .page{padding-top:18px}
-  .top{flex-wrap:wrap;gap:4px 10px;padding:6px 12px}
-  .top .title{flex:1 1 100%;order:1;font-size:13px;opacity:.85}
-  .top .qinfo{order:2;flex:1;text-align:left}
-  .top .timer{order:3;flex:0 0 auto}
-  .tm{font-size:17px}
-  .qcard{padding:16px 14px}
-  .qarea{padding:12px 8px 20px}
-  .tools .sidebtn{display:inline-flex}
-  .side{display:none;position:absolute;z-index:5;top:0;bottom:0;left:0;width:min(250px,80vw);box-shadow:4px 0 16px rgba(0,0,0,.2)}
-  .side.open{display:block}
-  .sgrid{grid-template-columns:repeat(5,1fr)}
-  .opt{padding:11px 10px;gap:9px}
-  .bottom{padding:8px 10px;gap:6px;flex-wrap:wrap}
-  .bottom .summary{display:none}
-  .bottom .btn{padding:8px 11px}
   .bigclock{font-size:48px}
   .modal{padding:16px}
+  .xh{gap:8px;font-size:13px;padding:0 8px}
+  .xprog{display:none}
+  .xfin{width:auto;padding:0 10px;font-size:14px}
+  .xnav{flex-basis:70px}
+  .nv{width:52px;margin-left:6px}.nv.cur{width:60px}
+  .xc{padding:12px}
+  .rv,.pf{width:min(372px,92vw)}
 }
 </style>
 </head>
@@ -226,7 +248,8 @@ let lastSave = 0;
 let lastTick = Date.now();
 let toastTimer = null;
 let prefs = { zoom: 2, hideTimer: false };
-const ui = { modal: null, filter: 'all', rfilter: 'all', scope: null, notice: null, expand: false };
+const ui = { modal: null, filter: 'all', rfilter: 'all', scope: null, notice: null, expand: false,
+  review: false, reviewLock: false, rv: { un: 0, att: 0, fl: 0 }, prefsOpen: false, schemeTmp: 0, clockMode: 'sec', al: {}, alertUntil: 0, alertText: '' };
 
 try { Object.assign(prefs, JSON.parse(localStorage.getItem(PREF_KEY) || '{}')); } catch (e) {}
 function savePrefs() { try { localStorage.setItem(PREF_KEY, JSON.stringify(prefs)); } catch (e) {} }
@@ -343,7 +366,7 @@ function resultsCode(scope) {
 /* ---------- actions ---------- */
 function pick(k) {
   const q = curQ(), st = qst(q.id);
-  if (!(k in q.options) || st.x.includes(k)) return;
+  if (!(k in q.options)) return;
   st.a = st.a === k ? null : k;
   save(true); render();
 }
@@ -352,7 +375,7 @@ function strike(k) {
   if (!(k in q.options)) return;
   const i = st.x.indexOf(k);
   if (i >= 0) st.x.splice(i, 1);
-  else { st.x.push(k); if (st.a === k) st.a = null; }
+  else st.x.push(k);
   save(true); render();
 }
 function flag() { const st = qst(curQ().id); st.f = st.f ? 0 : 1; save(true); render(); }
@@ -465,11 +488,14 @@ function render() {
   else if (v === 'break') html = rBreak();
   else if (v === 'results') html = rResults();
   html += rModal(v);
+  removeFloat();
+  document.body.classList.toggle('inexam', v === 'exam');
   root.innerHTML = html;
   if (v === 'exam') {
     const q = curQ(), st = qst(q.id);
     document.title = M.title + ' - Q' + (S.cur[S.si] + 1);
     root.querySelectorAll('[data-hl]').forEach(c => applyHL(c, st.h[c.dataset.hl]));
+    root.querySelectorAll('.xnav .nv.cur, .rv .grid .nv.cur').forEach(b => b.scrollIntoView({ block: 'nearest' }));
   } else document.title = M ? M.title : 'Mock Exam';
   updateTimer();
 }
@@ -511,11 +537,11 @@ function rIntro() {
     <div class="card"><table class="simple"><tr><th>Session</th><th class="n">Questions</th><th class="n">Time</th></tr>${rows}</table>
     <h2 style="margin-top:20px">Before you begin</h2>
     <ul class="tips">
-      <li>Each session has its own countdown. It starts when you press the button below and keeps running if you close the tab.</li>
-      <li>Between sessions you may take an optional break of up to ${M.breakMinutes || 30} minutes. When it ends, the next session starts automatically.</li>
-      <li>Once you end a session you cannot go back to it, and the next one cannot be opened until you do.</li>
-      <li>Each option has a <b>&#10005;</b> button (or right-click) to strike it out. Select text and press <kbd>H</kbd> to highlight.</li>
-      <li>Keys: <kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> answer, <kbd>&larr;</kbd> <kbd>&rarr;</kbd> move, <kbd>F</kbd> flag, <kbd>H</kbd> highlight.</li>
+      <li>The exam screen copies the official CFA/Prometric software: Finish Test top right, Flag / Back / Next bottom right, question buttons on the left.</li>
+      <li>Each section has its own countdown, which keeps running if you close the tab. Click the clock to switch Section / Exam time. Alerts at 30, 15 and 5 minutes.</li>
+      <li>Between sections you may take an optional break of up to ${M.breakMinutes || 30} minutes. When it ends, the next section starts automatically.</li>
+      <li>Right-click an option to strike it out. Drag over question text and click the green highlight button. The grid icon (bottom left) opens Section Review; the gear changes colours; ? shows help.</li>
+      <li>Once you finish a section you cannot go back to it.</li>
     </ul>
     <div class="acts" style="margin-top:20px"><button class="btn primary" data-act="begin">Begin ${esc(M.sessions[0].name)}</button>
     ${touched ? `<button class="btn" data-act="reset-ask" data-id="${esc(ID)}" data-title="${esc(M.title)}">Reset this mock</button>` : ''}</div></div></div>`;
@@ -535,48 +561,94 @@ function rBreak() {
     </div></div></div>`;
 }
 
+const CANDIDATE = 'Catalin';
+const SCHEMES = [
+  { name: 'Default Color Scheme', bg: '#fff', fg: '#000', sbg: '#f4f6f7' },
+  { name: 'Black Text with Cream Background', bg: '#fafac8', fg: '#000' },
+  { name: 'Blue Text with White Background', bg: '#fff', fg: '#0000c8' },
+  { name: 'Black Text with Yellow Background', bg: '#ffff00', fg: '#000' },
+  { name: 'Black Text with White Background', bg: '#fff', fg: '#000' },
+  { name: 'Yellow Text with Black Background', bg: '#000', fg: '#ffff00' },
+  { name: 'Light blue Text with Black Background', bg: '#000', fg: '#9fd6ff' },
+  { name: 'Black Text with Light green Background', bg: '#aefc92', fg: '#000' },
+  { name: 'Black Text with Light magenta Background', bg: '#f9adde', fg: '#000' }
+];
+const IC = {
+  clock: '<svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l-3.5 3.5" stroke-linecap="round"/></svg>',
+  flag: '<svg viewBox="0 0 24 24"><path d="M4 2h2v20H4zM7 3h13l-3.5 5L20 13H7z"/></svg>',
+  gear: '<svg viewBox="0 0 24 24"><path d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6-2-3.5-2.5 1a7.4 7.4 0 0 0-1.7-1L15 3.3h-4l-.4 2.6a7.4 7.4 0 0 0-1.7 1l-2.5-1-2 3.5L6.5 11a7.6 7.6 0 0 0 0 2l-2.1 1.6 2 3.5 2.5-1a7.4 7.4 0 0 0 1.7 1l.4 2.6h4l.4-2.6a7.4 7.4 0 0 0 1.7-1l2.5 1 2-3.5zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>',
+  grid: '<svg viewBox="0 0 24 24"><g>' + [2, 9.5, 17].map(y => [2, 9.5, 17].map(x => `<rect x="${x}" y="${y}" width="5.5" height="5" rx="1.2"/>`).join('')).join('') + '</g></svg>',
+  help: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="11"/><path d="M9.2 9.3a2.9 2.9 0 1 1 4.3 2.5c-.9.5-1.4 1-1.4 2v.6" fill="none" stroke="#4d4c4d" stroke-width="2.4" stroke-linecap="round"/><circle cx="12.1" cy="17.6" r="1.4" fill="#4d4c4d"/></svg>',
+  lockOpen: '<svg viewBox="0 0 24 24"><path d="M17 10V7a5 5 0 0 0-9.8-1.4l1.9.6A3 3 0 0 1 15 7v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2z"/></svg>',
+  lock: '<svg viewBox="0 0 24 24"><path d="M17 10V7A5 5 0 0 0 7 7v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2zM9 7a3 3 0 0 1 6 0v3H9z"/></svg>',
+  x: '<svg viewBox="0 0 24 24"><path d="M5.3 3.9 12 10.6l6.7-6.7 1.4 1.4-6.7 6.7 6.7 6.7-1.4 1.4-6.7-6.7-6.7 6.7-1.4-1.4 6.7-6.7-6.7-6.7z"/></svg>',
+  warn: '<svg viewBox="0 0 64 58"><path d="M32 2 62 56H2z" fill="#f5c26b" stroke="#f5c26b" stroke-width="3" stroke-linejoin="round"/><rect x="29" y="18" width="6" height="22" rx="3" fill="#fff"/><circle cx="32" cy="47" r="3.6" fill="#fff"/></svg>',
+  pen: '<svg viewBox="0 0 24 24"><path d="M15.2 3.6 20.4 8.8 10.8 18.4H5.6v-5.2zM4 20h9v2H4z"/></svg>',
+  chevL: '<svg viewBox="0 0 14 14"><path d="M9 2 4 7l5 5"/></svg>',
+  chevR: '<svg viewBox="0 0 14 14"><path d="M5 2l5 5-5 5"/></svg>',
+  check: '<svg viewBox="0 0 14 14"><path d="M2 7.5 5.5 11 12 3.5"/></svg>',
+  cross: '<svg viewBox="0 0 14 14"><path d="M3 3l8 8M11 3l-8 8"/></svg>'
+};
+function schemeVars(i) {
+  const s = SCHEMES[i] || SCHEMES[0];
+  return `--cbg:${s.bg};--cfg:${s.fg};--sbg:${s.sbg || s.bg}`;
+}
+function navBtn(qs, n, cur) {
+  const s2 = qst(qs[n].id);
+  return `<button class="nv${s2.a ? ' att' : ''}${n === cur ? ' cur' : ''}" data-act="goto" data-i="${n}" aria-label="Question ${n + 1}${s2.a ? ', attempted' : ', unattempted'}${s2.f ? ', flagged' : ''}"${n === cur ? ' aria-current="true"' : ''}>${n + 1}${s2.f ? IC.flag : ''}</button>`;
+}
+function examLeftSec(now) {
+  let left = (S.ses[S.si].end - now) / 1000;
+  for (let k = S.si + 1; k < M.sessions.length; k++) left += M.sessions[k].minutes * 60;
+  return left;
+}
+
 function rExam() {
   const si = S.si, ses = M.sessions[si], qs = ses.questions, i = S.cur[si], q = qs[i], st = qst(q.id);
+  const att = qs.filter(x => qst(x.id).a).length;
+  const prog = Math.round(att / qs.length * 100);
   const opts = Object.keys(q.options).map(k => {
     const struck = st.x.includes(k), sel = st.a === k;
-    return `<div class="opt${sel ? ' sel' : ''}${struck ? ' struck' : ''}" role="radio" aria-checked="${sel}" aria-disabled="${struck}" tabindex="0" data-act="pick" data-k="${k}">
-      <span class="radio"></span><span class="olet">${k}.</span><span class="otext" data-hl="${k}">${q.options[k]}</span>
-      <button class="xbtn" data-act="strike" data-k="${k}" title="${struck ? 'Remove strikethrough' : 'Strike out this option (or right-click)'}" aria-label="${struck ? 'Remove strikethrough from' : 'Strike out'} option ${k}" aria-pressed="${struck}">&#10005;</button></div>`;
+    return `<div class="orow${struck ? ' struck' : ''}"><span class="olet">${k}</span><div class="obox${sel ? ' sel' : ''}" role="radio" aria-checked="${sel}" tabindex="0" data-act="pick" data-k="${k}">${q.options[k]}</div></div>`;
   }).join('');
-  const answered = qs.filter(x => qst(x.id).a).length, flagged = qs.filter(x => qst(x.id).f).length;
-  const last = i === qs.length - 1;
-  const flagSvg = '<svg viewBox="0 0 24 24" stroke-linejoin="round"><path d="M5 21V4m0 0h12l-2 4 2 4H5"/></svg>';
-  const miniFlag = '<svg viewBox="0 0 24 24" stroke-linejoin="round"><path d="M5 21V4h13l-3 4.5L18 13H5"/></svg>';
-  const sq = qs.map((x, n) => { const s2 = qst(x.id); return `<button class="sq${s2.a ? ' ans' : ''}${n === i ? ' cur' : ''}" data-act="goto" data-i="${n}" title="Question ${n + 1}${s2.a ? ', answered' : ', unanswered'}${s2.f ? ', flagged' : ''}" aria-label="Question ${n + 1}${s2.a ? ' answered' : ' unanswered'}${s2.f ? ' flagged' : ''}"${n === i ? ' aria-current="true"' : ''}>${n + 1}${s2.f ? `<span class="fg">${miniFlag}</span>` : ''}</button>`; }).join('');
-  return `<div class="exam">
-    <header class="top"><div class="title">${esc(M.title)}</div>
-      <div class="qinfo"><small>${esc(ses.name)}</small>Question ${i + 1} of ${qs.length}</div>
-      <div class="timer">${prefs.hideTimer
-        ? '<span class="lnk" style="text-decoration:none;opacity:.8">Timer hidden</span><button class="lnk" data-act="timer">Show</button>'
-        : '<span class="tm" id="tm">--:--:--</span><button class="lnk" data-act="timer">Hide</button>'}</div></header>
-    <div class="tools">
-      <button class="btn sm sidebtn" data-act="side">&#9776; Questions</button>
-      <button class="btn sm" data-act="hl" onmousedown="event.preventDefault()" title="Select text, then press H">&#9998; Highlight</button>
-      <button class="btn sm" data-act="hlclear" ${Object.keys(st.h).length ? '' : 'disabled'}>Clear highlights</button>
-      <button class="btn sm${st.f ? ' flagged' : ''}" data-act="flag" aria-pressed="${!!st.f}" title="Flag for review (F)">${flagSvg} ${st.f ? 'Flagged' : 'Flag for review'}</button>
-      <span class="sp"></span>
-      <button class="btn sm" data-act="zout" aria-label="Smaller text" ${prefs.zoom === 0 ? 'disabled' : ''}>A&minus;</button>
-      <button class="btn sm" data-act="zin" aria-label="Larger text" ${prefs.zoom === ZOOMS.length - 1 ? 'disabled' : ''}>A+</button>
-    </div>
-    <div class="xbody"><aside class="side${ui.side ? ' open' : ''}" id="side" aria-label="Question list"><h4>${esc(ses.name)}</h4><div class="sgrid">${sq}</div>
-      <div class="legend"><span><i class="a"></i>Answered</span><span><i></i>Unanswered</span><span><i class="f"></i>Flagged</span><span><i class="c"></i>Current</span></div></aside>
-    <main class="qarea" id="qarea"><article class="qcard">
-      <div class="qlabel"><span>Question ${i + 1}</span>${st.f ? `<span class="fl">${flagSvg} Flagged for review</span>` : ''}</div>
-      <div class="stem" data-hl="stem">${q.stem}</div>
-      <div class="opts" role="radiogroup">${opts}</div>
-    </article></main></div>
-    <footer class="bottom">
-      <button class="btn" data-act="prev" ${i === 0 ? 'disabled' : ''}>&larr; Previous</button>
-      ${last ? '<button class="btn primary" data-act="nav">Review</button>' : '<button class="btn primary" data-act="next">Next &rarr;</button>'}
-      <button class="btn" data-act="nav">Navigator</button>
-      <span class="sp summary">${answered} answered &middot; ${qs.length - answered} unanswered &middot; ${flagged} flagged</span>
-      <button class="btn danger" data-act="end-ask">End session</button>
-    </footer></div>`;
+  const nav = qs.map((_, n) => navBtn(qs, n, i)).join('');
+  const sessLabel = M.sessions.length > 1 ? String(si + 1) : '1';
+  let panel = '';
+  if (ui.review) {
+    const f = ui.rv;
+    const any = f.un || f.att || f.fl;
+    const shown = qs.map((x, n) => ({ n, s2: qst(x.id) })).filter(o => !any || (f.un && !o.s2.a) || (f.att && o.s2.a) || (f.fl && o.s2.f));
+    panel = `<div class="xpanel rv" role="dialog" aria-label="Section Review"><div class="ph">Section Review<span class="sp"></span>
+      <button data-act="rv-lock" title="${ui.reviewLock ? 'Unlock Panel' : 'Lock Panel'}">${ui.reviewLock ? IC.lock : IC.lockOpen}</button>
+      <button data-act="rv-close" title="Close">${IC.x}</button></div>
+      <div class="flt">Filter by:
+        <label><input type="checkbox" data-act="rv-f" data-f="un"${f.un ? ' checked' : ''}> Unattempted</label>
+        <label><input type="checkbox" data-act="rv-f" data-f="att"${f.att ? ' checked' : ''}> Attempted</label>
+        <label><input type="checkbox" data-act="rv-f" data-f="fl"${f.fl ? ' checked' : ''}> Flagged</label>
+        <button class="clr" data-act="rv-clear"${any ? '' : ' disabled'}>&#10005; Clear</button></div>
+      <div class="grid">${shown.map(o => navBtn(qs, o.n, i)).join('') || '<span style="color:#666;font-size:14px">No questions match this filter.</span>'}</div>
+      <div class="pfoot"></div></div>`;
+  } else if (ui.prefsOpen) {
+    const cur = ui.schemeTmp;
+    panel = `<div class="xpanel pf" role="dialog" aria-label="Preferences"><div class="ph">${IC.gear} Preferences</div>
+      <div class="list">${SCHEMES.map((s, n) => `<button class="sw${n === cur ? ' on' : ''}" data-act="pf-pick" data-n="${n}" style="background:${n === 0 ? '#8cc63f' : s.bg};color:${n === 0 ? '#fff' : s.fg}">${esc(s.name)}</button>`).join('')}</div>
+      <div class="pb"><button data-act="pf-ok">OK</button><button data-act="pf-cancel">Cancel</button></div></div>`;
+  }
+  return `<div class="exam" style="${schemeVars(prefs.scheme || 0)}">
+    <header class="xh"><div class="xl"><b>Question:</b> ${i + 1}<br><b>Section:</b> ${esc(sessLabel)}</div>
+      <button class="xclk" data-act="clock" title="Switch between section and exam time">${IC.clock}<span><span id="tml">${ui.clockMode === 'exam' ? 'Exam' : 'Section'} Time Remaining:</span><br><span class="tv" id="tm">--:--:--</span></span><span class="talert" id="talert" hidden></span></button>
+      <div class="xr"><div class="xprog"><div class="trk"><i style="width:${prog}%"></i></div>Progress ${prog}%</div>
+      <button class="xfin" data-act="end-ask">Finish Test</button></div></header>
+    <div class="xg"><span><b>Test:</b> ${esc(M.title)}</span><span><b>Candidate</b>: ${CANDIDATE}</span></div>
+    <div class="xb"><nav class="xnav" aria-label="Questions">${nav}</nav>
+      <main class="xc" id="qarea"><div class="stem" data-hl="stem">${q.stem}</div><div role="radiogroup">${opts}</div></main></div>
+    <footer class="xf"><button class="ic" data-act="prefs" title="Preferences">${IC.gear}</button>
+      <button class="ic" data-act="review" title="Section Review">${IC.grid}</button>
+      <button class="ic" data-act="help" title="Information">${IC.help}</button><span class="sp"></span>
+      <button class="gb flagbtn${st.f ? ' on' : ''}" data-act="flag" aria-pressed="${!!st.f}" title="${st.f ? 'Remove flag' : 'Flag for review'}">${IC.flag}</button>
+      <button class="gb" data-act="prev"${i === 0 ? ' disabled' : ''}>${IC.chevL} Back</button>
+      <button class="gb" data-act="next"${i === qs.length - 1 ? ' disabled' : ''}>Next ${IC.chevR}</button></footer>
+    ${panel}</div>`;
 }
 
 function rModal(v) {
@@ -591,30 +663,63 @@ function rModal(v) {
   const si = S.si, qs = M.sessions[si].questions;
   if (m.type === 'end') {
     const un = qs.filter(x => !qst(x.id).a).length, fl = qs.filter(x => qst(x.id).f).length;
-    const lastS = si === M.sessions.length - 1;
-    return `<div class="mback" data-act="mclose"><div class="modal" role="dialog" aria-modal="true">
-      <h3>End ${esc(M.sessions[si].name)}?</h3>
-      <p>You have <b>${un}</b> unanswered and <b>${fl}</b> flagged question${fl === 1 ? '' : 's'}.</p>
-      <p class="muted">Once you end this session you cannot return to it${lastS ? '. Your results will be shown.' : ', and the next session can then be started after an optional break.'}</p>
-      <div class="foot"><button class="btn" data-act="mclose">Keep working</button><button class="btn danger" data-act="end-do">End session</button></div></div></div>`;
+    const line = un && fl ? 'You have not attempted all of the questions in this test, and some have been flagged.'
+      : un ? 'You have not attempted all of the questions in this test.'
+      : fl ? 'Some questions in this test have been flagged.' : '';
+    return `<div class="cfback" data-act="mclose"><div class="cf" role="dialog" aria-modal="true"><div class="ch">Confirm Finish</div>
+      <div class="cb">${IC.warn}${line ? `<p>${line}</p>` : ''}<p>Are you sure you would like to finish the test?</p>
+      <div class="btns"><button class="gb" data-act="end-do">${IC.check} Finish</button><button class="gb" data-act="mclose">${IC.cross} Cancel</button></div></div></div></div>`;
   }
-  if (m.type === 'nav') {
-    const cur = S.cur[si];
-    const shown = qs.map((q, i) => ({ q, i, st: qst(q.id) })).filter(o => ui.filter === 'all' || (ui.filter === 'un' && !o.st.a) || (ui.filter === 'flag' && o.st.f));
-    const un = qs.filter(x => !qst(x.id).a).length, fl = qs.filter(x => qst(x.id).f).length;
-    const cells = shown.map(o => `<button class="nb${o.st.a ? ' ans' : ''}${o.st.f ? ' flag' : ''}${o.i === cur ? ' cur' : ''}" data-act="goto" data-i="${o.i}" title="${o.st.a ? 'Answered' : 'Unanswered'}${o.st.f ? ', flagged' : ''}">${o.i + 1}</button>`).join('');
-    return `<div class="mback" data-act="mclose"><div class="modal wide" role="dialog" aria-modal="true">
-      <h3>Navigator &middot; ${esc(M.sessions[si].name)}</h3>
-      <div class="muted">${qs.length - un} answered &middot; ${un} unanswered &middot; ${fl} flagged</div>
-      <div class="filters">
-        <button class="chip${ui.filter === 'all' ? ' on' : ''}" data-act="filter" data-f="all">All (${qs.length})</button>
-        <button class="chip${ui.filter === 'un' ? ' on' : ''}" data-act="filter" data-f="un">Unanswered (${un})</button>
-        <button class="chip${ui.filter === 'flag' ? ' on' : ''}" data-act="filter" data-f="flag">Flagged (${fl})</button></div>
-      <div class="navgrid">${cells || '<div class="muted" style="grid-column:1/-1">No questions match this filter.</div>'}</div>
-      <div class="legend"><span><i class="a"></i>Answered</span><span><i></i>Unanswered</span><span><i class="f"></i>Flagged (corner)</span><span><i class="c"></i>Current</span></div>
-      <div class="foot"><button class="btn danger" data-act="end-ask">End session</button><button class="btn primary" data-act="mclose">Back to question</button></div></div></div>`;
+  if (m.type === 'help') {
+    return `<div class="cfback" data-act="mclose"><div class="cf help" role="dialog" aria-modal="true"><div class="ch">Information</div><div class="cb">
+      <h4>Navigating</h4>Use <b>Next</b> and <b>Back</b>, or the numbered buttons on the left. The current question has an arrow-shaped button, attempted questions are dark, unattempted stay green, and flagged ones show a flag.
+      <h4>Time remaining</h4>Click the clock to switch between Section and Exam Time Remaining. Alerts appear below the clock at 30, 15 and 5 minutes.
+      <h4>Answering</h4>Click an option to select it; click it again to unselect. Right-click an option to strike it out, and right-click again to remove the strikeout. You can still select a struck-out option.
+      <h4>Flagging</h4>Click the flag button at the bottom to flag the question; click it again to remove the flag.
+      <h4>Highlighting</h4>Drag over question text, then click the highlight button that appears. Click highlighted text and the button again to remove it. Answer options cannot be highlighted.
+      <h4>Section Review</h4>The grid icon at the bottom left lists every question, with filters for unattempted, attempted and flagged. The padlock keeps the panel open.
+      <h4>Magnification</h4>Ctrl and + or &minus; (&#8984; on a Mac), or Ctrl and the scroll wheel. The gear icon changes the colour scheme.
+      <h4>Finishing</h4>Click <b>Finish Test</b> in the top right, then <b>Finish</b> to submit the section. You cannot return to a finished section. Unanswered questions score zero; there is no penalty for wrong answers.
+      <div class="btns" style="justify-content:flex-end"><button class="gb" data-act="mclose">Close</button></div></div></div></div>`;
   }
   return '';
+}
+
+/* highlight button that appears after selecting question text (tutorial page 11) */
+let hlFloatEl = null;
+function removeFloat() { if (hlFloatEl) { hlFloatEl.remove(); hlFloatEl = null; } }
+function showFloat(rect, onClick) {
+  removeFloat();
+  const b = document.createElement('button');
+  b.className = 'hlfloat'; b.title = 'Highlight'; b.setAttribute('aria-label', 'Highlight'); b.innerHTML = IC.pen;
+  const x = Math.min(window.innerWidth - 56, Math.max(8, rect.left + rect.width / 2 - 23));
+  const y = Math.min(window.innerHeight - 56, rect.bottom + 6);
+  b.style.left = x + 'px'; b.style.top = y + 'px';
+  b.addEventListener('mousedown', e => e.preventDefault());
+  b.addEventListener('click', e => { e.stopPropagation(); removeFloat(); onClick(); });
+  document.body.appendChild(b); hlFloatEl = b;
+}
+function hlAfterMouseUp(e) {
+  if (view() !== 'exam' || ui.modal) return;
+  const stem = document.querySelector('.xc .stem[data-hl]');
+  if (!stem) return;
+  const sel = window.getSelection();
+  if (sel && sel.rangeCount && !sel.isCollapsed && sel.toString().trim()) {
+    const r = sel.getRangeAt(0);
+    if (!stem.contains(r.startContainer) && !stem.contains(r.endContainer)) return;
+    showFloat(r.getBoundingClientRect(), highlight);
+    return;
+  }
+  const mk = e.target.closest && e.target.closest('mark.hl');
+  if (mk && stem.contains(mk)) {
+    const off = textOffset(stem, mk, 0);
+    showFloat(mk.getBoundingClientRect(), () => {
+      const st = qst(curQ().id);
+      st.h.stem = (st.h.stem || []).filter(r => !(r[0] <= off && off < r[1]));
+      if (!st.h.stem.length) delete st.h.stem;
+      save(true); render();
+    });
+  }
 }
 
 function rResults() {
@@ -681,11 +786,9 @@ function updateTimer() {
   const now = Date.now();
   if (S && S.phase === 'run') {
     const el = document.getElementById('tm');
-    if (el) {
-      const left = (S.ses[S.si].end - now) / 1000;
-      el.textContent = clock(left);
-      el.className = 'tm' + (left <= 300 ? ' red' : left <= 900 ? ' amber' : '');
-    }
+    if (el) el.textContent = clock(ui.clockMode === 'exam' ? examLeftSec(now) : (S.ses[S.si].end - now) / 1000);
+    const al = document.getElementById('talert');
+    if (al) { if (ui.alertUntil > now) { al.textContent = ui.alertText; al.hidden = false; } else al.hidden = true; }
   } else if (S && S.phase === 'break') {
     const el = document.getElementById('brk');
     if (el) {
@@ -695,13 +798,22 @@ function updateTimer() {
     }
   }
 }
+function checkAlerts(now) {
+  const left = (S.ses[S.si].end - now) / 1000;
+  for (const th of [1800, 900, 300]) {
+    const key = S.si + ':' + th;
+    if (left <= th && left > th - 30 && !ui.al[key] && M.sessions[S.si].minutes * 60 > th) {
+      ui.al[key] = 1; ui.alertText = (th / 60) + ' minutes remaining'; ui.alertUntil = now + 15000;
+    }
+  }
+}
 function tick() {
   const now = Date.now(), dt = now - lastTick; lastTick = now;
   if (!M || !S) return;
   if (S.phase === 'run') {
     if (now >= S.ses[S.si].end) { endSession(S.si, true); return; }
     if (dt < 2500 && ui.scope === null) qst(curQ().id).t += dt / 1000;
-    updateTimer(); save(false);
+    checkAlerts(now); updateTimer(); save(false);
   } else if (S.phase === 'break') {
     if (now >= S.breakEnd) { startSession(S.si, S.breakEnd); ui.notice = null; advance(); render(); return; }
     updateTimer();
@@ -725,7 +837,18 @@ root.addEventListener('click', e => {
     zin: () => zoom(1), zout: () => zoom(-1),
     prev: () => go(S.cur[S.si] - 1), next: () => go(S.cur[S.si] + 1),
     nav: () => { ui.modal = { type: 'nav' }; render(); },
-    goto: () => { ui.side = false; go(+t.dataset.i); },
+    goto: () => { if (!ui.reviewLock) ui.review = false; go(+t.dataset.i); },
+    clock: () => { ui.clockMode = ui.clockMode === 'exam' ? 'sec' : 'exam'; render(); },
+    review: () => { ui.review = !ui.review; ui.prefsOpen = false; render(); },
+    'rv-close': () => { ui.review = false; ui.reviewLock = false; render(); },
+    'rv-lock': () => { ui.reviewLock = !ui.reviewLock; render(); },
+    'rv-f': () => { ui.rv[t.dataset.f] = t.checked ? 1 : 0; render(); },
+    'rv-clear': () => { ui.rv = { un: 0, att: 0, fl: 0 }; render(); },
+    prefs: () => { ui.prefsOpen = !ui.prefsOpen; ui.review = false; ui.schemeTmp = prefs.scheme || 0; render(); },
+    'pf-pick': () => { ui.schemeTmp = +t.dataset.n; render(); },
+    'pf-ok': () => { prefs.scheme = ui.schemeTmp; savePrefs(); ui.prefsOpen = false; render(); },
+    'pf-cancel': () => { ui.prefsOpen = false; render(); },
+    help: () => { ui.modal = { type: 'help' }; render(); },
     side: () => { ui.side = !ui.side; render(); },
     filter: () => { ui.filter = t.dataset.f; render(); },
     'end-ask': () => { ui.modal = { type: 'end' }; render(); },
@@ -750,23 +873,25 @@ root.addEventListener('click', e => {
   if (A[act]) A[act]();
 });
 root.addEventListener('contextmenu', e => {
-  const o = e.target.closest('.opt');
+  const o = e.target.closest('.orow');
   if (!o || view() !== 'exam') return;
-  e.preventDefault(); strike(o.dataset.k);
+  e.preventDefault(); strike(o.querySelector('.obox').dataset.k);
 });
 document.addEventListener('keydown', e => {
   if (e.ctrlKey || e.metaKey || e.altKey) return;
   if (e.target.matches && e.target.matches('input,textarea,select')) return;
-  if (e.key === 'Escape' && ui.modal) { ui.modal = null; render(); return; }
-  if (ui.modal || view() !== 'exam') return;
+  if (e.key === 'Escape' && (ui.modal || ui.review || ui.prefsOpen)) { ui.modal = null; ui.review = false; ui.prefsOpen = false; render(); return; }
+  if (ui.modal || ui.prefsOpen || view() !== 'exam') return;
   const q = curQ(), k = e.key.length === 1 ? e.key.toUpperCase() : e.key;
-  if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('opt')) { e.preventDefault(); pick(e.target.dataset.k); return; }
+  if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('obox')) { e.preventDefault(); pick(e.target.dataset.k); return; }
   if (k in q.options) { pick(k); return; }
   if (k === 'ArrowLeft') { e.preventDefault(); go(S.cur[S.si] - 1); }
   else if (k === 'ArrowRight') { e.preventDefault(); go(S.cur[S.si] + 1); }
   else if (k === 'F') flag();
   else if (k === 'H') highlight();
 });
+document.addEventListener('mouseup', e => { if (hlFloatEl && hlFloatEl.contains(e.target)) return; setTimeout(() => hlAfterMouseUp(e), 0); });
+document.addEventListener('mousedown', e => { if (hlFloatEl && !hlFloatEl.contains(e.target)) removeFloat(); });
 document.addEventListener('visibilitychange', () => { lastTick = Date.now(); save(true); });
 window.addEventListener('pagehide', () => save(true));
 window.addEventListener('beforeunload', () => save(true));
