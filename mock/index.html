@@ -9,27 +9,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 <style>
 :root{
-  --navy:#0f2547; --navy2:#1b3a68; --bg:#eceff4; --paper:#fff; --ink:#1c2430; --soft:#5b6676; --faint:#98a2b1;
-  --line:#d5dbe4; --line2:#e7ebf1; --blue:#1d5aa8; --blue-soft:#e7f0fb;
+  --navy:#4d4c4d; --navy2:#4d4c4d; --bg:#dfe7eb; --paper:#fff; --ink:#333; --soft:#5f6668; --faint:#9aa3a8;
+  --line:#c9d2d6; --line2:#e4eaed; --blue:#4f7d1c; --blue-soft:#eef6e3; --pgreen:#8cc63f;
   --amber:#f5a623; --red:#e5484d; --green:#1f9d62; --green-soft:#e4f5ec; --red-soft:#fdeaea; --flag:#d92d20; --hl:#fff176;
   --qfs:17px;
 }
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
-body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.45}
+body{font-family:"Open Sans","Source Sans Pro",Arial,sans-serif;background:var(--bg);color:var(--ink);font-size:15px;line-height:1.45}
 button{font:inherit;color:inherit;cursor:pointer}
 [hidden]{display:none!important}
 #app{height:100%}
 
 /* generic */
-.btn{border:1px solid var(--line);background:#fff;border-radius:6px;padding:8px 14px;font-weight:600;color:var(--ink);white-space:nowrap}
+.btn{border:1px solid var(--line);background:#fff;border-radius:3px;padding:8px 14px;font-weight:600;color:var(--ink);white-space:nowrap}
 .btn:hover:not(:disabled){background:#f3f6fa;border-color:#b8c2d0}
 .btn:disabled{opacity:.4;cursor:default}
 a.btn{display:inline-block;text-decoration:none}
 .page a{color:var(--blue)}
 .page a.btn.primary{color:#fff}
-.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
-.btn.primary:hover:not(:disabled){background:#174c90;border-color:#174c90}
+.btn.primary{background:var(--pgreen);border-color:var(--pgreen);color:#fff;font-weight:700}
+.btn.primary:hover:not(:disabled){background:#7db535;border-color:#7db535}
 .btn.danger{background:var(--red);border-color:var(--red);color:#fff}
 .btn.danger:hover:not(:disabled){background:#cc3a3f}
 .btn.ghost{background:transparent}
@@ -42,7 +42,7 @@ a.btn{display:inline-block;text-decoration:none}
 .page{max-width:920px;margin:0 auto;padding:28px 16px 60px}
 .page h1{font-size:26px;margin:0 0 4px;color:var(--navy)}
 .page h2{font-size:18px;margin:28px 0 10px;color:var(--navy)}
-.card{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin:14px 0}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:20px 22px;margin:14px 0}
 .mrow{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .mrow h3{margin:0 0 2px;font-size:17px}
 .acts{display:flex;gap:8px;flex-wrap:wrap}
@@ -175,18 +175,24 @@ mark.hl{background:#fff35c;color:#000;padding:0}
 .stem th{background:#f3f6fa}
 /* results */
 .rtop{background:var(--navy);color:#fff}
-.rtop .in{max-width:920px;margin:0 auto;padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.pbar{background:#4d4c4d;color:#fff}
+.pbar .in,.gbar .in{max-width:920px;margin:0 auto;padding:0 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.pbar .in{min-height:57px;font-size:17px}
+.gbar{background:var(--pgreen);color:#fff;font-size:15px}
+.gbar .in{height:25px;white-space:nowrap;overflow:hidden}
+.gbar a{color:#fff}
+.rtop .in{max-width:920px;margin:0 auto;padding:10px 16px;min-height:57px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .rtop b{font-size:18px}
 .scores{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:12px}
-.sc{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.sc{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:14px 16px}
 .sc .v{font-size:32px;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums}
 .sc .v.good{color:var(--green)} .sc .v.bad{color:var(--red)}
 .sc .l{font-size:12.5px;color:var(--soft)}
 .bar{position:relative;height:12px;background:var(--line2);border-radius:6px;min-width:120px}
 .bar i{position:absolute;left:0;top:0;bottom:0;border-radius:6px;background:var(--red)}
-.bar i.ok{background:var(--green)}
+.bar i.ok{background:var(--pgreen)}
 .bar b{position:absolute;left:70%;top:-3px;bottom:-3px;width:2px;background:var(--navy)}
-.qlist details{background:#fff;border:1px solid var(--line);border-radius:9px;margin:8px 0}
+.qlist details{background:#fff;border:1px solid var(--line);border-radius:4px;margin:8px 0}
 .qlist summary{display:flex;gap:12px;align-items:center;padding:10px 14px;cursor:pointer;flex-wrap:wrap;list-style:none}
 .qlist summary::-webkit-details-marker{display:none}
 .qlist summary::before{content:"\25B8";color:var(--faint)}
@@ -201,10 +207,10 @@ mark.hl{background:#fff35c;color:#000;padding:0}
 .qlist .o{padding:7px 12px;border-radius:7px;margin:5px 0;border:1px solid var(--line2)}
 .qlist .o.right{background:var(--green-soft);border-color:#a6dcc0}
 .qlist .o.wrong{background:var(--red-soft);border-color:#f2b7b9}
-.expl{background:#f7f9fc;border-left:4px solid var(--blue);padding:8px 14px;margin-top:12px;border-radius:0 6px 6px 0}
+.expl{background:#f5f8f2;border-left:4px solid var(--pgreen);padding:8px 14px;margin-top:12px;border-radius:0 6px 6px 0}
 .expl p{margin:.4em 0}
 textarea.code{width:100%;height:110px;font:12px ui-monospace,Menlo,monospace;border:1px solid var(--line);border-radius:6px;padding:8px}
-.toast{position:fixed;left:50%;bottom:76px;transform:translateX(-50%);background:var(--navy);color:#fff;padding:9px 16px;border-radius:8px;font-weight:600;z-index:60;box-shadow:0 6px 20px rgba(0,0,0,.3)}
+.toast{position:fixed;left:50%;bottom:76px;font-family:"Open Sans",Arial,sans-serif;transform:translateX(-50%);background:var(--navy);color:#fff;padding:9px 16px;border-radius:8px;font-weight:600;z-index:60;box-shadow:0 6px 20px rgba(0,0,0,.3)}
 
 @media (max-width:700px){
   .page{padding-top:18px}
@@ -515,6 +521,10 @@ function statusOf(id, total) {
   if (s.phase === 'run') return { tag: '<span class="tag live">In progress: session ' + (s.si + 1) + '</span>', has: true };
   return { tag: '<span class="tag">Not started</span>', has: false };
 }
+function pageBars(test) {
+  return `<div class="pbar"><div class="in"><b>CFA Level I &middot; Mock Exams</b><span style="font-size:14px;opacity:.85">Computer-based testing</span></div></div>
+  <div class="gbar"><div class="in"><span><b>Test:</b> ${esc(test)}</span><span><b>Candidate</b>: ${CANDIDATE}</span></div></div>`;
+}
 function rList() {
   const rows = mockList.map(m => {
     const st = statusOf(m.id);
@@ -524,7 +534,7 @@ function rList() {
       <div class="acts"><a class="btn primary" href="?id=${encodeURIComponent(m.id)}">${label}</a>
       ${st.has ? `<button class="btn" data-act="reset-ask" data-id="${esc(m.id)}" data-title="${esc(m.title)}">Reset this mock</button>` : ''}</div></div></div>`;
   }).join('');
-  return `<div class="page"><h1>Mock exams</h1>
+  return pageBars('All mocks') + `<div class="page"><h1>Mock exams</h1>
     <p class="muted">Computer-based practice exams. Your answers and timer are saved in this browser.</p>
     ${rows || '<div class="card muted">No mocks listed yet.</div>'}</div>`;
 }
@@ -532,7 +542,7 @@ function rList() {
 function rIntro() {
   const rows = M.sessions.map(s => `<tr><td>${esc(s.name)}</td><td class="n">${s.questions.length}</td><td class="n">${s.minutes >= 60 ? Math.floor(s.minutes / 60) + 'h ' + pad(Math.round(s.minutes % 60)) + 'm' : s.minutes + ' min'}</td></tr>`).join('');
   const touched = Object.keys(S.q).length > 0;
-  return `<div class="page"><a href="./" class="muted">&larr; All mocks</a>
+  return pageBars(M.title) + `<div class="page"><a href="./" class="muted">&larr; All mocks</a>
     <h1 style="margin-top:10px">${esc(M.title)}</h1>
     <div class="card"><table class="simple"><tr><th>Session</th><th class="n">Questions</th><th class="n">Time</th></tr>${rows}</table>
     <h2 style="margin-top:20px">Before you begin</h2>
@@ -549,7 +559,7 @@ function rIntro() {
 
 function rBreak() {
   const next = M.sessions[S.si], prev = M.sessions[S.si - 1];
-  return `<div class="page break"><div class="card" style="padding:36px 24px">
+  return pageBars(M.title) + `<div class="page break"><div class="card" style="padding:36px 24px">
     ${ui.notice ? `<div class="banner">${esc(ui.notice)}</div>` : ''}
     <h1>${esc(prev.name)} complete</h1>
     <p class="muted">Optional break. You cannot return to ${esc(prev.name)}.</p>
@@ -762,6 +772,7 @@ function rResults() {
   const time = rows.reduce((a, r) => a + r.secs, 0);
   return `<div class="rtop"><div class="in"><div><b>${esc(M.title)}</b> &middot; Results${scope === 'all' ? '' : ' &middot; ' + esc(M.sessions[scope].name)}</div>
       <div class="acts">${inBreak ? '<button class="btn sm" data-act="backbreak">Back to break</button>' : '<a class="btn sm" href="./">All mocks</a>'}</div></div></div>
+    <div class="gbar"><div class="in"><span><b>Test:</b> ${esc(M.title)}</span><span><b>Candidate</b>: ${CANDIDATE}</span></div></div>
     <div class="page" style="padding-top:18px">
       ${ui.notice && S.phase === 'results' ? `<div class="banner">${esc(ui.notice)}</div>` : ''}
       <div class="scores"><div class="sc"><div class="l">${scope === 'all' ? 'Overall' : esc(M.sessions[scope].name)}</div><div class="v ${overall >= PASS ? 'good' : 'bad'}">${overall}%</div><div class="l">${right} / ${tot} correct &middot; ${PASS}% reference</div></div>${scope === 'all' ? sessCards : ''}</div>
