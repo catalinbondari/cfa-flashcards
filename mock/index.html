@@ -754,8 +754,11 @@ function rResults() {
       <td style="width:38%"><div class="bar"><i class="${p >= PASS ? 'ok' : ''}" style="width:${p}%"></i><b></b></div></td></tr>`;
   }).join('');
   const f = ui.rfilter;
-  const list = rows.filter(r => f === 'all' || (f === 'wrong' && !r.ok) || (f === 'flag' && r.flagged));
-  const nWrong = rows.filter(r => !r.ok).length, nFlag = rows.filter(r => r.flagged).length;
+  const RF = { all: () => true, wrong: r => !r.ok, flag: r => r.flagged, wflag: r => !r.ok && r.flagged,
+    wsure: r => !r.ok && !r.flagged, rflag: r => r.ok && r.flagged };
+  const list = rows.filter(RF[f] || RF.all);
+  const cnt = k => rows.filter(RF[k]).length;
+  const chip = (k, label) => `<button class="chip${f === k ? ' on' : ''}" data-act="rfilter" data-f="${k}">${label} (${cnt(k)})</button>`;
   const items = list.map(r => {
     const q = r.q;
     const opts = Object.keys(q.options).map(k => {
@@ -782,9 +785,8 @@ function rResults() {
       <button class="btn" data-act="showcode">${ui.showCode ? 'Hide' : 'Show'} code</button></div>
       ${ui.showCode ? `<textarea class="code" readonly id="code">${esc(resultsCode(scope))}</textarea>` : ''}
       <h2>Questions</h2>
-      <div class="filters" style="margin:0 0 6px"><button class="chip${f === 'all' ? ' on' : ''}" data-act="rfilter" data-f="all">All (${tot})</button>
-        <button class="chip${f === 'wrong' ? ' on' : ''}" data-act="rfilter" data-f="wrong">Wrong only (${nWrong})</button>
-        <button class="chip${f === 'flag' ? ' on' : ''}" data-act="rfilter" data-f="flag">Flagged (${nFlag})</button>
+      <div class="filters" style="margin:0 0 6px">${chip('all', 'All')}${chip('wrong', 'Wrong only')}${chip('flag', 'Flagged')}
+        ${chip('wflag', 'Wrong &amp; flagged')}${chip('wsure', 'Wrong, not flagged')}${chip('rflag', 'Flagged but right')}
         <button class="chip" data-act="expand">${ui.expand ? 'Collapse all' : 'Expand all'}</button></div>
       <div class="qlist">${items || '<div class="card muted">Nothing to show for this filter.</div>'}</div>
       <p class="muted" style="margin-top:20px">Total time on questions: ${clock(time)}.
