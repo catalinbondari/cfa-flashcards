@@ -112,7 +112,7 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 <div class="grid"><ul>
 <li><b>U = E(R) − ½Aσ²</b> (decimals). Risk-free σ = 0 → U = r<sub>f</sub>.</li>
 <li>Sharpe = (R<sub>p</sub> − R<sub>f</sub>)/<b>σ<sub>p</sub></b> · Treynor = (R<sub>p</sub> − R<sub>f</sub>)/<b>β<sub>p</sub></b>.</li>
-<li><b>M² = R<sub>f</sub> + Sharpe × σ<sub>m</sub></b> → compare with R<sub>m</sub>, never R<sub>p</sub>.</li>
+<li><b>M² = R<sub>f</sub> + Sharpe × σ<sub>m</sub> − R<sub>m</sub></b>. Scale the fund to market risk (σ<sub>m</sub>/σ<sub>p</sub>), then subtract the market return. Market M² = 0.</li>
 <li>Jensen α = R<sub>p</sub> − [R<sub>f</sub> + β(R<sub>m</sub> − R<sub>f</sub>)].</li>
 <li>β = Cov/σ<sub>m</sub>² = ρσ<sub>i</sub>/σ<sub>m</sub>.</li>
 <li>σ<sub>p</sub> = √(w₁²σ₁² + w₂²σ₂² + 2w₁w₂ρσ₁σ₂) — don't forget √.</li>
