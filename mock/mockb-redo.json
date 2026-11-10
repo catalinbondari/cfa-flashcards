@@ -1,0 +1,928 @@
+{
+ "id": "mockb-redo",
+ "title": "Mock B redo (twin of every miss)",
+ "sessions": [
+  {
+   "name": "Paper 1 twins",
+   "minutes": 50,
+   "questions": [
+    {
+     "id": "mbr1-3",
+     "topic": "ethics",
+     "concept": "Record retention (leaving a firm)",
+     "difficulty": "medium",
+     "stem": "<p>Hannah Okoye, CFA, is moving from Brightwell Securities to Lakeshore Capital. Brightwell&rsquo;s compliance officer gives written consent for her to take a copy of her published sector report. At Lakeshore she updates and publishes the report. To support the new version, she then rebuilds her models using data files she had copied to a personal drive before leaving, without Brightwell&rsquo;s permission. Has Okoye violated the Standards?</p>",
+     "options": {
+      "A": "No, because Brightwell consented to her taking the report",
+      "B": "Yes, because she published the report at the new firm",
+      "C": "Yes, because her supporting records came from files taken from Brightwell"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Consent to take the report does not extend to the copied data files, and the records were then rebuilt from them. That is the violation.</p><p><b>B is incorrect.</b> Publishing the updated report is fine because the former employer consented to her taking it. The breach is in how the supporting records were rebuilt.</p><p><b>C is correct.</b> Standard V(C) Record Retention: a member who changes employer may take a prior report only with the former employer&rsquo;s consent, but the supporting records must be re-created at the new firm from public sources or directly from the covered company, never from the former employer&rsquo;s files or from memory. Consent covered the report, not the copied data files.</p>"
+    },
+    {
+     "id": "mbr1-4",
+     "topic": "ethics",
+     "concept": "Diligence and reasonable basis / Loyalty (dissenting analyst)",
+     "difficulty": "medium",
+     "stem": "<p>Diego Marques, CFA, is an analyst at a brokerage. His team issues a sell rating on a utility. The recommendation rests on a well-documented process, but Marques believes the shares are undervalued under his own assumptions. His name is on the draft report. To avoid violating the Standards, it would be least appropriate for Marques to:</p>",
+     "options": {
+      "A": "send his own buy recommendation on the utility to the firm&rsquo;s clients",
+      "B": "leave his name on the report",
+      "C": "ask that his name be removed from the report"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Standard V(A) Diligence and Reasonable Basis allows an analyst to stay on a report whose process is sound even if he disagrees, or to ask to be disassociated. Standard IV(A) Loyalty forbids him from harming the employer, and releasing a contradictory recommendation to clients confuses them and embarrasses the firm, so it is the least appropriate action.</p><p><b>B is incorrect.</b> Leaving his name on the report is acceptable because the team&rsquo;s process is sound and reasonable minds can differ. This is the action he can take; the question asks for the least appropriate.</p><p><b>C is incorrect.</b> Requesting that his name be removed is an accepted way to handle disagreement, so it is not the least appropriate action.</p>"
+    },
+    {
+     "id": "mbr1-6",
+     "topic": "ethics",
+     "concept": "Confidentiality vs legal disclosure",
+     "difficulty": "medium",
+     "stem": "<p>Lena Vargas, CFA, is a trust officer at a private bank. She receives a letter from a regional tax office asking for a list of the securities held by one of her clients and stating that national law requires the information. Vargas has no previous contact with this office. To avoid violating the Standards, she should most likely:</p>",
+     "options": {
+      "A": "send the list and then notify her supervisor",
+      "B": "ask the firm&rsquo;s compliance or legal department whether the law actually requires disclosure before releasing anything",
+      "C": "refuse to release anything, because client information is always confidential"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Releasing the list first breaches confidentiality. Telling a supervisor afterwards does not cure that.</p><p><b>B is correct.</b> Standard III(E) Preservation of Confidentiality: client information must be kept confidential unless disclosure is required by law, the client consents, or the information concerns illegal activity. Because the demand only claims a legal requirement, she should first confirm her legal obligation through compliance or counsel before disclosing.</p><p><b>C is incorrect.</b> Confidentiality is not absolute: if the law does require disclosure, refusing outright would itself be improper. She must verify, not assume either way.</p>"
+    },
+    {
+     "id": "mbr1-13",
+     "topic": "ethics",
+     "concept": "Independence and objectivity (internal pressure)",
+     "difficulty": "medium",
+     "stem": "<p>Raj Patel, CFA, is an equity analyst at Corvane Bank. Corvane&rsquo;s investment banking division has just led an equity issue for Tidewell Foods and is holding a large unsold allocation. The head of sales asks Patel to raise his Hold rating on Tidewell to Buy. Patel believes the shares are fairly valued at the current price. According to the Code and Standards, the most appropriate action for Patel is to:</p>",
+     "options": {
+      "A": "raise the rating to Buy and disclose the bank&rsquo;s underwriting role",
+      "B": "raise the rating to Buy after re-running his model with more optimistic growth assumptions",
+      "C": "keep his Hold rating"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Disclosure of the underwriting role is required, but disclosure does not make it acceptable to change an opinion under pressure.</p><p><b>B is incorrect.</b> Adjusting assumptions to reach the answer the bank wants is the same loss of objectivity, just with extra analysis added.</p><p><b>C is correct.</b> Standard I(B) Independence and Objectivity: an analyst&rsquo;s published opinion must reflect his own independent view, free from pressure by the investment banking or sales side. He should maintain the rating his analysis supports.</p>"
+    },
+    {
+     "id": "mbr1-23",
+     "topic": "ethics",
+     "concept": "Diligence and reasonable basis (reliance on colleague&rsquo;s work)",
+     "difficulty": "hard",
+     "stem": "<p>Ines Duarte, CFA, covers the shipping sector. She uses an industry demand model built and documented by a colleague, who exercised care and thoroughness. Duarte checks that the model&rsquo;s key assumptions are reasonable, updates the forecasts with current data and publishes the report under her own name, crediting the colleague&rsquo;s model in a footnote. Did Duarte most likely violate any Standards?</p>",
+     "options": {
+      "A": "No",
+      "B": "Yes, with respect to misrepresentation",
+      "C": "Yes, with respect to diligence and reasonable basis"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Standard V(A) Diligence and Reasonable Basis allows a member to rely on the research of others who have exercised due diligence, provided she makes a reasonable inquiry that the work is sound. Duarte checked the assumptions, updated the data and credited the source, so she complied.</p><p><b>B is incorrect.</b> Misrepresentation (Standard I(C)) would require plagiarism or claiming the model as her own. She credited the colleague.</p><p><b>C is incorrect.</b> Diligence does not require rebuilding a colleague&rsquo;s work from scratch. Reliance on a diligent source, with a reasonableness check, meets the Standard.</p>"
+    },
+    {
+     "id": "mbr1-28",
+     "topic": "fsa",
+     "concept": "Inventory disclosures (liquidity of inventory)",
+     "difficulty": "easy",
+     "stem": "<p>An analyst wants to judge how quickly a manufacturer&rsquo;s inventory could be turned into cash. In the notes to the financial statements, the analyst is most likely to look at the:</p>",
+     "options": {
+      "A": "cost formula used (FIFO or weighted average)",
+      "B": "split of inventory between raw materials, work in progress and finished goods",
+      "C": "amount of inventory written down to net realizable value during the period"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> The cost formula affects how cost is measured (cost of sales and ending inventory), not how quickly the stock can be sold.</p><p><b>B is correct.</b> Finished goods are ready to sell, so they are more liquid than work in progress or raw materials. The breakdown of inventory by stage of completion therefore tells the analyst about liquidity.</p><p><b>C is incorrect.</b> A write-down is a valuation event. It reflects past decline in value, not the mix of goods that determines how liquid the remaining inventory is.</p>"
+    },
+    {
+     "id": "mbr1-29",
+     "topic": "fsa",
+     "concept": "Intangibles: purchased vs internally developed",
+     "difficulty": "medium",
+     "stem": "<p>Two companies are identical except that Company X buys a brand name from a third party for €6 million, while Company Y builds a comparable brand internally by spending €6 million on advertising and development that must be expensed. For the year, Company X most likely reports, relative to Company Y:</p>",
+     "options": {
+      "A": "higher operating cash outflows",
+      "B": "lower total assets",
+      "C": "higher investing cash outflows"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Company Y, not X, bears the €6 million in operating outflows. X&rsquo;s operating outflows are lower, not higher.</p><p><b>B is incorrect.</b> Capitalizing the purchase puts an asset on X&rsquo;s balance sheet, whereas Y expenses the cost. X therefore reports higher, not lower, assets.</p><p><b>C is correct.</b> Purchased intangibles are capitalized and the payment is an investing outflow (CFI). Internally generated brand costs are expensed, so the payment is an operating outflow (CFO). Company X shows higher investing outflows and, as a result, lower operating outflows than Company Y.</p>"
+    },
+    {
+     "id": "mbr1-30",
+     "topic": "ci",
+     "concept": "Capital allocation principles",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following practices is most consistent with sound capital allocation?</p>",
+     "options": {
+      "A": "Accepting a positive-NPV project even though it will reduce reported EPS for the next two years",
+      "B": "Including a &euro;2 million feasibility study already paid for in the project&rsquo;s incremental cash flows",
+      "C": "Forecasting cash flows on the assumption that competitors will not respond to the project&rsquo;s success"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Capital allocation decisions should be based on NPV (incremental, after-tax cash flows), not on the effect on short-term accounting numbers such as EPS or ROE. Positive-NPV projects add value even if EPS dips in the short run.</p><p><b>B is incorrect.</b> The feasibility study is a sunk cost. Sunk costs are not incremental and must be ignored.</p><p><b>C is incorrect.</b> Competitors usually enter profitable markets and erode returns. Ignoring that response overstates cash flows.</p>"
+    },
+    {
+     "id": "mbr1-31",
+     "topic": "ci",
+     "concept": "Board committees",
+     "difficulty": "easy",
+     "stem": "<p>Reviewing and recommending the pay packages of the chief executive and other senior managers is most likely a responsibility of the board&rsquo;s:</p>",
+     "options": {
+      "A": "audit committee",
+      "B": "compensation (remuneration) committee",
+      "C": "nominating committee"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> The audit committee oversees the audit, internal controls and financial reporting, not executive pay.</p><p><b>B is correct.</b> The compensation (remuneration) committee sets and reviews executive pay so that it is aligned with shareholders&rsquo; interests.</p><p><b>C is incorrect.</b> The nominating committee proposes directors and manages board composition, not management pay.</p>"
+    },
+    {
+     "id": "mbr1-34",
+     "topic": "quant",
+     "concept": "TVM: PV at an interim date",
+     "difficulty": "medium",
+     "stem": "<p>An investor will receive $80,000 at the end of Year 8. If the discount rate is 6%, the present value of this cash flow at the end of Year 3 is closest to:</p>",
+     "options": {
+      "A": "$50,193",
+      "B": "$56,397",
+      "C": "$59,781"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This discounts over all 8 years, giving the PV at time 0, not at the end of Year 3: $80,000 &divide; 1.06<sup>8</sup> = $50,193.</p><p><b>B is incorrect.</b> This discounts over 6 periods, which takes the value back to the <i>start</i> of Year 3 (end of Year 2), one period too many: $80,000 &divide; 1.06<sup>6</sup> = $56,397.</p><p><b>C is correct.</b> Present value is measured at the end of Year 3, so the cash flow is discounted over 8 &minus; 3 = 5 periods. PV = $80,000 &divide; 1.06<sup>5</sup> = $59,781.</p><p><b>BA II Plus:</b> FV = 80,000; I/Y = 6; N = 5; PMT = 0; CPT PV = &minus;59,781 (use N = 5, not 8 or 6).</p>"
+    },
+    {
+     "id": "mbr1-35",
+     "topic": "fsa",
+     "concept": "Business combinations: bargain purchase",
+     "difficulty": "medium",
+     "stem": "<p>A company acquires 100% of a target for a purchase price of &euro;11.0 million. The fair value of the target&rsquo;s net identifiable assets is &euro;12.5 million. In the period of the acquisition, the acquirer most likely reports:</p>",
+     "options": {
+      "A": "a pretax gain of &euro;1.5 million in profit or loss",
+      "B": "goodwill of &euro;1.5 million",
+      "C": "a gain of &euro;1.5 million in other comprehensive income"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> When the price paid is below the fair value of net identifiable assets acquired (12.5 &minus; 11.0 = 1.5), it is a bargain purchase. The excess is recognized as a gain in profit or loss in the period of acquisition. No goodwill arises.</p><p><b>B is incorrect.</b> Goodwill arises only when the price paid exceeds the fair value of net identifiable assets, the opposite of this case.</p><p><b>C is incorrect.</b> A bargain purchase gain goes through profit or loss, not OCI.</p>"
+    },
+    {
+     "id": "mbr1-37",
+     "topic": "quant",
+     "concept": "Money-weighted vs time-weighted return",
+     "difficulty": "hard",
+     "stem": "<p>A fund starts with &euro;40 million and earns 15% in Year 1. It receives an additional &euro;100 million at the beginning of Year 2 and earns 6% in Year 2. The annualized money-weighted rate of return over the two years is closest to:</p>",
+     "options": {
+      "A": "10.4%",
+      "B": "8.1%",
+      "C": "10.9%"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This is the time-weighted return, the geometric mean of the annual returns: [(1.15)(1.06)]<sup>1/2</sup> &minus; 1 = 10.4%. It ignores the size and timing of the contribution.</p><p><b>B is correct.</b> The money-weighted return is the IRR of the cash flows. End of Year 1 value = 40 &times; 1.15 = 46.0; adding 100 gives 146.0, which grows to 146.0 &times; 1.06 = 154.76. Cash flows: t0 = &minus;40, t1 = &minus;100, t2 = +154.76. IRR = 8.06%. It is below the time-weighted return because most of the money was invested in the lower-return year.</p><p><b>C is incorrect.</b> This divides the two-year compound return by 2: (1.15 &times; 1.06 &minus; 1) &divide; 2 = 10.9%. It is neither an annualized nor a money-weighted figure.</p><p><b>BA II Plus:</b> CF; 2nd CLR WRK; CF0 = &minus;40; C01 = &minus;100; C02 = 154.76; IRR CPT = 8.06.</p>"
+    },
+    {
+     "id": "mbr1-40",
+     "topic": "econ",
+     "concept": "Automatic stabilizers",
+     "difficulty": "easy",
+     "stem": "<p>Which of the following is most likely an automatic stabilizer?</p>",
+     "options": {
+      "A": "A one-time infrastructure program legislated after a recession begins",
+      "B": "A temporary cut in income tax rates passed by the legislature",
+      "C": "Unemployment benefit payments that rise as employment falls"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> A spending program that has to be legislated is discretionary fiscal policy, not an automatic stabilizer.</p><p><b>B is incorrect.</b> A tax rate cut requires a legislative decision, so it is also discretionary.</p><p><b>C is correct.</b> Automatic stabilizers change net tax revenue and transfer payments with the business cycle without any new legislation. Unemployment benefits rise in a downturn and fall in a boom, cushioning demand.</p>"
+    },
+    {
+     "id": "mbr1-41",
+     "topic": "fsa",
+     "concept": "DuPont (five-factor ROE)",
+     "difficulty": "medium",
+     "stem": "<p>An analyst gathers the following information about a company:<br>Tax burden 0.75<br>Interest burden 0.90<br>Pretax margin 12.0%<br>Total asset turnover 0.80<br>Financial leverage 2.5<br>The company&rsquo;s ROE is closest to:</p>",
+     "options": {
+      "A": "18.0%",
+      "B": "16.2%",
+      "C": "7.2%"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> ROE = Tax burden &times; Pretax margin &times; Total asset turnover &times; Financial leverage = 0.75 &times; 12.0% &times; 0.80 &times; 2.5 = 18.0%. Interest burden &times; EBIT margin = pretax margin, so when the pretax margin is already given, the interest burden must not be applied again.</p><p><b>B is incorrect.</b> This multiplies in the interest burden as well (0.75 &times; 0.90 &times; 12.0% &times; 0.80 &times; 2.5 = 16.2%), which counts interest twice because the pretax margin already reflects it.</p><p><b>C is incorrect.</b> This stops before the leverage factor (0.75 &times; 12.0% &times; 0.80 = 7.2%), which is ROA after tax. ROE needs the financial leverage multiplier.</p><p><b>BA II Plus:</b> 0.75 &times; 0.12 &times; 0.80 &times; 2.5 = 0.18.</p>"
+    },
+    {
+     "id": "mbr1-44",
+     "topic": "fsa",
+     "concept": "Leases: US GAAP operating lease, lessee cash flows",
+     "difficulty": "medium",
+     "stem": "<p>Under US GAAP, after the inception of a long-term operating lease, the lessee reports the lease payments in the statement of cash flows as:</p>",
+     "options": {
+      "A": "an operating outflow for the interest portion and a financing outflow for the principal portion",
+      "B": "an operating outflow for the entire payment",
+      "C": "a financing outflow for the entire payment"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This is the split used for finance leases (US GAAP) and for all IFRS leases, not for a US GAAP operating lease.</p><p><b>B is correct.</b> Under US GAAP an operating lease produces a single straight-line lease expense, and the whole cash payment is classified in operating activities. The split between interest (operating) and principal (financing) applies to US GAAP finance leases and to IFRS lessees.</p><p><b>C is incorrect.</b> Financing treatment of the entire payment is not used for any lessee lease under US GAAP or IFRS.</p>"
+    },
+    {
+     "id": "mbr1-45",
+     "topic": "econ",
+     "concept": "Market structure identification",
+     "difficulty": "easy",
+     "stem": "<p>In a large city, more than a hundred independent restaurants each offer a distinct menu and compete partly on brand and location. Entry is easy and each restaurant has some control over its own price. This market structure is best described as:</p>",
+     "options": {
+      "A": "oligopoly",
+      "B": "perfect competition",
+      "C": "monopolistic competition"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> An oligopoly has few sellers and high barriers to entry, with pricing interdependence among rivals.</p><p><b>B is incorrect.</b> Perfect competition has identical (homogeneous) products and price-taking firms, so brands and menus could not matter.</p><p><b>C is correct.</b> Many sellers, low barriers to entry and differentiated products give each firm some pricing power: monopolistic competition.</p>"
+    },
+    {
+     "id": "mbr1-46",
+     "topic": "quant",
+     "concept": "Target downside deviation",
+     "difficulty": "hard",
+     "stem": "<p>An analyst gathers six monthly returns for a fund: 4%, &minus;3%, 9%, 1%, &minus;5%, 6%. If the target return is 3%, the target downside deviation is closest to:</p>",
+     "options": {
+      "A": "4.6%",
+      "B": "4.2%",
+      "C": "5.4%"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Only returns at or below the target count: &minus;3%, 1% and &minus;5%. Squared shortfalls: (&minus;3 &minus; 3)<sup>2</sup> = 36; (1 &minus; 3)<sup>2</sup> = 4; (&minus;5 &minus; 3)<sup>2</sup> = 64; sum = 104. Target downside deviation = [104 &divide; (n &minus; 1)]<sup>1/2</sup>, where n = 6 is the total number of observations, = (104/5)<sup>1/2</sup> = 4.56%.</p><p><b>B is incorrect.</b> This divides by n = 6 instead of n &minus; 1 = 5: (104/6)<sup>1/2</sup> = 4.16%.</p><p><b>C is incorrect.</b> This is the ordinary standard deviation of all six returns (mean 2.0%): 5.37%. It measures dispersion around the mean, not shortfall below the target.</p><p><b>BA II Plus:</b> Sum of squared shortfalls = 36 + 4 + 64 = 104; 104 &divide; 5 = 20.8; &radic;20.8 = 4.56.</p>"
+    },
+    {
+     "id": "mbr1-50",
+     "topic": "quant",
+     "concept": "Chi-square test of independence: degrees of freedom",
+     "difficulty": "easy",
+     "stem": "<p>A test of independence uses a contingency table with 4 rows and 3 columns. The degrees of freedom for the chi-square test statistic are:</p>",
+     "options": {
+      "A": "12",
+      "B": "6",
+      "C": "11"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> 12 is rc, the total number of cells. It does not account for the row and column totals that are fixed.</p><p><b>B is correct.</b> Degrees of freedom = (r &minus; 1)(c &minus; 1) = (4 &minus; 1)(3 &minus; 1) = 3 &times; 2 = 6.</p><p><b>C is incorrect.</b> 11 is rc &minus; 1, which would be the formula for a goodness-of-fit style count, not for a two-way independence test.</p>"
+    },
+    {
+     "id": "mbr1-51",
+     "topic": "quant",
+     "concept": "Deferred annuity",
+     "difficulty": "hard",
+     "stem": "<p>An annuity pays &pound;8,000 per year for six years, with the first payment occurring three years from today. If the annual discount rate is 5%, the present value of the annuity today is closest to:</p>",
+     "options": {
+      "A": "&pound;40,606",
+      "B": "&pound;35,077",
+      "C": "&pound;36,830"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This is the intermediate value at t = 2 and has not been discounted back to today.</p><p><b>B is incorrect.</b> This discounts 3 periods instead of 2, treating the annuity value as being at t = 3. An ordinary annuity values one period before its first payment.</p><p><b>C is correct.</b> The first payment is at t = 3, so the ordinary-annuity formula values the stream one period before it, at t = 2: PV<sub>2</sub> = &pound;8,000 &times; [1 &minus; 1.05<sup>&minus;6</sup>] &divide; 0.05 = &pound;40,606. Discount this back 2 periods to today: &pound;40,606 &divide; 1.05<sup>2</sup> = &pound;36,830.</p><p><b>BA II Plus:</b> Step 1: PMT = 8,000; I/Y = 5; N = 6; CPT PV = 40,605.54. Step 2: FV = 40,605.54; I/Y = 5; N = 2; CPT PV = 36,830.</p>"
+    },
+    {
+     "id": "mbr1-53",
+     "topic": "quant",
+     "concept": "Relation among arithmetic, geometric and harmonic means",
+     "difficulty": "hard",
+     "stem": "<p>For two positive numbers, the arithmetic mean is 10.0 and the harmonic mean is 6.4. The geometric mean is closest to:</p>",
+     "options": {
+      "A": "8.0",
+      "B": "8.2",
+      "C": "64.0"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> For two positive numbers, Arithmetic mean &times; Harmonic mean = (Geometric mean)<sup>2</sup>. So GM = &radic;(10.0 &times; 6.4) = &radic;64 = 8.0. (The numbers are 16 and 4: AM = 10, HM = 2 &times; 64 &divide; 20 = 6.4, GM = &radic;64 = 8.)</p><p><b>B is incorrect.</b> This is the simple average of the arithmetic and harmonic means ((10 + 6.4) &divide; 2 = 8.2). The geometric mean is the square root of their product, not their average.</p><p><b>C is incorrect.</b> This is AM &times; HM = 64, which equals GM<sup>2</sup>. The square root has not been taken.</p><p><b>BA II Plus:</b> &radic;(10 &times; 6.4) = 8.0.</p>"
+    },
+    {
+     "id": "mbr1-56",
+     "topic": "econ",
+     "concept": "Market structure: oligopoly",
+     "difficulty": "medium",
+     "stem": "<p>Three firms supply most of the market for commercial aircraft engines. Their products are close substitutes, entering the market requires enormous capital and regulatory approval, and each firm&rsquo;s pricing decisions depend on how rivals will react. This market structure is best described as:</p>",
+     "options": {
+      "A": "monopolistic competition",
+      "B": "an oligopoly",
+      "C": "a monopoly"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Monopolistic competition has many sellers and low barriers to entry. High barriers rule it out.</p><p><b>B is correct.</b> A few sellers, high barriers to entry, close substitutes and pricing interdependence describe an oligopoly.</p><p><b>C is incorrect.</b> A monopoly has a single seller with no close substitutes. Here three firms compete with close substitutes.</p>"
+    },
+    {
+     "id": "mbr1-59",
+     "topic": "econ",
+     "concept": "Dominant firm oligopoly pricing",
+     "difficulty": "hard",
+     "stem": "<p>In an oligopoly with a dominant firm, the smaller firms follow the dominant firm&rsquo;s price. Which of the following statements about how the dominant firm sets its price is most accurate? The dominant firm:</p>",
+     "options": {
+      "A": "reads the price from the aggregate market demand curve at the industry output",
+      "B": "sets the price where market marginal revenue equals the followers&rsquo; marginal cost",
+      "C": "chooses the output where its marginal revenue equals its marginal cost and reads the price from the demand curve it faces"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> The market&rsquo;s aggregate demand curve is not the curve the dominant firm faces, because the followers supply part of the quantity.</p><p><b>B is incorrect.</b> The rule uses the dominant firm&rsquo;s own MR and MC, not market marginal revenue and the followers&rsquo; marginal cost.</p><p><b>C is correct.</b> The dominant firm faces the part of market demand left over after the followers supply their share. It maximizes profit where its own MR = MC and reads the price from its own demand schedule.</p>"
+    },
+    {
+     "id": "mbr1-63",
+     "topic": "fsa",
+     "concept": "Inventory write-down: ratio effects",
+     "difficulty": "hard",
+     "stem": "<p>All else equal, a write-down of inventory to net realizable value, recognized in cost of sales in the current period, most likely results in a higher:</p>",
+     "options": {
+      "A": "inventory turnover",
+      "B": "gross profit margin",
+      "C": "current ratio"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> The write-down raises cost of sales (numerator of inventory turnover goes up) and reduces ending inventory (denominator goes down), so inventory turnover increases.</p><p><b>B is incorrect.</b> The extra expense in cost of sales lowers gross profit, so the gross margin falls.</p><p><b>C is incorrect.</b> Inventory is a current asset, so writing it down reduces current assets and the current ratio falls.</p>"
+    },
+    {
+     "id": "mbr1-64",
+     "topic": "fsa",
+     "concept": "Revaluation model: ratio effects",
+     "difficulty": "hard",
+     "stem": "<p>Under the revaluation model, an initial upward revaluation of a company&rsquo;s depreciable property most likely results in a:</p>",
+     "options": {
+      "A": "higher return on equity",
+      "B": "lower total asset turnover",
+      "C": "higher operating profit margin"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Higher depreciation lowers net income while equity rises, so ROE falls, not rises.</p><p><b>B is correct.</b> The carrying amount of the asset rises, so total assets (and equity) increase while revenue is unchanged. Total asset turnover = Revenue &divide; Average total assets therefore falls.</p><p><b>C is incorrect.</b> Higher depreciation expense reduces operating profit with revenue unchanged, so the operating margin falls.</p>"
+    },
+    {
+     "id": "mbr1-67",
+     "topic": "ci",
+     "concept": "Modigliani-Miller Proposition II (no taxes)",
+     "difficulty": "hard",
+     "stem": "<p>Under the Modigliani&ndash;Miller propositions without taxes, a company has a cost of equity of 10% when unlevered (RR on assets) and a cost of debt of 5%. After it issues debt to buy back shares, its D/E ratio is 1.0. The company&rsquo;s cost of equity is closest to:</p>",
+     "options": {
+      "A": "12.5%",
+      "B": "10.0%",
+      "C": "15.0%"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> This uses D/V (0.5) instead of D/E (1.0): 10% + 5% &times; 0.5 = 12.5%.</p><p><b>B is incorrect.</b> This assumes the cost of equity is unaffected by leverage. It is WACC, not the cost of equity, that stays constant without taxes.</p><p><b>C is correct.</b> MM Proposition II (no taxes): cost of equity = r<sub>0</sub> + (r<sub>0</sub> &minus; r<sub>d</sub>) &times; D/E = 10% + (10% &minus; 5%) &times; 1.0 = 15.0%. More debt raises the cost of equity, while WACC stays at 10%.</p>"
+    },
+    {
+     "id": "mbr1-68",
+     "topic": "econ",
+     "concept": "FX appreciation/depreciation direction",
+     "difficulty": "hard",
+     "stem": "<p>The CHF/EUR exchange rate (Swiss francs per 1 euro) falls from 0.9600 to 0.9120. This implies that the Swiss franc has:</p>",
+     "options": {
+      "A": "appreciated against the euro by 5.26%",
+      "B": "appreciated against the euro by 5.00%",
+      "C": "depreciated against the euro by 5.26%"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> The price of one euro in francs fell, so it takes fewer francs to buy a euro: the franc has appreciated. To get the franc&rsquo;s change, put the franc as the base currency: EUR/CHF = 1/0.9600 = 1.0417 to 1/0.9120 = 1.0965, so +(0.9600 &divide; 0.9120 &minus; 1) = +5.26%.</p><p><b>B is incorrect.</b> 5.00% is the fall in the CHF/EUR quote (0.9120 &divide; 0.9600 &minus; 1 = &minus;5.00%). That is the euro&rsquo;s depreciation against the franc, not the franc&rsquo;s appreciation.</p><p><b>C is incorrect.</b> The direction is wrong: a lower CHF/EUR rate means the franc buys more euros, so the franc has appreciated, not depreciated.</p><p><b>BA II Plus:</b> 1/0.9120 &divide; (1/0.9600) &minus; 1 = +5.26%.</p>"
+    },
+    {
+     "id": "mbr1-72",
+     "topic": "econ",
+     "concept": "Monetary policy tools: money supply direction",
+     "difficulty": "medium",
+     "stem": "<p>The money supply most likely decreases when a central bank:</p>",
+     "options": {
+      "A": "lowers the policy rate",
+      "B": "raises the reserve requirement",
+      "C": "buys government bonds from banks"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> A lower policy rate makes borrowing cheaper and expands lending, which increases the money supply.</p><p><b>B is correct.</b> A higher reserve requirement forces banks to hold more reserves and lend less, so money creation falls.</p><p><b>C is incorrect.</b> Buying bonds from banks adds reserves to the banking system, increasing the money supply.</p>"
+    },
+    {
+     "id": "mbr1-73",
+     "topic": "fsa",
+     "concept": "Income tax expense vs taxes payable",
+     "difficulty": "medium",
+     "stem": "<p>Income tax expense reported on the income statement is most likely based on:</p>",
+     "options": {
+      "A": "taxable income",
+      "B": "EBIT",
+      "C": "accounting profit (income before income taxes)"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Taxable income is the basis for income tax payable (the amount owed to the tax authority), not the tax expense.</p><p><b>B is incorrect.</b> EBIT is before interest, which is deductible, so it is not the base for either tax expense or tax payable.</p><p><b>C is correct.</b> Income tax expense is based on accounting profit (pretax income) under the financial reporting rules, adjusted through deferred taxes. Taxes payable to the authorities are based on taxable income.</p>"
+    },
+    {
+     "id": "mbr1-75",
+     "topic": "fsa",
+     "concept": "Financial statement analysis framework steps",
+     "difficulty": "medium",
+     "stem": "<p>Which step of the financial statement analysis framework includes computing ratios and preparing common-size statements?</p>",
+     "options": {
+      "A": "Process data",
+      "B": "Develop and communicate conclusions and recommendations",
+      "C": "Articulate the purpose and context of the analysis"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> In the &ldquo;process data&rdquo; step the analyst adjusts the statements as needed and computes ratios and common-size statements. Interpretation of the results comes in the following step.</p><p><b>B is incorrect.</b> Conclusions and recommendations are developed and communicated after the data have been processed and analyzed.</p><p><b>C is incorrect.</b> Defining the purpose and context comes first and determines what data and ratios are needed. No computation takes place yet.</p>"
+    },
+    {
+     "id": "mbr1-83",
+     "topic": "fsa",
+     "concept": "Cash collected from customers",
+     "difficulty": "medium",
+     "stem": "<p>A company reports the following (in &euro; thousands): revenue 38,200; total expenses 31,000; net income 7,200. Accounts receivable were 6,900 at the start of the year and 9,400 at the end. The cash the company collected from customers is closest to:</p>",
+     "options": {
+      "A": "&euro;40,700 thousand",
+      "B": "&euro;35,700 thousand",
+      "C": "&euro;38,200 thousand"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This adds the increase in receivables to revenue (38,200 + 2,500 = 40,700), flipping the sign. Receivables rising means cash collected is <i>below</i> revenue.</p><p><b>B is correct.</b> Cash collected = Revenue &minus; Increase in accounts receivable = 38,200 &minus; (9,400 &minus; 6,900) = 35,700. A rise in receivables means some sales were not yet collected.</p><p><b>C is incorrect.</b> This equals revenue, ignoring the change in receivables altogether.</p>"
+    },
+    {
+     "id": "mbr1-86",
+     "topic": "econ",
+     "concept": "Ricardian equivalence",
+     "difficulty": "medium",
+     "stem": "<p>Under Ricardian equivalence, when a government cuts taxes and finances the shortfall by issuing debt, households most likely:</p>",
+     "options": {
+      "A": "increase consumption because their disposable income rises",
+      "B": "decrease saving because they expect lower taxes in the future",
+      "C": "increase saving to pay for the higher future taxes"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Spending the tax cut is the standard (non-Ricardian) response. Under Ricardian equivalence households see the cut as temporary and do not spend it.</p><p><b>B is incorrect.</b> Households expect higher, not lower, future taxes to repay the debt, so saving rises, not falls.</p><p><b>C is correct.</b> Ricardian equivalence: forward-looking households see the extra debt as future taxes, so they save the tax cut. Private saving rises by about the amount of the deficit, leaving aggregate demand unchanged.</p>"
+    },
+    {
+     "id": "mbr1-88",
+     "topic": "quant",
+     "concept": "Hypothesis testing: rejection point",
+     "difficulty": "medium",
+     "stem": "<p>In hypothesis testing, the critical value (rejection point) is determined by the:</p>",
+     "options": {
+      "A": "chosen level of significance and the distribution of the test statistic",
+      "B": "value of the test statistic calculated from the sample",
+      "C": "sample size and the sample mean only"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> The analyst chooses the level of significance (&alpha;) first, and the critical value follows from &alpha; and the distribution of the test statistic. The calculated test statistic is then compared with it to make the decision.</p><p><b>B is incorrect.</b> The calculated test statistic is what is compared with the critical value. It does not determine it.</p><p><b>C is incorrect.</b> The sample mean enters the test statistic, not the critical value. The critical value depends on &alpha; and the distribution (including degrees of freedom), not on the sample mean.</p>"
+    },
+    {
+     "id": "mbr1-90",
+     "topic": "ci",
+     "concept": "Network effects",
+     "difficulty": "medium",
+     "stem": "<p>A messaging app becomes more valuable to each user as more people join, but the app has no separate group of merchants or advertisers whose participation adds value. This business model is best described as:</p>",
+     "options": {
+      "A": "a multi-sided network",
+      "B": "a one-sided network",
+      "C": "crowdsourcing"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> A multi-sided network has distinct groups, such as buyers and sellers, that attract each other.</p><p><b>B is correct.</b> In a one-sided network the value comes from a single type of user who is valuable to other users of the same type.</p><p><b>C is incorrect.</b> Crowdsourcing has users contribute content or work to a product, which is not the same as user count raising value.</p>"
+    }
+   ]
+  },
+  {
+   "name": "Paper 2 twins",
+   "minutes": 48,
+   "questions": [
+    {
+     "id": "mbr2-1",
+     "topic": "fsa",
+     "concept": "Industry classification systems",
+     "difficulty": "easy",
+     "stem": "<p>A researcher needs an industry classification system that also covers private companies, non-profit organizations and government entities. Which system is the researcher most likely to use?</p>",
+     "options": {
+      "A": "The Global Industry Classification Standard (GICS)",
+      "B": "The Refinitiv Business Classification (TRBC)",
+      "C": "The Industry Classification Benchmark (ICB)"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> GICS covers publicly traded companies only.</p><p><b>B is correct.</b> TRBC classifies private companies, non-profits and government entities as well as public companies.</p><p><b>C is incorrect.</b> ICB also covers publicly traded companies only.</p>"
+    },
+    {
+     "id": "mbr2-11",
+     "topic": "pm",
+     "concept": "Portfolio variance with many assets",
+     "difficulty": "medium",
+     "stem": "<p>An analyst gathers the following information about an equally weighted portfolio of 250 assets: average variance of the asset returns = 0.09; average covariance between the asset returns = 0.02. The variance of the portfolio returns is closest to:</p>",
+     "options": {
+      "A": "0.09",
+      "B": "0.11",
+      "C": "0.02"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> 0.09 is the average variance of a single asset. Diversification across 250 assets removes almost all of it.</p><p><b>B is incorrect.</b> 0.11 is the sum of the average variance and the average covariance. Neither term is added in full.</p><p><b>C is correct.</b> Portfolio variance = (average variance &divide; n) + [(n &minus; 1) &divide; n] &times; average covariance = (0.09 &divide; 250) + (249 &divide; 250) &times; 0.02 = 0.00036 + 0.01992 = 0.02028 &asymp; 0.02. With many assets, individual variances are diversified away and the portfolio variance approaches the average covariance.</p><p><b>BA II Plus:</b> (0.09/250) + (249/250) &times; 0.02 = 0.02028.</p>"
+    },
+    {
+     "id": "mbr2-12",
+     "topic": "pm",
+     "concept": "Risk types: settlement risk",
+     "difficulty": "medium",
+     "stem": "<p>A bank wires its payment to a counterparty for a currency trade. Before the counterparty delivers its side, it is declared insolvent and the bank loses the amount it paid. This loss is best described as:</p>",
+     "options": {
+      "A": "settlement risk",
+      "B": "liquidity risk",
+      "C": "solvency risk"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Settlement risk is the risk of loss when one side of a transaction is settled (paid) and the other side fails to deliver because of default.</p><p><b>B is incorrect.</b> Liquidity risk is the risk of having to take a significant price concession to sell an asset. Nothing is being sold at a discount here.</p><p><b>C is incorrect.</b> Solvency risk is the risk that the bank&rsquo;s own organization runs out of cash and does not survive. Here the failure is at the counterparty and arises in the settlement of a trade.</p>"
+    },
+    {
+     "id": "mbr2-16",
+     "topic": "alts",
+     "concept": "High-water mark vs clawback",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following best describes a high-water mark in a hedge fund fee structure?</p>",
+     "options": {
+      "A": "A provision that allows investors to reclaim part of the incentive fees previously paid to the manager",
+      "B": "A provision that prevents the manager from charging an incentive fee until previous losses have been recovered, so clients do not pay twice for the same performance",
+      "C": "The minimum rate of return a fund must exceed before an incentive fee is earned"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This describes a clawback provision, which lets limited partners recover part of the general partner&rsquo;s performance fees.</p><p><b>B is correct.</b> A high-water mark is the highest net value reached at a fee crystallization date. The manager must recoup declines below it before an incentive fee is charged again on new profits.</p><p><b>C is incorrect.</b> This describes the hurdle rate (soft or hard), not a high-water mark.</p>"
+    },
+    {
+     "id": "mbr2-18",
+     "topic": "pm",
+     "concept": "IPS: unique circumstances (ESG)",
+     "difficulty": "easy",
+     "stem": "<p>A client instructs her adviser that, because of her personal values, the portfolio must not hold shares in tobacco producers. In the investment policy statement, this requirement is most appropriately specified in the:</p>",
+     "options": {
+      "A": "investment objectives section",
+      "B": "liquidity section",
+      "C": "unique circumstances section"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> The objectives section covers the client&rsquo;s return requirement and risk tolerance, not personal exclusions.</p><p><b>B is incorrect.</b> The liquidity section covers the client&rsquo;s cash withdrawal needs.</p><p><b>C is correct.</b> The unique circumstances section captures any other client circumstances, including beliefs, values and ESG-type exclusions, that materially affect portfolio composition.</p>"
+    },
+    {
+     "id": "mbr2-19",
+     "topic": "fi",
+     "concept": "Priority of claims: loss severity",
+     "difficulty": "medium",
+     "stem": "<p>In bankruptcy, if losses are assessed according to the priority of claims, which of the following debt categories is most likely to have the highest loss severity given default?</p>",
+     "options": {
+      "A": "Subordinated debt",
+      "B": "Senior unsecured debt",
+      "C": "Second lien debt"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Subordinated debt ranks below senior unsecured and secured debt, so it is paid last and suffers the highest loss severity.</p><p><b>B is incorrect.</b> Senior unsecured debt ranks ahead of subordinated debt, so its recovery is higher and loss severity lower.</p><p><b>C is incorrect.</b> Second lien debt is secured on pledged assets and ranks above both unsecured categories, so its loss severity is the lowest of the three.</p>"
+    },
+    {
+     "id": "mbr2-23",
+     "topic": "deriv",
+     "concept": "Forward payoff direction",
+     "difficulty": "medium",
+     "stem": "<p>A trader holds a short position in a forward contract to sell 1,000 barrels of oil at $80 per barrel. At expiration, the spot price is $86. The value of the position at expiration is:</p>",
+     "options": {
+      "A": "+$6,000",
+      "B": "&minus;$6,000",
+      "C": "$0"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This is the value of the <i>long</i> position, with the direction flipped.</p><p><b>B is correct.</b> The short forward&rsquo;s value at expiration = (Forward price &minus; Spot price) &times; quantity = (80 &minus; 86) &times; 1,000 = &minus;$6,000. The short must deliver at 80 something worth 86. (A long forward would be worth Spot &minus; Forward = +$6,000.)</p><p><b>C is incorrect.</b> The forward had zero value at initiation, but its value at expiration depends on the spot price, so it is not zero when spot differs from the forward price.</p>"
+    },
+    {
+     "id": "mbr2-26",
+     "topic": "pm",
+     "concept": "Behavioral finance: availability bias",
+     "difficulty": "medium",
+     "stem": "<p>A trader forecasts continued gains for stocks that have just rallied strongly because those rallies are recent and vivid in her memory, and she gives little weight to older data. This behavior most likely reflects:</p>",
+     "options": {
+      "A": "status quo bias",
+      "B": "anchoring and adjustment bias",
+      "C": "availability bias"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Status quo bias is a preference to do nothing and avoid change. It does not describe extrapolating a recent rally.</p><p><b>B is incorrect.</b> Anchoring and adjustment relies on an initial reference point and adjusts insufficiently. It is not about recalling recent events.</p><p><b>C is correct.</b> Availability bias is the tendency to base judgments on information that is easily recalled, typically recent and vivid. It helps explain the momentum anomaly.</p>"
+    },
+    {
+     "id": "mbr2-27",
+     "topic": "pm",
+     "concept": "Systematic vs diversifiable risk",
+     "difficulty": "easy",
+     "stem": "<p>An unexpected rise in national inflation that increases discount rates for all listed companies is best classified as:</p>",
+     "options": {
+      "A": "systematic risk",
+      "B": "diversifiable risk",
+      "C": "total risk"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Systematic risk affects the entire market and cannot be diversified away. A change in inflation or interest rates is a typical example.</p><p><b>B is incorrect.</b> Diversifiable (nonsystematic) risk is specific to a company or industry and can be removed by holding many assets. An economy-wide shock is not.</p><p><b>C is incorrect.</b> Total risk includes both systematic and nonsystematic components. The question asks which classification the shock belongs to, and total risk is not a type of risk factor.</p>"
+    },
+    {
+     "id": "mbr2-30",
+     "topic": "fi",
+     "concept": "Effective duration for bonds with embedded options",
+     "difficulty": "medium",
+     "stem": "<p>Which duration measure is most appropriate for a putable bond?</p>",
+     "options": {
+      "A": "Macaulay duration",
+      "B": "Effective duration",
+      "C": "Modified duration"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Macaulay duration is a yield-based measure that assumes fixed cash flows, which they are not for an option-embedded bond.</p><p><b>B is correct.</b> Effective duration measures sensitivity to a shift in the benchmark yield curve while allowing cash flows to change with rates, as they do with an embedded put or call option.</p><p><b>C is incorrect.</b> Modified duration also assumes fixed cash flows and is a yield duration statistic, so it does not apply.</p>"
+    },
+    {
+     "id": "mbr2-31",
+     "topic": "fi",
+     "concept": "Key rate duration",
+     "difficulty": "medium",
+     "stem": "<p>An analyst wants to estimate the price sensitivity of an option-free bond to a steepening of the benchmark yield curve, in which short-term rates fall and long-term rates rise. The most appropriate measure is:</p>",
+     "options": {
+      "A": "effective duration",
+      "B": "modified duration",
+      "C": "key rate duration"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Effective duration assumes a parallel shift in the benchmark curve, so it cannot capture a steepening.</p><p><b>B is incorrect.</b> Modified duration measures sensitivity to a change in the bond&rsquo;s own yield-to-maturity, not to changes in the shape of the curve.</p><p><b>C is correct.</b> Key rate durations (partial durations) measure sensitivity to changes at specific maturity points and capture shaping risk, that is, non-parallel shifts.</p>"
+    },
+    {
+     "id": "mbr2-32",
+     "topic": "fi",
+     "concept": "Yield spread drivers",
+     "difficulty": "medium",
+     "stem": "<p>For an option-free fixed-rate corporate bond, a change in the spread over the government benchmark yield is most likely to arise from a change in the:</p>",
+     "options": {
+      "A": "issuer&rsquo;s credit risk",
+      "B": "expected real rate of interest",
+      "C": "expected inflation rate"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> The spread compensates for credit risk and liquidity. A change in the issuer&rsquo;s credit quality moves the spread.</p><p><b>B is incorrect.</b> The expected real rate is a component of the benchmark yield, so it moves the benchmark, not the spread.</p><p><b>C is incorrect.</b> Expected inflation is also a component of the benchmark yield, not the spread.</p>"
+    },
+    {
+     "id": "mbr2-33",
+     "topic": "equity",
+     "concept": "Book value vs market value of equity",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following statements about the book value of a company&rsquo;s equity relative to its market value is most accurate? Book value:</p>",
+     "options": {
+      "A": "reflects investors&rsquo; expectations about the company&rsquo;s future cash flows",
+      "B": "reflects past operating and financing decisions and the accounting policies applied",
+      "C": "is more sensitive than market value to changes in investor sentiment"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This describes market value, not book value.</p><p><b>B is correct.</b> Book value is built from historical transactions and the accounting choices made by management. Market value adds investors&rsquo; expectations about future cash flows.</p><p><b>C is incorrect.</b> Market value, not book value, moves with investor sentiment and expectations.</p>"
+    },
+    {
+     "id": "mbr2-34",
+     "topic": "fi",
+     "concept": "Bond index structure",
+     "difficulty": "easy",
+     "stem": "<p>A broad investment-grade bond index is most likely further divided into sub-indexes by:</p>",
+     "options": {
+      "A": "maturity only",
+      "B": "credit rating only",
+      "C": "both maturity and credit rating"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Maturity is one dimension, but the index is also split by credit rating.</p><p><b>B is incorrect.</b> Credit rating is one dimension, but the index is also split by maturity.</p><p><b>C is correct.</b> Investment-grade indexes are typically subdivided by maturity (short, intermediate, long) and by credit rating (AAA, AA, A, BBB).</p>"
+    },
+    {
+     "id": "mbr2-37",
+     "topic": "fi",
+     "concept": "Yield spread decomposition (duration)",
+     "difficulty": "hard",
+     "stem": "<p>The price of a fixed-rate corporate bond with an annual modified duration of 6.40 rises from 96 to 100 per 100 of par. If the government benchmark yield decreases by 8 bps over the same period, the estimated decline in the spread over the benchmark is closest to:</p>",
+     "options": {
+      "A": "57 bps",
+      "B": "73 bps",
+      "C": "65 bps"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> %&Delta;Price &asymp; &minus;ModDur &times; &Delta;Yield, so &Delta;YTM = &minus;(100 &minus; 96) &divide; 96 &divide; 6.40 = &minus;65.1 bps. YTM = benchmark yield + spread. YTM fell 65.1 bps of which 8 bps came from the benchmark, so the spread fell by 65.1 &minus; 8 = 57.1 &asymp; 57 bps.</p><p><b>B is incorrect.</b> This adds the benchmark move (65.1 + 8) instead of subtracting it. Because the benchmark itself fell, it explains part of the YTM decline, leaving less for the spread.</p><p><b>C is incorrect.</b> This is the total decline in YTM (65.1 bps) and ignores the contribution of the benchmark yield change.</p><p><b>BA II Plus:</b> (100 &minus; 96) &divide; 96 = 0.041667; &divide; 6.40 = 0.006510 = 65.1 bps; 65.1 &minus; 8 = 57.1.</p>"
+    },
+    {
+     "id": "mbr2-38",
+     "topic": "pm",
+     "concept": "Capital allocation line",
+     "difficulty": "medium",
+     "stem": "<p>An optimal risky portfolio has an expected return of 11% and a standard deviation of 14%. The risk-free rate is 3%. An investor who wants an expected return of 15% on the capital allocation line would most likely:</p>",
+     "options": {
+      "A": "lend 50% of her wealth at the risk-free rate and invest 50% in the optimal risky portfolio",
+      "B": "borrow 50% of her wealth at the risk-free rate and invest 150% in the optimal risky portfolio",
+      "C": "invest 100% of her wealth in the optimal risky portfolio"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Lending 50% and holding 50% gives 3% + 0.5 &times; 8% = 7%, a conservative portfolio to the left of the optimal portfolio.</p><p><b>B is correct.</b> Expected return = r<sub>f</sub> + w &times; (E(R<sub>p</sub>) &minus; r<sub>f</sub>), so 15% = 3% + w &times; 8%, giving w = 1.5. The investor must hold 150% in the risky portfolio, financed by borrowing 50% at the risk-free rate. Targets above the risky portfolio&rsquo;s return require leverage.</p><p><b>C is incorrect.</b> A 100% investment earns only 11%, which is below the 15% target.</p>"
+    },
+    {
+     "id": "mbr2-42",
+     "topic": "fi",
+     "concept": "Securitization: parties",
+     "difficulty": "medium",
+     "stem": "<p>In a securitization, the legally separate entity that purchases the pool of assets and issues the securities to investors is the:</p>",
+     "options": {
+      "A": "depositor",
+      "B": "servicer",
+      "C": "special purpose entity"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> The depositor (originator) is the seller of the assets to the SPE, not the issuer.</p><p><b>B is incorrect.</b> The servicer collects payments on the loans and passes them on. It neither sells the assets nor issues the securities.</p><p><b>C is correct.</b> The special purpose entity (SPE, or SPV) is the issuer: it buys the collateral from the seller and issues the ABS.</p>"
+    },
+    {
+     "id": "mbr2-43",
+     "topic": "deriv",
+     "concept": "Payoff direction of derivative positions",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following positions gains if the price of the underlying increases?</p>",
+     "options": {
+      "A": "Both a long forward position and a short put option position",
+      "B": "A long forward position only",
+      "C": "A short put option position only"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> A long forward gains as the underlying rises. A short put profits when the underlying rises, because the put is less likely to be exercised and the premium is kept.</p><p><b>B is incorrect.</b> A short put also gains as the underlying rises, so &ldquo;long forward only&rdquo; is incomplete.</p><p><b>C is incorrect.</b> A long forward also gains, so &ldquo;short put only&rdquo; is incomplete.</p>"
+    },
+    {
+     "id": "mbr2-45",
+     "topic": "fi",
+     "concept": "Duration and convexity price change",
+     "difficulty": "hard",
+     "stem": "<p>A bond has an annual modified duration of 4.10, an annual convexity of 31.5 and currently yields 3.8%. If its yield-to-maturity falls to 3.2%, the expected percentage price change is closest to:</p>",
+     "options": {
+      "A": "+2.57%",
+      "B": "+2.52%",
+      "C": "-2.40%"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This omits the &frac12; on the convexity term: 0.02460 + 31.5 &times; 0.006<sup>2</sup> = +2.57%.</p><p><b>B is correct.</b> %&Delta;Price &asymp; (&minus;ModDur &times; &Delta;Yield) + [&frac12; &times; Convexity &times; (&Delta;Yield)<sup>2</sup>]. With &Delta;Yield = &minus;0.006: (&minus;4.10 &times; &minus;0.006) + &frac12; &times; 31.5 &times; 0.006<sup>2</sup> = 0.02460 + 0.000567 = +2.52%. A fall in yield raises the price, and convexity adds a positive amount.</p><p><b>C is incorrect.</b> This uses the wrong sign on the duration term (+4.10 &times; &minus;0.006 = &minus;2.46%) and so shows a price fall when yields fall: -2.40%.</p><p><b>BA II Plus:</b> &minus;4.10 &times; &minus;0.006 = 0.0246; 0.5 &times; 31.5 &times; 0.006<sup>2</sup> = 0.000567; total = 2.52%.</p>"
+    },
+    {
+     "id": "mbr2-48",
+     "topic": "fi",
+     "concept": "Prime vs subprime mortgages",
+     "difficulty": "medium",
+     "stem": "<p>An analyst gathers the following information about three mortgage loans:<table><tr><th>Loan</th><th>Loan-to-value</th><th>Lien position</th></tr><tr><td>1</td><td>92%</td><td>First</td></tr><tr><td>2</td><td>55%</td><td>Second</td></tr><tr><td>3</td><td>58%</td><td>First</td></tr></table>All else equal, the loan most likely to be classified as prime is:</p>",
+     "options": {
+      "A": "Loan 1",
+      "B": "Loan 2",
+      "C": "Loan 3"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Loan 1 has a first lien but a very high LTV (little borrower equity), which is typical of subprime lending.</p><p><b>B is incorrect.</b> Loan 2 has a low LTV but only a second lien, so it ranks behind another lender and is not a prime loan.</p><p><b>C is correct.</b> Prime loans go to borrowers with strong credit and substantial equity in the property: a low LTV and a first lien on the collateral. Loan 3 has both.</p>"
+    },
+    {
+     "id": "mbr2-49",
+     "topic": "alts",
+     "concept": "Public vs private equity",
+     "difficulty": "medium",
+     "stem": "<p>Compared with a listed company, a privately held company is most likely to:</p>",
+     "options": {
+      "A": "face less pressure from short-term earnings expectations",
+      "B": "have a larger pool of potential investors",
+      "C": "face greater disclosure requirements on executive pay"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Private owners are not subject to quarterly earnings expectations from analysts and can focus on long-term value creation.</p><p><b>B is incorrect.</b> Public equity markets are much larger and access more investors than private markets.</p><p><b>C is incorrect.</b> Public scrutiny and listing rules impose the greater disclosure requirements and incentives for open governance.</p>"
+    },
+    {
+     "id": "mbr2-51",
+     "topic": "equity",
+     "concept": "Market efficiency: reaction to expected vs unexpected news",
+     "difficulty": "medium",
+     "stem": "<p>Analysts&rsquo; consensus forecast for a company&rsquo;s earnings growth is 8%, and the market price already reflects it. The company announces growth of exactly 8%. In a semi-strong-form efficient market, the share price at the announcement will most likely:</p>",
+     "options": {
+      "A": "rise, because 8% growth is strong",
+      "B": "show no significant change",
+      "C": "fall, because growth is slower than the previous year"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Strong growth was already expected and priced, so nothing new is learned.</p><p><b>B is correct.</b> In an efficient market, prices already reflect expected information. Only the unexpected (surprise) part of an announcement moves price. Here the surprise is zero.</p><p><b>C is incorrect.</b> Growth being lower than a previous year is also known and priced. Only a deviation from the expectation moves the price.</p>"
+    },
+    {
+     "id": "mbr2-55",
+     "topic": "fsa",
+     "concept": "Fair value hierarchy",
+     "difficulty": "medium",
+     "stem": "<p>Under US GAAP, a fund values an over-the-counter corporate bond using indicative quotes from independent dealers because no exchange price is available. The bond is most appropriately categorized as a:</p>",
+     "options": {
+      "A": "Level 1 asset",
+      "B": "Level 3 asset",
+      "C": "Level 2 asset"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Level 1 requires an unadjusted quoted price in an active market for the identical asset, which is not available here.</p><p><b>B is incorrect.</b> Level 3 uses unobservable inputs and internal models. Reliable independent dealer quotes are observable inputs, so Level 3 is not needed.</p><p><b>C is correct.</b> Level 2 inputs are observable inputs other than quoted prices for identical assets in active markets, such as dealer quotes and prices of similar assets. Level 3 is used only when valuation relies on internal models with unobservable inputs.</p>"
+    },
+    {
+     "id": "mbr2-59",
+     "topic": "pm",
+     "concept": "Pooled investments: closed-end funds",
+     "difficulty": "easy",
+     "stem": "<p>An investor notices that shares of a pooled fund trade at an 8% discount to the fund&rsquo;s net asset value per share. The fund is most likely a(n):</p>",
+     "options": {
+      "A": "closed-end fund",
+      "B": "open-end mutual fund",
+      "C": "exchange-traded fund"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> A closed-end fund has a fixed number of shares that trade in the market, so price can differ from NAV, at a premium or discount, depending on supply and demand.</p><p><b>B is incorrect.</b> Open-end funds issue and redeem shares at NAV, so there is no discount.</p><p><b>C is incorrect.</b> Arbitrage by authorized participants keeps an ETF&rsquo;s price close to NAV.</p>"
+    },
+    {
+     "id": "mbr2-60",
+     "topic": "deriv",
+     "concept": "Forward vs futures price (correlation with interest rates)",
+     "difficulty": "hard",
+     "stem": "<p>If futures prices are negatively correlated with interest rates, the futures price is most likely:</p>",
+     "options": {
+      "A": "higher than the forward price",
+      "B": "lower than the forward price",
+      "C": "equal to the forward price"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Higher is the result when futures prices are positively correlated with rates, the reverse of this case.</p><p><b>B is correct.</b> With negative correlation, gains on a long futures position (when prices rise) come when rates are low and can only be reinvested cheaply, while losses (when prices fall) are financed at high rates. The long finds futures less attractive than a forward, so the futures price is lower than the forward price. (With positive correlation the opposite holds.)</p><p><b>C is incorrect.</b> Futures and forwards are equal only when interest rates are constant or uncorrelated with futures prices.</p>"
+    },
+    {
+     "id": "mbr2-62",
+     "topic": "equity",
+     "concept": "Valuation models and required return",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following valuation approaches does not require estimating the required return on equity?</p>",
+     "options": {
+      "A": "A free-cash-flow-to-equity model",
+      "B": "A residual income model",
+      "C": "A price-to-earnings multiple valuation using comparable companies"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> The FCFE model discounts expected FCFE at the required return on equity.</p><p><b>B is incorrect.</b> The residual income model deducts an equity charge based on the required return on equity from earnings.</p><p><b>C is correct.</b> Price multiples compare a share&rsquo;s price with earnings, sales or similar measures. They involve no discounting and no estimate of required return.</p>"
+    },
+    {
+     "id": "mbr2-63",
+     "topic": "alts",
+     "concept": "Distressed debt: DIP financing",
+     "difficulty": "medium",
+     "stem": "<p>A company has filed for bankruptcy protection and needs funds to keep operating during the reorganization. The loan it obtains, which ranks ahead of existing creditors, is best described as:</p>",
+     "options": {
+      "A": "debtor-in-possession financing",
+      "B": "mezzanine financing",
+      "C": "venture capital financing"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> Debtor-in-possession (DIP) financing supplies operating funds to a firm that is already in bankruptcy proceedings.</p><p><b>B is incorrect.</b> Mezzanine financing is subordinated debt or preferred equity used by going concerns (e.g., LBOs), not a post-filing loan.</p><p><b>C is incorrect.</b> Venture capital financing is equity for young companies. It is not bankruptcy financing.</p>"
+    },
+    {
+     "id": "mbr2-66",
+     "topic": "equity",
+     "concept": "Margin call price",
+     "difficulty": "hard",
+     "stem": "<p>An investor buys a share for CHF 62, posting 45% of the purchase price as equity. Assuming no other activity, if the maintenance margin is 30%, the price below which a margin call first occurs is closest to:</p>",
+     "options": {
+      "A": "CHF 34.10",
+      "B": "CHF 48.71",
+      "C": "CHF 39.86"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> This stops at the loan amount, 62 &times; (1 &minus; 0.45) = 34.10, and does not divide by (1 &minus; maintenance margin).</p><p><b>B is correct.</b> Margin call price = Initial price &times; (1 &minus; Initial margin) &divide; (1 &minus; Maintenance margin) = 62 &times; 0.55 &divide; 0.70 = CHF 48.71. The loan (55% of the price) is fixed, and the call occurs when equity falls to 30% of the market value.</p><p><b>C is incorrect.</b> This uses the initial margin (0.45) instead of the loan portion (0.55): 62 &times; 0.45 &divide; 0.70 = 39.86.</p><p><b>BA II Plus:</b> 62 &times; 0.55 = 34.10; &divide; 0.70 = 48.71.</p>"
+    },
+    {
+     "id": "mbr2-68",
+     "topic": "alts",
+     "concept": "Hard vs soft commodities",
+     "difficulty": "easy",
+     "stem": "<p>Which of the following is best categorized as a hard commodity?</p>",
+     "options": {
+      "A": "Cotton",
+      "B": "Timber",
+      "C": "Copper"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Cotton is a grown crop and so a soft commodity.</p><p><b>B is incorrect.</b> Timber is grown over time, so it is a soft commodity.</p><p><b>C is correct.</b> Hard commodities are mined or extracted (metals, energy). Copper is mined.</p>"
+    },
+    {
+     "id": "mbr2-70",
+     "topic": "deriv",
+     "concept": "Option value sensitivities",
+     "difficulty": "medium",
+     "stem": "<p>The value of a European put option is inversely related to which of the following factors?</p>",
+     "options": {
+      "A": "Value of the underlying",
+      "B": "Exercise price",
+      "C": "Volatility of the underlying"
+     },
+     "answer": "A",
+     "explanation": "<p><b>A is correct.</b> A put gains when the underlying falls, so its value moves in the opposite direction to the underlying&rsquo;s price.</p><p><b>B is incorrect.</b> A higher exercise price raises the put&rsquo;s payoff (X &minus; S), so put value is directly related to the exercise price.</p><p><b>C is incorrect.</b> Higher volatility raises the value of both puts and calls.</p>"
+    },
+    {
+     "id": "mbr2-75",
+     "topic": "equity",
+     "concept": "Market efficiency forms: event studies",
+     "difficulty": "medium",
+     "stem": "<p>An analyst studies how share prices react in the days around earnings announcements to test whether prices adjust immediately to newly released public information. The analyst is most likely assessing whether markets are:</p>",
+     "options": {
+      "A": "weak-form efficient",
+      "B": "semi-strong-form efficient",
+      "C": "strong-form efficient"
+     },
+     "answer": "B",
+     "explanation": "<p><b>A is incorrect.</b> Weak-form tests look at patterns in past prices, for example serial correlation or technical trading rules.</p><p><b>B is correct.</b> Event studies of reactions to public announcements test semi-strong-form efficiency: whether prices reflect all publicly available information.</p><p><b>C is incorrect.</b> Strong-form tests ask whether anyone, including insiders, can earn abnormal profits using private information.</p>"
+    },
+    {
+     "id": "mbr2-86",
+     "topic": "fi",
+     "concept": "Credit enhancement in securitization",
+     "difficulty": "medium",
+     "stem": "<p>Which of the following securities is least likely to need credit enhancement such as subordination?</p>",
+     "options": {
+      "A": "Non-agency residential mortgage-backed security",
+      "B": "Credit card receivables-backed security",
+      "C": "Agency mortgage pass-through security"
+     },
+     "answer": "C",
+     "explanation": "<p><b>A is incorrect.</b> Non-agency RMBS have no guarantee and normally rely on credit tranching and subordination.</p><p><b>B is incorrect.</b> Credit card ABS typically combine several enhancements, including subordination of junior tranches.</p><p><b>C is correct.</b> Agency RMBS carry a guarantee of timely payment of interest and principal from a government agency or GSE, so they do not need internal credit enhancement.</p>"
+    }
+   ]
+  }
+ ]
+}
