@@ -41,11 +41,14 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 <h2>Quant</h2>
 <div class="grid"><ul>
 <li>Sample σ² ÷ (n − 1). CV = σ / mean.</li>
+<li><b>Target downside deviation = √[Σ(R − Target)² for R ≤ Target ÷ (n − 1)]</b> — only returns at/below target on top, n counts ALL; measure from the target, not the mean.</li>
+<li><b>MWR = IRR</b> of your cash flows (money in −, money out / ending value +). TWR = chain (1 + r) then root. Big money in the weak year → MWR &lt; TWR.</li>
+<li>N = year cash arrives − year you stand at. Annuity PV lands <b>one period before</b> the first payment. GM² = AM × HM.</li>
 <li>Cov = ρ σ<sub>A</sub> σ<sub>B</sub> · ρ = Cov / (σ<sub>A</sub>σ<sub>B</sub>).</li>
 <li>Cov from a probability table: Σ P × (A − E(A))(B − E(B)) = E(AB) − E(A)E(B). Weight, don't divide.</li>
 <li>Correlation t = r√(n − 2) / √(1 − r²).</li>
-<li><b>χ² = (n − 1)s² / σ<sub>0</sub>²</b> — square BOTH, use n − 1.</li>
-<li>Two variances → <b>F = s<sub>1</sub>² / s<sub>2</sub>²</b> (bigger on top). Means → t.</li>
+<li><b>χ² = (n − 1)σ² / σ<sub>0</sub>²</b> — square BOTH, use n − 1.</li>
+<li>Two variances → <b>F = σ<sub>1</sub>² / σ<sub>2</sub>²</b> (bigger on top). Means → t.</li>
 <li>Independence table df = (r − 1)(c − 1).</li>
 <li>Type I = reject a true H<sub>0</sub> (α). Type II = keep a false H<sub>0</sub>. Power = 1 − β.</li>
 </ul><ul>
@@ -67,6 +70,9 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 </ul><ul>
 <li>Cycle: Recovery → Expansion → Slowdown → Contraction. Overtime before hiring = <b>recovery</b>; cut overtime then layoffs = contraction.</li>
 <li>~2% target, not 0% → buffer against deflation / zero rates.</li>
+<li>Many firms + brands = <b>monopolistic competition</b> (low barriers). Few + high barriers = <b>oligopoly</b>. Price leader prices off its <b>own</b> demand.</li>
+<li>Automatic stabilisers = taxes + transfer payments (no vote). Spending / capex = discretionary. Central bank <b>buys</b> bonds → money supply ↑.</li>
+<li>Quote rises = base currency (the "1") up. For the other currency flip: old ÷ new − 1. Peg = imports the anchor's inflation.</li>
 </ul></div>
 
 <h2>FSA</h2>
@@ -82,7 +88,10 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 <li>Rising prices, FIFO ("Fat Slow Taxpayer"): higher inventory, NI, equity, taxes; lower COGS, lower D/E, lower CFO.</li>
 <li>LIFO → FIFO: inventory + reserve; COGS − Δreserve.</li>
 <li>Impairment reversal: IFRS yes (not goodwill); US GAAP held for use <b>never</b>, held for sale <b>yes</b>.</li>
-<li>Leases: everyone 2 lines (amortisation + interest) except <b>US GAAP operating = 1 line</b>.</li>
+<li>Leases: balance sheet always <b>PV</b> (discounted). Everyone 2 lines (amortisation + interest), cash split CFF/CFO, except <b>US GAAP operating = 1 straight-line line, whole payment CFO</b>.</li>
+<li>DuPont traps: <b>pretax margin = interest burden × EBIT margin</b> (never use both); net margin already holds both burdens; leverage = 1 + D/E.</li>
+<li><b>OCI = FX translation · FVOCI · cash flow hedge (effective) · pension remeasurement · revaluation surplus.</b> Anything else → P&amp;L.</li>
+<li>Goodwill = price − FV of net identifiable assets; negative = bargain gain in <b>P&amp;L</b>. Bought patent = CFI; built = CFO. AR ↓ = more cash collected.</li>
 <li>Gain on sale: subtract in CFO (indirect); proceeds in CFI.</li>
 <li>US GAAP: interest paid/received + dividends received = CFO; dividends paid = CFF.</li>
 </ul></div>
@@ -93,6 +102,8 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 <li>Mutually exclusive → pick the higher <b>NPV</b>. Never "both", never highest IRR.</li>
 <li>Perpetuity IRR = CF / cost. Sunk costs out; cannibalisation in.</li>
 <li>Real options: timing · sizing (abandon / expand) · flexibility · fundamental.</li>
+<li>Capital allocation: idea → analysis → planning → post-audit. NPV, not EPS / ROE; opportunity costs in; expect competitor responses.</li>
+<li>Nominating committee = who sits on the board; audit = the numbers + auditor. MM no tax: more debt → cost of equity ↑, WACC flat.</li>
 </ul><ul>
 <li>MM no tax: WACC flat · MM tax: WACC falls, 100% debt · trade-off: U-shape. Pecking order: own cash → debt → equity.</li>
 <li>Liquidity: credit lines + trade credit = <b>primary</b>; selling assets / renegotiating / bankruptcy = secondary.</li>
