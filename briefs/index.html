@@ -41,6 +41,9 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 
 <h2>Quant</h2>
 <div class="grid"><ul>
+<li><b>Binomial P(x) = nCx × p<sup>x</sup> × (1 − p)<sup>n − x</sup></b>; mean np, σ² = np(1 − p). Powers first on the bare number, × nCr last. Combination = committee, permutation = podium.</li>
+<li><b>z = (X − μ) ÷ σ</b>; critical z 90% 1.645, 95% 1.96, 99% 2.58. Joint P(A and B) = P(A|B) × P(B); P(A or B) = P(A) + P(B) − joint; total probability P(A) = Σ P(A|B<sub>i</sub>) × P(B<sub>i</sub>). Portfolio E(R) = Σ w × E(R) (not CAPM).</li>
+<li>Regression: <b>slope b<sub>1</sub> = Cov ÷ σ²<sub>X</sub>, intercept b<sub>0</sub> = Ȳ − b<sub>1</sub>X̄</b>. SEE = √[SSE ÷ (n − k − 1)]. χ² contingency df = (rows − 1)(columns − 1).</li>
 <li>Sample σ² ÷ (n − 1). CV = σ / mean.</li>
 <li><b>Target downside deviation = √[Σ(R − Target)² for R ≤ Target ÷ (n − 1)]</b> — only returns at/below target on top, n counts ALL; measure from the target, not the mean.</li>
 <li><b>MWR = IRR</b> of your cash flows (money in −, money out / ending value +). TWR = chain (1 + r) then root. Big money in the weak year → MWR &lt; TWR.</li>
@@ -63,6 +66,8 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 
 <h2>Economics</h2>
 <div class="grid"><ul>
+<li>Elasticity: price %ΔQ ÷ %ΔP (|E| &gt; 1 elastic); income %ΔQ ÷ %Δincome (+ normal, − inferior); cross %ΔQ<sub>A</sub> ÷ %ΔP<sub>B</sub> (<b>+ swap, − pair</b>).</li>
+<li>GDP deflator = nominal ÷ real × 100; CPI = basket now ÷ basket base × 100; money multiplier = 1 ÷ reserve requirement; MV = PY. <b>FX forward = spot × (1 + i<sub>price</sub>) ÷ (1 + i<sub>base</sub>)</b> — not the bond f(1,1).</li>
 <li>Cross rate: common currency in the <b>same</b> spot → divide; opposite spots → multiply.</li>
 <li>Forward: F = S × (1 + i<sub>price</sub>) / (1 + i<sub>base</sub>).</li>
 <li>Base currency = the "1" (after the slash in A/B).</li>
@@ -78,6 +83,8 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 
 <h2>FSA</h2>
 <div class="grid"><ul>
+<li><b>Tax expense = taxes payable + ΔDTL − ΔDTA</b>. FIFO inventory = LIFO + reserve; <b>FIFO COGS = LIFO COGS − Δreserve</b> (reserve for the shelf, change for the sale). Goodwill uses <b>fair value</b>; NRV = inventory only (price − completion − selling costs).</li>
+<li>Effective interest: expense = opening carrying value × market rate. Interest cover = EBIT ÷ interest; fixed charge cover = (EBIT + lease) ÷ (interest + lease). Quick = (cash + securities + receivables) ÷ CL. DOH = 365 ÷ inventory turnover.</li>
 <li><b>FCFF = CFO + Int(1 − t) − FCInv</b> (give interest back).</li>
 <li><b>FCFE = CFO − FCInv + net borrowing.</b> CFO already holds non-cash + WC.</li>
 <li>Diluted EPS: + convertible pref divs, + bond interest × (1 − t); TSM shares = n(P − X)/P; skip if antidilutive.</li>
@@ -99,6 +106,7 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 
 <h2>Corporate Issuers</h2>
 <div class="grid"><ul>
+<li>DOL = %ΔEBIT ÷ %Δsales; DFL = EBIT ÷ (EBIT − interest); DTL = DOL × DFL. PI = PV inflows ÷ outlay = 1 + NPV ÷ outlay. Trade credit cost = (1 + d/(1 − d))<sup>365/days past discount</sup> − 1.</li>
 <li>WACC = w<sub>d</sub>r<sub>d</sub>(1 − t) + w<sub>p</sub>r<sub>p</sub> + w<sub>e</sub>r<sub>e</sub> (marginal tax rate).</li>
 <li>Mutually exclusive → pick the higher <b>NPV</b>. Never "both", never highest IRR.</li>
 <li>Perpetuity IRR = CF / cost. Sunk costs out; cannibalisation in.</li>
@@ -122,6 +130,7 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 
 <h2>Portfolio management</h2>
 <div class="grid"><ul>
+<li>Nominal = (1 + real)(1 + inflation) − 1. Sharpe ÷ σ, Treynor ÷ β. <b>CML = R<sub>f</sub> + σ<sub>p</sub>(R<sub>m</sub> − R<sub>f</sub>) ÷ σ<sub>m</sub></b> — premium is always R<sub>m</sub> − R<sub>f</sub>.</li>
 <li><b>U = E(R) − ½Aσ²</b> (decimals). Risk-free σ = 0 → U = r<sub>f</sub>.</li>
 <li>Sharpe = (R<sub>p</sub> − R<sub>f</sub>)/<b>σ<sub>p</sub></b> · Treynor = (R<sub>p</sub> − R<sub>f</sub>)/<b>β<sub>p</sub></b>.</li>
 <li><b>Many equal-weight assets: σ²<sub>p</sub> = (1/n) × avg σ² + [(n − 1)/n] × avg Cov</b> → large n ≈ <b>average covariance</b> (own variance diversifies away).</li>
@@ -139,6 +148,7 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 
 <h2>Equity</h2>
 <div class="grid"><ul>
+<li>Margin return = (ending equity − initial equity) ÷ initial equity (add dividends, subtract loan interest). MV-weighted index = current MV ÷ base MV × base value.</li>
 <li>Gordon V<sub>0</sub> = <b>D<sub>1</sub></b>/(r − g); D<sub>1</sub> = D<sub>0</sub>(1 + g). Beta given → r from CAPM first.</li>
 <li><b>Justified forward P/E = payout/(r − g).</b> Retention given → payout = 1 − retention.</li>
 <li><b>EV = market cap + debt + preferred − cash</b>; EV/EBITDA. Buy the shares, take on the debts, pocket the cash.</li>
@@ -154,6 +164,7 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 
 <h2>Fixed income</h2>
 <div class="grid"><ul>
+<li><b>BEY from DR = 365/days × (FV − PV) ÷ PV</b> (PV on the bottom). FRN: solve periodic I/Y, × m, − MRR = DM. Current yield = annual coupon ÷ flat price. Flat = full − AI. Portfolio duration = MV-weighted average.</li>
 <li>Accrued = coupon × t/T (30/360: annual T = 360, semi T = 180).</li>
 <li>ModDur = MacDur/(1 + y/m). Periods → ÷ m to annualise.</li>
 <li>Money duration = ModDur × <b>full</b> price (× position). PVBP = MoneyDur × <b>0.0001</b>.</li>
@@ -177,6 +188,7 @@ b{font-weight:650}code{font-family:ui-monospace,Menlo,monospace;font-size:13px}
 
 <h2>Derivatives</h2>
 <div class="grid"><ul>
+<li><b>Forward with carry = [S + PV(costs) − PV(benefits)] × (1 + R<sub>f</sub>)<sup>T</sup></b> — forward = future = multiply. "PV of" given → plug in as is. π = (1 + R<sub>f</sub> − d) ÷ (u − d).</li>
 <li>FRA: borrower <b>long</b>, lender <b>short</b>. 6×12 = starts month 6, ends month 12 (6-month rate).</li>
 <li>Odd size or odd date → forward, not futures.</li>
 <li><b>C − P = S − PV(X).</b> Stock + short forward = risk-free bond; bills + long forward = equity.</li>
